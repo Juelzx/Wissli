@@ -10,7 +10,8 @@ kotlin = "2.4.20"
 composeBom = "2026.02.01"
 ksp = "2.3.12"
 koinBom = "4.1.1"
-room = "2.8.5"
+room = "3.0.3"
+sqlite = "2.7.1"
 navigationCompose = "2.10.1"
 coroutines = "1.11.0"
 turbine = "1.2.1"
@@ -46,10 +47,11 @@ koin-bom = { group = "io.insert-koin", name = "koin-bom", version.ref = "koinBom
 koin-android = { group = "io.insert-koin", name = "koin-android" }
 koin-androidx-compose = { group = "io.insert-koin", name = "koin-androidx-compose" }
 
-# Local persistence
-androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
-androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
-androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+# Local persistence (Room 3.0 — Kotlin-/KMP-first, siehe CLAUDE.md; kein room-ktx mehr nötig,
+# dessen APIs sind in room3-runtime aufgegangen)
+androidx-room-runtime = { group = "androidx.room3", name = "room3-runtime", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room3", name = "room3-compiler", version.ref = "room" }
+androidx-sqlite-bundled = { group = "androidx.sqlite", name = "sqlite-bundled", version.ref = "sqlite" }
 
 # Coroutines
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }

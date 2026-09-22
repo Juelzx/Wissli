@@ -96,9 +96,10 @@ dependencies {
     implementation(libs.koin.android)
     implementation(libs.koin.androidx.compose)
 
-    // Lokale Persistenz
+    // Lokale Persistenz (Room 3.0, siehe CLAUDE.md — expliziter SQLiteDriver ist Pflicht,
+    // sqlite-bundled statt sqlite-framework für spätere KMP-Portierbarkeit)
     implementation(libs.androidx.room.runtime)
-    implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.sqlite.bundled)
     ksp(libs.androidx.room.compiler)
 
     // Coroutines

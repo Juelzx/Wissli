@@ -58,6 +58,18 @@ bewusste Entscheidung für Koin statt Hilt als DI-Framework (kein Codegen/KSP n�
 einfachere Modul-Definition per Kotlin-DSL). SQLDelight nur statt Room, wenn dafür ein
 konkreter, im PR/Commit begründeter Grund vorliegt.
 
+**Room 3.0** (`androidx.room3`, seit 07/2026 stabil; Room 2.x nur noch Maintenance-Modus) statt
+Room 2.x, obwohl noch keine Entities/DAOs existieren — bewusst früh gewechselt, um eine spätere
+Migration zu vermeiden. Wichtige Breaking Changes ggü. Room 2.x, die beim ersten Anlegen von
+Entities/DAOs/Database zu beachten sind:
+- Nur noch KSP, kein KAPT/Java-Codegen (KSP ist bereits eingerichtet).
+- DAO-Funktionen müssen `suspend` sein (außer beobachtbare Rückgabetypen wie `Flow`).
+- `Room.databaseBuilder(...)` braucht zwingend `.setDriver(BundledSQLiteDriver())`
+  (`androidx.sqlite:sqlite-bundled`) — bewusst der bundled statt der Android-Framework-Treiber,
+  passend zum Portierbarkeits-Anspruch oben (siehe "Scope").
+- Package-Imports sind `androidx.room3.*` statt `androidx.room.*`; `@TypeConverter` heißt jetzt
+  `@ColumnTypeConverter`.
+
 ## Architektur
 
 ```
