@@ -20,36 +20,43 @@ class FirebaseAuthRepository(
     private val firebaseAuth: FirebaseAuth,
     private val firestore: FirebaseFirestore,
 ) : AuthRepository {
-
-    override fun observeCurrentUser(): Flow<User?> = callbackFlow {
-        // AuthStateListener ist ein plainer SAM-Callback, kein CoroutineScope selbst — deshalb den
-        // ProducerScope von callbackFlow (this) explizit einfangen, um darin launch() zu nutzen.
-        val producerScope = this
-        val listener = FirebaseAuth.AuthStateListener { auth ->
-            val firebaseUser = auth.currentUser
-            if (firebaseUser == null) {
-                trySend(null)
-            } else {
-                producerScope.launch { trySend(fetchUserDocument(firebaseUser.uid)) }
-            }
+    override fun observeCurrentUser(): Flow<User?> =
+        callbackFlow {
+            // AuthStateListener ist ein plainer SAM-Callback, kein CoroutineScope selbst — deshalb den
+            // ProducerScope von callbackFlow (this) explizit einfangen, um darin launch() zu nutzen.
+            val producerScope = this
+            val listener =
+                FirebaseAuth.AuthStateListener { auth ->
+                    val firebaseUser = auth.currentUser
+                    if (firebaseUser == null) {
+                        trySend(null)
+                    } else {
+                        producerScope.launch { trySend(fetchUserDocument(firebaseUser.uid)) }
+                    }
+                }
+            firebaseAuth.addAuthStateListener(listener)
+            awaitClose { firebaseAuth.removeAuthStateListener(listener) }
         }
-        firebaseAuth.addAuthStateListener(listener)
-        awaitClose { firebaseAuth.removeAuthStateListener(listener) }
-    }
 
-    override suspend fun signInWithGoogle(googleIdToken: String): Result<User> = runCatching {
-        val credential = GoogleAuthProvider.getCredential(googleIdToken, null)
-        val authResult = firebaseAuth.signInWithCredential(credential).await()
-        val firebaseUser = requireNotNull(authResult.user) { "Firebase-Sign-in ohne User zurückgegeben" }
-        getOrCreateUserDocument(uid = firebaseUser.uid, displayName = firebaseUser.displayName.orEmpty())
-    }
+    override suspend fun signInWithGoogle(googleIdToken: String): Result<User> =
+        runCatching {
+            val credential = GoogleAuthProvider.getCredential(googleIdToken, null)
+            val authResult = firebaseAuth.signInWithCredential(credential).await()
+            val firebaseUser = requireNotNull(authResult.user) { "Firebase-Sign-in ohne User zurückgegeben" }
+            getOrCreateUserDocument(uid = firebaseUser.uid, displayName = firebaseUser.displayName.orEmpty())
+        }
 
     override suspend fun signOut() {
         firebaseAuth.signOut()
     }
 
     private suspend fun fetchUserDocument(uid: String): User? {
-        val snapshot = firestore.collection(USERS_COLLECTION).document(uid).get().await()
+        val snapshot =
+            firestore
+                .collection(USERS_COLLECTION)
+                .document(uid)
+                .get()
+                .await()
         return snapshot.toUserOrNull()
     }
 
@@ -60,18 +67,22 @@ class FirebaseAuthRepository(
      * meldet sich über Google ausschließlich der Elternteil an — Kinder bekommen laut Produktscope
      * eigene, datensparsame Profile innerhalb der Family statt eines eigenen Google-Accounts.
      */
-    private suspend fun getOrCreateUserDocument(uid: String, displayName: String): User {
+    private suspend fun getOrCreateUserDocument(
+        uid: String,
+        displayName: String,
+    ): User {
         val docRef = firestore.collection(USERS_COLLECTION).document(uid)
         val existing = docRef.get().await().toUserOrNull()
         if (existing != null) return existing
 
-        val newUser = User(
-            id = uid,
-            displayName = displayName,
-            role = UserRole.PARENT,
-            familyId = null,
-            createdAt = System.currentTimeMillis(),
-        )
+        val newUser =
+            User(
+                id = uid,
+                displayName = displayName,
+                role = UserRole.PARENT,
+                familyId = null,
+                createdAt = System.currentTimeMillis(),
+            )
         docRef.set(newUser.toFirestoreMap()).await()
         return newUser
     }
@@ -88,12 +99,13 @@ class FirebaseAuthRepository(
         )
     }
 
-    private fun User.toFirestoreMap(): Map<String, Any?> = mapOf(
-        "displayName" to displayName,
-        "role" to role.name,
-        "familyId" to familyId,
-        "createdAt" to createdAt,
-    )
+    private fun User.toFirestoreMap(): Map<String, Any?> =
+        mapOf(
+            "displayName" to displayName,
+            "role" to role.name,
+            "familyId" to familyId,
+            "createdAt" to createdAt,
+        )
 
     private companion object {
         const val USERS_COLLECTION = "users"

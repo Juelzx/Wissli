@@ -17,7 +17,6 @@ class LoginViewModel(
     private val authRepository: AuthRepository,
     private val googleAuthDataSource: GoogleAuthDataSource,
 ) : ViewModel() {
-
     private val _state = MutableStateFlow(LoginState())
     val state: StateFlow<LoginState> = _state.asStateFlow()
 
@@ -37,10 +36,11 @@ class LoginViewModel(
         viewModelScope.launch {
             _state.update { it.copy(isLoading = true, errorMessage = null) }
 
-            val result = runCatching {
-                val idToken = googleAuthDataSource.requestGoogleIdToken(activityContext)
-                authRepository.signInWithGoogle(idToken).getOrThrow()
-            }
+            val result =
+                runCatching {
+                    val idToken = googleAuthDataSource.requestGoogleIdToken(activityContext)
+                    authRepository.signInWithGoogle(idToken).getOrThrow()
+                }
 
             result.fold(
                 onSuccess = {

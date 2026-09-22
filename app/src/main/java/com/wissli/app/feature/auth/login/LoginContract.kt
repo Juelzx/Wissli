@@ -15,7 +15,10 @@ sealed interface LoginIntent {
      * Manager braucht einen Activity-Context für den System-Picker, und der ViewModel soll keine
      * Activity-Referenz über den Klick hinaus festhalten (kein Context-Leak).
      */
-    data class SignInWithGoogleClicked(val activityContext: Context) : LoginIntent
+    data class SignInWithGoogleClicked(
+        val activityContext: Context,
+    ) : LoginIntent
+
     data object ErrorMessageShown : LoginIntent
 }
 

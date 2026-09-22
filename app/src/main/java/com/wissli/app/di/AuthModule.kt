@@ -19,14 +19,15 @@ import org.koin.dsl.module
  * einzigen riesigen Modul zu sammeln — künftige Feature-Module (Questions, Family, Challenges)
  * folgen demselben Muster: eigene di/<Feature>Module.kt, in AppModule includen.
  */
-val authModule = module {
-    single<FirebaseAuth> { Firebase.auth }
-    single<FirebaseFirestore> { Firebase.firestore }
+val authModule =
+    module {
+        single<FirebaseAuth> { Firebase.auth }
+        single<FirebaseFirestore> { Firebase.firestore }
 
-    single<GoogleAuthDataSource> {
-        CredentialManagerGoogleAuthDataSource(webClientId = BuildConfig.GOOGLE_WEB_CLIENT_ID)
+        single<GoogleAuthDataSource> {
+            CredentialManagerGoogleAuthDataSource(webClientId = BuildConfig.GOOGLE_WEB_CLIENT_ID)
+        }
+        single<AuthRepository> { FirebaseAuthRepository(firebaseAuth = get(), firestore = get()) }
+
+        viewModelOf(::LoginViewModel)
     }
-    single<AuthRepository> { FirebaseAuthRepository(firebaseAuth = get(), firestore = get()) }
-
-    viewModelOf(::LoginViewModel)
-}

@@ -9,7 +9,6 @@ import kotlinx.coroutines.flow.Flow
  * niemals direkt gegen FirebaseAuth/FirebaseFirestore.
  */
 interface AuthRepository {
-
     /** Emittiert den aktuell eingeloggten [User] (`null` = ausgeloggt). Ersetzt Polling. */
     fun observeCurrentUser(): Flow<User?>
 

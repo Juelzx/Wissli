@@ -1,0 +1,14 @@
+style:
+  # Todos sind Teil der dokumentierten, schrittweisen Entwicklungsstrategie (siehe CLAUDE.md
+  # "Entwicklungsstrategie") und markieren bewusst offene Folgeschritte — kein Codesmell.
+  ForbiddenComment:
+    active: false
+  ReturnCount:
+    # Guard Clauses (früher Return bei Ungültigkeit) zählen nicht gegen das Limit — sie sind hier
+    # lesbarer als eine einzelne verschachtelte Bedingung (z. B. DocumentSnapshot.toUserOrNull()).
+    excludeGuardClauses: true
+
+naming:
+  FunctionNaming:
+    # @Composable-Funktionen folgen der offiziellen Compose-Konvention (PascalCase statt camelCase).
+    ignoreAnnotated: [ 'Composable' ]

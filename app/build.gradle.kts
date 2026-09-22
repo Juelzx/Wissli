@@ -6,6 +6,8 @@ plugins {
     alias(libs.plugins.ksp)
     // alias(libs.plugins.google.services) — aktivieren, sobald app/google-services.json existiert
     // alias(libs.plugins.firebase.crashlytics) — zusammen mit dem Plugin oben aktivieren
+    alias(libs.plugins.detekt)
+    alias(libs.plugins.ktlint)
 }
 
 // Google-OAuth-Web-Client-ID für Google Sign-In (Credential Manager). Kommt aus der Firebase-
@@ -13,10 +15,11 @@ plugins {
 // google-services.json (R.string.default_web_client_id). Bis das Firebase-Projekt existiert, bleibt
 // der Wert leer und Google Sign-In lässt sich nicht testen. NICHT ins Repo committen — Eintrag in
 // der lokalen (gitignorten) local.properties: GOOGLE_WEB_CLIENT_ID=...apps.googleusercontent.com
-val localProperties = Properties().apply {
-    val file = rootProject.file("local.properties")
-    if (file.exists()) file.inputStream().use { load(it) }
-}
+val localProperties =
+    Properties().apply {
+        val file = rootProject.file("local.properties")
+        if (file.exists()) file.inputStream().use { load(it) }
+    }
 val googleWebClientId: String = localProperties.getProperty("GOOGLE_WEB_CLIENT_ID", "")
 
 android {
@@ -57,6 +60,22 @@ android {
 // Room-Schemas für spätere Migrationen versionieren, sobald Entities existieren.
 ksp {
     arg("room.schemaLocation", "$projectDir/schemas")
+}
+
+// Statische Analyse (Code Smells, Komplexität, potenzielle Bugs). Formatierung/Style
+// übernimmt bewusst ktlint (siehe unten) — kein detekt-rules-ktlint-wrapper, um doppelte
+// bzw. widersprüchliche Regeln zu vermeiden.
+detekt {
+    buildUponDefaultConfig = true
+    allRules = false
+    parallel = true
+    config.setFrom(files("$rootDir/config/detekt/detekt.yml"))
+}
+
+// Formatierung/Code-Style nach den offiziellen Kotlin-Konventionen, inkl. Android-Regeln.
+ktlint {
+    android.set(true)
+    ignoreFailures.set(false)
 }
 
 dependencies {

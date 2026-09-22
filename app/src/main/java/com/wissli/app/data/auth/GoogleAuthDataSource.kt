@@ -24,18 +24,18 @@ interface GoogleAuthDataSource {
 class CredentialManagerGoogleAuthDataSource(
     private val webClientId: String,
 ) : GoogleAuthDataSource {
-
     override suspend fun requestGoogleIdToken(activityContext: Context): String {
         val credentialManager = CredentialManager.create(activityContext)
-        val credential = try {
-            // Erster Versuch: nur Accounts, die diese App schon mal für Sign-in autorisiert haben
-            // (stilles, schnelleres Sign-in ohne vollen Account-Picker).
-            credentialManager.getCredential(activityContext, authorizedAccountsRequest()).credential
-        } catch (_: NoCredentialException) {
-            // Kein vorher autorisierter Account gefunden (z. B. allererster Login) -> voller
-            // Account-Picker mit allen Google-Accounts auf dem Gerät.
-            credentialManager.getCredential(activityContext, allAccountsRequest()).credential
-        }
+        val credential =
+            try {
+                // Erster Versuch: nur Accounts, die diese App schon mal für Sign-in autorisiert haben
+                // (stilles, schnelleres Sign-in ohne vollen Account-Picker).
+                credentialManager.getCredential(activityContext, authorizedAccountsRequest()).credential
+            } catch (_: NoCredentialException) {
+                // Kein vorher autorisierter Account gefunden (z. B. allererster Login) -> voller
+                // Account-Picker mit allen Google-Accounts auf dem Gerät.
+                credentialManager.getCredential(activityContext, allAccountsRequest()).credential
+            }
         return GoogleIdTokenCredential.createFrom(credential.data).idToken
     }
 
@@ -44,12 +44,15 @@ class CredentialManagerGoogleAuthDataSource(
     private fun allAccountsRequest() = buildRequest(filterByAuthorizedAccounts = false)
 
     private fun buildRequest(filterByAuthorizedAccounts: Boolean): GetCredentialRequest {
-        val option = GetGoogleIdOption.Builder()
-            .setServerClientId(webClientId)
-            .setFilterByAuthorizedAccounts(filterByAuthorizedAccounts)
-            .setAutoSelectEnabled(false)
-            .build()
-        return GetCredentialRequest.Builder()
+        val option =
+            GetGoogleIdOption
+                .Builder()
+                .setServerClientId(webClientId)
+                .setFilterByAuthorizedAccounts(filterByAuthorizedAccounts)
+                .setAutoSelectEnabled(false)
+                .build()
+        return GetCredentialRequest
+            .Builder()
             .addCredentialOption(option)
             .build()
     }

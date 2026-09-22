@@ -175,8 +175,30 @@ Gradle Wrapper vom Repo-Root (`gradlew.bat` unter Windows, `./gradlew` in POSIX-
 
 Sobald `firebase.json` samt Emulator-Konfiguration existiert, hier die Startbefehle für die
 Firebase Emulator Suite (Auth/Firestore/ggf. Functions) ergänzen — aktuell noch nicht
-eingerichtet. Kein separat konfigurierter Linter vorhanden; `gradlew.bat lint` nutzt die
-Android-Lint-Standardregeln.
+eingerichtet.
+
+### Statische Analyse: Detekt & ktlint
+
+Zwei unabhängige, sich ergänzende Tools — Formatierung/Code-Style läuft bewusst ausschließlich
+über ktlint, Detekt deckt Code Smells/Komplexität/potenzielle Bugs ab (kein
+`detekt-rules-ktlint-wrapper`, um doppelte/widersprüchliche Meldungen zu vermeiden). Beide
+Tasks hängen an `check`, laufen also automatisch bei `gradlew.bat check` mit.
+
+- Detekt-Check: `gradlew.bat detekt` (Reports unter `app/build/reports/detekt/`)
+- ktlint-Check: `gradlew.bat ktlintCheck`
+- ktlint Auto-Format: `gradlew.bat ktlintFormat` (behebt die meisten Style-Verstöße automatisch;
+  Ausnahmen wie Wildcard-Imports müssen manuell gefixt werden)
+- Detekt-Konfiguration: `config/detekt/detekt.yml` (nur gezielte Abweichungen vom Default,
+  z. B. `ForbiddenComment` deaktiviert wegen der TODO-basierten Entwicklungsstrategie oben,
+  `FunctionNaming` ignoriert `@Composable`-Funktionen); `buildUponDefaultConfig = true` im
+  `detekt {}`-Block in `app/build.gradle.kts` kombiniert das mit Detekts Standardregeln.
+- `.editorconfig` (Repo-Root) setzt `ktlint_function_naming_ignore_when_annotated_with = Composable`
+  für dieselbe Compose-Ausnahme auf ktlint-Seite.
+
+**Wichtig für Kotlin-Versions-Bumps**: Detekt 1.23.x liefert ab Kotlin 2.3+ False Positives
+(defekte Typauflösung). Deshalb wird bewusst die neue `dev.detekt`-Plugin-Linie ab 2.0.0-alpha.x
+verwendet, die gegen aktuelle Kotlin-Versionen gebaut ist — noch Alpha-Status, vor jedem
+Kotlin-Bump `gradlew.bat detekt` gegenprüfen und ggf. die Detekt-Version mit hochziehen.
 
 ### Gradle-Stolperstein: AGP 9 Built-in Kotlin vs. KSP
 
