@@ -20,17 +20,21 @@ Portierung nicht durch Android-spezifische Kurzschlüsse blockiert wird.
 Repo-Realität: Alle Ziel-Libraries (Koin, Room, Navigation Compose, Firebase, Coroutines,
 Turbine) sind im Version Catalog gepflegt und im `app`-Modul als Dependencies eingebunden.
 Implementiert ist bisher der **Auth-Flow** (Google Sign-In) als Referenz-Feature für alle
-folgenden Features: `WissliNavHost` (aktuell nur `Routes.LOGIN`) → `LoginScreen` →
-`LoginViewModel` → `AuthRepository`/`GoogleAuthDataSource`. `FirebaseAuthRepository` ist die
-einzige Stelle, die `FirebaseAuth`/`FirebaseFirestore` anfasst; `CredentialManagerGoogleAuthDataSource`
-holt das Google-ID-Token über die Android Credential Manager API und ist bewusst von
-`AuthRepository` getrennt (reine Plattform-API, kein Firebase-Zugriff). Koin ist initialisiert
-(`WissliApplication` startet `startKoin { ... }`) mit `di/AppModule.kt` (`appModule`), das
-Feature-Module per `includes()` einhängt — bisher nur `di/AuthModule.kt` (`authModule`).
-Noch **nicht implementiert**: alle Screens/Repositories außer Auth (Home, Questions,
-Favorites, Family, Challenges), Room-Entities/DAOs, Main-Graph/Rollen-Onboarding nach dem
-Login. Beim Lesen des Codes den tatsächlichen Stand prüfen statt dies als vollständig
-anzunehmen.
+folgenden Features: `WissliNavHost` → `AuthGateViewModel` (beobachtet
+`AuthRepository.observeCurrentUser()` und entscheidet die Start-Destination — `Routes.LOGIN`
+oder `Routes.HOME` — statt beim App-Start immer hart bei Login zu starten) → `LoginScreen` →
+`LoginViewModel` → `AuthRepository`/`GoogleAuthDataSource`. `Routes.HOME` ist aktuell nur ein
+Platzhalter-Screen (`HomePlaceholder` in `WissliNavHost.kt`), bis das echte Home-Feature ansteht.
+`FirebaseAuthRepository` ist die einzige Stelle, die `FirebaseAuth`/`FirebaseFirestore` anfasst;
+`CredentialManagerGoogleAuthDataSource` holt das Google-ID-Token über die Android Credential
+Manager API und ist bewusst von `AuthRepository` getrennt (reine Plattform-API, kein
+Firebase-Zugriff). Koin ist initialisiert (`WissliApplication` startet `startKoin { ... }`) mit
+`di/AppModule.kt` (`appModule`), das Feature-Module per `includes()` einhängt — bisher nur
+`di/AuthModule.kt` (`authModule`).
+Noch **nicht implementiert**: alle Screens/Repositories außer Auth (echtes Home, Questions,
+Favorites, Family, Challenges), Room-Entities/DAOs, Rollen-Onboarding nach dem Login (jede
+Erstanmeldung bekommt aktuell hart `UserRole.PARENT`, siehe TODO in `FirebaseAuthRepository`).
+Beim Lesen des Codes den tatsächlichen Stand prüfen statt dies als vollständig anzunehmen.
 
 Konvention für neue Features (siehe `feature/auth/login/*` als Vorlage): pro Screen ein
 eigenes Paket `feature/<bereich>/<screen>/` mit `<Screen>Contract.kt` (immutable State +
@@ -40,11 +44,16 @@ emittiert State über `StateFlow` und einmalige Effekte über einen `SharedFlow`
 einem `LaunchedEffect`). Pro fachlichem Bereich ein eigenes `di/<Bereich>Module.kt`, das in
 `appModule` inkludiert wird — kein monolithisches DI-Modul.
 
-Firebase-Dependencies sind eingebunden, aber die Plugins `google-services` und
-`firebase-crashlytics` sind in `app/build.gradle.kts` nur auskommentiert hinterlegt, da sie
-eine echte `app/google-services.json` (Firebase-Projekt) voraussetzen — ohne die Datei
-bricht der Build beim Anwenden des Plugins sofort ab. Erst nach Anlegen des Firebase-Projekts
-die Kommentare entfernen und die Datei ablegen.
+Firebase-Projekt existiert (`wii-21c9b`), `app/google-services.json` liegt im Repo,
+`google-services`- und `firebase-crashlytics`-Plugin sind in `app/build.gradle.kts` aktiv.
+**Offene Entscheidung**: `app/google-services.json` ist aktuell mit committed — laut Firebase
+offiziell kein echtes Secret (API Key ist über Package-Name/SHA-Fingerprint + Firestore-Regeln
+geschützt, nicht durch Geheimhaltung der Datei), aber bewusst noch nicht final entschieden, ob
+sie stattdessen wie `local.properties`/`GOOGLE_WEB_CLIENT_ID` aus dem Repo rausgehalten werden
+soll (dann bräuchte die CI-Action einen GitHub Secret, der die Datei zur Build-Zeit
+rekonstruiert). `GOOGLE_WEB_CLIENT_ID` in `local.properties` bleibt trotzdem separat nötig —
+das ist die *Web*-Client-ID für den Credential-Manager-Flow, nicht in `google-services.json`
+enthalten (siehe "Commands" unten).
 
 ## Tech Stack
 
@@ -127,6 +136,13 @@ Security-Regeln sind Pflicht, nicht optional — Sicherheitslogik nie ausschlie�
   durch Admins.
 - Niemand darf die eigene Rolle selbst auf `ADMIN` setzen.
 
+Umgesetzt in `firestore.rules` (Repo-Root), referenziert über `firebase.json`. Deploy erst
+möglich, sobald ein Firebase-Projekt existiert und lokal verknüpft ist (`firebase use --add`
+bzw. `.firebaserc`, noch nicht angelegt), dann: `firebase deploy --only firestore:rules`. Die
+Regeln für `families/questions/categories/challenges/favorites` sind vorbereitet, aber noch
+nicht gegen echten Schreibcode geprüft (diese Repositories existieren noch nicht) — bei der
+jeweiligen Erstimplementierung die Feldnamen in den Rules gegen den tatsächlichen Code abgleichen.
+
 ## Navigation
 
 Navigation Compose; Routen zentral definiert (in `core/navigation`), niemals verstreute
@@ -185,9 +201,9 @@ Gradle Wrapper vom Repo-Root (`gradlew.bat` unter Windows, `./gradlew` in POSIX-
 - Auf verbundenes Gerät installieren: `gradlew.bat installDebug`
 - Build-Outputs bereinigen: `gradlew.bat clean`
 
-Sobald `firebase.json` samt Emulator-Konfiguration existiert, hier die Startbefehle für die
-Firebase Emulator Suite (Auth/Firestore/ggf. Functions) ergänzen — aktuell noch nicht
-eingerichtet.
+`firebase.json` existiert bisher nur mit dem `firestore`-Key (Rules-Pfad, siehe "Firebase &
+Firestore" oben) — noch keine Emulator-Konfiguration. Sobald die eingerichtet ist, hier die
+Startbefehle für die Firebase Emulator Suite (Auth/Firestore/ggf. Functions) ergänzen.
 
 ### Statische Analyse: Detekt & ktlint
 

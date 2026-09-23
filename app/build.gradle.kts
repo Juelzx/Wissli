@@ -4,8 +4,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.ksp)
-    // alias(libs.plugins.google.services) — aktivieren, sobald app/google-services.json existiert
-    // alias(libs.plugins.firebase.crashlytics) — zusammen mit dem Plugin oben aktivieren
+    alias(libs.plugins.google.services)
+    alias(libs.plugins.firebase.crashlytics)
     alias(libs.plugins.detekt)
     alias(libs.plugins.ktlint)
 }
@@ -54,6 +54,15 @@ android {
     buildFeatures {
         compose = true
         buildConfig = true
+    }
+
+    // Unit-Tests laufen ohne Robolectric/echtes Android-Framework. Android-SDK-Stubs würfen sonst
+    // bei jedem Aufruf "not mocked" — Default-Werte reichen z. B. für einen reinen Context.Platzhalter
+    // wie in LoginViewModelTest (ContextWrapper(null) als Fake-Context).
+    testOptions {
+        unitTests {
+            isReturnDefaultValues = true
+        }
     }
 }
 

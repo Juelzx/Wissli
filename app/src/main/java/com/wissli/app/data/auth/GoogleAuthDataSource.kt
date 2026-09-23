@@ -59,10 +59,6 @@ class CredentialManagerGoogleAuthDataSource(
 }
 
 /*
- * TODO sobald Google Sign-In über die Basisfälle hinauswächst:
- *  - Andere GetCredentialException-Subtypen (z. B. GetCredentialCancellationException, wenn der
- *    Nutzer den Picker wegtippt) im Repository/ViewModel gezielt abfangen und in eine passende
- *    LoginState-Fehlermeldung übersetzen statt eine generische Fehlermeldung zu zeigen.
- *  - Optional (Hardening): setNonce(...) mit einem zufälligen, gehashten Wert setzen, falls eigene
- *    Replay-Schutz-Logik über den Firebase-Standardflow hinaus gebraucht wird.
+ * TODO Optional (Hardening): setNonce(...) mit einem zufälligen, gehashten Wert setzen, falls
+ * eigene Replay-Schutz-Logik über den Firebase-Standardflow hinaus gebraucht wird.
  */

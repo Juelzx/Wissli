@@ -6,6 +6,7 @@ import com.google.firebase.auth.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.firestore
 import com.wissli.app.BuildConfig
+import com.wissli.app.core.navigation.AuthGateViewModel
 import com.wissli.app.data.auth.AuthRepository
 import com.wissli.app.data.auth.CredentialManagerGoogleAuthDataSource
 import com.wissli.app.data.auth.FirebaseAuthRepository
@@ -30,4 +31,5 @@ val authModule =
         single<AuthRepository> { FirebaseAuthRepository(firebaseAuth = get(), firestore = get()) }
 
         viewModelOf(::LoginViewModel)
+        viewModelOf(::AuthGateViewModel)
     }

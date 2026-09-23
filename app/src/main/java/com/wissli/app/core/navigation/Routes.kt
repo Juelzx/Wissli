@@ -18,6 +18,7 @@ package com.wissli.app.core.navigation
 object Routes {
     const val LOGIN = "login"
 
-    // Platzhalter für den Main-Graph nach erfolgreichem Login.
-    // const val HOME = "home"
+    // Reiner Platzhalter, bis das echte Home-Feature ansteht — dient aktuell nur als sichtbares
+    // Ziel für den Login-Flow und für den Start-Destination-Wechsel in WissliNavHost/AuthGateViewModel.
+    const val HOME = "home"
 }

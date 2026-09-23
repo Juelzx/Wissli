@@ -1,0 +1,115 @@
+rules_version = '2';
+
+// Sicherheitsregeln für Wissli — siehe CLAUDE.md ("Firebase & Firestore"):
+//   - User lesen nur eigene private Daten.
+//   - Parent verwaltet nur die eigene Family.
+//   - Child editiert nur eigene Challenges.
+//   - Questions öffentlich lesbar nur wenn published == true; Erstellen/Editieren/Löschen nur Admins.
+//   - Niemand darf die eigene Rolle selbst auf ADMIN setzen.
+//
+// Feldnamen für "users" sind 1:1 aus FirebaseAuthRepository.toFirestoreMap()/toUserOrNull()
+// übernommen (die einzige Collection, die aktuell tatsächlich beschrieben wird). Für
+// families/questions/categories/challenges/favorites — noch nicht implementiert — sind die
+// Feldnamen aus CLAUDE.md "Domain-Modelle (Kern)" abgeleitet; bei der ersten echten
+// Repository-Implementierung dieser Collections gegen die Regeln hier prüfen und bei Bedarf
+// anpassen, statt sie ungeprüft für bare Münze zu nehmen.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function userDoc(uid) {
+      return get(/databases/$(database)/documents/users/$(uid));
+    }
+
+    function hasUserDoc(uid) {
+      return exists(/databases/$(database)/documents/users/$(uid));
+    }
+
+    function currentUserRole() {
+      return userDoc(request.auth.uid).data.role;
+    }
+
+    function currentUserFamilyId() {
+      return userDoc(request.auth.uid).data.familyId;
+    }
+
+    function isAdmin() {
+      return isSignedIn() && hasUserDoc(request.auth.uid) && currentUserRole() == 'ADMIN';
+    }
+
+    // users/{uid}: jede:r liest/schreibt ausschließlich das eigene Dokument. Die Rolle darf beim
+    // Anlegen nie ADMIN sein und sich danach nur ändern, wenn schon ADMIN aufruft — verhindert
+    // Selbst-Eskalation zum Admin.
+    match /users/{uid} {
+      allow read: if isSignedIn() && request.auth.uid == uid;
+
+      allow create: if isSignedIn()
+        && request.auth.uid == uid
+        && request.resource.data.role in ['PARENT', 'CHILD'];
+
+      allow update: if isSignedIn()
+        && request.auth.uid == uid
+        && (request.resource.data.role == resource.data.role || isAdmin());
+
+      allow delete: if false;
+    }
+
+    // families/{familyId}: Mitglieder (über User.familyId) lesen; nur ein Parent ohne bestehende
+    // Family legt neu an, nur ein Parent der eigenen Family verwaltet/löscht.
+    match /families/{familyId} {
+      allow read: if isSignedIn() && currentUserFamilyId() == familyId;
+
+      allow create: if isSignedIn()
+        && currentUserRole() == 'PARENT'
+        && currentUserFamilyId() == null;
+
+      allow update, delete: if isSignedIn()
+        && currentUserRole() == 'PARENT'
+        && currentUserFamilyId() == familyId;
+    }
+
+    // questions/{questionId}: global, familienunabhängig. Öffentlich lesbar nur wenn published,
+    // Erstellen/Editieren/Löschen ausschließlich Admins (z. B. über die künftige Admin-Web-App).
+    match /questions/{questionId} {
+      allow read: if resource.data.published == true || isAdmin();
+      allow write: if isAdmin();
+    }
+
+    // categories/{categoryId}: analog zu questions — öffentlicher Read, Admin-only Write.
+    match /categories/{categoryId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // challenges/{challengeId}: nur Mitglieder derselben Family lesen. Erstellen nur der Parent,
+    // der als createdBy eingetragen wird; Bearbeiten nur zugewiesenes Kind (Antwort) oder der
+    // erstellende Parent (Status/Ergebnis); Löschen nur der erstellende Parent.
+    match /challenges/{challengeId} {
+      allow read: if isSignedIn() && currentUserFamilyId() == resource.data.familyId;
+
+      allow create: if isSignedIn()
+        && currentUserRole() == 'PARENT'
+        && request.resource.data.createdBy == request.auth.uid
+        && request.resource.data.familyId == currentUserFamilyId();
+
+      allow update: if isSignedIn()
+        && currentUserFamilyId() == resource.data.familyId
+        && (request.auth.uid == resource.data.assignedTo || request.auth.uid == resource.data.createdBy);
+
+      allow delete: if isSignedIn() && request.auth.uid == resource.data.createdBy;
+    }
+
+    // favorites/{favoriteId}: gehört ausschließlich der/dem besitzenden Nutzer:in, verändert nie
+    // die referenzierte Question (siehe CLAUDE.md "Domain-Modelle").
+    match /favorites/{favoriteId} {
+      allow read, delete: if isSignedIn() && resource.data.userId == request.auth.uid;
+      allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
+      allow update: if false;
+    }
+
+    // Alles außerhalb der obigen Collections ist implizit gesperrt (kein catch-all match).
+  }
+}

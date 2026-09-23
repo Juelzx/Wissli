@@ -1,6 +1,7 @@
 package com.wissli.app.feature.auth.login
 
 import android.content.Context
+import androidx.credentials.exceptions.GetCredentialCancellationException
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.wissli.app.data.auth.AuthRepository
@@ -48,17 +49,22 @@ class LoginViewModel(
                     _effect.emit(LoginEffect.NavigateToHome)
                 },
                 onFailure = { throwable ->
-                    // TODO: throwable-Typen unterscheiden, sobald mehr Fehlerfälle relevant werden —
-                    // z. B. GetCredentialCancellationException (Nutzer hat den Picker weggetippt)
-                    // sollte still abgebrochen werden statt eine Fehlermeldung zu zeigen.
                     _state.update {
-                        it.copy(
-                            isLoading = false,
-                            errorMessage = throwable.message ?: "Anmeldung fehlgeschlagen. Bitte versuche es erneut.",
-                        )
+                        it.copy(isLoading = false, errorMessage = throwable.toLoginErrorMessageOrNull())
                     }
                 },
             )
         }
     }
+
+    /**
+     * `null` heißt: Nutzer:in hat den Google-Account-Picker abgebrochen (Zurück-Geste/Wegtippen) —
+     * das ist kein Fehler und soll keine Fehlermeldung auslösen.
+     */
+    private fun Throwable.toLoginErrorMessageOrNull(): String? =
+        if (this is GetCredentialCancellationException) {
+            null
+        } else {
+            message ?: "Anmeldung fehlgeschlagen. Bitte versuche es erneut."
+        }
 }
