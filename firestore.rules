@@ -1,115 +1,261 @@
 rules_version = '2';
 
-// Sicherheitsregeln für Wissli — siehe CLAUDE.md ("Firebase & Firestore"):
-//   - User lesen nur eigene private Daten.
-//   - Parent verwaltet nur die eigene Family.
-//   - Child editiert nur eigene Challenges.
-//   - Questions öffentlich lesbar nur wenn published == true; Erstellen/Editieren/Löschen nur Admins.
-//   - Niemand darf die eigene Rolle selbst auf ADMIN setzen.
+// Sicherheitsregeln für Wissli. Grundsätze:
+//   - users/{uid}: jede:r liest/schreibt nur das eigene Dokument, und das enthält nur die Felder,
+//     die FirebaseAuthRepository.toFirestoreMap() heute schreibt — keine weiteren
+//     personenbezogenen Daten (E-Mail, Foto-URL, …) über displayName hinaus.
+//   - Gruppen statt fester Eltern-Kind-Hierarchie: wer eine Gruppe erstellt, ist ihr Owner und
+//     verwaltet sie (einladen, entfernen, umbenennen, löschen). Jede Person kann in mehreren
+//     Gruppen sein.
+//   - Challenges laufen innerhalb einer Gruppe zwischen zwei Mitgliedern.
+//   - Questions öffentlich lesbar nur wenn published == true; Schreiben nur durch Admins.
+//   - Admin ist ein Custom Claim (request.auth.token.admin), den nur das Admin SDK serverseitig
+//     setzen kann — kein Feld im User-Dokument, also keine Selbst-Eskalation möglich.
 //
-// Feldnamen für "users" sind 1:1 aus FirebaseAuthRepository.toFirestoreMap()/toUserOrNull()
-// übernommen (die einzige Collection, die aktuell tatsächlich beschrieben wird). Für
-// families/questions/categories/challenges/favorites — noch nicht implementiert — sind die
-// Feldnamen aus CLAUDE.md "Domain-Modelle (Kern)" abgeleitet; bei der ersten echten
-// Repository-Implementierung dieser Collections gegen die Regeln hier prüfen und bei Bedarf
-// anpassen, statt sie ungeprüft für bare Münze zu nehmen.
+// Tests: firestore-tests/ (Firebase Emulator, `npm test` dort). users ist gegen den echten
+// Schreibcode abgeglichen; groups/challenges/favorites sind vorbereitet, aber noch ohne
+// Repository-Code — bei der Erstimplementierung Feldnamen hier und in den Tests abgleichen.
 service cloud.firestore {
   match /databases/{database}/documents {
+
+    // ---------- Hilfsfunktionen ----------
 
     function isSignedIn() {
       return request.auth != null;
     }
 
-    function userDoc(uid) {
-      return get(/databases/$(database)/documents/users/$(uid));
-    }
-
-    function hasUserDoc(uid) {
-      return exists(/databases/$(database)/documents/users/$(uid));
-    }
-
-    function currentUserRole() {
-      return userDoc(request.auth.uid).data.role;
-    }
-
-    function currentUserFamilyId() {
-      return userDoc(request.auth.uid).data.familyId;
+    function isSelf(uid) {
+      return isSignedIn() && request.auth.uid == uid;
     }
 
     function isAdmin() {
-      return isSignedIn() && hasUserDoc(request.auth.uid) && currentUserRole() == 'ADMIN';
+      return isSignedIn() && request.auth.token.get('admin', false) == true;
     }
 
-    // users/{uid}: jede:r liest/schreibt ausschließlich das eigene Dokument. Die Rolle darf beim
-    // Anlegen nie ADMIN sein und sich danach nur ändern, wenn schon ADMIN aufruft — verhindert
-    // Selbst-Eskalation zum Admin.
+    function isValidDisplayName(name) {
+      return name is string && name.size() <= 50;
+    }
+
+    // Feldwerte dürfen sich in einem Update nicht ändern (fehlende Felder bleiben fehlend).
+    function unchanged(fields) {
+      return !request.resource.data.diff(resource.data).affectedKeys().hasAny(fields);
+    }
+
+    function groupPath(groupId) {
+      return /databases/$(database)/documents/groups/$(groupId);
+    }
+
+    function memberPath(groupId, uid) {
+      return /databases/$(database)/documents/groups/$(groupId)/members/$(uid);
+    }
+
+    function isMember(groupId) {
+      return isSignedIn() && exists(memberPath(groupId, request.auth.uid));
+    }
+
+    function isOwner(groupId) {
+      return isSignedIn() && get(groupPath(groupId)).data.ownerId == request.auth.uid;
+    }
+
+    // ---------- users ----------
+
+    // Legacy-Felder role/familyId stammen aus dem alten Familien-Modell (siehe User.kt) und
+    // werden auf harmlose Werte festgenagelt, bis das Model auf Gruppen umgestellt ist: role nie
+    // ADMIN, familyId immer null, beides nach dem Anlegen unveränderlich.
     match /users/{uid} {
-      allow read: if isSignedIn() && request.auth.uid == uid;
+      function isValidUser(data) {
+        return data.keys().hasOnly(['displayName', 'role', 'familyId', 'createdAt'])
+          && data.keys().hasAll(['displayName', 'createdAt'])
+          && isValidDisplayName(data.displayName)
+          && data.createdAt is int
+          && data.get('role', 'PARENT') in ['PARENT', 'CHILD']
+          && data.get('familyId', null) == null;
+      }
 
-      allow create: if isSignedIn()
-        && request.auth.uid == uid
-        && request.resource.data.role in ['PARENT', 'CHILD'];
+      allow read: if isSelf(uid);
+      allow create: if isSelf(uid) && isValidUser(request.resource.data);
+      allow update: if isSelf(uid)
+        && isValidUser(request.resource.data)
+        && unchanged(['role', 'familyId', 'createdAt']);
+      // Eigenen Account löschen können (Play-Store-Vorgabe zur Kontolöschung).
+      allow delete: if isSelf(uid);
 
-      allow update: if isSignedIn()
-        && request.auth.uid == uid
-        && (request.resource.data.role == resource.data.role || isAdmin());
-
-      allow delete: if false;
+      // users/{uid}/favorites/{questionId}: gehört ausschließlich der/dem Nutzer:in, referenziert
+      // die Question nur per Dokument-ID und verändert sie nie.
+      match /favorites/{questionId} {
+        allow read, delete: if isSelf(uid);
+        allow create: if isSelf(uid)
+          && request.resource.data.keys().hasOnly(['createdAt'])
+          && request.resource.data.createdAt is int;
+        allow update: if false;
+      }
     }
 
-    // families/{familyId}: Mitglieder (über User.familyId) lesen; nur ein Parent ohne bestehende
-    // Family legt neu an, nur ein Parent der eigenen Family verwaltet/löscht.
-    match /families/{familyId} {
-      allow read: if isSignedIn() && currentUserFamilyId() == familyId;
+    // ---------- groups ----------
 
+    // groups/{groupId}: { name, ownerId, createdAt }
+    match /groups/{groupId} {
+      function isValidGroup(data) {
+        return data.keys().hasOnly(['name', 'ownerId', 'createdAt'])
+          && data.name is string && data.name.size() > 0 && data.name.size() <= 50
+          && data.ownerId is string
+          && data.createdAt is int;
+      }
+
+      allow read: if isMember(groupId);
       allow create: if isSignedIn()
-        && currentUserRole() == 'PARENT'
-        && currentUserFamilyId() == null;
+        && isValidGroup(request.resource.data)
+        && request.resource.data.ownerId == request.auth.uid;
+      // Nur umbenennen; ownerId und createdAt bleiben fix (Owner-Wechsel später bewusst über
+      // eine Cloud Function statt clientseitig).
+      allow update: if isOwner(groupId)
+        && isValidGroup(request.resource.data)
+        && unchanged(['ownerId', 'createdAt']);
+      // Unterdokumente (members, invites, challenges) räumt der Client bzw. später eine Cloud
+      // Function ab — Firestore löscht Subcollections nicht mit.
+      allow delete: if isOwner(groupId);
 
-      allow update, delete: if isSignedIn()
-        && currentUserRole() == 'PARENT'
-        && currentUserFamilyId() == familyId;
+      // groups/{groupId}/members/{uid}: { userId, displayName, joinedAt, inviteCode? }
+      // displayName wird hier gespiegelt, damit Mitglieder sich gegenseitig sehen, ohne die
+      // privaten users-Dokumente der anderen lesen zu dürfen.
+      match /members/{memberId} {
+        function isValidMember(data) {
+          return data.keys().hasOnly(['userId', 'displayName', 'joinedAt', 'inviteCode'])
+            && data.userId == memberId
+            && isValidDisplayName(data.displayName)
+            && data.joinedAt is int;
+        }
+
+        // Beitritt über eine gültige, nicht abgelaufene Einladung des Owners.
+        function hasValidInvite(code) {
+          let invitePath = /databases/$(database)/documents/groups/$(groupId)/invites/$(code);
+          return exists(invitePath) && get(invitePath).data.expiresAt > request.time;
+        }
+
+        allow read: if isMember(groupId);
+
+        // Selbst beitreten: entweder als Owner direkt nach dem Anlegen der Gruppe (getAfter, damit
+        // Gruppe + erste Mitgliedschaft in einem Batch geschrieben werden können) oder mit
+        // gültigem Einladungscode.
+        allow create: if isSelf(memberId)
+          && isValidMember(request.resource.data)
+          && (
+            getAfter(groupPath(groupId)).data.ownerId == request.auth.uid
+            || (request.resource.data.inviteCode is string
+                && hasValidInvite(request.resource.data.inviteCode))
+          );
+
+        // Nur den eigenen displayName aktualisieren.
+        allow update: if isSelf(memberId)
+          && isValidMember(request.resource.data)
+          && unchanged(['userId', 'joinedAt', 'inviteCode']);
+
+        // Selbst austreten oder vom Owner entfernt werden. Der Owner selbst kann nicht austreten,
+        // solange die Gruppe existiert (sonst verwaiste Gruppe) — er löscht sie stattdessen.
+        allow delete: if (isSelf(memberId) && !isOwner(groupId))
+          || (isOwner(groupId) && memberId != request.auth.uid)
+          || (isSelf(memberId) && !exists(groupPath(groupId)));
+      }
+
+      // groups/{groupId}/invites/{code}: { createdAt, expiresAt }. Die Dokument-ID ist der
+      // Einladungscode (vom Client zufällig erzeugt, z. B. 20 Zeichen). Nicht lesbar/auflistbar für
+      // Nicht-Mitglieder — wer beitritt, beweist den Code allein durch das Schreiben seines
+      // Member-Dokuments.
+      match /invites/{code} {
+        allow read, delete: if isOwner(groupId);
+        allow create: if isOwner(groupId)
+          && code.size() >= 16
+          && request.resource.data.keys().hasOnly(['createdAt', 'expiresAt'])
+          && request.resource.data.createdAt is int
+          && request.resource.data.expiresAt is timestamp
+          && request.resource.data.expiresAt > request.time;
+        allow update: if false;
+      }
+
+      // groups/{groupId}/challenges/{challengeId}:
+      //   { questionId, createdBy, assignedTo, status, answer, result, createdAt, completedAt }
+      // status: PENDING -> IN_PROGRESS -> COMPLETED (PENDING -> COMPLETED direkt erlaubt).
+      match /challenges/{challengeId} {
+        function challengeKeys() {
+          return ['questionId', 'createdBy', 'assignedTo', 'status', 'answer', 'result',
+                  'createdAt', 'completedAt'];
+        }
+
+        function isInvolved() {
+          return isSignedIn()
+            && (resource.data.createdBy == request.auth.uid
+                || resource.data.assignedTo == request.auth.uid);
+        }
+
+        allow read: if isInvolved();
+
+        // Jedes Mitglied kann ein anderes Mitglied derselben Gruppe herausfordern.
+        allow create: if isMember(groupId)
+          && request.resource.data.keys().hasOnly(challengeKeys())
+          && request.resource.data.questionId is string
+          && request.resource.data.createdBy == request.auth.uid
+          && request.resource.data.assignedTo is string
+          && request.resource.data.assignedTo != request.auth.uid
+          && exists(memberPath(groupId, request.resource.data.assignedTo))
+          && request.resource.data.status == 'PENDING'
+          && request.resource.data.get('answer', null) == null
+          && request.resource.data.get('result', null) == null
+          && request.resource.data.get('completedAt', null) == null
+          && request.resource.data.createdAt is int;
+
+        // Nur die herausgeforderte Person bearbeitet: starten bzw. antworten und abschließen.
+        // Abgeschlossene Challenges sind unveränderlich.
+        // TODO: result (richtig/falsch) später serverseitig per Cloud Function bewerten statt
+        // clientseitig setzen zu lassen.
+        allow update: if isMember(groupId)
+          && resource.data.assignedTo == request.auth.uid
+          && request.resource.data.keys().hasOnly(challengeKeys())
+          && unchanged(['questionId', 'createdBy', 'assignedTo', 'createdAt'])
+          && (
+            (resource.data.status == 'PENDING'
+              && request.resource.data.status == 'IN_PROGRESS'
+              && unchanged(['answer', 'result', 'completedAt']))
+            || (resource.data.status in ['PENDING', 'IN_PROGRESS']
+              && request.resource.data.status == 'COMPLETED'
+              && request.resource.data.answer is string
+              && request.resource.data.completedAt is int)
+          );
+
+        // Erstellende Person oder Owner der Gruppe darf löschen.
+        allow delete: if (isSignedIn() && resource.data.createdBy == request.auth.uid)
+          || isOwner(groupId);
+      }
     }
 
-    // questions/{questionId}: global, familienunabhängig. Öffentlich lesbar nur wenn published,
-    // Erstellen/Editieren/Löschen ausschließlich Admins (z. B. über die künftige Admin-Web-App).
+    // Collection-Group-Abfragen über alle Gruppen hinweg:
+    //   - "Meine Gruppen": collectionGroup('members').where('userId', '==', uid)
+    //   - "Meine Challenges": collectionGroup('challenges').where('assignedTo', '==', uid)
+    // Bei Abfragen ist die Dokument-ID nicht bekannt, deshalb über das userId-Feld prüfen.
+    match /{path=**}/members/{memberId} {
+      allow read: if isSignedIn() && resource.data.userId == request.auth.uid;
+    }
+
+    match /{path=**}/challenges/{challengeId} {
+      allow read: if isSignedIn()
+        && (resource.data.createdBy == request.auth.uid
+            || resource.data.assignedTo == request.auth.uid);
+    }
+
+    // ---------- Content ----------
+
+    // questions/{questionId}: global, gruppenunabhängig. Öffentlich lesbar nur wenn published,
+    // Schreiben ausschließlich Admins (z. B. über die künftige Admin-Web-App).
     match /questions/{questionId} {
       allow read: if resource.data.published == true || isAdmin();
       allow write: if isAdmin();
     }
 
-    // categories/{categoryId}: analog zu questions — öffentlicher Read, Admin-only Write.
+    // categories/{categoryId}: öffentlicher Read, Admin-only Write.
     match /categories/{categoryId} {
       allow read: if true;
       allow write: if isAdmin();
     }
 
-    // challenges/{challengeId}: nur Mitglieder derselben Family lesen. Erstellen nur der Parent,
-    // der als createdBy eingetragen wird; Bearbeiten nur zugewiesenes Kind (Antwort) oder der
-    // erstellende Parent (Status/Ergebnis); Löschen nur der erstellende Parent.
-    match /challenges/{challengeId} {
-      allow read: if isSignedIn() && currentUserFamilyId() == resource.data.familyId;
-
-      allow create: if isSignedIn()
-        && currentUserRole() == 'PARENT'
-        && request.resource.data.createdBy == request.auth.uid
-        && request.resource.data.familyId == currentUserFamilyId();
-
-      allow update: if isSignedIn()
-        && currentUserFamilyId() == resource.data.familyId
-        && (request.auth.uid == resource.data.assignedTo || request.auth.uid == resource.data.createdBy);
-
-      allow delete: if isSignedIn() && request.auth.uid == resource.data.createdBy;
-    }
-
-    // favorites/{favoriteId}: gehört ausschließlich der/dem besitzenden Nutzer:in, verändert nie
-    // die referenzierte Question (siehe CLAUDE.md "Domain-Modelle").
-    match /favorites/{favoriteId} {
-      allow read, delete: if isSignedIn() && resource.data.userId == request.auth.uid;
-      allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
-      allow update: if false;
-    }
-
-    // Alles außerhalb der obigen Collections ist implizit gesperrt (kein catch-all match).
+    // Alles andere ist implizit gesperrt (kein catch-all match).
   }
 }

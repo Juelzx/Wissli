@@ -122,26 +122,42 @@ UI (Compose) → ViewModel → Repository → Data Sources (Firebase remote / Ro
 
 ## Firebase & Firestore
 
-Collections: `users, families, questions, categories, challenges, favorites` (Subcollections
-erlaubt, wenn fachlich sinnvoller). Repository-Abstraktionen pro fachlichem Bereich, z. B.
+Collections (Stand `firestore.rules`): `users/{uid}` mit Subcollection `favorites/{questionId}`,
+`groups/{groupId}` mit Subcollections `members/{uid}`, `invites/{code}` und
+`challenges/{challengeId}`, sowie `questions` und `categories`. Die Top-Level-Collections
+`families`, `challenges` und `favorites` aus dem alten Familien-Modell sind gesperrt.
+Repository-Abstraktionen pro fachlichem Bereich, z. B.
 `QuestionRepository.observeQuestions()/getQuestion()/observeFavorites()/addFavorite()`,
 `ChallengeRepository.observeChallenges()/createChallenge()/startChallenge()/completeChallenge()`,
-`FamilyRepository`, `AuthRepository.observeCurrentUser()/signIn()/signOut()`.
+`GroupRepository`, `AuthRepository.observeCurrentUser()/signIn()/signOut()`.
+
+**Hinweis Domain-Modell**: Die Rules folgen bereits dem Gruppen-Modell (beliebig benannte
+Gruppen, Ersteller:in ist Owner, Mitgliedschaft in mehreren Gruppen, keine Eltern-Kind-
+Hierarchie). Der Kotlin-Code (`User.role`/`User.familyId`) und die Abschnitte oben zu
+Family/Parent/Child sind noch nicht umgestellt; die Rules nageln `role` auf `PARENT`/`CHILD`
+und `familyId` auf `null` fest, bis das passiert.
 
 Security-Regeln sind Pflicht, nicht optional — Sicherheitslogik nie ausschließlich im Client:
 
-- User lesen nur eigene private Daten; Parent verwaltet nur die eigene Family; Child editiert
-  nur eigene Challenges.
+- `users/{uid}`: nur das eigene Dokument lesen/schreiben/löschen; nur die Felder
+  `displayName, role, familyId, createdAt` (keine weiteren personenbezogenen Daten).
+- Gruppen: nur Mitglieder lesen; nur der Owner benennt um, löscht, erstellt Einladungen und
+  entfernt Mitglieder. Beitritt nur über einen gültigen, nicht abgelaufenen Einladungscode.
+  `displayName` wird ins Member-Dokument gespiegelt, damit Mitglieder sich sehen, ohne fremde
+  `users`-Dokumente zu lesen.
+- Challenges: jedes Mitglied fordert ein anderes Mitglied derselben Gruppe heraus; nur die
+  beiden Beteiligten lesen; nur die herausgeforderte Person startet/beantwortet;
+  abgeschlossene Challenges sind unveränderlich.
 - Questions öffentlich lesbar nur wenn `published == true`; Erstellen/Editieren/Löschen nur
-  durch Admins.
-- Niemand darf die eigene Rolle selbst auf `ADMIN` setzen.
+  durch Admins. Admin ist ein Custom Claim (`admin: true`, nur per Admin SDK setzbar), kein
+  Feld im User-Dokument — Selbst-Eskalation ist damit ausgeschlossen.
 
-Umgesetzt in `firestore.rules` (Repo-Root), referenziert über `firebase.json`. Deploy erst
-möglich, sobald ein Firebase-Projekt existiert und lokal verknüpft ist (`firebase use --add`
-bzw. `.firebaserc`, noch nicht angelegt), dann: `firebase deploy --only firestore:rules`. Die
-Regeln für `families/questions/categories/challenges/favorites` sind vorbereitet, aber noch
-nicht gegen echten Schreibcode geprüft (diese Repositories existieren noch nicht) — bei der
-jeweiligen Erstimplementierung die Feldnamen in den Rules gegen den tatsächlichen Code abgleichen.
+Umgesetzt in `firestore.rules` (Repo-Root), referenziert über `firebase.json`, getestet in
+`firestore-tests/` gegen den Firestore-Emulator (Java 11+ und Node nötig):
+`cd firestore-tests && npm ci && npm test` (läuft auch als eigener Job in der CI). Deploy:
+`firebase deploy --only firestore:rules --project wii-21c9b`. Nur `users` ist gegen echten
+Schreibcode geprüft; bei der Erstimplementierung von Groups/Challenges/Favorites die Feldnamen
+in Rules und Tests gegen den tatsächlichen Code abgleichen.
 
 ## Navigation
 
@@ -201,9 +217,9 @@ Gradle Wrapper vom Repo-Root (`gradlew.bat` unter Windows, `./gradlew` in POSIX-
 - Auf verbundenes Gerät installieren: `gradlew.bat installDebug`
 - Build-Outputs bereinigen: `gradlew.bat clean`
 
-`firebase.json` existiert bisher nur mit dem `firestore`-Key (Rules-Pfad, siehe "Firebase &
-Firestore" oben) — noch keine Emulator-Konfiguration. Sobald die eingerichtet ist, hier die
-Startbefehle für die Firebase Emulator Suite (Auth/Firestore/ggf. Functions) ergänzen.
+`firebase.json` enthält den Rules-Pfad und eine Emulator-Konfiguration für Firestore (Port 8080).
+Rules-Tests: `cd firestore-tests && npm test` (startet den Emulator selbst). Auth-/Functions-
+Emulator sind noch nicht eingerichtet.
 
 ### Statische Analyse: Detekt & ktlint
 
