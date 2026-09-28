@@ -1,4 +1,4 @@
-package com.wissli.app.feature.auth.login
+package com.wissli.app.features.login.ui
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.Arrangement
@@ -19,6 +19,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
+import com.wissli.app.features.login.presentation.LoginEffect
+import com.wissli.app.features.login.presentation.LoginIntent
+import com.wissli.app.features.login.presentation.LoginViewModel
 import org.koin.androidx.compose.koinViewModel
 
 @Composable
@@ -69,8 +72,6 @@ private fun LoginContent(
         ) {
             Text(text = "Willkommen bei Wissli", style = MaterialTheme.typography.headlineMedium)
 
-            // TODO: durch offiziellen Google-Sign-In-Button/Branding ersetzen statt Standard-Button —
-            // siehe https://developers.google.com/identity/branding-guidelines
             Button(onClick = onSignInClicked, enabled = !isLoading) {
                 if (isLoading) {
                     CircularProgressIndicator(modifier = Modifier.size(20.dp))

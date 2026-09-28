@@ -1,6 +1,7 @@
-package com.wissli.app.feature.auth.login
+package com.wissli.app.features.login.presentation
 
 import android.content.Context
+import android.util.Log
 import androidx.credentials.exceptions.GetCredentialCancellationException
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -49,6 +50,7 @@ class LoginViewModel(
                     _effect.emit(LoginEffect.NavigateToHome)
                 },
                 onFailure = { throwable ->
+                    Log.d("LoginViewModel", throwable.toString())
                     _state.update {
                         it.copy(isLoading = false, errorMessage = throwable.toLoginErrorMessageOrNull())
                     }

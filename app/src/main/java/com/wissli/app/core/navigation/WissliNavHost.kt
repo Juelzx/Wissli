@@ -17,7 +17,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.wissli.app.feature.auth.login.LoginScreen
+import com.wissli.app.features.login.ui.LoginScreen
 import org.koin.androidx.compose.koinViewModel
 
 /**
@@ -30,8 +30,8 @@ fun WissliNavHost(authGateViewModel: AuthGateViewModel = koinViewModel()) {
     val gateState by authGateViewModel.state.collectAsState()
 
     when (gateState) {
-        AuthGateState.Loading -> AuthGateLoading()
-        AuthGateState.LoggedOut -> WissliGraph(startDestination = Routes.LOGIN)
+        is AuthGateState.Loading -> AuthGateLoading()
+        is AuthGateState.LoggedOut -> WissliGraph(startDestination = Routes.LOGIN)
         is AuthGateState.LoggedIn -> WissliGraph(startDestination = Routes.HOME)
     }
 }

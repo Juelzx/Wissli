@@ -4,9 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Produkt
 
-Wissli ist eine Android-App für Kinder und Familien: Kinder entdecken Wissensfragen
-("Warum ist der Himmel blau?") und bekommen altersgerechte Erklärungen. Kernfeature:
-Eltern favorisieren Fragen und schicken sie als **Challenge** an ein Kind; das Kind
+Wissli ist eine Android-App rund um Wissensfragen ("Warum ist der Himmel blau?") mit
+altersgerechten Erklärungen. Nutzer:innen organisieren sich in frei benennbaren **Gruppen**
+(z. B. "Familie Scholler", aber genauso ein Freundeskreis oder jede andere Konstellation) —
+keine feste Family-/Parent-Child-Hierarchie. Kernfeature: Mitglieder favorisieren Fragen und
+schicken sie als **Challenge** an ein anderes Mitglied derselben Gruppe; die Antwortperson
 beantwortet die Frage und erhält Feedback/Erklärung. Ziel ist eine veröffentlichbare
 Play-Store-App, langfristig mit KI- und Premium-Funktionen.
 
@@ -20,7 +22,8 @@ Portierung nicht durch Android-spezifische Kurzschlüsse blockiert wird.
 Repo-Realität: Alle Ziel-Libraries (Koin, Room, Navigation Compose, Firebase, Coroutines,
 Turbine) sind im Version Catalog gepflegt und im `app`-Modul als Dependencies eingebunden.
 Implementiert ist bisher der **Auth-Flow** (Google Sign-In) als Referenz-Feature für alle
-folgenden Features: `WissliNavHost` → `AuthGateViewModel` (beobachtet
+folgenden Features: `WissliNavHost` → `AuthGateViewModel` (liegt bewusst in `core/navigation/` statt in `data/` oder
+`feature/`, da es kein Screen ist, sondern die Root-Navigation steuert; beobachtet
 `AuthRepository.observeCurrentUser()` und entscheidet die Start-Destination — `Routes.LOGIN`
 oder `Routes.HOME` — statt beim App-Start immer hart bei Login zu starten) → `LoginScreen` →
 `LoginViewModel` → `AuthRepository`/`GoogleAuthDataSource`. `Routes.HOME` ist aktuell nur ein
@@ -32,17 +35,26 @@ Firebase-Zugriff). Koin ist initialisiert (`WissliApplication` startet `startKoi
 `di/AppModule.kt` (`appModule`), das Feature-Module per `includes()` einhängt — bisher nur
 `di/AuthModule.kt` (`authModule`).
 Noch **nicht implementiert**: alle Screens/Repositories außer Auth (echtes Home, Questions,
-Favorites, Family, Challenges), Room-Entities/DAOs, Rollen-Onboarding nach dem Login (jede
-Erstanmeldung bekommt aktuell hart `UserRole.PARENT`, siehe TODO in `FirebaseAuthRepository`).
+Favorites, Groups, Challenges), Room-Entities/DAOs. `Group`/`GroupMember` existieren bereits als
+Domain-Modelle (`core/model/`), aber noch ohne `GroupRepository`/Firestore-Zugriff.
 Beim Lesen des Codes den tatsächlichen Stand prüfen statt dies als vollständig anzunehmen.
 
-Konvention für neue Features (siehe `feature/auth/login/*` als Vorlage): pro Screen ein
-eigenes Paket `feature/<bereich>/<screen>/` mit `<Screen>Contract.kt` (immutable State +
-sealed `Intent`/`Effect`), `<Screen>ViewModel.kt` (nimmt Intents via `onIntent()` entgegen,
-emittiert State über `StateFlow` und einmalige Effekte über einen `SharedFlow`) und
-`<Screen>Screen.kt` (Composable, holt das ViewModel per `koinViewModel()`, sammelt Effects in
-einem `LaunchedEffect`). Pro fachlichem Bereich ein eigenes `di/<Bereich>Module.kt`, das in
-`appModule` inkludiert wird — kein monolithisches DI-Modul.
+Konvention für neue Features (siehe `features/login/` als Vorlage): pro Feature ein flaches
+Paket `features/<feature>/` mit zwei Unterpaketen:
+- `presentation/` — MVI-Kern: `<Screen>Contract.kt` (immutable State + sealed `Intent`/`Effect`),
+  `<Screen>ViewModel.kt` (nimmt Intents via `onIntent()` entgegen, emittiert State über
+  `StateFlow` und einmalige Effekte über einen `SharedFlow`), ggf. `<Screen>Reducer.kt` (siehe
+  "Architektur").
+- `ui/` — `<Screen>Screen.kt` (Composable, holt das ViewModel per `koinViewModel()`, sammelt
+  Effects in einem `LaunchedEffect`) plus screen-spezifische Composables.
+
+Bewusst **kein** `data/`- oder `domain/`-Unterpaket pro Feature: Repositories werden
+feature-übergreifend genutzt (z. B. `QuestionRepository` von Questions, Favorites und
+Challenges) und liegen deshalb zentral unter `data/<bereich>/`; eine Use-Case-Schicht gibt es
+nicht (siehe "Architektur"). Tests spiegeln das Main-Paket (z. B.
+`app/src/test/.../features/login/presentation/LoginViewModelTest.kt`). Pro fachlichem Bereich
+ein eigenes `di/<Bereich>Module.kt`, das in `appModule` inkludiert wird — kein monolithisches
+DI-Modul.
 
 Firebase-Projekt existiert (`wii-21c9b`), `app/google-services.json` liegt im Repo,
 `google-services`- und `firebase-crashlytics`-Plugin sind in `app/build.gradle.kts` aktiv.
@@ -76,6 +88,8 @@ Entities/DAOs/Database zu beachten sind:
 - `Room.databaseBuilder(...)` braucht zwingend `.setDriver(BundledSQLiteDriver())`
   (`androidx.sqlite:sqlite-bundled`) — bewusst der bundled statt der Android-Framework-Treiber,
   passend zum Portierbarkeits-Anspruch oben (siehe "Scope").
+- Schema-Export ist per KSP-Arg `room.schemaLocation` auf `app/schemas/` konfiguriert — die
+  generierten Schema-JSONs committen (Grundlage für spätere Auto-Migrations).
 - Package-Imports sind `androidx.room3.*` statt `androidx.room.*`; `@TypeConverter` heißt jetzt
   `@ColumnTypeConverter`.
 
@@ -87,7 +101,7 @@ UI (Compose) → ViewModel → Repository → Data Sources (Firebase remote / Ro
 
 - MVI-orientiert: **immutable UI State** + **sealed Events/Intents** pro Screen, State-Fluss
   unidirektional über `StateFlow`. Für einfache Screens (wenige Intents, State-Übergänge ohne
-  Überschneidungen — siehe `feature/auth/login/*`) reicht `_state.update { ... }` direkt inline
+  Überschneidungen — siehe `features/login/`) reicht `_state.update { ... }` direkt inline
   in der Intent-Behandlung des ViewModels, ohne separaten Reducer. Sobald ein Screen komplexer
   wird (viele Intents/Seiteneffekte, die den State auf überlappende Weise verändern — z. B.
   Timer + Netzwerk-Sync + User-Eingaben gleichzeitig), einen expliziten, reinen Reducer
@@ -107,47 +121,67 @@ UI (Compose) → ViewModel → Repository → Data Sources (Firebase remote / Ro
 
 ## Domain-Modelle (Kern)
 
-- **User**: `id, displayName, role, familyId, createdAt`; `UserRole = PARENT | CHILD | ADMIN`.
-  So wenig personenbezogene Daten wie möglich, besonders bei Kindern (kein voller Name,
-  keine Adresse, kein Geburtsdatum).
-- **Family**: `id, name, createdAt`; Mitgliedschaft läuft über `User.familyId`.
-- **Question**: globaler, familienunabhängiger Content — `id, title, explanation,
+- **User**: `id, displayName, createdAt`. Keine Rolle und keine Gruppenzugehörigkeit auf dem
+  User selbst — beides lebt pro Mitgliedschaft in `GroupMember`, da ein User Mitglied mehrerer
+  Gruppen sein kann. So wenig personenbezogene Daten wie möglich über `displayName` hinaus
+  (kein voller Name, keine Adresse, kein Geburtsdatum).
+- **Group**: `id, name, createdBy, createdAt`. Ersetzt das frühere starre Family-Konzept
+  (Parent → Child) — eine Gruppe hat keinen festen Typ, kann eine Familie, ein Freundeskreis
+  oder jede andere Konstellation sein. Jede:r User kann beliebig viele Gruppen erstellen.
+- **GroupMember**: Mitgliedschaft + Rolle einer Person in einer Gruppe — `userId, groupId,
+  role, joinedAt`; `GroupRole = OWNER | MEMBER`. `OWNER` ist automatisch, wer die Gruppe
+  erstellt hat, und einzige Rolle, die Mitglieder einladen/entfernen oder die Gruppe
+  verwalten/löschen darf.
+- **Question**: globaler, gruppenunabhängiger Content — `id, title, explanation,
   categoryId, ageFrom, ageTo, difficulty, answerType, imageUrl?, published, premium,
   createdAt, updatedAt`.
 - **Favorite**: gehört einem User, referenziert eine Question per ID — verändert nie die
   Question selbst.
-- **Challenge**: verbindet Question, Family, `createdBy` (Parent) und `assignedTo` (Child) —
-  `id, questionId, familyId, createdBy, assignedTo, status, answer, result?, createdAt,
+- **Challenge**: verbindet Question, Group, `createdBy` und `assignedTo` (beliebige zwei
+  Mitglieder derselben Gruppe, keine feste Rollenzuordnung) — `id,
+  questionId, groupId, createdBy, assignedTo, status, answer, result?, createdAt,
   completedAt?`; `status = PENDING | IN_PROGRESS | COMPLETED`.
+
+Admin-Rechte für Content-Pflege (Questions/Categories, über die künftige Admin-Web-App) sind
+noch nicht modelliert — kein globales Rollenkonzept mehr auf User. Lösung (z. B. feste Liste von
+Admin-UIDs) folgt, wenn die Admin-Web-App ansteht; bis dahin läuft Content-Pflege über die
+Firebase-Konsole/Admin-SDK.
 
 ## Firebase & Firestore
 
-Collections: `users, families, questions, categories, challenges, favorites` (Subcollections
-erlaubt, wenn fachlich sinnvoller). Repository-Abstraktionen pro fachlichem Bereich, z. B.
+Collections: `users, groups, questions, categories, challenges, favorites`; Mitgliedschaft als
+Subcollection `groups/{groupId}/members/{uid}` (Query "alle Gruppen eines Users" über eine
+Collection-Group-Query auf `members`, gefiltert nach `userId`). Repository-Abstraktionen pro
+fachlichem Bereich, z. B.
 `QuestionRepository.observeQuestions()/getQuestion()/observeFavorites()/addFavorite()`,
 `ChallengeRepository.observeChallenges()/createChallenge()/startChallenge()/completeChallenge()`,
-`FamilyRepository`, `AuthRepository.observeCurrentUser()/signIn()/signOut()`.
+`GroupRepository.observeGroups()/createGroup()/inviteMember()/removeMember()/observeMembers()`,
+`AuthRepository.observeCurrentUser()/signIn()/signOut()`.
 
 Security-Regeln sind Pflicht, nicht optional — Sicherheitslogik nie ausschließlich im Client:
 
-- User lesen nur eigene private Daten; Parent verwaltet nur die eigene Family; Child editiert
-  nur eigene Challenges.
-- Questions öffentlich lesbar nur wenn `published == true`; Erstellen/Editieren/Löschen nur
-  durch Admins.
-- Niemand darf die eigene Rolle selbst auf `ADMIN` setzen.
+- User lesen nur eigene private Daten.
+- Gruppen lesbar für Mitglieder; erstellen kann jede:r (wird automatisch Owner); verwalten
+  (Mitglieder einladen/entfernen) und löschen nur der Owner.
+- Challenges nur zwischen Mitgliedern derselben Gruppe; lesen/bearbeiten nur wer selbst
+  Mitglied dieser Gruppe ist.
+- Questions öffentlich lesbar nur wenn `published == true`; Schreiben vorerst komplett
+  gesperrt (siehe Admin-Hinweis oben).
 
-Umgesetzt in `firestore.rules` (Repo-Root), referenziert über `firebase.json`. Deploy erst
-möglich, sobald ein Firebase-Projekt existiert und lokal verknüpft ist (`firebase use --add`
-bzw. `.firebaserc`, noch nicht angelegt), dann: `firebase deploy --only firestore:rules`. Die
-Regeln für `families/questions/categories/challenges/favorites` sind vorbereitet, aber noch
-nicht gegen echten Schreibcode geprüft (diese Repositories existieren noch nicht) — bei der
-jeweiligen Erstimplementierung die Feldnamen in den Rules gegen den tatsächlichen Code abgleichen.
+Umgesetzt in `firestore.rules` (Repo-Root), referenziert über `firebase.json`. Das Firebase-Projekt
+(`wii-21c9b`) existiert, ist lokal aber noch nicht mit der Firebase CLI verknüpft (keine
+`.firebaserc`) — vor dem ersten Deploy einmalig `firebase use --add wii-21c9b`, dann:
+`firebase deploy --only firestore:rules`. Die
+Regeln für `groups/members/questions/categories/challenges/favorites` sind vorbereitet, aber
+noch nicht gegen echten Schreibcode geprüft (diese Repositories existieren noch nicht) — bei
+der jeweiligen Erstimplementierung die Feldnamen in den Rules gegen den tatsächlichen Code
+abgleichen.
 
 ## Navigation
 
 Navigation Compose; Routen zentral definiert (in `core/navigation`), niemals verstreute
 String-Literale in Screens. Flows: Auth (Login) → Main (Home, Questions, Favorites,
-Challenges, Family, Profile) plus Detail-Routen (Question Detail, Challenge Detail).
+Challenges, Groups, Profile) plus Detail-Routen (Question Detail, Challenge Detail).
 
 ## UI & Theming
 
@@ -182,7 +216,7 @@ des aktuellen Android-Scopes, nur bei der Repo-/Doku-Struktur mitdenken.
 
 Nicht die ganze App auf einmal bauen. Reihenfolge: Projekt/Gradle-Setup → Compose-Theme →
 Navigation-Grundgerüst → Firebase-Setup → Models → Repository-Interfaces → Firebase-
-Datenquellen → Auth → Questions → Favorites → Family → Challenges → Push Notifications →
+Datenquellen → Auth → Questions → Favorites → Groups → Challenges → Push Notifications →
 Tests. **Nach jedem Schritt muss das Projekt weiterhin kompilieren.**
 
 ## Commands
@@ -200,6 +234,10 @@ Gradle Wrapper vom Repo-Root (`gradlew.bat` unter Windows, `./gradlew` in POSIX-
 - Instrumented Tests (`app/src/androidTest`, benötigt Gerät/Emulator): `gradlew.bat connectedDebugAndroidTest`
 - Auf verbundenes Gerät installieren: `gradlew.bat installDebug`
 - Build-Outputs bereinigen: `gradlew.bat clean`
+- Alles, was die CI prüft (ktlint, Detekt, Android Lint, Unit-Tests): `gradlew.bat check --continue`
+
+CI (`.github/workflows/ci.yml`, JDK 21) führt bei Push/PR auf `main` genau `./gradlew check
+--continue` aus — vor einem Commit lokal `check` laufen lassen, damit die CI nicht rot wird.
 
 `firebase.json` existiert bisher nur mit dem `firestore`-Key (Rules-Pfad, siehe "Firebase &
 Firestore" oben) — noch keine Emulator-Konfiguration. Sobald die eingerichtet ist, hier die

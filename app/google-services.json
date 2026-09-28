@@ -12,7 +12,20 @@
           "package_name": "com.wissli.app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "93245197585-2m5l4l4tb80dprp8r4eim624e066avak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wissli.app",
+            "certificate_hash": "6f427dad4eaba649117069bf0e343b5c22a86e3c"
+          }
+        },
+        {
+          "client_id": "93245197585-7a0hvbq93ohoi43b8f7t389rqldqjcia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyC01HOzRvqsLuFD0sAae606_9zmXilyNm0"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93245197585-7a0hvbq93ohoi43b8f7t389rqldqjcia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

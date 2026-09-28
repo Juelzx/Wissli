@@ -1,11 +1,10 @@
-package com.wissli.app.feature.auth.login
+package com.wissli.app.features.login.presentation
 
 import android.content.Context
 import android.content.ContextWrapper
 import androidx.credentials.exceptions.GetCredentialCancellationException
 import app.cash.turbine.test
 import com.wissli.app.core.model.User
-import com.wissli.app.core.model.UserRole
 import com.wissli.app.data.auth.AuthRepository
 import com.wissli.app.data.auth.GoogleAuthDataSource
 import kotlinx.coroutines.CompletableDeferred
@@ -137,9 +136,7 @@ class LoginViewModelTest {
 private val testUser =
     User(
         id = "uid-1",
-        displayName = "Test Kind",
-        role = UserRole.PARENT,
-        familyId = null,
+        displayName = "Test User",
         createdAt = 0L,
     )
 

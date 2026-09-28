@@ -10,7 +10,7 @@ package com.wissli.app.core.navigation
  * kotlinx-serialization-Plugin + `androidx.navigation:navigation-compose` typisierte API.
  *
  * TODO sobald weitere Screens entstehen:
- *  - Main-Graph ergänzen (Home, Questions, Favorites, Challenges, Family, Profile)
+ *  - Main-Graph ergänzen (Home, Questions, Favorites, Challenges, Groups, Profile)
  *  - Detail-Routen mit Argumenten (z. B. QuestionDetail, ChallengeDetail)
  *  - Wenn der Graph wächst, auf verschachtelte NavGraphBuilder.navigation(...)-Graphen
  *    (Auth-Graph / Main-Graph) umstellen statt eines einzigen flachen NavHost.

@@ -11,15 +11,10 @@ import com.wissli.app.data.auth.AuthRepository
 import com.wissli.app.data.auth.CredentialManagerGoogleAuthDataSource
 import com.wissli.app.data.auth.FirebaseAuthRepository
 import com.wissli.app.data.auth.GoogleAuthDataSource
-import com.wissli.app.feature.auth.login.LoginViewModel
+import com.wissli.app.features.login.presentation.LoginViewModel
 import org.koin.core.module.dsl.viewModelOf
 import org.koin.dsl.module
 
-/**
- * Feature-Modul für Auth. Wird in [appModule] per includes() eingehängt statt alles in einem
- * einzigen riesigen Modul zu sammeln — künftige Feature-Module (Questions, Family, Challenges)
- * folgen demselben Muster: eigene di/<Feature>Module.kt, in AppModule includen.
- */
 val authModule =
     module {
         single<FirebaseAuth> { Firebase.auth }

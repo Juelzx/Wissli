@@ -1,18 +1,24 @@
 rules_version = '2';
 
-// Sicherheitsregeln für Wissli — siehe CLAUDE.md ("Firebase & Firestore"):
-//   - User lesen nur eigene private Daten.
-//   - Parent verwaltet nur die eigene Family.
-//   - Child editiert nur eigene Challenges.
-//   - Questions öffentlich lesbar nur wenn published == true; Erstellen/Editieren/Löschen nur Admins.
-//   - Niemand darf die eigene Rolle selbst auf ADMIN setzen.
+// Sicherheitsregeln für Wissli — siehe CLAUDE.md ("Firebase & Firestore").
+//
+// Gruppen-Modell: keine feste Family-Hierarchie (Parent -> Child) mehr. Jede:r User kann beliebig
+// viele Gruppen erstellen ("Familie Scholler", ein Freundeskreis, o. Ä.) und Mitglied mehrerer
+// Gruppen sein. Mitgliedschaft + Rolle (OWNER/MEMBER) liegen pro Gruppe in der Subcollection
+// groups/{groupId}/members/{uid} statt denormalisiert auf dem User-Dokument — ein User hat keine
+// globale Rolle mehr. Owner = wer die Gruppe erstellt hat; einzige Rolle, die Mitglieder
+// einladen/entfernen oder die Gruppe verwalten/löschen darf.
 //
 // Feldnamen für "users" sind 1:1 aus FirebaseAuthRepository.toFirestoreMap()/toUserOrNull()
 // übernommen (die einzige Collection, die aktuell tatsächlich beschrieben wird). Für
-// families/questions/categories/challenges/favorites — noch nicht implementiert — sind die
-// Feldnamen aus CLAUDE.md "Domain-Modelle (Kern)" abgeleitet; bei der ersten echten
-// Repository-Implementierung dieser Collections gegen die Regeln hier prüfen und bei Bedarf
-// anpassen, statt sie ungeprüft für bare Münze zu nehmen.
+// groups/members/questions/categories/challenges/favorites — noch keine Repositories
+// implementiert — sind die Feldnamen aus CLAUDE.md "Domain-Modelle (Kern)" abgeleitet; bei der
+// jeweiligen Erstimplementierung gegen die Regeln hier prüfen und bei Bedarf anpassen.
+//
+// Admin-Rechte für Questions/Categories (Content-Verwaltung über die künftige Admin-Web-App) sind
+// noch nicht modelliert (kein globales Rollenkonzept mehr) — Client-Writes deshalb vorerst
+// komplett gesperrt; Content-Pflege läuft bis dahin über die Firebase-Konsole/Admin-SDK, die an
+// diese Regeln nicht gebunden sind.
 service cloud.firestore {
   match /databases/{database}/documents {
 
@@ -20,86 +26,80 @@ service cloud.firestore {
       return request.auth != null;
     }
 
-    function userDoc(uid) {
-      return get(/databases/$(database)/documents/users/$(uid));
+    function isGroupMember(groupId) {
+      return isSignedIn()
+        && exists(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid));
     }
 
-    function hasUserDoc(uid) {
-      return exists(/databases/$(database)/documents/users/$(uid));
+    function isGroupOwner(groupId) {
+      return isSignedIn()
+        && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid)).data.role == 'OWNER';
     }
 
-    function currentUserRole() {
-      return userDoc(request.auth.uid).data.role;
-    }
-
-    function currentUserFamilyId() {
-      return userDoc(request.auth.uid).data.familyId;
-    }
-
-    function isAdmin() {
-      return isSignedIn() && hasUserDoc(request.auth.uid) && currentUserRole() == 'ADMIN';
-    }
-
-    // users/{uid}: jede:r liest/schreibt ausschließlich das eigene Dokument. Die Rolle darf beim
-    // Anlegen nie ADMIN sein und sich danach nur ändern, wenn schon ADMIN aufruft — verhindert
-    // Selbst-Eskalation zum Admin.
+    // users/{uid}: jede:r liest/schreibt ausschließlich das eigene Dokument. Keine Rolle mehr zu
+    // validieren (siehe oben) — nur noch displayName/createdAt.
     match /users/{uid} {
-      allow read: if isSignedIn() && request.auth.uid == uid;
-
-      allow create: if isSignedIn()
-        && request.auth.uid == uid
-        && request.resource.data.role in ['PARENT', 'CHILD'];
-
-      allow update: if isSignedIn()
-        && request.auth.uid == uid
-        && (request.resource.data.role == resource.data.role || isAdmin());
-
+      allow read, create, update: if isSignedIn() && request.auth.uid == uid;
       allow delete: if false;
     }
 
-    // families/{familyId}: Mitglieder (über User.familyId) lesen; nur ein Parent ohne bestehende
-    // Family legt neu an, nur ein Parent der eigenen Family verwaltet/löscht.
-    match /families/{familyId} {
-      allow read: if isSignedIn() && currentUserFamilyId() == familyId;
+    // groups/{groupId}: lesbar für Mitglieder; erstellen kann jede:r (wird automatisch Owner,
+    // siehe members-Subcollection unten); verwalten/löschen nur der Owner.
+    match /groups/{groupId} {
+      allow read: if isGroupMember(groupId);
+      allow create: if isSignedIn() && request.resource.data.createdBy == request.auth.uid;
+      allow update, delete: if isGroupOwner(groupId);
 
-      allow create: if isSignedIn()
-        && currentUserRole() == 'PARENT'
-        && currentUserFamilyId() == null;
+      // groups/{groupId}/members/{memberUid}: Mitgliedschaft + Rolle einer Person in dieser Gruppe.
+      match /members/{memberUid} {
+        allow read: if isGroupMember(groupId);
 
-      allow update, delete: if isSignedIn()
-        && currentUserRole() == 'PARENT'
-        && currentUserFamilyId() == familyId;
+        // Zwei erlaubte Fälle beim Anlegen: (a) der Owner lädt eine weitere Person als MEMBER ein,
+        // (b) die Gruppen-Ersteller:in trägt sich direkt nach dem Anlegen der Gruppe selbst als
+        // OWNER ein (verifiziert über groups/{groupId}.createdBy statt einer eigenen "ist das der
+        // allererste Member"-Prüfung).
+        allow create: if isSignedIn()
+          && ((isGroupOwner(groupId) && request.resource.data.role == 'MEMBER')
+            || (request.auth.uid == memberUid
+              && request.resource.data.role == 'OWNER'
+              && get(/databases/$(database)/documents/groups/$(groupId)).data.createdBy == request.auth.uid));
+
+        // Rollenwechsel nachträglich (z. B. Ownership übertragen) ist noch nicht vorgesehen.
+        allow update: if false;
+
+        // Der Owner entfernt Mitglieder, oder ein Mitglied verlässt die Gruppe selbst. Der Owner
+        // kann sich damit theoretisch selbst entfernen, ohne die Ownership zu übertragen — dieser
+        // Edge-Case ist bewusst ungelöst, bis das echte Group-Repository existiert.
+        allow delete: if isGroupOwner(groupId) || request.auth.uid == memberUid;
+      }
     }
 
-    // questions/{questionId}: global, familienunabhängig. Öffentlich lesbar nur wenn published,
-    // Erstellen/Editieren/Löschen ausschließlich Admins (z. B. über die künftige Admin-Web-App).
+    // questions/{questionId}, categories/{categoryId}: global, gruppenunabhängig. Öffentlich
+    // lesbar nur wenn published; Schreiben vorerst komplett gesperrt (siehe Admin-Hinweis oben).
     match /questions/{questionId} {
-      allow read: if resource.data.published == true || isAdmin();
-      allow write: if isAdmin();
+      allow read: if resource.data.published == true;
+      allow write: if false;
     }
 
-    // categories/{categoryId}: analog zu questions — öffentlicher Read, Admin-only Write.
     match /categories/{categoryId} {
       allow read: if true;
-      allow write: if isAdmin();
+      allow write: if false;
     }
 
-    // challenges/{challengeId}: nur Mitglieder derselben Family lesen. Erstellen nur der Parent,
-    // der als createdBy eingetragen wird; Bearbeiten nur zugewiesenes Kind (Antwort) oder der
-    // erstellende Parent (Status/Ergebnis); Löschen nur der erstellende Parent.
+    // challenges/{challengeId}: verbindet zwei Mitglieder derselben Gruppe (createdBy/assignedTo
+    // beliebige Mitglieder, keine Parent/Child-Einschränkung mehr). Lesen/Schreiben nur innerhalb
+    // der eigenen Gruppenmitgliedschaft.
     match /challenges/{challengeId} {
-      allow read: if isSignedIn() && currentUserFamilyId() == resource.data.familyId;
+      allow read: if isGroupMember(resource.data.groupId);
 
-      allow create: if isSignedIn()
-        && currentUserRole() == 'PARENT'
+      allow create: if isGroupMember(request.resource.data.groupId)
         && request.resource.data.createdBy == request.auth.uid
-        && request.resource.data.familyId == currentUserFamilyId();
+        && exists(/databases/$(database)/documents/groups/$(request.resource.data.groupId)/members/$(request.resource.data.assignedTo));
 
-      allow update: if isSignedIn()
-        && currentUserFamilyId() == resource.data.familyId
+      allow update: if isGroupMember(resource.data.groupId)
         && (request.auth.uid == resource.data.assignedTo || request.auth.uid == resource.data.createdBy);
 
-      allow delete: if isSignedIn() && request.auth.uid == resource.data.createdBy;
+      allow delete: if isGroupMember(resource.data.groupId) && request.auth.uid == resource.data.createdBy;
     }
 
     // favorites/{favoriteId}: gehört ausschließlich der/dem besitzenden Nutzer:in, verändert nie
