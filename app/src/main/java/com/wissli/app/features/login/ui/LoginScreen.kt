@@ -33,7 +33,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.wissli.app.R
@@ -43,6 +42,7 @@ import com.wissli.app.features.login.presentation.LoginError
 import com.wissli.app.features.login.presentation.LoginIntent
 import com.wissli.app.features.login.presentation.LoginState
 import com.wissli.app.features.login.presentation.LoginViewModel
+import com.wissli.app.ui.preview.ScreenPreviews
 import com.wissli.app.ui.theme.Spacing
 import com.wissli.app.ui.theme.WissliTheme
 import org.koin.androidx.compose.koinViewModel
@@ -246,17 +246,39 @@ private fun LoginError.messageRes(): Int =
 private const val ENTER_DURATION_MILLIS = 450
 private const val ENTER_OFFSET_DIVISOR = 6
 
-@Preview(showBackground = true, heightDp = 860)
+@ScreenPreviews
 @Composable
-internal fun LoginContentReturningPreview() {
-    WissliTheme(darkTheme = false) {
+internal fun LoginFirstTimePreview() {
+    LoginContentPreview(state = LoginState(isLoadingLastAccount = false))
+}
+
+@ScreenPreviews
+@Composable
+internal fun LoginReturningPreview() {
+    LoginContentPreview(state = LoginState(isLoadingLastAccount = false, lastAccount = PreviewAccount))
+}
+
+@ScreenPreviews
+@Composable
+internal fun LoginReturningWithoutNamePreview() {
+    LoginContentPreview(
+        state = LoginState(isLoadingLastAccount = false, lastAccount = PreviewAccount.copy(displayName = "")),
+    )
+}
+
+@ScreenPreviews
+@Composable
+internal fun LoginSigningInPreview() {
+    LoginContentPreview(
+        state = LoginState(isLoadingLastAccount = false, lastAccount = PreviewAccount, isSigningIn = true),
+    )
+}
+
+@Composable
+private fun LoginContentPreview(state: LoginState) {
+    WissliTheme {
         LoginContent(
-            state =
-                LoginState(
-                    isLoadingLastAccount = false,
-                    lastAccount =
-                        LastSignedInAccount(displayName = "Sarah Kaufmann", email = "sarah@example.com"),
-                ),
+            state = state,
             snackbarHostState = remember { SnackbarHostState() },
             onContinueClicked = {},
             onUseAnotherAccountClicked = {},
@@ -264,15 +286,4 @@ internal fun LoginContentReturningPreview() {
     }
 }
 
-@Preview(showBackground = true, heightDp = 860)
-@Composable
-internal fun LoginContentFirstTimePreview() {
-    WissliTheme(darkTheme = false) {
-        LoginContent(
-            state = LoginState(isLoadingLastAccount = false),
-            snackbarHostState = remember { SnackbarHostState() },
-            onContinueClicked = {},
-            onUseAnotherAccountClicked = {},
-        )
-    }
-}
+private val PreviewAccount = LastSignedInAccount(displayName = "Sarah Kaufmann", email = "sarah@example.com")

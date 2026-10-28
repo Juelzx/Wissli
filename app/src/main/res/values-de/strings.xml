@@ -1,0 +1,27 @@
+<resources>
+    <!-- Login -->
+    <string name="login_title_welcome_back_named">Willkommen zurück,\n%1$s!</string>
+    <string name="login_title_welcome_back">Willkommen zurück!</string>
+    <string name="login_title_first_time">Neugierig auf\ndie Welt?</string>
+    <string name="login_subtitle_returning">Mach da weiter, wo du aufgehört hast – deine Gruppen, Favoriten und Challenges warten schon.</string>
+    <string name="login_subtitle_first_time">Spannende Fragen, Erklärungen, die wirklich hängen bleiben, und Challenges mit deinen Leuten.</string>
+    <string name="login_continue_as">Weiter als %1$s</string>
+    <string name="login_continue_with_google">Weiter mit Google</string>
+    <string name="login_sign_in_with_google">Mit Google anmelden</string>
+    <string name="login_use_another_account">Anderes Konto verwenden</string>
+    <string name="login_error_no_google_account">Auf diesem Gerät ist kein Google-Konto eingerichtet. Füge in den Android-Einstellungen eins hinzu und versuch es dann noch einmal.</string>
+    <string name="login_error_sign_in_failed">Anmeldung fehlgeschlagen. Prüf deine Verbindung und versuch es noch einmal.</string>
+
+    <!-- Login illustration (decorative sample question) -->
+    <string name="login_preview_category">NATUR</string>
+    <string name="login_preview_progress">Frage 1 von 5</string>
+    <string name="login_preview_question">Warum ist der Himmel blau?</string>
+    <string name="login_preview_answer_a">Spiegelung</string>
+    <string name="login_preview_answer_b">Lichtstreuung</string>
+    <string name="login_preview_answer_c">Blaue Sonne</string>
+    <string name="login_preview_answer_d">Wolken</string>
+
+    <!-- Home placeholder -->
+    <string name="home_placeholder_signed_in">Angemeldet ✓</string>
+    <string name="home_placeholder_sign_out">Abmelden</string>
+</resources>
