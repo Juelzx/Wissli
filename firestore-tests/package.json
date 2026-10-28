@@ -1,0 +1,14 @@
+{
+  "name": "wissli-firestore-rules-tests",
+  "description": "Emulator-Tests für ../firestore.rules",
+  "scripts": {
+    "test": "firebase emulators:exec --config ../firebase.json --only firestore --project demo-wissli \"node --test\""
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^5.0.2",
+    "firebase": "^12.19.0",
+    "firebase-tools": "^15.32.0"
+  },
+  "private": true,
+  "type": "module"
+}
