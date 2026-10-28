@@ -239,9 +239,11 @@ Gradle Wrapper vom Repo-Root (`gradlew.bat` unter Windows, `./gradlew` in POSIX-
 CI (`.github/workflows/ci.yml`, JDK 21) führt bei Push/PR auf `main` genau `./gradlew check
 --continue` aus — vor einem Commit lokal `check` laufen lassen, damit die CI nicht rot wird.
 
-`firebase.json` existiert bisher nur mit dem `firestore`-Key (Rules-Pfad, siehe "Firebase &
-Firestore" oben) — noch keine Emulator-Konfiguration. Sobald die eingerichtet ist, hier die
-Startbefehle für die Firebase Emulator Suite (Auth/Firestore/ggf. Functions) ergänzen.
+`firebase.json` enthält den Rules-Pfad und eine Emulator-Konfiguration für Firestore (Port 8080).
+Rules-Tests gegen den Firestore-Emulator (Node 22 + Java 11+ nötig, läuft auch als eigener
+CI-Job `firestore-rules`): `cd firestore-tests && npm ci && npm test` (startet den Emulator
+selbst). Bei jeder Änderung an `firestore.rules` die Tests in `firestore-tests/rules.test.js`
+mitziehen. Auth-/Functions-Emulator sind noch nicht eingerichtet.
 
 ### Statische Analyse: Detekt & ktlint
 

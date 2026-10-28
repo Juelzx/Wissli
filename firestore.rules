@@ -37,9 +37,31 @@ service cloud.firestore {
     }
 
     // users/{uid}: jede:r liest/schreibt ausschließlich das eigene Dokument. Keine Rolle mehr zu
-    // validieren (siehe oben) — nur noch displayName/createdAt.
+    // validieren (siehe oben) — nur displayName/createdAt, keine weiteren personenbezogenen Daten.
+    // Ältere Dokumente aus dem Family-Modell können noch role/familyId enthalten; die bleiben
+    // lesbar, aber neu schreiben lassen sie sich nicht.
     match /users/{uid} {
-      allow read, create, update: if isSignedIn() && request.auth.uid == uid;
+      function isOwnDoc() {
+        return isSignedIn() && request.auth.uid == uid;
+      }
+
+      function hasValidDisplayName() {
+        return request.resource.data.displayName is string
+          && request.resource.data.displayName.size() <= 50;
+      }
+
+      allow read: if isOwnDoc();
+
+      allow create: if isOwnDoc()
+        && request.resource.data.keys().hasOnly(['displayName', 'createdAt'])
+        && hasValidDisplayName()
+        && request.resource.data.createdAt is int;
+
+      // Nur den displayName ändern; createdAt bleibt fix.
+      allow update: if isOwnDoc()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['displayName'])
+        && hasValidDisplayName();
+
       allow delete: if false;
     }
 
@@ -62,7 +84,9 @@ service cloud.firestore {
           && ((isGroupOwner(groupId) && request.resource.data.role == 'MEMBER')
             || (request.auth.uid == memberUid
               && request.resource.data.role == 'OWNER'
-              && get(/databases/$(database)/documents/groups/$(groupId)).data.createdBy == request.auth.uid));
+              // getAfter statt get, damit Gruppe und erste Mitgliedschaft in einem Batch
+              // geschrieben werden können (get sähe die Gruppe im selben Batch noch nicht).
+              && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.createdBy == request.auth.uid));
 
         // Rollenwechsel nachträglich (z. B. Ownership übertragen) ist noch nicht vorgesehen.
         allow update: if false;
