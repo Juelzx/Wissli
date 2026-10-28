@@ -8,8 +8,9 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.flow.take
+import kotlinx.coroutines.launch
 
-/** Ob und als wer die aktuelle Person beim App-Start bereits angemeldet ist. */
 sealed interface AuthGateState {
     data object Loading : AuthGateState
 
@@ -21,25 +22,26 @@ sealed interface AuthGateState {
 }
 
 /**
- * Entscheidet die Start-Destination des Root-NavHost anhand des aktuellen Login-Status, damit
- * bereits angemeldete Nutzer:innen beim App-Start nicht erneut den Login-Screen sehen. Kapselt
- * [AuthRepository.observeCurrentUser] als root-weiten State statt dass jeder Screen selbst
- * beobachtet.
+ * Picks the start destination from the sign-in state at app start. Only the first value counts:
+ * later sign-in/sign-out changes navigate explicitly, otherwise [WissliNavHost] would rebuild the
+ * whole graph and create Home or Login twice.
  */
 class AuthGateViewModel(
-    authRepository: AuthRepository,
+    private val authRepository: AuthRepository,
 ) : ViewModel() {
     val state: StateFlow<AuthGateState> =
         authRepository
             .observeCurrentUser()
+            .take(1)
             .map { user -> if (user != null) AuthGateState.LoggedIn(user) else AuthGateState.LoggedOut }
             .stateIn(
                 scope = viewModelScope,
-                started = SharingStarted.WhileSubscribed(STOP_TIMEOUT_MILLIS),
+                started = SharingStarted.Lazily,
                 initialValue = AuthGateState.Loading,
             )
 
-    private companion object {
-        const val STOP_TIMEOUT_MILLIS = 5_000L
+    // TODO: move to the profile screen once it exists.
+    fun signOut() {
+        viewModelScope.launch { authRepository.signOut() }
     }
 }

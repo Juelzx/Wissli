@@ -15,6 +15,7 @@ import kotlinx.coroutines.tasks.await
 class FirebaseAuthRepository(
     private val firebaseAuth: FirebaseAuth,
     private val firestore: FirebaseFirestore,
+    private val lastAccountLocalDataSource: LastAccountLocalDataSource,
 ) : AuthRepository {
     override fun observeCurrentUser(): Flow<User?> =
         callbackFlow {
@@ -23,17 +24,17 @@ class FirebaseAuthRepository(
                 FirebaseAuth.AuthStateListener { auth ->
                     val firebaseUser = auth.currentUser
                     if (firebaseUser == null) {
-                        Log.d(TAG, "observeCurrentUser: kein FirebaseUser -> ausgeloggt")
+                        Log.d(TAG, "observeCurrentUser: no Firebase user, signed out")
                         trySend(null)
                     } else {
-                        Log.d(TAG, "observeCurrentUser: FirebaseAuth-Session vorhanden (uid=${firebaseUser.uid})")
+                        Log.d(TAG, "observeCurrentUser: Firebase session found (uid=${firebaseUser.uid})")
                         producerScope.launch {
                             val uid = firebaseUser.uid
                             val user =
                                 runCatching { fetchUserDocument(uid) }
-                                    .onFailure { Log.d(TAG, "observeCurrentUser: users/$uid nicht ladbar", it) }
+                                    .onFailure { Log.d(TAG, "observeCurrentUser: could not load users/$uid", it) }
                                     .getOrNull()
-                            val outcome = if (user != null) "geladen" else "null"
+                            val outcome = if (user != null) "loaded" else "null"
                             Log.d(TAG, "observeCurrentUser: users/$uid -> $outcome")
                             trySend(user)
                         }
@@ -47,12 +48,26 @@ class FirebaseAuthRepository(
         runCatching {
             val credential = GoogleAuthProvider.getCredential(googleIdToken, null)
             val authResult = firebaseAuth.signInWithCredential(credential).await()
-            val firebaseUser = requireNotNull(authResult.user) { "Firebase-Sign-in ohne User zurückgegeben" }
-            Log.d(TAG, "signInWithGoogle: Firebase-Auth-Login erfolgreich (uid=${firebaseUser.uid})")
-            getOrCreateUserDocument(uid = firebaseUser.uid, displayName = firebaseUser.displayName.orEmpty())
+            val firebaseUser = requireNotNull(authResult.user) { "Firebase sign-in returned no user" }
+            Log.d(TAG, "signInWithGoogle: Firebase sign-in succeeded (uid=${firebaseUser.uid})")
+            val user =
+                getOrCreateUserDocument(
+                    uid = firebaseUser.uid,
+                    displayName = firebaseUser.displayName.orEmpty(),
+                )
+            // The email stays on the device only and is never written to Firestore.
+            lastAccountLocalDataSource.save(
+                LastSignedInAccount(
+                    displayName = user.displayName.ifBlank { firebaseUser.displayName.orEmpty() },
+                    email = firebaseUser.email.orEmpty(),
+                ),
+            )
+            user
         }.onFailure { throwable ->
-            Log.d(TAG, "signInWithGoogle: fehlgeschlagen", throwable)
+            Log.d(TAG, "signInWithGoogle: failed", throwable)
         }
+
+    override suspend fun getLastSignedInAccount(): LastSignedInAccount? = lastAccountLocalDataSource.get()
 
     override suspend fun signOut() {
         firebaseAuth.signOut()

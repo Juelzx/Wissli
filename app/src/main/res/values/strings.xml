@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">Wissli</string>
+    <string name="app_name" translatable="false">Wissli</string>
+    <string name="logo_mark" translatable="false">?</string>
+
+    <!-- Login -->
+    <string name="login_title_welcome_back_named">Welcome back,\n%1$s!</string>
+    <string name="login_title_welcome_back">Welcome back!</string>
+    <string name="login_title_first_time">Curious about\nthe world?</string>
+    <string name="login_subtitle_returning">Pick up where you left off – your groups, favorites and challenges are waiting.</string>
+    <string name="login_subtitle_first_time">Fascinating questions, explanations that actually stick, and challenges with your people.</string>
+    <string name="login_continue_as">Continue as %1$s</string>
+    <string name="login_continue_with_google">Continue with Google</string>
+    <string name="login_sign_in_with_google">Sign in with Google</string>
+    <string name="login_use_another_account">Use another account</string>
+    <string name="login_account_provider_google" translatable="false">GOOGLE</string>
+    <string name="login_error_no_google_account">There is no Google account on this device. Add one in the Android settings and try again.</string>
+    <string name="login_error_sign_in_failed">Sign-in failed. Check your connection and try again.</string>
+
+    <!-- Login illustration (decorative sample question) -->
+    <string name="login_preview_category">NATURE</string>
+    <string name="login_preview_progress">Question 1 of 5</string>
+    <string name="login_preview_question">Why is the sky blue?</string>
+    <string name="login_preview_answer_a">Reflection</string>
+    <string name="login_preview_answer_b">Scattering</string>
+    <string name="login_preview_answer_c">Blue sun</string>
+    <string name="login_preview_answer_d">Clouds</string>
+
+    <!-- Home placeholder -->
+    <string name="home_placeholder_signed_in">Signed in ✓</string>
+    <string name="home_placeholder_sign_out">Sign out</string>
 </resources>

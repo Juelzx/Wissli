@@ -1,55 +1,92 @@
 package com.wissli.app.data.auth
 
 import android.content.Context
+import androidx.credentials.Credential
 import androidx.credentials.CredentialManager
 import androidx.credentials.GetCredentialRequest
+import androidx.credentials.exceptions.GetCredentialCancellationException
 import androidx.credentials.exceptions.NoCredentialException
 import com.google.android.libraries.identity.googleid.GetGoogleIdOption
 import com.google.android.libraries.identity.googleid.GoogleIdTokenCredential
 
+enum class GoogleAccountSelection {
+    /** No picker if exactly one account is already authorized; falls back to [ANY_ACCOUNT] if none is. */
+    PREFER_AUTHORIZED,
+
+    ANY_ACCOUNT,
+}
+
+class GoogleSignInCancelledException(
+    cause: Throwable,
+) : Exception(cause)
+
+class NoGoogleAccountException(
+    cause: Throwable,
+) : Exception(cause)
+
 /**
- * Platform-Datenquelle: holt über die Android Credential Manager API ein Google-ID-Token, das
- * [AuthRepository.signInWithGoogle] anschließend gegen eine Firebase-Session tauscht. Kein direkter
- * Firebase-Zugriff hier — reine Google/Android-Plattform-API, deshalb bewusst getrennt von
- * [AuthRepository] (Single Responsibility, leichter zu testen/mocken).
- *
- * Braucht einen Activity-Context (für den System-Bottomsheet/Account-Picker) — deshalb Context als
- * Methodenparameter statt als injiziertes Konstruktor-Feld. So hält die DataSource keine
- * Activity-Referenz über den Aufruf hinaus fest (kein Leak).
+ * Fetches a Google ID token via Credential Manager. Takes the activity context per call (needed for
+ * the account picker) instead of holding it, to avoid leaking the activity.
  */
 interface GoogleAuthDataSource {
-    suspend fun requestGoogleIdToken(activityContext: Context): String
+    suspend fun requestGoogleIdToken(
+        activityContext: Context,
+        selection: GoogleAccountSelection,
+    ): String
 }
 
 class CredentialManagerGoogleAuthDataSource(
     private val webClientId: String,
 ) : GoogleAuthDataSource {
-    override suspend fun requestGoogleIdToken(activityContext: Context): String {
+    override suspend fun requestGoogleIdToken(
+        activityContext: Context,
+        selection: GoogleAccountSelection,
+    ): String {
         val credentialManager = CredentialManager.create(activityContext)
         val credential =
             try {
-                // Erster Versuch: nur Accounts, die diese App schon mal für Sign-in autorisiert haben
-                // (stilles, schnelleres Sign-in ohne vollen Account-Picker).
-                credentialManager.getCredential(activityContext, authorizedAccountsRequest()).credential
-            } catch (_: NoCredentialException) {
-                // Kein vorher autorisierter Account gefunden (z. B. allererster Login) -> voller
-                // Account-Picker mit allen Google-Accounts auf dem Gerät.
-                credentialManager.getCredential(activityContext, allAccountsRequest()).credential
+                credentialManager.requestCredential(activityContext, selection)
+            } catch (e: GetCredentialCancellationException) {
+                throw GoogleSignInCancelledException(e)
+            } catch (e: NoCredentialException) {
+                throw NoGoogleAccountException(e)
             }
         return GoogleIdTokenCredential.createFrom(credential.data).idToken
     }
 
-    private fun authorizedAccountsRequest() = buildRequest(filterByAuthorizedAccounts = true)
+    private suspend fun CredentialManager.requestCredential(
+        activityContext: Context,
+        selection: GoogleAccountSelection,
+    ): Credential =
+        when (selection) {
+            GoogleAccountSelection.PREFER_AUTHORIZED ->
+                try {
+                    getCredential(activityContext, authorizedAccountsRequest()).credential
+                } catch (_: NoCredentialException) {
+                    getCredential(activityContext, allAccountsRequest()).credential
+                }
 
-    private fun allAccountsRequest() = buildRequest(filterByAuthorizedAccounts = false)
+            GoogleAccountSelection.ANY_ACCOUNT ->
+                getCredential(activityContext, allAccountsRequest()).credential
+        }
 
-    private fun buildRequest(filterByAuthorizedAccounts: Boolean): GetCredentialRequest {
+    // Auto-select is fine: this request only runs after an explicit tap, never on app start.
+    private fun authorizedAccountsRequest() =
+        buildRequest(filterByAuthorizedAccounts = true, autoSelect = true)
+
+    private fun allAccountsRequest() =
+        buildRequest(filterByAuthorizedAccounts = false, autoSelect = false)
+
+    private fun buildRequest(
+        filterByAuthorizedAccounts: Boolean,
+        autoSelect: Boolean,
+    ): GetCredentialRequest {
         val option =
             GetGoogleIdOption
                 .Builder()
                 .setServerClientId(webClientId)
                 .setFilterByAuthorizedAccounts(filterByAuthorizedAccounts)
-                .setAutoSelectEnabled(false)
+                .setAutoSelectEnabled(autoSelect)
                 .build()
         return GetCredentialRequest
             .Builder()
@@ -57,8 +94,3 @@ class CredentialManagerGoogleAuthDataSource(
             .build()
     }
 }
-
-/*
- * TODO Optional (Hardening): setNonce(...) mit einem zufälligen, gehashten Wert setzen, falls
- * eigene Replay-Schutz-Logik über den Firebase-Standardflow hinaus gebraucht wird.
- */

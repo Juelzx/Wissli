@@ -1,11 +1,6 @@
 package com.wissli.app.core.model
 
-/**
- * Mitgliedschaft eines [User] in einer [Group] — trägt die Rolle *pro Gruppe* statt global auf
- * dem User (ein User kann in Gruppe A Owner und in Gruppe B einfaches Mitglied sein). [OWNER] ist
- * automatisch, wer die Gruppe erstellt hat, und ist die einzige Rolle, die Mitglieder
- * einladen/entfernen oder die Gruppe verwalten darf (siehe CLAUDE.md "Firebase & Firestore").
- */
+/** The role lives on the membership, so a user can be OWNER in one group and MEMBER in another. */
 enum class GroupRole {
     OWNER,
     MEMBER,

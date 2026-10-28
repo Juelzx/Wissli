@@ -47,8 +47,7 @@ koin-bom = { group = "io.insert-koin", name = "koin-bom", version.ref = "koinBom
 koin-android = { group = "io.insert-koin", name = "koin-android" }
 koin-androidx-compose = { group = "io.insert-koin", name = "koin-androidx-compose" }
 
-# Local persistence (Room 3.0 — Kotlin-/KMP-first, siehe CLAUDE.md; kein room-ktx mehr nötig,
-# dessen APIs sind in room3-runtime aufgegangen)
+# Local persistence (Room 3; room-ktx is no longer needed)
 androidx-room-runtime = { group = "androidx.room3", name = "room3-runtime", version.ref = "room" }
 androidx-room-compiler = { group = "androidx.room3", name = "room3-compiler", version.ref = "room" }
 androidx-sqlite-bundled = { group = "androidx.sqlite", name = "sqlite-bundled", version.ref = "sqlite" }

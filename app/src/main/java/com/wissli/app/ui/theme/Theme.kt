@@ -1,59 +1,63 @@
 package com.wissli.app.ui.theme
 
-import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
-import androidx.compose.material3.dynamicDarkColorScheme
-import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.platform.LocalContext
-
-private val DarkColorScheme =
-    darkColorScheme(
-        primary = Purple80,
-        secondary = PurpleGrey80,
-        tertiary = Pink80,
-    )
 
 private val LightColorScheme =
     lightColorScheme(
-        primary = Purple40,
-        secondary = PurpleGrey40,
-        tertiary = Pink40,
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-     */
+        primary = WissliBlue,
+        onPrimary = PaperWhite,
+        primaryContainer = WissliBlueContainer,
+        onPrimaryContainer = OnWissliBlueContainer,
+        secondary = Leaf,
+        onSecondary = PaperWhite,
+        secondaryContainer = LeafContainer,
+        onSecondaryContainer = OnLeafContainer,
+        background = Paper,
+        onBackground = Ink,
+        surface = Paper,
+        onSurface = Ink,
+        onSurfaceVariant = InkMuted,
+        surfaceContainerLowest = PaperWhite,
+        surfaceContainerLow = PaperWhite,
+        outline = InkMuted,
+        outlineVariant = Hairline,
     )
 
+private val DarkColorScheme =
+    darkColorScheme(
+        primary = WissliBlueDark,
+        onPrimary = OnWissliBlueDark,
+        primaryContainer = WissliBlueContainerDark,
+        onPrimaryContainer = OnWissliBlueContainerDark,
+        secondary = LeafDark,
+        onSecondary = OnLeafDark,
+        secondaryContainer = LeafContainerDark,
+        onSecondaryContainer = OnLeafContainerDark,
+        background = PaperDark,
+        onBackground = InkDark,
+        surface = PaperDark,
+        onSurface = InkDark,
+        onSurfaceVariant = InkMutedDark,
+        surfaceContainerLowest = SurfaceDark,
+        surfaceContainerLow = SurfaceDark,
+        outline = InkMutedDark,
+        outlineVariant = HairlineDark,
+    )
+
+// No dynamic color on purpose, so the brand colors look the same on every device.
 @Composable
 fun WissliTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
     content: @Composable () -> Unit,
 ) {
-    val colorScheme =
-        when {
-            dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
-                val context = LocalContext.current
-                if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
-            }
-
-            darkTheme -> DarkColorScheme
-            else -> LightColorScheme
-        }
-
     MaterialTheme(
-        colorScheme = colorScheme,
+        colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme,
         typography = Typography,
+        shapes = Shapes,
         content = content,
     )
 }

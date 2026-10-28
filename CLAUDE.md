@@ -25,9 +25,16 @@ Implementiert ist bisher der **Auth-Flow** (Google Sign-In) als Referenz-Feature
 folgenden Features: `WissliNavHost` → `AuthGateViewModel` (liegt bewusst in `core/navigation/` statt in `data/` oder
 `feature/`, da es kein Screen ist, sondern die Root-Navigation steuert; beobachtet
 `AuthRepository.observeCurrentUser()` und entscheidet die Start-Destination — `Routes.LOGIN`
-oder `Routes.HOME` — statt beim App-Start immer hart bei Login zu starten) → `LoginScreen` →
+oder `Routes.HOME` — statt beim App-Start immer hart bei Login zu starten; nur der *erste*
+Status zählt, spätere Login-/Logout-Wechsel navigiert der Graph explizit) → `LoginScreen` →
 `LoginViewModel` → `AuthRepository`/`GoogleAuthDataSource`. `Routes.HOME` ist aktuell nur ein
-Platzhalter-Screen (`HomePlaceholder` in `WissliNavHost.kt`), bis das echte Home-Feature ansteht.
+Platzhalter-Screen (`HomePlaceholder` in `WissliNavHost.kt`, mit Abmelden-Button bis es einen
+Profil-Screen gibt), bis das echte Home-Feature ansteht.
+Der Login-Screen hat zwei Varianten: Erst-Login ("Mit Google anmelden") und "Willkommen zurück"
+mit Konto-Karte ("Weiter als …" / "Anderes Konto verwenden"). Dafür merkt sich
+`FirebaseAuthRepository` nach jedem Login Anzeigename + E-Mail des Kontos über
+`LastAccountLocalDataSource` (SharedPreferences, nur auf dem Gerät, vom Backup ausgenommen) —
+die E-Mail landet bewusst nie in Firestore.
 `FirebaseAuthRepository` ist die einzige Stelle, die `FirebaseAuth`/`FirebaseFirestore` anfasst;
 `CredentialManagerGoogleAuthDataSource` holt das Google-ID-Token über die Android Credential
 Manager API und ist bewusst von `AuthRepository` getrennt (reine Plattform-API, kein
@@ -118,6 +125,11 @@ UI (Compose) → ViewModel → Repository → Data Sources (Firebase remote / Ro
   Firebase- oder DB-Aufrufe direkt aus Composables oder ViewModels.
 - Keine Business-Logik in Composables. Keine unnötigen Singletons, keine God Classes, keine
   Magic Strings, keine hardcodierten Firebase-IDs, keine Secrets im Repo.
+- Code-Kommentare (inkl. KDoc, Log- und Exception-Texte, Testnamen) auf **Englisch** und nur dort,
+  wo sie ein nicht offensichtliches Warum erklären — keine Kommentare, die nur den Code nacherzählen.
+- UI-Texte ausschließlich als String-Ressourcen, immer zweisprachig: `values/strings.xml`
+  (Englisch, Default) und `values-de/strings.xml` (Deutsch). Nicht übersetzbare Strings
+  (Markennamen o. Ä.) mit `translatable="false"` nur in `values/`.
 
 ## Domain-Modelle (Kern)
 
@@ -185,7 +197,14 @@ Challenges, Groups, Profile) plus Detail-Routen (Question Detail, Challenge Deta
 
 ## UI & Theming
 
-Eigenes `WissliTheme` mit zentralen Design Tokens (Farben, Typography, Shapes, Spacing).
+Eigenes `WissliTheme` mit zentralen Design Tokens (Farben, Typography, Shapes, Spacing) unter
+`ui/theme/` (`Color.kt`, `Type.kt`, `Shape.kt`, `Spacing.kt`). Bewusst ohne Dynamic Color, damit
+die Markenfarben (warmes Papier `#FBF8F3`, Wissli-Blau `#2F74BB`) überall gleich aussehen.
+Schriften gebündelt unter `res/font/` (beide SIL OFL, Lizenzen in `licenses/fonts/`):
+Instrument Serif für große Überschriften (`display*`/`headline*`), Plus Jakarta Sans für alles
+andere. Die Jakarta-Gewichte sind statische, auf Latein + Latin Extended reduzierte Instanzen der
+Variable Font (fontTools `varLib.instancer` + `pyftsubset`). Layout-Abstände über `Spacing.*`
+statt frei gewählter dp-Werte.
 Anspruch: moderne, hochwertige Consumer-App-Optik — viel Weißraum, große verständliche
 Cards, klare Typografie, dezente Animationen, große Touch-Targets — bewusst *kein*
 klassischer "Kinder-Lern-App"-Look. Noch kein umfangreiches Design-System bauen.

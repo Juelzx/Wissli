@@ -10,11 +10,8 @@ plugins {
     alias(libs.plugins.ktlint)
 }
 
-// Google-OAuth-Web-Client-ID für Google Sign-In (Credential Manager). Kommt aus der Firebase-
-// Konsole (Authentication → Sign-in method → Google → Web-Client-ID) bzw. später automatisch aus
-// google-services.json (R.string.default_web_client_id). Bis das Firebase-Projekt existiert, bleibt
-// der Wert leer und Google Sign-In lässt sich nicht testen. NICHT ins Repo committen — Eintrag in
-// der lokalen (gitignorten) local.properties: GOOGLE_WEB_CLIENT_ID=...apps.googleusercontent.com
+// Web client ID for Google Sign-In, read from the git-ignored local.properties:
+// GOOGLE_WEB_CLIENT_ID=...apps.googleusercontent.com (Firebase console → Authentication → Google).
 val localProperties =
     Properties().apply {
         val file = rootProject.file("local.properties")
@@ -56,9 +53,7 @@ android {
         buildConfig = true
     }
 
-    // Unit-Tests laufen ohne Robolectric/echtes Android-Framework. Android-SDK-Stubs würfen sonst
-    // bei jedem Aufruf "not mocked" — Default-Werte reichen z. B. für einen reinen Context.Platzhalter
-    // wie in LoginViewModelTest (ContextWrapper(null) als Fake-Context).
+    // Lets JVM unit tests use Android stubs such as a placeholder Context without Robolectric.
     testOptions {
         unitTests {
             isReturnDefaultValues = true
@@ -66,14 +61,11 @@ android {
     }
 }
 
-// Room-Schemas für spätere Migrationen versionieren, sobald Entities existieren.
 ksp {
     arg("room.schemaLocation", "$projectDir/schemas")
 }
 
-// Statische Analyse (Code Smells, Komplexität, potenzielle Bugs). Formatierung/Style
-// übernimmt bewusst ktlint (siehe unten) — kein detekt-rules-ktlint-wrapper, um doppelte
-// bzw. widersprüchliche Regeln zu vermeiden.
+// Formatting is left to ktlint on purpose (no detekt-rules-ktlint-wrapper) to avoid duplicate findings.
 detekt {
     buildUponDefaultConfig = true
     allRules = false
@@ -81,7 +73,6 @@ detekt {
     config.setFrom(files("$rootDir/config/detekt/detekt.yml"))
 }
 
-// Formatierung/Code-Style nach den offiziellen Kotlin-Konventionen, inkl. Android-Regeln.
 ktlint {
     android.set(true)
     ignoreFailures.set(false)
@@ -105,8 +96,7 @@ dependencies {
     implementation(libs.koin.android)
     implementation(libs.koin.androidx.compose)
 
-    // Lokale Persistenz (Room 3.0, siehe CLAUDE.md — expliziter SQLiteDriver ist Pflicht,
-    // sqlite-bundled statt sqlite-framework für spätere KMP-Portierbarkeit)
+    // Room 3 requires an explicit SQLite driver; bundled keeps a later port possible.
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.sqlite.bundled)
     ksp(libs.androidx.room.compiler)
@@ -120,7 +110,7 @@ dependencies {
     implementation(libs.androidx.credentials.play.services.auth)
     implementation(libs.google.googleid)
 
-    // Firebase (Versionen kommen aus der BOM)
+    // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.auth)
     implementation(libs.firebase.firestore)

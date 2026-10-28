@@ -11,7 +11,10 @@ import com.wissli.app.data.auth.AuthRepository
 import com.wissli.app.data.auth.CredentialManagerGoogleAuthDataSource
 import com.wissli.app.data.auth.FirebaseAuthRepository
 import com.wissli.app.data.auth.GoogleAuthDataSource
+import com.wissli.app.data.auth.LastAccountLocalDataSource
+import com.wissli.app.data.auth.SharedPreferencesLastAccountDataSource
 import com.wissli.app.features.login.presentation.LoginViewModel
+import org.koin.android.ext.koin.androidContext
 import org.koin.core.module.dsl.viewModelOf
 import org.koin.dsl.module
 
@@ -23,7 +26,16 @@ val authModule =
         single<GoogleAuthDataSource> {
             CredentialManagerGoogleAuthDataSource(webClientId = BuildConfig.GOOGLE_WEB_CLIENT_ID)
         }
-        single<AuthRepository> { FirebaseAuthRepository(firebaseAuth = get(), firestore = get()) }
+        single<LastAccountLocalDataSource> {
+            SharedPreferencesLastAccountDataSource(context = androidContext())
+        }
+        single<AuthRepository> {
+            FirebaseAuthRepository(
+                firebaseAuth = get(),
+                firestore = get(),
+                lastAccountLocalDataSource = get(),
+            )
+        }
 
         viewModelOf(::LoginViewModel)
         viewModelOf(::AuthGateViewModel)
