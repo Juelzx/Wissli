@@ -42,9 +42,11 @@ wenn alle gelöst sind; danach Abschluss mit Rang-Aufstieg; geschaffte Level las
 Fortschrittsänderung üben). `LevelViewModel` nutzt einen reinen `LevelReducer`. Fortschritts-
 und Rang-Logik liegt im Modell (`CategoryProgress.withSolved()`, `Rank.forCompletedLevels()`).
 ViewModels lesen über `GroupRepository`/`QuestionRepository`/`ProgressRepository`
-(`data/group|question|progress/`), die aktuell nur durch `Placeholder*Repository` mit statischen
-Beispieldaten gebunden sind (der Fortschritt liegt dort nur im Speicher) — für Firestore nur die
-Bindung im jeweiligen `di/<Bereich>Module.kt` austauschen. Wiederverwendbare UI-Bausteine
+(`data/group|question|progress/`). `GroupRepository` und `ProgressRepository` sind aktuell nur
+durch `Placeholder*Repository` gebunden (statische Beispieldaten; der Fortschritt liegt nur im
+Speicher und startet leer) — für Firestore nur die Bindung im jeweiligen `di/<Bereich>Module.kt`
+austauschen. `QuestionRepository` ist durch `RoomQuestionRepository` gebunden (siehe
+"Fragen-Content"). Wiederverwendbare UI-Bausteine
 (Karten-Stapel, Initialen-Avatar, Logo-Kachel, Rang-Badge/-Emblem, Fortschrittsbalken) liegen
 unter `ui/components/`.
 Der Login-Screen hat zwei Varianten: Erst-Login ("Mit Google anmelden") und "Willkommen zurück"
@@ -57,9 +59,9 @@ die E-Mail landet bewusst nie in Firestore.
 Manager API und ist bewusst von `AuthRepository` getrennt (reine Plattform-API, kein
 Firebase-Zugriff). Koin ist initialisiert (`WissliApplication` startet `startKoin { ... }`) mit
 `di/AppModule.kt` (`appModule`), das Bereichs-Module per `includes()` einhängt (`authModule`,
-`groupModule`, `questionModule`, `progressModule`, `dashboardModule`, `learnModule`).
+`databaseModule`, `groupModule`, `questionModule`, `progressModule`, `dashboardModule`, `learnModule`).
 Noch **nicht implementiert**: Favorites, Groups (inkl. Gruppenmodus), Profile, Frage des Tages,
-echte Firestore-Repositories außer Auth, Room-Entities/DAOs.
+echte Firestore-Repositories außer Auth, Remote-Updates des Fragen-Pakets.
 Beim Lesen des Codes den tatsächlichen Stand prüfen statt dies als vollständig anzunehmen.
 
 Konvention für neue Features (siehe `features/login/` als Vorlage): pro Feature ein flaches
@@ -103,9 +105,9 @@ einfachere Modul-Definition per Kotlin-DSL). SQLDelight nur statt Room, wenn daf
 konkreter, im PR/Commit begründeter Grund vorliegt.
 
 **Room 3.0** (`androidx.room3`, seit 07/2026 stabil; Room 2.x nur noch Maintenance-Modus) statt
-Room 2.x, obwohl noch keine Entities/DAOs existieren — bewusst früh gewechselt, um eine spätere
-Migration zu vermeiden. Wichtige Breaking Changes ggü. Room 2.x, die beim ersten Anlegen von
-Entities/DAOs/Database zu beachten sind:
+Room 2.x — bewusst früh gewechselt, um eine spätere Migration zu vermeiden. Bisher einzige
+Datenbank: `data/local/WissliDatabase` (Fragen-Content, siehe unten). Wichtige Breaking Changes
+ggü. Room 2.x, die bei neuen Entities/DAOs zu beachten sind:
 - Nur noch KSP, kein KAPT/Java-Codegen (KSP ist bereits eingerichtet).
 - DAO-Funktionen müssen `suspend` sein (außer beobachtbare Rückgabetypen wie `Flow`).
 - `Room.databaseBuilder(...)` braucht zwingend `.setDriver(BundledSQLiteDriver())`
@@ -165,6 +167,11 @@ UI (Compose) → ViewModel → Repository → Data Sources (Firebase remote / Ro
   imageUrl?, published, premium, createdAt, updatedAt`. `level` + `order` legen die Position im
   Level-Pfad des Themas fest (`QUESTIONS_PER_LEVEL = 20`). Im Code (`core/model/Question.kt`)
   bisher nur die Felder, die das Spielen braucht.
+  Fragen-IDs sind eine fortlaufende Nummer pro Thema (`nature-0001`), unabhängig von Level und
+  Position, und werden nie wiederverwendet — der Fortschritt speichert gelöste IDs, eine Frage
+  darf also zwischen Leveln wandern, ohne dass Fortschritt verloren geht. `difficulty`
+  (`EASY|MEDIUM|HARD`) ist vorbereitet, aber optional; "gemischt" wird nicht gespeichert, sondern
+  ist ein Filter im Gruppenmodus.
 - **Category** (= Thema): `id, name, order, levelCount`; `order` sortiert und bestimmt die Farbe.
 - **CategoryProgress**: Solo-Fortschritt eines Users pro Thema — `completedLevels,
   solvedInCurrentLevel (IDs), updatedAt`. Levels werden strikt der Reihe nach gespielt, deshalb
@@ -182,13 +189,28 @@ noch nicht modelliert — kein globales Rollenkonzept mehr auf User. Lösung (z.
 Admin-UIDs) folgt, wenn die Admin-Web-App ansteht; bis dahin läuft Content-Pflege über die
 Firebase-Konsole/Admin-SDK.
 
+## Fragen-Content
+
+Die Solo-Fragen werden als JSON-Paket mit der App ausgeliefert
+(`app/src/main/assets/content/questions.json`, Format siehe `QuestionContentParser`) und beim
+ersten Zugriff in Room übernommen (`RoomQuestionRepository`), wenn ihre `contentVersion` höher
+ist als die gespeicherte. Spielen kostet so keine Firestore-Reads und geht offline. Ein Paket wird
+immer komplett in einer Transaktion ersetzt; ein kaputtes Paket lässt den gespeicherten Stand
+stehen. Bei jeder inhaltlichen Änderung `contentVersion` erhöhen; ein Unit-Test prüft, dass das
+gebündelte Paket gültig ist und jedes Level genau 20 Fragen hat.
+
+Geplant: Remote-Updates über ein `contentVersion`-Dokument (Firestore oder Remote Config) plus
+ein herunterladbares Paket (z. B. Firebase Storage) im selben Format — einzuhängen in
+`RoomQuestionRepository.ensureContent()`. Da richtige Antworten im Paket lesbar sind, bleiben
+die Fragen des Gruppenmodus serverseitig und kommen nie in dieses Paket.
+
 ## Firebase & Firestore
 
 Collections: `users, groups, questions, categories, challenges, favorites`; Mitgliedschaft als
 Subcollection `groups/{groupId}/members/{uid}` (Query "alle Gruppen eines Users" über eine
 Collection-Group-Query auf `members`, gefiltert nach `userId`); Solo-Fortschritt als
-`users/{uid}/progress/{categoryId}`. Level-Fragen per Query `categoryId == … && level == … &&
-published == true`, sortiert nach `order` (braucht einen Composite-Index). Repository-Abstraktionen
+`users/{uid}/progress/{categoryId}`. Solo-Fragen kommen nicht aus Firestore, sondern
+aus dem gebündelten Paket (siehe "Fragen-Content"). Repository-Abstraktionen
 pro fachlichem Bereich, z. B.
 `QuestionRepository.observeCategories()/getLevelQuestions()/observeFavorites()/addFavorite()`,
 `ProgressRepository.observeProgress()/markSolved()`,

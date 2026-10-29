@@ -7,28 +7,9 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.updateAndGet
 
 // TODO: replace with a Firestore implementation (users/{uid}/progress/{categoryId}).
-// Kept in memory, so answers count until the app process ends. Nature is seeded two questions
-// before a rank-up to make the celebration easy to try.
+// Kept in memory, so answers count until the app process ends.
 class PlaceholderProgressRepository : ProgressRepository {
-    private val progress =
-        MutableStateFlow(
-            mapOf(
-                "nature" to
-                    CategoryProgress(
-                        categoryId = "nature",
-                        completedLevels = 5,
-                        solvedInCurrentLevel = (1..18).map { "nature-6-$it" }.toSet(),
-                        updatedAt = System.currentTimeMillis(),
-                    ),
-                "body" to
-                    CategoryProgress(
-                        categoryId = "body",
-                        completedLevels = 2,
-                        solvedInCurrentLevel = (1..7).map { "body-3-$it" }.toSet(),
-                        updatedAt = System.currentTimeMillis() - ONE_DAY_MILLIS,
-                    ),
-            ),
-        )
+    private val progress = MutableStateFlow(emptyMap<String, CategoryProgress>())
 
     override fun observeProgress(): Flow<Map<String, CategoryProgress>> = progress.asStateFlow()
 
@@ -53,9 +34,5 @@ class PlaceholderProgressRepository : ProgressRepository {
                     )
             }
         return Result.success(updated.getValue(categoryId))
-    }
-
-    private companion object {
-        const val ONE_DAY_MILLIS = 24 * 60 * 60 * 1000L
     }
 }

@@ -9,7 +9,7 @@ interface QuestionRepository {
 
     fun observeCategories(): Flow<List<Category>>
 
-    /** Ordered by [Question.order]; one read per question, so callers load a level only when it is played. */
+    /** Ordered by [Question.order]. */
     suspend fun getLevelQuestions(
         categoryId: String,
         level: Int,
