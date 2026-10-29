@@ -40,7 +40,6 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.wissli.app.R
-import com.wissli.app.ui.preview.ComponentPreviews
 import com.wissli.app.ui.preview.WissliComponentPreview
 import com.wissli.app.ui.theme.Blush
 import com.wissli.app.ui.theme.Hairline

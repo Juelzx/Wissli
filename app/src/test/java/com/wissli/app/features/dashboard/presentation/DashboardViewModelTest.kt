@@ -121,26 +121,25 @@ private val skyQuestion =
 private fun dashboardViewModel(
     currentUser: Flow<User?>,
     groups: List<Group> = listOf(family),
-) =
-    DashboardViewModel(
-        authRepository = FakeAuthRepository(currentUser),
-        groupRepository =
-            object : GroupRepository {
-                override fun observeGroups(): Flow<List<Group>> = flowOf(groups)
+) = DashboardViewModel(
+    authRepository = FakeAuthRepository(currentUser),
+    groupRepository =
+        object : GroupRepository {
+            override fun observeGroups(): Flow<List<Group>> = flowOf(groups)
 
-                override fun observeMembers(groupId: String): Flow<List<GroupMemberSummary>> =
-                    flowOf(if (groupId == family.id) listOf(mila) else emptyList())
-            },
-        challengeRepository =
-            object : ChallengeRepository {
-                override fun observeOpenChallenges(groupId: String): Flow<List<ChallengeSummary>> =
-                    flowOf(if (groupId == family.id) listOf(zebraChallenge) else emptyList())
-            },
-        questionRepository =
-            object : QuestionRepository {
-                override fun observeDailyQuestion(): Flow<DailyQuestion?> = flowOf(skyQuestion)
-            },
-    )
+            override fun observeMembers(groupId: String): Flow<List<GroupMemberSummary>> =
+                flowOf(if (groupId == family.id) listOf(mila) else emptyList())
+        },
+    challengeRepository =
+        object : ChallengeRepository {
+            override fun observeOpenChallenges(groupId: String): Flow<List<ChallengeSummary>> =
+                flowOf(if (groupId == family.id) listOf(zebraChallenge) else emptyList())
+        },
+    questionRepository =
+        object : QuestionRepository {
+            override fun observeDailyQuestion(): Flow<DailyQuestion?> = flowOf(skyQuestion)
+        },
+)
 
 private class FakeAuthRepository(
     private val currentUser: Flow<User?>,

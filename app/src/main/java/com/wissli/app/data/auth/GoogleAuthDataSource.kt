@@ -71,11 +71,9 @@ class CredentialManagerGoogleAuthDataSource(
         }
 
     // Auto-select is fine: this request only runs after an explicit tap, never on app start.
-    private fun authorizedAccountsRequest() =
-        buildRequest(filterByAuthorizedAccounts = true, autoSelect = true)
+    private fun authorizedAccountsRequest() = buildRequest(filterByAuthorizedAccounts = true, autoSelect = true)
 
-    private fun allAccountsRequest() =
-        buildRequest(filterByAuthorizedAccounts = false, autoSelect = false)
+    private fun allAccountsRequest() = buildRequest(filterByAuthorizedAccounts = false, autoSelect = false)
 
     private fun buildRequest(
         filterByAuthorizedAccounts: Boolean,

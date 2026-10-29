@@ -11,6 +11,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.test.advanceUntilIdle
 import kotlinx.coroutines.test.resetMain
+import kotlinx.coroutines.test.runCurrent
 import kotlinx.coroutines.test.runTest
 import kotlinx.coroutines.test.setMain
 import org.junit.After
@@ -38,12 +39,13 @@ class AuthGateViewModelTest {
         runTest(dispatcher) {
             val authRepository = FakeAuthRepository()
             val viewModel = AuthGateViewModel(authRepository)
+            // advanceUntilIdle returns while only backgroundScope work is queued, so the collector would never run.
             backgroundScope.launch { viewModel.state.collect {} }
-            advanceUntilIdle()
+            runCurrent()
             assertEquals(AuthGateState.LoggedOut, viewModel.state.value)
 
             authRepository.currentUser.value = testUser
-            advanceUntilIdle()
+            runCurrent()
 
             assertEquals(AuthGateState.LoggedOut, viewModel.state.value)
         }

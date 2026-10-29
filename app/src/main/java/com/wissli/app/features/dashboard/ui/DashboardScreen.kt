@@ -31,7 +31,6 @@ import com.wissli.app.core.navigation.WissliBottomBar
 import com.wissli.app.features.dashboard.presentation.DashboardIntent
 import com.wissli.app.features.dashboard.presentation.DashboardState
 import com.wissli.app.features.dashboard.presentation.DashboardViewModel
-import com.wissli.app.ui.preview.ScreenPreviews
 import com.wissli.app.ui.theme.Spacing
 import com.wissli.app.ui.theme.WissliTheme
 import org.koin.androidx.compose.koinViewModel
@@ -190,7 +189,14 @@ internal fun DashboardPreview() {
             DashboardState(
                 isLoading = false,
                 displayName = "Sarah Kaufmann",
-                activeGroup = Group(id = "group", name = "Familie Kaufmann", createdBy = "sarah", ownerId = "sarah", createdAt = 0L),
+                activeGroup =
+                    Group(
+                        id = "group",
+                        name = "Familie Kaufmann",
+                        createdBy = "sarah",
+                        ownerId = "sarah",
+                        createdAt = 0L,
+                    ),
                 dailyQuestion = PreviewDailyQuestion,
                 members = PreviewMembers,
                 openChallenges = previewChallenges(),

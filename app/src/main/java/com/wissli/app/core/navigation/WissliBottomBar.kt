@@ -1,6 +1,5 @@
 package com.wissli.app.core.navigation
 
-import androidx.annotation.StringRes
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.foundation.background
@@ -29,19 +28,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.wissli.app.R
 import com.wissli.app.ui.preview.ComponentPreviews
 import com.wissli.app.ui.preview.WissliComponentPreview
 import com.wissli.app.ui.theme.Spacing
-
-enum class MainTab(
-    @param:StringRes val labelRes: Int,
-) {
-    HOME(R.string.main_tab_home),
-    QUESTIONS(R.string.main_tab_questions),
-    CHALLENGES(R.string.main_tab_challenges),
-    GROUPS(R.string.main_tab_groups),
-}
 
 @Composable
 fun WissliBottomBar(
