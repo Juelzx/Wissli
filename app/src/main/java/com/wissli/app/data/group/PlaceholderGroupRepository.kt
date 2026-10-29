@@ -30,7 +30,6 @@ class PlaceholderGroupRepository : GroupRepository {
                     streakDays = 2,
                     points = 60,
                     pointsGoal = 150,
-                    openChallengeCount = 0,
                 ),
                 GroupMemberSummary(
                     userId = "mila",
@@ -39,7 +38,6 @@ class PlaceholderGroupRepository : GroupRepository {
                     streakDays = 4,
                     points = 120,
                     pointsGoal = 150,
-                    openChallengeCount = 1,
                 ),
                 GroupMemberSummary(
                     userId = "ben",
@@ -48,7 +46,6 @@ class PlaceholderGroupRepository : GroupRepository {
                     streakDays = 0,
                     points = 40,
                     pointsGoal = 150,
-                    openChallengeCount = 2,
                 ),
             ),
         )
