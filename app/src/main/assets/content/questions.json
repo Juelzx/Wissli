@@ -1,0 +1,352 @@
+{
+  "contentVersion": 1,
+  "categories": [
+    {
+      "id": "nature",
+      "name": "Natur",
+      "order": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "nature-0001",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 1,
+      "title": "Warum ist der Himmel blau?",
+      "answers": [
+        "Er spiegelt das Meer",
+        "Blaues Licht wird stärker gestreut",
+        "Die Sonne ist blau",
+        "Wegen der Wolken"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sonnenlicht enthält alle Farben. Die Luft streut kurzwelliges blaues Licht viel stärker als rotes – deshalb kommt es von überall am Himmel zu uns.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0002",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 2,
+      "title": "Warum fallen im Herbst die Blätter?",
+      "answers": [
+        "Der Baum spart Wasser",
+        "Der Wind reißt sie ab",
+        "Sie werden zu schwer",
+        "Vögel fressen sie"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Im Winter kommt der Baum schlecht an Wasser. Über Blätter würde er viel davon verdunsten, also wirft er sie ab und macht Pause.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0003",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 3,
+      "title": "Warum ist Meerwasser salzig?",
+      "answers": [
+        "Fische geben Salz ab",
+        "Flüsse spülen Salz aus Gestein hinein",
+        "Salz fällt mit dem Regen",
+        "Es ist gar nicht salzig"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Regen löst winzige Mengen Salz aus Steinen. Flüsse tragen es ins Meer, dort verdunstet das Wasser – das Salz bleibt zurück.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0004",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 4,
+      "title": "Warum blitzt es bei einem Gewitter?",
+      "answers": [
+        "Wolken reiben an Bergen",
+        "Elektrische Ladung entlädt sich",
+        "Die Sonne spiegelt sich",
+        "Regentropfen leuchten"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In Gewitterwolken reiben Eiskörnchen aneinander und laden sich auf. Wird die Spannung zu groß, springt ein riesiger Funke über: der Blitz.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0005",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 5,
+      "title": "Warum hören wir den Donner später als wir den Blitz sehen?",
+      "answers": [
+        "Schall ist langsamer als Licht",
+        "Der Donner kommt zuerst",
+        "Die Ohren sind langsamer",
+        "Wolken bremsen das Licht"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Licht ist fast eine Million Mal schneller als Schall. Zählst du die Sekunden bis zum Donner und teilst durch drei, weißt du ungefähr, wie viele Kilometer das Gewitter entfernt ist.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0006",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 6,
+      "title": "Warum gibt es einen Regenbogen?",
+      "answers": [
+        "Wolken sind bunt",
+        "Regentropfen zerlegen Sonnenlicht",
+        "Der Himmel spiegelt Blumen",
+        "Die Sonne malt ihn"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Jeder Regentropfen wirkt wie ein kleines Prisma: Er bricht das Sonnenlicht und fächert es in seine Farben auf.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0007",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 7,
+      "title": "Warum schwimmt Eis auf dem Wasser?",
+      "answers": [
+        "Eis ist leichter als gleich viel Wasser",
+        "Eis enthält Luftballons",
+        "Wasser drückt es hoch, weil es kalt ist",
+        "Eis ist magnetisch"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Beim Gefrieren ordnen sich Wassermoleküle mit mehr Abstand an. Eis hat deshalb eine geringere Dichte als flüssiges Wasser und schwimmt oben.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0008",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 8,
+      "title": "Warum ist es im Sommer wärmer als im Winter?",
+      "answers": [
+        "Die Erde ist der Sonne näher",
+        "Die Sonne steht höher am Himmel",
+        "Die Sonne brennt stärker",
+        "Es gibt weniger Wolken"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Die Erdachse ist schief. Im Sommer ist unsere Hälfte zur Sonne geneigt, die Strahlen treffen steiler auf und die Tage sind länger.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0009",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 9,
+      "title": "Warum sind Pflanzen grün?",
+      "answers": [
+        "Sie trinken grünes Wasser",
+        "Chlorophyll wirft grünes Licht zurück",
+        "Die Erde färbt sie",
+        "Sie sind gar nicht grün"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Der Blattfarbstoff Chlorophyll nutzt rotes und blaues Licht zur Energiegewinnung. Grünes Licht braucht er kaum – es wird zurückgeworfen und landet in unseren Augen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0010",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 10,
+      "title": "Warum gibt es Ebbe und Flut?",
+      "answers": [
+        "Der Mond zieht am Wasser",
+        "Wale schieben das Wasser",
+        "Der Wind dreht sich",
+        "Flüsse laufen über"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Die Anziehungskraft des Mondes zieht das Meerwasser zu einem Berg. Weil sich die Erde dreht, wandern diese Berge über die Küsten – zweimal am Tag kommt Flut.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0011",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 11,
+      "title": "Warum leuchten Glühwürmchen?",
+      "answers": [
+        "Sie speichern Sonnenlicht",
+        "Ein chemischer Stoff leuchtet in ihrem Körper",
+        "Sie haben kleine Batterien",
+        "Mondlicht spiegelt sich"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In ihrem Hinterleib reagiert der Stoff Luciferin mit Sauerstoff. Dabei entsteht kaltes Licht, mit dem sie Partner anlocken.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0012",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 12,
+      "title": "Warum entsteht Nebel?",
+      "answers": [
+        "Wolken fallen herunter",
+        "Feuchte Luft kühlt ab und bildet Tröpfchen",
+        "Rauch steigt aus dem Boden",
+        "Der Wind wirbelt Staub auf"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Kühlt feuchte Luft ab, kann sie nicht mehr so viel Wasserdampf halten. Winzige Tröpfchen schweben dann in Bodennähe – im Grunde ist Nebel eine Wolke am Boden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0013",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 13,
+      "title": "Warum ist Schnee weiß?",
+      "answers": [
+        "Er besteht aus Milch",
+        "Eiskristalle streuen alle Farben gleich",
+        "Die Wolken sind weiß",
+        "Er ist eigentlich blau"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Schnee besteht aus unzähligen Eiskristallen. Ihre vielen Flächen werfen alle Farben des Lichts gleichmäßig zurück – und alle Farben zusammen sehen wir als Weiß.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0014",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 14,
+      "title": "Warum haben Bäume Jahresringe?",
+      "answers": [
+        "Im Frühling und Herbst wächst das Holz verschieden",
+        "Sie werden jedes Jahr bemalt",
+        "Würmer bohren Kreise",
+        "Die Rinde rutscht nach innen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Im Frühling wächst helles, lockeres Holz, im Spätsommer dunkleres, festes. Zusammen ergibt das einen Ring pro Jahr.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0015",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 15,
+      "title": "Warum rostet Eisen?",
+      "answers": [
+        "Es reagiert mit Sauerstoff und Wasser",
+        "Es wird zu alt",
+        "Bakterien malen es braun",
+        "Sonnenlicht färbt es"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Eisen verbindet sich mit Sauerstoff aus Luft und Wasser zu Eisenoxid. Diese bröselige, rotbraune Schicht nennen wir Rost.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0016",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 16,
+      "title": "Warum duften Blumen?",
+      "answers": [
+        "Um Insekten anzulocken",
+        "Um Regen anzuziehen",
+        "Weil sie gewaschen wurden",
+        "Um andere Blumen zu warnen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Mit ihrem Duft locken Blüten Bienen und andere Insekten an. Die tragen beim Naschen Pollen weiter und helfen so bei der Bestäubung.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0017",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 17,
+      "title": "Warum wehen Winde?",
+      "answers": [
+        "Bäume fächeln Luft",
+        "Luft strömt von hohem zu tiefem Druck",
+        "Das Meer pustet",
+        "Die Erde atmet"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Die Sonne erwärmt die Erde ungleichmäßig. Warme Luft steigt auf, kühlere strömt nach – diese Ausgleichsbewegung spüren wir als Wind.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0018",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 18,
+      "title": "Warum sind Vulkane heiß?",
+      "answers": [
+        "Sie stehen in der Sonne",
+        "Geschmolzenes Gestein kommt aus der Tiefe",
+        "Blitze schlagen ein",
+        "Es brennt Holz in ihnen"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Tief unter der Erdkruste ist es so heiß, dass Gestein schmilzt. Bei einem Ausbruch drückt dieses Magma nach oben und tritt als Lava aus.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0019",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 19,
+      "title": "Warum hat der Mond Krater?",
+      "answers": [
+        "Dort wurde gebaut",
+        "Gesteinsbrocken aus dem All schlugen ein",
+        "Der Mond ist aus Käse",
+        "Wasser hat Löcher gespült"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Der Mond hat keine schützende Lufthülle. Meteoriten verglühen nicht, sondern schlagen ein – und ohne Wind und Regen bleiben die Krater Milliarden Jahre erhalten.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0020",
+      "categoryId": "nature",
+      "level": 1,
+      "order": 20,
+      "title": "Warum zirpen Grillen?",
+      "answers": [
+        "Sie reiben ihre Flügel aneinander",
+        "Sie pfeifen mit dem Mund",
+        "Sie klopfen auf Steine",
+        "Sie haben Glöckchen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Männliche Grillen streichen eine geriffelte Kante des einen Flügels über den anderen – wie ein Bogen über eine Geige. So rufen sie nach Weibchen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    }
+  ]
+}
