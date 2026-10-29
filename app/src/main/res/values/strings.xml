@@ -25,7 +25,47 @@
     <string name="login_preview_answer_c">Blue sun</string>
     <string name="login_preview_answer_d">Clouds</string>
 
-    <!-- Home placeholder -->
-    <string name="home_placeholder_signed_in">Signed in ✓</string>
-    <string name="home_placeholder_sign_out">Sign out</string>
+    <!-- Main navigation -->
+    <string name="main_tab_home">Home</string>
+    <string name="main_tab_questions">Questions</string>
+    <string name="main_tab_challenges">Challenges</string>
+    <string name="main_tab_groups">Groups</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting_named">Hello, %1$s</string>
+    <string name="dashboard_greeting">Hello!</string>
+    <string name="dashboard_no_group">No group yet</string>
+    <string name="dashboard_account_menu">Account</string>
+    <string name="dashboard_sign_out">Sign out</string>
+    <string name="dashboard_daily_question_label">QUESTION OF THE DAY</string>
+    <string name="dashboard_daily_question_meta">%1$s · %2$d–%3$d yrs</string>
+    <string name="dashboard_daily_question_send">Send as challenge</string>
+    <string name="dashboard_daily_question_open">View</string>
+    <string name="dashboard_members_title">Players</string>
+    <string name="dashboard_members_manage">Manage</string>
+    <string name="dashboard_members_empty">Nobody else here yet. Invite someone to your group!</string>
+    <string name="dashboard_member_summary">%1$s · %2$s</string>
+    <string name="dashboard_member_nothing_open">nothing open</string>
+    <plurals name="dashboard_member_open_challenges">
+        <item quantity="one">%d open</item>
+        <item quantity="other">%d open</item>
+    </plurals>
+    <plurals name="dashboard_member_streak_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <string name="dashboard_member_points">%1$d / %2$d points</string>
+    <string name="dashboard_challenges_title">Open challenges</string>
+    <string name="dashboard_challenges_all">All</string>
+    <string name="dashboard_challenges_empty">No open challenges. Send one from the question of the day!</string>
+    <string name="dashboard_challenge_from">%1$s · %2$s</string>
+
+    <!-- Groups -->
+    <string name="group_role_owner">Admin</string>
+    <string name="group_role_member">Member</string>
+
+    <!-- Challenges -->
+    <string name="challenge_status_pending">OPEN</string>
+    <string name="challenge_status_in_progress">IN PROGRESS</string>
+    <string name="challenge_status_completed">DONE</string>
 </resources>

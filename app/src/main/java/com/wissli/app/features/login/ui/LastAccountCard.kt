@@ -3,13 +3,10 @@ package com.wissli.app.features.login.ui
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -21,13 +18,13 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.wissli.app.R
 import com.wissli.app.data.auth.LastSignedInAccount
+import com.wissli.app.ui.components.InitialAvatar
 import com.wissli.app.ui.preview.ComponentPreviews
 import com.wissli.app.ui.preview.WissliComponentPreview
 import com.wissli.app.ui.theme.GoogleBadgeContainer
 import com.wissli.app.ui.theme.OnGoogleBadgeContainer
 import com.wissli.app.ui.theme.Spacing
 
-// Initial instead of the profile photo: no image loader dependency and no extra personal data.
 @Composable
 internal fun LastAccountCard(
     account: LastSignedInAccount,
@@ -71,26 +68,6 @@ internal fun LastAccountCard(
 }
 
 @Composable
-private fun InitialAvatar(
-    name: String,
-    modifier: Modifier = Modifier,
-) {
-    Box(
-        modifier =
-            modifier
-                .size(AvatarSize)
-                .background(MaterialTheme.colorScheme.primaryContainer, CircleShape),
-        contentAlignment = Alignment.Center,
-    ) {
-        Text(
-            text = name.trim().take(1).uppercase(),
-            style = MaterialTheme.typography.titleMedium,
-            color = MaterialTheme.colorScheme.onPrimaryContainer,
-        )
-    }
-}
-
-@Composable
 private fun ProviderBadge(modifier: Modifier = Modifier) {
     Text(
         text = stringResource(R.string.login_account_provider_google),
@@ -102,8 +79,6 @@ private fun ProviderBadge(modifier: Modifier = Modifier) {
                 .padding(horizontal = Spacing.xs, vertical = Spacing.xxs),
     )
 }
-
-private val AvatarSize = 48.dp
 
 @ComponentPreviews
 @Composable

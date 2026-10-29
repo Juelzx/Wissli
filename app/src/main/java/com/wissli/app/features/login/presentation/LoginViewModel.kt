@@ -42,7 +42,7 @@ class LoginViewModel(
             is LoginIntent.UseAnotherAccountClicked ->
                 signInWithGoogle(intent.activityContext, GoogleAccountSelection.ANY_ACCOUNT)
 
-            LoginIntent.ErrorShown -> _state.update { it.copy(error = null) }
+            is LoginIntent.ErrorShown -> _state.update { it.copy(error = null) }
         }
     }
 

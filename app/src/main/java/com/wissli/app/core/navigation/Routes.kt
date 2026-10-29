@@ -4,6 +4,5 @@ package com.wissli.app.core.navigation
 object Routes {
     const val LOGIN = "login"
 
-    // TODO: placeholder until the real home feature exists.
     const val HOME = "home"
 }

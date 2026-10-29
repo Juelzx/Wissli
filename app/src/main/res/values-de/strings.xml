@@ -21,7 +21,47 @@
     <string name="login_preview_answer_c">Blaue Sonne</string>
     <string name="login_preview_answer_d">Wolken</string>
 
-    <!-- Home placeholder -->
-    <string name="home_placeholder_signed_in">Angemeldet ✓</string>
-    <string name="home_placeholder_sign_out">Abmelden</string>
+    <!-- Main navigation -->
+    <string name="main_tab_home">Start</string>
+    <string name="main_tab_questions">Fragen</string>
+    <string name="main_tab_challenges">Challenges</string>
+    <string name="main_tab_groups">Gruppen</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting_named">Hallo, %1$s</string>
+    <string name="dashboard_greeting">Hallo!</string>
+    <string name="dashboard_no_group">Noch keine Gruppe</string>
+    <string name="dashboard_account_menu">Konto</string>
+    <string name="dashboard_sign_out">Abmelden</string>
+    <string name="dashboard_daily_question_label">FRAGE DES TAGES</string>
+    <string name="dashboard_daily_question_meta">%1$s · %2$d–%3$d J.</string>
+    <string name="dashboard_daily_question_send">Als Challenge senden</string>
+    <string name="dashboard_daily_question_open">Ansehen</string>
+    <string name="dashboard_members_title">Mitspieler</string>
+    <string name="dashboard_members_manage">Verwalten</string>
+    <string name="dashboard_members_empty">Noch niemand außer dir hier. Lade jemanden in deine Gruppe ein!</string>
+    <string name="dashboard_member_summary">%1$s · %2$s</string>
+    <string name="dashboard_member_nothing_open">nichts offen</string>
+    <plurals name="dashboard_member_open_challenges">
+        <item quantity="one">%d offen</item>
+        <item quantity="other">%d offen</item>
+    </plurals>
+    <plurals name="dashboard_member_streak_days">
+        <item quantity="one">%d Tag</item>
+        <item quantity="other">%d Tage</item>
+    </plurals>
+    <string name="dashboard_member_points">%1$d / %2$d Punkte</string>
+    <string name="dashboard_challenges_title">Offene Challenges</string>
+    <string name="dashboard_challenges_all">Alle</string>
+    <string name="dashboard_challenges_empty">Keine offenen Challenges. Schick doch eine mit der Frage des Tages!</string>
+    <string name="dashboard_challenge_from">%1$s · %2$s</string>
+
+    <!-- Groups -->
+    <string name="group_role_owner">Admin</string>
+    <string name="group_role_member">Mitglied</string>
+
+    <!-- Challenges -->
+    <string name="challenge_status_pending">OFFEN</string>
+    <string name="challenge_status_in_progress">LÄUFT</string>
+    <string name="challenge_status_completed">FERTIG</string>
 </resources>

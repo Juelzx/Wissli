@@ -34,6 +34,7 @@ import androidx.compose.ui.layout.layout
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -267,7 +268,7 @@ private const val FRONT_CARD_ROTATION = -2f
 private const val FAN_DAMPING = 0.55f
 
 // The fan-out animation only plays in interactive mode; the static preview shows the stacked start state.
-@ComponentPreviews
+@Preview
 @Composable
 internal fun QuizCardIllustrationPreview() {
     WissliComponentPreview {

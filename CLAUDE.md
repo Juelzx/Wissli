@@ -27,9 +27,15 @@ folgenden Features: `WissliNavHost` → `AuthGateViewModel` (liegt bewusst in `c
 `AuthRepository.observeCurrentUser()` und entscheidet die Start-Destination — `Routes.LOGIN`
 oder `Routes.HOME` — statt beim App-Start immer hart bei Login zu starten; nur der *erste*
 Status zählt, spätere Login-/Logout-Wechsel navigiert der Graph explizit) → `LoginScreen` →
-`LoginViewModel` → `AuthRepository`/`GoogleAuthDataSource`. `Routes.HOME` ist aktuell nur ein
-Platzhalter-Screen (`HomePlaceholder` in `WissliNavHost.kt`, mit Abmelden-Button bis es einen
-Profil-Screen gibt), bis das echte Home-Feature ansteht.
+`LoginViewModel` → `AuthRepository`/`GoogleAuthDataSource`. `Routes.HOME` zeigt das Dashboard
+(`features/dashboard/`, Design-Stand): Header mit Gruppenwahl + Begrüßung (Abmelden vorerst im
+Avatar-Menü, bis es einen Profil-Screen gibt), "Frage des Tages", Mitspieler-Karten, offene
+Challenges und `WissliBottomBar` (`core/navigation/`, Tabs außer Start noch ohne Ziel).
+`DashboardViewModel` liest über `GroupRepository`/`QuestionRepository`/`ChallengeRepository`
+(`data/group|question|challenge/`), die aktuell nur durch `Placeholder*Repository` mit statischen
+Beispieldaten gebunden sind — für Firestore nur die Bindung im jeweiligen `di/<Bereich>Module.kt`
+austauschen. Wiederverwendbare UI-Bausteine (Karten-Stapel, Initialen-Avatar, Logo-Kachel) liegen
+unter `ui/components/`.
 Der Login-Screen hat zwei Varianten: Erst-Login ("Mit Google anmelden") und "Willkommen zurück"
 mit Konto-Karte ("Weiter als …" / "Anderes Konto verwenden"). Dafür merkt sich
 `FirebaseAuthRepository` nach jedem Login Anzeigename + E-Mail des Kontos über
@@ -39,11 +45,10 @@ die E-Mail landet bewusst nie in Firestore.
 `CredentialManagerGoogleAuthDataSource` holt das Google-ID-Token über die Android Credential
 Manager API und ist bewusst von `AuthRepository` getrennt (reine Plattform-API, kein
 Firebase-Zugriff). Koin ist initialisiert (`WissliApplication` startet `startKoin { ... }`) mit
-`di/AppModule.kt` (`appModule`), das Feature-Module per `includes()` einhängt — bisher nur
-`di/AuthModule.kt` (`authModule`).
-Noch **nicht implementiert**: alle Screens/Repositories außer Auth (echtes Home, Questions,
-Favorites, Groups, Challenges), Room-Entities/DAOs. `Group`/`GroupMember` existieren bereits als
-Domain-Modelle (`core/model/`), aber noch ohne `GroupRepository`/Firestore-Zugriff.
+`di/AppModule.kt` (`appModule`), das Bereichs-Module per `includes()` einhängt (`authModule`,
+`groupModule`, `questionModule`, `challengeModule`, `dashboardModule`).
+Noch **nicht implementiert**: alle Screens außer Login/Dashboard (Questions, Favorites, Groups,
+Challenges, Profile), echte Firestore-Repositories außer Auth, Room-Entities/DAOs.
 Beim Lesen des Codes den tatsächlichen Stand prüfen statt dies als vollständig anzunehmen.
 
 Konvention für neue Features (siehe `features/login/` als Vorlage): pro Feature ein flaches
