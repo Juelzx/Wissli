@@ -1,0 +1,385 @@
+{
+  "categoryId": "body",
+  "questions": [
+    {
+      "id": "body-0001",
+      "subtopic": "reflexes",
+      "level": 1,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum bekommen wir Gänsehaut?",
+      "answers": [
+        "Blut sammelt sich unter der Haut",
+        "Die Haut zieht sich vor Kälte zusammen",
+        "Kleine Muskeln richten die Härchen auf",
+        "Die Poren schließen sich"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Bei unseren Vorfahren mit dichtem Fell hielt das aufgestellte Haar mehr warme Luft fest. Bei uns ist davon nur die Gänsehaut geblieben.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0002",
+      "subtopic": "organs",
+      "level": 1,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum ist Blut rot?",
+      "answers": [
+        "Wegen der weißen Blutkörperchen",
+        "Der Farbstoff Hämoglobin enthält Eisen",
+        "Es wird erst an der Luft rot",
+        "Es enthält Kupfer"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Hämoglobin transportiert den Sauerstoff. Mit viel Sauerstoff ist Blut hellrot, mit wenig dunkelrot, aber nie blau, auch wenn Adern bläulich aussehen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0003",
+      "subtopic": "reflexes",
+      "level": 1,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum müssen wir niesen?",
+      "answers": [
+        "Weil die Lunge zu voll ist",
+        "Damit die Augen feucht bleiben",
+        "Die Nase will Reizstoffe loswerden",
+        "Weil uns kalt ist"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Kitzeln Staub, Pollen oder Krankheitserreger die Nasenschleimhaut, schießt die Luft beim Niesen mit großer Wucht heraus und nimmt die Störenfriede mit.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0004",
+      "subtopic": "reflexes",
+      "level": 1,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum blinzeln wir?",
+      "answers": [
+        "Damit die Augen feucht und sauber bleiben",
+        "Um die Wimpern zu trainieren",
+        "Damit sich die Augen ausruhen",
+        "Weil das Licht zu hell ist"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Bei jedem Lidschlag verteilt sich ein dünner Tränenfilm auf dem Auge und wischt Staub weg. Wir blinzeln etwa 10- bis 20-mal pro Minute, meist ohne es zu merken.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0005",
+      "subtopic": "organs",
+      "level": 1,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Welches ist das größte Organ des Menschen?",
+      "answers": [
+        "Die Leber",
+        "Das Gehirn",
+        "Die Haut",
+        "Die Lunge"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Die Haut eines Erwachsenen ist bis zu zwei Quadratmeter groß und wiegt mehrere Kilogramm. Sie schützt uns, hält Wärme und spürt jede Berührung.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0006",
+      "subtopic": "sleep",
+      "level": 1,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wozu brauchen wir Schlaf?",
+      "answers": [
+        "Weil das Herz sonst stehen bleibt",
+        "Körper und Gehirn erholen sich",
+        "Damit die Augen nicht austrocknen",
+        "Damit wir weniger essen müssen"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Im Schlaf repariert der Körper Zellen, und das Gehirn speichert, was wir tagsüber gelernt haben. Wer zu wenig schläft, kann sich schlechter konzentrieren.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0007",
+      "subtopic": "organs",
+      "level": 1,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum knurrt der Magen?",
+      "answers": [
+        "Magen und Darm bewegen Luft und Verdauungssaft",
+        "Die Rippen reiben aneinander",
+        "Der Magen friert",
+        "Die Galle kocht über"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Auch wenn wir nichts essen, ziehen sich Magen und Darm regelmäßig zusammen, um Reste weiterzuschieben. Ist kaum Nahrung darin, blubbern Luft und Verdauungssäfte besonders hörbar.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0008",
+      "subtopic": "organs",
+      "level": 1,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie viele Zähne hat ein Erwachsener mit Weisheitszähnen?",
+      "answers": [
+        "42",
+        "32",
+        "28",
+        "20"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Mit allen vier Weisheitszähnen sind es 32 bleibende Zähne. Bei vielen Menschen kommen die Weisheitszähne aber nie ganz heraus. Kinder haben zuerst 20 Milchzähne.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0009",
+      "subtopic": "reflexes",
+      "level": 1,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum schwitzen wir?",
+      "answers": [
+        "Damit die Haut glänzt",
+        "Um Wasser loszuwerden",
+        "Um Giftstoffe auszuspülen",
+        "Verdunstender Schweiß kühlt die Haut"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Wird uns zu warm, geben Millionen Schweißdrüsen Flüssigkeit ab. Verdunstet sie auf der Haut, nimmt sie Wärme mit, und wir kühlen ab.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0010",
+      "subtopic": "organs",
+      "level": 1,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was ist die Aufgabe des Herzens?",
+      "answers": [
+        "Es verdaut das Essen",
+        "Es atmet für uns",
+        "Es pumpt Blut durch den Körper",
+        "Es denkt mit"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Das Herz ist ein Muskel, etwa so groß wie eine Faust. Es schlägt rund 100.000 Mal am Tag und pumpt das Blut durch den ganzen Körper.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0011",
+      "subtopic": "senses",
+      "level": 1,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum schmeckt Essen bei Schnupfen nach wenig?",
+      "answers": [
+        "Das Fieber stört den Geschmack",
+        "Die Zunge ist mit erkältet",
+        "Viel vom Geschmack ist eigentlich Geruch",
+        "Die Medizin überdeckt alles"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Die Zunge schmeckt nur süß, sauer, salzig, bitter und umami. Alles andere, etwa das Aroma von Erdbeere oder Vanille, riecht die Nase mit. Ist sie verstopft, schmeckt vieles fad.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0012",
+      "subtopic": "senses",
+      "level": 1,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Mit welchem Organ halten wir das Gleichgewicht?",
+      "answers": [
+        "Mit den Fußsohlen",
+        "Nur mit den Augen",
+        "Mit dem Magen",
+        "Mit dem Innenohr"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Im Innenohr liegen kleine, mit Flüssigkeit gefüllte Bögen. Bewegt sich der Kopf, schwappt die Flüssigkeit mit, und feine Härchen melden das ans Gehirn. Deshalb wird einem nach dem Drehen schwindelig.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0013",
+      "subtopic": "senses",
+      "level": 1,
+      "order": 11,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum ist die Pupille mal groß, mal klein?",
+      "answers": [
+        "Sie zeigt, wie müde man ist",
+        "Sie wächst mit dem Alter",
+        "Sie regelt, wie viel Licht ins Auge fällt",
+        "Sie ändert sich mit der Augenfarbe"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Die Pupille ist ein Loch in der Regenbogenhaut. Im Hellen zieht sie sich zusammen, damit das Auge nicht geblendet wird, im Dunkeln öffnet sie sich weit, um möglichst viel Licht einzufangen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0014",
+      "subtopic": "senses",
+      "level": 1,
+      "order": 12,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum haben wir zwei Ohren?",
+      "answers": [
+        "Falls eines nicht mehr funktioniert",
+        "Damit wir zwei Gespräche gleichzeitig verstehen",
+        "So hören wir, woher ein Geräusch kommt",
+        "Damit wir doppelt so laut hören"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ein Geräusch von links erreicht das linke Ohr etwas früher und lauter als das rechte. Aus diesem winzigen Unterschied berechnet das Gehirn blitzschnell die Richtung.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0015",
+      "subtopic": "sleep",
+      "level": 1,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum werden wir abends müde?",
+      "answers": [
+        "Das Abendessen macht müde",
+        "Dem Körper geht der Sauerstoff aus",
+        "Die innere Uhr schüttet das Schlafhormon Melatonin aus",
+        "Die Augen sind vom Licht erschöpft"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Unser Körper hat eine innere Uhr, die sich am Tageslicht orientiert. Wird es dunkel, bildet er vermehrt das Schlafhormon Melatonin, und wir werden müde. Helles Bildschirmlicht am Abend kann das verzögern.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0016",
+      "subtopic": "nutrition",
+      "level": 1,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wozu braucht unser Körper Eiweiß?",
+      "answers": [
+        "Für die Farbe der Haut",
+        "Nur zum Schlafen",
+        "Zum Aufbau von Muskeln und anderen Zellen",
+        "Zum Speichern von Wasser"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Eiweiß, auch Protein genannt, ist der wichtigste Baustoff des Körpers. Aus ihm bestehen Muskeln, Haare, Haut und viele Botenstoffe.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0017",
+      "subtopic": "sleep",
+      "level": 1,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum schnarchen manche Menschen?",
+      "answers": [
+        "Sie träumen laut",
+        "Ihre Nase ist zu groß",
+        "Sie sprechen im Schlaf",
+        "Weiches Gewebe im Rachen flattert beim Atmen"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Im Schlaf entspannen sich die Muskeln im Rachen. Gaumensegel und Zäpfchen hängen schlaffer und flattern im Luftstrom, das erzeugt das Schnarchgeräusch.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0018",
+      "subtopic": "nutrition",
+      "level": 1,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie viel unseres Körpers besteht aus Wasser?",
+      "answers": [
+        "Etwa 90 Prozent",
+        "Etwa 60 Prozent",
+        "Etwa 30 Prozent",
+        "Etwa 10 Prozent"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Ein Erwachsener besteht zu etwa 60 Prozent aus Wasser, ein Baby sogar zu rund 75 Prozent. Weil wir über Atem, Schweiß und Urin ständig Wasser verlieren, müssen wir regelmäßig trinken.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0019",
+      "subtopic": "nutrition",
+      "level": 1,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was passiert im Magen mit dem Essen?",
+      "answers": [
+        "Es wird zu Luft",
+        "Säure und Muskeln machen daraus einen Brei",
+        "Es wird bis zum nächsten Tag gelagert",
+        "Es wird sofort zu Blut"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Der Magen knetet das Essen mit starker Säure und Verdauungssäften durch. Nach ein paar Stunden ist daraus ein Brei geworden, der portionsweise in den Darm wandert.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0020",
+      "subtopic": "reflexes",
+      "level": 1,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum ziehen wir die Hand von einer heißen Herdplatte sofort weg?",
+      "answers": [
+        "Die Haut zieht sich zusammen",
+        "Ein Reflex ist schneller als unser Denken",
+        "Die Hitze stößt die Hand ab",
+        "Wir sehen den Dampf aufsteigen"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Schmerzsignale aus der Hand werden schon im Rückenmark auf die Armmuskeln umgeschaltet. Die Hand zuckt zurück, bevor das Gehirn überhaupt merkt, dass es heiß ist.",
+      "ageFrom": 6,
+      "ageTo": 12
+    }
+  ]
+}

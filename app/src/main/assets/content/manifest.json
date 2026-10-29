@@ -1,0 +1,55 @@
+{
+  "contentVersion": 2,
+  "categories": [
+    {
+      "id": "nature",
+      "name": "Natur",
+      "order": 0
+    },
+    {
+      "id": "animals",
+      "name": "Tiere",
+      "order": 1
+    },
+    {
+      "id": "space",
+      "name": "Weltall",
+      "order": 2
+    },
+    {
+      "id": "body",
+      "name": "Körper",
+      "order": 3
+    },
+    {
+      "id": "tech",
+      "name": "Technik",
+      "order": 4
+    },
+    {
+      "id": "history",
+      "name": "Geschichte",
+      "order": 5
+    },
+    {
+      "id": "world",
+      "name": "Welt & Länder",
+      "order": 6
+    },
+    {
+      "id": "kitchen",
+      "name": "Küche & Alltag",
+      "order": 7
+    },
+    {
+      "id": "arts",
+      "name": "Kunst & Musik",
+      "order": 8
+    },
+    {
+      "id": "sports",
+      "name": "Sport & Spiel",
+      "order": 9
+    }
+  ]
+}

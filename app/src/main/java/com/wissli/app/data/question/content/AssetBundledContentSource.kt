@@ -9,15 +9,19 @@ class AssetBundledContentSource(
 ) : BundledContentSource {
     override suspend fun load(): QuestionContent =
         withContext(Dispatchers.IO) {
-            val json =
-                context.assets
-                    .open(ASSET_PATH)
-                    .bufferedReader()
-                    .use { it.readText() }
-            QuestionContentParser.parse(json)
+            QuestionContentParser.parse(
+                readAsset(MANIFEST_PATH),
+            ) { categoryId -> readAsset("$CATEGORIES_DIR/$categoryId.json") }
         }
 
+    private fun readAsset(path: String): String =
+        context.assets
+            .open(path)
+            .bufferedReader()
+            .use { it.readText() }
+
     private companion object {
-        const val ASSET_PATH = "content/questions.json"
+        const val MANIFEST_PATH = "content/manifest.json"
+        const val CATEGORIES_DIR = "content/categories"
     }
 }

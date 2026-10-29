@@ -1,0 +1,385 @@
+{
+  "categoryId": "kitchen",
+  "questions": [
+    {
+      "id": "kitchen-0001",
+      "subtopic": "food",
+      "level": 1,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum tränen die Augen beim Zwiebelschneiden?",
+      "answers": [
+        "Der Geruch macht traurig",
+        "Der Zwiebelsaft spritzt ins Auge",
+        "Die Zwiebel setzt ein reizendes Gas frei",
+        "Das Messer ist zu stumpf"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Beim Schneiden werden Zellen zerstört, und es entsteht ein schwefelhaltiges Gas. Es reizt die Augen, die sich mit Tränen wehren.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0002",
+      "subtopic": "cooking",
+      "level": 1,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum geht Hefeteig auf?",
+      "answers": [
+        "Die Wärme dehnt den Teig",
+        "Durch das Kneten",
+        "Das Mehl quillt auf",
+        "Hefepilze bilden Gasbläschen aus Kohlendioxid"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Hefe frisst Zucker und gibt dabei CO₂ ab. Das Klebereiweiß im Teig hält die Bläschen fest, so wird das Brot luftig.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0003",
+      "subtopic": "food",
+      "level": 1,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum schwimmt ein altes Ei im Wasser oben?",
+      "answers": [
+        "Altes Eiweiß ist leichter als Wasser",
+        "In einem alten Ei ist mehr Luft",
+        "Das Eigelb wird zu Gas",
+        "Die Schale wird mit der Zeit dicker"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Durch die Schale verdunstet mit der Zeit etwas Wasser, und die Luftblase am stumpfen Ende wird größer. Ein sehr altes Ei bekommt so genug Auftrieb, dass es oben schwimmt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0004",
+      "subtopic": "cooking",
+      "level": 1,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum kocht Nudelwasser so leicht über?",
+      "answers": [
+        "Salz bringt das Wasser zum Schäumen",
+        "Die Nudeln geben Luft ab",
+        "Das Wasser wird beim Kochen schwerer",
+        "Stärke bildet einen Schaum, der die Blasen festhält"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Aus den Nudeln löst sich Stärke. Sie macht die Dampfblasen an der Oberfläche stabil, ähnlich wie Seife, und es bildet sich ein Schaum, der über den Rand steigt. Ein Holzlöffel quer über dem Topf bringt die Blasen zum Platzen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0005",
+      "subtopic": "food",
+      "level": 1,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum wird ein aufgeschnittener Apfel braun?",
+      "answers": [
+        "Das Messer färbt ab",
+        "Er trocknet aus",
+        "Das Licht färbt ihn",
+        "Stoffe im Apfel reagieren mit Sauerstoff"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Beim Schneiden werden Zellen geöffnet. Ein Enzym im Apfel lässt dann Stoffe mit dem Sauerstoff der Luft reagieren, und es entstehen braune Farbstoffe. Ein paar Tropfen Zitronensaft bremsen das.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0006",
+      "subtopic": "cooking",
+      "level": 1,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum springt Popcorn auf?",
+      "answers": [
+        "Das Öl springt hoch",
+        "Wasser im Korn wird zu Dampf und sprengt die Schale",
+        "Das Salz platzt",
+        "Luft im Korn explodiert"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In jedem Maiskorn steckt ein wenig Wasser. Beim Erhitzen wird es zu Dampf, der Druck steigt, bis die harte Schale aufplatzt und die weiche Stärke herausquillt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0007",
+      "subtopic": "everyday",
+      "level": 1,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum streut man im Winter Salz auf Straßen?",
+      "answers": [
+        "Salz macht die Reifen griffig",
+        "Salz wärmt die Straße",
+        "Salzwasser gefriert erst bei tieferen Temperaturen",
+        "Salz saugt das Eis auf"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Salz löst sich im Schmelzwasser, und Salzwasser gefriert erst deutlich unter null Grad. So taut das Eis und friert nicht so schnell wieder fest.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0008",
+      "subtopic": "household",
+      "level": 1,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum beschlägt der Spiegel nach dem Duschen?",
+      "answers": [
+        "Der Spiegel schwitzt",
+        "Das Licht wird feucht",
+        "Seife verdampft",
+        "Wasserdampf wird auf dem kühlen Glas zu Tröpfchen"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Warme Duschluft enthält viel Wasserdampf. Trifft sie auf den kühleren Spiegel, kühlt sie ab, und der Dampf wird zu winzigen Tröpfchen, die das Bild verschleiern.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0009",
+      "subtopic": "household",
+      "level": 1,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum löst Spülmittel Fett?",
+      "answers": [
+        "Seine Teilchen verbinden Fett und Wasser",
+        "Es macht das Wasser heißer",
+        "Es verbrennt das Fett",
+        "Es zieht das Fett wie ein Magnet an"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Spülmittel-Teilchen haben ein wasserliebendes und ein fettliebendes Ende. Sie umschließen das Fett mit dem einen Ende, und mit dem anderen nimmt das Wasser sie mit.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0010",
+      "subtopic": "cooking",
+      "level": 1,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum werden Nudeln beim Kochen weich?",
+      "answers": [
+        "Das Salz weicht sie auf",
+        "Der Dampf bläst sie auf",
+        "Die Hitze schmilzt sie",
+        "Sie nehmen Wasser auf"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Trockene Nudeln bestehen vor allem aus Stärke. Im heißen Wasser saugt sie Wasser auf, quillt und wird weich. Deshalb sind gekochte Nudeln etwa doppelt so schwer wie trockene.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0011",
+      "subtopic": "food",
+      "level": 1,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum ist Milch weiß?",
+      "answers": [
+        "Weil sie Zucker enthält",
+        "Winzige Fett- und Eiweißteilchen streuen das Licht",
+        "Weil Kühe Gras fressen",
+        "Weil sie gekühlt wird"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Milch ist zum größten Teil Wasser mit vielen winzigen Fettkügelchen und Eiweißteilchen. Sie streuen alle Farben des Lichts gleich stark, und alle Farben zusammen sehen wir als Weiß.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0012",
+      "subtopic": "everyday",
+      "level": 1,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum knirscht frischer Schnee bei Frost unter den Schuhen?",
+      "answers": [
+        "Der Schnee ist nass",
+        "Die Schuhsohlen sind gefroren",
+        "Die Eiskristalle brechen und reiben aneinander",
+        "Luft pfeift aus dem Schnee"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Bei strengem Frost sind die Schneekristalle hart und spröde. Unter dem Schuh brechen und reiben sie aneinander, das hört man als Knirschen. Bei Tauwetter ist der Schnee weich und bleibt still.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0013",
+      "subtopic": "everyday",
+      "level": 1,
+      "order": 11,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum bekommt man manchmal an der Türklinke einen Schlag?",
+      "answers": [
+        "Die Klinke hängt am Stromnetz",
+        "Die Klinke speichert Sonnenlicht",
+        "Der Körper hat sich elektrisch aufgeladen",
+        "Das Metall ist zu kalt"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Beim Gehen über Teppich reiben Schuhe und Boden aneinander, und der Körper lädt sich auf. Berührt man Metall, gleicht sich die Ladung mit einem kleinen Funken aus. Bei trockener Heizungsluft passiert das besonders oft.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0014",
+      "subtopic": "household",
+      "level": 1,
+      "order": 12,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum trocknet Wäsche im Wind schneller?",
+      "answers": [
+        "Wind ist immer wärmer als stille Luft",
+        "Der Wind saugt das Wasser in die Wolken",
+        "Die Wäsche friert im Wind",
+        "Der Wind trägt die feuchte Luft weg"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Direkt an nasser Wäsche ist die Luft schnell voller Feuchtigkeit, dann verdunstet kaum noch Wasser. Wind tauscht diese feuchte Luft ständig gegen trockenere aus, und die Wäsche trocknet schneller.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0015",
+      "subtopic": "household",
+      "level": 1,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum gehört Metall nicht in die Mikrowelle?",
+      "answers": [
+        "Es wird magnetisch",
+        "Es macht das Essen giftig",
+        "Es kann Funken schlagen",
+        "Es schmilzt sofort"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Mikrowellen bringen in Metall Elektronen in Bewegung. An Kanten und Spitzen, etwa bei Alufolie oder Gabeln, können dadurch Funken überspringen und das Gerät beschädigen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0016",
+      "subtopic": "household",
+      "level": 1,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum bleibt Tee in einer Thermoskanne lange heiß?",
+      "answers": [
+        "Zwischen ihren Wänden ist fast keine Luft",
+        "Der Deckel heizt nach",
+        "Sie ist innen mit Watte gefüllt",
+        "Sie ist aus besonders warmem Metall"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Eine Thermoskanne hat doppelte Wände, und dazwischen ist fast keine Luft. Ohne Luftteilchen kann Wärme kaum hindurchwandern, deshalb bleibt Heißes heiß und Kaltes kalt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0017",
+      "subtopic": "food",
+      "level": 1,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Woraus wird Schokolade hergestellt?",
+      "answers": [
+        "Aus Karamell",
+        "Aus Kaffeebohnen",
+        "Aus Kakaobohnen",
+        "Aus Haselnüssen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Kakaobohnen wachsen in großen Früchten am Kakaobaum in tropischen Ländern. Sie werden fermentiert, getrocknet, geröstet und gemahlen, dann kommen Zucker und oft Milchpulver dazu.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0018",
+      "subtopic": "everyday",
+      "level": 1,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum sieht ein Strohhalm im Wasserglas geknickt aus?",
+      "answers": [
+        "Unsere Augen sehen durch Wasser schlecht",
+        "Das Licht ändert an der Wasseroberfläche seine Richtung",
+        "Der Strohhalm ist weich geworden",
+        "Das Wasser verbiegt den Strohhalm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Licht ist in Wasser langsamer als in Luft. Beim Übergang ändert es deshalb seine Richtung, das nennt man Brechung. Der Teil im Wasser scheint dadurch an einer anderen Stelle zu sein, als er wirklich ist.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0019",
+      "subtopic": "cooking",
+      "level": 1,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wozu kommt Backpulver in den Kuchenteig?",
+      "answers": [
+        "Damit der Kuchen süß wird",
+        "Es bildet Gasbläschen, die den Teig lockern",
+        "Damit er länger hält",
+        "Damit er nicht anbrennt"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Backpulver enthält Natron und eine Säure. Mit Feuchtigkeit und Hitze reagieren sie und bilden Kohlendioxid, das als Bläschen den Teig aufgehen lässt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0020",
+      "subtopic": "everyday",
+      "level": 1,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum quietscht eine Tür?",
+      "answers": [
+        "Die trockenen Scharniere reiben ruckartig aneinander",
+        "Das Holz ist zu alt",
+        "Die Tür ist zu schwer",
+        "Luft pfeift durch den Spalt"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Ohne Schmiermittel haften die Metallteile im Scharnier kurz aneinander und rutschen dann ruckartig weiter. Dieses schnelle Haften und Rutschen bringt das Metall zum Schwingen, und es quietscht. Ein Tropfen Öl hilft.",
+      "ageFrom": 6,
+      "ageTo": 12
+    }
+  ]
+}

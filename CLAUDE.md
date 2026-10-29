@@ -28,10 +28,10 @@ Turbine) sind im Version Catalog gepflegt und im `app`-Modul als Dependencies ei
 Implementiert ist bisher der **Auth-Flow** (Google Sign-In) als Referenz-Feature für alle
 folgenden Features: `WissliNavHost` → `AuthGateViewModel` (liegt bewusst in `core/navigation/` statt in `data/` oder
 `feature/`, da es kein Screen ist, sondern die Root-Navigation steuert; beobachtet
-`AuthRepository.observeCurrentUser()` und entscheidet die Start-Destination — `Routes.LOGIN`
-oder `Routes.HOME` — statt beim App-Start immer hart bei Login zu starten; nur der *erste*
+`AuthRepository.observeCurrentUser()` und entscheidet die Start-Destination — `Route.Login`
+oder `Route.Home` — statt beim App-Start immer hart bei Login zu starten; nur der *erste*
 Status zählt, spätere Login-/Logout-Wechsel navigiert der Graph explizit) → `LoginScreen` →
-`LoginViewModel` → `AuthRepository`/`GoogleAuthDataSource`. `Routes.HOME` zeigt das Dashboard
+`LoginViewModel` → `AuthRepository`/`GoogleAuthDataSource`. `Route.Home` zeigt das Dashboard
 (`features/dashboard/`, Design-Stand): Header mit Gruppenwahl + Begrüßung (Abmelden vorerst im
 Avatar-Menü, bis es einen Profil-Screen gibt), "Weiter lernen"-Karte, "Frage des Tages",
 Mitspieler-Karten und `WissliBottomBar` (`core/navigation/`, Tabs Start/Lernen/Gruppen; Gruppen
@@ -191,13 +191,22 @@ Firebase-Konsole/Admin-SDK.
 
 ## Fragen-Content
 
-Die Solo-Fragen werden als JSON-Paket mit der App ausgeliefert
-(`app/src/main/assets/content/questions.json`, Format siehe `QuestionContentParser`) und beim
-ersten Zugriff in Room übernommen (`RoomQuestionRepository`), wenn ihre `contentVersion` höher
-ist als die gespeicherte. Spielen kostet so keine Firestore-Reads und geht offline. Ein Paket wird
-immer komplett in einer Transaktion ersetzt; ein kaputtes Paket lässt den gespeicherten Stand
-stehen. Bei jeder inhaltlichen Änderung `contentVersion` erhöhen; ein Unit-Test prüft, dass das
-gebündelte Paket gültig ist und jedes Level genau 20 Fragen hat.
+Die Solo-Fragen werden als JSON-Paket mit der App ausgeliefert: `app/src/main/assets/content/manifest.json`
+(`contentVersion` + Themen mit `id, name, order`) und pro Thema eine Datei
+`content/categories/<categoryId>.json` (Format siehe `QuestionContentParser`). Beim ersten Zugriff
+übernimmt `RoomQuestionRepository` das Paket in Room, wenn seine `contentVersion` höher ist als die
+gespeicherte. Spielen kostet so keine Firestore-Reads und geht offline. Ein Paket wird immer
+komplett in einer Transaktion ersetzt; ein kaputtes Paket lässt den gespeicherten Stand stehen.
+Bei jeder inhaltlichen Änderung `contentVersion` erhöhen; ein Unit-Test prüft, dass das gebündelte
+Paket gültig ist und jedes Level genau 20 Fragen hat.
+
+Aktuell 10 Themen (`nature, animals, space, body, tech, history, world, kitchen, arts, sports`)
+mit je einem Level. Einstufung nach dem Konzept "Themen & Fragenkatalog": `difficultyScore` 0–8
+aus vier Kriterien (Vorwissen, Bekanntheit, Denkschritte, Falschantworten), daraus `difficulty`
+(0–2 EASY, 3–5 MEDIUM, 6–8 HARD); Level 1 = 14 leicht + 6 mittel, Level-Reihenfolge (`order`)
+grob nach Punkten, Frage 1 und jede fünfte leicht, höchstens 5 Fragen pro `subtopic` und Level.
+`difficultyScore` und `subtopic` stehen nur in den Dateien (Parser ignoriert sie). Die richtige
+Antwort steht an zufälliger Stelle mit explizitem `correctAnswerIndex`.
 
 Geplant: Remote-Updates über ein `contentVersion`-Dokument (Firestore oder Remote Config) plus
 ein herunterladbares Paket (z. B. Firebase Storage) im selben Format — einzuhängen in
@@ -240,10 +249,12 @@ abgleichen.
 
 ## Navigation
 
-Navigation Compose; Routen zentral definiert (in `core/navigation`), niemals verstreute
-String-Literale in Screens. Flows: Auth (Login) → Main (Home, Lernen, Groups, später Favorites
-und Profile) plus Detail-Routen (Thema `category/{categoryId}`, Level
-`level/{categoryId}/{level}`). Tabs wechseln über `navigateToTab()` mit Home als Wurzel.
+Navigation Compose mit typsicheren Routen: alle Ziele als `@Serializable`-Typen in
+`core/navigation/Route.kt` (`sealed interface Route`), Argumente als typisierte Felder
+(`Route.Level(categoryId, level)`, gelesen per `entry.toRoute<…>()`) — keine Route-Strings.
+Braucht das Kotlin-Serialization-Plugin plus `kotlinx-serialization-core` (Navigation bringt die
+Library nur intern mit). Flows: Auth (Login) → Main (Home, Lernen, Groups, später Favorites
+und Profile) plus Detail-Routen (Thema `Route.Category`, Level `Route.Level`). Tabs wechseln über `navigateToTab()` mit Home als Wurzel.
 
 ## UI & Theming
 

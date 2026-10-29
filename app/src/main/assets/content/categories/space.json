@@ -1,0 +1,385 @@
+{
+  "categoryId": "space",
+  "questions": [
+    {
+      "id": "space-0001",
+      "subtopic": "sun_moon",
+      "level": 1,
+      "order": 11,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum hat der Mond Krater?",
+      "answers": [
+        "Gesteinsbrocken aus dem All schlugen ein",
+        "Vulkane haben sie gesprengt",
+        "Dort wurde gegraben",
+        "Wasser hat Löcher gespült"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Der Mond hat keine schützende Lufthülle. Meteoriten verglühen nicht, sondern schlagen ein – und ohne Wind und Regen bleiben die Krater Milliarden Jahre erhalten.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0002",
+      "subtopic": "sun_moon",
+      "level": 1,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum leuchtet der Mond?",
+      "answers": [
+        "Die Erde beleuchtet ihn",
+        "Er wirft das Sonnenlicht zurück",
+        "Er hat leuchtendes Gestein",
+        "Er glüht von innen"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Der Mond leuchtet nicht selbst. Wir sehen nur den Teil, auf den gerade die Sonne scheint, daher die Mondphasen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0003",
+      "subtopic": "sun_moon",
+      "level": 1,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Wie lange braucht das Sonnenlicht bis zur Erde?",
+      "answers": [
+        "Etwa 8 Minuten",
+        "Etwa 8 Stunden",
+        "Etwa 8 Sekunden",
+        "Es kommt sofort an"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Licht ist rund 300.000 Kilometer pro Sekunde schnell, die Sonne ist 150 Millionen Kilometer entfernt. Wir sehen die Sonne also immer so, wie sie vor gut 8 Minuten war.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0004",
+      "subtopic": "planets",
+      "level": 1,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welcher Planet ist der größte?",
+      "answers": [
+        "Saturn",
+        "Jupiter",
+        "Neptun",
+        "Erde"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In Jupiter würde die Erde über 1.300 Mal hineinpassen. Er besteht vor allem aus Gas und hat keine feste Oberfläche, auf der man landen könnte.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0005",
+      "subtopic": "planets",
+      "level": 1,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum ist der Mars rot?",
+      "answers": [
+        "Die Sonne färbt ihn",
+        "Sein Staub enthält rostiges Eisen",
+        "Er ist sehr heiß",
+        "Er ist mit Lava bedeckt"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Der Boden des Mars enthält viel Eisenoxid, also Rost. Feiner Staub davon liegt überall und wirbelt sogar durch seine dünne Luft, deshalb leuchtet er rötlich.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0006",
+      "subtopic": "stars",
+      "level": 1,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum funkeln Sterne?",
+      "answers": [
+        "Sie blinken wirklich",
+        "Sie drehen sich sehr schnell",
+        "Wolken ziehen vor ihnen vorbei",
+        "Unsere Luft lenkt ihr Licht ständig ein wenig ab"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Sternenlicht muss durch unsere bewegte, unterschiedlich warme Luft. Die lenkt es ständig ein klein wenig ab, deshalb flackert der Lichtpunkt. Im Weltall funkeln Sterne nicht.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0007",
+      "subtopic": "stars",
+      "level": 1,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist die Sonne?",
+      "answers": [
+        "Ein Mond",
+        "Ein Stern",
+        "Ein Planet",
+        "Ein riesiges Lagerfeuer"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Die Sonne ist ein ganz gewöhnlicher Stern. Sie wirkt nur so groß und hell, weil sie uns viel näher ist als alle anderen Sterne.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0008",
+      "subtopic": "planets",
+      "level": 1,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welcher Planet hat die auffälligsten Ringe?",
+      "answers": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Saturns Ringe bestehen aus unzähligen Brocken aus Eis und Gestein, von Staubkorngröße bis zur Größe eines Hauses. Auch Jupiter, Uranus und Neptun haben Ringe, aber viel schwächere.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0009",
+      "subtopic": "spaceflight",
+      "level": 1,
+      "order": 12,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wer betrat als erster Mensch den Mond?",
+      "answers": [
+        "Neil Armstrong",
+        "Juri Gagarin",
+        "Buzz Aldrin",
+        "Sigmund Jähn"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Neil Armstrong betrat den Mond im Juli 1969, Buzz Aldrin folgte ihm kurz darauf. Juri Gagarin war 1961 der erste Mensch im All.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0010",
+      "subtopic": "sun_moon",
+      "level": 1,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie lange braucht die Erde für eine Runde um die Sonne?",
+      "answers": [
+        "Einen Monat",
+        "Hundert Jahre",
+        "Ein Jahr",
+        "Einen Tag"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Für eine Runde um die Sonne braucht die Erde etwa 365 Tage und 6 Stunden. Die übrigen Stunden sammeln sich, deshalb gibt es alle vier Jahre einen Schalttag.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0011",
+      "subtopic": "sun_moon",
+      "level": 1,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum gibt es Tag und Nacht?",
+      "answers": [
+        "Die Erde wandert um die Sonne",
+        "Der Mond verdeckt die Sonne",
+        "Die Sonne geht abends aus",
+        "Die Erde dreht sich um sich selbst"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In etwa 24 Stunden dreht sich die Erde einmal um sich selbst. Die Seite, die gerade zur Sonne zeigt, hat Tag, die andere Nacht.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0012",
+      "subtopic": "stars",
+      "level": 1,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist eine Sternschnuppe?",
+      "answers": [
+        "Ein Flugzeug in großer Höhe",
+        "Ein Steinchen, das in der Luft verglüht",
+        "Ein Stern, der herunterfällt",
+        "Ein abstürzender Satellit"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sternschnuppen haben mit Sternen nichts zu tun. Meist sind es Staubkörnchen oder Steinchen, die mit enormem Tempo in die Lufthülle rasen und dabei verglühen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0013",
+      "subtopic": "planets",
+      "level": 1,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welcher Planet ist der Sonne am nächsten?",
+      "answers": [
+        "Merkur",
+        "Venus",
+        "Erde",
+        "Mars"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Merkur braucht nur 88 Tage für eine Runde um die Sonne. Weil er fast keine Lufthülle hat, ist es dort tagsüber glühend heiß und nachts eiskalt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0014",
+      "subtopic": "stars",
+      "level": 1,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist die Milchstraße?",
+      "answers": [
+        "Unsere Galaxie aus Milliarden Sternen",
+        "Eine lange Kette von Planeten",
+        "Der Schweif eines Kometen",
+        "Eine Wolke aus Wasserdampf"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Die Sonne ist einer von über 100 Milliarden Sternen unserer Galaxie. Das helle Band am Nachthimmel ist der Blick quer durch ihre flache Scheibe, in der wir selbst sitzen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0015",
+      "subtopic": "spaceflight",
+      "level": 1,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum brauchen Astronauten im All einen Raumanzug?",
+      "answers": [
+        "Dort gibt es keine Luft zum Atmen",
+        "Damit sie nicht wegschweben",
+        "Weil es im All regnet",
+        "Damit man sie besser sieht"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Draußen im All gibt es weder Luft noch Luftdruck, und es ist je nach Sonnenlicht glühend heiß oder eisig kalt. Der Anzug ist wie ein kleines Raumschiff mit Sauerstoff, Druck und Kühlung.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0016",
+      "subtopic": "spaceflight",
+      "level": 1,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie kommt eine Rakete vom Fleck?",
+      "answers": [
+        "Sie stößt Gas mit großer Wucht nach hinten aus",
+        "Sie stößt sich vom Boden ab",
+        "Die Luft trägt sie wie ein Flugzeug",
+        "Sie ist leichter als Luft"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Die Triebwerke stoßen heiße Gase mit riesiger Geschwindigkeit nach hinten aus, und die Rakete wird dadurch nach vorne gedrückt. Das klappt auch im luftleeren Weltall, ganz ohne Abstoßen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0017",
+      "subtopic": "spaceflight",
+      "level": 1,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist die ISS?",
+      "answers": [
+        "Eine Rakete zum Mars",
+        "Ein Teleskop auf dem Mond",
+        "Ein Wettersatellit",
+        "Eine Raumstation, die um die Erde kreist"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Auf der Internationalen Raumstation leben und forschen ständig Astronautinnen und Astronauten. Sie umrundet die Erde in rund 400 Kilometern Höhe etwa alle 90 Minuten.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0018",
+      "subtopic": "spaceflight",
+      "level": 1,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum sind die Fußspuren auf dem Mond noch da?",
+      "answers": [
+        "Es ist dort zu kalt",
+        "Der Boden ist hart wie Beton",
+        "Die Astronauten haben sie versiegelt",
+        "Dort gibt es keinen Wind und kein Wetter"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Mond hat keine Lufthülle, also auch keinen Wind und keinen Regen, der Spuren verwischen könnte. Die Abdrücke der Apollo-Astronauten dürften deshalb noch sehr lange zu sehen sein.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0019",
+      "subtopic": "planets",
+      "level": 1,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Welcher Planet ist am weitesten von der Sonne entfernt?",
+      "answers": [
+        "Neptun",
+        "Saturn",
+        "Uranus",
+        "Pluto"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Seit 2006 zählt Pluto nicht mehr als Planet, sondern als Zwergplanet. Damit ist Neptun der äußerste der acht Planeten. Er braucht rund 165 Jahre für eine Runde um die Sonne.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0020",
+      "subtopic": "stars",
+      "level": 1,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum sieht man tagsüber keine Sterne?",
+      "answers": [
+        "Wolken verdecken sie immer",
+        "Sie stehen tagsüber unter der Erde",
+        "Sie gehen tagsüber aus",
+        "Der helle Himmel überstrahlt sie"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Die Sterne sind auch tagsüber da. Das Sonnenlicht, das in der Luft gestreut wird, macht den Himmel aber so hell, dass ihr schwaches Licht darin untergeht.",
+      "ageFrom": 6,
+      "ageTo": 12
+    }
+  ]
+}
