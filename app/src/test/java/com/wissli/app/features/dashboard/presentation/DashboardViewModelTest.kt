@@ -1,15 +1,16 @@
 package com.wissli.app.features.dashboard.presentation
 
-import com.wissli.app.core.model.ChallengeStatus
+import com.wissli.app.core.model.Category
+import com.wissli.app.core.model.CategoryProgress
 import com.wissli.app.core.model.Group
 import com.wissli.app.core.model.GroupRole
+import com.wissli.app.core.model.Question
 import com.wissli.app.core.model.User
 import com.wissli.app.data.auth.AuthRepository
 import com.wissli.app.data.auth.LastSignedInAccount
-import com.wissli.app.data.challenge.ChallengeRepository
-import com.wissli.app.data.challenge.ChallengeSummary
 import com.wissli.app.data.group.GroupMemberSummary
 import com.wissli.app.data.group.GroupRepository
+import com.wissli.app.data.progress.ProgressRepository
 import com.wissli.app.data.question.DailyQuestion
 import com.wissli.app.data.question.QuestionRepository
 import kotlinx.coroutines.Dispatchers
@@ -46,7 +47,7 @@ class DashboardViewModelTest {
     }
 
     @Test
-    fun `combines user, active group content and daily question`() =
+    fun `combines user, active group content, daily question and learning progress`() =
         runTest(dispatcher) {
             val viewModel = dashboardViewModel(currentUser = flowOf(sarah))
             backgroundScope.launch { viewModel.state.collect {} }
@@ -58,8 +59,9 @@ class DashboardViewModelTest {
             assertEquals("Sarah", state.greetingName)
             assertEquals(family, state.activeGroup)
             assertEquals(listOf(mila), state.members)
-            assertEquals(listOf(zebraChallenge), state.openChallenges)
             assertEquals(skyQuestion, state.dailyQuestion)
+            assertEquals(nature, state.continueLearning?.category)
+            assertEquals(2, state.continueLearning?.progress?.completedLevels)
         }
 
     @Test
@@ -76,7 +78,7 @@ class DashboardViewModelTest {
         }
 
     @Test
-    fun `without a group there are no members and no challenges`() =
+    fun `without a group there are no members`() =
         runTest(dispatcher) {
             val viewModel = dashboardViewModel(currentUser = flowOf(sarah), groups = emptyList())
             backgroundScope.launch { viewModel.state.collect {} }
@@ -86,7 +88,6 @@ class DashboardViewModelTest {
             val state = viewModel.state.value
             assertNull(state.activeGroup)
             assertTrue(state.members.isEmpty())
-            assertTrue(state.openChallenges.isEmpty())
         }
 }
 
@@ -103,17 +104,9 @@ private val mila =
         streakDays = 4,
         points = 120,
         pointsGoal = 150,
-        openChallengeCount = 1,
     )
 
-private val zebraChallenge =
-    ChallengeSummary(
-        id = "zebra",
-        questionTitle = "Why do zebras have stripes?",
-        createdByName = "Mila",
-        createdAt = 0L,
-        status = ChallengeStatus.PENDING,
-    )
+private val nature = Category(id = "nature", name = "Nature", order = 0, levelCount = 10)
 
 private val skyQuestion =
     DailyQuestion(questionId = "sky", title = "Why is the sky blue?", categoryName = "Nature", ageFrom = 6, ageTo = 10)
@@ -130,14 +123,28 @@ private fun dashboardViewModel(
             override fun observeMembers(groupId: String): Flow<List<GroupMemberSummary>> =
                 flowOf(if (groupId == family.id) listOf(mila) else emptyList())
         },
-    challengeRepository =
-        object : ChallengeRepository {
-            override fun observeOpenChallenges(groupId: String): Flow<List<ChallengeSummary>> =
-                flowOf(if (groupId == family.id) listOf(zebraChallenge) else emptyList())
-        },
     questionRepository =
         object : QuestionRepository {
             override fun observeDailyQuestion(): Flow<DailyQuestion?> = flowOf(skyQuestion)
+
+            override fun observeCategories(): Flow<List<Category>> = flowOf(listOf(nature))
+
+            override suspend fun getLevelQuestions(
+                categoryId: String,
+                level: Int,
+            ): List<Question> = emptyList()
+        },
+    progressRepository =
+        object : ProgressRepository {
+            override fun observeProgress(): Flow<Map<String, CategoryProgress>> =
+                flowOf(mapOf(nature.id to CategoryProgress(nature.id, completedLevels = 2)))
+
+            override suspend fun markSolved(
+                categoryId: String,
+                level: Int,
+                questionId: String,
+                levelQuestionCount: Int,
+            ): Result<CategoryProgress> = Result.failure(UnsupportedOperationException())
         },
 )
 

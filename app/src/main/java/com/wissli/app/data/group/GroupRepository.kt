@@ -10,7 +10,7 @@ interface GroupRepository {
     fun observeMembers(groupId: String): Flow<List<GroupMemberSummary>>
 }
 
-// TODO: decide where streak and points are stored once challenges are scored.
+// TODO: decide where streak and points are stored once the group mode is scored.
 data class GroupMemberSummary(
     val userId: String,
     val displayName: String,
@@ -18,5 +18,4 @@ data class GroupMemberSummary(
     val streakDays: Int,
     val points: Int,
     val pointsGoal: Int,
-    val openChallengeCount: Int,
 )

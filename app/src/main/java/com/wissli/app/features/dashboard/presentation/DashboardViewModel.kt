@@ -2,13 +2,15 @@ package com.wissli.app.features.dashboard.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.wissli.app.core.model.CategoryOverview
 import com.wissli.app.core.model.Group
 import com.wissli.app.core.model.User
+import com.wissli.app.core.model.continueCandidate
+import com.wissli.app.core.model.withProgress
 import com.wissli.app.data.auth.AuthRepository
-import com.wissli.app.data.challenge.ChallengeRepository
-import com.wissli.app.data.challenge.ChallengeSummary
 import com.wissli.app.data.group.GroupMemberSummary
 import com.wissli.app.data.group.GroupRepository
+import com.wissli.app.data.progress.ProgressRepository
 import com.wissli.app.data.question.QuestionRepository
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
@@ -25,8 +27,8 @@ import kotlinx.coroutines.flow.stateIn
 class DashboardViewModel(
     authRepository: AuthRepository,
     groupRepository: GroupRepository,
-    challengeRepository: ChallengeRepository,
     questionRepository: QuestionRepository,
+    progressRepository: ProgressRepository,
 ) : ViewModel() {
     // Starts with null so a slow or failing user document never blocks the rest of the dashboard.
     private val currentUser: Flow<User?> =
@@ -43,28 +45,32 @@ class DashboardViewModel(
             .map { groups -> groups.firstOrNull() }
             .flatMapLatest { group ->
                 if (group == null) {
-                    flowOf(GroupContent(group = null, members = emptyList(), openChallenges = emptyList()))
+                    flowOf(GroupContent(group = null, members = emptyList()))
                 } else {
-                    combine(
-                        groupRepository.observeMembers(group.id),
-                        challengeRepository.observeOpenChallenges(group.id),
-                    ) { members, openChallenges -> GroupContent(group, members, openChallenges) }
+                    groupRepository.observeMembers(group.id).map { members -> GroupContent(group, members) }
                 }
             }
+
+    private val continueLearning: Flow<CategoryOverview?> =
+        combine(
+            questionRepository.observeCategories(),
+            progressRepository.observeProgress(),
+        ) { categories, progress -> categories.withProgress(progress).continueCandidate() }
 
     val state: StateFlow<DashboardState> =
         combine(
             currentUser,
             activeGroupContent,
             questionRepository.observeDailyQuestion(),
-        ) { user, groupContent, dailyQuestion ->
+            continueLearning,
+        ) { user, groupContent, dailyQuestion, learning ->
             DashboardState(
                 isLoading = false,
                 displayName = user?.displayName,
                 activeGroup = groupContent.group,
                 dailyQuestion = dailyQuestion,
                 members = groupContent.members,
-                openChallenges = groupContent.openChallenges,
+                continueLearning = learning,
             )
         }.stateIn(
             scope = viewModelScope,
@@ -72,16 +78,13 @@ class DashboardViewModel(
             initialValue = DashboardState(),
         )
 
-    // TODO: navigate to the question, challenge and group features once they exist.
+    // TODO: navigate to the question and group features once they exist.
     fun onIntent(intent: DashboardIntent) {
         when (intent) {
             DashboardIntent.GroupSwitcherClicked,
-            DashboardIntent.SendDailyQuestionClicked,
             DashboardIntent.OpenDailyQuestionClicked,
             DashboardIntent.ManageMembersClicked,
             is DashboardIntent.MemberClicked,
-            DashboardIntent.ShowAllChallengesClicked,
-            is DashboardIntent.ChallengeClicked,
             -> Unit
         }
     }
@@ -89,7 +92,6 @@ class DashboardViewModel(
     private data class GroupContent(
         val group: Group?,
         val members: List<GroupMemberSummary>,
-        val openChallenges: List<ChallengeSummary>,
     )
 
     private companion object {

@@ -27,8 +27,7 @@
 
     <!-- Main navigation -->
     <string name="main_tab_home">Home</string>
-    <string name="main_tab_questions">Questions</string>
-    <string name="main_tab_challenges">Challenges</string>
+    <string name="main_tab_learn">Learn</string>
     <string name="main_tab_groups">Groups</string>
 
     <!-- Dashboard -->
@@ -39,32 +38,88 @@
     <string name="dashboard_sign_out">Sign out</string>
     <string name="dashboard_daily_question_label">QUESTION OF THE DAY</string>
     <string name="dashboard_daily_question_meta">%1$s · %2$d–%3$d yrs</string>
-    <string name="dashboard_daily_question_send">Send as challenge</string>
-    <string name="dashboard_daily_question_open">View</string>
+    <string name="dashboard_daily_question_open">View question</string>
+    <string name="dashboard_learning_title">Your progress</string>
+    <string name="dashboard_learning_all">All topics</string>
     <string name="dashboard_members_title">Players</string>
     <string name="dashboard_members_manage">Manage</string>
     <string name="dashboard_members_empty">Nobody else here yet. Invite someone to your group!</string>
-    <string name="dashboard_member_summary">%1$s · %2$s</string>
-    <string name="dashboard_member_nothing_open">nothing open</string>
-    <plurals name="dashboard_member_open_challenges">
-        <item quantity="one">%d open</item>
-        <item quantity="other">%d open</item>
-    </plurals>
     <plurals name="dashboard_member_streak_days">
         <item quantity="one">%d day</item>
         <item quantity="other">%d days</item>
     </plurals>
     <string name="dashboard_member_points">%1$d / %2$d points</string>
-    <string name="dashboard_challenges_title">Open challenges</string>
-    <string name="dashboard_challenges_all">All</string>
-    <string name="dashboard_challenges_empty">No open challenges. Send one from the question of the day!</string>
-    <string name="dashboard_challenge_from">%1$s · %2$s</string>
+
+    <!-- Ranks -->
+    <string name="rank_newcomer">Newcomer</string>
+    <string name="rank_explorer">Explorer</string>
+    <string name="rank_knower">Scholar</string>
+    <string name="rank_expert">Expert</string>
+    <string name="rank_master">Master</string>
+
+    <!-- Learn -->
+    <string name="learn_title">Your knowledge path</string>
+    <string name="learn_stats">%1$s · %2$s</string>
+    <plurals name="learn_stats_questions">
+        <item quantity="one">%d question solved</item>
+        <item quantity="other">%d questions solved</item>
+    </plurals>
+    <plurals name="learn_stats_levels">
+        <item quantity="one">%d level done</item>
+        <item quantity="other">%d levels done</item>
+    </plurals>
+    <string name="learn_continue_label">KEEP LEARNING</string>
+    <string name="learn_level_progress">Level %1$d · %2$d of %3$d solved</string>
+    <string name="learn_start_level">Start level %1$d</string>
+    <string name="learn_continue_level">Continue level %1$d</string>
+    <plurals name="learn_levels_to_next_rank">
+        <item quantity="one">%1$d more level to %2$s</item>
+        <item quantity="other">%1$d more levels to %2$s</item>
+    </plurals>
+    <string name="learn_highest_rank_reached">Highest rank reached</string>
+    <string name="learn_categories_title">All topics</string>
+    <string name="learn_category_levels">Level %1$d of %2$d</string>
+    <string name="learn_category_finished">All levels done</string>
+    <string name="learn_all_finished">You have finished every level. New questions are on their way!</string>
+    <string name="learn_empty">No topics yet.</string>
+
+    <!-- Category -->
+    <string name="category_back">Back</string>
+    <string name="category_rank_label">YOUR RANK</string>
+    <string name="category_levels_title">Levels</string>
+    <string name="category_level_title">Level %1$d</string>
+    <string name="category_level_done_mark" translatable="false">✓</string>
+    <string name="category_level_completed">Done · play again to practice</string>
+    <string name="category_level_current">%1$d of %2$d solved</string>
+    <string name="category_level_locked">Locked</string>
+    <string name="category_not_found">This topic is not available.</string>
+
+    <!-- Level -->
+    <string name="level_close">Close</string>
+    <string name="level_close_mark" translatable="false">✕</string>
+    <string name="level_counter" translatable="false">%1$d/%2$d</string>
+    <string name="level_header">%1$s · LEVEL %2$d</string>
+    <string name="level_practice">PRACTICE</string>
+    <string name="level_feedback_correct">Correct!</string>
+    <string name="level_feedback_wrong">Not quite</string>
+    <string name="level_feedback_wrong_hint">This question comes up again at the end of the level.</string>
+    <string name="level_continue">Continue</string>
+    <string name="level_load_failed">The questions could not be loaded.</string>
+    <string name="level_retry">Try again</string>
+    <string name="level_progress_not_saved">Your progress could not be saved. Check your connection.</string>
+    <string name="level_complete_label">LEVEL %1$d COMPLETE</string>
+    <string name="level_complete_title">All %1$d questions solved!</string>
+    <string name="level_complete_practice">Nicely practiced. Your progress stays as it is.</string>
+    <string name="level_complete_new_rank">NEW RANK</string>
+    <string name="level_complete_rank_topic">in %1$s</string>
+    <string name="level_back_to_overview">Back to overview</string>
 
     <!-- Groups -->
     <string name="group_role_owner">Admin</string>
     <string name="group_role_member">Member</string>
 
-    <!-- Challenges -->
+    <!-- Challenges (obsolete, remove together with OpenChallengeCard.kt; the group mode replaces them) -->
+    <string name="dashboard_challenge_from">%1$s · %2$s</string>
     <string name="challenge_status_pending">OPEN</string>
     <string name="challenge_status_in_progress">IN PROGRESS</string>
     <string name="challenge_status_completed">DONE</string>

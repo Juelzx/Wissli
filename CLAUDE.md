@@ -7,10 +7,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 Wissli ist eine Android-App rund um Wissensfragen ("Warum ist der Himmel blau?") mit
 altersgerechten Erklärungen. Nutzer:innen organisieren sich in frei benennbaren **Gruppen**
 (z. B. "Familie Scholler", aber genauso ein Freundeskreis oder jede andere Konstellation) —
-keine feste Family-/Parent-Child-Hierarchie. Kernfeature: Mitglieder favorisieren Fragen und
-schicken sie als **Challenge** an ein anderes Mitglied derselben Gruppe; die Antwortperson
-beantwortet die Frage und erhält Feedback/Erklärung. Ziel ist eine veröffentlichbare
-Play-Store-App, langfristig mit KI- und Premium-Funktionen.
+keine feste Family-/Parent-Child-Hierarchie. Kernfeature ist der **Solo-Fortschritt**: Fragen
+gehören zu Themen (z. B. "Natur"), jedes Thema hat Level à 20 Fragen; wer alle Fragen eines
+Levels gelöst hat, schaltet das nächste frei und steigt pro Thema im **Rang** auf (Neuling →
+Entdecker → Kenner → Experte → Meister). Nach jeder Antwort gibt es Feedback und die Erklärung.
+Später kommt ein **Gruppenmodus** dazu, der die früher geplanten 1:1-Challenges ersetzt: eigener
+Fragenpool (zählt nicht für den Solo-Fortschritt), alle beantworten parallel mit Timer pro
+Frage, danach sieht man, wer richtig lag; Schwierigkeit leicht/mittel/schwer/gemischt. Ziel ist
+eine veröffentlichbare Play-Store-App, langfristig mit KI- und Premium-Funktionen.
 
 ## Scope
 
@@ -29,12 +33,19 @@ oder `Routes.HOME` — statt beim App-Start immer hart bei Login zu starten; nur
 Status zählt, spätere Login-/Logout-Wechsel navigiert der Graph explizit) → `LoginScreen` →
 `LoginViewModel` → `AuthRepository`/`GoogleAuthDataSource`. `Routes.HOME` zeigt das Dashboard
 (`features/dashboard/`, Design-Stand): Header mit Gruppenwahl + Begrüßung (Abmelden vorerst im
-Avatar-Menü, bis es einen Profil-Screen gibt), "Frage des Tages", Mitspieler-Karten, offene
-Challenges und `WissliBottomBar` (`core/navigation/`, Tabs außer Start noch ohne Ziel).
-`DashboardViewModel` liest über `GroupRepository`/`QuestionRepository`/`ChallengeRepository`
-(`data/group|question|challenge/`), die aktuell nur durch `Placeholder*Repository` mit statischen
-Beispieldaten gebunden sind — für Firestore nur die Bindung im jeweiligen `di/<Bereich>Module.kt`
-austauschen. Wiederverwendbare UI-Bausteine (Karten-Stapel, Initialen-Avatar, Logo-Kachel) liegen
+Avatar-Menü, bis es einen Profil-Screen gibt), "Weiter lernen"-Karte, "Frage des Tages",
+Mitspieler-Karten und `WissliBottomBar` (`core/navigation/`, Tabs Start/Lernen/Gruppen; Gruppen
+noch ohne Ziel). Der Solo-Fortschritt besteht aus `features/learn/` (Tab "Lernen": Themen mit
+Rang + Weiter-Karte), `features/category/` (Rang-Leiter + Level-Pfad eines Themas) und
+`features/level/` (Level spielen; falsch beantwortete Fragen kommen ans Ende, Level endet erst,
+wenn alle gelöst sind; danach Abschluss mit Rang-Aufstieg; geschaffte Level lassen sich ohne
+Fortschrittsänderung üben). `LevelViewModel` nutzt einen reinen `LevelReducer`. Fortschritts-
+und Rang-Logik liegt im Modell (`CategoryProgress.withSolved()`, `Rank.forCompletedLevels()`).
+ViewModels lesen über `GroupRepository`/`QuestionRepository`/`ProgressRepository`
+(`data/group|question|progress/`), die aktuell nur durch `Placeholder*Repository` mit statischen
+Beispieldaten gebunden sind (der Fortschritt liegt dort nur im Speicher) — für Firestore nur die
+Bindung im jeweiligen `di/<Bereich>Module.kt` austauschen. Wiederverwendbare UI-Bausteine
+(Karten-Stapel, Initialen-Avatar, Logo-Kachel, Rang-Badge/-Emblem, Fortschrittsbalken) liegen
 unter `ui/components/`.
 Der Login-Screen hat zwei Varianten: Erst-Login ("Mit Google anmelden") und "Willkommen zurück"
 mit Konto-Karte ("Weiter als …" / "Anderes Konto verwenden"). Dafür merkt sich
@@ -46,9 +57,9 @@ die E-Mail landet bewusst nie in Firestore.
 Manager API und ist bewusst von `AuthRepository` getrennt (reine Plattform-API, kein
 Firebase-Zugriff). Koin ist initialisiert (`WissliApplication` startet `startKoin { ... }`) mit
 `di/AppModule.kt` (`appModule`), das Bereichs-Module per `includes()` einhängt (`authModule`,
-`groupModule`, `questionModule`, `challengeModule`, `dashboardModule`).
-Noch **nicht implementiert**: alle Screens außer Login/Dashboard (Questions, Favorites, Groups,
-Challenges, Profile), echte Firestore-Repositories außer Auth, Room-Entities/DAOs.
+`groupModule`, `questionModule`, `progressModule`, `dashboardModule`, `learnModule`).
+Noch **nicht implementiert**: Favorites, Groups (inkl. Gruppenmodus), Profile, Frage des Tages,
+echte Firestore-Repositories außer Auth, Room-Entities/DAOs.
 Beim Lesen des Codes den tatsächlichen Stand prüfen statt dies als vollständig anzunehmen.
 
 Konvention für neue Features (siehe `features/login/` als Vorlage): pro Feature ein flaches
@@ -150,14 +161,21 @@ UI (Compose) → ViewModel → Repository → Data Sources (Firebase remote / Ro
   erstellt hat, und einzige Rolle, die Mitglieder einladen/entfernen oder die Gruppe
   verwalten/löschen darf.
 - **Question**: globaler, gruppenunabhängiger Content — `id, title, explanation,
-  categoryId, ageFrom, ageTo, difficulty, answerType, imageUrl?, published, premium,
-  createdAt, updatedAt`.
+  categoryId, level, order, answers, correctAnswerIndex, ageFrom, ageTo, difficulty, answerType,
+  imageUrl?, published, premium, createdAt, updatedAt`. `level` + `order` legen die Position im
+  Level-Pfad des Themas fest (`QUESTIONS_PER_LEVEL = 20`). Im Code (`core/model/Question.kt`)
+  bisher nur die Felder, die das Spielen braucht.
+- **Category** (= Thema): `id, name, order, levelCount`; `order` sortiert und bestimmt die Farbe.
+- **CategoryProgress**: Solo-Fortschritt eines Users pro Thema — `completedLevels,
+  solvedInCurrentLevel (IDs), updatedAt`. Levels werden strikt der Reihe nach gespielt, deshalb
+  genügt das (ein kleines Dokument pro Thema statt eines pro Antwort; geschrieben wird nur bei
+  richtigen Antworten). **Rank** ergibt sich aus `completedLevels` (0/1/3/6/10) statt aus einem
+  Anteil am Thema, damit neue Level niemandem den Rang wieder wegnehmen.
 - **Favorite**: gehört einem User, referenziert eine Question per ID — verändert nie die
   Question selbst.
-- **Challenge**: verbindet Question, Group, `createdBy` und `assignedTo` (beliebige zwei
-  Mitglieder derselben Gruppe, keine feste Rollenzuordnung) — `id,
-  questionId, groupId, createdBy, assignedTo, status, answer, result?, createdAt,
-  completedAt?`; `status = PENDING | IN_PROGRESS | COMPLETED`.
+- **Challenge** (veraltet): 1:1-Challenges werden durch den Gruppenmodus ersetzt und nicht
+  weitergebaut. `ChallengeRepository`/`ChallengeModule`/`OpenChallengeCard` hängen nicht mehr
+  im Code und können gelöscht werden; das Datenmodell des Gruppenmodus folgt, wenn er ansteht.
 
 Admin-Rechte für Content-Pflege (Questions/Categories, über die künftige Admin-Web-App) sind
 noch nicht modelliert — kein globales Rollenkonzept mehr auf User. Lösung (z. B. feste Liste von
@@ -168,16 +186,20 @@ Firebase-Konsole/Admin-SDK.
 
 Collections: `users, groups, questions, categories, challenges, favorites`; Mitgliedschaft als
 Subcollection `groups/{groupId}/members/{uid}` (Query "alle Gruppen eines Users" über eine
-Collection-Group-Query auf `members`, gefiltert nach `userId`). Repository-Abstraktionen pro
-fachlichem Bereich, z. B.
-`QuestionRepository.observeQuestions()/getQuestion()/observeFavorites()/addFavorite()`,
-`ChallengeRepository.observeChallenges()/createChallenge()/startChallenge()/completeChallenge()`,
+Collection-Group-Query auf `members`, gefiltert nach `userId`); Solo-Fortschritt als
+`users/{uid}/progress/{categoryId}`. Level-Fragen per Query `categoryId == … && level == … &&
+published == true`, sortiert nach `order` (braucht einen Composite-Index). Repository-Abstraktionen
+pro fachlichem Bereich, z. B.
+`QuestionRepository.observeCategories()/getLevelQuestions()/observeFavorites()/addFavorite()`,
+`ProgressRepository.observeProgress()/markSolved()`,
 `GroupRepository.observeGroups()/createGroup()/inviteMember()/removeMember()/observeMembers()`,
 `AuthRepository.observeCurrentUser()/signIn()/signOut()`.
 
 Security-Regeln sind Pflicht, nicht optional — Sicherheitslogik nie ausschließlich im Client:
 
-- User lesen nur eigene private Daten.
+- User lesen nur eigene private Daten; den eigenen Fortschritt nur um höchstens ein Level pro
+  Schreibvorgang erhöhen (noch nicht fälschungssicher — sobald Ränge im Gruppenmodus verglichen
+  werden, schreibt eine Cloud Function).
 - Gruppen lesbar für Mitglieder; erstellen kann jede:r (wird automatisch Owner); verwalten
   (Mitglieder einladen/entfernen) und löschen nur der Owner.
 - Challenges nur zwischen Mitgliedern derselben Gruppe; lesen/bearbeiten nur wer selbst
@@ -197,8 +219,9 @@ abgleichen.
 ## Navigation
 
 Navigation Compose; Routen zentral definiert (in `core/navigation`), niemals verstreute
-String-Literale in Screens. Flows: Auth (Login) → Main (Home, Questions, Favorites,
-Challenges, Groups, Profile) plus Detail-Routen (Question Detail, Challenge Detail).
+String-Literale in Screens. Flows: Auth (Login) → Main (Home, Lernen, Groups, später Favorites
+und Profile) plus Detail-Routen (Thema `category/{categoryId}`, Level
+`level/{categoryId}/{level}`). Tabs wechseln über `navigateToTab()` mit Home als Wurzel.
 
 ## UI & Theming
 
@@ -217,7 +240,7 @@ klassischer "Kinder-Lern-App"-Look. Noch kein umfangreiches Design-System bauen.
 ## Testing
 
 JUnit, `kotlinx-coroutines-test`, Turbine, Compose UI Tests. Fokus auf ViewModel-State,
-User-Events, Repository-Verhalten, Challenge-State und kritische Navigation-Flows — lieber
+User-Events, Repository-Verhalten, Fortschritts-/Level-State und kritische Navigation-Flows — lieber
 wenige sinnvolle Tests als künstliche Coverage.
 
 ## Premium & KI (noch nicht implementiert)
@@ -240,7 +263,8 @@ des aktuellen Android-Scopes, nur bei der Repo-/Doku-Struktur mitdenken.
 
 Nicht die ganze App auf einmal bauen. Reihenfolge: Projekt/Gradle-Setup → Compose-Theme →
 Navigation-Grundgerüst → Firebase-Setup → Models → Repository-Interfaces → Firebase-
-Datenquellen → Auth → Questions → Favorites → Groups → Challenges → Push Notifications →
+Datenquellen → Auth → Solo-Fortschritt (Questions) → Favorites → Groups → Gruppenmodus → Push
+Notifications →
 Tests. **Nach jedem Schritt muss das Projekt weiterhin kompilieren.**
 
 ## Commands

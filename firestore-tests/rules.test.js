@@ -108,6 +108,40 @@ describe('users', () => {
   });
 });
 
+describe('progress', () => {
+  const progress = (extra = {}) => ({
+    completedLevels: 0,
+    solvedInCurrentLevel: ['q1'],
+    updatedAt: NOW,
+    ...extra,
+  });
+
+  test('nur der eigene Fortschritt ist les- und schreibbar', async () => {
+    await assertSucceeds(setDoc(doc(db('alice'), 'users/alice/progress/nature'), progress()));
+    await assertSucceeds(getDoc(doc(db('alice'), 'users/alice/progress/nature')));
+    await assertFails(getDoc(doc(db('bob'), 'users/alice/progress/nature')));
+    await assertFails(setDoc(doc(db('bob'), 'users/alice/progress/space'), progress()));
+  });
+
+  test('pro Schreibvorgang höchstens ein Level mehr, nie eins weniger', async () => {
+    await seed('users/alice/progress/nature', progress({ completedLevels: 3 }));
+    const ref = doc(db('alice'), 'users/alice/progress/nature');
+    await assertSucceeds(updateDoc(ref, { completedLevels: 4, solvedInCurrentLevel: [] }));
+    await assertFails(updateDoc(ref, { completedLevels: 6 }));
+    await assertFails(updateDoc(ref, { completedLevels: 2 }));
+    await assertFails(
+      setDoc(doc(db('alice'), 'users/alice/progress/space'), progress({ completedLevels: 5 })),
+    );
+  });
+
+  test('keine Zusatzfelder und höchstens 20 gelöste Fragen', async () => {
+    const ref = doc(db('alice'), 'users/alice/progress/nature');
+    await assertFails(setDoc(ref, progress({ rank: 'MASTER' })));
+    const tooMany = Array.from({ length: 21 }, (_, i) => `q${i}`);
+    await assertFails(setDoc(ref, progress({ solvedInCurrentLevel: tooMany })));
+  });
+});
+
 describe('groups', () => {
   test('Gruppe anlegen und als Owner eintragen in einem Batch', async () => {
     const fs = db(OWNER);

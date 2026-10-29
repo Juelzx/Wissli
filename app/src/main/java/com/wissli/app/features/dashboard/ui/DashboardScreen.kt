@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
@@ -31,6 +30,8 @@ import com.wissli.app.core.navigation.WissliBottomBar
 import com.wissli.app.features.dashboard.presentation.DashboardIntent
 import com.wissli.app.features.dashboard.presentation.DashboardState
 import com.wissli.app.features.dashboard.presentation.DashboardViewModel
+import com.wissli.app.features.learn.ui.ContinueLearningCard
+import com.wissli.app.features.learn.ui.PreviewOverviews
 import com.wissli.app.ui.theme.Spacing
 import com.wissli.app.ui.theme.WissliTheme
 import org.koin.androidx.compose.koinViewModel
@@ -38,10 +39,18 @@ import org.koin.androidx.compose.koinViewModel
 @Composable
 fun DashboardScreen(
     onSignOut: () -> Unit,
+    onTabSelected: (MainTab) -> Unit,
+    onOpenLevel: (categoryId: String, level: Int) -> Unit,
     viewModel: DashboardViewModel = koinViewModel(),
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
-    DashboardContent(state = state, onIntent = viewModel::onIntent, onSignOut = onSignOut)
+    DashboardContent(
+        state = state,
+        onIntent = viewModel::onIntent,
+        onSignOut = onSignOut,
+        onTabSelected = onTabSelected,
+        onOpenLevel = onOpenLevel,
+    )
 }
 
 @Composable
@@ -49,12 +58,14 @@ private fun DashboardContent(
     state: DashboardState,
     onIntent: (DashboardIntent) -> Unit,
     onSignOut: () -> Unit,
+    onTabSelected: (MainTab) -> Unit,
+    onOpenLevel: (categoryId: String, level: Int) -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    // TODO: move the bottom bar to a shared main scaffold once the other tabs have screens.
+    // TODO: move the bottom bar to a shared main scaffold once all tabs have screens.
     Scaffold(
         modifier = modifier.fillMaxSize(),
-        bottomBar = { WissliBottomBar(selectedTab = MainTab.HOME, onTabSelected = {}) },
+        bottomBar = { WissliBottomBar(selectedTab = MainTab.HOME, onTabSelected = onTabSelected) },
     ) { innerPadding ->
         if (state.isLoading) {
             Box(modifier = Modifier.padding(innerPadding).fillMaxSize(), contentAlignment = Alignment.Center) {
@@ -75,18 +86,17 @@ private fun DashboardContent(
                         modifier = Modifier.padding(horizontal = Spacing.screenHorizontal),
                     )
                 }
+                learningSection(state = state, onTabSelected = onTabSelected, onOpenLevel = onOpenLevel)
                 state.dailyQuestion?.let { question ->
                     item {
                         DailyQuestionCard(
                             question = question,
-                            onSendAsChallengeClicked = { onIntent(DashboardIntent.SendDailyQuestionClicked) },
                             onOpenClicked = { onIntent(DashboardIntent.OpenDailyQuestionClicked) },
                             modifier = Modifier.fillMaxWidth().padding(horizontal = Spacing.xs),
                         )
                     }
                 }
                 membersSection(state = state, onIntent = onIntent)
-                openChallengesSection(state = state, onIntent = onIntent)
             }
         }
     }
@@ -123,28 +133,28 @@ private fun LazyListScope.membersSection(
     }
 }
 
-private fun LazyListScope.openChallengesSection(
+// The solo learning path is the main loop of the app, so it leads the dashboard.
+private fun LazyListScope.learningSection(
     state: DashboardState,
-    onIntent: (DashboardIntent) -> Unit,
+    onTabSelected: (MainTab) -> Unit,
+    onOpenLevel: (categoryId: String, level: Int) -> Unit,
 ) {
+    val continueLearning = state.continueLearning ?: return
     item {
         SectionHeader(
-            title = stringResource(R.string.dashboard_challenges_title),
-            actionLabel = stringResource(R.string.dashboard_challenges_all),
-            onActionClicked = { onIntent(DashboardIntent.ShowAllChallengesClicked) },
-            modifier = Modifier.padding(top = Spacing.s),
+            title = stringResource(R.string.dashboard_learning_title),
+            actionLabel = stringResource(R.string.dashboard_learning_all),
+            onActionClicked = { onTabSelected(MainTab.LEARN) },
         )
     }
-    if (state.openChallenges.isEmpty()) {
-        item { EmptyHint(text = stringResource(R.string.dashboard_challenges_empty)) }
-    } else {
-        items(state.openChallenges, key = { it.id }) { challenge ->
-            OpenChallengeCard(
-                challenge = challenge,
-                onClick = { onIntent(DashboardIntent.ChallengeClicked(challenge.id)) },
-                modifier = Modifier.padding(horizontal = Spacing.screenHorizontal),
-            )
-        }
+    item {
+        ContinueLearningCard(
+            overview = continueLearning,
+            onContinueClicked = {
+                onOpenLevel(continueLearning.category.id, continueLearning.progress.currentLevel)
+            },
+            modifier = Modifier.fillMaxWidth().padding(horizontal = Spacing.xs),
+        )
     }
 }
 
@@ -199,7 +209,7 @@ internal fun DashboardPreview() {
                     ),
                 dailyQuestion = PreviewDailyQuestion,
                 members = PreviewMembers,
-                openChallenges = previewChallenges(),
+                continueLearning = PreviewOverviews.first(),
             ),
     )
 }
@@ -213,6 +223,12 @@ internal fun DashboardEmptyPreview() {
 @Composable
 private fun DashboardContentPreview(state: DashboardState) {
     WissliTheme {
-        DashboardContent(state = state, onIntent = {}, onSignOut = {})
+        DashboardContent(
+            state = state,
+            onIntent = {},
+            onSignOut = {},
+            onTabSelected = {},
+            onOpenLevel = { _, _ -> },
+        )
     }
 }

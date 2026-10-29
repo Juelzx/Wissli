@@ -75,7 +75,7 @@ internal fun MemberCard(
                 overflow = TextOverflow.Ellipsis,
             )
             Text(
-                text = stringResource(R.string.dashboard_member_summary, member.roleLabel(), member.openLabel()),
+                text = member.roleLabel(),
                 style = MaterialTheme.typography.labelMedium,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
@@ -134,14 +134,6 @@ private fun GroupMemberSummary.roleLabel(): String =
         GroupRole.MEMBER -> stringResource(R.string.group_role_member)
     }
 
-@Composable
-private fun GroupMemberSummary.openLabel(): String =
-    if (openChallengeCount == 0) {
-        stringResource(R.string.dashboard_member_nothing_open)
-    } else {
-        pluralStringResource(R.plurals.dashboard_member_open_challenges, openChallengeCount, openChallengeCount)
-    }
-
 private data class MemberCardColors(
     val container: Color,
     val accent: Color,
@@ -176,7 +168,6 @@ internal val PreviewMembers =
             streakDays = 2,
             points = 60,
             pointsGoal = 150,
-            openChallengeCount = 0,
         ),
         GroupMemberSummary(
             userId = "mila",
@@ -185,7 +176,6 @@ internal val PreviewMembers =
             streakDays = 4,
             points = 120,
             pointsGoal = 150,
-            openChallengeCount = 1,
         ),
         GroupMemberSummary(
             userId = "ben",
@@ -194,6 +184,5 @@ internal val PreviewMembers =
             streakDays = 0,
             points = 40,
             pointsGoal = 150,
-            openChallengeCount = 2,
         ),
     )

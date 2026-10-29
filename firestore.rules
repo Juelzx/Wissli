@@ -63,6 +63,37 @@ service cloud.firestore {
         && hasValidDisplayName();
 
       allow delete: if false;
+
+      // users/{uid}/progress/{categoryId}: Solo-Fortschritt, ein Dokument pro Thema (siehe
+      // ProgressRepository). Levels werden der Reihe nach gespielt, deshalb reichen die Zahl
+      // geschaffter Level plus die gelösten Fragen des aktuellen Levels. Pro Schreibvorgang darf
+      // höchstens ein Level dazukommen und nie eins verloren gehen. Fälschungssicher ist das nicht
+      // (der Client prüft die Antworten) — sobald Ränge im Gruppenmodus verglichen werden, muss
+      // eine Cloud Function den Fortschritt schreiben.
+      match /progress/{categoryId} {
+        function isValidProgress() {
+          let data = request.resource.data;
+          return data.keys().hasOnly(['completedLevels', 'solvedInCurrentLevel', 'updatedAt'])
+            && data.completedLevels is int
+            && data.completedLevels >= 0
+            && data.solvedInCurrentLevel is list
+            && data.solvedInCurrentLevel.size() <= 20
+            && data.updatedAt is int;
+        }
+
+        allow read: if isOwnDoc();
+
+        allow create: if isOwnDoc()
+          && isValidProgress()
+          && request.resource.data.completedLevels <= 1;
+
+        allow update: if isOwnDoc()
+          && isValidProgress()
+          && request.resource.data.completedLevels >= resource.data.completedLevels
+          && request.resource.data.completedLevels <= resource.data.completedLevels + 1;
+
+        allow delete: if false;
+      }
     }
 
     // groups/{groupId}: lesbar für Mitglieder; erstellen kann jede:r (wird automatisch Owner,

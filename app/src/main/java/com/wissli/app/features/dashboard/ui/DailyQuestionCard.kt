@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -21,7 +20,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.clearAndSetSemantics
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.wissli.app.R
 import com.wissli.app.data.question.DailyQuestion
@@ -41,7 +39,6 @@ import com.wissli.app.ui.theme.Spacing
 @Composable
 internal fun DailyQuestionCard(
     question: DailyQuestion,
-    onSendAsChallengeClicked: () -> Unit,
     onOpenClicked: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
@@ -63,10 +60,16 @@ internal fun DailyQuestionCard(
                 Spacer(Modifier.height(Spacing.m))
                 AnswerLetterRow()
                 Spacer(Modifier.height(Spacing.m))
-                DailyQuestionActions(
-                    onSendAsChallengeClicked = onSendAsChallengeClicked,
-                    onOpenClicked = onOpenClicked,
-                )
+                Button(
+                    onClick = onOpenClicked,
+                    shape = MaterialTheme.shapes.large,
+                    modifier = Modifier.fillMaxWidth().heightIn(min = ActionHeight),
+                ) {
+                    Text(
+                        text = stringResource(R.string.dashboard_daily_question_open),
+                        style = MaterialTheme.typography.titleSmall,
+                    )
+                }
             }
         }
     }
@@ -125,45 +128,6 @@ private fun AnswerLetterRow() {
     }
 }
 
-@Composable
-private fun DailyQuestionActions(
-    onSendAsChallengeClicked: () -> Unit,
-    onOpenClicked: () -> Unit,
-) {
-    Row(
-        modifier = Modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.spacedBy(Spacing.xs),
-    ) {
-        Button(
-            onClick = onSendAsChallengeClicked,
-            shape = MaterialTheme.shapes.large,
-            modifier = Modifier.weight(SEND_BUTTON_WEIGHT).heightIn(min = ActionHeight),
-        ) {
-            Text(
-                text = stringResource(R.string.dashboard_daily_question_send),
-                style = MaterialTheme.typography.titleSmall,
-                textAlign = TextAlign.Center,
-            )
-        }
-        Button(
-            onClick = onOpenClicked,
-            shape = MaterialTheme.shapes.large,
-            colors =
-                ButtonDefaults.buttonColors(
-                    containerColor = MaterialTheme.colorScheme.outlineVariant,
-                    contentColor = MaterialTheme.colorScheme.onSurface,
-                ),
-            modifier = Modifier.weight(1f).heightIn(min = ActionHeight),
-        ) {
-            Text(
-                text = stringResource(R.string.dashboard_daily_question_open),
-                style = MaterialTheme.typography.titleSmall,
-                textAlign = TextAlign.Center,
-            )
-        }
-    }
-}
-
 private val AnswerLetterColors: List<Pair<Color, Color>> =
     listOf(
         SkyContainer to OnSkyContainer,
@@ -175,7 +139,6 @@ private val AnswerLetterColors: List<Pair<Color, Color>> =
 private val CardPadding = 18.dp
 private val AnswerLetterHeight = 40.dp
 private val ActionHeight = 56.dp
-private const val SEND_BUTTON_WEIGHT = 1.4f
 
 @ComponentPreviews
 @Composable
@@ -183,7 +146,6 @@ internal fun DailyQuestionCardPreview() {
     WissliComponentPreview {
         DailyQuestionCard(
             question = PreviewDailyQuestion,
-            onSendAsChallengeClicked = {},
             onOpenClicked = {},
         )
     }
