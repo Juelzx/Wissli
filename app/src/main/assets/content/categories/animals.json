@@ -1,0 +1,385 @@
+{
+  "categoryId": "animals",
+  "questions": [
+    {
+      "id": "animals-0001",
+      "subtopic": "bodies",
+      "level": 1,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum leuchten Glühwürmchen?",
+      "answers": [
+        "Sie haben kleine Batterien",
+        "Ein Stoff in ihrem Körper leuchtet",
+        "Mondlicht spiegelt sich",
+        "Sie speichern Sonnenlicht"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In ihrem Hinterleib reagiert der Stoff Luciferin mit Sauerstoff. Dabei entsteht kaltes Licht, mit dem sie Partner anlocken.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0002",
+      "subtopic": "behavior",
+      "level": 1,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum zirpen Grillen?",
+      "answers": [
+        "Sie reiben ihre Flügel aneinander",
+        "Sie pfeifen mit dem Mund",
+        "Sie haben kleine Glöckchen",
+        "Sie klopfen auf Steine"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Männliche Grillen streichen eine geriffelte Kante des einen Flügels über den anderen – wie ein Bogen über eine Geige. So rufen sie nach Weibchen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0003",
+      "subtopic": "bodies",
+      "level": 1,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie atmen Fische?",
+      "answers": [
+        "Sie tauchen zum Atmen auf",
+        "Mit Kiemen holen sie Sauerstoff aus dem Wasser",
+        "Über die Schuppen",
+        "Sie brauchen keinen Sauerstoff"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Wasser strömt durch das Maul über die Kiemen. Dort geht der im Wasser gelöste Sauerstoff ins Blut über.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0004",
+      "subtopic": "senses",
+      "level": 1,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum sehen Katzen im Dunkeln so gut?",
+      "answers": [
+        "Sie haben mehr Augenlider",
+        "Ihre Augen leuchten selbst",
+        "Sie sehen Wärme",
+        "Eine Spiegelschicht im Auge nutzt das Licht doppelt"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Die Schicht hinter der Netzhaut heißt Tapetum lucidum. Sie wirft Licht, das die Netzhaut verfehlt hat, ein zweites Mal zurück. Deshalb leuchten Katzenaugen auch im Scheinwerferlicht.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0005",
+      "subtopic": "pets",
+      "level": 1,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum hecheln Hunde?",
+      "answers": [
+        "Weil sie sich freuen",
+        "Weil sie Durst haben",
+        "Um sich abzukühlen",
+        "Um besser zu riechen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Hunde können kaum schwitzen, nur ein wenig über die Pfoten. Beim Hecheln verdunstet Feuchtigkeit von Zunge und Atemwegen, und das kühlt den Körper.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0006",
+      "subtopic": "records",
+      "level": 1,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welches ist das größte Tier der Erde?",
+      "answers": [
+        "Der Walhai",
+        "Der Blauwal",
+        "Die Giraffe",
+        "Der Afrikanische Elefant"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Blauwale werden bis zu 30 Meter lang und über 150 Tonnen schwer. Damit sind sie schwerer als jeder Dinosaurier, den man bisher kennt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0007",
+      "subtopic": "records",
+      "level": 1,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welches Landtier ist am schnellsten?",
+      "answers": [
+        "Der Gepard",
+        "Der Windhund",
+        "Das Rennpferd",
+        "Der Löwe"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Ein Gepard schafft auf kurzen Strecken rund 100 Kilometer pro Stunde. Lange hält er das Tempo aber nicht durch, nach wenigen hundert Metern ist er erschöpft.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0008",
+      "subtopic": "behavior",
+      "level": 1,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum verschlafen manche Tiere den Winter?",
+      "answers": [
+        "Weil sie im Sommer zu viel laufen",
+        "Im Winter finden sie kaum Nahrung",
+        "Damit ihr Fell nachwächst",
+        "Weil es zu dunkel ist"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Igel, Murmeltiere und Siebenschläfer fahren Herzschlag und Körpertemperatur stark herunter. So reicht das Fettpolster, das sie sich im Herbst angefressen haben, bis zum Frühling.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0009",
+      "subtopic": "behavior",
+      "level": 1,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum fliegen viele Vögel im Herbst nach Süden?",
+      "answers": [
+        "Weil ihre Federn ausfallen",
+        "Um dort Eier zu legen",
+        "Dort finden sie im Winter genug Futter",
+        "Weil der Wind sie dorthin trägt"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Viele Zugvögel fressen Insekten, und die gibt es bei uns im Winter kaum. Im Frühling kehren sie zurück, weil sie hier bei langen Tagen und viel Futter ihre Jungen aufziehen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0010",
+      "subtopic": "bodies",
+      "level": 1,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wie viele Beine hat eine Spinne?",
+      "answers": [
+        "Zwölf",
+        "Acht",
+        "Sechs",
+        "Zehn"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Spinnen haben acht Beine und gehören deshalb nicht zu den Insekten, die immer sechs Beine haben. Sie sind Spinnentiere, genau wie Skorpione und Zecken.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0011",
+      "subtopic": "habitats",
+      "level": 1,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Was speichern Kamele in ihrem Höcker?",
+      "answers": [
+        "Fett",
+        "Muskeln zum Laufen",
+        "Luft",
+        "Wasser"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Viele glauben, im Höcker sei Wasser. Tatsächlich ist es Fett, von dem das Kamel zehren kann, wenn es wenig Futter findet. Weil das Fett im Höcker sitzt statt überall unter der Haut, kann der übrige Körper Wärme besser abgeben.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0012",
+      "subtopic": "habitats",
+      "level": 1,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie hält sich ein Eisbär warm?",
+      "answers": [
+        "Sein Blut ist wärmer als das anderer Tiere",
+        "Er meidet kaltes Wasser",
+        "Er zittert ununterbrochen",
+        "Mit einer dicken Fettschicht und dichtem Fell"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Unter dem Fell liegt eine bis zu zehn Zentimeter dicke Fettschicht. Dazu kommen dichte Unterwolle und lange Deckhaare. Eisbären sind so gut isoliert, dass sie eher überhitzen als frieren.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0013",
+      "subtopic": "senses",
+      "level": 1,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie finden Fledermäuse im Dunkeln ihren Weg?",
+      "answers": [
+        "Mit dem Echo ihrer Rufe",
+        "Sie sehen Wärme",
+        "Sie folgen dem Mondlicht",
+        "Sie riechen Hindernisse"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Fledermäuse stoßen sehr hohe Rufe aus, die wir nicht hören. Aus dem Echo erkennen sie Hindernisse und sogar winzige Insekten. Das nennt man Echoortung.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0014",
+      "subtopic": "pets",
+      "level": 1,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum schnüffeln Hunde so viel?",
+      "answers": [
+        "Weil ihre Nase juckt",
+        "Sie suchen immer nach Futter",
+        "Sie sehen im Hellen schlecht",
+        "Die Nase ist ihr wichtigster Sinn"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Eine Hundenase hat viele Millionen Riechzellen mehr als unsere. Beim Schnüffeln erfahren Hunde, wer vorbeigekommen ist und wie lange das ungefähr her ist.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0015",
+      "subtopic": "senses",
+      "level": 1,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wozu haben Katzen Schnurrhaare?",
+      "answers": [
+        "Nur zur Zierde",
+        "Zum Tasten",
+        "Zum Hören",
+        "Zum Schmecken"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Schnurrhaare sind sehr empfindliche Tasthaare. Mit ihnen spüren Katzen kleinste Luftbewegungen und merken auch im Dunkeln, ob sie durch eine enge Lücke passen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0016",
+      "subtopic": "bodies",
+      "level": 1,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie atmen Wale?",
+      "answers": [
+        "Mit Lungen, dafür tauchen sie auf",
+        "Mit Kiemen wie Fische",
+        "Sie atmen gar nicht",
+        "Durch die Haut"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Wale sind Säugetiere. Sie holen an der Oberfläche durch das Blasloch auf dem Kopf Luft. Manche Wale können danach über eine Stunde tauchen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0017",
+      "subtopic": "behavior",
+      "level": 1,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum laufen Ameisen oft hintereinander her?",
+      "answers": [
+        "Sie sehen den Weg sehr genau",
+        "Sie halten sich an den Beinen fest",
+        "Sie folgen einer Duftspur",
+        "Die Königin ruft sie"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Hat eine Ameise Futter gefunden, legt sie auf dem Rückweg eine Duftspur. Andere Ameisen folgen ihr und verstärken die Spur, so entsteht eine regelrechte Ameisenstraße.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0018",
+      "subtopic": "pets",
+      "level": 1,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum wedelt ein Hund mit dem Schwanz?",
+      "answers": [
+        "Er zeigt damit seine Stimmung",
+        "Er kühlt sich damit ab",
+        "Er vertreibt Fliegen",
+        "Er hält so das Gleichgewicht"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Schwanzwedeln heißt nicht immer Freude. Locker und breit ist meist freundlich, steif und hoch kann Aufregung oder Warnung bedeuten. Hunde nutzen den Schwanz, um sich mit anderen zu verständigen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0019",
+      "subtopic": "records",
+      "level": 1,
+      "order": 11,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welcher Vogel legt die größten Eier?",
+      "answers": [
+        "Der Schwan",
+        "Der Adler",
+        "Der Pinguin",
+        "Der Strauß"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Ein Straußenei wiegt rund anderthalb Kilogramm, so viel wie etwa 25 Hühnereier. Die Schale ist so dick, dass ein Erwachsener darauf stehen kann.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "animals-0020",
+      "subtopic": "bodies",
+      "level": 1,
+      "order": 12,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wozu haben Igel Stacheln?",
+      "answers": [
+        "Um Äpfel zu tragen",
+        "Um Nester zu bauen",
+        "Um sich warmzuhalten",
+        "Zum Schutz vor Feinden"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Bei Gefahr rollt sich der Igel zu einer Stachelkugel zusammen. Dass Igel Äpfel auf ihren Stacheln tragen, ist übrigens ein Märchen: Sie fressen vor allem Käfer, Würmer und Schnecken.",
+      "ageFrom": 6,
+      "ageTo": 12
+    }
+  ]
+}

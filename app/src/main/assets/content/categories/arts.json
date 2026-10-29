@@ -1,0 +1,385 @@
+{
+  "categoryId": "arts",
+  "questions": [
+    {
+      "id": "arts-0001",
+      "subtopic": "instruments",
+      "level": 1,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie viele Saiten hat eine normale Gitarre?",
+      "answers": [
+        "Sechs",
+        "Zwölf",
+        "Fünf",
+        "Vier"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Eine klassische Gitarre hat sechs Saiten. Es gibt auch Zwölfsaiter mit doppelten Saiten, und ein E-Bass hat meist vier.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0002",
+      "subtopic": "instruments",
+      "level": 1,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum klingen dicke Saiten tiefer?",
+      "answers": [
+        "Sie schwingen schneller",
+        "Sie schwingen langsamer",
+        "Sie sind lauter",
+        "Sie sind aus anderem Holz"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Je schwerer und lockerer eine Saite ist, desto langsamer schwingt sie. Langsame Schwingungen hören wir als tiefe Töne, schnelle als hohe. Deshalb stimmt man eine Gitarre durch Spannen oder Lockern der Saiten.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0003",
+      "subtopic": "famous",
+      "level": 1,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wer malte die Mona Lisa?",
+      "answers": [
+        "Michelangelo",
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Vincent van Gogh"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Leonardo da Vinci malte das Bild Anfang des 16. Jahrhunderts. Heute hängt es im Louvre in Paris hinter Panzerglas und gehört zu den berühmtesten Gemälden der Welt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0004",
+      "subtopic": "art",
+      "level": 1,
+      "order": 11,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welche drei Farben gelten im Malkasten als Grundfarben?",
+      "answers": [
+        "Schwarz, Weiß und Grau",
+        "Rot, Gelb und Blau",
+        "Rot, Grün und Blau",
+        "Grün, Orange und Lila"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Aus Rot, Gelb und Blau lassen sich im Malkasten viele andere Farben mischen, zum Beispiel Orange aus Rot und Gelb. Bei Licht, etwa auf Bildschirmen, sind die Grundfarben dagegen Rot, Grün und Blau.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0005",
+      "subtopic": "art",
+      "level": 1,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Welche Farbe entsteht, wenn man Gelb und Blau mischt?",
+      "answers": [
+        "Grün",
+        "Lila",
+        "Orange",
+        "Braun"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Gelb und Blau ergeben Grün. Je mehr Blau man nimmt, desto dunkler und kühler wird das Grün.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0006",
+      "subtopic": "instruments",
+      "level": 1,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welches Instrument hat 88 Tasten?",
+      "answers": [
+        "Das Akkordeon",
+        "Die Harfe",
+        "Das Klavier",
+        "Die Orgel"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ein normales Klavier hat 52 weiße und 36 schwarze Tasten. Jede Taste lässt einen kleinen Hammer gegen eine Saite schlagen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0007",
+      "subtopic": "music",
+      "level": 1,
+      "order": 12,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wie heißt die Person, die ein Orchester leitet?",
+      "answers": [
+        "Konzertmeister oder Konzertmeisterin",
+        "Solist oder Solistin",
+        "Komponist oder Komponistin",
+        "Dirigent oder Dirigentin"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Dirigent gibt mit Händen oder Taktstock das Tempo vor und zeigt, wann welche Instrumente einsetzen und wie laut sie spielen. Der Konzertmeister ist dagegen die erste Geige im Orchester.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0008",
+      "subtopic": "music",
+      "level": 1,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Auf wie vielen Linien stehen Noten?",
+      "answers": [
+        "Sieben",
+        "Sechs",
+        "Fünf",
+        "Vier"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Noten stehen auf und zwischen fünf Linien. Je höher eine Note sitzt, desto höher ist der Ton. Der Notenschlüssel am Anfang legt fest, welche Linie welcher Ton ist.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0009",
+      "subtopic": "famous",
+      "level": 1,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Welcher Komponist wurde taub und komponierte trotzdem weiter?",
+      "answers": [
+        "Antonio Vivaldi",
+        "Johann Sebastian Bach",
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Beethoven verlor schon mit Ende zwanzig nach und nach sein Gehör. Seine berühmte Neunte Sinfonie schrieb er, als er fast nichts mehr hörte.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0010",
+      "subtopic": "instruments",
+      "level": 1,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum hat eine Geige einen hohlen Holzkörper?",
+      "answers": [
+        "Damit sie nicht zerbricht",
+        "Er verstärkt den Klang der Saiten",
+        "Damit sie leichter ist",
+        "Damit man Noten hineinlegen kann"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Eine Saite allein bewegt kaum Luft und klingt sehr leise. Über den Steg überträgt sie ihre Schwingungen auf den Holzkörper, der mit der Luft darin mitschwingt und den Ton laut macht.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0011",
+      "subtopic": "art",
+      "level": 1,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was ist ein Selbstporträt?",
+      "answers": [
+        "Ein Bild von Obst",
+        "Ein Bild einer Landschaft",
+        "Ein Bild, das jemand von sich selbst malt",
+        "Ein Bild ohne Farben"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Viele Malerinnen und Maler haben sich selbst gemalt, oft mit Hilfe eines Spiegels. Vincent van Gogh schuf über 35 Selbstporträts.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0012",
+      "subtopic": "instruments",
+      "level": 1,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welches dieser Instrumente ist ein Blechblasinstrument?",
+      "answers": [
+        "Die Querflöte",
+        "Die Trompete",
+        "Das Schlagzeug",
+        "Die Geige"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Bei Blechblasinstrumenten erzeugen die Lippen den Ton, indem sie im Mundstück vibrieren. Die Querflöte ist zwar meist aus Metall, zählt aber zu den Holzblasinstrumenten, weil man über eine Kante bläst.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0013",
+      "subtopic": "art",
+      "level": 1,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was macht ein Bildhauer?",
+      "answers": [
+        "Er malt Wände an",
+        "Er baut Häuser",
+        "Er formt Figuren aus Stein, Holz oder Ton",
+        "Er fotografiert"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Bildhauer schlagen Figuren aus Stein, schnitzen Holz, formen Ton oder gießen Bronze. Eine der berühmtesten Skulpturen ist der David von Michelangelo in Florenz.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0014",
+      "subtopic": "music",
+      "level": 1,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Was bedeutet „forte“ in der Musik?",
+      "answers": [
+        "Schnell",
+        "Laut",
+        "Leise",
+        "Langsam"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Viele Musikbegriffe sind italienisch. „Forte“ heißt laut, „piano“ heißt leise. Daher hat das Pianoforte, kurz Klavier, seinen Namen: Man konnte darauf leise und laut spielen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0015",
+      "subtopic": "famous",
+      "level": 1,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wer komponierte die „Kleine Nachtmusik“?",
+      "answers": [
+        "Joseph Haydn",
+        "Johann Sebastian Bach",
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Mozart schrieb das Stück 1787 in Wien. Er komponierte schon als kleines Kind und schuf in seinem kurzen Leben über 600 Werke.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0016",
+      "subtopic": "famous",
+      "level": 1,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Aus welchem Land stammte der Maler Pablo Picasso?",
+      "answers": [
+        "Frankreich",
+        "Italien",
+        "Mexiko",
+        "Spanien"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Picasso wurde 1881 in Málaga geboren, lebte aber die meiste Zeit in Frankreich. Mit seinen kantigen, zerlegten Formen begründete er den Kubismus mit.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0017",
+      "subtopic": "art",
+      "level": 1,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist ein Mosaik?",
+      "answers": [
+        "Ein Bild aus vielen kleinen Steinchen",
+        "Ein gewebter Teppich",
+        "Eine Statue aus Holz",
+        "Ein Bild aus Wasserfarben"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Für ein Mosaik setzt man kleine Stücke aus Stein, Glas oder Keramik dicht nebeneinander. Schon die alten Römer schmückten so ihre Fußböden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0018",
+      "subtopic": "music",
+      "level": 1,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie viele Musiker spielen in einem Streichquartett?",
+      "answers": [
+        "Vier",
+        "Fünf",
+        "Drei",
+        "Zwei"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Ein Streichquartett besteht aus zwei Geigen, einer Bratsche und einem Cello. „Quartett“ kommt vom lateinischen Wort für vier.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0019",
+      "subtopic": "music",
+      "level": 1,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Womit hält man beim Üben gleichmäßig den Takt?",
+      "answers": [
+        "Mit einer Stimmgabel",
+        "Mit einem Notenständer",
+        "Mit einem Kompass",
+        "Mit einem Metronom"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Ein Metronom tickt gleichmäßig in einem einstellbaren Tempo. Die Stimmgabel dagegen gibt einen festen Ton zum Stimmen vor.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0020",
+      "subtopic": "famous",
+      "level": 1,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welche Band aus Liverpool wurde in den 1960ern weltberühmt?",
+      "answers": [
+        "Die Beatles",
+        "Die Rolling Stones",
+        "ABBA",
+        "Queen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "John Lennon, Paul McCartney, George Harrison und Ringo Starr gehören zu den erfolgreichsten Musikern aller Zeiten. Ihre ersten großen Auftritte hatten sie übrigens in Hamburg.",
+      "ageFrom": 6,
+      "ageTo": 12
+    }
+  ]
+}

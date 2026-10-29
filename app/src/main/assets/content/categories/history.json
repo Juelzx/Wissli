@@ -1,0 +1,385 @@
+{
+  "categoryId": "history",
+  "questions": [
+    {
+      "id": "history-0001",
+      "subtopic": "antiquity",
+      "level": 1,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wer baute die Pyramiden von Gizeh?",
+      "answers": [
+        "Römische Soldaten",
+        "Griechische Baumeister",
+        "Ausschließlich Sklaven",
+        "Ägyptische Arbeiter, die dafür versorgt wurden"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Archäologen haben Arbeiterdörfer mit Bäckereien und Gräbern der Bauleute gefunden. Die Pyramiden sind rund 4.500 Jahre alt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0002",
+      "subtopic": "explorers",
+      "level": 1,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wonach suchte Kolumbus, als er 1492 Amerika erreichte?",
+      "answers": [
+        "Nach einem neuen Kontinent",
+        "Nach einem Seeweg nach Indien",
+        "Nach dem Nordpol",
+        "Nach dem Goldland Eldorado"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Kolumbus wollte Asien erreichen, indem er nach Westen segelte. Er hielt die Inseln für Indien, daher der Name „Indianer“.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0003",
+      "subtopic": "middle_ages",
+      "level": 1,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wo wohnten viele Ritter im Mittelalter?",
+      "answers": [
+        "In Hochhäusern",
+        "In Burgen",
+        "In Pyramiden",
+        "In Iglus"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Burgen waren Wohnsitz und Festung zugleich. Dicke Mauern, Wassergräben und Zugbrücken schützten vor Angreifern.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0004",
+      "subtopic": "middle_ages",
+      "level": 1,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie entstanden Bücher, bevor es den Buchdruck gab?",
+      "answers": [
+        "Sie wurden von Hand abgeschrieben",
+        "Mit Stempeln aus Kartoffeln",
+        "Mit der Schreibmaschine",
+        "Man malte nur Bilder"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In Klöstern schrieben Mönche Bücher Seite für Seite ab. Für eine einzige Bibel brauchte ein Schreiber oft Jahre, deshalb waren Bücher sehr wertvoll.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0005",
+      "subtopic": "inventions_past",
+      "level": 1,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was erfand Johannes Gutenberg um 1450?",
+      "answers": [
+        "Das Papier",
+        "Den Bleistift",
+        "Die Brille",
+        "Den Buchdruck mit beweglichen Buchstaben"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Gutenberg goss einzelne Buchstaben aus Metall, die man zu Seiten zusammensetzen und immer wieder verwenden konnte. So ließen sich Bücher viel schneller und billiger herstellen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0006",
+      "subtopic": "antiquity",
+      "level": 1,
+      "order": 11,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welche Sprache sprachen die alten Römer?",
+      "answers": [
+        "Griechisch",
+        "Italienisch",
+        "Spanisch",
+        "Latein"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Aus dem Latein der Römer entstanden später Sprachen wie Italienisch, Französisch und Spanisch. Auch viele deutsche Wörter stammen daher, etwa „Fenster“ von „fenestra“.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0007",
+      "subtopic": "middle_ages",
+      "level": 1,
+      "order": 12,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wer waren die Wikinger?",
+      "answers": [
+        "Seefahrer aus Skandinavien",
+        "Ein Volk aus Afrika",
+        "Ritter aus Frankreich",
+        "Römische Soldaten"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Die Wikinger kamen aus dem heutigen Norwegen, Schweden und Dänemark. Mit ihren schnellen Schiffen segelten sie bis nach Nordamerika und handelten, siedelten oder plünderten. Hörnerhelme trugen sie übrigens nicht.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0008",
+      "subtopic": "antiquity",
+      "level": 1,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum machten die alten Ägypter Mumien?",
+      "answers": [
+        "Um Platz zu sparen",
+        "Um Krankheiten zu heilen",
+        "Der Körper sollte für das Leben nach dem Tod erhalten bleiben",
+        "Als Vogelscheuchen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Die Ägypter glaubten, die Seele brauche den Körper auch nach dem Tod. Deshalb entnahmen sie die inneren Organe, trockneten den Körper mit Salz und wickelten ihn in Leinenbinden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0009",
+      "subtopic": "middle_ages",
+      "level": 1,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie lange dauerte es, den Kölner Dom fertigzubauen?",
+      "answers": [
+        "Etwa 6 Jahre",
+        "Etwa 6.000 Jahre",
+        "Über 600 Jahre",
+        "Etwa 60 Jahre"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Der Bau begann 1248, stand dann aber jahrhundertelang still. Erst 1880 wurde der Dom fertig, über 600 Jahre nach dem ersten Stein.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0010",
+      "subtopic": "everyday_past",
+      "level": 1,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie bezahlte man, bevor es Geld gab?",
+      "answers": [
+        "Man tauschte Waren gegeneinander",
+        "Mit Kreditkarten",
+        "Gar nicht, alles war umsonst",
+        "Mit Briefmarken"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Wer Getreide hatte und Werkzeug brauchte, tauschte. Weil das umständlich war, nutzte man später Dinge, die alle haben wollten, etwa Muscheln, Salz oder Metall, und schließlich Münzen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0011",
+      "subtopic": "everyday_past",
+      "level": 1,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wie machte man Essen früher ohne Kühlschrank haltbar?",
+      "answers": [
+        "Durch Salzen, Räuchern und Trocknen",
+        "Indem man es täglich wusch",
+        "Mit Strom aus Wassermühlen",
+        "Gar nicht, alles wurde sofort gegessen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Salz und Rauch entziehen dem Essen Wasser und hemmen Keime. So hielten Schinken, Fisch und Trockenobst monatelang. Später kamen Eiskeller dazu, in denen im Winter gesammeltes Eis lag.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0012",
+      "subtopic": "everyday_past",
+      "level": 1,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wozu nutzte man früher Brieftauben?",
+      "answers": [
+        "Als Wachtiere",
+        "Als Wecker",
+        "Um Nachrichten zu überbringen",
+        "Zur Wettervorhersage"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Brieftauben finden über weite Entfernungen zu ihrem Heimatschlag zurück. Man nahm sie mit, band ihnen eine kleine Nachricht ans Bein und ließ sie fliegen. Noch im Ersten Weltkrieg wurden sie eingesetzt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0013",
+      "subtopic": "antiquity",
+      "level": 1,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Was waren die Olympischen Spiele der Antike?",
+      "answers": [
+        "Gladiatorenkämpfe in Rom",
+        "Sportwettkämpfe in Griechenland zu Ehren des Zeus",
+        "Ein ägyptisches Erntefest",
+        "Ein römisches Theaterfest"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Ab 776 vor Christus trafen sich Athleten in Olympia, um zu Ehren des Gottes Zeus im Laufen, Ringen und Wagenrennen anzutreten. Die modernen Spiele gibt es erst seit 1896.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0014",
+      "subtopic": "antiquity",
+      "level": 1,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wozu wurde die Chinesische Mauer gebaut?",
+      "answers": [
+        "Als Straße für Händler",
+        "Gegen Überschwemmungen",
+        "Als Grenze zu Indien",
+        "Zum Schutz vor Angriffen aus dem Norden"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Über Jahrhunderte ließen verschiedene Kaiser Mauern bauen, um Reitervölker aus dem Norden abzuhalten. Dass man die Mauer vom Mond aus sehen kann, stimmt übrigens nicht.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0015",
+      "subtopic": "explorers",
+      "level": 1,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wer erreichte als Erster den Südpol?",
+      "answers": [
+        "Robert Scott",
+        "Roald Amundsen",
+        "Neil Armstrong",
+        "Christoph Kolumbus"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Der Norweger Roald Amundsen erreichte den Südpol im Dezember 1911. Der Brite Robert Scott kam gut einen Monat später an und überlebte den Rückweg nicht.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0016",
+      "subtopic": "inventions_past",
+      "level": 1,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wofür nutzten Menschen in der Steinzeit Feuer?",
+      "answers": [
+        "Um Eis zu machen",
+        "Nur für Feste",
+        "Zum Wärmen, Kochen und zum Schutz vor Tieren",
+        "Gar nicht, Feuer kannten sie nicht"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Feuer spendete Wärme und Licht, hielt wilde Tiere fern und machte Fleisch durch Garen bekömmlicher. Mit Feuerstein und Pyrit konnten Steinzeitmenschen selbst Funken schlagen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0017",
+      "subtopic": "inventions_past",
+      "level": 1,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wie maß man die Zeit, bevor es Räderuhren gab?",
+      "answers": [
+        "Am Wachstum von Pflanzen",
+        "Mit Handys",
+        "Indem man Herzschläge zählte",
+        "Mit Sonnenuhren, Wasseruhren und Sanduhren"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Eine Sonnenuhr zeigt die Zeit über den wandernden Schatten eines Stabs. Bei Wolken oder nachts halfen Wasseruhren, bei denen Wasser gleichmäßig aus einem Gefäß tropfte, und später Sanduhren.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0018",
+      "subtopic": "inventions_past",
+      "level": 1,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Worauf schrieben die alten Ägypter?",
+      "answers": [
+        "Auf Papier aus Holz",
+        "Auf Glasplatten",
+        "Auf Plastikfolie",
+        "Auf Papyrus aus einer Schilfpflanze"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Aus dem Mark der Papyruspflanze, die am Nil wuchs, schnitten die Ägypter dünne Streifen, legten sie kreuzweise übereinander und pressten sie. Vom Wort Papyrus stammt unser Wort Papier.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0019",
+      "subtopic": "everyday_past",
+      "level": 1,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wo wuschen sich viele Menschen im alten Rom?",
+      "answers": [
+        "In Badewannen mit warmem Leitungswasser",
+        "Nur im Fluss",
+        "Gar nicht",
+        "In großen öffentlichen Badehäusern"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In den Thermen gab es Kalt-, Warm- und Heißbäder, Schwitzräume und Sportplätze. Für wenig Geld traf man sich dort, wusch sich und erfuhr Neuigkeiten.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0020",
+      "subtopic": "everyday_past",
+      "level": 1,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Welche Tiere zogen früher Pflüge und Kutschen?",
+      "answers": [
+        "Schafe und Ziegen",
+        "Pferde und Ochsen",
+        "Elefanten",
+        "Hunde und Katzen"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Bevor es Traktoren und Autos gab, waren Pferde und Ochsen die stärksten Helfer. Die Leistung von Motoren wird bis heute in Pferdestärken angegeben.",
+      "ageFrom": 6,
+      "ageTo": 12
+    }
+  ]
+}

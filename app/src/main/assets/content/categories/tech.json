@@ -1,0 +1,385 @@
+{
+  "categoryId": "tech",
+  "questions": [
+    {
+      "id": "tech-0001",
+      "subtopic": "inventions",
+      "level": 1,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wozu dient ein Blitzableiter?",
+      "answers": [
+        "Er verhindert Blitze",
+        "Er leitet den Blitz sicher in den Boden",
+        "Er speichert den Strom",
+        "Er lenkt Blitze zum Nachbarn"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Der Blitz schlägt bevorzugt in die höchste leitende Stelle ein. Ein dicker Draht führt den Strom am Haus vorbei in die Erde.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0002",
+      "subtopic": "devices",
+      "level": 1,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wohin bringt der Kühlschrank die Wärme aus seinem Inneren?",
+      "answers": [
+        "Er speichert sie im Gefrierfach",
+        "Er leitet sie ins Abwasser",
+        "Er gibt sie hinten an die Raumluft ab",
+        "Er vernichtet sie"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ein Kühlmittel nimmt innen Wärme auf und gibt sie über das Gitter an der Rückseite wieder ab. Deshalb ist es dort warm, und ein offener Kühlschrank heizt die Küche insgesamt sogar auf.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0003",
+      "subtopic": "devices",
+      "level": 1,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum wird ein Handy beim Laden warm?",
+      "answers": [
+        "Das Kabel ist heiß",
+        "Ein Teil der Energie wird zu Wärme",
+        "Der Akku kocht",
+        "Die Apps arbeiten schneller"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Kein Akku nimmt Strom ganz ohne Verluste auf. Ein Teil der Energie wird zu Wärme, besonders beim Schnellladen. Deshalb sollte ein ladendes Handy nicht unter der Bettdecke liegen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0004",
+      "subtopic": "devices",
+      "level": 1,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie erwärmt eine Mikrowelle das Essen?",
+      "answers": [
+        "Sie macht das Essen radioaktiv",
+        "Sie bringt die Wasserteilchen im Essen zum Schwingen",
+        "Sie erhitzt zuerst den Teller",
+        "Sie heizt die Luft im Inneren"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Mikrowellen lassen die Wassermoleküle im Essen sehr schnell hin und her zappeln. Diese Bewegung wird zu Wärme. Radioaktiv wird das Essen dabei nicht.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0005",
+      "subtopic": "inventions",
+      "level": 1,
+      "order": 11,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum leuchtet eine Glühbirne?",
+      "answers": [
+        "Ein dünner Draht wird vom Strom glühend heiß",
+        "Ein kleines Feuer brennt darin",
+        "Ein Gas verbrennt darin",
+        "Sie hat Sonnenlicht gespeichert"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Der Strom muss sich durch einen sehr dünnen Wolframdraht zwängen und heizt ihn auf über 2.000 Grad auf. Dabei glüht er hell. Den größten Teil der Energie macht eine Glühbirne aber zu Wärme, deshalb wurde sie weitgehend durch LEDs ersetzt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0006",
+      "subtopic": "internet",
+      "level": 1,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist WLAN?",
+      "answers": [
+        "Ein Kabel unter der Erde",
+        "Ein Satellit",
+        "Internet per Funk ohne Kabel",
+        "Ein Computerspiel"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Der Router zu Hause sendet die Daten über Funkwellen, ähnlich wie ein Radiosender. Laptop und Handy empfangen sie und funken auch zurück.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0007",
+      "subtopic": "internet",
+      "level": 1,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist ein Computervirus?",
+      "answers": [
+        "Ein Fehler im Bildschirm",
+        "Ein kaputtes Kabel",
+        "Eine Grippe aus Computerstaub",
+        "Ein Programm, das sich heimlich verbreitet"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Ein Computervirus ist Software, die sich in andere Programme oder Dateien einschleust und sich weiterkopiert. Wie ein echtes Virus braucht es einen Wirt, daher der Name.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0008",
+      "subtopic": "internet",
+      "level": 1,
+      "order": 12,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wofür steht „www“ in Internetadressen?",
+      "answers": [
+        "Wir wollen weiter",
+        "Wireless World Wave",
+        "World Wide Web",
+        "Weltweite Werbung"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Das World Wide Web erfand Tim Berners-Lee 1989 am Forschungszentrum CERN. Es verknüpft Seiten über Links, das Internet selbst ist das Netz darunter.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0009",
+      "subtopic": "internet",
+      "level": 1,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie kommt eine E-Mail zum Empfänger?",
+      "answers": [
+        "Über ein einziges langes Kabel",
+        "In kleinen Datenpaketen über viele Rechner",
+        "Direkt per Satellit",
+        "Sie wird ausgedruckt und gefaxt"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Im Internet reisen Daten in kleinen Paketen. Jedes kann einen anderen Weg über Knotenrechner nehmen, beim Empfänger werden sie wieder zusammengesetzt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0010",
+      "subtopic": "traffic",
+      "level": 1,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie kann ein Flugzeug fliegen?",
+      "answers": [
+        "Die Triebwerke drücken es nach oben",
+        "Es ist leichter als Luft",
+        "In den Flügeln ist Gas",
+        "Die Flügel lenken Luft nach unten und erzeugen Auftrieb"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Die gewölbten, leicht schräg gestellten Flügel lenken die vorbeiströmende Luft nach unten. Dadurch entsteht eine Kraft nach oben, der Auftrieb. Die Triebwerke sorgen nur für das nötige Tempo.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0011",
+      "subtopic": "traffic",
+      "level": 1,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wozu hat ein Auto Sicherheitsgurte?",
+      "answers": [
+        "Sie halten uns beim Bremsen auf dem Sitz fest",
+        "Damit wir aufrecht sitzen",
+        "Damit das Auto schneller fährt",
+        "Zum Schutz vor Dieben"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Bremst ein Auto plötzlich, will unser Körper mit der alten Geschwindigkeit weiterfliegen. Der Gurt fängt ihn ab und verteilt die Kräfte auf Becken und Brust.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0012",
+      "subtopic": "traffic",
+      "level": 1,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie gewinnt ein E-Auto beim Bremsen Strom zurück?",
+      "answers": [
+        "Der Motor arbeitet dann als Generator",
+        "Der Fahrtwind lädt den Akku",
+        "Die Reifen laden den Akku durch Reibung",
+        "Solarzellen in den Bremsen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Beim Bremsen lässt das E-Auto den Elektromotor als Generator laufen. Er wandelt die Bewegung wieder in Strom um und lädt damit den Akku ein Stück auf.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0013",
+      "subtopic": "traffic",
+      "level": 1,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum schwimmt ein Schiff aus Stahl?",
+      "answers": [
+        "Es verdrängt sehr viel Wasser",
+        "Stahl ist leichter als Wasser",
+        "Im Rumpf sind Luftballons",
+        "Der Motor hält es oben"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Der Rumpf ist innen hohl und voller Luft. Ein Schiff sinkt nur so tief ein, bis das verdrängte Wasser genauso viel wiegt wie das ganze Schiff, dann trägt es das Wasser.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0014",
+      "subtopic": "devices",
+      "level": 1,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was macht ein Akku?",
+      "answers": [
+        "Er speichert Strom und gibt ihn später ab",
+        "Er verbindet das Handy mit dem Internet",
+        "Er kühlt das Gerät",
+        "Er erzeugt Strom aus Luft"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In einem Akku wird elektrische Energie als chemische Energie gespeichert. Beim Entladen läuft die Reaktion rückwärts, und es fließt wieder Strom. Anders als eine normale Batterie lässt er sich viele hundert Mal aufladen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0015",
+      "subtopic": "devices",
+      "level": 1,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Woraus besteht das Bild auf einem Handydisplay?",
+      "answers": [
+        "Aus Millionen winziger Punkte in Rot, Grün und Blau",
+        "Aus bunter Flüssigkeit hinter Glas",
+        "Aus einem Bild, das ein Projektor von hinten zeigt",
+        "Aus einer einzigen farbigen Lampe"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Ein Display besteht aus Pixeln, und jedes hat einen roten, grünen und blauen Bereich. Aus diesen drei Farben mischt es jede andere Farbe. Mit einer Lupe kann man die einzelnen Punkte sehen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0016",
+      "subtopic": "inventions",
+      "level": 1,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was zeigt ein Kompass an?",
+      "answers": [
+        "Die Temperatur",
+        "Die Uhrzeit",
+        "Die Höhe",
+        "Die Richtung nach Norden"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Die Nadel eines Kompasses ist ein kleiner Magnet. Sie richtet sich am Magnetfeld der Erde aus und zeigt deshalb immer ungefähr nach Norden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0017",
+      "subtopic": "inventions",
+      "level": 1,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was macht eine Solarzelle?",
+      "answers": [
+        "Sie spiegelt Licht zur Sonne zurück",
+        "Sie erzeugt Wind",
+        "Sie wandelt Sonnenlicht direkt in Strom um",
+        "Sie kühlt das Dach"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In einer Solarzelle schlägt das Licht Elektronen im Silizium frei. Sie fließen als Strom durch die Leitungen, ganz ohne bewegliche Teile.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0018",
+      "subtopic": "inventions",
+      "level": 1,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wie funktioniert ein Thermometer mit Flüssigkeit?",
+      "answers": [
+        "Eine Feder drückt sie hoch",
+        "Die Flüssigkeit dehnt sich bei Wärme aus und steigt",
+        "Die Flüssigkeit verdunstet",
+        "Wärme zieht die Flüssigkeit an wie ein Magnet"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Fast alle Stoffe dehnen sich bei Wärme aus. In dem dünnen Röhrchen fällt schon ein kleines bisschen Ausdehnung auf, die Flüssigkeit steigt, und an der Skala liest man die Temperatur ab.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0019",
+      "subtopic": "internet",
+      "level": 1,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wie findet eine Suchmaschine so schnell Webseiten?",
+      "answers": [
+        "Menschen lesen jede Seite vor",
+        "Sie fragt bei jeder Suche alle Seiten neu ab",
+        "Alle Webseiten stehen in einem Buch",
+        "Sie hat das Netz vorher durchsucht und ein Verzeichnis angelegt"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Programme, sogenannte Crawler, folgen rund um die Uhr Links von Seite zu Seite und speichern, was sie finden. Wenn du suchst, schaut die Suchmaschine nur in diesem riesigen Verzeichnis nach.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0020",
+      "subtopic": "traffic",
+      "level": 1,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum haben Autoreifen ein Profil?",
+      "answers": [
+        "Damit sie leichter sind",
+        "Damit sie leiser rollen",
+        "Damit bei Nässe das Wasser abfließen kann",
+        "Damit sie schöner aussehen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Auf nasser Straße leiten die Rillen das Wasser unter dem Reifen weg. Ohne Profil könnte das Auto auf einem Wasserfilm rutschen, das nennt man Aquaplaning.",
+      "ageFrom": 6,
+      "ageTo": 12
+    }
+  ]
+}

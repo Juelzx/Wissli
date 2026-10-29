@@ -2,8 +2,10 @@ package com.wissli.app.ui.components
 
 import androidx.compose.ui.graphics.Color
 import com.wissli.app.ui.theme.Blush
+import com.wissli.app.ui.theme.Lilac
 import com.wissli.app.ui.theme.Mint
 import com.wissli.app.ui.theme.OnCoralContainer
+import com.wissli.app.ui.theme.OnLavenderContainer
 import com.wissli.app.ui.theme.OnLeafContainer
 import com.wissli.app.ui.theme.OnPeachContainer
 import com.wissli.app.ui.theme.OnSkyContainer
@@ -24,4 +26,5 @@ private val CategoryPalette =
         CategoryColors(container = Sky, accent = OnSkyContainer),
         CategoryColors(container = Peach, accent = OnPeachContainer),
         CategoryColors(container = Blush, accent = OnCoralContainer),
+        CategoryColors(container = Lilac, accent = OnLavenderContainer),
     )

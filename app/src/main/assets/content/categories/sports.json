@@ -1,0 +1,385 @@
+{
+  "categoryId": "sports",
+  "questions": [
+    {
+      "id": "sports-0001",
+      "subtopic": "ball",
+      "level": 1,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wie viele Spieler hat eine Fußballmannschaft auf dem Feld?",
+      "answers": [
+        "Zwölf",
+        "Zehn",
+        "Neun",
+        "Elf"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Elf Spielerinnen oder Spieler pro Team stehen auf dem Platz, eine oder einer davon im Tor. Daneben warten Auswechselspieler auf der Bank.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0002",
+      "subtopic": "ball",
+      "level": 1,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum hat ein Golfball kleine Dellen?",
+      "answers": [
+        "Nur zur Verzierung",
+        "Damit er nicht zerspringt",
+        "Damit er weiter fliegt",
+        "Damit er besser rollt"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Die vielen Dellen wirbeln die Luft direkt an der Oberfläche auf. Dadurch löst sich die Strömung später vom Ball, er wird weniger gebremst und fliegt etwa doppelt so weit wie ein glatter Ball.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0003",
+      "subtopic": "olympics",
+      "level": 1,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie oft finden Olympische Sommerspiele statt?",
+      "answers": [
+        "Alle zehn Jahre",
+        "Alle vier Jahre",
+        "Jedes Jahr",
+        "Alle zwei Jahre"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sommer- und Winterspiele finden jeweils alle vier Jahre statt, aber um zwei Jahre versetzt. Deshalb gibt es alle zwei Jahre Olympische Spiele.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0004",
+      "subtopic": "olympics",
+      "level": 1,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wofür stehen die fünf olympischen Ringe?",
+      "answers": [
+        "Für fünf Sportarten",
+        "Für fünf Gründerländer",
+        "Für die fünf bewohnten Erdteile",
+        "Für fünf Goldmedaillen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Die Ringe stehen für die fünf bewohnten Erdteile, die sich bei den Spielen treffen. Mit dem weißen Hintergrund sollte in jeder Nationalflagge mindestens eine ihrer Farben vorkommen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0005",
+      "subtopic": "olympics",
+      "level": 1,
+      "order": 12,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wie lang ist ein Marathon?",
+      "answers": [
+        "Genau 50 Kilometer",
+        "Genau 100 Kilometer",
+        "Gut 42 Kilometer",
+        "Gut 21 Kilometer"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ein Marathon ist genau 42,195 Kilometer lang. Der Name erinnert an eine Sage: Ein Bote soll von Marathon nach Athen gelaufen sein, um einen Sieg zu verkünden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0006",
+      "subtopic": "ball",
+      "level": 1,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "In welcher Sportart gibt es einen „Touchdown“?",
+      "answers": [
+        "Eishockey",
+        "American Football",
+        "Rugby",
+        "Basketball"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Beim American Football gibt es einen Touchdown, wenn ein Team den Ball in die Endzone des Gegners trägt oder dort fängt. Das bringt sechs Punkte.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0007",
+      "subtopic": "games",
+      "level": 1,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie viele Felder hat ein Schachbrett?",
+      "answers": [
+        "100",
+        "48",
+        "32",
+        "64"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Ein Schachbrett hat acht mal acht Felder, also 64, abwechselnd hell und dunkel. Jeder Spieler startet mit 16 Figuren.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0008",
+      "subtopic": "games",
+      "level": 1,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Welche Schachfigur zieht nur schräg?",
+      "answers": [
+        "Der Turm",
+        "Der Läufer",
+        "Der Springer",
+        "Die Dame"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Der Läufer zieht beliebig weit, aber immer nur schräg. Deshalb bleibt er das ganze Spiel lang auf Feldern derselben Farbe.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0009",
+      "subtopic": "games",
+      "level": 1,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie viele Augen hat ein normaler Würfel insgesamt?",
+      "answers": [
+        "21",
+        "18",
+        "24",
+        "20"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "1 + 2 + 3 + 4 + 5 + 6 ergibt 21. Die gegenüberliegenden Seiten eines Würfels ergeben übrigens zusammen immer sieben.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0010",
+      "subtopic": "ball",
+      "level": 1,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum springt ein prall aufgepumpter Ball besser?",
+      "answers": [
+        "Er ist dann leichter",
+        "Die zusammengedrückte Luft drückt ihn zurück",
+        "Er hat dann mehr Gummi",
+        "Der Boden wird härter"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Beim Aufprall wird der Ball kurz platt gedrückt. Die Luft darin wird zusammengepresst und drückt wie eine Feder zurück. Ist wenig Luft drin, geht mehr Energie verloren, und der Ball springt schlapp.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0011",
+      "subtopic": "records",
+      "level": 1,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wer hält den Weltrekord im 100-Meter-Lauf der Männer?",
+      "answers": [
+        "Michael Phelps",
+        "Carl Lewis",
+        "Jesse Owens",
+        "Usain Bolt"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Jamaikaner Usain Bolt lief 2009 in Berlin 9,58 Sekunden. Dabei erreichte er zwischendurch fast 45 Kilometer pro Stunde.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0012",
+      "subtopic": "ball",
+      "level": 1,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "In welcher Sportart zählt man „15, 30, 40“?",
+      "answers": [
+        "Tischtennis",
+        "Badminton",
+        "Volleyball",
+        "Tennis"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Im Tennis zählt man die Punkte eines Spiels mit 15, 30 und 40. Woher diese Zählung kommt, weiß niemand sicher. Eine Vermutung: Früher zeigte eine Uhr mit Viertelstunden den Spielstand an.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0013",
+      "subtopic": "olympics",
+      "level": 1,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Welche Medaille bekommt der Zweite bei Olympia?",
+      "answers": [
+        "Silber",
+        "Bronze",
+        "Kupfer",
+        "Gold"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Gold für Platz eins, Silber für Platz zwei, Bronze für Platz drei. Die Goldmedaillen bestehen übrigens größtenteils aus Silber und sind nur vergoldet.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0014",
+      "subtopic": "olympics",
+      "level": 1,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wo fanden 1896 die ersten Olympischen Spiele der Neuzeit statt?",
+      "answers": [
+        "In Paris",
+        "In Athen",
+        "In Olympia",
+        "In Rom"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "1896 trafen sich in Athen rund 240 Sportler aus 14 Ländern, damals nur Männer. Griechenland wurde gewählt, weil die Idee von den antiken Spielen in Olympia stammt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0015",
+      "subtopic": "training",
+      "level": 1,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum wärmt man sich vor dem Sport auf?",
+      "answers": [
+        "Um müde zu werden",
+        "Damit man nicht friert",
+        "Muskeln und Gelenke werden besser durchblutet",
+        "Damit man durch Schwitzen leichter wird"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Beim Aufwärmen schlägt das Herz schneller, und die Muskeln werden wärmer und besser durchblutet. Sie arbeiten dann geschmeidiger, und man ist bereit für schnelle Bewegungen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0016",
+      "subtopic": "training",
+      "level": 1,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum atmet man beim Sport schneller?",
+      "answers": [
+        "Weil man aufgeregt ist",
+        "Damit man leichter wird",
+        "Die Muskeln brauchen mehr Sauerstoff",
+        "Weil die Lunge kleiner wird"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Arbeitende Muskeln brauchen mehr Energie und dafür Sauerstoff. Schnelleres Atmen und ein schnellerer Herzschlag bringen ihn rascher ins Blut und zu den Muskeln.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0017",
+      "subtopic": "games",
+      "level": 1,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Bei welchem Spiel muss man vier Steine in eine Reihe bringen?",
+      "answers": [
+        "Mühle",
+        "Halma",
+        "Dame",
+        "Vier gewinnt"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Bei „Vier gewinnt“ lassen zwei Spieler abwechselnd Steine in ein senkrechtes Gitter fallen. Wer zuerst vier in einer Reihe hat, waagerecht, senkrecht oder schräg, gewinnt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0018",
+      "subtopic": "games",
+      "level": 1,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie viele Karten hat ein Skatblatt?",
+      "answers": [
+        "52",
+        "32",
+        "54",
+        "36"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Ein Skatblatt hat 32 Karten, von der Sieben bis zum Ass in vier Farben. Für Poker oder Rommé nimmt man dagegen meist ein Blatt mit 52 Karten.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0019",
+      "subtopic": "records",
+      "level": 1,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wer hat die meisten olympischen Goldmedaillen gewonnen?",
+      "answers": [
+        "Michael Phelps",
+        "Usain Bolt",
+        "Simone Biles",
+        "Carl Lewis"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Der US-Schwimmer Michael Phelps gewann zwischen 2004 und 2016 insgesamt 23 olympische Goldmedaillen, mehr als jeder andere Sportler.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0020",
+      "subtopic": "training",
+      "level": 1,
+      "order": 11,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum sollte man beim Sport genug trinken?",
+      "answers": [
+        "Damit der Magen voll ist",
+        "Der Körper verliert Wasser durch Schweiß",
+        "Damit die Muskeln schwerer werden",
+        "Weil Wasser viele Kalorien hat"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Beim Sport schwitzen wir, um nicht zu überhitzen. Das verlorene Wasser muss zurück in den Körper, sonst lässt die Leistung nach.",
+      "ageFrom": 6,
+      "ageTo": 12
+    }
+  ]
+}

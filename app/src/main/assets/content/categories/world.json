@@ -1,0 +1,385 @@
+{
+  "categoryId": "world",
+  "questions": [
+    {
+      "id": "world-0001",
+      "subtopic": "geography",
+      "level": 1,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welcher ist der größte Ozean?",
+      "answers": [
+        "Der Indische Ozean",
+        "Der Atlantik",
+        "Der Pazifik",
+        "Das Nordpolarmeer"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Der Pazifik bedeckt etwa ein Drittel der Erdoberfläche, mehr als alle Landflächen zusammen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0002",
+      "subtopic": "geography",
+      "level": 1,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum ist das Tote Meer so salzig?",
+      "answers": [
+        "Es liegt auf einem Salzberg",
+        "Es regnet dort salzig",
+        "Wasser fließt hinein, aber nur durch Verdunsten hinaus",
+        "Es ist mit dem Ozean verbunden"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Der Jordan bringt Wasser mit gelösten Mineralien. Das Wasser verdunstet in der Hitze, das Salz bleibt zurück. Deshalb kann man darin mühelos treiben.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0003",
+      "subtopic": "geography",
+      "level": 1,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Auf welchem Kontinent liegt Ägypten?",
+      "answers": [
+        "Europa",
+        "Asien",
+        "Afrika",
+        "Südamerika"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ägypten liegt im Nordosten Afrikas. Nur die Sinai-Halbinsel jenseits des Suezkanals zählt schon zu Asien.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0004",
+      "subtopic": "records",
+      "level": 1,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welcher ist der höchste Berg der Welt?",
+      "answers": [
+        "Die Zugspitze",
+        "Der Mount Everest",
+        "Der K2",
+        "Der Kilimandscharo"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Der Mount Everest im Himalaya ist rund 8.849 Meter hoch. Er wächst sogar noch ein wenig, weil sich Indien Jahr für Jahr gegen Asien schiebt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0005",
+      "subtopic": "records",
+      "level": 1,
+      "order": 11,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welches ist das größte Land der Erde?",
+      "answers": [
+        "Russland",
+        "USA",
+        "China",
+        "Kanada"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Russland erstreckt sich von Osteuropa bis zum Pazifik und ist fast doppelt so groß wie Kanada, das zweitgrößte Land.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0006",
+      "subtopic": "languages",
+      "level": 1,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Welche Sprache sprechen die meisten Menschen als Muttersprache?",
+      "answers": [
+        "Chinesisch",
+        "Englisch",
+        "Spanisch",
+        "Hindi"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Hochchinesisch, auch Mandarin genannt, ist für fast eine Milliarde Menschen die Muttersprache. Englisch sprechen insgesamt zwar mehr Menschen, aber die meisten als Fremdsprache.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0007",
+      "subtopic": "cultures",
+      "level": 1,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "In welchem Land steht der Eiffelturm?",
+      "answers": [
+        "Spanien",
+        "Frankreich",
+        "Belgien",
+        "Italien"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Der Eiffelturm wurde 1889 für die Weltausstellung in Paris gebaut. Eigentlich sollte er nach 20 Jahren wieder abgerissen werden, doch als Funkturm wurde er gebraucht und blieb stehen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0008",
+      "subtopic": "geography",
+      "level": 1,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum ist es am Äquator so heiß?",
+      "answers": [
+        "Dort liegt der Erdkern näher an der Oberfläche",
+        "Dort gibt es keine Wolken",
+        "Die Sonne steht dort das ganze Jahr hoch am Himmel",
+        "Dort weht nie Wind"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Am Äquator treffen die Sonnenstrahlen fast senkrecht auf. Ihre Energie verteilt sich auf eine kleine Fläche und heizt stärker. Weiter im Norden treffen sie schräg auf und verteilen sich auf mehr Fläche.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0009",
+      "subtopic": "languages",
+      "level": 1,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Welche Sprache spricht man in Brasilien?",
+      "answers": [
+        "Spanisch",
+        "Englisch",
+        "Brasilianisch",
+        "Portugiesisch"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Brasilien war lange eine Kolonie Portugals. Deshalb spricht man dort Portugiesisch, während in fast allen Nachbarländern Spanisch gesprochen wird.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0010",
+      "subtopic": "geography",
+      "level": 1,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wie heißt die Hauptstadt von Italien?",
+      "answers": [
+        "Mailand",
+        "Venedig",
+        "Neapel",
+        "Rom"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Rom ist seit 1871 die Hauptstadt Italiens. Wegen ihrer langen Geschichte nennt man sie auch die „Ewige Stadt“.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0011",
+      "subtopic": "records",
+      "level": 1,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welches Land hat die meisten Einwohner?",
+      "answers": [
+        "Indonesien",
+        "USA",
+        "China",
+        "Indien"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Im Jahr 2023 hat Indien China überholt. Beide Länder haben jeweils über 1,4 Milliarden Einwohner, zusammen lebt dort mehr als ein Drittel aller Menschen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0012",
+      "subtopic": "records",
+      "level": 1,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wo liegt der kälteste Ort der Erde?",
+      "answers": [
+        "In Sibirien",
+        "Auf dem Mount Everest",
+        "Am Nordpol",
+        "In der Antarktis"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In der Antarktis wurden schon fast minus 90 Grad gemessen. Am Südpol ist es kälter als am Nordpol, weil das Land dort hoch liegt und unter dickem Eis steckt, während am Nordpol nur Meereis auf dem Ozean schwimmt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0013",
+      "subtopic": "languages",
+      "level": 1,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wie sagt man „Danke“ auf Spanisch?",
+      "answers": [
+        "Grazie",
+        "Gracias",
+        "Merci",
+        "Obrigado"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "„Gracias“ ist Spanisch. „Merci“ sagt man in Frankreich, „Grazie“ in Italien und „Obrigado“ oder „Obrigada“ in Portugal und Brasilien.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0014",
+      "subtopic": "languages",
+      "level": 1,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "In welchem Land gibt es Deutsch, Französisch, Italienisch und Rätoromanisch als Landessprachen?",
+      "answers": [
+        "In Österreich",
+        "In der Schweiz",
+        "In Belgien",
+        "In Luxemburg"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Die Schweiz hat vier Landessprachen. Am meisten wird Deutsch gesprochen, im Westen Französisch, im Süden Italienisch und in einigen Tälern Graubündens Rätoromanisch.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0015",
+      "subtopic": "cultures",
+      "level": 1,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Aus welchem Land stammt die Pizza?",
+      "answers": [
+        "Frankreich",
+        "Griechenland",
+        "USA",
+        "Italien"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Die Pizza, wie wir sie kennen, stammt aus Neapel. Die Pizza Margherita mit Tomate, Mozzarella und Basilikum zeigt angeblich die Farben der italienischen Flagge.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0016",
+      "subtopic": "cultures",
+      "level": 1,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was feiert man in China mit Drachentänzen und Feuerwerk?",
+      "answers": [
+        "Halloween",
+        "Den Sommeranfang",
+        "Weihnachten",
+        "Das Neujahrsfest"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Das chinesische Neujahr richtet sich nach dem Mondkalender und fällt jedes Jahr auf einen Tag zwischen dem 21. Januar und dem 20. Februar. Feuerwerk und Drachen sollen das Unglück vertreiben.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0017",
+      "subtopic": "cultures",
+      "level": 1,
+      "order": 12,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie begrüßt man sich in Japan traditionell?",
+      "answers": [
+        "Mit einem Klaps auf die Schulter",
+        "Mit einer Verbeugung",
+        "Mit Nasenreiben",
+        "Mit einem Kuss auf die Wange"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In Japan verbeugt man sich zur Begrüßung. Je tiefer die Verbeugung, desto mehr Respekt zeigt man. Mit Gästen aus dem Ausland gibt man sich aber oft auch die Hand.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0018",
+      "subtopic": "cultures",
+      "level": 1,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Welches Land hat ein Ahornblatt auf der Flagge?",
+      "answers": [
+        "USA",
+        "Kanada",
+        "Neuseeland",
+        "Schweden"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Das rote Ahornblatt ist seit 1965 auf der Flagge Kanadas. Aus dem Saft des Zuckerahorns wird dort der berühmte Ahornsirup gekocht.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0019",
+      "subtopic": "languages",
+      "level": 1,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Aus welcher Sprache stammt das englische Wort „kindergarten“?",
+      "answers": [
+        "Aus dem Französischen",
+        "Aus dem Lateinischen",
+        "Es ist ein englisches Wort",
+        "Aus dem Deutschen"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Pädagoge Friedrich Fröbel gründete 1840 den ersten Kindergarten. Die Idee verbreitete sich weltweit, und das deutsche Wort wanderte gleich mit, ins Englische und viele andere Sprachen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0020",
+      "subtopic": "records",
+      "level": 1,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welches ist der kleinste Staat der Welt?",
+      "answers": [
+        "Luxemburg",
+        "Monaco",
+        "Die Vatikanstadt",
+        "Liechtenstein"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Die Vatikanstadt liegt mitten in Rom und ist kleiner als ein halber Quadratkilometer. Dort wohnt der Papst, und nur wenige hundert Menschen haben die Staatsbürgerschaft.",
+      "ageFrom": 6,
+      "ageTo": 12
+    }
+  ]
+}
