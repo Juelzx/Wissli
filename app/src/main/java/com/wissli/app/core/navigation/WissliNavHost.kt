@@ -13,11 +13,10 @@ import androidx.compose.ui.Modifier
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
-import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import androidx.navigation.navArgument
+import androidx.navigation.toRoute
 import com.wissli.app.features.category.ui.CategoryScreen
 import com.wissli.app.features.dashboard.ui.DashboardScreen
 import com.wissli.app.features.learn.ui.LearnScreen
@@ -33,39 +32,39 @@ fun WissliNavHost(authGateViewModel: AuthGateViewModel = koinViewModel()) {
         is AuthGateState.Loading -> AuthGateLoading()
 
         is AuthGateState.LoggedOut ->
-            WissliGraph(startDestination = Routes.LOGIN, onSignOut = authGateViewModel::signOut)
+            WissliGraph(startDestination = Route.Login, onSignOut = authGateViewModel::signOut)
 
         is AuthGateState.LoggedIn ->
-            WissliGraph(startDestination = Routes.HOME, onSignOut = authGateViewModel::signOut)
+            WissliGraph(startDestination = Route.Home, onSignOut = authGateViewModel::signOut)
     }
 }
 
 @Composable
 private fun WissliGraph(
-    startDestination: String,
+    startDestination: Route,
     onSignOut: () -> Unit,
 ) {
     val navController = rememberNavController()
     val onTabSelected: (MainTab) -> Unit = navController::navigateToTab
     val onOpenLevel: (String, Int) -> Unit = { categoryId, level ->
-        navController.navigate(Routes.level(categoryId, level))
+        navController.navigate(Route.Level(categoryId, level))
     }
     NavHost(navController = navController, startDestination = startDestination) {
-        composable(Routes.LOGIN) {
+        composable<Route.Login> {
             LoginScreen(
                 onNavigateToHome = {
-                    navController.navigate(Routes.HOME) {
-                        popUpTo(Routes.LOGIN) { inclusive = true }
+                    navController.navigate(Route.Home) {
+                        popUpTo<Route.Login> { inclusive = true }
                     }
                 },
             )
         }
-        composable(Routes.HOME) {
+        composable<Route.Home> {
             DashboardScreen(
                 onSignOut = {
                     onSignOut()
-                    navController.navigate(Routes.LOGIN) {
-                        popUpTo(Routes.HOME) { inclusive = true }
+                    navController.navigate(Route.Login) {
+                        popUpTo<Route.Home> { inclusive = true }
                     }
                 },
                 onTabSelected = onTabSelected,
@@ -81,40 +80,30 @@ private fun NavGraphBuilder.learnDestinations(
     onTabSelected: (MainTab) -> Unit,
     onOpenLevel: (categoryId: String, level: Int) -> Unit,
 ) {
-    composable(Routes.LEARN) {
+    composable<Route.Learn> {
         LearnScreen(
             onTabSelected = onTabSelected,
-            onOpenCategory = { categoryId -> navController.navigate(Routes.category(categoryId)) },
+            onOpenCategory = { categoryId -> navController.navigate(Route.Category(categoryId)) },
             onOpenLevel = onOpenLevel,
         )
     }
-    composable(
-        route = Routes.CATEGORY,
-        arguments = listOf(navArgument(Routes.ARG_CATEGORY_ID) { type = NavType.StringType }),
-    ) { entry ->
+    composable<Route.Category> { entry ->
         CategoryScreen(
-            categoryId = entry.arguments?.getString(Routes.ARG_CATEGORY_ID).orEmpty(),
+            categoryId = entry.toRoute<Route.Category>().categoryId,
             onBack = { navController.popBackStack() },
             onOpenLevel = onOpenLevel,
         )
     }
-    composable(
-        route = Routes.LEVEL,
-        arguments =
-            listOf(
-                navArgument(Routes.ARG_CATEGORY_ID) { type = NavType.StringType },
-                navArgument(Routes.ARG_LEVEL) { type = NavType.IntType },
-            ),
-    ) { entry ->
-        val categoryId = entry.arguments?.getString(Routes.ARG_CATEGORY_ID).orEmpty()
+    composable<Route.Level> { entry ->
+        val route = entry.toRoute<Route.Level>()
         LevelScreen(
-            categoryId = categoryId,
-            level = entry.arguments?.getInt(Routes.ARG_LEVEL) ?: 1,
+            categoryId = route.categoryId,
+            level = route.level,
             onClose = { navController.popBackStack() },
             // Replaces the finished level, so "back" from the next level leads to where the run started.
             onOpenLevel = { nextCategoryId, nextLevel ->
-                navController.navigate(Routes.level(nextCategoryId, nextLevel)) {
-                    popUpTo(Routes.LEVEL) { inclusive = true }
+                navController.navigate(Route.Level(nextCategoryId, nextLevel)) {
+                    popUpTo<Route.Level> { inclusive = true }
                 }
             },
         )
@@ -123,15 +112,15 @@ private fun NavGraphBuilder.learnDestinations(
 
 // Home stays at the bottom of the stack, so back from any tab ends on Home before leaving the app.
 private fun NavController.navigateToTab(tab: MainTab) {
-    val route =
+    val route: Route =
         when (tab) {
-            MainTab.HOME -> Routes.HOME
-            MainTab.LEARN -> Routes.LEARN
+            MainTab.HOME -> Route.Home
+            MainTab.LEARN -> Route.Learn
             // TODO: add the groups screen (incl. group mode).
             MainTab.GROUPS -> return
         }
     navigate(route) {
-        popUpTo(Routes.HOME) { saveState = true }
+        popUpTo<Route.Home> { saveState = true }
         launchSingleTop = true
         restoreState = true
     }

@@ -28,10 +28,10 @@ Turbine) sind im Version Catalog gepflegt und im `app`-Modul als Dependencies ei
 Implementiert ist bisher der **Auth-Flow** (Google Sign-In) als Referenz-Feature für alle
 folgenden Features: `WissliNavHost` → `AuthGateViewModel` (liegt bewusst in `core/navigation/` statt in `data/` oder
 `feature/`, da es kein Screen ist, sondern die Root-Navigation steuert; beobachtet
-`AuthRepository.observeCurrentUser()` und entscheidet die Start-Destination — `Routes.LOGIN`
-oder `Routes.HOME` — statt beim App-Start immer hart bei Login zu starten; nur der *erste*
+`AuthRepository.observeCurrentUser()` und entscheidet die Start-Destination — `Route.Login`
+oder `Route.Home` — statt beim App-Start immer hart bei Login zu starten; nur der *erste*
 Status zählt, spätere Login-/Logout-Wechsel navigiert der Graph explizit) → `LoginScreen` →
-`LoginViewModel` → `AuthRepository`/`GoogleAuthDataSource`. `Routes.HOME` zeigt das Dashboard
+`LoginViewModel` → `AuthRepository`/`GoogleAuthDataSource`. `Route.Home` zeigt das Dashboard
 (`features/dashboard/`, Design-Stand): Header mit Gruppenwahl + Begrüßung (Abmelden vorerst im
 Avatar-Menü, bis es einen Profil-Screen gibt), "Weiter lernen"-Karte, "Frage des Tages",
 Mitspieler-Karten und `WissliBottomBar` (`core/navigation/`, Tabs Start/Lernen/Gruppen; Gruppen
@@ -240,10 +240,12 @@ abgleichen.
 
 ## Navigation
 
-Navigation Compose; Routen zentral definiert (in `core/navigation`), niemals verstreute
-String-Literale in Screens. Flows: Auth (Login) → Main (Home, Lernen, Groups, später Favorites
-und Profile) plus Detail-Routen (Thema `category/{categoryId}`, Level
-`level/{categoryId}/{level}`). Tabs wechseln über `navigateToTab()` mit Home als Wurzel.
+Navigation Compose mit typsicheren Routen: alle Ziele als `@Serializable`-Typen in
+`core/navigation/Route.kt` (`sealed interface Route`), Argumente als typisierte Felder
+(`Route.Level(categoryId, level)`, gelesen per `entry.toRoute<…>()`) — keine Route-Strings.
+Braucht das Kotlin-Serialization-Plugin plus `kotlinx-serialization-core` (Navigation bringt die
+Library nur intern mit). Flows: Auth (Login) → Main (Home, Lernen, Groups, später Favorites
+und Profile) plus Detail-Routen (Thema `Route.Category`, Level `Route.Level`). Tabs wechseln über `navigateToTab()` mit Home als Wurzel.
 
 ## UI & Theming
 
