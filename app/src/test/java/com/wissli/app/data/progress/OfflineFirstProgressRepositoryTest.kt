@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalCoroutinesApi::class)
+
 package com.wissli.app.data.progress
 
 import com.wissli.app.core.model.CategoryProgress
@@ -6,6 +8,7 @@ import com.wissli.app.data.auth.AuthRepository
 import com.wissli.app.data.auth.LastSignedInAccount
 import com.wissli.app.data.local.ProgressDao
 import com.wissli.app.data.local.ProgressEntity
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.first
