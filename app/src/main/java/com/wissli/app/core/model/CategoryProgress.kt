@@ -47,6 +47,30 @@ data class CategoryProgress(
             copy(solvedInCurrentLevel = solved, updatedAt = now)
         }
     }
+
+    /**
+     * Combines two copies of the same category, e.g. this device and another one. Progress only
+     * grows: the copy with more completed levels wins, otherwise the solved questions add up.
+     */
+    fun mergedWith(
+        other: CategoryProgress,
+        levelQuestionCount: Int = QUESTIONS_PER_LEVEL,
+    ): CategoryProgress {
+        require(categoryId == other.categoryId) { "Cannot merge $categoryId with ${other.categoryId}" }
+        val latest = maxOf(updatedAt, other.updatedAt)
+        return when {
+            completedLevels > other.completedLevels -> copy(updatedAt = latest)
+            completedLevels < other.completedLevels -> other.copy(updatedAt = latest)
+            else -> {
+                val solved = solvedInCurrentLevel + other.solvedInCurrentLevel
+                if (solved.size >= levelQuestionCount) {
+                    copy(completedLevels = completedLevels + 1, solvedInCurrentLevel = emptySet(), updatedAt = latest)
+                } else {
+                    copy(solvedInCurrentLevel = solved, updatedAt = latest)
+                }
+            }
+        }
+    }
 }
 
 data class CategoryOverview(

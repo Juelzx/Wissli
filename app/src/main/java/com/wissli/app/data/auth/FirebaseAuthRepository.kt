@@ -9,6 +9,7 @@ import com.wissli.app.core.model.User
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 
@@ -43,6 +44,13 @@ class FirebaseAuthRepository(
             firebaseAuth.addAuthStateListener(listener)
             awaitClose { firebaseAuth.removeAuthStateListener(listener) }
         }
+
+    override fun observeUserId(): Flow<String?> =
+        callbackFlow {
+            val listener = FirebaseAuth.AuthStateListener { auth -> trySend(auth.currentUser?.uid) }
+            firebaseAuth.addAuthStateListener(listener)
+            awaitClose { firebaseAuth.removeAuthStateListener(listener) }
+        }.distinctUntilChanged()
 
     override suspend fun signInWithGoogle(googleIdToken: String): Result<User> =
         runCatching {

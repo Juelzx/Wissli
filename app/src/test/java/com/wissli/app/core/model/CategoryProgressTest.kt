@@ -38,6 +38,30 @@ class CategoryProgressTest {
     }
 
     @Test
+    fun `merging keeps the copy with more completed levels`() {
+        val ahead = CategoryProgress("nature", completedLevels = 3, updatedAt = 1L)
+        val behind = CategoryProgress("nature", completedLevels = 2, solvedInCurrentLevel = setOf("a"), updatedAt = 5L)
+
+        val merged = behind.mergedWith(ahead)
+
+        assertEquals(3, merged.completedLevels)
+        assertEquals(emptySet<String>(), merged.solvedInCurrentLevel)
+        assertEquals(5L, merged.updatedAt)
+    }
+
+    @Test
+    fun `merging the same level adds up solved questions and may complete it`() {
+        val phone = CategoryProgress("nature", completedLevels = 1, solvedInCurrentLevel = setOf("a", "b"))
+        val tablet = CategoryProgress("nature", completedLevels = 1, solvedInCurrentLevel = setOf("b", "c"))
+
+        assertEquals(setOf("a", "b", "c"), phone.mergedWith(tablet).solvedInCurrentLevel)
+
+        val completed = phone.mergedWith(tablet, levelQuestionCount = 3)
+        assertEquals(2, completed.completedLevels)
+        assertEquals(emptySet<String>(), completed.solvedInCurrentLevel)
+    }
+
+    @Test
     fun `shows the way to the next rank`() {
         val explorer = CategoryProgress("nature", completedLevels = 2)
 
