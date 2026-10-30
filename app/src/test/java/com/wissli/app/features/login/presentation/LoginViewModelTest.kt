@@ -208,6 +208,8 @@ private class FakeAuthRepository(
 
     override fun observeCurrentUser(): Flow<User?> = flowOf(null)
 
+    override fun observeUserId(): Flow<String?> = flowOf(null)
+
     override suspend fun getLastSignedInAccount(): LastSignedInAccount? = lastAccount
 
     override suspend fun signInWithGoogle(googleIdToken: String): Result<User> {

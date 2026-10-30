@@ -380,6 +380,766 @@
       "explanation": "Regen versickert im Boden und sammelt sich als Grundwasser zwischen Sand und Gestein. Wo eine wasserdichte Schicht es an die Oberfläche lenkt, tritt es als Quelle wieder aus.",
       "ageFrom": 6,
       "ageTo": 12
+    },
+    {
+      "id": "nature-0021",
+      "subtopic": "weather",
+      "level": 2,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Woraus bestehen Wolken?",
+      "answers": [
+        "Aus winzigen Wassertröpfchen oder Eiskristallen",
+        "Aus Rauch",
+        "Aus reinem Wasserdampf",
+        "Aus feinem Staub"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Warme Luft trägt unsichtbaren Wasserdampf nach oben. Dort kühlt er ab und wird zu winzigen Tröpfchen oder Eiskristallen – Milliarden davon sehen wir als Wolke.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0022",
+      "subtopic": "weather",
+      "level": 2,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum fällt im Winter Schnee statt Regen?",
+      "answers": [
+        "Wolken sind im Winter größer",
+        "Schnee kommt aus dem Weltall",
+        "In der kalten Wolke gefriert das Wasser zu Eiskristallen",
+        "Der Wind färbt den Regen weiß"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In kalten Wolken wachsen Eiskristalle zu Schneeflocken zusammen. Ist es auch unten kalt genug, schmelzen sie auf dem Weg zum Boden nicht.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0023",
+      "subtopic": "plants",
+      "level": 2,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was brauchen Pflanzen zum Wachsen?",
+      "answers": [
+        "Zucker aus dem Supermarkt",
+        "Nur Erde",
+        "Nur Dunkelheit",
+        "Licht, Wasser und Luft"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Mit Sonnenlicht machen Pflanzen aus Wasser und dem Kohlendioxid der Luft ihren eigenen Zucker. Aus dem Boden holen sie zusätzlich Nährstoffe.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0024",
+      "subtopic": "plants",
+      "level": 2,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wozu haben Pflanzen Wurzeln?",
+      "answers": [
+        "Damit die Pflanze sehen kann",
+        "Um Licht zu sammeln",
+        "Damit die Pflanze wandern kann",
+        "Sie halten die Pflanze fest und saugen Wasser auf"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Wurzeln verankern die Pflanze im Boden, damit der Wind sie nicht umwirft. Mit feinen Härchen nehmen sie Wasser und Nährstoffe auf.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0025",
+      "subtopic": "water",
+      "level": 2,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was passiert mit einer Pfütze, wenn lange die Sonne scheint?",
+      "answers": [
+        "Es verwandelt sich in Erde",
+        "Das Wasser verdunstet",
+        "Es wird zu Eis",
+        "Es wird zu Salz"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Die Wärme lässt Wasserteilchen als unsichtbaren Wasserdampf in die Luft aufsteigen. Irgendwann kann daraus wieder eine Wolke werden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0026",
+      "subtopic": "water",
+      "level": 2,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie heißt der Weg des Wassers vom Meer in die Wolken, als Regen zurück und über Flüsse wieder ins Meer?",
+      "answers": [
+        "Wetterspirale",
+        "Regenrad",
+        "Wasserkreislauf",
+        "Mondkreislauf"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Die Sonne lässt Wasser verdunsten, in der Höhe bilden sich Wolken, es regnet, und Flüsse bringen das Wasser zurück ins Meer. Dieses Wasser ist seit Millionen Jahren immer wieder unterwegs.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0027",
+      "subtopic": "rocks",
+      "level": 2,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was kommt bei einem Vulkanausbruch heraus?",
+      "answers": [
+        "Schnee",
+        "Sand vom Strand",
+        "Nur Wasser",
+        "Lava, Asche und Gase"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Tief unter der Erde ist Gestein so heiß, dass es schmilzt. Bricht es durch, fließt es als Lava heraus, dazu kommen Asche und Gase.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0028",
+      "subtopic": "rocks",
+      "level": 2,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Woraus entsteht Sand?",
+      "answers": [
+        "Aus Baumrinde",
+        "Aus getrockneten Wolken",
+        "Aus zerriebenem Gestein",
+        "Aus Salzkristallen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Wind, Wasser und Frost zerkleinern Felsen über sehr lange Zeit. Wellen reiben die Stückchen weiter, bis winzige Körner übrig bleiben. Manchmal sind auch zerbrochene Muscheln dabei.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0029",
+      "subtopic": "light",
+      "level": 2,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum ist der Himmel bei Sonnenuntergang oft rot?",
+      "answers": [
+        "Der Himmel spiegelt das Meer",
+        "Das Licht legt einen langen Weg durch die Luft zurück",
+        "Die Wolken glühen",
+        "Die Sonne kühlt abends ab"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Abends steht die Sonne tief, ihr Licht muss viel mehr Luft durchqueren. Das blaue Licht wird unterwegs weggestreut, übrig bleiben Rot und Orange.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0030",
+      "subtopic": "light",
+      "level": 2,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Warum gibt es Schatten?",
+      "answers": [
+        "Der Boden ist dort dunkel gefärbt",
+        "Ein Gegenstand hält das Licht auf",
+        "Licht fließt um Dinge herum",
+        "Die Sonne macht kurz Pause"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Licht breitet sich geradlinig aus. Wo etwas im Weg steht, kommt kein Licht hin – dort entsteht der Schatten.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0031",
+      "subtopic": "weather",
+      "level": 2,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie entsteht Hagel?",
+      "answers": [
+        "Eis fällt aus dem Weltall",
+        "Schnee wird beim Fallen zusammengepresst",
+        "Tropfen werden in der Gewitterwolke immer wieder hochgewirbelt und frieren",
+        "Die ganze Wolke friert auf einmal ein"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In Gewitterwolken gibt es starke Aufwinde. Sie tragen Tropfen immer wieder in eiskalte Höhen, wo Schicht um Schicht Eis dazukommt – bis die Körner zu schwer sind und herunterfallen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0032",
+      "subtopic": "weather",
+      "level": 2,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum ist es auf hohen Bergen kälter als im Tal?",
+      "answers": [
+        "Oben scheint die Sonne schwächer",
+        "Auf Bergen weht immer Nordwind",
+        "Der Schnee kühlt die Luft von oben",
+        "Aufsteigende Luft dehnt sich aus und kühlt dabei ab"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Oben drückt weniger Luft, deshalb dehnt sich aufsteigende Luft aus und wird dabei kälter. Pro 100 Höhenmeter sinkt die Temperatur um etwa ein halbes Grad – obwohl man der Sonne näher ist.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0033",
+      "subtopic": "plants",
+      "level": 2,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum drehen sich junge Sonnenblumen zur Sonne?",
+      "answers": [
+        "Sie wachsen auf der Schattenseite schneller",
+        "Der Wind dreht sie",
+        "Bienen ziehen sie herum",
+        "Ihre Blüten sind magnetisch"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Junge Sonnenblumen wachsen auf der Seite, die gerade im Schatten liegt, etwas schneller. Dadurch neigt sich der Kopf der Sonne nach. Ausgewachsene Blüten bleiben meist nach Osten gerichtet.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0034",
+      "subtopic": "plants",
+      "level": 2,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Was machen Pflanzen mit dem Kohlendioxid aus der Luft?",
+      "answers": [
+        "Sie atmen es unverändert wieder aus",
+        "Sie bauen daraus mit Licht Zucker",
+        "Sie machen daraus Erde",
+        "Sie verwandeln es in Blütenduft"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Diese Fotosynthese passiert in den grünen Blättern. Als Abfall entsteht Sauerstoff – genau das, was wir zum Atmen brauchen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0035",
+      "subtopic": "water",
+      "level": 2,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum friert ein See zuerst an der Oberfläche zu?",
+      "answers": [
+        "Fische halten das Wasser unten warm",
+        "Am Grund wärmen Steine das Wasser",
+        "Der Wind kühlt nur die Mitte",
+        "Wasser ist bei 4 °C am schwersten und sinkt nach unten"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Wasser ist bei 4 °C am dichtesten. Dieses Wasser sinkt zum Grund, kälteres bleibt oben und gefriert dort zuerst. Unter dem Eis können Fische den Winter überstehen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0036",
+      "subtopic": "rocks",
+      "level": 2,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist ein Fossil?",
+      "answers": [
+        "Ein versteinerter Rest eines Lebewesens",
+        "Ein besonders alter Kristall",
+        "Ein Edelstein aus einem Vulkan",
+        "Ein Stein aus dem Weltall"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Wird ein totes Tier oder eine Pflanze schnell von Schlamm bedeckt, kann es über Millionen Jahre zu Stein werden. So wissen wir zum Beispiel, wie Dinosaurier aussahen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0037",
+      "subtopic": "rocks",
+      "level": 2,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum bebt manchmal die Erde?",
+      "answers": [
+        "Vulkane niesen",
+        "Unterirdische Flüsse laufen über",
+        "Riesige Gesteinsplatten verschieben sich ruckartig",
+        "Der Mond rüttelt an der Erde"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Die Erdkruste besteht aus großen Platten, die sich ganz langsam bewegen. Verhaken sie sich, baut sich Spannung auf, die sich plötzlich löst – dann bebt die Erde.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0038",
+      "subtopic": "light",
+      "level": 2,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welche Farbe hat Licht, das alle Regenbogenfarben gleichzeitig enthält?",
+      "answers": [
+        "Weiß",
+        "Grau",
+        "Schwarz",
+        "Braun"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Sonnenlicht sieht weiß aus, weil es alle Farben gleichzeitig enthält. Ein Prisma oder Regentropfen können es wieder in die einzelnen Farben aufteilen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0039",
+      "subtopic": "weather",
+      "level": 2,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Was zeigt ein Barometer an?",
+      "answers": [
+        "Die Windstärke",
+        "Den Luftdruck",
+        "Die Temperatur des Bodens",
+        "Die Regenmenge"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Ein Barometer misst, wie stark die Luft drückt. Fällt der Luftdruck, kommt oft schlechteres Wetter, steigt er, wird es meist freundlich.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0040",
+      "subtopic": "plants",
+      "level": 2,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Woraus wächst ein neuer Baum?",
+      "answers": [
+        "Aus einem Samen",
+        "Aus einem Stein",
+        "Aus einem abgefallenen Blatt",
+        "Aus einem Stück Rinde"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In jedem Samen, etwa einer Eichel oder Kastanie, steckt ein winziger Keimling mit Vorrat. Landet er in feuchter Erde, keimt er und wächst langsam zu einem Baum heran.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0041",
+      "subtopic": "weather",
+      "level": 3,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist ein Tornado?",
+      "answers": [
+        "Ein Vulkan unter Wasser",
+        "Ein besonders langer Blitz",
+        "Ein schnell drehender Luftwirbel",
+        "Eine riesige Meereswelle"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ein Tornado ist ein Wirbel, der von einer Gewitterwolke bis zum Boden reicht. Darin kann der Wind über 300 km/h schnell werden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0042",
+      "subtopic": "weather",
+      "level": 3,
+      "order": 9,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum ist es nachts bei klarem Himmel kälter als bei Wolken?",
+      "answers": [
+        "Ohne Wolken weht immer Wind",
+        "Wolken halten die Wärme des Bodens fest",
+        "Die Sterne kühlen die Erde",
+        "Der Mond strahlt Kälte ab"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Nachts gibt der Boden die Wärme des Tages ab. Wolken wirken wie eine Decke und schicken einen Teil zurück. Ohne Wolken entweicht die Wärme ins All – im Frühling gibt es dann oft Bodenfrost.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0043",
+      "subtopic": "water",
+      "level": 3,
+      "order": 19,
+      "difficulty": "HARD",
+      "difficultyScore": 7,
+      "title": "Warum ist Eis so rutschig?",
+      "answers": [
+        "Eis ist glatt wie ein Spiegel",
+        "Eis stößt Gummi ab",
+        "Auf der Oberfläche liegt eine hauchdünne, fast flüssige Schicht",
+        "Der Druck der Schuhe schmilzt das Eis"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Lange dachte man, der Druck der Schuhe schmilzt das Eis. Dafür reicht er aber bei Weitem nicht. Die obersten Wasserteilchen sind kaum gebunden und bilden eine flüssigkeitsähnliche Schicht – darauf rutscht man.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0044",
+      "subtopic": "plants",
+      "level": 3,
+      "order": 18,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Warum werden Blätter im Herbst gelb?",
+      "answers": [
+        "Der Baum bildet neuen gelben Farbstoff",
+        "Die Blätter verbrennen in der Sonne",
+        "Die Kälte färbt die Blätter",
+        "Das grüne Chlorophyll wird abgebaut, das Gelb war schon da"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Das Gelb steckt den ganzen Sommer im Blatt, wird aber vom Grün überdeckt. Im Herbst holt der Baum das wertvolle Chlorophyll zurück in den Stamm, und die gelben Farbstoffe werden sichtbar.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0045",
+      "subtopic": "plants",
+      "level": 3,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Aus welchem Teil der Pflanze wird die Frucht?",
+      "answers": [
+        "Aus der Blüte",
+        "Aus der Wurzel",
+        "Aus dem Stängel",
+        "Aus dem Blatt"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Wird eine Blüte bestäubt, wächst aus ihr die Frucht mit den Samen. Aus jeder Apfelblüte kann so ein Apfel werden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0046",
+      "subtopic": "plants",
+      "level": 3,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie helfen Bienen den Pflanzen?",
+      "answers": [
+        "Sie gießen sie mit Honig",
+        "Sie tragen Blütenstaub von Blüte zu Blüte",
+        "Sie schneiden welke Blätter ab",
+        "Sie lockern die Erde"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Beim Nektarsammeln bleibt Blütenstaub an der Biene hängen. In der nächsten Blüte streift sie ihn ab, und die Blüte kann eine Frucht bilden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0047",
+      "subtopic": "plants",
+      "level": 3,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum bleiben Nadelbäume im Winter grün?",
+      "answers": [
+        "Sie haben Frostschutz aus Harz in den Wurzeln",
+        "Sie wachsen nur im Winter",
+        "Der Schnee färbt sie grün",
+        "Ihre Nadeln verlieren kaum Wasser"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Nadeln sind schmal und mit Wachs überzogen. Deshalb verdunsten sie im Winter kaum Wasser, und der Baum kann sie behalten. Eine Ausnahme ist die Lärche: Sie wirft ihre Nadeln im Herbst ab.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0048",
+      "subtopic": "water",
+      "level": 3,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie viel des Wassers auf der Erde ist Süßwasser?",
+      "answers": [
+        "Etwa die Hälfte",
+        "Gar keins",
+        "Nur ein kleiner Teil, etwa 3 Prozent",
+        "Fast alles"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Rund 97 Prozent des Wassers ist salziges Meerwasser. Vom Süßwasser ist zudem das meiste in Gletschern und an den Polen gefroren.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0049",
+      "subtopic": "water",
+      "level": 3,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist ein Gletscher?",
+      "answers": [
+        "Ein langsam fließender Strom aus Eis",
+        "Ein See unter der Erde",
+        "Ein Berg aus Salz",
+        "Ein gefrorener Wasserfall"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Gletscher entstehen, wo über viele Jahre mehr Schnee fällt als schmilzt. Der Schnee wird zu Eis gepresst, das unter seinem eigenen Gewicht ganz langsam bergab fließt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0050",
+      "subtopic": "water",
+      "level": 3,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wodurch entstehen die meisten Wellen auf dem Meer?",
+      "answers": [
+        "Das Meer atmet",
+        "Fische schwimmen im Kreis",
+        "Der Wind schiebt die Wasseroberfläche an",
+        "Der Meeresboden wackelt ständig"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Wind reibt über das Wasser und schiebt es zu kleinen Hügeln auf. Je stärker und länger er weht, desto höher werden die Wellen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0051",
+      "subtopic": "rocks",
+      "level": 3,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie heißt geschmolzenes Gestein, solange es unter der Erde ist?",
+      "answers": [
+        "Magma",
+        "Lava",
+        "Basalt",
+        "Granit"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Unter der Erde heißt das geschmolzene Gestein Magma. Erst wenn es bei einem Ausbruch an die Oberfläche kommt, nennt man es Lava.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0052",
+      "subtopic": "rocks",
+      "level": 3,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist der härteste natürliche Stoff?",
+      "answers": [
+        "Marmor",
+        "Diamant",
+        "Eisen",
+        "Granit"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Mit einem Diamanten kann man fast alles ritzen, sogar Glas und Stahl. Deshalb sitzen kleine Diamanten an Bohrern und Sägen für Stein.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0053",
+      "subtopic": "rocks",
+      "level": 3,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Woraus besteht ein Diamant?",
+      "answers": [
+        "Aus Salz",
+        "Aus gepresstem Eis",
+        "Aus Glas",
+        "Aus Kohlenstoff"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Ein Diamant ist reiner Kohlenstoff – wie der Graphit in einer Bleistiftmine. Tief in der Erde wurden die Teilchen unter riesigem Druck und großer Hitze nur viel fester verbunden.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0054",
+      "subtopic": "rocks",
+      "level": 3,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum findet man in den Alpen versteinerte Muscheln?",
+      "answers": [
+        "Muscheln lebten früher in Bergbächen",
+        "Das Gestein lag einmal am Meeresboden",
+        "Wanderer haben sie verloren",
+        "Vögel haben Muscheln hinaufgetragen"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Vor vielen Millionen Jahren lag dort ein Meer. Als Erdplatten zusammenstießen, wurde der Meeresboden mitsamt den Muscheln zu den Alpen aufgefaltet.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0055",
+      "subtopic": "light",
+      "level": 3,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum sieht man einen Regenbogen nur, wenn die Sonne hinter einem steht?",
+      "answers": [
+        "Die Tropfen werfen das Licht zu uns zurück",
+        "Sonst ist er zu weit weg",
+        "Regenbögen gibt es nur morgens",
+        "Sonst blendet die Sonne zu stark"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In jedem Tropfen wird das Licht gebrochen und an der Rückseite gespiegelt. Es kommt also ungefähr in die Richtung zurück, aus der es kam – deshalb muss die Sonne in deinem Rücken stehen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0056",
+      "subtopic": "light",
+      "level": 3,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum werden schwarze Sachen in der Sonne besonders heiß?",
+      "answers": [
+        "Schwarz zieht die Sonne an",
+        "Schwarze Stoffe sind immer dicker",
+        "Schwarz schluckt fast alles Licht und macht daraus Wärme",
+        "Schwarze Farbe ist von Natur aus warm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Helle Flächen werfen viel Licht zurück, dunkle schlucken es. Das geschluckte Licht wird zu Wärme – deshalb ist ein schwarzes T-Shirt in der Sonne wärmer als ein weißes.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0057",
+      "subtopic": "light",
+      "level": 3,
+      "order": 8,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Welche Farbe hat ein Regenbogen ganz außen?",
+      "answers": [
+        "Grün",
+        "Violett",
+        "Gelb",
+        "Rot"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Rotes Licht wird in den Tropfen am wenigsten abgelenkt und erscheint deshalb außen, Violett innen. Bei einem zweiten, blasseren Regenbogen ist die Reihenfolge umgekehrt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0058",
+      "subtopic": "weather",
+      "level": 3,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum regnet es aus manchen Wolken und aus anderen nicht?",
+      "answers": [
+        "Erst wenn Tröpfchen zu schweren Tropfen zusammenwachsen, fallen sie",
+        "Der Wind entscheidet, welche Wolke regnet",
+        "Regen gibt es nur über Bergen",
+        "Nur graue Wolken enthalten Wasser"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Wolkentröpfchen sind so winzig, dass sie in der Luft schweben. Erst wenn sich sehr viele zu einem Tropfen vereinigen, wird er schwer genug, um zu fallen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0059",
+      "subtopic": "weather",
+      "level": 3,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie nennt man es, wenn es sehr lange nicht regnet und der Boden austrocknet?",
+      "answers": [
+        "Frost",
+        "Dürre",
+        "Sturm",
+        "Flut"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Bei einer Dürre fehlt über Wochen oder Monate der Regen. Pflanzen vertrocknen, Flüsse führen wenig Wasser, und Bauern haben schlechte Ernten.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "nature-0060",
+      "subtopic": "weather",
+      "level": 3,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was misst man in Grad Celsius?",
+      "answers": [
+        "Die Luftfeuchtigkeit",
+        "Die Regenmenge",
+        "Die Windstärke",
+        "Die Temperatur"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Bei 0 Grad Celsius gefriert Wasser, bei 100 Grad kocht es. Benannt ist die Skala nach dem schwedischen Forscher Anders Celsius.",
+      "ageFrom": 6,
+      "ageTo": 12
     }
   ]
 }

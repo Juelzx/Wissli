@@ -380,6 +380,766 @@
       "explanation": "Ohne Schmiermittel haften die Metallteile im Scharnier kurz aneinander und rutschen dann ruckartig weiter. Dieses schnelle Haften und Rutschen bringt das Metall zum Schwingen, und es quietscht. Ein Tropfen Öl hilft.",
       "ageFrom": 6,
       "ageTo": 12
+    },
+    {
+      "id": "kitchen-0021",
+      "subtopic": "food",
+      "level": 2,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Woraus wird Butter gemacht?",
+      "answers": [
+        "Aus Olivenöl",
+        "Aus Mehl",
+        "Aus Sahne",
+        "Aus Eiern"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Schlägt man Sahne sehr lange, klumpt das Fett zusammen und trennt sich von der Flüssigkeit. Die festen Klumpen sind Butter.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0022",
+      "subtopic": "food",
+      "level": 2,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Woraus wird Käse gemacht?",
+      "answers": [
+        "Aus Milch",
+        "Aus Mehl und Wasser",
+        "Aus Hühnereiern",
+        "Aus Bananen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Für Käse wird Milch dick gemacht, die feste Masse gepresst und oft monatelang gelagert. So entstehen ganz unterschiedliche Sorten.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0023",
+      "subtopic": "food",
+      "level": 2,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Woraus werden Pommes frites gemacht?",
+      "answers": [
+        "Aus Nudelteig",
+        "Aus Äpfeln",
+        "Aus Mais",
+        "Aus Kartoffeln"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Kartoffeln werden in Stäbchen geschnitten und in heißem Fett gebacken. Außen werden sie knusprig, innen bleiben sie weich.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0024",
+      "subtopic": "food",
+      "level": 2,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum schmeckt eine Zitrone sauer?",
+      "answers": [
+        "Sie ist noch unreif",
+        "Sie wurde mit Essig gegossen",
+        "Sie enthält Salz",
+        "Sie enthält viel Zitronensäure"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Zitronensäure steckt in vielen Früchten, in Zitronen aber besonders viel. Sie wird auch in Limonaden und Bonbons verwendet.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0025",
+      "subtopic": "food",
+      "level": 2,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum wird Brot hart, wenn es lange liegt?",
+      "answers": [
+        "Es verliert Wasser, und die Stärke wird wieder fest",
+        "Die Hefe wird zu Stein",
+        "Es friert langsam ein",
+        "Es nimmt Staub auf"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Beim Backen nimmt die Stärke im Mehl Wasser auf und wird weich. Mit der Zeit gibt sie es wieder ab, die Krume wird fest und trocken.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0026",
+      "subtopic": "cooking",
+      "level": 2,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Bei wie viel Grad kocht Wasser normalerweise?",
+      "answers": [
+        "Bei 50 Grad Celsius",
+        "Bei 200 Grad Celsius",
+        "Bei 100 Grad Celsius",
+        "Bei 37 Grad Celsius"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Bei 100 Grad Celsius bildet Wasser im ganzen Topf Dampfblasen und sprudelt. Heißer wird es im offenen Topf nicht, auch wenn man die Platte höher dreht.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0027",
+      "subtopic": "cooking",
+      "level": 2,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was passiert mit dem Eiweiß, wenn man ein Ei kocht?",
+      "answers": [
+        "Es wird zu Zucker",
+        "Es wird fest und weiß",
+        "Es verschwindet",
+        "Es wird flüssig und grün"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Durch die Hitze verändern sich die Eiweißteilchen und verknäulen sich. Aus dem durchsichtigen Glibber wird festes, weißes Eiweiß.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0028",
+      "subtopic": "cooking",
+      "level": 2,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum rührt man Pudding beim Kochen ständig um?",
+      "answers": [
+        "Damit er nicht anbrennt und keine Klümpchen bildet",
+        "Damit er seine Farbe behält",
+        "Damit er schneller abkühlt",
+        "Damit er süßer wird"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Am heißen Topfboden würde die Stärke schnell anbrennen und Klumpen bilden. Durch das Rühren verteilt sich die Wärme gleichmäßig.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0029",
+      "subtopic": "cooking",
+      "level": 2,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum kocht Wasser mit Deckel schneller?",
+      "answers": [
+        "Der Deckel macht das Wasser leichter",
+        "Der Deckel hält die Wärme im Topf",
+        "Der Deckel verdoppelt die Hitze der Platte",
+        "Wasser kocht nur im Dunkeln"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Ohne Deckel entweicht viel Wärme mit dem Dampf. Mit Deckel bleibt sie im Topf – das Wasser kocht schneller, und man spart Energie.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0030",
+      "subtopic": "cooking",
+      "level": 2,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum wird Fleisch beim Braten braun?",
+      "answers": [
+        "Eiweiß und Zucker reagieren bei Hitze miteinander",
+        "Es verbrennt sofort",
+        "Es rostet",
+        "Das Fett färbt es braun"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Ab etwa 140 °C entstehen aus Eiweiß und Zucker neue braune Stoffe mit leckerem Röstgeschmack. Dasselbe passiert bei Brotkruste und Bratkartoffeln.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0031",
+      "subtopic": "everyday",
+      "level": 2,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Warum schmilzt ein Eiswürfel in der Hand?",
+      "answers": [
+        "Der Eiswürfel ist zu alt",
+        "Die Hand ist nass",
+        "Eis verträgt keine Haut",
+        "Die Wärme der Hand bringt ihn zum Schmelzen"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Unsere Hand ist über 30 Grad warm. Diese Wärme fließt in das Eis, und es wird wieder zu Wasser.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0032",
+      "subtopic": "everyday",
+      "level": 2,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum kann eine volle Glasflasche im Gefrierfach platzen?",
+      "answers": [
+        "Das Glas schrumpft zu stark",
+        "Kälte macht Glas weich",
+        "Die Luft in der Flasche explodiert",
+        "Wasser dehnt sich beim Gefrieren aus"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Gefrierendes Wasser braucht etwa ein Zehntel mehr Platz. In einer vollen, verschlossenen Flasche ist dafür kein Raum – das Eis sprengt das Glas.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0033",
+      "subtopic": "everyday",
+      "level": 2,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum fühlt sich Metall kälter an als Holz, obwohl beide gleich warm sind?",
+      "answers": [
+        "Metall ist immer kälter als die Luft",
+        "Metall leitet die Wärme schneller von der Hand weg",
+        "Holz erzeugt selbst Wärme",
+        "In Metall steckt Eis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Wir fühlen nicht die Temperatur, sondern wie schnell unsere Hand Wärme verliert. Metall leitet sie viel besser ab als Holz – deshalb wirkt es kalt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0034",
+      "subtopic": "everyday",
+      "level": 2,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum kann man mit einem Strohhalm trinken?",
+      "answers": [
+        "Der Mund zieht das Wasser magnetisch an",
+        "Der Strohhalm pumpt von selbst",
+        "Flüssigkeit steigt von allein nach oben",
+        "Der Luftdruck drückt das Getränk nach oben"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Beim Saugen wird der Druck im Strohhalm kleiner. Die Luft drückt weiter auf die Oberfläche im Glas und schiebt das Getränk den Halm hinauf.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0035",
+      "subtopic": "everyday",
+      "level": 2,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum sieht man bei Kälte seinen Atem?",
+      "answers": [
+        "Die Luft ist im Winter weiß",
+        "Der Atem gefriert zu Schnee",
+        "Die feuchte Atemluft kühlt ab und bildet winzige Tröpfchen",
+        "Man atmet im Winter Rauch aus"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Unsere Atemluft ist warm und enthält unsichtbaren Wasserdampf. In kalter Luft kühlt er schnell ab und wird zu einem kleinen Nebelwölkchen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0036",
+      "subtopic": "household",
+      "level": 2,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wozu dient ein Sieb?",
+      "answers": [
+        "Um Flüssigkeit von Festem zu trennen",
+        "Um Eier zu kochen",
+        "Um Teig zu kneten",
+        "Um Suppe zu wärmen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Gießt man Nudeln in ein Sieb, läuft das Wasser durch die Löcher ab, und die Nudeln bleiben drin. Mit feinen Sieben kann man auch Mehl lockern.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0037",
+      "subtopic": "household",
+      "level": 2,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum riecht Müll im Sommer schneller?",
+      "answers": [
+        "Im Sommer gibt es mehr Müll",
+        "Die Sonne färbt ihn",
+        "Bakterien vermehren sich bei Wärme schneller",
+        "Wärme macht Plastik zu Gas"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Bakterien zersetzen Essensreste und erzeugen dabei übel riechende Stoffe. Bei Wärme arbeiten sie viel schneller als bei Kälte.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0038",
+      "subtopic": "household",
+      "level": 2,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wozu kommt Spezialsalz in die Spülmaschine?",
+      "answers": [
+        "Damit das Geschirr salzig schmeckt",
+        "Es hilft, das Wasser weicher zu machen, damit sich kein Kalk ablagert",
+        "Damit die Maschine nicht einfriert",
+        "Damit es besser riecht"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Hartes Wasser enthält viel Kalk, der weiße Flecken hinterlässt. Ein Filter in der Maschine holt den Kalk heraus, und das Salz reinigt diesen Filter regelmäßig.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0039",
+      "subtopic": "household",
+      "level": 2,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie glättet ein Bügeleisen Falten?",
+      "answers": [
+        "Es klebt die Falten fest",
+        "Es saugt die Falten auf",
+        "Wärme und Dampf machen die Fasern weich und formbar",
+        "Es schneidet die Falten ab"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Hitze und Feuchtigkeit lockern die Verbindungen in den Stofffasern. Unter dem Druck des Bügeleisens werden sie glatt und bleiben so, wenn sie abkühlen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0040",
+      "subtopic": "household",
+      "level": 2,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum trennt man Müll?",
+      "answers": [
+        "Damit die Tonne leichter wird",
+        "Damit Stoffe wiederverwertet werden können",
+        "Damit die Müllabfuhr schneller fährt",
+        "Weil Müll sonst explodiert"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Aus altem Papier wird neues Papier, aus Glas neues Glas. Das spart Rohstoffe und Energie.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0041",
+      "subtopic": "cooking",
+      "level": 3,
+      "order": 18,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Warum kocht Wasser auf der Zugspitze schon bei etwa 90 °C?",
+      "answers": [
+        "Das Wasser ist reiner",
+        "Der Luftdruck ist dort geringer",
+        "Die Sonne ist näher",
+        "Die Luft ist kälter"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Je weniger Luft auf das Wasser drückt, desto leichter entweichen Wasserteilchen als Dampf. Nudeln brauchen dort deshalb länger, weil das Wasser nicht so heiß wird.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0042",
+      "subtopic": "cooking",
+      "level": 3,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum wird Sahne beim Schlagen fest?",
+      "answers": [
+        "Der Zucker wird hart",
+        "Das Wasser verdunstet beim Rühren",
+        "Fetttröpfchen bilden ein Gerüst um eingeschlagene Luftbläschen",
+        "Die Sahne friert durch die Bewegung"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Beim Schlagen kommen Luftbläschen in die Sahne. Die Fetttröpfchen lagern sich an ihnen an und verbinden sich zu einem festen Schaum. Schlägt man zu lange, wird Butter daraus.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0043",
+      "subtopic": "food",
+      "level": 3,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Woher kommt Honig?",
+      "answers": [
+        "Er wächst an Bäumen",
+        "Kühe geben ihn",
+        "Er wird aus Zuckerrüben gepresst",
+        "Bienen machen ihn aus Blütennektar"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Bienen sammeln Nektar, bringen ihn in den Stock und dicken ihn ein. Für ein Glas Honig fliegen sie zusammen eine Strecke, die viele Male um die Erde reicht.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0044",
+      "subtopic": "food",
+      "level": 3,
+      "order": 9,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Woraus wird Zucker in Deutschland meistens hergestellt?",
+      "answers": [
+        "Aus Mais",
+        "Aus Zuckerrohr",
+        "Aus Zuckerrüben",
+        "Aus Honig"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Zuckerrohr wächst nur in warmen Ländern. Bei uns gewinnt man Zucker aus Zuckerrüben, die auf den Feldern wachsen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0045",
+      "subtopic": "food",
+      "level": 3,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist Tofu?",
+      "answers": [
+        "Ein japanischer Fisch",
+        "Eine Käsesorte aus Kuhmilch",
+        "Ein Lebensmittel aus Sojabohnen",
+        "Ein Pilz"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Für Tofu wird aus Sojabohnen eine Art Milch gemacht und dann fest werden lassen. Tofu enthält viel Eiweiß und kommt ursprünglich aus China.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0046",
+      "subtopic": "food",
+      "level": 3,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum ist Chili scharf?",
+      "answers": [
+        "Sie ist immer heiß gekocht",
+        "Der Stoff Capsaicin reizt Sinneszellen für Hitze und Schmerz",
+        "Sie enthält Säure wie Zitronen",
+        "Sie enthält viel Salz"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Capsaicin gaukelt dem Mund Hitze vor, obwohl gar nichts heiß ist. Wasser hilft kaum dagegen, Milch oder Joghurt lindern das Brennen besser.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0047",
+      "subtopic": "food",
+      "level": 3,
+      "order": 19,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Welche dieser Früchte ist botanisch eine Beere?",
+      "answers": [
+        "Die Erdbeere",
+        "Die Kirsche",
+        "Die Himbeere",
+        "Die Banane"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Für Botaniker ist eine Beere eine Frucht, deren Samen im weichen Fruchtfleisch stecken. Das trifft auf Bananen, Tomaten und Gurken zu. Erdbeeren und Himbeeren sind dagegen Sammelfrüchte, die Kirsche ist eine Steinfrucht.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0048",
+      "subtopic": "cooking",
+      "level": 3,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Woher kommen die Löcher im Emmentaler Käse?",
+      "answers": [
+        "Mäuse knabbern sie hinein",
+        "Luft wird hineingepumpt",
+        "Bakterien bilden bei der Reifung Gasblasen",
+        "Sie werden mit einem Bohrer gemacht"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Während der Käse reift, geben bestimmte Bakterien Kohlendioxid ab. Das Gas sammelt sich im Käse zu Blasen, die als Löcher übrig bleiben.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0049",
+      "subtopic": "cooking",
+      "level": 3,
+      "order": 8,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum gibt man Salz ins Nudelwasser?",
+      "answers": [
+        "Damit die Nudeln nicht kleben",
+        "Damit das Wasser nicht überkocht",
+        "Damit die Nudeln ihre Farbe behalten",
+        "Vor allem für den Geschmack"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Die Nudeln nehmen beim Kochen das salzige Wasser auf und schmecken dadurch würziger. Gegen Kleben hilft vor allem viel Wasser und gelegentliches Umrühren.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0050",
+      "subtopic": "cooking",
+      "level": 3,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was passiert mit Schokolade, wenn sie warm wird?",
+      "answers": [
+        "Sie wird zu Kakaopulver",
+        "Sie schmilzt",
+        "Sie wird härter",
+        "Sie verdampft"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Kakaobutter schmilzt schon knapp unter unserer Körpertemperatur. Deshalb zergeht Schokolade so schön auf der Zunge – und in der Hosentasche.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0051",
+      "subtopic": "everyday",
+      "level": 3,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum kann man sich im Spiegel sehen?",
+      "answers": [
+        "Die glatte Fläche wirft das Licht gleichmäßig zurück",
+        "Der Spiegel leuchtet selbst",
+        "Im Spiegel ist ein Bild gespeichert",
+        "Glas merkt sich Gesichter"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Hinter dem Glas liegt eine dünne Metallschicht. Weil sie ganz glatt ist, wirft sie das Licht geordnet zurück, und wir sehen ein klares Bild.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0052",
+      "subtopic": "everyday",
+      "level": 3,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum rauscht es, wenn man eine große Muschel ans Ohr hält?",
+      "answers": [
+        "Die Muschel verstärkt Geräusche aus der Umgebung",
+        "Die Muschel hat das Meer gespeichert",
+        "Man hört das eigene Blut rauschen",
+        "In der Muschel ist noch Wasser"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Der Hohlraum der Muschel lässt bestimmte Töne aus der Umgebung lauter klingen. Hält man sie in einem sehr leisen Raum ans Ohr, wird das Rauschen schwächer. Ein Glas funktioniert genauso.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0053",
+      "subtopic": "everyday",
+      "level": 3,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum steigt ein Ballon mit Helium nach oben?",
+      "answers": [
+        "Der Wind schiebt ihn von unten",
+        "Der Ballon ist magnetisch",
+        "Helium ist sehr warm",
+        "Helium ist leichter als Luft"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Ein mit Helium gefüllter Ballon wiegt weniger als die Luft, die er verdrängt. Deshalb steigt er auf – wie ein Korken im Wasser.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0054",
+      "subtopic": "everyday",
+      "level": 3,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum klebt ein Luftballon an der Wand, wenn man ihn an den Haaren reibt?",
+      "answers": [
+        "Er wird beim Reiben warm und klebrig",
+        "Er saugt die Luft an der Wand weg",
+        "Er hat sich durch das Reiben elektrisch aufgeladen",
+        "Die Haare machen ihn magnetisch"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Beim Reiben wandern winzige Ladungsteilchen von den Haaren auf den Ballon. Der geladene Ballon zieht die Wand an – und die Haare stehen zu Berge.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0055",
+      "subtopic": "everyday",
+      "level": 3,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum leuchten manche Sticker im Dunkeln nach?",
+      "answers": [
+        "Sie enthalten eine winzige Batterie",
+        "Sie fangen Mondlicht durch das Fenster",
+        "Sie leuchten nur, weil die Augen müde sind",
+        "Sie haben Licht gespeichert und geben es langsam wieder ab"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Die Leuchtfarbe nimmt tagsüber Licht auf. Im Dunkeln gibt sie es nach und nach als schwaches Leuchten ab, bis der Vorrat aufgebraucht ist.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0056",
+      "subtopic": "household",
+      "level": 3,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wozu dient der Thermostat an der Heizung?",
+      "answers": [
+        "Er hält die eingestellte Temperatur",
+        "Er zeigt die Uhrzeit an",
+        "Er filtert die Luft",
+        "Er macht das Wasser sauber"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Der Thermostat misst die Raumtemperatur. Ist es kühler als eingestellt, lässt er mehr heißes Wasser in den Heizkörper, ist es warm genug, drosselt er es.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0057",
+      "subtopic": "household",
+      "level": 3,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum bildet sich Schimmel vor allem in feuchten Räumen?",
+      "answers": [
+        "Schimmelpilze wachsen gern, wo es feucht und warm ist",
+        "Schimmel kommt aus dem Wasserhahn",
+        "Er entsteht aus Staub allein",
+        "Kälte erzeugt Schimmel"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Schimmelsporen schweben überall in der Luft. Wachsen können sie aber nur, wo sie genug Feuchtigkeit finden, zum Beispiel an kalten, nassen Wänden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0058",
+      "subtopic": "household",
+      "level": 3,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum rostet ein Kochtopf aus Edelstahl nicht?",
+      "answers": [
+        "Er ist mit Lack überzogen",
+        "Eine unsichtbare Schicht mit Chrom schützt ihn",
+        "Er ist nie lange nass",
+        "Er besteht aus Silber"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Edelstahl enthält Chrom. An der Luft bildet es eine hauchdünne Schutzschicht, die das Eisen darunter vor Wasser und Sauerstoff abschirmt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0059",
+      "subtopic": "household",
+      "level": 3,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum riecht man es, wenn Gas aus einer Leitung strömt?",
+      "answers": [
+        "Dem Gas wird zur Warnung ein Geruchsstoff beigemischt",
+        "Die Leitung verbrennt Staub",
+        "Gas riecht immer nach Blumen",
+        "Erdgas stinkt von Natur aus stark"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Erdgas ist eigentlich geruchlos. Damit man ein Leck sofort bemerkt, wird ihm ein Stoff beigemischt, der nach faulen Eiern riecht.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "kitchen-0060",
+      "subtopic": "household",
+      "level": 3,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum haben viele Kochtöpfe Griffe aus Kunststoff?",
+      "answers": [
+        "Damit der Topf schöner aussieht",
+        "Kunststoff leitet Wärme schlecht, so verbrennt man sich nicht",
+        "Weil Metall zu schwer wäre",
+        "Damit der Topf schwimmt"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Metall leitet die Hitze vom Topfboden schnell weiter. Kunststoff und Holz tun das kaum – deshalb kann man solche Griffe anfassen.",
+      "ageFrom": 6,
+      "ageTo": 12
     }
   ]
 }

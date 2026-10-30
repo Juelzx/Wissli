@@ -380,6 +380,766 @@
       "explanation": "Die Vatikanstadt liegt mitten in Rom und ist kleiner als ein halber Quadratkilometer. Dort wohnt der Papst, und nur wenige hundert Menschen haben die Staatsbürgerschaft.",
       "ageFrom": 6,
       "ageTo": 12
+    },
+    {
+      "id": "world-0021",
+      "subtopic": "geography",
+      "level": 2,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wie heißt die Hauptstadt von Deutschland?",
+      "answers": [
+        "München",
+        "Hamburg",
+        "Köln",
+        "Berlin"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Berlin ist auch die größte Stadt Deutschlands. Dort sitzen Bundestag und Bundesregierung.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0022",
+      "subtopic": "geography",
+      "level": 2,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wie heißt die Hauptstadt von Frankreich?",
+      "answers": [
+        "Paris",
+        "Nizza",
+        "Lyon",
+        "Marseille"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Paris liegt an der Seine und ist berühmt für den Eiffelturm und das Museum Louvre, in dem die Mona Lisa hängt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0023",
+      "subtopic": "geography",
+      "level": 2,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie viele Kontinente zählt man meistens?",
+      "answers": [
+        "Sieben",
+        "Fünf",
+        "Drei",
+        "Zwölf"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Meist zählt man Afrika, Antarktis, Asien, Australien, Europa, Nordamerika und Südamerika. Die olympischen Ringe stehen dagegen für fünf bewohnte Erdteile, weil Amerika dort als einer gilt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0024",
+      "subtopic": "geography",
+      "level": 2,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welcher Fluss fließt durch Köln?",
+      "answers": [
+        "Die Elbe",
+        "Der Rhein",
+        "Die Donau",
+        "Die Spree"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Der Rhein entspringt in den Schweizer Alpen und mündet in den Niederlanden in die Nordsee. Er ist eine der wichtigsten Wasserstraßen Europas.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0025",
+      "subtopic": "geography",
+      "level": 2,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Auf welchem Kontinent liegt Brasilien?",
+      "answers": [
+        "Asien",
+        "Nordamerika",
+        "Afrika",
+        "Südamerika"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Brasilien ist das größte Land Südamerikas. Ein großer Teil des Amazonas-Regenwalds liegt dort.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0026",
+      "subtopic": "records",
+      "level": 2,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wie nennt man sehr hohe Hochhäuser?",
+      "answers": [
+        "Sternentürme",
+        "Himmelsleitern",
+        "Wolkenkratzer",
+        "Windmühlen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Wolkenkratzer haben oft über 100 Stockwerke. Das höchste Gebäude der Welt, der Burj Khalifa in Dubai, ist über 800 Meter hoch.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0027",
+      "subtopic": "records",
+      "level": 2,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie heißt die größte heiße Wüste der Erde?",
+      "answers": [
+        "Die Sahara",
+        "Die Gobi",
+        "Die Atacama",
+        "Die Kalahari"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Die Sahara im Norden Afrikas ist fast so groß wie die USA. Nur ein kleiner Teil besteht aus Sanddünen, der Rest aus Fels und Geröll.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0028",
+      "subtopic": "records",
+      "level": 2,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welcher ist der größte Kontinent?",
+      "answers": [
+        "Asien",
+        "Afrika",
+        "Australien",
+        "Europa"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Asien ist der größte Kontinent und hat auch die meisten Einwohner. Dort liegen zum Beispiel China, Indien und der größte Teil Russlands.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0029",
+      "subtopic": "records",
+      "level": 2,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welches ist das größte Land Südamerikas?",
+      "answers": [
+        "Chile",
+        "Argentinien",
+        "Peru",
+        "Brasilien"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Brasilien nimmt fast die Hälfte Südamerikas ein. Es ist so groß, dass es dort vier Zeitzonen gibt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0030",
+      "subtopic": "records",
+      "level": 2,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie heißt der höchste Berg Deutschlands?",
+      "answers": [
+        "Der Watzmann",
+        "Der Feldberg",
+        "Der Brocken",
+        "Die Zugspitze"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Die Zugspitze in den bayerischen Alpen ist knapp 3.000 Meter hoch. Man kommt mit einer Zahnradbahn und Seilbahnen bis auf den Gipfel.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0031",
+      "subtopic": "languages",
+      "level": 2,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wie sagt man „Hallo“ auf Englisch?",
+      "answers": [
+        "Hola",
+        "Ciao",
+        "Hello",
+        "Bonjour"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "„Hola“ ist Spanisch, „Bonjour“ Französisch und „Ciao“ Italienisch. Englisch ist die Sprache, die weltweit am meisten gelernt wird.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0032",
+      "subtopic": "languages",
+      "level": 2,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welche Sprache spricht man in Österreich?",
+      "answers": [
+        "Ungarisch",
+        "Österreichisch als eigene Sprache",
+        "Deutsch",
+        "Französisch"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In Österreich spricht man Deutsch, mit eigenen Wörtern: Dort sagt man zum Beispiel „Paradeiser“ statt Tomate und „Marille“ statt Aprikose.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0033",
+      "subtopic": "languages",
+      "level": 2,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wie sagt man „Guten Tag“ auf Französisch?",
+      "answers": [
+        "Buongiorno",
+        "Bonjour",
+        "Good morning",
+        "Buenos días"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "„Bonjour“ bedeutet wörtlich „guter Tag“. „Buongiorno“ ist Italienisch, „Buenos días“ Spanisch und „Good morning“ Englisch.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0034",
+      "subtopic": "languages",
+      "level": 2,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Welche Sprache spricht man in Mexiko hauptsächlich?",
+      "answers": [
+        "Französisch",
+        "Spanisch",
+        "Englisch",
+        "Portugiesisch"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Spanische Eroberer brachten ihre Sprache vor 500 Jahren nach Mexiko. Heute ist es das Land mit den meisten Spanisch-Sprechenden der Welt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0035",
+      "subtopic": "languages",
+      "level": 2,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welche Schrift benutzt man in Russland?",
+      "answers": [
+        "Die arabische Schrift",
+        "Die kyrillische Schrift",
+        "Hieroglyphen",
+        "Die lateinische Schrift"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Die kyrillische Schrift hat teils ähnliche Buchstaben wie unsere, die aber anders gelesen werden. Das russische „P“ ist zum Beispiel ein „R“.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0036",
+      "subtopic": "cultures",
+      "level": 2,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Womit isst man in Japan traditionell?",
+      "answers": [
+        "Mit einem Muschellöffel",
+        "Mit einer Holzgabel",
+        "Mit Stäbchen",
+        "Nur mit den Händen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In Japan, China und Korea isst man traditionell mit Stäbchen. Suppe darf man in Japan übrigens direkt aus der Schale schlürfen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0037",
+      "subtopic": "cultures",
+      "level": 2,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "In welchem Land stehen die Pyramiden von Gizeh?",
+      "answers": [
+        "Ägypten",
+        "Griechenland",
+        "Mexiko",
+        "Indien"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Die Pyramiden von Gizeh stehen am Rand von Kairo. Auch in Mexiko gibt es Pyramiden, die aber von ganz anderen Völkern gebaut wurden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0038",
+      "subtopic": "cultures",
+      "level": 2,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "In welcher Stadt steht die Freiheitsstatue?",
+      "answers": [
+        "Washington",
+        "New York",
+        "Paris",
+        "London"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Die Statue war ein Geschenk Frankreichs an die USA. Sie steht auf einer Insel vor New York und ist mit Sockel über 90 Meter hoch.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0039",
+      "subtopic": "cultures",
+      "level": 2,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "In welchem Land feiert man den „Tag der Toten“ mit bunten Totenköpfen aus Zucker?",
+      "answers": [
+        "Italien",
+        "Brasilien",
+        "Mexiko",
+        "Spanien"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Am „Día de los Muertos“ Anfang November erinnern sich Familien in Mexiko fröhlich an ihre Verstorbenen. Es gibt Blumen, Musik und Totenköpfe aus Zucker.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0040",
+      "subtopic": "cultures",
+      "level": 2,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "In welcher Stadt steht der Uhrturm „Big Ben“?",
+      "answers": [
+        "New York",
+        "Berlin",
+        "Dublin",
+        "London"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Eigentlich heißt nur die große Glocke im Turm Big Ben. Der Turm gehört zum britischen Parlament an der Themse.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0041",
+      "subtopic": "geography",
+      "level": 3,
+      "order": 19,
+      "difficulty": "HARD",
+      "difficultyScore": 7,
+      "title": "Welches Land hat die meisten Zeitzonen?",
+      "answers": [
+        "China",
+        "USA",
+        "Frankreich",
+        "Russland"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Wegen seiner Überseegebiete von der Karibik bis in den Pazifik kommt Frankreich auf 12 Zeitzonen, Russland auf 11. China nutzt trotz seiner Größe nur eine.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0042",
+      "subtopic": "records",
+      "level": 3,
+      "order": 18,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Welches ist die größte Wüste der Erde?",
+      "answers": [
+        "Die Antarktis",
+        "Die Gobi",
+        "Die Sahara",
+        "Die Arabische Wüste"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Wüste heißt: Es fällt kaum Niederschlag. Das trifft auch auf die eisige Antarktis zu – und sie ist sogar größer als die Sahara, die größte heiße Wüste.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0043",
+      "subtopic": "geography",
+      "level": 3,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Welches Land hat die Form eines Stiefels?",
+      "answers": [
+        "Griechenland",
+        "Norwegen",
+        "Italien",
+        "Spanien"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Auf der Landkarte sieht Italien aus wie ein Stiefel, der gegen den Ball Sizilien tritt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0044",
+      "subtopic": "records",
+      "level": 3,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wo leben die meisten Menschen der Welt?",
+      "answers": [
+        "In Australien",
+        "In Afrika",
+        "In Asien",
+        "In Europa"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Fast sechs von zehn Menschen leben in Asien. Allein in Indien und China zusammen sind es fast drei Milliarden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0045",
+      "subtopic": "geography",
+      "level": 3,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Wie heißt die Hauptstadt von Australien?",
+      "answers": [
+        "Perth",
+        "Canberra",
+        "Sydney",
+        "Melbourne"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sydney und Melbourne stritten, wer Hauptstadt wird. Als Kompromiss baute man dazwischen eine neue Stadt: Canberra.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0046",
+      "subtopic": "geography",
+      "level": 3,
+      "order": 9,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welche zwei Kontinente verbindet die Stadt Istanbul?",
+      "answers": [
+        "Europa und Asien",
+        "Europa und Afrika",
+        "Europa und Amerika",
+        "Asien und Afrika"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Istanbul liegt an beiden Ufern des Bosporus, einer Meerenge. Mit Brücken und Tunneln fährt man dort jeden Tag von Europa nach Asien.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0047",
+      "subtopic": "records",
+      "level": 3,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welche Stadt in Deutschland hat die meisten Einwohner?",
+      "answers": [
+        "München",
+        "Berlin",
+        "Köln",
+        "Hamburg"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In Berlin leben fast vier Millionen Menschen. Danach folgen Hamburg und München.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0048",
+      "subtopic": "records",
+      "level": 3,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welcher Fluss legt den längsten Weg durch Deutschland zurück?",
+      "answers": [
+        "Die Elbe",
+        "Die Donau",
+        "Die Weser",
+        "Der Rhein"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Von seinen rund 1.230 Kilometern fließt der Rhein etwa 865 durch Deutschland. Die Donau ist insgesamt länger, fließt aber zum größten Teil durch andere Länder.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0049",
+      "subtopic": "geography",
+      "level": 3,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welcher Ozean liegt zwischen Europa und Amerika?",
+      "answers": [
+        "Der Atlantik",
+        "Der Pazifik",
+        "Der Indische Ozean",
+        "Das Mittelmeer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Der Atlantik ist der zweitgrößte Ozean. Früher dauerte eine Schiffsreise über ihn Wochen, heute fliegt man in etwa acht Stunden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0050",
+      "subtopic": "records",
+      "level": 3,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "In welchem Land steht das höchste Gebäude der Welt?",
+      "answers": [
+        "In China",
+        "In den USA",
+        "In den Vereinigten Arabischen Emiraten",
+        "In Japan"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Der Burj Khalifa in Dubai ist über 800 Meter hoch und hat mehr als 160 Stockwerke. Bei klarem Wetter sieht man ihn aus fast 100 Kilometern Entfernung.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0051",
+      "subtopic": "languages",
+      "level": 3,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie sagt man „Danke“ auf Französisch?",
+      "answers": [
+        "Merci",
+        "Grazie",
+        "Gracias",
+        "Thank you"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "„Grazie“ ist Italienisch, „Thank you“ Englisch und „Gracias“ Spanisch. Mit „Merci“ bedankt man sich übrigens auch in der Schweiz.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0052",
+      "subtopic": "languages",
+      "level": 3,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie viele Sprachen gibt es ungefähr auf der Welt?",
+      "answers": [
+        "Etwa 50",
+        "Rund 7.000",
+        "Über eine Million",
+        "Etwa 500"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Allein in Papua-Neuguinea werden über 800 Sprachen gesprochen. Viele kleine Sprachen sind allerdings vom Aussterben bedroht.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0053",
+      "subtopic": "languages",
+      "level": 3,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "In welche Richtung schreibt man Arabisch?",
+      "answers": [
+        "Im Kreis",
+        "Von unten nach oben",
+        "Von links nach rechts",
+        "Von rechts nach links"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Arabisch und Hebräisch schreibt man von rechts nach links. Bücher werden deshalb von der für uns „hinteren“ Seite aus geöffnet.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0054",
+      "subtopic": "languages",
+      "level": 3,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Was ist Esperanto?",
+      "answers": [
+        "Eine italienische Nudelsorte",
+        "Eine erfundene Sprache zur Verständigung zwischen Völkern",
+        "Ein Tanz aus Spanien",
+        "Eine alte Schrift aus Ägypten"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Esperanto wurde 1887 von Ludwik Zamenhof erfunden. Es sollte leicht zu lernen sein und Menschen aller Länder verbinden.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0055",
+      "subtopic": "languages",
+      "level": 3,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wie sagt man „Ja“ auf Italienisch?",
+      "answers": [
+        "Oui",
+        "Sì",
+        "Jo",
+        "Da"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "„Oui“ ist Französisch und „Da“ Russisch. Italienisch und Spanisch sind eng verwandt – auf Spanisch heißt „Ja“ ebenfalls „Sí“.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0056",
+      "subtopic": "cultures",
+      "level": 3,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie heißt das große Volksfest im Herbst in München?",
+      "answers": [
+        "Schützenfest",
+        "Kirmes",
+        "Karneval",
+        "Oktoberfest"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Das Oktoberfest beginnt meist schon im September. Es geht auf eine königliche Hochzeit im Jahr 1810 zurück.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0057",
+      "subtopic": "cultures",
+      "level": 3,
+      "order": 8,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "In welchem Land wird das Farbenfest Holi besonders groß gefeiert?",
+      "answers": [
+        "Brasilien",
+        "Ägypten",
+        "Japan",
+        "Indien"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Bei Holi begrüßen die Menschen den Frühling und bewerfen sich mit buntem Farbpulver. Danach sind alle Kleider und Gesichter kunterbunt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0058",
+      "subtopic": "cultures",
+      "level": 3,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist ein Kimono?",
+      "answers": [
+        "Ein Musikinstrument",
+        "Ein Kampfsport",
+        "Ein traditionelles japanisches Gewand",
+        "Ein japanisches Gericht"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Kimonos werden heute vor allem zu besonderen Anlässen getragen, etwa zu Hochzeiten oder Festen. Gehalten werden sie von einem breiten Gürtel, dem Obi.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0059",
+      "subtopic": "cultures",
+      "level": 3,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "In welcher Stadt steht das Brandenburger Tor?",
+      "answers": [
+        "Potsdam",
+        "Hamburg",
+        "Brandenburg an der Havel",
+        "Berlin"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Das Brandenburger Tor ist ein Wahrzeichen Berlins. Es heißt so, weil hier früher die Straße nach Brandenburg an der Havel begann.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "world-0060",
+      "subtopic": "cultures",
+      "level": 3,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Wo stehen die riesigen Steinfiguren namens Moai?",
+      "answers": [
+        "Auf der Osterinsel",
+        "Auf Hawaii",
+        "In Ägypten",
+        "In Irland"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Die Bewohner der kleinen Insel im Pazifik meißelten vor Hunderten Jahren fast 900 dieser Figuren aus Vulkangestein. Manche sind über zehn Meter hoch.",
+      "ageFrom": 8,
+      "ageTo": 12
     }
   ]
 }

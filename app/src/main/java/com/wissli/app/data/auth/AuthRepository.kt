@@ -6,6 +6,9 @@ import kotlinx.coroutines.flow.Flow
 interface AuthRepository {
     fun observeCurrentUser(): Flow<User?>
 
+    /** Id of the signed-in account without loading its profile; works offline, `null` when signed out. */
+    fun observeUserId(): Flow<String?>
+
     /** Last account signed in on this device, kept after sign-out; `null` before the first sign-in. */
     suspend fun getLastSignedInAccount(): LastSignedInAccount?
 

@@ -18,6 +18,7 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.test.advanceUntilIdle
@@ -152,6 +153,8 @@ private class FakeAuthRepository(
     private val currentUser: Flow<User?>,
 ) : AuthRepository {
     override fun observeCurrentUser(): Flow<User?> = currentUser
+
+    override fun observeUserId(): Flow<String?> = currentUser.map { it?.id }
 
     override suspend fun getLastSignedInAccount(): LastSignedInAccount? = null
 

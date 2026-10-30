@@ -42,11 +42,11 @@ wenn alle gelöst sind; danach Abschluss mit Rang-Aufstieg; geschaffte Level las
 Fortschrittsänderung üben). `LevelViewModel` nutzt einen reinen `LevelReducer`. Fortschritts-
 und Rang-Logik liegt im Modell (`CategoryProgress.withSolved()`, `Rank.forCompletedLevels()`).
 ViewModels lesen über `GroupRepository`/`QuestionRepository`/`ProgressRepository`
-(`data/group|question|progress/`). `GroupRepository` und `ProgressRepository` sind aktuell nur
-durch `Placeholder*Repository` gebunden (statische Beispieldaten; der Fortschritt liegt nur im
-Speicher und startet leer) — für Firestore nur die Bindung im jeweiligen `di/<Bereich>Module.kt`
-austauschen. `QuestionRepository` ist durch `RoomQuestionRepository` gebunden (siehe
-"Fragen-Content"). Wiederverwendbare UI-Bausteine
+(`data/group|question|progress/`). `GroupRepository` ist aktuell nur durch
+`PlaceholderGroupRepository` gebunden (statische Beispieldaten) — für Firestore nur die Bindung in
+`di/GroupModule.kt` austauschen. `QuestionRepository` ist durch `RoomQuestionRepository` gebunden
+(siehe "Fragen-Content"), `ProgressRepository` durch `OfflineFirstProgressRepository` (siehe
+"Solo-Fortschritt speichern"). Wiederverwendbare UI-Bausteine
 (Karten-Stapel, Initialen-Avatar, Logo-Kachel, Rang-Badge/-Emblem, Fortschrittsbalken) liegen
 unter `ui/components/`.
 Der Login-Screen hat zwei Varianten: Erst-Login ("Mit Google anmelden") und "Willkommen zurück"
@@ -61,7 +61,7 @@ Firebase-Zugriff). Koin ist initialisiert (`WissliApplication` startet `startKoi
 `di/AppModule.kt` (`appModule`), das Bereichs-Module per `includes()` einhängt (`authModule`,
 `databaseModule`, `groupModule`, `questionModule`, `progressModule`, `dashboardModule`, `learnModule`).
 Noch **nicht implementiert**: Favorites, Groups (inkl. Gruppenmodus), Profile, Frage des Tages,
-echte Firestore-Repositories außer Auth, Remote-Updates des Fragen-Pakets.
+echte Firestore-Repositories außer Auth und Fortschritt, Remote-Updates des Fragen-Pakets.
 Beim Lesen des Codes den tatsächlichen Stand prüfen statt dies als vollständig anzunehmen.
 
 Konvention für neue Features (siehe `features/login/` als Vorlage): pro Feature ein flaches
@@ -106,7 +106,9 @@ konkreter, im PR/Commit begründeter Grund vorliegt.
 
 **Room 3.0** (`androidx.room3`, seit 07/2026 stabil; Room 2.x nur noch Maintenance-Modus) statt
 Room 2.x — bewusst früh gewechselt, um eine spätere Migration zu vermeiden. Bisher einzige
-Datenbank: `data/local/WissliDatabase` (Fragen-Content, siehe unten). Wichtige Breaking Changes
+Datenbank: `data/local/WissliDatabase` (Fragen-Content und Solo-Fortschritt, siehe unten); Schema-
+Änderungen über `autoMigrations` im `@Database` (Version 1 → 2 hat die Tabelle `progress` ergänzt),
+nie destruktiv, weil dort Fortschritt liegt. Wichtige Breaking Changes
 ggü. Room 2.x, die bei neuen Entities/DAOs zu beachten sind:
 - Nur noch KSP, kein KAPT/Java-Codegen (KSP ist bereits eingerichtet).
 - DAO-Funktionen müssen `suspend` sein (außer beobachtbare Rückgabetypen wie `Flow`).
@@ -212,6 +214,17 @@ Geplant: Remote-Updates über ein `contentVersion`-Dokument (Firestore oder Remo
 ein herunterladbares Paket (z. B. Firebase Storage) im selben Format — einzuhängen in
 `RoomQuestionRepository.ensureContent()`. Da richtige Antworten im Paket lesbar sind, bleiben
 die Fragen des Gruppenmodus serverseitig und kommen nie in dieses Paket.
+
+## Solo-Fortschritt speichern
+
+Offline-first: Room (`progress`-Tabelle, Zeilen pro `userId` + `categoryId`) ist die Quelle für die
+UI, Firestore (`users/{uid}/progress/{categoryId}`) die Sicherung und Brücke zwischen Geräten.
+`OfflineFirstProgressRepository` schreibt jede richtige Antwort sofort lokal (`pendingSync = true`)
+und lädt die neueste Zeile direkt hoch. Beim Login bzw. App-Start (`AuthRepository.observeUserId()`)
+holt es den Server-Stand (`Source.SERVER`, offline wird übersprungen), führt beide Seiten mit
+`CategoryProgress.mergedWith()` zusammen (mehr geschaffte Level gewinnt, sonst Vereinigung der
+gelösten Fragen) und lädt Ausstehendes hoch. Mehrere offline geschaffte Level gehen in einzelnen
+Schritten hoch, weil die Regeln nur ein Level pro Schreibvorgang erlauben.
 
 ## Firebase & Firestore
 

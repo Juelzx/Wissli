@@ -380,6 +380,766 @@
       "explanation": "Schmerzsignale aus der Hand werden schon im Rückenmark auf die Armmuskeln umgeschaltet. Die Hand zuckt zurück, bevor das Gehirn überhaupt merkt, dass es heiß ist.",
       "ageFrom": 6,
       "ageTo": 12
+    },
+    {
+      "id": "body-0021",
+      "subtopic": "organs",
+      "level": 2,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Womit atmen wir?",
+      "answers": [
+        "Mit dem Magen",
+        "Mit dem Herzen",
+        "Mit der Lunge",
+        "Mit der Leber"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Beim Einatmen füllt sich die Lunge mit Luft. Der Sauerstoff geht ins Blut über, und beim Ausatmen geben wir Kohlendioxid ab.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0022",
+      "subtopic": "organs",
+      "level": 2,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was schützt unser Gehirn?",
+      "answers": [
+        "Das Becken",
+        "Die Rippen",
+        "Die Wirbelsäule",
+        "Der Schädel"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Schädel ist eine harte Knochenkapsel. Innen schwimmt das Gehirn zusätzlich in einer Flüssigkeit, die Stöße abfedert.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0023",
+      "subtopic": "organs",
+      "level": 2,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie viele Knochen hat ein Erwachsener ungefähr?",
+      "answers": [
+        "Etwa 200",
+        "Etwa 2.000",
+        "Etwa 20",
+        "Etwa 50"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Ein Erwachsener hat rund 206 Knochen. Babys haben sogar mehr, weil einige Knochen erst beim Wachsen zusammenwachsen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0024",
+      "subtopic": "organs",
+      "level": 2,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wozu haben wir Rippen?",
+      "answers": [
+        "Damit wir uns biegen können",
+        "Sie schützen Herz und Lunge",
+        "Zum Verdauen",
+        "Sie speichern Luft"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Die Rippen bilden einen Käfig um Herz und Lunge. Sie sind trotzdem beweglich, damit sich der Brustkorb beim Atmen weiten kann.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0025",
+      "subtopic": "senses",
+      "level": 2,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Mit welchem Sinnesorgan riechen wir?",
+      "answers": [
+        "Mit der Nase",
+        "Mit der Zunge",
+        "Mit den Augen",
+        "Mit den Ohren"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Oben in der Nase sitzen Millionen Riechzellen. Damit können wir Tausende verschiedene Gerüche unterscheiden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0026",
+      "subtopic": "senses",
+      "level": 2,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie viele Sinne zählt man klassisch beim Menschen?",
+      "answers": [
+        "Drei",
+        "Fünf",
+        "Sieben",
+        "Zehn"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sehen, Hören, Riechen, Schmecken und Tasten. Eigentlich haben wir noch mehr, etwa den Gleichgewichtssinn oder das Gespür für Wärme und Schmerz.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0027",
+      "subtopic": "senses",
+      "level": 2,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welche Geschmacksrichtungen erkennt die Zunge?",
+      "answers": [
+        "Süß, sauer, salzig, bitter und umami",
+        "Scharf, kalt und warm",
+        "Rot, grün und blau",
+        "Nur süß und sauer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Umami ist der herzhafte Geschmack, zum Beispiel von Tomaten oder Käse. Scharf ist übrigens kein Geschmack, sondern ein Schmerzreiz.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0028",
+      "subtopic": "senses",
+      "level": 2,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum sehen wir im Dunkeln kaum Farben?",
+      "answers": [
+        "Farben verschwinden nachts wirklich",
+        "Die Augen schließen sich halb",
+        "Das Gehirn schläft schon",
+        "Die Sehzellen für Farben brauchen viel Licht"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Im Auge gibt es Zapfen für Farben und Stäbchen für Hell und Dunkel. Die Zapfen arbeiten nur bei genug Licht – nachts sehen wir deshalb fast nur Grautöne.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0029",
+      "subtopic": "reflexes",
+      "level": 2,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum bekommen wir Schluckauf?",
+      "answers": [
+        "Der Magen springt",
+        "Die Zunge verrutscht",
+        "Das Zwerchfell zuckt plötzlich",
+        "Das Herz stolpert"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Das Zwerchfell ist der große Atemmuskel unter der Lunge. Zieht es sich ruckartig zusammen, strömt Luft schnell ein, und die Stimmritze schließt sich mit einem „Hicks“.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0030",
+      "subtopic": "reflexes",
+      "level": 2,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum husten wir?",
+      "answers": [
+        "Damit das Herz schneller schlägt",
+        "Um Schleim oder Fremdkörper aus den Atemwegen zu befördern",
+        "Um die Stimme zu üben",
+        "Weil der Magen voll ist"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Husten ist ein Schutzreflex. Mit einem kräftigen Luftstoß befördert der Körper alles aus den Atemwegen, was dort nicht hingehört.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0031",
+      "subtopic": "reflexes",
+      "level": 2,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum tränen die Augen, wenn etwas hineinfliegt?",
+      "answers": [
+        "Um das Auge zu wärmen",
+        "Damit wir nichts sehen",
+        "Tränen spülen den Fremdkörper heraus",
+        "Weil das Auge traurig ist"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Die Tränendrüse arbeitet ständig, bei einem Fremdkörper aber besonders stark. Die Tränen spülen Staub oder ein Insekt einfach aus dem Auge.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0032",
+      "subtopic": "reflexes",
+      "level": 2,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum werden wir rot, wenn uns etwas peinlich ist?",
+      "answers": [
+        "Die Blutgefäße im Gesicht weiten sich",
+        "Die Haut wird dünner",
+        "Wir halten die Luft an",
+        "Die Haut wird von innen gefärbt"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Bei Aufregung schüttet der Körper Stresshormone aus. Die Adern im Gesicht weiten sich, mehr Blut fließt hindurch, und die Wangen werden rot und warm.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0033",
+      "subtopic": "sleep",
+      "level": 2,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was passiert in unserem Gehirn, wenn wir träumen?",
+      "answers": [
+        "Es ist komplett ausgeschaltet",
+        "Es sieht durch die geschlossenen Augenlider",
+        "Es ist sehr aktiv",
+        "Es ist kurz wach"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Beim Träumen ist das Gehirn fast so aktiv wie im Wachzustand. Forschende vermuten, dass es dabei Erlebtes sortiert und Gefühle verarbeitet.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0034",
+      "subtopic": "sleep",
+      "level": 2,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wer braucht mehr Schlaf: Babys oder Erwachsene?",
+      "answers": [
+        "Beide gleich viel",
+        "Babys",
+        "Ältere Menschen",
+        "Erwachsene"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Neugeborene schlafen 14 bis 17 Stunden am Tag, Erwachsene etwa 7 bis 9. Im Schlaf wächst und lernt der Körper besonders viel.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0035",
+      "subtopic": "sleep",
+      "level": 2,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wofür sind schnelle Augenbewegungen im Schlaf ein Zeichen?",
+      "answers": [
+        "Für Hunger",
+        "Für eine Erkältung",
+        "Dafür, dass man gleich aufwacht",
+        "Für eine Traumphase"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In der REM-Phase (von englisch „Rapid Eye Movement“) bewegen sich die Augen hinter den Lidern schnell hin und her. In dieser Phase träumen wir besonders lebhaft.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0036",
+      "subtopic": "nutrition",
+      "level": 2,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wozu brauchen wir Kohlenhydrate wie in Brot und Nudeln?",
+      "answers": [
+        "Sie färben das Blut",
+        "Sie machen die Knochen hart",
+        "Sie lassen die Haare wachsen",
+        "Sie liefern Energie"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Körper zerlegt Kohlenhydrate in Zucker. Den nutzen Muskeln und Gehirn als Treibstoff.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0037",
+      "subtopic": "nutrition",
+      "level": 2,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wohin wandert das Essen nach dem Magen?",
+      "answers": [
+        "Ins Herz",
+        "In den Darm",
+        "In die Lunge",
+        "In die Nieren"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Im Darm wird der Speisebrei weiter zerlegt. Nährstoffe gehen durch die Darmwand ins Blut, der Rest wird ausgeschieden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0038",
+      "subtopic": "nutrition",
+      "level": 2,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wofür braucht der Körper Kalzium, zum Beispiel aus Milch?",
+      "answers": [
+        "Für schnelleres Haarwachstum",
+        "Für die rote Farbe des Bluts",
+        "Für feste Knochen und Zähne",
+        "Für gute Augen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Kalzium ist der wichtigste Baustoff für Knochen und Zähne. Es steckt in Milchprodukten, aber auch in grünem Gemüse und Nüssen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0039",
+      "subtopic": "nutrition",
+      "level": 2,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie lang ist der Darm eines Erwachsenen ungefähr?",
+      "answers": [
+        "Mehrere Meter",
+        "Etwa 30 Zentimeter",
+        "Etwa 1 Meter",
+        "Über 100 Meter"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Dünn- und Dickdarm zusammen sind mehrere Meter lang. Damit sie in den Bauch passen, liegen sie in vielen Windungen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0040",
+      "subtopic": "organs",
+      "level": 2,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Was machen die Nieren?",
+      "answers": [
+        "Sie verdauen Fett",
+        "Sie steuern das Denken",
+        "Sie pumpen das Blut",
+        "Sie filtern das Blut und bilden Urin"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Durch die beiden Nieren fließt täglich das gesamte Blut viele Male. Sie filtern Abfallstoffe heraus, die dann mit dem Urin den Körper verlassen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0041",
+      "subtopic": "reflexes",
+      "level": 3,
+      "order": 18,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Warum knackt es, wenn man mit den Fingern knackt?",
+      "answers": [
+        "In der Gelenkflüssigkeit bildet sich plötzlich eine Gasblase",
+        "Eine Sehne springt über den Knochen",
+        "Knochen reiben aneinander",
+        "Knorpel bricht kurz"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Wird das Gelenk auseinandergezogen, sinkt der Druck in der Flüssigkeit, und gelöstes Gas bildet schlagartig eine Blase. Deshalb klappt es erst nach einer Weile wieder.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0042",
+      "subtopic": "organs",
+      "level": 3,
+      "order": 19,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Welches Organ kann nachwachsen, wenn ein Teil davon entfernt wird?",
+      "answers": [
+        "Das Herz",
+        "Die Lunge",
+        "Der Magen",
+        "Die Leber"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Die Leber kann sich erstaunlich gut erneuern. Selbst wenn ein großer Teil entfernt wird, wächst sie wieder fast auf ihre volle Größe heran. Deshalb können Menschen einen Teil ihrer Leber spenden.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0043",
+      "subtopic": "organs",
+      "level": 3,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wie oft schlägt das Herz eines Erwachsenen in Ruhe ungefähr pro Minute?",
+      "answers": [
+        "Einmal",
+        "60 bis 80 Mal",
+        "5 bis 10 Mal",
+        "200 bis 300 Mal"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In Ruhe schlägt das Herz etwa einmal pro Sekunde. Beim Sport kann es mehr als doppelt so schnell werden, bei Kindern schlägt es meist schneller als bei Erwachsenen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0044",
+      "subtopic": "organs",
+      "level": 3,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wo im Körper sitzt das Herz?",
+      "answers": [
+        "Im Hals",
+        "In der Brust, etwas links von der Mitte",
+        "Im Bauch",
+        "Rechts neben der Schulter"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Das Herz ist etwa so groß wie eine Faust und liegt zwischen den beiden Lungenflügeln, leicht nach links verschoben.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0045",
+      "subtopic": "organs",
+      "level": 3,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was bringt das Blut zu allen Zellen?",
+      "answers": [
+        "Sauerstoff und Nährstoffe",
+        "Luftblasen",
+        "Nur Wasser",
+        "Gedanken"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Das Blut ist das Transportsystem des Körpers. Auf dem Rückweg nimmt es Abfallstoffe wie Kohlendioxid mit.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0046",
+      "subtopic": "senses",
+      "level": 3,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum klingt die eigene Stimme auf Aufnahmen fremd?",
+      "answers": [
+        "Normalerweise hören wir sie auch über die Knochen im Kopf",
+        "Beim Sprechen sind unsere Ohren verschlossen",
+        "Die Stimme wird beim Sprechen leiser",
+        "Mikrofone verstellen jede Stimme"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Beim Sprechen erreicht der Schall unser Innenohr nicht nur durch die Luft, sondern auch durch die Schädelknochen. Das lässt die Stimme für uns tiefer und voller klingen. Auf der Aufnahme fehlt dieser Anteil.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0047",
+      "subtopic": "senses",
+      "level": 3,
+      "order": 8,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wo im Auge entsteht das Bild, das wir sehen?",
+      "answers": [
+        "Auf der Netzhaut",
+        "In der Tränendrüse",
+        "Auf dem Augenlid",
+        "Auf der Pupille"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Die Linse bündelt das Licht auf die Netzhaut an der Rückwand des Auges. Dort wandeln Sehzellen es in Signale um, aus denen das Gehirn ein Bild macht.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0048",
+      "subtopic": "senses",
+      "level": 3,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Womit können wir besonders fein tasten?",
+      "answers": [
+        "Mit den Knien",
+        "Mit den Ellenbogen",
+        "Mit den Fingerspitzen",
+        "Mit dem Rücken"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In den Fingerspitzen sitzen besonders viele Tastkörperchen. Deshalb können blinde Menschen mit ihnen sogar die Punkte der Blindenschrift lesen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0049",
+      "subtopic": "senses",
+      "level": 3,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Was ist der blinde Fleck im Auge?",
+      "answers": [
+        "Eine seltene Augenkrankheit",
+        "Ein Schmutzfleck auf der Linse",
+        "Die schwarze Pupille in der Mitte",
+        "Eine Stelle ohne Sehzellen, wo der Sehnerv austritt"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Jedes Auge hat einen blinden Fleck. Wir merken ihn nicht, weil das andere Auge die Lücke füllt und das Gehirn das Bild geschickt ergänzt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0050",
+      "subtopic": "reflexes",
+      "level": 3,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum zucken wir zusammen, wenn es laut knallt?",
+      "answers": [
+        "Wir wollen tanzen",
+        "Ein Schreckreflex schützt uns blitzschnell",
+        "Der Knall schiebt uns weg",
+        "Die Ohren ziehen den Kopf ein"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Bei einem plötzlichen Knall reagiert der Körper, bevor wir nachdenken: Wir blinzeln, ziehen die Schultern hoch und spannen die Muskeln an – bereit für Gefahr.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0051",
+      "subtopic": "reflexes",
+      "level": 3,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was passiert, wenn ein Arzt knapp unter die Kniescheibe klopft?",
+      "answers": [
+        "Das Bein schnellt nach vorne",
+        "Das Bein wird taub",
+        "Das Knie wird steif",
+        "Man muss niesen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Der Klopfer dehnt eine Sehne, und der Oberschenkelmuskel zieht sich reflexartig zusammen. So prüfen Ärzte, ob die Nerven gut arbeiten.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0052",
+      "subtopic": "reflexes",
+      "level": 3,
+      "order": 9,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum kribbelt ein eingeschlafener Fuß?",
+      "answers": [
+        "Das Blut sprudelt",
+        "Der Fuß wacht aus einem Traum auf",
+        "Ameisen laufen unter der Haut",
+        "Gedrückte Nerven senden wieder Signale"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Sitzt man lange auf dem Bein, werden Nerven und Blutgefäße gedrückt. Lässt der Druck nach, senden die Nerven durcheinander Signale – das fühlt sich wie Ameisenkribbeln an.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0053",
+      "subtopic": "sleep",
+      "level": 3,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie viel seines Lebens verschläft ein Mensch ungefähr?",
+      "answers": [
+        "Etwa ein Zehntel",
+        "Fast gar nichts",
+        "Etwa ein Drittel",
+        "Etwa die Hälfte"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Wer jede Nacht acht Stunden schläft, verbringt ein Drittel des Tages im Bett. Bei einem langen Leben sind das über 25 Jahre.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0054",
+      "subtopic": "sleep",
+      "level": 3,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum ist man nach einem Flug in eine weit entfernte Zeitzone oft müde?",
+      "answers": [
+        "Die Luft im Flugzeug ist zu dünn zum Denken",
+        "Die innere Uhr passt nicht mehr zur Ortszeit",
+        "Die Sitze sind zu weich",
+        "Man hat zu viel gegessen"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Unsere innere Uhr richtet sich nach Tag und Nacht. Fliegt man weit nach Osten oder Westen, braucht sie einige Tage, bis sie sich umgestellt hat. Das nennt man Jetlag.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0055",
+      "subtopic": "sleep",
+      "level": 3,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was macht das Gehirn im Schlaf mit dem, was wir gelernt haben?",
+      "answers": [
+        "Es vergisst die Sprache",
+        "Es schaltet sich komplett aus",
+        "Es löscht alles",
+        "Es speichert Wichtiges ab"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Im Schlaf spielt das Gehirn Erlebtes noch einmal durch und festigt es im Gedächtnis. Deshalb kann man nach einer Nacht oft besser, was man am Vortag geübt hat.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0056",
+      "subtopic": "nutrition",
+      "level": 3,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was liefert dem Körper besonders viele Vitamine?",
+      "answers": [
+        "Salz",
+        "Süßigkeiten",
+        "Obst und Gemüse",
+        "Leitungswasser"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Vitamine braucht der Körper nur in kleinen Mengen, aber er kann die meisten nicht selbst herstellen. Obst und Gemüse enthalten besonders viele davon.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0057",
+      "subtopic": "nutrition",
+      "level": 3,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie viele Zähne hat ein Milchgebiss?",
+      "answers": [
+        "28",
+        "32",
+        "20",
+        "12"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Kinder haben 20 Milchzähne. Ab etwa sechs Jahren fallen sie nach und nach aus, und die bleibenden Zähne wachsen nach.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0058",
+      "subtopic": "nutrition",
+      "level": 3,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum bekommen wir Durst?",
+      "answers": [
+        "Der Magen ist zu voll",
+        "Die Zunge ist müde",
+        "Das Gehirn merkt, dass dem Körper Wasser fehlt",
+        "Der Mund ist zu warm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Bestimmte Stellen im Gehirn messen ständig, wie viel Wasser im Blut ist. Wird es zu wenig, melden sie Durst – lange bevor es gefährlich wird.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0059",
+      "subtopic": "organs",
+      "level": 3,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welcher ist der größte Knochen im Körper?",
+      "answers": [
+        "Der Schädel",
+        "Das Schulterblatt",
+        "Die Wirbelsäule",
+        "Der Oberschenkelknochen"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Oberschenkelknochen ist der längste und stärkste Knochen. Die Wirbelsäule ist zwar länger, besteht aber aus vielen einzelnen Wirbeln.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "body-0060",
+      "subtopic": "nutrition",
+      "level": 3,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Was ist der härteste Stoff im menschlichen Körper?",
+      "answers": [
+        "Der Oberschenkelknochen",
+        "Der Zahnschmelz",
+        "Die Fingernägel",
+        "Der Schädelknochen"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Zahnschmelz ist härter als jeder Knochen. Er schützt die Zähne beim Kauen, kann sich aber nicht selbst reparieren.",
+      "ageFrom": 8,
+      "ageTo": 12
     }
   ]
 }

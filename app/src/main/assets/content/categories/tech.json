@@ -380,6 +380,766 @@
       "explanation": "Auf nasser Straße leiten die Rillen das Wasser unter dem Reifen weg. Ohne Profil könnte das Auto auf einem Wasserfilm rutschen, das nennt man Aquaplaning.",
       "ageFrom": 6,
       "ageTo": 12
+    },
+    {
+      "id": "tech-0021",
+      "subtopic": "devices",
+      "level": 2,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wozu dient ein Kühlschrank?",
+      "answers": [
+        "Er hält Lebensmittel kühl und länger frisch",
+        "Er spült Geschirr",
+        "Er wärmt das Essen auf",
+        "Er trocknet Wäsche"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In der Kälte vermehren sich Bakterien viel langsamer. Deshalb bleiben Milch, Käse und Gemüse im Kühlschrank länger frisch.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0022",
+      "subtopic": "devices",
+      "level": 2,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was braucht eine Taschenlampe, damit sie leuchtet?",
+      "answers": [
+        "Wasser",
+        "Sonnencreme",
+        "Luftdruck",
+        "Strom, zum Beispiel aus einer Batterie"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Die Batterie liefert Strom, der durch die Lampe fließt und sie zum Leuchten bringt. Ist die Batterie leer, bleibt es dunkel.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0023",
+      "subtopic": "devices",
+      "level": 2,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum hält ein Magnet an der Kühlschranktür?",
+      "answers": [
+        "Die Tür enthält Eisen",
+        "Der Kühlschrank ist kalt",
+        "Die Tür ist elektrisch geladen",
+        "Am Magnet ist Kleber"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Magnete ziehen Eisen an. Unter dem Lack der Kühlschranktür steckt Stahlblech, das Eisen enthält – deshalb bleibt der Magnet haften.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0024",
+      "subtopic": "devices",
+      "level": 2,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie macht ein Toaster das Brot knusprig?",
+      "answers": [
+        "Er presst das Brot zusammen",
+        "Glühende Drähte strahlen Hitze ab",
+        "Er schickt Strom durch das Brot",
+        "Er bläst kalte Luft darauf"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Im Toaster sind dünne Heizdrähte, die vom Strom rot glühen. Ihre Hitze trocknet die Oberfläche des Brots und färbt sie braun.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0025",
+      "subtopic": "devices",
+      "level": 2,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie sendet eine Fernbedienung ihre Befehle an den Fernseher?",
+      "answers": [
+        "Über ein dünnes Kabel im Boden",
+        "Mit Magneten",
+        "Meist mit unsichtbarem Infrarotlicht",
+        "Mit kleinen Luftstößen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Die Fernbedienung blinkt mit Infrarotlicht, das unsere Augen nicht sehen. Durch eine Handykamera betrachtet, kann man das Blinken oft erkennen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0026",
+      "subtopic": "inventions",
+      "level": 2,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wozu dient ein Fernrohr?",
+      "answers": [
+        "Um weit entfernte Dinge näher zu sehen",
+        "Um Dinge zu wiegen",
+        "Um im Dunkeln zu hören",
+        "Um die Zeit zu messen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Linsen oder Spiegel im Fernrohr sammeln das Licht und vergrößern das Bild. Galileo Galilei entdeckte damit die Monde des Jupiter.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0027",
+      "subtopic": "inventions",
+      "level": 2,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Was gelang den Brüdern Wright im Jahr 1903?",
+      "answers": [
+        "Die erste Fahrt mit einer Dampflok",
+        "Der erste gesteuerte Flug mit einem Motorflugzeug",
+        "Der Bau des ersten Autos",
+        "Das erste Telefongespräch"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Orville und Wilbur Wright flogen in den USA mit ihrem Flugzeug „Flyer“. Der erste Flug dauerte nur 12 Sekunden – aber er war der Anfang der Luftfahrt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0028",
+      "subtopic": "inventions",
+      "level": 2,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie heißt ein Rad mit Zähnen, das ein anderes Rad antreibt?",
+      "answers": [
+        "Riesenrad",
+        "Lenkrad",
+        "Zahnrad",
+        "Mühlrad"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Greifen die Zähne zweier Zahnräder ineinander, dreht das eine das andere mit. Zahnräder stecken in Uhren, Fahrrädern und vielen Maschinen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0029",
+      "subtopic": "inventions",
+      "level": 2,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wozu dient ein Flaschenzug?",
+      "answers": [
+        "Um Wasser zu filtern",
+        "Um Flaschen zu öffnen",
+        "Um Züge zu bremsen",
+        "Um schwere Lasten mit weniger Kraft zu heben"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Beim Flaschenzug läuft ein Seil über mehrere Rollen. Man muss dann zwar mehr Seil ziehen, braucht aber viel weniger Kraft.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0030",
+      "subtopic": "inventions",
+      "level": 2,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum kann man mit einem langen Hebel schwere Dinge bewegen?",
+      "answers": [
+        "Ein Hebel funktioniert nur mit Strom",
+        "Der Hebel macht Dinge leichter, indem er sie schrumpft",
+        "Ein langer Hebelarm braucht weniger Kraft",
+        "Der Hebel speichert Kraft für später"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Je weiter man vom Drehpunkt entfernt drückt, desto weniger Kraft braucht man. Deshalb kann ein Kind auf der Wippe einen Erwachsenen hochheben, wenn es weit außen sitzt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0031",
+      "subtopic": "internet",
+      "level": 2,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was ist ein Passwort?",
+      "answers": [
+        "Der Name des eigenen Computers",
+        "Ein Wort, das man allen verraten soll",
+        "Ein geheimes Wort, das ein Konto schützt",
+        "Eine Internetadresse"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ein Passwort ist wie ein Schlüssel. Nur wer es kennt, kommt an das Konto – deshalb sollte es niemand anderes erfahren.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0032",
+      "subtopic": "internet",
+      "level": 2,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wofür steht das Zeichen @ in einer E-Mail-Adresse?",
+      "answers": [
+        "Für „Antwort“",
+        "Für „und“",
+        "Für „Adresse“",
+        "Für das englische „at“, also „bei“"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Das Zeichen heißt im Deutschen oft Klammeraffe. Es trennt den Namen vom Anbieter des Postfachs: name@anbieter.de bedeutet „name bei anbieter.de“.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0033",
+      "subtopic": "internet",
+      "level": 2,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was ist eine App?",
+      "answers": [
+        "Ein Teil des Akkus",
+        "Ein Ladekabel",
+        "Ein Computervirus",
+        "Ein Programm für Handy oder Tablet"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "App ist kurz für das englische „Application“, also Anwendung. Es gibt Apps für Spiele, Musik, Nachrichten und vieles mehr.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0034",
+      "subtopic": "internet",
+      "level": 2,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist eine Cloud bei Computern?",
+      "answers": [
+        "Ein Lüfter im Computer",
+        "Eine Wolke aus Wasserdampf im Gerät",
+        "Speicherplatz auf Rechnern im Internet",
+        "Eine besondere Tastatur"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Fotos oder Dokumente in der Cloud liegen nicht auf dem eigenen Gerät, sondern in großen Rechenzentren. So kann man von überall darauf zugreifen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0035",
+      "subtopic": "internet",
+      "level": 2,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Was macht ein Router zu Hause?",
+      "answers": [
+        "Er speichert alle Filme",
+        "Er verteilt das Internet an die Geräte",
+        "Er lädt Handys auf",
+        "Er druckt Seiten aus"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Der Router ist mit dem Internetanschluss verbunden und schickt die Daten per WLAN oder Kabel an Handys, Computer und Fernseher.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0036",
+      "subtopic": "traffic",
+      "level": 2,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was bedeutet eine rote Ampel?",
+      "answers": [
+        "Anhalten",
+        "Schneller fahren",
+        "Abbiegen",
+        "Hupen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rot heißt stehen bleiben, Grün heißt fahren oder gehen. Ampeln regeln so, wer an einer Kreuzung gerade an der Reihe ist.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0037",
+      "subtopic": "traffic",
+      "level": 2,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wozu hat ein Fahrrad eine Gangschaltung?",
+      "answers": [
+        "Damit es Strom erzeugt",
+        "Damit die Reifen nicht platzen",
+        "Damit es schöner klingt",
+        "Damit man bergauf und in der Ebene gut treten kann"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In einem leichten Gang tritt man bergauf mit wenig Kraft, kommt aber langsamer voran. In einem schweren Gang fährt man in der Ebene schneller.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0038",
+      "subtopic": "traffic",
+      "level": 2,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was treibt eine Dampflok an?",
+      "answers": [
+        "Wind in einem Segel",
+        "Dampf aus erhitztem Wasser",
+        "Ein Elektromotor",
+        "Pferde im Inneren"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Im Kessel wird Wasser mit Kohle zum Kochen gebracht. Der Dampf drückt Kolben hin und her, und die bewegen die Räder.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0039",
+      "subtopic": "traffic",
+      "level": 2,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum haben Flugzeugfenster runde Ecken?",
+      "answers": [
+        "Damit niemand hinausfällt",
+        "Eckige Fenster würden an den Ecken leichter reißen",
+        "Weil rundes Glas billiger ist",
+        "Damit weniger Sonne hereinkommt"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In großer Höhe drückt die Luft in der Kabine stark gegen die Wände. An spitzen Ecken sammelt sich diese Spannung, und es können Risse entstehen. Runde Ecken verteilen sie gleichmäßig.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0040",
+      "subtopic": "traffic",
+      "level": 2,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie taucht ein U-Boot ab und wieder auf?",
+      "answers": [
+        "Es füllt Tanks mit Wasser oder mit Luft",
+        "Es zieht sich an Ankern nach unten",
+        "Es hat Propeller an der Oberseite",
+        "Es macht sich mit Magneten schwer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Zum Tauchen lässt das U-Boot Wasser in seine Tanks, es wird schwerer. Zum Auftauchen drückt es das Wasser mit Pressluft wieder hinaus.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0041",
+      "subtopic": "traffic",
+      "level": 3,
+      "order": 18,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Warum wird man in einem startenden Flugzeug in den Sitz gedrückt?",
+      "answers": [
+        "Die Sitze ziehen einen an",
+        "Das Flugzeug wird beim Start schwerer",
+        "Der Körper will wegen seiner Trägheit an Ort und Stelle bleiben",
+        "Ein Luftstrom drückt von vorne"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Alles, was ruht, möchte in Ruhe bleiben – das nennt man Trägheit. Das Flugzeug beschleunigt, der Körper will zurückbleiben, und der Sitz muss ihn mitnehmen. Das spürt man als Druck im Rücken.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0042",
+      "subtopic": "devices",
+      "level": 3,
+      "order": 19,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Wie erzeugt ein Induktionsherd Wärme?",
+      "answers": [
+        "Ein Magnetfeld erhitzt direkt den Topfboden",
+        "Eine Flamme unter dem Glas",
+        "Heiße Luft aus kleinen Löchern",
+        "Die Glasplatte glüht wie ein Toaster"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Unter der Glasplatte liegt eine Spule. Ihr wechselndes Magnetfeld erzeugt im eisenhaltigen Topfboden Ströme, die ihn erhitzen. Die Platte selbst wird nur durch den heißen Topf warm.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0043",
+      "subtopic": "devices",
+      "level": 3,
+      "order": 9,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Woran erkennen die meisten Bewegungsmelder, dass jemand kommt?",
+      "answers": [
+        "An der Wärmestrahlung des Körpers",
+        "An der Stimme",
+        "Am Gewicht auf dem Boden",
+        "Am Geruch"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Unser Körper strahlt unsichtbare Wärme ab. Der Sensor merkt, wenn sich diese Wärmequelle bewegt, und schaltet das Licht ein.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0044",
+      "subtopic": "devices",
+      "level": 3,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie wird ein Handy auf einer Ladematte ohne Kabel geladen?",
+      "answers": [
+        "Über das WLAN",
+        "Durch die Wärme der Matte",
+        "Über ein Magnetfeld zwischen zwei Spulen",
+        "Durch das Licht im Zimmer"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In der Matte und im Handy steckt je eine Drahtspule. Das Magnetfeld der einen erzeugt in der anderen Strom – ganz ohne Kontakt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0045",
+      "subtopic": "devices",
+      "level": 3,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was macht eine Waschmaschine beim Schleudern?",
+      "answers": [
+        "Sie dreht die Trommel so schnell, dass Wasser herausfliegt",
+        "Sie saugt die Luft heraus",
+        "Sie heizt die Wäsche, bis sie trocken ist",
+        "Sie presst die Wäsche platt"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Die Trommel dreht sich über tausend Mal pro Minute. Das Wasser wird nach außen geschleudert und fließt durch die Löcher ab, die Wäsche bleibt drin.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0046",
+      "subtopic": "devices",
+      "level": 3,
+      "order": 8,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Was macht eine Sicherung im Stromkasten?",
+      "answers": [
+        "Sie speichert Strom für die Nacht",
+        "Sie zählt den verbrauchten Strom",
+        "Sie macht den Strom stärker",
+        "Sie unterbricht den Strom, wenn zu viel fließt"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Fließt durch eine Leitung zu viel Strom, kann sie heiß werden. Die Sicherung schaltet dann ab, bevor etwas passiert.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0047",
+      "subtopic": "inventions",
+      "level": 3,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Wozu wurden die ersten Dampfmaschinen vor allem gebaut?",
+      "answers": [
+        "Um Musik zu spielen",
+        "Um Wasser aus Bergwerken zu pumpen",
+        "Um Brot zu backen",
+        "Um Autos anzutreiben"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Bergwerke liefen ständig mit Grundwasser voll. Die ersten Dampfmaschinen im 18. Jahrhundert pumpten es heraus. Erst später trieben sie auch Fabriken, Schiffe und Lokomotiven an.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0048",
+      "subtopic": "inventions",
+      "level": 3,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was baute Carl Benz im Jahr 1886?",
+      "answers": [
+        "Das erste Flugzeug",
+        "Das erste Fahrrad",
+        "Die erste Eisenbahn",
+        "Ein Auto mit Benzinmotor"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Benz Patent-Motorwagen hatte drei Räder und fuhr etwa 16 km/h schnell. Er gilt als erstes praktisch nutzbares Auto.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0049",
+      "subtopic": "inventions",
+      "level": 3,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wozu dient eine Lupe?",
+      "answers": [
+        "Sie misst die Temperatur",
+        "Sie lässt Dinge größer erscheinen",
+        "Sie zeigt nach Norden",
+        "Sie macht Dinge heller"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Eine Lupe ist eine nach außen gewölbte Linse. Sie lenkt das Licht so, dass kleine Dinge wie Ameisen oder Schrift größer aussehen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0050",
+      "subtopic": "inventions",
+      "level": 3,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist ein Roboter?",
+      "answers": [
+        "Ein Mensch in einer Rüstung",
+        "Eine Maschine, die Aufgaben selbstständig ausführen kann",
+        "Ein Spielzeug ohne Batterie",
+        "Ein Programm zum Musikhören"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Roboter bauen Autos, saugen Staub oder mähen Rasen. Sensoren helfen ihnen, ihre Umgebung wahrzunehmen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0051",
+      "subtopic": "internet",
+      "level": 3,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was bedeutet „online“?",
+      "answers": [
+        "Ausgeschaltet",
+        "In einer Warteschlange",
+        "Auf einer Linie gemalt",
+        "Mit dem Internet verbunden"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "„Online“ ist Englisch und heißt wörtlich „in der Leitung“. Das Gegenteil ist „offline“.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0052",
+      "subtopic": "internet",
+      "level": 3,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist ein Browser?",
+      "answers": [
+        "Eine Taste auf der Tastatur",
+        "Ein Computerspiel",
+        "Ein Programm zum Anzeigen von Webseiten",
+        "Ein Gerät zum Drucken"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Mit einem Browser ruft man Internetseiten auf. Man gibt eine Adresse ein, und der Browser holt die Seite und zeigt sie an.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0053",
+      "subtopic": "internet",
+      "level": 3,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist ein QR-Code?",
+      "answers": [
+        "Ein Muster aus Quadraten, das Informationen speichert",
+        "Ein Code für den Haustürschlüssel",
+        "Ein Computerspiel",
+        "Eine Geheimschrift der Römer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Mit der Handykamera kann man einen QR-Code scannen. Darin steckt zum Beispiel eine Internetadresse, die sich dann öffnet.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0054",
+      "subtopic": "internet",
+      "level": 3,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Was misst man in Megabit pro Sekunde?",
+      "answers": [
+        "Wie warm ein Computer wird",
+        "Wie groß ein Bildschirm ist",
+        "Wie viel Strom ein Akku hat",
+        "Wie schnell Daten übertragen werden"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Je mehr Megabit pro Sekunde eine Internetleitung schafft, desto schneller laden Videos und Webseiten.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0055",
+      "subtopic": "internet",
+      "level": 3,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Was ist ein Bit?",
+      "answers": [
+        "Ein Stück Kabel",
+        "Die kleinste Informationseinheit, eine 0 oder 1",
+        "Ein Punkt auf dem Bildschirm",
+        "Ein kleines Programm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Computer rechnen nur mit zwei Zuständen: Strom an oder aus, 1 oder 0. Acht Bits ergeben ein Byte, damit lässt sich zum Beispiel ein Buchstabe speichern.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0056",
+      "subtopic": "traffic",
+      "level": 3,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Warum leuchten Warnwesten so grell?",
+      "answers": [
+        "Damit Insekten fernbleiben",
+        "Weil die Farbe billig ist",
+        "Damit man im Straßenverkehr gut gesehen wird",
+        "Damit sie wärmen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Leuchtfarben fallen schon von Weitem auf. Dazu kommen Streifen, die das Scheinwerferlicht von Autos zurückwerfen – so sieht man die Weste auch nachts.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0057",
+      "subtopic": "traffic",
+      "level": 3,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie bremst ein Fahrrad mit Felgenbremse?",
+      "answers": [
+        "Ein Fallschirm öffnet sich",
+        "Bremsklötze reiben am Rad",
+        "Ein Magnet hält die Straße fest",
+        "Der Reifen lässt Luft ab"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Zieht man am Bremshebel, drücken Gummiklötze auf die Felge. Die Reibung bremst das Rad ab und macht die Bewegung zu Wärme.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0058",
+      "subtopic": "traffic",
+      "level": 3,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum legt man sich mit dem Motorrad in die Kurve?",
+      "answers": [
+        "So kippt es nicht nach außen",
+        "Damit der Motor kühler bleibt",
+        "Weil die Straße schief ist",
+        "Damit der Fahrer besser sieht"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In der Kurve zieht es Fahrer und Maschine nach außen. Durch das Neigen nach innen halten sie dagegen und bleiben im Gleichgewicht – wie beim Fahrradfahren.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0059",
+      "subtopic": "traffic",
+      "level": 3,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Was macht ein Katalysator im Auto?",
+      "answers": [
+        "Er kühlt den Motor",
+        "Er dämpft den Motorlärm",
+        "Er macht das Auto schneller",
+        "Er wandelt giftige Abgase in weniger schädliche um"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Im Katalysator reagieren die Abgase an einer Schicht aus Edelmetallen. Giftige Stoffe wie Kohlenmonoxid werden dabei zu weniger schädlichen umgewandelt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "tech-0060",
+      "subtopic": "inventions",
+      "level": 3,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wozu dient eine Waage?",
+      "answers": [
+        "Um die Länge zu messen",
+        "Um die Lautstärke zu messen",
+        "Um das Gewicht zu messen",
+        "Um die Zeit zu messen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Schon die alten Ägypter benutzten Balkenwaagen. Heute messen Waagen das Gewicht meist elektronisch.",
+      "ageFrom": 6,
+      "ageTo": 12
     }
   ]
 }

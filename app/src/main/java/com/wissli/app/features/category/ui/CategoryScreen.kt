@@ -23,6 +23,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -118,6 +119,21 @@ private fun CategoryContent(
                             onClick = { onOpenLevel(overview.category.id, level) },
                             modifier = Modifier.padding(horizontal = Spacing.screenHorizontal),
                         )
+                    }
+                    // A finished path would otherwise just end, which reads like a dead end.
+                    if (overview.progress.completedLevels >= overview.category.levelCount) {
+                        item {
+                            Text(
+                                text = stringResource(R.string.learn_more_levels_soon),
+                                style = MaterialTheme.typography.bodyLarge,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                textAlign = TextAlign.Center,
+                                modifier =
+                                    Modifier
+                                        .fillMaxWidth()
+                                        .padding(horizontal = Spacing.screenHorizontal, vertical = Spacing.m),
+                            )
+                        }
                     }
                 }
         }

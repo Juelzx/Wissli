@@ -380,6 +380,766 @@
       "explanation": "John Lennon, Paul McCartney, George Harrison und Ringo Starr gehören zu den erfolgreichsten Musikern aller Zeiten. Ihre ersten großen Auftritte hatten sie übrigens in Hamburg.",
       "ageFrom": 6,
       "ageTo": 12
+    },
+    {
+      "id": "arts-0021",
+      "subtopic": "art",
+      "level": 2,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Welche Farbe entsteht, wenn man Rot und Gelb mischt?",
+      "answers": [
+        "Orange",
+        "Braun",
+        "Lila",
+        "Grün"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rot und Gelb sind Grundfarben. Gemischt ergeben sie Orange – je mehr Gelb, desto heller wird es.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0022",
+      "subtopic": "art",
+      "level": 2,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welche Farbe entsteht, wenn man Rot und Blau mischt?",
+      "answers": [
+        "Grün",
+        "Gelb",
+        "Lila",
+        "Orange"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Aus Rot und Blau wird Lila, auch Violett genannt. Mit mehr Blau wird es kühler, mit mehr Rot wärmer.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0023",
+      "subtopic": "art",
+      "level": 2,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was planen Architektinnen und Architekten?",
+      "answers": [
+        "Theaterstücke",
+        "Gemälde",
+        "Musikstücke",
+        "Gebäude"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Architekten entwerfen Häuser, Brücken oder Schulen. Sie überlegen, wie ein Gebäude aussieht, wie stabil es ist und wie man darin gut leben kann.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0024",
+      "subtopic": "art",
+      "level": 2,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist eine Skulptur?",
+      "answers": [
+        "Ein flaches Gemälde",
+        "Ein Tanz",
+        "Eine Figur, die man von allen Seiten betrachten kann",
+        "Ein Musikstück"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Skulpturen werden aus Stein, Holz, Metall oder Ton geschaffen. Anders als ein Bild haben sie Höhe, Breite und Tiefe.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0025",
+      "subtopic": "art",
+      "level": 2,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Was zeigt ein Stillleben?",
+      "answers": [
+        "Ein leeres Blatt",
+        "Schlafende Menschen",
+        "Unbewegte Gegenstände wie Obst oder Blumen",
+        "Eine stille Landschaft bei Nacht"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Auf einem Stillleben sind Dinge zu sehen, die sich nicht bewegen: Früchte, Vasen, Bücher. Maler üben daran Licht, Schatten und Oberflächen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0026",
+      "subtopic": "instruments",
+      "level": 2,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Auf welchem Instrument trommelt man?",
+      "answers": [
+        "Auf der Flöte",
+        "Auf der Harfe",
+        "Auf dem Schlagzeug",
+        "Auf der Geige"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ein Schlagzeug besteht aus mehreren Trommeln und Becken. Es gibt einer Band den Rhythmus vor.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0027",
+      "subtopic": "instruments",
+      "level": 2,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Womit streicht man über die Saiten einer Geige?",
+      "answers": [
+        "Mit einem Hammer",
+        "Mit einem Mundstück",
+        "Mit einem Blasebalg",
+        "Mit einem Bogen"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Bogen ist mit Pferdehaar bespannt, das mit Harz eingerieben wird. Streicht man damit über die Saiten, beginnen sie zu schwingen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0028",
+      "subtopic": "instruments",
+      "level": 2,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Welches dieser Instrumente ist ein Holzblasinstrument?",
+      "answers": [
+        "Die Tuba",
+        "Die Klarinette",
+        "Das Xylophon",
+        "Die Posaune"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Bei der Klarinette schwingt ein dünnes Holzblättchen am Mundstück. Posaune und Tuba sind Blechblasinstrumente, das Xylophon ist ein Schlaginstrument.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0029",
+      "subtopic": "instruments",
+      "level": 2,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum klingt eine große Trommel tiefer als eine kleine?",
+      "answers": [
+        "Ihr großes Fell schwingt langsamer",
+        "Sie ist aus dickerem Holz",
+        "Man schlägt sie leiser",
+        "Sie hat mehr Luft zum Atmen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Je langsamer etwas schwingt, desto tiefer klingt es. Ein großes Trommelfell schwingt langsamer als ein kleines – genau wie bei dicken und dünnen Saiten.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0030",
+      "subtopic": "instruments",
+      "level": 2,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welches ist das größte Streichinstrument im Orchester?",
+      "answers": [
+        "Der Kontrabass",
+        "Die Harfe",
+        "Die Bratsche",
+        "Das Cello"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Ein Kontrabass ist größer als die meisten Erwachsenen. Man spielt ihn im Stehen oder auf einem hohen Hocker, und er klingt sehr tief.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0031",
+      "subtopic": "music",
+      "level": 2,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie heißt ein Lied, bei dem mehrere Gruppen dieselbe Melodie zeitversetzt singen?",
+      "answers": [
+        "Refrain",
+        "Solo",
+        "Duett",
+        "Kanon"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Beim Kanon beginnt eine Gruppe, die nächste setzt etwas später mit derselben Melodie ein. „Bruder Jakob“ ist ein bekanntes Beispiel.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0032",
+      "subtopic": "music",
+      "level": 2,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wie nennt man eine Gruppe von Menschen, die zusammen singt?",
+      "answers": [
+        "Publikum",
+        "Chor",
+        "Ballett",
+        "Orchester"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In einem Chor singen meist mehrere Stimmgruppen, zum Beispiel Sopran, Alt, Tenor und Bass. Zusammen ergeben sie einen vollen Klang.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0033",
+      "subtopic": "music",
+      "level": 2,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Was bedeutet „piano“ in der Musik?",
+      "answers": [
+        "Schnell",
+        "Langsam",
+        "Laut",
+        "Leise"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Musikbegriffe sind oft italienisch. „Piano“ heißt leise, „forte“ laut. Das Klavier heißt auf Italienisch übrigens „Pianoforte“, weil man darauf beides spielen kann.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0034",
+      "subtopic": "music",
+      "level": 2,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist der Refrain eines Liedes?",
+      "answers": [
+        "Das Ende ohne Musik",
+        "Der Teil, der sich immer wiederholt",
+        "Das erste Wort",
+        "Der Titel"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Zwischen den Strophen kommt immer wieder der Refrain. Weil er sich wiederholt, kann man ihn meist am schnellsten mitsingen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0035",
+      "subtopic": "music",
+      "level": 2,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie heißt das Zeichen am Anfang der Notenlinien, das die Tonhöhe festlegt?",
+      "answers": [
+        "Fermate",
+        "Taktstrich",
+        "Notenschlüssel",
+        "Pausenzeichen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Der Notenschlüssel zeigt, welcher Ton auf welcher Linie liegt. Am bekanntesten ist der Violinschlüssel, der wie eine verschnörkelte Acht aussieht.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0036",
+      "subtopic": "famous",
+      "level": 2,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wer malte das Bild „Die Sternennacht“?",
+      "answers": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Claude Monet",
+        "Leonardo da Vinci"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Der Niederländer Vincent van Gogh malte 1889 einen wirbelnden Nachthimmel über einem Dorf. Sein Stil mit kräftigen Pinselstrichen ist unverwechselbar.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0037",
+      "subtopic": "famous",
+      "level": 2,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wer sammelte die Märchen „Hänsel und Gretel“ und „Rotkäppchen“?",
+      "answers": [
+        "Astrid Lindgren",
+        "Die Brüder Grimm",
+        "Wilhelm Busch",
+        "Hans Christian Andersen"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Jacob und Wilhelm Grimm schrieben Märchen auf, die sich die Menschen seit Langem erzählten. Ihre Sammlung wurde in über 100 Sprachen übersetzt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0038",
+      "subtopic": "famous",
+      "level": 2,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wer erfand die Figur Pippi Langstrumpf?",
+      "answers": [
+        "Cornelia Funke",
+        "Astrid Lindgren",
+        "Michael Ende",
+        "Erich Kästner"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Die Schwedin Astrid Lindgren dachte sich Pippi für ihre kranke Tochter aus. Später schrieb sie auch „Michel aus Lönneberga“ und „Ronja Räubertochter“.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0039",
+      "subtopic": "famous",
+      "level": 2,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wer malte die Decke der Sixtinischen Kapelle in Rom?",
+      "answers": [
+        "Michelangelo",
+        "Rembrandt",
+        "Raffael",
+        "Leonardo da Vinci"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Michelangelo arbeitete vier Jahre lang auf einem Gerüst an den riesigen Deckenbildern. Er war eigentlich Bildhauer und malte gar nicht so gern.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0040",
+      "subtopic": "famous",
+      "level": 2,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie hieß der Komponist Ludwig van … mit Nachnamen?",
+      "answers": [
+        "Haydn",
+        "Mozart",
+        "Bach",
+        "Beethoven"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Ludwig van Beethoven wurde 1770 in Bonn geboren. Seine 9. Sinfonie mit der „Ode an die Freude“ ist heute die Hymne Europas.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0041",
+      "subtopic": "music",
+      "level": 3,
+      "order": 18,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Wie viele verschiedene Tasten (weiß und schwarz) hat eine Oktave auf dem Klavier?",
+      "answers": [
+        "Sieben",
+        "Acht",
+        "Zwölf",
+        "Zehn"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Sieben weiße und fünf schwarze Tasten ergeben zusammen zwölf verschiedene Töne. Danach wiederholt sich das Muster eine Oktave höher.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0042",
+      "subtopic": "famous",
+      "level": 3,
+      "order": 19,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Welcher Komponist schrieb „Die vier Jahreszeiten“?",
+      "answers": [
+        "Joseph Haydn",
+        "Wolfgang Amadeus Mozart",
+        "Antonio Vivaldi",
+        "Johann Sebastian Bach"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Der Italiener Antonio Vivaldi schrieb die vier Violinkonzerte um 1720. Man hört darin Vogelgezwitscher, Gewitter und klirrende Kälte.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0043",
+      "subtopic": "art",
+      "level": 3,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welche Farbe liegt im Farbkreis Rot genau gegenüber?",
+      "answers": [
+        "Blau",
+        "Orange",
+        "Grün",
+        "Rosa"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Gegenüberliegende Farben heißen Komplementärfarben. Nebeneinander leuchten sie besonders stark – deshalb wirken rote Erdbeeren zwischen grünen Blättern so kräftig.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0044",
+      "subtopic": "art",
+      "level": 3,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist ein Graffiti?",
+      "answers": [
+        "Ein auf eine Wand gesprühtes Bild oder ein Schriftzug",
+        "Eine italienische Nudelsorte",
+        "Ein Tanz aus Brasilien",
+        "Ein Instrument aus Holz"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Graffiti werden meist mit Sprühdosen gemalt. An vielen Orten gibt es Wände, an denen das ausdrücklich erlaubt ist.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0045",
+      "subtopic": "art",
+      "level": 3,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Worauf stellt man eine Leinwand beim Malen?",
+      "answers": [
+        "Auf ein Stativ",
+        "Auf einen Notenständer",
+        "Auf eine Leiter",
+        "Auf eine Staffelei"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Die Staffelei hält das Bild schräg und in Augenhöhe. So kann man im Stehen malen und immer wieder einen Schritt zurücktreten.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0046",
+      "subtopic": "art",
+      "level": 3,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welche Farbe entsteht, wenn man alle Farben aus dem Malkasten mischt?",
+      "answers": [
+        "Weiß",
+        "Ein dunkles Braun bis Schwarz",
+        "Hellgelb",
+        "Regenbogenbunt"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Jede Farbe im Malkasten schluckt einen Teil des Lichts. Mischt man alle, wird fast alles geschluckt, und es entsteht ein dunkles Braun. Bei Licht ist es umgekehrt: Alle Farben zusammen ergeben Weiß.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0047",
+      "subtopic": "art",
+      "level": 3,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was ist ein Porträt?",
+      "answers": [
+        "Ein Bild ohne Farbe",
+        "Ein Bild von Obst",
+        "Ein Bild eines Menschen",
+        "Ein Bild einer Landschaft"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ein Porträt zeigt meist das Gesicht oder den Oberkörper eines Menschen. Die Mona Lisa ist das berühmteste Porträt der Welt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0048",
+      "subtopic": "instruments",
+      "level": 3,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welches Instrument hat Pfeifen und steht oft in Kirchen?",
+      "answers": [
+        "Die Harfe",
+        "Das Akkordeon",
+        "Die Orgel",
+        "Das Klavier"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Eine große Orgel kann Tausende Pfeifen haben, von wenigen Zentimetern bis über zehn Meter Länge. Sie gilt als größtes Musikinstrument.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0049",
+      "subtopic": "instruments",
+      "level": 3,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wie entsteht der Ton bei einer Blockflöte?",
+      "answers": [
+        "Die Luft im Rohr gerät in Schwingung",
+        "Eine Saite im Inneren schwingt",
+        "Ein kleiner Lautsprecher summt",
+        "Das Holz klopft gegen die Lippen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Der Luftstrom trifft auf eine scharfe Kante und bringt die Luft im Rohr zum Schwingen. Mit den Fingerlöchern ändert man, wie lang die schwingende Luftsäule ist – und damit den Ton.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0050",
+      "subtopic": "instruments",
+      "level": 3,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wie heißt das Instrument mit Tasten und Balg, das man vor dem Bauch trägt?",
+      "answers": [
+        "Akkordeon",
+        "Dudelsack",
+        "Keyboard",
+        "Mundharmonika"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Beim Akkordeon drückt man den Balg zusammen und zieht ihn auseinander. Die Luft bringt kleine Metallzungen zum Klingen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0051",
+      "subtopic": "instruments",
+      "level": 3,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Welches Instrument gibt im Orchester meist den Ton zum Stimmen an?",
+      "answers": [
+        "Die Pauke",
+        "Die Geige",
+        "Die Trompete",
+        "Die Oboe"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Vor dem Konzert spielt die Oboe ein langes A, und alle anderen stimmen ihre Instrumente danach. Ihr klarer Ton ist gut zu hören und lässt sich kaum verstellen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0052",
+      "subtopic": "instruments",
+      "level": 3,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist ein Xylophon?",
+      "answers": [
+        "Ein Tasteninstrument mit Pfeifen",
+        "Ein Blasinstrument aus Metall",
+        "Ein Saiteninstrument",
+        "Ein Schlaginstrument mit Platten aus Holz"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Beim Xylophon schlägt man mit Klöppeln auf unterschiedlich lange Holzplatten. Kurze Platten klingen hoch, lange tief.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0053",
+      "subtopic": "music",
+      "level": 3,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie heißt ein großes Werk für Orchester mit mehreren Sätzen?",
+      "answers": [
+        "Rap",
+        "Sinfonie",
+        "Kanon",
+        "Schlager"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Eine Sinfonie hat meist vier Sätze mit unterschiedlichem Tempo. Berühmte Sinfonien schrieben zum Beispiel Mozart und Beethoven.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0054",
+      "subtopic": "music",
+      "level": 3,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist eine Oper?",
+      "answers": [
+        "Ein Konzert nur mit Trommeln",
+        "Ein Theaterstück, in dem gesungen wird",
+        "Ein Tanz ohne Musik",
+        "Ein Gemälde in einer Kirche"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In der Oper erzählen Sängerinnen und Sänger eine Geschichte, begleitet von einem Orchester. „Die Zauberflöte“ von Mozart ist eine der bekanntesten.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0055",
+      "subtopic": "music",
+      "level": 3,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was gibt das Tempo in der Musik an?",
+      "answers": [
+        "Welches Instrument spielt",
+        "Wie schnell gespielt wird",
+        "Wie laut gespielt wird",
+        "Wie hoch ein Ton ist"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Das Tempo wird oft in Schlägen pro Minute angegeben oder mit italienischen Wörtern wie „allegro“ für schnell und „adagio“ für langsam.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0056",
+      "subtopic": "music",
+      "level": 3,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welche Note dauert in einem Vierertakt einen ganzen Takt lang?",
+      "answers": [
+        "Die ganze Note",
+        "Die Achtelnote",
+        "Die halbe Note",
+        "Die Viertelnote"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Eine ganze Note dauert vier Schläge, eine halbe zwei und eine Viertelnote einen. Die ganze Note ist ein leerer Kreis ohne Hals.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0057",
+      "subtopic": "famous",
+      "level": 3,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welcher Maler ist berühmt für seine Bilder von Seerosen?",
+      "answers": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Albrecht Dürer",
+        "Claude Monet"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Franzose Claude Monet legte in seinem Garten einen Teich an und malte die Seerosen darin über 200 Mal, bei jedem Licht anders.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0058",
+      "subtopic": "famous",
+      "level": 3,
+      "order": 8,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wer schrieb „Das doppelte Lottchen“ und „Emil und die Detektive“?",
+      "answers": [
+        "Otfried Preußler",
+        "Michael Ende",
+        "Astrid Lindgren",
+        "Erich Kästner"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Erich Kästner war einer der beliebtesten deutschen Kinderbuchautoren. Viele seiner Bücher wurden mehrfach verfilmt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0059",
+      "subtopic": "famous",
+      "level": 3,
+      "order": 9,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Welcher Komponist lebte um 1700 und schrieb viel Musik für die Orgel?",
+      "answers": [
+        "Frédéric Chopin",
+        "Johann Sebastian Bach",
+        "Ludwig van Beethoven",
+        "Elvis Presley"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Johann Sebastian Bach arbeitete lange als Kantor in Leipzig. Er war selbst ein großartiger Organist und hatte 20 Kinder.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "arts-0060",
+      "subtopic": "famous",
+      "level": 3,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welchen Spitznamen hatte der Sänger Elvis Presley?",
+      "answers": [
+        "King of Rock ’n’ Roll",
+        "Prinz der Oper",
+        "König des Walzers",
+        "Kaiser der Klassik"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Elvis Presley wurde in den 1950er-Jahren weltberühmt. Mit seiner Musik und seinem Hüftschwung begeisterte er Millionen Fans.",
+      "ageFrom": 6,
+      "ageTo": 12
     }
   ]
 }

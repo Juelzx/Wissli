@@ -81,6 +81,7 @@
     <string name="learn_category_levels">Level %1$d of %2$d</string>
     <string name="learn_category_finished">All levels done</string>
     <string name="learn_all_finished">You have finished every level. New questions are on their way!</string>
+    <string name="learn_more_levels_soon">New levels are coming soon.</string>
     <string name="learn_empty">No topics yet.</string>
 
     <!-- Category -->

@@ -380,6 +380,766 @@
       "explanation": "Beim Sport schwitzen wir, um nicht zu überhitzen. Das verlorene Wasser muss zurück in den Körper, sonst lässt die Leistung nach.",
       "ageFrom": 6,
       "ageTo": 12
+    },
+    {
+      "id": "sports-0021",
+      "subtopic": "ball",
+      "level": 2,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Womit spielt man Tennis?",
+      "answers": [
+        "Mit den Füßen und einem Ball",
+        "Mit einem Stock und einem Puck",
+        "Mit Pfeil und Bogen",
+        "Mit einem Schläger und einem Ball"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Beim Tennis schlägt man den Ball mit dem Schläger über ein Netz. Er darf dabei höchstens einmal auf dem Boden aufkommen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0022",
+      "subtopic": "ball",
+      "level": 2,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie viele Spieler einer Basketballmannschaft stehen gleichzeitig auf dem Feld?",
+      "answers": [
+        "Drei",
+        "Elf",
+        "Fünf",
+        "Sieben"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Beim Basketball spielen fünf gegen fünf. Weil das Spiel so schnell ist, wird oft ausgewechselt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0023",
+      "subtopic": "ball",
+      "level": 2,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist beim Fußball ein Elfmeter?",
+      "answers": [
+        "Ein Foul, an dem elf Spieler beteiligt sind",
+        "Ein Spieler mit der Nummer elf",
+        "Ein Tor nach elf Minuten",
+        "Ein Strafstoß aus elf Metern Entfernung"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Wird im Strafraum gefoult, gibt es einen Elfmeter. Dann stehen sich nur Schütze und Torwart gegenüber.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0024",
+      "subtopic": "ball",
+      "level": 2,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Für welche Sportart braucht man einen Federball?",
+      "answers": [
+        "Squash",
+        "Tischtennis",
+        "Badminton",
+        "Volleyball"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Der Federball hat einen Korken als Kopf und einen Kranz aus Federn oder Kunststoff. Die Federn bremsen ihn in der Luft stark ab.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0025",
+      "subtopic": "ball",
+      "level": 2,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie lange dauert ein Fußballspiel ohne Verlängerung?",
+      "answers": [
+        "90 Minuten",
+        "120 Minuten",
+        "45 Minuten",
+        "60 Minuten"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Gespielt werden zwei Halbzeiten zu je 45 Minuten. Dazu kommt oft etwas Nachspielzeit für Unterbrechungen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0026",
+      "subtopic": "olympics",
+      "level": 2,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Welche Medaille bekommt der Sieger bei Olympia?",
+      "answers": [
+        "Platin",
+        "Gold",
+        "Bronze",
+        "Silber"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Gold für Platz eins, Silber für Platz zwei und Bronze für Platz drei. Die Goldmedaille besteht übrigens größtenteils aus Silber und ist nur vergoldet.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0027",
+      "subtopic": "olympics",
+      "level": 2,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welche Sportarten gehören zu den Olympischen Winterspielen?",
+      "answers": [
+        "Skifahren, Eishockey und Rodeln",
+        "Schwimmen, Rudern und Segeln",
+        "Fußball, Tennis und Golf",
+        "Turnen, Boxen und Reiten"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Bei den Winterspielen geht es um Sport auf Schnee und Eis. Sie finden wie die Sommerspiele alle vier Jahre statt, zeitversetzt um zwei Jahre.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0028",
+      "subtopic": "olympics",
+      "level": 2,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was brennt während der Olympischen Spiele im Stadion?",
+      "answers": [
+        "Das olympische Feuer",
+        "Kerzen auf einem Kuchen",
+        "Eine Laterne für jedes Land",
+        "Ein großes Lagerfeuer zum Grillen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Das Feuer wird in einer großen Schale entzündet und brennt, bis die Spiele zu Ende sind. Es erinnert an die Spiele im alten Griechenland.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0029",
+      "subtopic": "olympics",
+      "level": 2,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Wo wird das olympische Feuer jedes Mal entzündet?",
+      "answers": [
+        "In Rom",
+        "Im Gastgeberland",
+        "In Olympia in Griechenland",
+        "In Paris"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Mit einem Hohlspiegel bündelt man in Olympia die Sonnenstrahlen und entzündet so die Fackel. Dann wird sie in einem Staffellauf ins Gastgeberland gebracht.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0030",
+      "subtopic": "games",
+      "level": 2,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie viele Figuren hat jeder Spieler zu Beginn einer Schachpartie?",
+      "answers": [
+        "16",
+        "12",
+        "8",
+        "20"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Jeder hat acht Bauern sowie König, Dame, zwei Türme, zwei Läufer und zwei Springer. Zusammen sind das 16 Figuren.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0031",
+      "subtopic": "games",
+      "level": 2,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welche Schachfigur muss man unbedingt schützen?",
+      "answers": [
+        "Den Turm",
+        "Den König",
+        "Die Dame",
+        "Den Bauern"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Wer den König des Gegners so angreift, dass er nicht mehr entkommen kann, gewinnt. Die Dame ist zwar stärker, aber man kann sie verlieren, ohne die Partie zu verlieren.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0032",
+      "subtopic": "games",
+      "level": 2,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wie viele Seiten hat ein normaler Spielwürfel?",
+      "answers": [
+        "Acht",
+        "Zwölf",
+        "Vier",
+        "Sechs"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Die gegenüberliegenden Seiten eines Würfels ergeben zusammen immer sieben: 1 und 6, 2 und 5, 3 und 4.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0033",
+      "subtopic": "games",
+      "level": 2,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Bei welchem Spiel rollt man eine schwere Kugel auf zehn Pins zu?",
+      "answers": [
+        "Golf",
+        "Bowling",
+        "Boccia",
+        "Billard"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Beim Bowling hat man pro Durchgang zwei Würfe, um alle zehn Pins umzuwerfen. Schafft man es mit dem ersten, heißt das „Strike“.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0034",
+      "subtopic": "games",
+      "level": 2,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie nennt man es beim Schach, wenn der König nicht mehr entkommen kann?",
+      "answers": [
+        "Rochade",
+        "Remis",
+        "Schachmatt",
+        "Patt"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "„Schachmatt“ kommt vom persischen „Schah mat“: Der König ist hilflos. Ein Patt dagegen endet unentschieden.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0035",
+      "subtopic": "training",
+      "level": 2,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welcher Muskel arbeitet ständig, sogar im Schlaf?",
+      "answers": [
+        "Das Herz",
+        "Der Po-Muskel",
+        "Der Wadenmuskel",
+        "Der Bizeps"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Das Herz ist ein Muskel, der nie Pause macht. Es schlägt über 100.000 Mal am Tag.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0036",
+      "subtopic": "training",
+      "level": 2,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum bekommt man nach ungewohntem Sport Muskelkater?",
+      "answers": [
+        "Die Muskeln sind eingeschlafen",
+        "Durch winzige Verletzungen in den Muskelfasern",
+        "Milchsäure verklebt die Muskeln",
+        "Man hat zu viel getrunken"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Lange glaubte man, Milchsäure sei schuld. Heute weiß man: Bei ungewohnter Belastung entstehen winzige Risse in den Muskelfasern. Beim Heilen schmerzen sie – meist erst am nächsten Tag.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0037",
+      "subtopic": "training",
+      "level": 2,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum wird einem beim Sport warm?",
+      "answers": [
+        "Die Sonne scheint stärker",
+        "Arbeitende Muskeln erzeugen Wärme",
+        "Das Blut kocht",
+        "Die Kleidung reibt"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Muskeln verwandeln nur einen Teil ihrer Energie in Bewegung, der Rest wird zu Wärme. Deshalb schwitzt man bei Anstrengung.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0038",
+      "subtopic": "records",
+      "level": 2,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie hoch hängt ein Basketballkorb?",
+      "answers": [
+        "Etwa 5 Meter",
+        "Etwa 10 Meter",
+        "Etwa 1 Meter",
+        "Etwa 3 Meter"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Korb hängt genau 3,05 Meter hoch. Besonders große Spieler können trotzdem den Ball von oben hineinstopfen – das heißt „Dunking“.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0039",
+      "subtopic": "records",
+      "level": 2,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welcher argentinische Fußballer wurde 2022 mit seinem Land Weltmeister?",
+      "answers": [
+        "Neymar",
+        "Cristiano Ronaldo",
+        "Lionel Messi",
+        "Kylian Mbappé"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Lionel Messi gilt als einer der besten Fußballer aller Zeiten. Im Finale 2022 setzte sich Argentinien gegen Frankreich im Elfmeterschießen durch.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0040",
+      "subtopic": "records",
+      "level": 2,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie weit springen die besten Weitspringer ungefähr?",
+      "answers": [
+        "Etwa 3 Meter",
+        "Etwa 1 Meter",
+        "Etwa 20 Meter",
+        "Über 8 Meter"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Weltrekord der Männer liegt bei 8,95 Metern, der der Frauen bei 7,52 Metern. Das ist weiter als ein Klassenzimmer lang ist.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0041",
+      "subtopic": "ball",
+      "level": 3,
+      "order": 18,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Warum fliegt ein Fußball mit viel Drall eine Kurve?",
+      "answers": [
+        "Die Nähte wirken wie ein Lenkrad",
+        "Der Wind dreht sich mit dem Ball",
+        "Der drehende Ball lenkt die Luft zur Seite ab",
+        "Der Ball wird auf einer Seite schwerer"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ein drehender Ball reißt die Luft an einer Seite mit und lenkt sie ab. Als Gegenreaktion wird der Ball in die andere Richtung gedrückt. Diesen Magnus-Effekt nutzen Spieler bei Freistößen um die Mauer herum.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0042",
+      "subtopic": "olympics",
+      "level": 3,
+      "order": 19,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Warum starten Läufer beim 400-Meter-Lauf versetzt?",
+      "answers": [
+        "Weil der Wind von vorne kommt",
+        "Die Schnellsten starten hinten",
+        "Damit sie sich nicht anrempeln",
+        "Die äußeren Bahnen sind in der Kurve länger"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Wer außen läuft, muss in den Kurven einen größeren Bogen laufen. Damit alle genau 400 Meter schaffen, starten die äußeren Bahnen weiter vorne.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0043",
+      "subtopic": "ball",
+      "level": 3,
+      "order": 8,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie viele Spieler einer Volleyballmannschaft stehen auf dem Feld?",
+      "answers": [
+        "Elf",
+        "Sechs",
+        "Acht",
+        "Fünf"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Beim Hallenvolleyball spielen sechs gegen sechs. Beim Beachvolleyball im Sand sind es nur zwei pro Team.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0044",
+      "subtopic": "ball",
+      "level": 3,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was bedeutet beim Fußball die Rote Karte?",
+      "answers": [
+        "Das Spiel ist zu Ende",
+        "Es gibt einen Eckstoß",
+        "Ein Spieler muss vom Platz",
+        "Ein Tor zählt doppelt"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Für ein grobes Foul zeigt der Schiedsrichter Rot. Die Mannschaft muss dann den Rest des Spiels mit einem Spieler weniger auskommen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0045",
+      "subtopic": "ball",
+      "level": 3,
+      "order": 9,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie heißt es beim Fußball, wenn ein Angreifer beim Abspiel näher am Tor steht als der vorletzte Verteidiger?",
+      "answers": [
+        "Einwurf",
+        "Abseits",
+        "Freistoß",
+        "Eckball"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Die Abseitsregel verhindert, dass Stürmer einfach neben dem gegnerischen Tor warten. Ob Abseits war, wird heute oft per Video überprüft.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0046",
+      "subtopic": "ball",
+      "level": 3,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wie viele Punkte zählt im Basketball ein Treffer von weit hinter der Linie?",
+      "answers": [
+        "Sechs",
+        "Vier",
+        "Zwei",
+        "Drei"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Normale Körbe zählen zwei Punkte, Freiwürfe einen. Wer hinter der Dreipunktelinie wirft, bekommt drei.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0047",
+      "subtopic": "olympics",
+      "level": 3,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wo finden die Olympischen Sommerspiele 2028 statt?",
+      "answers": [
+        "In Los Angeles",
+        "In Tokio",
+        "In Paris",
+        "In Berlin"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Los Angeles ist dann schon zum dritten Mal Gastgeber, nach 1932 und 1984. Die Spiele 2024 fanden in Paris statt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0048",
+      "subtopic": "olympics",
+      "level": 3,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welche Farben haben die olympischen Ringe?",
+      "answers": [
+        "Alle sind golden",
+        "Blau, Gelb, Schwarz, Grün und Rot",
+        "Rot, Weiß und Blau",
+        "Schwarz und Weiß"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Zusammen mit dem weißen Hintergrund findet sich in diesen Farben die Flagge fast jedes Landes der Welt wieder.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0049",
+      "subtopic": "olympics",
+      "level": 3,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist ein Zehnkampf?",
+      "answers": [
+        "Ein Spiel mit zehn Mannschaften",
+        "Ein Lauf über zehn Kilometer",
+        "Ein Boxkampf über zehn Runden",
+        "Ein Wettkampf aus zehn verschiedenen Disziplinen"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Zehnkämpfer laufen, springen und werfen an zwei Tagen in zehn Disziplinen. Wer insgesamt die meisten Punkte hat, gewinnt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0050",
+      "subtopic": "olympics",
+      "level": 3,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Bei welcher Wintersportart wischen Spieler mit Besen über das Eis?",
+      "answers": [
+        "Bobfahren",
+        "Eishockey",
+        "Curling",
+        "Biathlon"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Beim Curling gleitet ein schwerer Stein über das Eis. Durch das Wischen wird das Eis etwas glatter, und der Stein rutscht weiter und gerader.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0051",
+      "subtopic": "games",
+      "level": 3,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Bei welchem Brettspiel springt man mit schwarzen und weißen Steinen über die des Gegners?",
+      "answers": [
+        "Halma",
+        "Schach",
+        "Dame",
+        "Mühle"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Bei Dame zieht man schräg und schlägt gegnerische Steine, indem man über sie springt. Erreicht ein Stein die andere Seite, wird er selbst zur „Dame“.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0052",
+      "subtopic": "games",
+      "level": 3,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Mit wie vielen Steinen spielt jeder bei Mühle?",
+      "answers": [
+        "Sieben",
+        "Neun",
+        "Sechs",
+        "Zwölf"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Ziel ist es, drei Steine in eine Reihe zu bringen – eine Mühle. Dann darf man einen Stein des Gegners wegnehmen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0053",
+      "subtopic": "games",
+      "level": 3,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was braucht man für „Mensch ärgere Dich nicht“?",
+      "answers": [
+        "Einen Würfel und Spielfiguren",
+        "Karten und Chips",
+        "Einen Ball und ein Netz",
+        "Einen Schläger"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Das Spiel wurde vor über 100 Jahren in Deutschland erfunden. Wer zuerst alle vier Figuren ins Ziel bringt, gewinnt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0054",
+      "subtopic": "games",
+      "level": 3,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welche Schachfigur darf über andere Figuren springen?",
+      "answers": [
+        "Der Turm",
+        "Die Dame",
+        "Der Läufer",
+        "Der Springer"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Springer zieht in einer L-Form: zwei Felder geradeaus und eins zur Seite. Als einzige Figur darf er dabei über andere hinweg.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0055",
+      "subtopic": "training",
+      "level": 3,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Welches Organ holt beim Sport den Sauerstoff aus der Luft?",
+      "answers": [
+        "Die Nieren",
+        "Der Magen",
+        "Die Lunge",
+        "Die Leber"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Beim Sport atmen wir schneller und tiefer. Die Lunge gibt den Sauerstoff ans Blut weiter, das ihn zu den Muskeln bringt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0056",
+      "subtopic": "training",
+      "level": 3,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum trainieren manche Sportler in den Bergen?",
+      "answers": [
+        "Weil es dort weniger regnet",
+        "Der Körper bildet in dünner Luft mehr rote Blutkörperchen",
+        "Dort ist es ruhiger zum Nachdenken",
+        "Bergluft macht leichter"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In der Höhe enthält jeder Atemzug weniger Sauerstoff. Der Körper bildet deshalb mehr rote Blutkörperchen, die Sauerstoff transportieren. Zurück im Tal hilft das bei Ausdauersport.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0057",
+      "subtopic": "training",
+      "level": 3,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum wird man beim Sport rot im Gesicht?",
+      "answers": [
+        "Die Haut bekommt einen Sonnenbrand",
+        "Der Schweiß ist rot",
+        "Man schämt sich",
+        "Mehr Blut fließt zur Haut, um Wärme abzugeben"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Körper muss die Wärme der Muskeln loswerden. Dafür weiten sich die Blutgefäße in der Haut, und die Wärme geht an die Luft über.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0058",
+      "subtopic": "training",
+      "level": 3,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was bedeutet Ausdauer beim Sport?",
+      "answers": [
+        "Sich lange anstrengen zu können",
+        "Sehr schwere Dinge heben zu können",
+        "Sehr hoch springen zu können",
+        "Besonders schnell reagieren zu können"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Ausdauer trainiert man zum Beispiel beim Laufen, Radfahren oder Schwimmen. Herz und Lunge werden dabei leistungsfähiger.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0059",
+      "subtopic": "records",
+      "level": 3,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie hoch springen die besten Hochspringer ungefähr?",
+      "answers": [
+        "Fast 2,50 Meter",
+        "Etwa 6 Meter",
+        "Etwa 4 Meter",
+        "Etwa 1 Meter"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Der Weltrekord liegt bei 2,45 Metern – das ist höher als eine Zimmerdecke. Die Springer überqueren die Latte rückwärts mit dem „Fosbury-Flop“.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "sports-0060",
+      "subtopic": "records",
+      "level": 3,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welche Tennisspielerin gewann 23 Grand-Slam-Titel im Einzel?",
+      "answers": [
+        "Serena Williams",
+        "Naomi Osaka",
+        "Steffi Graf",
+        "Venus Williams"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Serena Williams aus den USA gewann zwischen 1999 und 2017 23 der wichtigsten Turniere. Steffi Graf aus Deutschland kam auf 22.",
+      "ageFrom": 8,
+      "ageTo": 12
     }
   ]
 }

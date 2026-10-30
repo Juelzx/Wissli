@@ -380,6 +380,766 @@
       "explanation": "Bevor es Traktoren und Autos gab, waren Pferde und Ochsen die stärksten Helfer. Die Leistung von Motoren wird bis heute in Pferdestärken angegeben.",
       "ageFrom": 6,
       "ageTo": 12
+    },
+    {
+      "id": "history-0021",
+      "subtopic": "middle_ages",
+      "level": 2,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was trugen Ritter zum Schutz im Kampf?",
+      "answers": [
+        "Eine Rüstung",
+        "Eine Schwimmweste",
+        "Einen Taucheranzug",
+        "Einen Fahrradhelm"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Ritterrüstungen bestanden aus Kettenhemden oder Metallplatten. Eine vollständige Plattenrüstung wog oft 20 bis 30 Kilogramm.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0022",
+      "subtopic": "middle_ages",
+      "level": 2,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist ein Burggraben?",
+      "answers": [
+        "Ein Grab für Ritter",
+        "Ein Weg für Kutschen",
+        "Ein Graben, oft mit Wasser, rund um eine Burg",
+        "Ein Keller für Vorräte"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Der Graben machte es Angreifern schwer, an die Mauern zu kommen. Hinein kam man nur über eine Brücke.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0023",
+      "subtopic": "middle_ages",
+      "level": 2,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Was war ein Knappe?",
+      "answers": [
+        "Ein Bauer, der Steuern eintrieb",
+        "Ein Mönch im Kloster",
+        "Ein Koch auf der Burg",
+        "Ein junger Helfer, der zum Ritter ausgebildet wurde"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Ein Knappe diente einem Ritter, pflegte Pferd und Rüstung und lernte das Kämpfen. Mit etwa 21 Jahren konnte er selbst zum Ritter geschlagen werden.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0024",
+      "subtopic": "middle_ages",
+      "level": 2,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wer lebte im Mittelalter in Klöstern?",
+      "answers": [
+        "Könige und Königinnen",
+        "Mönche und Nonnen",
+        "Händler und Seefahrer",
+        "Ritter und Knappen"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In Klöstern beteten, arbeiteten und lernten Mönche und Nonnen. Sie schrieben auch viele Bücher ab und bewahrten so altes Wissen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0025",
+      "subtopic": "antiquity",
+      "level": 2,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Welcher Fluss war für das alte Ägypten lebenswichtig?",
+      "answers": [
+        "Der Nil",
+        "Die Donau",
+        "Der Rhein",
+        "Der Amazonas"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Jedes Jahr trat der Nil über die Ufer und hinterließ fruchtbaren Schlamm. Nur deshalb konnten die Ägypter mitten in der Wüste Getreide anbauen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0026",
+      "subtopic": "antiquity",
+      "level": 2,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wer waren die Gladiatoren?",
+      "answers": [
+        "Griechische Gelehrte",
+        "Römische Bäcker",
+        "Kämpfer, die im alten Rom vor Publikum kämpften",
+        "Ägyptische Priester"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Gladiatoren traten in Arenen gegeneinander oder gegen wilde Tiere an. Viele waren Gefangene oder Sklaven, manche wurden berühmt wie heutige Sportstars.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0027",
+      "subtopic": "antiquity",
+      "level": 2,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist das Kolosseum in Rom?",
+      "answers": [
+        "Eine riesige Arena aus der Römerzeit",
+        "Ein Hafen",
+        "Eine Kirche",
+        "Ein Königspalast"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Das Kolosseum wurde vor fast 2.000 Jahren gebaut und bot Platz für rund 50.000 Zuschauer. Seine Ruine kann man heute noch besichtigen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0028",
+      "subtopic": "antiquity",
+      "level": 2,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wie heißen die Schriftzeichen der alten Ägypter?",
+      "answers": [
+        "Buchstaben",
+        "Hieroglyphen",
+        "Runen",
+        "Keilschrift"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Hieroglyphen sind kleine Bilder, die für Laute oder ganze Wörter stehen. Erst 1822 gelang es, sie mit Hilfe des Steins von Rosette wieder zu lesen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0029",
+      "subtopic": "explorers",
+      "level": 2,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Woran orientierten sich Seefahrer früher auf dem offenen Meer?",
+      "answers": [
+        "Am GPS",
+        "An Leuchtfarbe auf dem Wasser",
+        "An den Sternen und am Kompass",
+        "An Karten aus dem Internet"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ohne Land in Sicht halfen die Sonne, der Polarstern und später der Kompass, die Richtung zu halten. Erst seit wenigen Jahrzehnten gibt es Satellitennavigation.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0030",
+      "subtopic": "explorers",
+      "level": 2,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Welcher Reisende aus Venedig kam im 13. Jahrhundert bis nach China?",
+      "answers": [
+        "Marco Polo",
+        "James Cook",
+        "Vasco da Gama",
+        "Christoph Kolumbus"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Marco Polo lebte viele Jahre am Hof des chinesischen Herrschers. Sein Reisebericht machte Europa neugierig auf Asien.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0031",
+      "subtopic": "explorers",
+      "level": 2,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Wer fand als erster Europäer den Seeweg nach Indien rund um Afrika?",
+      "answers": [
+        "Marco Polo",
+        "Ferdinand Magellan",
+        "Christoph Kolumbus",
+        "Vasco da Gama"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Portugiese Vasco da Gama segelte 1498 um die Südspitze Afrikas und erreichte Indien. So konnten Gewürze direkt per Schiff nach Europa gebracht werden.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0032",
+      "subtopic": "inventions_past",
+      "level": 2,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was wurde zuerst erfunden: das Rad oder das Auto?",
+      "answers": [
+        "Keins von beiden",
+        "Beide gleichzeitig",
+        "Das Auto",
+        "Das Rad"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Das Rad ist über 5.000 Jahre alt. Das Auto gibt es erst seit etwa 140 Jahren – ohne Räder würde es aber gar nicht fahren.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0033",
+      "subtopic": "inventions_past",
+      "level": 2,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Woraus waren die ersten Werkzeuge der Steinzeit?",
+      "answers": [
+        "Aus Plastik",
+        "Aus Stein, Holz und Knochen",
+        "Aus Eisen",
+        "Aus Gold"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Steinzeitmenschen schlugen scharfe Klingen aus Feuerstein. Daher hat die Steinzeit ihren Namen. Metall lernten Menschen erst viel später zu bearbeiten.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0034",
+      "subtopic": "inventions_past",
+      "level": 2,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wo wurde das Papier erfunden?",
+      "answers": [
+        "Bei den Wikingern",
+        "Im alten Rom",
+        "Im alten Ägypten",
+        "In China"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In China wurde vor rund 2.000 Jahren Papier aus Pflanzenfasern hergestellt. Erst viel später kam die Technik über Arabien nach Europa. Ägyptischer Papyrus ist etwas anderes: gepresste Pflanzenstreifen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0035",
+      "subtopic": "inventions_past",
+      "level": 2,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wozu dienten Windmühlen früher vor allem?",
+      "answers": [
+        "Zum Erzeugen von Strom",
+        "Zum Fliegenlernen",
+        "Zum Mahlen von Getreide",
+        "Zum Kühlen von Häusern"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Der Wind drehte die Flügel, und die trieben schwere Mahlsteine an, die Korn zu Mehl zermahlten. Heutige Windräder erzeugen dagegen Strom.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0036",
+      "subtopic": "everyday_past",
+      "level": 2,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Worauf schrieben Kinder früher in der Schule oft?",
+      "answers": [
+        "Auf ein Tablet",
+        "Mit Füller in Hefte aus Plastik",
+        "Mit Kreide auf Papier",
+        "Mit einem Griffel auf eine Schiefertafel"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Papier war lange teuer. Auf der Schiefertafel konnte man schreiben, wegwischen und immer wieder neu anfangen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0037",
+      "subtopic": "everyday_past",
+      "level": 2,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Womit machte man Licht, bevor es elektrischen Strom gab?",
+      "answers": [
+        "Mit Taschenlampen",
+        "Mit Kerzen und Öllampen",
+        "Gar nicht",
+        "Mit Glühwürmchen in Gläsern"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Kerzen aus Wachs oder Talg und Lampen mit Öl spendeten Licht. Später kamen Gaslaternen dazu, die in Städten die Straßen erhellten.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0038",
+      "subtopic": "everyday_past",
+      "level": 2,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie nannte man die Boten, die früher Post zu Pferd über weite Strecken brachten?",
+      "answers": [
+        "Knappen",
+        "Postreiter",
+        "Kutscher",
+        "Ritter"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Postreiter wechselten an Stationen ihre Pferde und ritten so schnell wie möglich weiter. Briefe kamen auf diese Weise in wenigen Tagen durch ganz Europa.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0039",
+      "subtopic": "everyday_past",
+      "level": 2,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wozu diente der Marktplatz einer mittelalterlichen Stadt?",
+      "answers": [
+        "Für Ritterturniere",
+        "Als Hafen für Schiffe",
+        "Zum Kaufen und Verkaufen von Waren",
+        "Als Friedhof"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Auf dem Markt boten Bauern und Handwerker ihre Waren an. Oft standen dort auch das Rathaus und der Brunnen – der Marktplatz war die Mitte der Stadt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0040",
+      "subtopic": "antiquity",
+      "level": 2,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welche Stadt wurde im Jahr 79 vom Vesuv verschüttet?",
+      "answers": [
+        "Pompeji",
+        "Athen",
+        "Venedig",
+        "Rom"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Der Vulkan Vesuv begrub Pompeji unter einer dicken Schicht aus Asche. Deshalb sind Häuser, Straßen und sogar Wandbilder bis heute erstaunlich gut erhalten.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0041",
+      "subtopic": "middle_ages",
+      "level": 3,
+      "order": 18,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Warum trugen Pestärzte Masken mit langem Schnabel?",
+      "answers": [
+        "Als Zeichen ihres Standes",
+        "Um Kranke zu erschrecken",
+        "Im Schnabel steckten duftende Kräuter gegen die „schlechte Luft“",
+        "Zum Schutz vor Regen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Man glaubte damals, Krankheiten entstünden durch stinkende Luft. Die duftenden Kräuter sollten sie reinigen. Dass Flöhe die Pest übertragen, wusste man noch nicht.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0042",
+      "subtopic": "antiquity",
+      "level": 3,
+      "order": 19,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Nach wem ist der Monat Juli benannt?",
+      "answers": [
+        "Nach einem Kaiser namens Julian",
+        "Nach dem Römer Julius Caesar",
+        "Nach einer Göttin des Sommers",
+        "Nach dem lateinischen Wort für warm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Julius Caesar ließ den Kalender neu ordnen, und sein Geburtsmonat wurde nach ihm benannt. Der August trägt den Namen seines Nachfolgers, Kaiser Augustus.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0043",
+      "subtopic": "antiquity",
+      "level": 3,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wer war Kleopatra?",
+      "answers": [
+        "Eine römische Göttin",
+        "Eine Malerin aus Italien",
+        "Eine Königin im alten Ägypten",
+        "Eine griechische Sportlerin"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Kleopatra war die letzte Herrscherin des alten Ägyptens. Sie sprach viele Sprachen und war eine geschickte Politikerin.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0044",
+      "subtopic": "antiquity",
+      "level": 3,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Womit schrieben die Römer ihre Zahlen?",
+      "answers": [
+        "Mit unseren heutigen Ziffern",
+        "Mit kleinen Tierbildern",
+        "Mit Punkten wie auf einem Würfel",
+        "Mit Buchstaben wie I, V, X und L"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "I steht für 1, V für 5, X für 10, L für 50, C für 100 und M für 1.000. Römische Zahlen sieht man heute noch auf manchen Uhren.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0045",
+      "subtopic": "antiquity",
+      "level": 3,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welche Zahl bedeutet das römische Zeichen X?",
+      "answers": [
+        "Eins",
+        "Hundert",
+        "Fünf",
+        "Zehn"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Das X steht für 10. Steht ein kleineres Zeichen davor, wird es abgezogen: IX ist 9. Steht es dahinter, wird es addiert: XI ist 11.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0046",
+      "subtopic": "middle_ages",
+      "level": 3,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie hieß ein Wettkampf, bei dem Ritter mit Lanzen zu Pferd gegeneinander antraten?",
+      "answers": [
+        "Ritterturnier",
+        "Olympiade",
+        "Marathon",
+        "Regatta"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Bei Turnieren zeigten Ritter ihr Können vor Publikum. Ziel war es, den Gegner mit einer stumpfen Lanze vom Pferd zu stoßen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0047",
+      "subtopic": "middle_ages",
+      "level": 3,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wozu hatte eine Burg eine Zugbrücke?",
+      "answers": [
+        "Man konnte sie bei Gefahr hochziehen",
+        "Als Spielplatz",
+        "Um Wasser zu schöpfen",
+        "Damit Schiffe darunter durchfahren"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "War die Brücke hochgezogen, versperrte sie das Tor, und der Graben davor war kaum zu überwinden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0048",
+      "subtopic": "middle_ages",
+      "level": 3,
+      "order": 8,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Wer war Karl der Große?",
+      "answers": [
+        "Ein besonders großer Ritter",
+        "Ein mächtiger Herrscher, der im Jahr 800 Kaiser wurde",
+        "Ein Entdecker Amerikas",
+        "Der Erfinder des Buchdrucks"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Karl der Große herrschte über ein riesiges Reich, das große Teile des heutigen Frankreichs, Deutschlands und Italiens umfasste. Seinen Beinamen bekam er wegen seiner Macht.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0049",
+      "subtopic": "explorers",
+      "level": 3,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Welcher Kapitän erforschte im 18. Jahrhundert den Pazifik und die Ostküste Australiens?",
+      "answers": [
+        "Leif Eriksson",
+        "Christoph Kolumbus",
+        "James Cook",
+        "Marco Polo"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Der Brite James Cook unternahm drei große Reisen und zeichnete genaue Karten vieler Inseln und Küsten, die in Europa noch unbekannt waren.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0050",
+      "subtopic": "explorers",
+      "level": 3,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welche Seefahrer erreichten Amerika schon rund 500 Jahre vor Kolumbus?",
+      "answers": [
+        "Die Ägypter",
+        "Die Römer",
+        "Die Griechen",
+        "Die Wikinger"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Um das Jahr 1000 segelte Leif Eriksson von Grönland nach Nordamerika. In Kanada wurden Reste einer Wikingersiedlung gefunden.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0051",
+      "subtopic": "explorers",
+      "level": 3,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wer stand 1953 als Erste auf dem Gipfel des Mount Everest?",
+      "answers": [
+        "Neil Armstrong",
+        "Roald Amundsen",
+        "Edmund Hillary und Tenzing Norgay",
+        "Reinhold Messner"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Der Neuseeländer Edmund Hillary und der Sherpa Tenzing Norgay erreichten am 29. Mai 1953 gemeinsam den höchsten Punkt der Erde.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0052",
+      "subtopic": "inventions_past",
+      "level": 3,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Womit machte man Feuer, bevor es Streichhölzer gab?",
+      "answers": [
+        "Mit Feuerstein und Zunder",
+        "Mit Batterien",
+        "Mit Wasser und Salz",
+        "Mit Eiswürfeln"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Schlägt man Feuerstein gegen ein Eisenstück, sprühen Funken. Fallen sie auf trockenen Zunder, etwa einen getrockneten Pilz, beginnt er zu glimmen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0053",
+      "subtopic": "inventions_past",
+      "level": 3,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie heißt die Zeit nach der Steinzeit, als Menschen Kupfer und Zinn mischten?",
+      "answers": [
+        "Goldzeit",
+        "Bronzezeit",
+        "Eiszeit",
+        "Eisenzeit"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Aus Kupfer und Zinn entsteht Bronze, die viel härter ist als reines Kupfer. Daraus machte man Werkzeuge, Waffen und Schmuck. Danach folgte die Eisenzeit.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0054",
+      "subtopic": "inventions_past",
+      "level": 3,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Wann fuhr die erste Eisenbahn in Deutschland?",
+      "answers": [
+        "1635",
+        "1835",
+        "1735",
+        "1935"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Am 7. Dezember 1835 fuhr die Lok „Adler“ von Nürnberg nach Fürth. Die Strecke war nur rund sechs Kilometer lang.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0055",
+      "subtopic": "inventions_past",
+      "level": 3,
+      "order": 9,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Was ist ein Abakus?",
+      "answers": [
+        "Ein Rechenbrett mit verschiebbaren Kugeln",
+        "Ein Schreibgerät",
+        "Ein Musikinstrument",
+        "Eine Waffe der Römer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Mit dem Abakus rechnete man schon vor Tausenden Jahren. Jede Reihe Kugeln steht für eine Stelle, zum Beispiel Einer, Zehner und Hunderter.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0056",
+      "subtopic": "everyday_past",
+      "level": 3,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Woher holten die Menschen ihr Wasser, bevor es Wasserleitungen gab?",
+      "answers": [
+        "Aus dem Supermarkt",
+        "Aus Brunnen, Quellen und Flüssen",
+        "Aus dem Wasserhahn",
+        "Aus dem Regenbogen"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Wasser musste man in Eimern nach Hause tragen. Der Dorfbrunnen war deshalb auch ein Treffpunkt, an dem man Neuigkeiten austauschte.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0057",
+      "subtopic": "everyday_past",
+      "level": 3,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Was waren Zünfte im Mittelalter?",
+      "answers": [
+        "Zusammenschlüsse von Handwerkern",
+        "Dorffeste",
+        "Gruppen von Rittern",
+        "Besondere Burgen"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Bäcker, Schmiede oder Schneider hatten jeweils ihre Zunft. Sie legte Preise und Regeln fest und kümmerte sich um die Ausbildung.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0058",
+      "subtopic": "everyday_past",
+      "level": 3,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wie reiste man vor der Eisenbahn über Land?",
+      "answers": [
+        "Mit dem Flugzeug",
+        "Mit dem Fahrrad",
+        "Mit dem Bus",
+        "Zu Fuß, zu Pferd oder mit der Kutsche"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Reisen war langsam und anstrengend. Mit der Postkutsche schaffte man an einem Tag oft nur 50 bis 100 Kilometer.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0059",
+      "subtopic": "everyday_past",
+      "level": 3,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was aßen die meisten Menschen im Mittelalter jeden Tag?",
+      "answers": [
+        "Schokolade",
+        "Kartoffeln mit Ketchup",
+        "Brei und Brot aus Getreide",
+        "Pizza"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Getreidebrei und Brot waren die wichtigsten Speisen. Kartoffeln und Kakao gab es in Europa noch gar nicht – sie kamen erst nach der Entdeckung Amerikas.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "history-0060",
+      "subtopic": "everyday_past",
+      "level": 3,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was machte ein Nachtwächter?",
+      "answers": [
+        "Er stellte Wecker her",
+        "Er beobachtete die Sterne",
+        "Er bewachte nur das Schloss des Königs",
+        "Er ging nachts durch die Stadt und passte auf"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Der Nachtwächter achtete auf Feuer und Diebe und rief die Stunden aus. In manchen Städten kann man heute noch an Nachtwächterführungen teilnehmen.",
+      "ageFrom": 6,
+      "ageTo": 12
     }
   ]
 }

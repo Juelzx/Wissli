@@ -200,6 +200,14 @@ private fun CompletionActions(
                     style = MaterialTheme.typography.titleMedium,
                 )
             }
+        } else {
+            Text(
+                text = stringResource(R.string.learn_more_levels_soon),
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                textAlign = TextAlign.Center,
+                modifier = Modifier.fillMaxWidth(),
+            )
         }
         TextButton(
             onClick = { onIntent(LevelIntent.CloseClicked) },

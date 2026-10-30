@@ -380,6 +380,766 @@
       "explanation": "Die Sterne sind auch tagsüber da. Das Sonnenlicht, das in der Luft gestreut wird, macht den Himmel aber so hell, dass ihr schwaches Licht darin untergeht.",
       "ageFrom": 6,
       "ageTo": 12
+    },
+    {
+      "id": "space-0021",
+      "subtopic": "sun_moon",
+      "level": 2,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wie heißt der natürliche Begleiter der Erde, der um sie kreist?",
+      "answers": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Der Mond umkreist die Erde in rund 384.000 Kilometern Entfernung. Er ist der einzige Himmelskörper, auf dem schon Menschen waren.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0022",
+      "subtopic": "sun_moon",
+      "level": 2,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum sieht der Mond mal rund, mal wie eine Sichel aus?",
+      "answers": [
+        "Der Schatten der Erde fällt auf ihn",
+        "Er schrumpft und wächst wirklich",
+        "Wolken verdecken einen Teil",
+        "Wir sehen unterschiedlich viel von seiner beleuchteten Seite"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Die Sonne beleuchtet immer eine Hälfte des Mondes. Während er die Erde umkreist, sehen wir mal mehr, mal weniger von dieser hellen Hälfte. Der Erdschatten fällt nur bei einer Mondfinsternis auf ihn.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0023",
+      "subtopic": "sun_moon",
+      "level": 2,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wie lange braucht der Mond ungefähr für eine Runde um die Erde?",
+      "answers": [
+        "Etwa einen Monat",
+        "Eine Woche",
+        "Einen Tag",
+        "Ein Jahr"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Von Vollmond zu Vollmond vergehen etwa 29,5 Tage. Daher kommt auch das Wort „Monat“ – es ist mit „Mond“ verwandt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0024",
+      "subtopic": "planets",
+      "level": 2,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Auf welchem Planeten leben wir?",
+      "answers": [
+        "Auf dem Mond",
+        "Auf der Erde",
+        "Auf der Venus",
+        "Auf dem Mars"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Die Erde ist der dritte Planet von der Sonne aus. Soweit wir wissen, ist sie der einzige Ort im All mit Leben.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0025",
+      "subtopic": "planets",
+      "level": 2,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Wie viele Planeten hat unser Sonnensystem?",
+      "answers": [
+        "Neun",
+        "Acht",
+        "Sieben",
+        "Zwölf"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus und Neptun. Ein Merksatz: „Mein Vater erklärt mir jeden Sonntag unseren Nachthimmel.“",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0026",
+      "subtopic": "planets",
+      "level": 2,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welcher Planet wird auch Morgen- oder Abendstern genannt?",
+      "answers": [
+        "Die Venus",
+        "Der Mars",
+        "Der Jupiter",
+        "Der Saturn"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Die Venus ist nach Sonne und Mond das hellste Objekt am Himmel. Man sieht sie nur morgens oder abends in der Nähe der Sonne – deshalb hielt man sie früher für einen Stern.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0027",
+      "subtopic": "planets",
+      "level": 2,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Warum kann man auf dem Jupiter nicht landen?",
+      "answers": [
+        "Er ist glatt wie ein Spiegel",
+        "Er ist zu klein",
+        "Er dreht sich nicht",
+        "Er hat keine feste Oberfläche"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Jupiter ist ein Gasriese. Je tiefer man kommt, desto dichter und heißer werden die Gase, aber festen Boden wie auf der Erde gibt es nicht.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0028",
+      "subtopic": "stars",
+      "level": 2,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Was ist ein Sternbild?",
+      "answers": [
+        "Ein besonders heller Stern",
+        "Ein Foto vom Himmel",
+        "Ein Planet mit Ringen",
+        "Eine Gruppe von Sternen, die ein Bild ergibt"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Schon vor Tausenden Jahren verbanden Menschen helle Sterne zu Figuren wie dem Großen Bären. So konnten sie sich am Himmel besser zurechtfinden.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0029",
+      "subtopic": "stars",
+      "level": 2,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welcher Stern zeigt uns ungefähr die Richtung nach Norden?",
+      "answers": [
+        "Der Polarstern",
+        "Der Abendstern",
+        "Der Sirius",
+        "Die Sonne"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Der Polarstern steht fast genau über dem Nordpol der Erde. Während sich alle anderen Sterne nachts scheinbar drehen, bleibt er an seinem Platz – Seefahrer nutzten ihn deshalb zur Orientierung.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0030",
+      "subtopic": "stars",
+      "level": 2,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Warum sehen Sterne so klein aus?",
+      "answers": [
+        "Sie sind nur Löcher im Himmel",
+        "Sie sind unvorstellbar weit weg",
+        "Die Luft macht sie kleiner",
+        "Sie sind wirklich winzig"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Viele Sterne sind größer als unsere Sonne. Sie sind aber so weit entfernt, dass ihr Licht Jahre bis Jahrtausende zu uns braucht – deshalb sehen wir nur Pünktchen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0031",
+      "subtopic": "stars",
+      "level": 2,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Welche Farbe haben die heißesten Sterne?",
+      "answers": [
+        "Rot",
+        "Orange",
+        "Blau-weiß",
+        "Gelb"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Wie bei glühendem Metall verrät die Farbe die Temperatur. Rote Sterne sind vergleichsweise kühl, unsere gelbe Sonne liegt in der Mitte, blau-weiße Sterne sind die heißesten.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0032",
+      "subtopic": "spaceflight",
+      "level": 2,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wie nennt man Menschen, die ins All fliegen?",
+      "answers": [
+        "Taucher",
+        "Piloten",
+        "Astronauten",
+        "Astrologen"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Das Wort bedeutet „Sternenseefahrer“. In Russland sagt man Kosmonaut, in China Taikonaut.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0033",
+      "subtopic": "spaceflight",
+      "level": 2,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Womit fliegen Menschen ins All?",
+      "answers": [
+        "Mit einem Hubschrauber",
+        "Mit einem Heißluftballon",
+        "Mit einem Segelflugzeug",
+        "Mit einer Rakete"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Nur Raketen sind stark genug, um der Schwerkraft der Erde zu entkommen. Flugzeuge und Ballons brauchen Luft – im All gibt es keine.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0034",
+      "subtopic": "spaceflight",
+      "level": 2,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Welches Tier umkreiste 1957 als eines der ersten Lebewesen die Erde?",
+      "answers": [
+        "Die Katze Minka",
+        "Die Hündin Laika",
+        "Der Affe Koko",
+        "Das Pferd Blitz"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "1957 schickte die Sowjetunion die Hündin Laika mit Sputnik 2 ins All. Sie überlebte den Flug leider nicht, half aber zu zeigen, dass Lebewesen den Start überstehen können.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0035",
+      "subtopic": "spaceflight",
+      "level": 2,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welches Land schickte den ersten Menschen ins All?",
+      "answers": [
+        "Die Sowjetunion",
+        "Deutschland",
+        "China",
+        "Die USA"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Juri Gagarin umrundete am 12. April 1961 als erster Mensch die Erde. Das war acht Jahre vor der ersten Mondlandung der USA.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0036",
+      "subtopic": "sun_moon",
+      "level": 2,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was passiert bei einer Sonnenfinsternis?",
+      "answers": [
+        "Eine Staubwolke verdeckt sie",
+        "Die Sonne geht kurz aus",
+        "Der Mond schiebt sich vor die Sonne",
+        "Die Erde schiebt sich vor die Sonne"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Der Mond ist viel kleiner als die Sonne, aber auch viel näher. Deshalb kann er sie für ein paar Minuten genau verdecken. Wichtig: Nie ohne Spezialbrille in die Sonne schauen!",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0037",
+      "subtopic": "sun_moon",
+      "level": 2,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Warum kann man auf dem Mond nichts hören?",
+      "answers": [
+        "Die Helme sind zu dick",
+        "Dort macht niemand Lärm",
+        "Der Mondstaub schluckt alle Geräusche",
+        "Ohne Luft kann sich Schall nicht ausbreiten"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Schall ist eine Schwingung, die von Luftteilchen weitergegeben wird. Auf dem Mond gibt es keine Luft – Astronauten sprechen deshalb über Funk miteinander.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0038",
+      "subtopic": "planets",
+      "level": 2,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welcher Planet hat einen riesigen roten Wirbelsturm?",
+      "answers": [
+        "Mars",
+        "Jupiter",
+        "Venus",
+        "Merkur"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Der Große Rote Fleck auf dem Jupiter ist ein Sturm, der größer ist als die ganze Erde. Er tobt schon seit Hunderten von Jahren.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0039",
+      "subtopic": "stars",
+      "level": 2,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Woraus besteht die Sonne hauptsächlich?",
+      "answers": [
+        "Aus heißem Gas, vor allem Wasserstoff",
+        "Aus brennender Kohle",
+        "Aus glühendem Gestein",
+        "Aus flüssigem Gold"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In ihrem Inneren verschmilzt die Sonne Wasserstoff zu Helium. Dabei wird riesig viel Energie frei, die als Licht und Wärme bei uns ankommt.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0040",
+      "subtopic": "spaceflight",
+      "level": 2,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist ein Satellit?",
+      "answers": [
+        "Ein kleiner Stern",
+        "Ein Teleskop am Boden",
+        "Ein Gerät, das um die Erde kreist",
+        "Eine Antenne auf dem Dach"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Tausende Satelliten umkreisen die Erde. Sie helfen beim Wetterbericht, bei der Navigation und übertragen Fernsehen und Telefongespräche.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0041",
+      "subtopic": "spaceflight",
+      "level": 3,
+      "order": 18,
+      "difficulty": "HARD",
+      "difficultyScore": 6,
+      "title": "Warum schweben Astronauten in der Raumstation?",
+      "answers": [
+        "Ihre Anzüge sind mit Helium gefüllt",
+        "Im All gibt es keine Schwerkraft",
+        "Sie fallen mit der Station ständig um die Erde herum",
+        "Magnete halten sie in der Luft"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Auch in 400 km Höhe ist die Schwerkraft fast so stark wie am Boden. Die ISS fällt aber ständig um die Erde herum, so schnell, dass sie nie aufschlägt. Weil alles darin mitfällt, schweben die Astronauten.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0042",
+      "subtopic": "planets",
+      "level": 3,
+      "order": 19,
+      "difficulty": "HARD",
+      "difficultyScore": 7,
+      "title": "Warum ist die Venus heißer als der Merkur, obwohl sie weiter von der Sonne entfernt ist?",
+      "answers": [
+        "Ihr Kern ist heißer",
+        "Ihre dichte Lufthülle hält die Wärme fest",
+        "Sie hat viele aktive Vulkane",
+        "Sie dreht sich schneller"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Auf der Venus herrscht durch ihre dichte Kohlendioxid-Lufthülle ein extremer Treibhauseffekt mit rund 465 °C, Tag und Nacht. Merkur hat fast keine Lufthülle, seine Nachtseite kühlt auf etwa −180 °C ab.",
+      "ageFrom": 10,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0043",
+      "subtopic": "sun_moon",
+      "level": 3,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Warum sehen wir vom Mond immer dieselbe Seite?",
+      "answers": [
+        "Er dreht sich überhaupt nicht",
+        "Die Rückseite liegt immer im Schatten",
+        "Die Erde dreht sich genauso schnell mit",
+        "Er dreht sich einmal um sich selbst, während er die Erde einmal umrundet"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Eine Drehung um sich selbst dauert beim Mond genauso lange wie eine Runde um die Erde. Deshalb zeigt er uns immer dieselbe Seite. Die Rückseite ist aber nicht dunkel – auch sie bekommt Sonnenlicht.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0044",
+      "subtopic": "sun_moon",
+      "level": 3,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist größer: die Sonne oder die Erde?",
+      "answers": [
+        "Beide sind gleich groß",
+        "Die Sonne, und zwar viel größer",
+        "Der Mond ist größer als beide",
+        "Die Erde"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Über eine Million Erden würden in die Sonne passen. Sie wirkt nur klein, weil sie 150 Millionen Kilometer entfernt ist.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0045",
+      "subtopic": "sun_moon",
+      "level": 3,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was passiert bei einer Mondfinsternis?",
+      "answers": [
+        "Der Mond wandert durch den Schatten der Erde",
+        "Der Mond verschwindet hinter der Sonne",
+        "Die Sonne verdeckt den Mond",
+        "Der Mond kühlt ab und hört auf zu leuchten"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Stehen Sonne, Erde und Mond in einer Linie, fällt der Erdschatten auf den Mond. Er wird dann oft kupferrot, weil die Lufthülle der Erde etwas rotes Licht zu ihm lenkt.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0046",
+      "subtopic": "planets",
+      "level": 3,
+      "order": 8,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Welcher Planet ist der kleinste in unserem Sonnensystem?",
+      "answers": [
+        "Erde",
+        "Merkur",
+        "Mars",
+        "Neptun"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Merkur ist nur wenig größer als unser Mond. Er ist außerdem der Planet, der der Sonne am nächsten ist, und braucht nur 88 Tage für eine Runde um sie.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0047",
+      "subtopic": "planets",
+      "level": 3,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "title": "Wie viele Monde hat die Erde?",
+      "answers": [
+        "Keinen",
+        "Einen",
+        "Zwei",
+        "Zwölf"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Die Erde hat genau einen Mond. Andere Planeten haben viel mehr: Saturn und Jupiter haben jeweils über 90.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0048",
+      "subtopic": "planets",
+      "level": 3,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 5,
+      "title": "Auf welchem Planeten steht der höchste bekannte Vulkan?",
+      "answers": [
+        "Auf dem Mars",
+        "Auf dem Jupiter",
+        "Auf der Erde",
+        "Auf der Venus"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Der Olympus Mons auf dem Mars ist über 20 Kilometer hoch, mehr als doppelt so hoch wie der Mount Everest. Er ist heute erloschen.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0049",
+      "subtopic": "stars",
+      "level": 3,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist ein Komet?",
+      "answers": [
+        "Ein Raumschiff",
+        "Ein explodierender Stern",
+        "Ein kleiner Mond",
+        "Ein Brocken aus Eis und Staub mit leuchtendem Schweif"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Kommt ein Komet der Sonne nahe, verdampft ein Teil seines Eises. Gas und Staub bilden dann einen Schweif, der Millionen Kilometer lang sein kann.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0050",
+      "subtopic": "stars",
+      "level": 3,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Welcher Stern ist der Erde am nächsten?",
+      "answers": [
+        "Sirius",
+        "Proxima Centauri",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Die Sonne ist ein Stern – und mit Abstand der nächste. Der nächste Stern danach, Proxima Centauri, ist so weit weg, dass sein Licht über vier Jahre zu uns braucht.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0051",
+      "subtopic": "stars",
+      "level": 3,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Was ist ein Lichtjahr?",
+      "answers": [
+        "Ein Jahr auf einem anderen Planeten",
+        "Die Zeit, bis ein Stern verglüht",
+        "Die Strecke, die Licht in einem Jahr zurücklegt",
+        "Ein besonders sonniges Jahr"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Licht ist rund 300.000 Kilometer pro Sekunde schnell. In einem Jahr schafft es fast 10 Billionen Kilometer – für die riesigen Abstände im All eine praktische Einheit.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0052",
+      "subtopic": "stars",
+      "level": 3,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was ist ein Schwarzes Loch?",
+      "answers": [
+        "Ein Loch in der Erdkruste",
+        "Ein erloschener Planet",
+        "Ein Ort, von dem nicht einmal Licht entkommen kann",
+        "Ein dunkler Fleck auf der Sonne"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In einem Schwarzen Loch ist sehr viel Masse auf winzigem Raum zusammengepresst. Seine Schwerkraft ist so stark, dass nichts mehr herauskommt, nicht einmal Licht.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0053",
+      "subtopic": "spaceflight",
+      "level": 3,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "Wie hieß die Mission, bei der 1969 erstmals Menschen auf dem Mond landeten?",
+      "answers": [
+        "Sputnik 1",
+        "Artemis 2",
+        "Apollo 11",
+        "Gemini 4"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Am 20. Juli 1969 landeten Neil Armstrong und Buzz Aldrin mit der Mondfähre. Michael Collins wartete im Raumschiff in der Umlaufbahn auf sie.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0054",
+      "subtopic": "spaceflight",
+      "level": 3,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Was ist ein Mars-Rover?",
+      "answers": [
+        "Ein ferngesteuertes Fahrzeug, das den Mars erkundet",
+        "Ein Stern in der Nähe des Mars",
+        "Ein Astronaut auf dem Mars",
+        "Eine Raumstation um den Mars"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rover wie „Curiosity“ und „Perseverance“ fahren über den Mars, fotografieren und untersuchen Gestein. Ihre Befehle bekommen sie per Funk von der Erde.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0055",
+      "subtopic": "spaceflight",
+      "level": 3,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Was essen Astronauten im All?",
+      "answers": [
+        "Gar nichts",
+        "Frisch Gekochtes vom Gasherd",
+        "Spezielle Nahrung in Tüten und Dosen",
+        "Nur Tabletten"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Astronauten essen ganz normale Gerichte, die haltbar gemacht und verpackt sind. Krümel sind übrigens verboten – sie würden herumschweben und könnten in Geräte geraten.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0056",
+      "subtopic": "sun_moon",
+      "level": 3,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "In welcher Himmelsrichtung geht die Sonne auf?",
+      "answers": [
+        "Im Norden",
+        "Im Osten",
+        "Im Süden",
+        "Im Westen"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Die Erde dreht sich von West nach Ost. Deshalb sehen wir die Sonne im Osten auftauchen und im Westen untergehen.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0057",
+      "subtopic": "sun_moon",
+      "level": 3,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "title": "Warum ist es auf dem Mond tagsüber sehr heiß und nachts eiskalt?",
+      "answers": [
+        "Er hat keine Lufthülle, die Wärme speichert",
+        "Er ist näher an der Sonne als die Erde",
+        "Er besteht aus Metall",
+        "Er dreht sich sehr schnell"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Ohne Lufthülle heizt die Sonne den Boden auf über 100 °C auf. Ist es Nacht, entweicht die Wärme sofort ins All, und es wird kälter als −150 °C.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0058",
+      "subtopic": "planets",
+      "level": 3,
+      "order": 9,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "title": "Was ist Pluto heute?",
+      "answers": [
+        "Der neunte Planet",
+        "Ein Mond des Neptun",
+        "Ein Komet",
+        "Ein Zwergplanet"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Pluto galt lange als neunter Planet. Weil man weitere ähnliche Himmelskörper fand, zählt er seit 2006 als Zwergplanet.",
+      "ageFrom": 8,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0059",
+      "subtopic": "spaceflight",
+      "level": 3,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "title": "Wofür nutzen wir Satelliten im Alltag?",
+      "answers": [
+        "Für Navigation, Wetterbericht und Fernsehen",
+        "Um den Mond zu beleuchten",
+        "Um Regen zu machen",
+        "Um Flugzeuge zu betanken"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Das Navi im Auto empfängt Signale von Satelliten, Wettersatelliten fotografieren Wolken, und manche Fernsehprogramme kommen per Satellit zu uns.",
+      "ageFrom": 6,
+      "ageTo": 12
+    },
+    {
+      "id": "space-0060",
+      "subtopic": "stars",
+      "level": 3,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "title": "In welchem Monat sieht man besonders viele Sternschnuppen?",
+      "answers": [
+        "Im April",
+        "Im Oktober",
+        "Im Januar",
+        "Im August"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Mitte August kreuzt die Erde eine Staubspur, die ein Komet hinterlassen hat. Die Teilchen verglühen in der Luft – das sind die Perseiden mit oft Dutzenden Sternschnuppen pro Stunde.",
+      "ageFrom": 8,
+      "ageTo": 12
     }
   ]
 }
