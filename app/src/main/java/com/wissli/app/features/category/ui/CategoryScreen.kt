@@ -83,61 +83,79 @@ private fun CategoryContent(
                 }
 
             else ->
-                LazyColumn(
-                    modifier = Modifier.padding(innerPadding).fillMaxSize(),
-                    contentPadding = PaddingValues(bottom = Spacing.xl),
-                ) {
-                    item {
-                        BackButton(onBack = onBack, modifier = Modifier.padding(horizontal = Spacing.xs))
-                    }
-                    item {
-                        CategoryHero(
-                            overview = overview,
-                            modifier = Modifier.padding(horizontal = Spacing.screenHorizontal),
-                        )
-                    }
-                    item {
-                        Text(
-                            text = stringResource(R.string.category_levels_title),
-                            style = MaterialTheme.typography.titleMedium,
-                            color = MaterialTheme.colorScheme.onBackground,
-                            modifier =
-                                Modifier.padding(
-                                    start = Spacing.screenHorizontal,
-                                    end = Spacing.screenHorizontal,
-                                    top = Spacing.l,
-                                    bottom = Spacing.s,
-                                ),
-                        )
-                    }
-                    items((1..overview.category.levelCount).toList(), key = { it }) { level ->
-                        LevelPathRow(
-                            level = level,
-                            status = overview.levelStatus(level),
-                            progress = overview.progress,
-                            isLast = level == overview.category.levelCount,
-                            onClick = { onOpenLevel(overview.category.id, level) },
-                            modifier = Modifier.padding(horizontal = Spacing.screenHorizontal),
-                        )
-                    }
-                    // A finished path would otherwise just end, which reads like a dead end.
-                    if (overview.progress.completedLevels >= overview.category.levelCount) {
-                        item {
-                            Text(
-                                text = stringResource(R.string.learn_more_levels_soon),
-                                style = MaterialTheme.typography.bodyLarge,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                                textAlign = TextAlign.Center,
-                                modifier =
-                                    Modifier
-                                        .fillMaxWidth()
-                                        .padding(horizontal = Spacing.screenHorizontal, vertical = Spacing.m),
-                            )
-                        }
-                    }
-                }
+                CategoryLevelPath(
+                    overview = overview,
+                    onBack = onBack,
+                    onOpenLevel = onOpenLevel,
+                    modifier = Modifier.padding(innerPadding),
+                )
         }
     }
+}
+
+@Composable
+private fun CategoryLevelPath(
+    overview: CategoryOverview,
+    onBack: () -> Unit,
+    onOpenLevel: (categoryId: String, level: Int) -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    LazyColumn(
+        modifier = modifier.fillMaxSize(),
+        contentPadding = PaddingValues(bottom = Spacing.xl),
+    ) {
+        item {
+            BackButton(onBack = onBack, modifier = Modifier.padding(horizontal = Spacing.xs))
+        }
+        item {
+            CategoryHero(
+                overview = overview,
+                modifier = Modifier.padding(horizontal = Spacing.screenHorizontal),
+            )
+        }
+        item {
+            Text(
+                text = stringResource(R.string.category_levels_title),
+                style = MaterialTheme.typography.titleMedium,
+                color = MaterialTheme.colorScheme.onBackground,
+                modifier =
+                    Modifier.padding(
+                        start = Spacing.screenHorizontal,
+                        end = Spacing.screenHorizontal,
+                        top = Spacing.l,
+                        bottom = Spacing.s,
+                    ),
+            )
+        }
+        items((1..overview.category.levelCount).toList(), key = { it }) { level ->
+            LevelPathRow(
+                level = level,
+                status = overview.levelStatus(level),
+                progress = overview.progress,
+                isLast = level == overview.category.levelCount,
+                onClick = { onOpenLevel(overview.category.id, level) },
+                modifier = Modifier.padding(horizontal = Spacing.screenHorizontal),
+            )
+        }
+        // A finished path would otherwise just end, which reads like a dead end.
+        if (overview.progress.completedLevels >= overview.category.levelCount) {
+            item { MoreLevelsSoonHint() }
+        }
+    }
+}
+
+@Composable
+private fun MoreLevelsSoonHint() {
+    Text(
+        text = stringResource(R.string.learn_more_levels_soon),
+        style = MaterialTheme.typography.bodyLarge,
+        color = MaterialTheme.colorScheme.onSurfaceVariant,
+        textAlign = TextAlign.Center,
+        modifier =
+            Modifier
+                .fillMaxWidth()
+                .padding(horizontal = Spacing.screenHorizontal, vertical = Spacing.m),
+    )
 }
 
 @Composable
