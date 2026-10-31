@@ -19,11 +19,14 @@ class QuestionContentParserTest {
             )
 
         assertEquals(3, content.contentVersion)
+        assertEquals(listOf("de", "en"), content.languages)
         assertEquals(listOf("nature", "space"), content.categories.map { it.id })
+        assertEquals("Nature", content.categories.first().names["en"])
         val question = content.questions.first()
         assertEquals("nature-0001", question.id)
         assertEquals("nature", question.categoryId)
-        assertEquals(listOf("a", "b", "c", "d"), question.answers)
+        assertEquals(listOf("a", "b", "c", "d"), question.texts.getValue("en").answers)
+        assertEquals("Warum?", question.texts.getValue("de").title)
         assertEquals(Difficulty.HARD, question.difficulty)
         assertEquals("space", content.questions.last().categoryId)
     }
@@ -73,6 +76,26 @@ class QuestionContentParserTest {
         }
     }
 
+    @Test
+    fun `rejects a question without every language`() {
+        assertThrows(IllegalArgumentException::class.java) {
+            parse(
+                "nature" to categoryFile("nature", question("nature-0001", languages = listOf("de"))),
+                "space" to categoryFile("space"),
+            )
+        }
+    }
+
+    @Test
+    fun `rejects languages with different answer counts`() {
+        assertThrows(IllegalArgumentException::class.java) {
+            parse(
+                "nature" to categoryFile("nature", question("nature-0001", englishAnswers = """["a", "b", "c"]""")),
+                "space" to categoryFile("space"),
+            )
+        }
+    }
+
     // Guards the shipped package: a broken asset would only show up as missing content on a device.
     @Test
     fun `bundled package is valid and fills complete levels`() {
@@ -81,6 +104,7 @@ class QuestionContentParserTest {
                 File(BUNDLED_CONTENT, "categories/$categoryId.json").readText()
             }
 
+        assertEquals(listOf("de", "en"), content.languages)
         content.categories.forEach { category ->
             assertTrue("${category.id} has no questions", content.questions.any { it.categoryId == category.id })
         }
@@ -110,20 +134,29 @@ class QuestionContentParserTest {
         id: String,
         correctAnswerIndex: Int = 1,
         difficulty: String? = null,
-    ) = """
-        {
-          "id": "$id",
-          "level": 1,
-          "order": 1,
-          "title": "Why?",
-          "answers": ["a", "b", "c", "d"],
-          "correctAnswerIndex": $correctAnswerIndex,
-          "explanation": "Because.",
-          "ageFrom": 6,
-          "ageTo": 12
-          ${difficulty?.let { ", \"difficulty\": $it" }.orEmpty()}
-        }
-        """
+        languages: List<String> = listOf("de", "en"),
+        englishAnswers: String = """["a", "b", "c", "d"]""",
+    ): String {
+        val texts =
+            mapOf(
+                "de" to """{ "title": "Warum?", "answers": ["a", "b", "c", "d"], "explanation": "Weil." }""",
+                "en" to """{ "title": "Why?", "answers": $englishAnswers, "explanation": "Because." }""",
+            ).filterKeys { it in languages }
+                .entries
+                .joinToString { (language, text) -> "\"$language\": $text" }
+        return """
+            {
+              "id": "$id",
+              "level": 1,
+              "order": 1,
+              "correctAnswerIndex": $correctAnswerIndex,
+              "ageFrom": 6,
+              "ageTo": 12,
+              "texts": { $texts }
+              ${difficulty?.let { ", \"difficulty\": $it" }.orEmpty()}
+            }
+            """
+    }
 
     private companion object {
         // Unit tests run with the module directory as working directory.
@@ -133,9 +166,10 @@ class QuestionContentParserTest {
             """
             {
               "contentVersion": 3,
+              "languages": ["de", "en"],
               "categories": [
-                { "id": "nature", "name": "Natur", "order": 0 },
-                { "id": "space", "name": "Weltall", "order": 1 }
+                { "id": "nature", "name": { "de": "Natur", "en": "Nature" }, "order": 0 },
+                { "id": "space", "name": { "de": "Weltall", "en": "Space" }, "order": 1 }
               ]
             }
             """.trimIndent()

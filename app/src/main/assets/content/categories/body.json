@@ -8,17 +8,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum bekommen wir Gänsehaut?",
-      "answers": [
-        "Blut sammelt sich unter der Haut",
-        "Die Haut zieht sich vor Kälte zusammen",
-        "Kleine Muskeln richten die Härchen auf",
-        "Die Poren schließen sich"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Bei unseren Vorfahren mit dichtem Fell hielt das aufgestellte Haar mehr warme Luft fest. Bei uns ist davon nur die Gänsehaut geblieben.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum bekommen wir Gänsehaut?",
+          "answers": [
+            "Blut sammelt sich unter der Haut",
+            "Die Haut zieht sich vor Kälte zusammen",
+            "Kleine Muskeln richten die Härchen auf",
+            "Die Poren schließen sich"
+          ],
+          "explanation": "Bei unseren Vorfahren mit dichtem Fell hielt das aufgestellte Haar mehr warme Luft fest. Bei uns ist davon nur die Gänsehaut geblieben."
+        },
+        "en": {
+          "title": "Why do we get goosebumps?",
+          "answers": [
+            "Blood collects under the skin",
+            "The skin shrinks from the cold",
+            "Tiny muscles make the little hairs stand up",
+            "The pores close"
+          ],
+          "explanation": "For our ancestors with thick fur, raised hair trapped more warm air. All we have left of that is goosebumps."
+        }
+      }
     },
     {
       "id": "body-0002",
@@ -27,17 +41,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum ist Blut rot?",
-      "answers": [
-        "Wegen der weißen Blutkörperchen",
-        "Der Farbstoff Hämoglobin enthält Eisen",
-        "Es wird erst an der Luft rot",
-        "Es enthält Kupfer"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Hämoglobin transportiert den Sauerstoff. Mit viel Sauerstoff ist Blut hellrot, mit wenig dunkelrot, aber nie blau, auch wenn Adern bläulich aussehen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist Blut rot?",
+          "answers": [
+            "Wegen der weißen Blutkörperchen",
+            "Der Farbstoff Hämoglobin enthält Eisen",
+            "Es wird erst an der Luft rot",
+            "Es enthält Kupfer"
+          ],
+          "explanation": "Hämoglobin transportiert den Sauerstoff. Mit viel Sauerstoff ist Blut hellrot, mit wenig dunkelrot, aber nie blau, auch wenn Adern bläulich aussehen."
+        },
+        "en": {
+          "title": "Why is blood red?",
+          "answers": [
+            "Because of the white blood cells",
+            "The pigment haemoglobin contains iron",
+            "It only turns red in the air",
+            "It contains copper"
+          ],
+          "explanation": "Haemoglobin carries oxygen. With lots of oxygen blood is bright red, with little it is dark red – but never blue, even though veins look bluish."
+        }
+      }
     },
     {
       "id": "body-0003",
@@ -46,17 +74,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum müssen wir niesen?",
-      "answers": [
-        "Weil die Lunge zu voll ist",
-        "Damit die Augen feucht bleiben",
-        "Die Nase will Reizstoffe loswerden",
-        "Weil uns kalt ist"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Kitzeln Staub, Pollen oder Krankheitserreger die Nasenschleimhaut, schießt die Luft beim Niesen mit großer Wucht heraus und nimmt die Störenfriede mit.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum müssen wir niesen?",
+          "answers": [
+            "Weil die Lunge zu voll ist",
+            "Damit die Augen feucht bleiben",
+            "Die Nase will Reizstoffe loswerden",
+            "Weil uns kalt ist"
+          ],
+          "explanation": "Kitzeln Staub, Pollen oder Krankheitserreger die Nasenschleimhaut, schießt die Luft beim Niesen mit großer Wucht heraus und nimmt die Störenfriede mit."
+        },
+        "en": {
+          "title": "Why do we sneeze?",
+          "answers": [
+            "Because the lungs are too full",
+            "To keep the eyes moist",
+            "The nose wants to get rid of irritants",
+            "Because we are cold"
+          ],
+          "explanation": "When dust, pollen or germs tickle the inside of the nose, a sneeze shoots air out with great force and takes the troublemakers with it."
+        }
+      }
     },
     {
       "id": "body-0004",
@@ -65,17 +107,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum blinzeln wir?",
-      "answers": [
-        "Damit die Augen feucht und sauber bleiben",
-        "Um die Wimpern zu trainieren",
-        "Damit sich die Augen ausruhen",
-        "Weil das Licht zu hell ist"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Bei jedem Lidschlag verteilt sich ein dünner Tränenfilm auf dem Auge und wischt Staub weg. Wir blinzeln etwa 10- bis 20-mal pro Minute, meist ohne es zu merken.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum blinzeln wir?",
+          "answers": [
+            "Damit die Augen feucht und sauber bleiben",
+            "Um die Wimpern zu trainieren",
+            "Damit sich die Augen ausruhen",
+            "Weil das Licht zu hell ist"
+          ],
+          "explanation": "Bei jedem Lidschlag verteilt sich ein dünner Tränenfilm auf dem Auge und wischt Staub weg. Wir blinzeln etwa 10- bis 20-mal pro Minute, meist ohne es zu merken."
+        },
+        "en": {
+          "title": "Why do we blink?",
+          "answers": [
+            "To keep our eyes moist and clean",
+            "To train our eyelashes",
+            "To rest our eyes",
+            "Because the light is too bright"
+          ],
+          "explanation": "Every blink spreads a thin film of tears over the eye and wipes away dust. We blink about 10 to 20 times a minute, mostly without noticing."
+        }
+      }
     },
     {
       "id": "body-0005",
@@ -84,17 +140,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Welches ist das größte Organ des Menschen?",
-      "answers": [
-        "Die Leber",
-        "Das Gehirn",
-        "Die Haut",
-        "Die Lunge"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Die Haut eines Erwachsenen ist bis zu zwei Quadratmeter groß und wiegt mehrere Kilogramm. Sie schützt uns, hält Wärme und spürt jede Berührung.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches ist das größte Organ des Menschen?",
+          "answers": [
+            "Die Leber",
+            "Das Gehirn",
+            "Die Haut",
+            "Die Lunge"
+          ],
+          "explanation": "Die Haut eines Erwachsenen ist bis zu zwei Quadratmeter groß und wiegt mehrere Kilogramm. Sie schützt uns, hält Wärme und spürt jede Berührung."
+        },
+        "en": {
+          "title": "What is the largest organ of the human body?",
+          "answers": [
+            "The liver",
+            "The brain",
+            "The skin",
+            "The lungs"
+          ],
+          "explanation": "An adult's skin covers up to two square metres and weighs several kilograms. It protects us, keeps in warmth and feels every touch."
+        }
+      }
     },
     {
       "id": "body-0006",
@@ -103,17 +173,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wozu brauchen wir Schlaf?",
-      "answers": [
-        "Weil das Herz sonst stehen bleibt",
-        "Körper und Gehirn erholen sich",
-        "Damit die Augen nicht austrocknen",
-        "Damit wir weniger essen müssen"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Im Schlaf repariert der Körper Zellen, und das Gehirn speichert, was wir tagsüber gelernt haben. Wer zu wenig schläft, kann sich schlechter konzentrieren.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu brauchen wir Schlaf?",
+          "answers": [
+            "Weil das Herz sonst stehen bleibt",
+            "Körper und Gehirn erholen sich",
+            "Damit die Augen nicht austrocknen",
+            "Damit wir weniger essen müssen"
+          ],
+          "explanation": "Im Schlaf repariert der Körper Zellen, und das Gehirn speichert, was wir tagsüber gelernt haben. Wer zu wenig schläft, kann sich schlechter konzentrieren."
+        },
+        "en": {
+          "title": "Why do we need sleep?",
+          "answers": [
+            "Because otherwise the heart would stop",
+            "Our body and brain recover",
+            "So our eyes don't dry out",
+            "So we need to eat less"
+          ],
+          "explanation": "During sleep the body repairs cells and the brain stores what we learned during the day. People who sleep too little find it harder to concentrate."
+        }
+      }
     },
     {
       "id": "body-0007",
@@ -122,17 +206,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum knurrt der Magen?",
-      "answers": [
-        "Magen und Darm bewegen Luft und Verdauungssaft",
-        "Die Rippen reiben aneinander",
-        "Der Magen friert",
-        "Die Galle kocht über"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Auch wenn wir nichts essen, ziehen sich Magen und Darm regelmäßig zusammen, um Reste weiterzuschieben. Ist kaum Nahrung darin, blubbern Luft und Verdauungssäfte besonders hörbar.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum knurrt der Magen?",
+          "answers": [
+            "Magen und Darm bewegen Luft und Verdauungssaft",
+            "Die Rippen reiben aneinander",
+            "Der Magen friert",
+            "Die Galle kocht über"
+          ],
+          "explanation": "Auch wenn wir nichts essen, ziehen sich Magen und Darm regelmäßig zusammen, um Reste weiterzuschieben. Ist kaum Nahrung darin, blubbern Luft und Verdauungssäfte besonders hörbar."
+        },
+        "en": {
+          "title": "Why does your tummy rumble?",
+          "answers": [
+            "Stomach and gut move air and digestive juices",
+            "The ribs rub together",
+            "The stomach is cold",
+            "The bile boils over"
+          ],
+          "explanation": "Even when we don't eat, the stomach and gut squeeze regularly to push leftovers along. With hardly any food inside, the air and juices gurgle especially loudly."
+        }
+      }
     },
     {
       "id": "body-0008",
@@ -141,17 +239,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie viele Zähne hat ein Erwachsener mit Weisheitszähnen?",
-      "answers": [
-        "42",
-        "32",
-        "28",
-        "20"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Mit allen vier Weisheitszähnen sind es 32 bleibende Zähne. Bei vielen Menschen kommen die Weisheitszähne aber nie ganz heraus. Kinder haben zuerst 20 Milchzähne.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Zähne hat ein Erwachsener mit Weisheitszähnen?",
+          "answers": [
+            "42",
+            "32",
+            "28",
+            "20"
+          ],
+          "explanation": "Mit allen vier Weisheitszähnen sind es 32 bleibende Zähne. Bei vielen Menschen kommen die Weisheitszähne aber nie ganz heraus. Kinder haben zuerst 20 Milchzähne."
+        },
+        "en": {
+          "title": "How many teeth does an adult have, including wisdom teeth?",
+          "answers": [
+            "42",
+            "32",
+            "28",
+            "20"
+          ],
+          "explanation": "With all four wisdom teeth there are 32 permanent teeth. In many people, though, the wisdom teeth never fully come through. Children first have 20 milk teeth."
+        }
+      }
     },
     {
       "id": "body-0009",
@@ -160,17 +272,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum schwitzen wir?",
-      "answers": [
-        "Damit die Haut glänzt",
-        "Um Wasser loszuwerden",
-        "Um Giftstoffe auszuspülen",
-        "Verdunstender Schweiß kühlt die Haut"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Wird uns zu warm, geben Millionen Schweißdrüsen Flüssigkeit ab. Verdunstet sie auf der Haut, nimmt sie Wärme mit, und wir kühlen ab.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum schwitzen wir?",
+          "answers": [
+            "Damit die Haut glänzt",
+            "Um Wasser loszuwerden",
+            "Um Giftstoffe auszuspülen",
+            "Verdunstender Schweiß kühlt die Haut"
+          ],
+          "explanation": "Wird uns zu warm, geben Millionen Schweißdrüsen Flüssigkeit ab. Verdunstet sie auf der Haut, nimmt sie Wärme mit, und wir kühlen ab."
+        },
+        "en": {
+          "title": "Why do we sweat?",
+          "answers": [
+            "To make the skin shine",
+            "To get rid of water",
+            "To wash out toxins",
+            "Evaporating sweat cools the skin"
+          ],
+          "explanation": "When we get too warm, millions of sweat glands release liquid. As it evaporates from the skin, it takes heat with it and we cool down."
+        }
+      }
     },
     {
       "id": "body-0010",
@@ -179,17 +305,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was ist die Aufgabe des Herzens?",
-      "answers": [
-        "Es verdaut das Essen",
-        "Es atmet für uns",
-        "Es pumpt Blut durch den Körper",
-        "Es denkt mit"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Das Herz ist ein Muskel, etwa so groß wie eine Faust. Es schlägt rund 100.000 Mal am Tag und pumpt das Blut durch den ganzen Körper.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist die Aufgabe des Herzens?",
+          "answers": [
+            "Es verdaut das Essen",
+            "Es atmet für uns",
+            "Es pumpt Blut durch den Körper",
+            "Es denkt mit"
+          ],
+          "explanation": "Das Herz ist ein Muskel, etwa so groß wie eine Faust. Es schlägt rund 100.000 Mal am Tag und pumpt das Blut durch den ganzen Körper."
+        },
+        "en": {
+          "title": "What is the heart's job?",
+          "answers": [
+            "It digests food",
+            "It breathes for us",
+            "It pumps blood through the body",
+            "It helps us think"
+          ],
+          "explanation": "The heart is a muscle about the size of a fist. It beats around 100,000 times a day and pumps blood through the whole body."
+        }
+      }
     },
     {
       "id": "body-0011",
@@ -198,17 +338,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum schmeckt Essen bei Schnupfen nach wenig?",
-      "answers": [
-        "Das Fieber stört den Geschmack",
-        "Die Zunge ist mit erkältet",
-        "Viel vom Geschmack ist eigentlich Geruch",
-        "Die Medizin überdeckt alles"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Die Zunge schmeckt nur süß, sauer, salzig, bitter und umami. Alles andere, etwa das Aroma von Erdbeere oder Vanille, riecht die Nase mit. Ist sie verstopft, schmeckt vieles fad.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum schmeckt Essen bei Schnupfen nach wenig?",
+          "answers": [
+            "Das Fieber stört den Geschmack",
+            "Die Zunge ist mit erkältet",
+            "Viel vom Geschmack ist eigentlich Geruch",
+            "Die Medizin überdeckt alles"
+          ],
+          "explanation": "Die Zunge schmeckt nur süß, sauer, salzig, bitter und umami. Alles andere, etwa das Aroma von Erdbeere oder Vanille, riecht die Nase mit. Ist sie verstopft, schmeckt vieles fad."
+        },
+        "en": {
+          "title": "Why does food taste of very little when you have a cold?",
+          "answers": [
+            "The fever disturbs the taste",
+            "The tongue has a cold too",
+            "A lot of taste is really smell",
+            "The medicine covers everything"
+          ],
+          "explanation": "The tongue only tastes sweet, sour, salty, bitter and umami. Everything else, like the flavour of strawberry or vanilla, is smelled by the nose. If it is blocked, many things taste bland."
+        }
+      }
     },
     {
       "id": "body-0012",
@@ -217,17 +371,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Mit welchem Organ halten wir das Gleichgewicht?",
-      "answers": [
-        "Mit den Fußsohlen",
-        "Nur mit den Augen",
-        "Mit dem Magen",
-        "Mit dem Innenohr"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Im Innenohr liegen kleine, mit Flüssigkeit gefüllte Bögen. Bewegt sich der Kopf, schwappt die Flüssigkeit mit, und feine Härchen melden das ans Gehirn. Deshalb wird einem nach dem Drehen schwindelig.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Mit welchem Organ halten wir das Gleichgewicht?",
+          "answers": [
+            "Mit den Fußsohlen",
+            "Nur mit den Augen",
+            "Mit dem Magen",
+            "Mit dem Innenohr"
+          ],
+          "explanation": "Im Innenohr liegen kleine, mit Flüssigkeit gefüllte Bögen. Bewegt sich der Kopf, schwappt die Flüssigkeit mit, und feine Härchen melden das ans Gehirn. Deshalb wird einem nach dem Drehen schwindelig."
+        },
+        "en": {
+          "title": "Which organ helps us keep our balance?",
+          "answers": [
+            "The soles of the feet",
+            "Only the eyes",
+            "The stomach",
+            "The inner ear"
+          ],
+          "explanation": "The inner ear contains small loops filled with liquid. When the head moves, the liquid sloshes along and tiny hairs report it to the brain. That's why you feel dizzy after spinning."
+        }
+      }
     },
     {
       "id": "body-0013",
@@ -236,17 +404,31 @@
       "order": 11,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum ist die Pupille mal groß, mal klein?",
-      "answers": [
-        "Sie zeigt, wie müde man ist",
-        "Sie wächst mit dem Alter",
-        "Sie regelt, wie viel Licht ins Auge fällt",
-        "Sie ändert sich mit der Augenfarbe"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Die Pupille ist ein Loch in der Regenbogenhaut. Im Hellen zieht sie sich zusammen, damit das Auge nicht geblendet wird, im Dunkeln öffnet sie sich weit, um möglichst viel Licht einzufangen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist die Pupille mal groß, mal klein?",
+          "answers": [
+            "Sie zeigt, wie müde man ist",
+            "Sie wächst mit dem Alter",
+            "Sie regelt, wie viel Licht ins Auge fällt",
+            "Sie ändert sich mit der Augenfarbe"
+          ],
+          "explanation": "Die Pupille ist ein Loch in der Regenbogenhaut. Im Hellen zieht sie sich zusammen, damit das Auge nicht geblendet wird, im Dunkeln öffnet sie sich weit, um möglichst viel Licht einzufangen."
+        },
+        "en": {
+          "title": "Why is the pupil sometimes big and sometimes small?",
+          "answers": [
+            "It shows how tired you are",
+            "It grows with age",
+            "It controls how much light gets into the eye",
+            "It changes with eye colour"
+          ],
+          "explanation": "The pupil is a hole in the iris. In bright light it shrinks so the eye isn't dazzled; in the dark it opens wide to catch as much light as possible."
+        }
+      }
     },
     {
       "id": "body-0014",
@@ -255,17 +437,31 @@
       "order": 12,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum haben wir zwei Ohren?",
-      "answers": [
-        "Falls eines nicht mehr funktioniert",
-        "Damit wir zwei Gespräche gleichzeitig verstehen",
-        "So hören wir, woher ein Geräusch kommt",
-        "Damit wir doppelt so laut hören"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Ein Geräusch von links erreicht das linke Ohr etwas früher und lauter als das rechte. Aus diesem winzigen Unterschied berechnet das Gehirn blitzschnell die Richtung.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum haben wir zwei Ohren?",
+          "answers": [
+            "Falls eines nicht mehr funktioniert",
+            "Damit wir zwei Gespräche gleichzeitig verstehen",
+            "So hören wir, woher ein Geräusch kommt",
+            "Damit wir doppelt so laut hören"
+          ],
+          "explanation": "Ein Geräusch von links erreicht das linke Ohr etwas früher und lauter als das rechte. Aus diesem winzigen Unterschied berechnet das Gehirn blitzschnell die Richtung."
+        },
+        "en": {
+          "title": "Why do we have two ears?",
+          "answers": [
+            "In case one stops working",
+            "So we can follow two conversations at once",
+            "So we can hear where a sound comes from",
+            "So we hear twice as loud"
+          ],
+          "explanation": "A sound from the left reaches the left ear a little earlier and louder than the right. From this tiny difference the brain works out the direction in a flash."
+        }
+      }
     },
     {
       "id": "body-0015",
@@ -274,17 +470,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum werden wir abends müde?",
-      "answers": [
-        "Das Abendessen macht müde",
-        "Dem Körper geht der Sauerstoff aus",
-        "Die innere Uhr schüttet das Schlafhormon Melatonin aus",
-        "Die Augen sind vom Licht erschöpft"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Unser Körper hat eine innere Uhr, die sich am Tageslicht orientiert. Wird es dunkel, bildet er vermehrt das Schlafhormon Melatonin, und wir werden müde. Helles Bildschirmlicht am Abend kann das verzögern.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum werden wir abends müde?",
+          "answers": [
+            "Das Abendessen macht müde",
+            "Dem Körper geht der Sauerstoff aus",
+            "Die innere Uhr schüttet das Schlafhormon Melatonin aus",
+            "Die Augen sind vom Licht erschöpft"
+          ],
+          "explanation": "Unser Körper hat eine innere Uhr, die sich am Tageslicht orientiert. Wird es dunkel, bildet er vermehrt das Schlafhormon Melatonin, und wir werden müde. Helles Bildschirmlicht am Abend kann das verzögern."
+        },
+        "en": {
+          "title": "Why do we get tired in the evening?",
+          "answers": [
+            "Dinner makes us tired",
+            "The body runs out of oxygen",
+            "Our body clock releases the sleep hormone melatonin",
+            "Our eyes are worn out by the light"
+          ],
+          "explanation": "Our body has an inner clock that follows daylight. When it gets dark, it makes more of the sleep hormone melatonin and we get tired. Bright screen light in the evening can delay this."
+        }
+      }
     },
     {
       "id": "body-0016",
@@ -293,17 +503,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wozu braucht unser Körper Eiweiß?",
-      "answers": [
-        "Für die Farbe der Haut",
-        "Nur zum Schlafen",
-        "Zum Aufbau von Muskeln und anderen Zellen",
-        "Zum Speichern von Wasser"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Eiweiß, auch Protein genannt, ist der wichtigste Baustoff des Körpers. Aus ihm bestehen Muskeln, Haare, Haut und viele Botenstoffe.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu braucht unser Körper Eiweiß?",
+          "answers": [
+            "Für die Farbe der Haut",
+            "Nur zum Schlafen",
+            "Zum Aufbau von Muskeln und anderen Zellen",
+            "Zum Speichern von Wasser"
+          ],
+          "explanation": "Eiweiß, auch Protein genannt, ist der wichtigste Baustoff des Körpers. Aus ihm bestehen Muskeln, Haare, Haut und viele Botenstoffe."
+        },
+        "en": {
+          "title": "What does our body need protein for?",
+          "answers": [
+            "For the colour of the skin",
+            "Only for sleeping",
+            "To build muscles and other cells",
+            "To store water"
+          ],
+          "explanation": "Protein is the body's most important building material. Muscles, hair, skin and many messenger substances are made of it."
+        }
+      }
     },
     {
       "id": "body-0017",
@@ -312,17 +536,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum schnarchen manche Menschen?",
-      "answers": [
-        "Sie träumen laut",
-        "Ihre Nase ist zu groß",
-        "Sie sprechen im Schlaf",
-        "Weiches Gewebe im Rachen flattert beim Atmen"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Im Schlaf entspannen sich die Muskeln im Rachen. Gaumensegel und Zäpfchen hängen schlaffer und flattern im Luftstrom, das erzeugt das Schnarchgeräusch.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum schnarchen manche Menschen?",
+          "answers": [
+            "Sie träumen laut",
+            "Ihre Nase ist zu groß",
+            "Sie sprechen im Schlaf",
+            "Weiches Gewebe im Rachen flattert beim Atmen"
+          ],
+          "explanation": "Im Schlaf entspannen sich die Muskeln im Rachen. Gaumensegel und Zäpfchen hängen schlaffer und flattern im Luftstrom, das erzeugt das Schnarchgeräusch."
+        },
+        "en": {
+          "title": "Why do some people snore?",
+          "answers": [
+            "They dream out loud",
+            "Their nose is too big",
+            "They talk in their sleep",
+            "Soft tissue in the throat flutters when they breathe"
+          ],
+          "explanation": "During sleep the muscles in the throat relax. The soft palate and the uvula hang more loosely and flutter in the airflow – that makes the snoring sound."
+        }
+      }
     },
     {
       "id": "body-0018",
@@ -331,17 +569,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie viel unseres Körpers besteht aus Wasser?",
-      "answers": [
-        "Etwa 90 Prozent",
-        "Etwa 60 Prozent",
-        "Etwa 30 Prozent",
-        "Etwa 10 Prozent"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Ein Erwachsener besteht zu etwa 60 Prozent aus Wasser, ein Baby sogar zu rund 75 Prozent. Weil wir über Atem, Schweiß und Urin ständig Wasser verlieren, müssen wir regelmäßig trinken.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viel unseres Körpers besteht aus Wasser?",
+          "answers": [
+            "Etwa 90 Prozent",
+            "Etwa 60 Prozent",
+            "Etwa 30 Prozent",
+            "Etwa 10 Prozent"
+          ],
+          "explanation": "Ein Erwachsener besteht zu etwa 60 Prozent aus Wasser, ein Baby sogar zu rund 75 Prozent. Weil wir über Atem, Schweiß und Urin ständig Wasser verlieren, müssen wir regelmäßig trinken."
+        },
+        "en": {
+          "title": "How much of our body is water?",
+          "answers": [
+            "About 90 percent",
+            "About 60 percent",
+            "About 30 percent",
+            "About 10 percent"
+          ],
+          "explanation": "An adult is about 60 percent water, a baby even about 75 percent. Because we keep losing water through breath, sweat and urine, we need to drink regularly."
+        }
+      }
     },
     {
       "id": "body-0019",
@@ -350,17 +602,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was passiert im Magen mit dem Essen?",
-      "answers": [
-        "Es wird zu Luft",
-        "Säure und Muskeln machen daraus einen Brei",
-        "Es wird bis zum nächsten Tag gelagert",
-        "Es wird sofort zu Blut"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Der Magen knetet das Essen mit starker Säure und Verdauungssäften durch. Nach ein paar Stunden ist daraus ein Brei geworden, der portionsweise in den Darm wandert.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was passiert im Magen mit dem Essen?",
+          "answers": [
+            "Es wird zu Luft",
+            "Säure und Muskeln machen daraus einen Brei",
+            "Es wird bis zum nächsten Tag gelagert",
+            "Es wird sofort zu Blut"
+          ],
+          "explanation": "Der Magen knetet das Essen mit starker Säure und Verdauungssäften durch. Nach ein paar Stunden ist daraus ein Brei geworden, der portionsweise in den Darm wandert."
+        },
+        "en": {
+          "title": "What happens to food in the stomach?",
+          "answers": [
+            "It turns into air",
+            "Acid and muscles turn it into a mush",
+            "It is stored until the next day",
+            "It turns straight into blood"
+          ],
+          "explanation": "The stomach kneads food with strong acid and digestive juices. After a few hours it has become a mush that moves on into the gut bit by bit."
+        }
+      }
     },
     {
       "id": "body-0020",
@@ -369,17 +635,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum ziehen wir die Hand von einer heißen Herdplatte sofort weg?",
-      "answers": [
-        "Die Haut zieht sich zusammen",
-        "Ein Reflex ist schneller als unser Denken",
-        "Die Hitze stößt die Hand ab",
-        "Wir sehen den Dampf aufsteigen"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Schmerzsignale aus der Hand werden schon im Rückenmark auf die Armmuskeln umgeschaltet. Die Hand zuckt zurück, bevor das Gehirn überhaupt merkt, dass es heiß ist.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ziehen wir die Hand von einer heißen Herdplatte sofort weg?",
+          "answers": [
+            "Die Haut zieht sich zusammen",
+            "Ein Reflex ist schneller als unser Denken",
+            "Die Hitze stößt die Hand ab",
+            "Wir sehen den Dampf aufsteigen"
+          ],
+          "explanation": "Schmerzsignale aus der Hand werden schon im Rückenmark auf die Armmuskeln umgeschaltet. Die Hand zuckt zurück, bevor das Gehirn überhaupt merkt, dass es heiß ist."
+        },
+        "en": {
+          "title": "Why do we pull our hand away from a hot cooker straight away?",
+          "answers": [
+            "The skin contracts",
+            "A reflex is faster than our thinking",
+            "The heat pushes the hand away",
+            "We see steam rising"
+          ],
+          "explanation": "Pain signals from the hand are switched to the arm muscles right in the spinal cord. The hand jerks back before the brain has even noticed it's hot."
+        }
+      }
     },
     {
       "id": "body-0021",
@@ -388,17 +668,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Womit atmen wir?",
-      "answers": [
-        "Mit dem Magen",
-        "Mit dem Herzen",
-        "Mit der Lunge",
-        "Mit der Leber"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Beim Einatmen füllt sich die Lunge mit Luft. Der Sauerstoff geht ins Blut über, und beim Ausatmen geben wir Kohlendioxid ab.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Womit atmen wir?",
+          "answers": [
+            "Mit dem Magen",
+            "Mit dem Herzen",
+            "Mit der Lunge",
+            "Mit der Leber"
+          ],
+          "explanation": "Beim Einatmen füllt sich die Lunge mit Luft. Der Sauerstoff geht ins Blut über, und beim Ausatmen geben wir Kohlendioxid ab."
+        },
+        "en": {
+          "title": "What do we breathe with?",
+          "answers": [
+            "Our stomach",
+            "Our heart",
+            "Our lungs",
+            "Our liver"
+          ],
+          "explanation": "When we breathe in, the lungs fill with air. The oxygen passes into the blood, and when we breathe out we get rid of carbon dioxide."
+        }
+      }
     },
     {
       "id": "body-0022",
@@ -407,17 +701,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was schützt unser Gehirn?",
-      "answers": [
-        "Das Becken",
-        "Die Rippen",
-        "Die Wirbelsäule",
-        "Der Schädel"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Schädel ist eine harte Knochenkapsel. Innen schwimmt das Gehirn zusätzlich in einer Flüssigkeit, die Stöße abfedert.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was schützt unser Gehirn?",
+          "answers": [
+            "Das Becken",
+            "Die Rippen",
+            "Die Wirbelsäule",
+            "Der Schädel"
+          ],
+          "explanation": "Der Schädel ist eine harte Knochenkapsel. Innen schwimmt das Gehirn zusätzlich in einer Flüssigkeit, die Stöße abfedert."
+        },
+        "en": {
+          "title": "What protects our brain?",
+          "answers": [
+            "The pelvis",
+            "The ribs",
+            "The spine",
+            "The skull"
+          ],
+          "explanation": "The skull is a hard case of bone. Inside, the brain also floats in a liquid that cushions bumps."
+        }
+      }
     },
     {
       "id": "body-0023",
@@ -426,17 +734,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie viele Knochen hat ein Erwachsener ungefähr?",
-      "answers": [
-        "Etwa 200",
-        "Etwa 2.000",
-        "Etwa 20",
-        "Etwa 50"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Ein Erwachsener hat rund 206 Knochen. Babys haben sogar mehr, weil einige Knochen erst beim Wachsen zusammenwachsen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Knochen hat ein Erwachsener ungefähr?",
+          "answers": [
+            "Etwa 200",
+            "Etwa 2.000",
+            "Etwa 20",
+            "Etwa 50"
+          ],
+          "explanation": "Ein Erwachsener hat rund 206 Knochen. Babys haben sogar mehr, weil einige Knochen erst beim Wachsen zusammenwachsen."
+        },
+        "en": {
+          "title": "Roughly how many bones does an adult have?",
+          "answers": [
+            "About 200",
+            "About 2,000",
+            "About 20",
+            "About 50"
+          ],
+          "explanation": "An adult has around 206 bones. Babies have even more, because some bones only fuse together as they grow."
+        }
+      }
     },
     {
       "id": "body-0024",
@@ -445,17 +767,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wozu haben wir Rippen?",
-      "answers": [
-        "Damit wir uns biegen können",
-        "Sie schützen Herz und Lunge",
-        "Zum Verdauen",
-        "Sie speichern Luft"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Die Rippen bilden einen Käfig um Herz und Lunge. Sie sind trotzdem beweglich, damit sich der Brustkorb beim Atmen weiten kann.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu haben wir Rippen?",
+          "answers": [
+            "Damit wir uns biegen können",
+            "Sie schützen Herz und Lunge",
+            "Zum Verdauen",
+            "Sie speichern Luft"
+          ],
+          "explanation": "Die Rippen bilden einen Käfig um Herz und Lunge. Sie sind trotzdem beweglich, damit sich der Brustkorb beim Atmen weiten kann."
+        },
+        "en": {
+          "title": "What are our ribs for?",
+          "answers": [
+            "So we can bend",
+            "They protect the heart and lungs",
+            "For digesting",
+            "They store air"
+          ],
+          "explanation": "The ribs form a cage around the heart and lungs. They can still move, so the chest can expand when we breathe."
+        }
+      }
     },
     {
       "id": "body-0025",
@@ -464,17 +800,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Mit welchem Sinnesorgan riechen wir?",
-      "answers": [
-        "Mit der Nase",
-        "Mit der Zunge",
-        "Mit den Augen",
-        "Mit den Ohren"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Oben in der Nase sitzen Millionen Riechzellen. Damit können wir Tausende verschiedene Gerüche unterscheiden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Mit welchem Sinnesorgan riechen wir?",
+          "answers": [
+            "Mit der Nase",
+            "Mit der Zunge",
+            "Mit den Augen",
+            "Mit den Ohren"
+          ],
+          "explanation": "Oben in der Nase sitzen Millionen Riechzellen. Damit können wir Tausende verschiedene Gerüche unterscheiden."
+        },
+        "en": {
+          "title": "Which sense organ do we smell with?",
+          "answers": [
+            "The nose",
+            "The tongue",
+            "The eyes",
+            "The ears"
+          ],
+          "explanation": "Millions of smell cells sit high up in the nose. With them we can tell thousands of different smells apart."
+        }
+      }
     },
     {
       "id": "body-0026",
@@ -483,17 +833,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie viele Sinne zählt man klassisch beim Menschen?",
-      "answers": [
-        "Drei",
-        "Fünf",
-        "Sieben",
-        "Zehn"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Sehen, Hören, Riechen, Schmecken und Tasten. Eigentlich haben wir noch mehr, etwa den Gleichgewichtssinn oder das Gespür für Wärme und Schmerz.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Sinne zählt man klassisch beim Menschen?",
+          "answers": [
+            "Drei",
+            "Fünf",
+            "Sieben",
+            "Zehn"
+          ],
+          "explanation": "Sehen, Hören, Riechen, Schmecken und Tasten. Eigentlich haben wir noch mehr, etwa den Gleichgewichtssinn oder das Gespür für Wärme und Schmerz."
+        },
+        "en": {
+          "title": "How many senses do humans traditionally have?",
+          "answers": [
+            "Three",
+            "Five",
+            "Seven",
+            "Ten"
+          ],
+          "explanation": "Seeing, hearing, smelling, tasting and touching. In fact we have even more, such as our sense of balance or our feeling for warmth and pain."
+        }
+      }
     },
     {
       "id": "body-0027",
@@ -502,17 +866,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welche Geschmacksrichtungen erkennt die Zunge?",
-      "answers": [
-        "Süß, sauer, salzig, bitter und umami",
-        "Scharf, kalt und warm",
-        "Rot, grün und blau",
-        "Nur süß und sauer"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Umami ist der herzhafte Geschmack, zum Beispiel von Tomaten oder Käse. Scharf ist übrigens kein Geschmack, sondern ein Schmerzreiz.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Geschmacksrichtungen erkennt die Zunge?",
+          "answers": [
+            "Süß, sauer, salzig, bitter und umami",
+            "Scharf, kalt und warm",
+            "Rot, grün und blau",
+            "Nur süß und sauer"
+          ],
+          "explanation": "Umami ist der herzhafte Geschmack, zum Beispiel von Tomaten oder Käse. Scharf ist übrigens kein Geschmack, sondern ein Schmerzreiz."
+        },
+        "en": {
+          "title": "Which tastes can the tongue recognise?",
+          "answers": [
+            "Sweet, sour, salty, bitter and umami",
+            "Spicy, cold and warm",
+            "Red, green and blue",
+            "Only sweet and sour"
+          ],
+          "explanation": "Umami is the savoury taste, for example of tomatoes or cheese. Spicy, by the way, isn't a taste but a pain signal."
+        }
+      }
     },
     {
       "id": "body-0028",
@@ -521,17 +899,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum sehen wir im Dunkeln kaum Farben?",
-      "answers": [
-        "Farben verschwinden nachts wirklich",
-        "Die Augen schließen sich halb",
-        "Das Gehirn schläft schon",
-        "Die Sehzellen für Farben brauchen viel Licht"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Im Auge gibt es Zapfen für Farben und Stäbchen für Hell und Dunkel. Die Zapfen arbeiten nur bei genug Licht – nachts sehen wir deshalb fast nur Grautöne.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum sehen wir im Dunkeln kaum Farben?",
+          "answers": [
+            "Farben verschwinden nachts wirklich",
+            "Die Augen schließen sich halb",
+            "Das Gehirn schläft schon",
+            "Die Sehzellen für Farben brauchen viel Licht"
+          ],
+          "explanation": "Im Auge gibt es Zapfen für Farben und Stäbchen für Hell und Dunkel. Die Zapfen arbeiten nur bei genug Licht – nachts sehen wir deshalb fast nur Grautöne."
+        },
+        "en": {
+          "title": "Why can we hardly see colours in the dark?",
+          "answers": [
+            "Colours really disappear at night",
+            "The eyes half close",
+            "The brain is already asleep",
+            "The cells that see colour need lots of light"
+          ],
+          "explanation": "The eye has cones for colours and rods for light and dark. The cones only work when there's enough light – so at night we see almost only shades of grey."
+        }
+      }
     },
     {
       "id": "body-0029",
@@ -540,17 +932,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum bekommen wir Schluckauf?",
-      "answers": [
-        "Der Magen springt",
-        "Die Zunge verrutscht",
-        "Das Zwerchfell zuckt plötzlich",
-        "Das Herz stolpert"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Das Zwerchfell ist der große Atemmuskel unter der Lunge. Zieht es sich ruckartig zusammen, strömt Luft schnell ein, und die Stimmritze schließt sich mit einem „Hicks“.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum bekommen wir Schluckauf?",
+          "answers": [
+            "Der Magen springt",
+            "Die Zunge verrutscht",
+            "Das Zwerchfell zuckt plötzlich",
+            "Das Herz stolpert"
+          ],
+          "explanation": "Das Zwerchfell ist der große Atemmuskel unter der Lunge. Zieht es sich ruckartig zusammen, strömt Luft schnell ein, und die Stimmritze schließt sich mit einem „Hicks“."
+        },
+        "en": {
+          "title": "Why do we get hiccups?",
+          "answers": [
+            "The stomach jumps",
+            "The tongue slips",
+            "The diaphragm suddenly twitches",
+            "The heart stumbles"
+          ],
+          "explanation": "The diaphragm is the big breathing muscle below the lungs. When it suddenly tightens, air rushes in and the vocal cords snap shut with a “hic”."
+        }
+      }
     },
     {
       "id": "body-0030",
@@ -559,17 +965,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum husten wir?",
-      "answers": [
-        "Damit das Herz schneller schlägt",
-        "Um Schleim oder Fremdkörper aus den Atemwegen zu befördern",
-        "Um die Stimme zu üben",
-        "Weil der Magen voll ist"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Husten ist ein Schutzreflex. Mit einem kräftigen Luftstoß befördert der Körper alles aus den Atemwegen, was dort nicht hingehört.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum husten wir?",
+          "answers": [
+            "Damit das Herz schneller schlägt",
+            "Um Schleim oder Fremdkörper aus den Atemwegen zu befördern",
+            "Um die Stimme zu üben",
+            "Weil der Magen voll ist"
+          ],
+          "explanation": "Husten ist ein Schutzreflex. Mit einem kräftigen Luftstoß befördert der Körper alles aus den Atemwegen, was dort nicht hingehört."
+        },
+        "en": {
+          "title": "Why do we cough?",
+          "answers": [
+            "To make the heart beat faster",
+            "To get mucus or objects out of our airways",
+            "To practise our voice",
+            "Because the stomach is full"
+          ],
+          "explanation": "Coughing is a protective reflex. With a strong blast of air, the body clears everything out of the airways that doesn't belong there."
+        }
+      }
     },
     {
       "id": "body-0031",
@@ -578,17 +998,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum tränen die Augen, wenn etwas hineinfliegt?",
-      "answers": [
-        "Um das Auge zu wärmen",
-        "Damit wir nichts sehen",
-        "Tränen spülen den Fremdkörper heraus",
-        "Weil das Auge traurig ist"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Die Tränendrüse arbeitet ständig, bei einem Fremdkörper aber besonders stark. Die Tränen spülen Staub oder ein Insekt einfach aus dem Auge.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum tränen die Augen, wenn etwas hineinfliegt?",
+          "answers": [
+            "Um das Auge zu wärmen",
+            "Damit wir nichts sehen",
+            "Tränen spülen den Fremdkörper heraus",
+            "Weil das Auge traurig ist"
+          ],
+          "explanation": "Die Tränendrüse arbeitet ständig, bei einem Fremdkörper aber besonders stark. Die Tränen spülen Staub oder ein Insekt einfach aus dem Auge."
+        },
+        "en": {
+          "title": "Why do our eyes water when something flies into them?",
+          "answers": [
+            "To warm the eye",
+            "So we can't see anything",
+            "Tears wash the object out",
+            "Because the eye is sad"
+          ],
+          "explanation": "The tear gland works all the time, but extra hard when something gets in. The tears simply wash dust or an insect out of the eye."
+        }
+      }
     },
     {
       "id": "body-0032",
@@ -597,17 +1031,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum werden wir rot, wenn uns etwas peinlich ist?",
-      "answers": [
-        "Die Blutgefäße im Gesicht weiten sich",
-        "Die Haut wird dünner",
-        "Wir halten die Luft an",
-        "Die Haut wird von innen gefärbt"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Bei Aufregung schüttet der Körper Stresshormone aus. Die Adern im Gesicht weiten sich, mehr Blut fließt hindurch, und die Wangen werden rot und warm.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum werden wir rot, wenn uns etwas peinlich ist?",
+          "answers": [
+            "Die Blutgefäße im Gesicht weiten sich",
+            "Die Haut wird dünner",
+            "Wir halten die Luft an",
+            "Die Haut wird von innen gefärbt"
+          ],
+          "explanation": "Bei Aufregung schüttet der Körper Stresshormone aus. Die Adern im Gesicht weiten sich, mehr Blut fließt hindurch, und die Wangen werden rot und warm."
+        },
+        "en": {
+          "title": "Why do we go red when we are embarrassed?",
+          "answers": [
+            "The blood vessels in the face widen",
+            "The skin gets thinner",
+            "We hold our breath",
+            "The skin is coloured from inside"
+          ],
+          "explanation": "When we get flustered, the body releases stress hormones. The blood vessels in the face widen, more blood flows through and the cheeks turn red and warm."
+        }
+      }
     },
     {
       "id": "body-0033",
@@ -616,17 +1064,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was passiert in unserem Gehirn, wenn wir träumen?",
-      "answers": [
-        "Es ist komplett ausgeschaltet",
-        "Es sieht durch die geschlossenen Augenlider",
-        "Es ist sehr aktiv",
-        "Es ist kurz wach"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Beim Träumen ist das Gehirn fast so aktiv wie im Wachzustand. Forschende vermuten, dass es dabei Erlebtes sortiert und Gefühle verarbeitet.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was passiert in unserem Gehirn, wenn wir träumen?",
+          "answers": [
+            "Es ist komplett ausgeschaltet",
+            "Es sieht durch die geschlossenen Augenlider",
+            "Es ist sehr aktiv",
+            "Es ist kurz wach"
+          ],
+          "explanation": "Beim Träumen ist das Gehirn fast so aktiv wie im Wachzustand. Forschende vermuten, dass es dabei Erlebtes sortiert und Gefühle verarbeitet."
+        },
+        "en": {
+          "title": "What happens in our brain when we dream?",
+          "answers": [
+            "It is completely switched off",
+            "It sees through the closed eyelids",
+            "It is very active",
+            "It is briefly awake"
+          ],
+          "explanation": "When we dream, the brain is almost as active as when we're awake. Researchers think it sorts out experiences and works through feelings."
+        }
+      }
     },
     {
       "id": "body-0034",
@@ -635,17 +1097,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wer braucht mehr Schlaf: Babys oder Erwachsene?",
-      "answers": [
-        "Beide gleich viel",
-        "Babys",
-        "Ältere Menschen",
-        "Erwachsene"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Neugeborene schlafen 14 bis 17 Stunden am Tag, Erwachsene etwa 7 bis 9. Im Schlaf wächst und lernt der Körper besonders viel.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer braucht mehr Schlaf: Babys oder Erwachsene?",
+          "answers": [
+            "Beide gleich viel",
+            "Babys",
+            "Ältere Menschen",
+            "Erwachsene"
+          ],
+          "explanation": "Neugeborene schlafen 14 bis 17 Stunden am Tag, Erwachsene etwa 7 bis 9. Im Schlaf wächst und lernt der Körper besonders viel."
+        },
+        "en": {
+          "title": "Who needs more sleep: babies or adults?",
+          "answers": [
+            "Both need the same",
+            "Babies",
+            "Older people",
+            "Adults"
+          ],
+          "explanation": "Newborns sleep 14 to 17 hours a day, adults about 7 to 9. During sleep the body grows and learns a lot."
+        }
+      }
     },
     {
       "id": "body-0035",
@@ -654,17 +1130,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wofür sind schnelle Augenbewegungen im Schlaf ein Zeichen?",
-      "answers": [
-        "Für Hunger",
-        "Für eine Erkältung",
-        "Dafür, dass man gleich aufwacht",
-        "Für eine Traumphase"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "In der REM-Phase (von englisch „Rapid Eye Movement“) bewegen sich die Augen hinter den Lidern schnell hin und her. In dieser Phase träumen wir besonders lebhaft.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wofür sind schnelle Augenbewegungen im Schlaf ein Zeichen?",
+          "answers": [
+            "Für Hunger",
+            "Für eine Erkältung",
+            "Dafür, dass man gleich aufwacht",
+            "Für eine Traumphase"
+          ],
+          "explanation": "In der REM-Phase (von englisch „Rapid Eye Movement“) bewegen sich die Augen hinter den Lidern schnell hin und her. In dieser Phase träumen wir besonders lebhaft."
+        },
+        "en": {
+          "title": "What are fast eye movements during sleep a sign of?",
+          "answers": [
+            "Hunger",
+            "A cold",
+            "That you are about to wake up",
+            "A dream phase"
+          ],
+          "explanation": "In REM sleep (short for “rapid eye movement”), the eyes dart back and forth behind the lids. This is when we have our most vivid dreams."
+        }
+      }
     },
     {
       "id": "body-0036",
@@ -673,17 +1163,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wozu brauchen wir Kohlenhydrate wie in Brot und Nudeln?",
-      "answers": [
-        "Sie färben das Blut",
-        "Sie machen die Knochen hart",
-        "Sie lassen die Haare wachsen",
-        "Sie liefern Energie"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Körper zerlegt Kohlenhydrate in Zucker. Den nutzen Muskeln und Gehirn als Treibstoff.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu brauchen wir Kohlenhydrate wie in Brot und Nudeln?",
+          "answers": [
+            "Sie färben das Blut",
+            "Sie machen die Knochen hart",
+            "Sie lassen die Haare wachsen",
+            "Sie liefern Energie"
+          ],
+          "explanation": "Der Körper zerlegt Kohlenhydrate in Zucker. Den nutzen Muskeln und Gehirn als Treibstoff."
+        },
+        "en": {
+          "title": "What do we need carbohydrates like those in bread and pasta for?",
+          "answers": [
+            "They colour the blood",
+            "They make bones hard",
+            "They make hair grow",
+            "They give us energy"
+          ],
+          "explanation": "The body breaks carbohydrates down into sugar. Muscles and the brain use it as fuel."
+        }
+      }
     },
     {
       "id": "body-0037",
@@ -692,17 +1196,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wohin wandert das Essen nach dem Magen?",
-      "answers": [
-        "Ins Herz",
-        "In den Darm",
-        "In die Lunge",
-        "In die Nieren"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Im Darm wird der Speisebrei weiter zerlegt. Nährstoffe gehen durch die Darmwand ins Blut, der Rest wird ausgeschieden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wohin wandert das Essen nach dem Magen?",
+          "answers": [
+            "Ins Herz",
+            "In den Darm",
+            "In die Lunge",
+            "In die Nieren"
+          ],
+          "explanation": "Im Darm wird der Speisebrei weiter zerlegt. Nährstoffe gehen durch die Darmwand ins Blut, der Rest wird ausgeschieden."
+        },
+        "en": {
+          "title": "Where does food go after the stomach?",
+          "answers": [
+            "Into the heart",
+            "Into the gut",
+            "Into the lungs",
+            "Into the kidneys"
+          ],
+          "explanation": "In the gut the food mush is broken down further. Nutrients pass through the gut wall into the blood, and the rest leaves the body."
+        }
+      }
     },
     {
       "id": "body-0038",
@@ -711,17 +1229,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wofür braucht der Körper Kalzium, zum Beispiel aus Milch?",
-      "answers": [
-        "Für schnelleres Haarwachstum",
-        "Für die rote Farbe des Bluts",
-        "Für feste Knochen und Zähne",
-        "Für gute Augen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Kalzium ist der wichtigste Baustoff für Knochen und Zähne. Es steckt in Milchprodukten, aber auch in grünem Gemüse und Nüssen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wofür braucht der Körper Kalzium, zum Beispiel aus Milch?",
+          "answers": [
+            "Für schnelleres Haarwachstum",
+            "Für die rote Farbe des Bluts",
+            "Für feste Knochen und Zähne",
+            "Für gute Augen"
+          ],
+          "explanation": "Kalzium ist der wichtigste Baustoff für Knochen und Zähne. Es steckt in Milchprodukten, aber auch in grünem Gemüse und Nüssen."
+        },
+        "en": {
+          "title": "What does the body need calcium for, for example from milk?",
+          "answers": [
+            "Faster hair growth",
+            "The red colour of blood",
+            "Strong bones and teeth",
+            "Good eyesight"
+          ],
+          "explanation": "Calcium is the most important building material for bones and teeth. It is in dairy products, but also in green vegetables and nuts."
+        }
+      }
     },
     {
       "id": "body-0039",
@@ -730,17 +1262,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie lang ist der Darm eines Erwachsenen ungefähr?",
-      "answers": [
-        "Mehrere Meter",
-        "Etwa 30 Zentimeter",
-        "Etwa 1 Meter",
-        "Über 100 Meter"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Dünn- und Dickdarm zusammen sind mehrere Meter lang. Damit sie in den Bauch passen, liegen sie in vielen Windungen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie lang ist der Darm eines Erwachsenen ungefähr?",
+          "answers": [
+            "Mehrere Meter",
+            "Etwa 30 Zentimeter",
+            "Etwa 1 Meter",
+            "Über 100 Meter"
+          ],
+          "explanation": "Dünn- und Dickdarm zusammen sind mehrere Meter lang. Damit sie in den Bauch passen, liegen sie in vielen Windungen."
+        },
+        "en": {
+          "title": "Roughly how long is an adult's gut?",
+          "answers": [
+            "Several metres",
+            "About 30 centimetres",
+            "About 1 metre",
+            "Over 100 metres"
+          ],
+          "explanation": "The small and large intestines together are several metres long. To fit into the belly, they lie in lots of loops."
+        }
+      }
     },
     {
       "id": "body-0040",
@@ -749,17 +1295,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Was machen die Nieren?",
-      "answers": [
-        "Sie verdauen Fett",
-        "Sie steuern das Denken",
-        "Sie pumpen das Blut",
-        "Sie filtern das Blut und bilden Urin"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Durch die beiden Nieren fließt täglich das gesamte Blut viele Male. Sie filtern Abfallstoffe heraus, die dann mit dem Urin den Körper verlassen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was machen die Nieren?",
+          "answers": [
+            "Sie verdauen Fett",
+            "Sie steuern das Denken",
+            "Sie pumpen das Blut",
+            "Sie filtern das Blut und bilden Urin"
+          ],
+          "explanation": "Durch die beiden Nieren fließt täglich das gesamte Blut viele Male. Sie filtern Abfallstoffe heraus, die dann mit dem Urin den Körper verlassen."
+        },
+        "en": {
+          "title": "What do the kidneys do?",
+          "answers": [
+            "They digest fat",
+            "They control our thinking",
+            "They pump the blood",
+            "They filter the blood and make urine"
+          ],
+          "explanation": "All of our blood flows through the two kidneys many times a day. They filter out waste, which then leaves the body with the urine."
+        }
+      }
     },
     {
       "id": "body-0041",
@@ -768,17 +1328,31 @@
       "order": 18,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Warum knackt es, wenn man mit den Fingern knackt?",
-      "answers": [
-        "In der Gelenkflüssigkeit bildet sich plötzlich eine Gasblase",
-        "Eine Sehne springt über den Knochen",
-        "Knochen reiben aneinander",
-        "Knorpel bricht kurz"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Wird das Gelenk auseinandergezogen, sinkt der Druck in der Flüssigkeit, und gelöstes Gas bildet schlagartig eine Blase. Deshalb klappt es erst nach einer Weile wieder.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum knackt es, wenn man mit den Fingern knackt?",
+          "answers": [
+            "In der Gelenkflüssigkeit bildet sich plötzlich eine Gasblase",
+            "Eine Sehne springt über den Knochen",
+            "Knochen reiben aneinander",
+            "Knorpel bricht kurz"
+          ],
+          "explanation": "Wird das Gelenk auseinandergezogen, sinkt der Druck in der Flüssigkeit, und gelöstes Gas bildet schlagartig eine Blase. Deshalb klappt es erst nach einer Weile wieder."
+        },
+        "en": {
+          "title": "Why is there a crack when you crack your knuckles?",
+          "answers": [
+            "A gas bubble suddenly forms in the joint fluid",
+            "A tendon snaps over the bone",
+            "Bones rub together",
+            "Cartilage briefly breaks"
+          ],
+          "explanation": "When the joint is pulled apart, the pressure in the fluid drops and dissolved gas suddenly forms a bubble. That's why it only works again after a while."
+        }
+      }
     },
     {
       "id": "body-0042",
@@ -787,17 +1361,31 @@
       "order": 19,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Welches Organ kann nachwachsen, wenn ein Teil davon entfernt wird?",
-      "answers": [
-        "Das Herz",
-        "Die Lunge",
-        "Der Magen",
-        "Die Leber"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Die Leber kann sich erstaunlich gut erneuern. Selbst wenn ein großer Teil entfernt wird, wächst sie wieder fast auf ihre volle Größe heran. Deshalb können Menschen einen Teil ihrer Leber spenden.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Organ kann nachwachsen, wenn ein Teil davon entfernt wird?",
+          "answers": [
+            "Das Herz",
+            "Die Lunge",
+            "Der Magen",
+            "Die Leber"
+          ],
+          "explanation": "Die Leber kann sich erstaunlich gut erneuern. Selbst wenn ein großer Teil entfernt wird, wächst sie wieder fast auf ihre volle Größe heran. Deshalb können Menschen einen Teil ihrer Leber spenden."
+        },
+        "en": {
+          "title": "Which organ can grow back when part of it is removed?",
+          "answers": [
+            "The heart",
+            "The lungs",
+            "The stomach",
+            "The liver"
+          ],
+          "explanation": "The liver is amazingly good at renewing itself. Even if a large part is removed, it grows back almost to full size. That's why people can donate part of their liver."
+        }
+      }
     },
     {
       "id": "body-0043",
@@ -806,17 +1394,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wie oft schlägt das Herz eines Erwachsenen in Ruhe ungefähr pro Minute?",
-      "answers": [
-        "Einmal",
-        "60 bis 80 Mal",
-        "5 bis 10 Mal",
-        "200 bis 300 Mal"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "In Ruhe schlägt das Herz etwa einmal pro Sekunde. Beim Sport kann es mehr als doppelt so schnell werden, bei Kindern schlägt es meist schneller als bei Erwachsenen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie oft schlägt das Herz eines Erwachsenen in Ruhe ungefähr pro Minute?",
+          "answers": [
+            "Einmal",
+            "60 bis 80 Mal",
+            "5 bis 10 Mal",
+            "200 bis 300 Mal"
+          ],
+          "explanation": "In Ruhe schlägt das Herz etwa einmal pro Sekunde. Beim Sport kann es mehr als doppelt so schnell werden, bei Kindern schlägt es meist schneller als bei Erwachsenen."
+        },
+        "en": {
+          "title": "Roughly how often does an adult's heart beat per minute at rest?",
+          "answers": [
+            "Once",
+            "60 to 80 times",
+            "5 to 10 times",
+            "200 to 300 times"
+          ],
+          "explanation": "At rest the heart beats about once a second. During sport it can go more than twice as fast, and children's hearts usually beat faster than adults'."
+        }
+      }
     },
     {
       "id": "body-0044",
@@ -825,17 +1427,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wo im Körper sitzt das Herz?",
-      "answers": [
-        "Im Hals",
-        "In der Brust, etwas links von der Mitte",
-        "Im Bauch",
-        "Rechts neben der Schulter"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Das Herz ist etwa so groß wie eine Faust und liegt zwischen den beiden Lungenflügeln, leicht nach links verschoben.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wo im Körper sitzt das Herz?",
+          "answers": [
+            "Im Hals",
+            "In der Brust, etwas links von der Mitte",
+            "Im Bauch",
+            "Rechts neben der Schulter"
+          ],
+          "explanation": "Das Herz ist etwa so groß wie eine Faust und liegt zwischen den beiden Lungenflügeln, leicht nach links verschoben."
+        },
+        "en": {
+          "title": "Where in the body is the heart?",
+          "answers": [
+            "In the neck",
+            "In the chest, a little left of the middle",
+            "In the belly",
+            "Next to the right shoulder"
+          ],
+          "explanation": "The heart is about the size of a fist and sits between the two lungs, shifted slightly to the left."
+        }
+      }
     },
     {
       "id": "body-0045",
@@ -844,17 +1460,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was bringt das Blut zu allen Zellen?",
-      "answers": [
-        "Sauerstoff und Nährstoffe",
-        "Luftblasen",
-        "Nur Wasser",
-        "Gedanken"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Das Blut ist das Transportsystem des Körpers. Auf dem Rückweg nimmt es Abfallstoffe wie Kohlendioxid mit.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was bringt das Blut zu allen Zellen?",
+          "answers": [
+            "Sauerstoff und Nährstoffe",
+            "Luftblasen",
+            "Nur Wasser",
+            "Gedanken"
+          ],
+          "explanation": "Das Blut ist das Transportsystem des Körpers. Auf dem Rückweg nimmt es Abfallstoffe wie Kohlendioxid mit."
+        },
+        "en": {
+          "title": "What does blood bring to all the cells?",
+          "answers": [
+            "Oxygen and nutrients",
+            "Air bubbles",
+            "Only water",
+            "Thoughts"
+          ],
+          "explanation": "Blood is the body's transport system. On the way back it carries away waste such as carbon dioxide."
+        }
+      }
     },
     {
       "id": "body-0046",
@@ -863,17 +1493,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum klingt die eigene Stimme auf Aufnahmen fremd?",
-      "answers": [
-        "Normalerweise hören wir sie auch über die Knochen im Kopf",
-        "Beim Sprechen sind unsere Ohren verschlossen",
-        "Die Stimme wird beim Sprechen leiser",
-        "Mikrofone verstellen jede Stimme"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Beim Sprechen erreicht der Schall unser Innenohr nicht nur durch die Luft, sondern auch durch die Schädelknochen. Das lässt die Stimme für uns tiefer und voller klingen. Auf der Aufnahme fehlt dieser Anteil.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum klingt die eigene Stimme auf Aufnahmen fremd?",
+          "answers": [
+            "Normalerweise hören wir sie auch über die Knochen im Kopf",
+            "Beim Sprechen sind unsere Ohren verschlossen",
+            "Die Stimme wird beim Sprechen leiser",
+            "Mikrofone verstellen jede Stimme"
+          ],
+          "explanation": "Beim Sprechen erreicht der Schall unser Innenohr nicht nur durch die Luft, sondern auch durch die Schädelknochen. Das lässt die Stimme für uns tiefer und voller klingen. Auf der Aufnahme fehlt dieser Anteil."
+        },
+        "en": {
+          "title": "Why does your own voice sound strange on recordings?",
+          "answers": [
+            "Normally we also hear it through the bones in our head",
+            "Our ears are closed while we speak",
+            "The voice gets quieter while we speak",
+            "Microphones change every voice"
+          ],
+          "explanation": "When we speak, the sound reaches our inner ear not only through the air but also through the skull bones. That makes our voice sound deeper and fuller to us. A recording lacks this part."
+        }
+      }
     },
     {
       "id": "body-0047",
@@ -882,17 +1526,31 @@
       "order": 8,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wo im Auge entsteht das Bild, das wir sehen?",
-      "answers": [
-        "Auf der Netzhaut",
-        "In der Tränendrüse",
-        "Auf dem Augenlid",
-        "Auf der Pupille"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Die Linse bündelt das Licht auf die Netzhaut an der Rückwand des Auges. Dort wandeln Sehzellen es in Signale um, aus denen das Gehirn ein Bild macht.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wo im Auge entsteht das Bild, das wir sehen?",
+          "answers": [
+            "Auf der Netzhaut",
+            "In der Tränendrüse",
+            "Auf dem Augenlid",
+            "Auf der Pupille"
+          ],
+          "explanation": "Die Linse bündelt das Licht auf die Netzhaut an der Rückwand des Auges. Dort wandeln Sehzellen es in Signale um, aus denen das Gehirn ein Bild macht."
+        },
+        "en": {
+          "title": "Where in the eye is the picture we see formed?",
+          "answers": [
+            "On the retina",
+            "In the tear gland",
+            "On the eyelid",
+            "On the pupil"
+          ],
+          "explanation": "The lens focuses light onto the retina at the back of the eye. There, light cells turn it into signals that the brain makes into a picture."
+        }
+      }
     },
     {
       "id": "body-0048",
@@ -901,17 +1559,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Womit können wir besonders fein tasten?",
-      "answers": [
-        "Mit den Knien",
-        "Mit den Ellenbogen",
-        "Mit den Fingerspitzen",
-        "Mit dem Rücken"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "In den Fingerspitzen sitzen besonders viele Tastkörperchen. Deshalb können blinde Menschen mit ihnen sogar die Punkte der Blindenschrift lesen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Womit können wir besonders fein tasten?",
+          "answers": [
+            "Mit den Knien",
+            "Mit den Ellenbogen",
+            "Mit den Fingerspitzen",
+            "Mit dem Rücken"
+          ],
+          "explanation": "In den Fingerspitzen sitzen besonders viele Tastkörperchen. Deshalb können blinde Menschen mit ihnen sogar die Punkte der Blindenschrift lesen."
+        },
+        "en": {
+          "title": "What can we feel things with especially precisely?",
+          "answers": [
+            "Our knees",
+            "Our elbows",
+            "Our fingertips",
+            "Our back"
+          ],
+          "explanation": "Fingertips have especially many touch receptors. That's why blind people can even read the dots of braille with them."
+        }
+      }
     },
     {
       "id": "body-0049",
@@ -920,17 +1592,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Was ist der blinde Fleck im Auge?",
-      "answers": [
-        "Eine seltene Augenkrankheit",
-        "Ein Schmutzfleck auf der Linse",
-        "Die schwarze Pupille in der Mitte",
-        "Eine Stelle ohne Sehzellen, wo der Sehnerv austritt"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Jedes Auge hat einen blinden Fleck. Wir merken ihn nicht, weil das andere Auge die Lücke füllt und das Gehirn das Bild geschickt ergänzt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist der blinde Fleck im Auge?",
+          "answers": [
+            "Eine seltene Augenkrankheit",
+            "Ein Schmutzfleck auf der Linse",
+            "Die schwarze Pupille in der Mitte",
+            "Eine Stelle ohne Sehzellen, wo der Sehnerv austritt"
+          ],
+          "explanation": "Jedes Auge hat einen blinden Fleck. Wir merken ihn nicht, weil das andere Auge die Lücke füllt und das Gehirn das Bild geschickt ergänzt."
+        },
+        "en": {
+          "title": "What is the blind spot in the eye?",
+          "answers": [
+            "A rare eye disease",
+            "A smudge on the lens",
+            "The black pupil in the middle",
+            "A place without light cells where the optic nerve leaves"
+          ],
+          "explanation": "Every eye has a blind spot. We don't notice it because the other eye fills the gap and the brain cleverly completes the picture."
+        }
+      }
     },
     {
       "id": "body-0050",
@@ -939,17 +1625,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum zucken wir zusammen, wenn es laut knallt?",
-      "answers": [
-        "Wir wollen tanzen",
-        "Ein Schreckreflex schützt uns blitzschnell",
-        "Der Knall schiebt uns weg",
-        "Die Ohren ziehen den Kopf ein"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Bei einem plötzlichen Knall reagiert der Körper, bevor wir nachdenken: Wir blinzeln, ziehen die Schultern hoch und spannen die Muskeln an – bereit für Gefahr.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum zucken wir zusammen, wenn es laut knallt?",
+          "answers": [
+            "Wir wollen tanzen",
+            "Ein Schreckreflex schützt uns blitzschnell",
+            "Der Knall schiebt uns weg",
+            "Die Ohren ziehen den Kopf ein"
+          ],
+          "explanation": "Bei einem plötzlichen Knall reagiert der Körper, bevor wir nachdenken: Wir blinzeln, ziehen die Schultern hoch und spannen die Muskeln an – bereit für Gefahr."
+        },
+        "en": {
+          "title": "Why do we jump when there's a loud bang?",
+          "answers": [
+            "We want to dance",
+            "A startle reflex protects us in a flash",
+            "The bang pushes us away",
+            "The ears pull the head in"
+          ],
+          "explanation": "At a sudden bang, the body reacts before we think: we blink, pull up our shoulders and tense our muscles – ready for danger."
+        }
+      }
     },
     {
       "id": "body-0051",
@@ -958,17 +1658,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was passiert, wenn ein Arzt knapp unter die Kniescheibe klopft?",
-      "answers": [
-        "Das Bein schnellt nach vorne",
-        "Das Bein wird taub",
-        "Das Knie wird steif",
-        "Man muss niesen"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Der Klopfer dehnt eine Sehne, und der Oberschenkelmuskel zieht sich reflexartig zusammen. So prüfen Ärzte, ob die Nerven gut arbeiten.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was passiert, wenn ein Arzt knapp unter die Kniescheibe klopft?",
+          "answers": [
+            "Das Bein schnellt nach vorne",
+            "Das Bein wird taub",
+            "Das Knie wird steif",
+            "Man muss niesen"
+          ],
+          "explanation": "Der Klopfer dehnt eine Sehne, und der Oberschenkelmuskel zieht sich reflexartig zusammen. So prüfen Ärzte, ob die Nerven gut arbeiten."
+        },
+        "en": {
+          "title": "What happens when a doctor taps just below the kneecap?",
+          "answers": [
+            "The leg kicks forward",
+            "The leg goes numb",
+            "The knee goes stiff",
+            "You have to sneeze"
+          ],
+          "explanation": "The tap stretches a tendon, and the thigh muscle tightens as a reflex. That's how doctors check that the nerves work well."
+        }
+      }
     },
     {
       "id": "body-0052",
@@ -977,17 +1691,31 @@
       "order": 9,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum kribbelt ein eingeschlafener Fuß?",
-      "answers": [
-        "Das Blut sprudelt",
-        "Der Fuß wacht aus einem Traum auf",
-        "Ameisen laufen unter der Haut",
-        "Gedrückte Nerven senden wieder Signale"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Sitzt man lange auf dem Bein, werden Nerven und Blutgefäße gedrückt. Lässt der Druck nach, senden die Nerven durcheinander Signale – das fühlt sich wie Ameisenkribbeln an.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum kribbelt ein eingeschlafener Fuß?",
+          "answers": [
+            "Das Blut sprudelt",
+            "Der Fuß wacht aus einem Traum auf",
+            "Ameisen laufen unter der Haut",
+            "Gedrückte Nerven senden wieder Signale"
+          ],
+          "explanation": "Sitzt man lange auf dem Bein, werden Nerven und Blutgefäße gedrückt. Lässt der Druck nach, senden die Nerven durcheinander Signale – das fühlt sich wie Ameisenkribbeln an."
+        },
+        "en": {
+          "title": "Why does a foot tingle when it has gone to sleep?",
+          "answers": [
+            "The blood is fizzing",
+            "The foot is waking up from a dream",
+            "Ants are running under the skin",
+            "Squashed nerves start sending signals again"
+          ],
+          "explanation": "If you sit on your leg for a long time, nerves and blood vessels get squashed. When the pressure eases, the nerves send jumbled signals – it feels like pins and needles."
+        }
+      }
     },
     {
       "id": "body-0053",
@@ -996,17 +1724,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie viel seines Lebens verschläft ein Mensch ungefähr?",
-      "answers": [
-        "Etwa ein Zehntel",
-        "Fast gar nichts",
-        "Etwa ein Drittel",
-        "Etwa die Hälfte"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Wer jede Nacht acht Stunden schläft, verbringt ein Drittel des Tages im Bett. Bei einem langen Leben sind das über 25 Jahre.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viel seines Lebens verschläft ein Mensch ungefähr?",
+          "answers": [
+            "Etwa ein Zehntel",
+            "Fast gar nichts",
+            "Etwa ein Drittel",
+            "Etwa die Hälfte"
+          ],
+          "explanation": "Wer jede Nacht acht Stunden schläft, verbringt ein Drittel des Tages im Bett. Bei einem langen Leben sind das über 25 Jahre."
+        },
+        "en": {
+          "title": "Roughly how much of their life does a person spend asleep?",
+          "answers": [
+            "About a tenth",
+            "Almost none",
+            "About a third",
+            "About half"
+          ],
+          "explanation": "If you sleep eight hours every night, you spend a third of each day in bed. Over a long life that's more than 25 years."
+        }
+      }
     },
     {
       "id": "body-0054",
@@ -1015,17 +1757,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum ist man nach einem Flug in eine weit entfernte Zeitzone oft müde?",
-      "answers": [
-        "Die Luft im Flugzeug ist zu dünn zum Denken",
-        "Die innere Uhr passt nicht mehr zur Ortszeit",
-        "Die Sitze sind zu weich",
-        "Man hat zu viel gegessen"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Unsere innere Uhr richtet sich nach Tag und Nacht. Fliegt man weit nach Osten oder Westen, braucht sie einige Tage, bis sie sich umgestellt hat. Das nennt man Jetlag.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist man nach einem Flug in eine weit entfernte Zeitzone oft müde?",
+          "answers": [
+            "Die Luft im Flugzeug ist zu dünn zum Denken",
+            "Die innere Uhr passt nicht mehr zur Ortszeit",
+            "Die Sitze sind zu weich",
+            "Man hat zu viel gegessen"
+          ],
+          "explanation": "Unsere innere Uhr richtet sich nach Tag und Nacht. Fliegt man weit nach Osten oder Westen, braucht sie einige Tage, bis sie sich umgestellt hat. Das nennt man Jetlag."
+        },
+        "en": {
+          "title": "Why are you often tired after a flight to a faraway time zone?",
+          "answers": [
+            "The air in the plane is too thin to think",
+            "Your body clock no longer matches the local time",
+            "The seats are too soft",
+            "You ate too much"
+          ],
+          "explanation": "Our body clock follows day and night. If you fly far east or west, it takes a few days to adjust. This is called jet lag."
+        }
+      }
     },
     {
       "id": "body-0055",
@@ -1034,17 +1790,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was macht das Gehirn im Schlaf mit dem, was wir gelernt haben?",
-      "answers": [
-        "Es vergisst die Sprache",
-        "Es schaltet sich komplett aus",
-        "Es löscht alles",
-        "Es speichert Wichtiges ab"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Im Schlaf spielt das Gehirn Erlebtes noch einmal durch und festigt es im Gedächtnis. Deshalb kann man nach einer Nacht oft besser, was man am Vortag geübt hat.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was macht das Gehirn im Schlaf mit dem, was wir gelernt haben?",
+          "answers": [
+            "Es vergisst die Sprache",
+            "Es schaltet sich komplett aus",
+            "Es löscht alles",
+            "Es speichert Wichtiges ab"
+          ],
+          "explanation": "Im Schlaf spielt das Gehirn Erlebtes noch einmal durch und festigt es im Gedächtnis. Deshalb kann man nach einer Nacht oft besser, was man am Vortag geübt hat."
+        },
+        "en": {
+          "title": "What does the brain do during sleep with what we have learned?",
+          "answers": [
+            "It forgets language",
+            "It switches off completely",
+            "It deletes everything",
+            "It stores the important things"
+          ],
+          "explanation": "During sleep the brain replays what happened and fixes it in memory. That's why after a night's sleep you are often better at what you practised the day before."
+        }
+      }
     },
     {
       "id": "body-0056",
@@ -1053,17 +1823,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was liefert dem Körper besonders viele Vitamine?",
-      "answers": [
-        "Salz",
-        "Süßigkeiten",
-        "Obst und Gemüse",
-        "Leitungswasser"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Vitamine braucht der Körper nur in kleinen Mengen, aber er kann die meisten nicht selbst herstellen. Obst und Gemüse enthalten besonders viele davon.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was liefert dem Körper besonders viele Vitamine?",
+          "answers": [
+            "Salz",
+            "Süßigkeiten",
+            "Obst und Gemüse",
+            "Leitungswasser"
+          ],
+          "explanation": "Vitamine braucht der Körper nur in kleinen Mengen, aber er kann die meisten nicht selbst herstellen. Obst und Gemüse enthalten besonders viele davon."
+        },
+        "en": {
+          "title": "What gives the body especially many vitamins?",
+          "answers": [
+            "Salt",
+            "Sweets",
+            "Fruit and vegetables",
+            "Tap water"
+          ],
+          "explanation": "The body only needs small amounts of vitamins, but it can't make most of them itself. Fruit and vegetables contain lots of them."
+        }
+      }
     },
     {
       "id": "body-0057",
@@ -1072,17 +1856,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie viele Zähne hat ein Milchgebiss?",
-      "answers": [
-        "28",
-        "32",
-        "20",
-        "12"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Kinder haben 20 Milchzähne. Ab etwa sechs Jahren fallen sie nach und nach aus, und die bleibenden Zähne wachsen nach.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Zähne hat ein Milchgebiss?",
+          "answers": [
+            "28",
+            "32",
+            "20",
+            "12"
+          ],
+          "explanation": "Kinder haben 20 Milchzähne. Ab etwa sechs Jahren fallen sie nach und nach aus, und die bleibenden Zähne wachsen nach."
+        },
+        "en": {
+          "title": "How many teeth are in a set of milk teeth?",
+          "answers": [
+            "28",
+            "32",
+            "20",
+            "12"
+          ],
+          "explanation": "Children have 20 milk teeth. From about age six they fall out one by one and the permanent teeth grow in."
+        }
+      }
     },
     {
       "id": "body-0058",
@@ -1091,17 +1889,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum bekommen wir Durst?",
-      "answers": [
-        "Der Magen ist zu voll",
-        "Die Zunge ist müde",
-        "Das Gehirn merkt, dass dem Körper Wasser fehlt",
-        "Der Mund ist zu warm"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Bestimmte Stellen im Gehirn messen ständig, wie viel Wasser im Blut ist. Wird es zu wenig, melden sie Durst – lange bevor es gefährlich wird.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum bekommen wir Durst?",
+          "answers": [
+            "Der Magen ist zu voll",
+            "Die Zunge ist müde",
+            "Das Gehirn merkt, dass dem Körper Wasser fehlt",
+            "Der Mund ist zu warm"
+          ],
+          "explanation": "Bestimmte Stellen im Gehirn messen ständig, wie viel Wasser im Blut ist. Wird es zu wenig, melden sie Durst – lange bevor es gefährlich wird."
+        },
+        "en": {
+          "title": "Why do we get thirsty?",
+          "answers": [
+            "The stomach is too full",
+            "The tongue is tired",
+            "The brain notices the body is short of water",
+            "The mouth is too warm"
+          ],
+          "explanation": "Certain parts of the brain constantly measure how much water is in the blood. If it gets too low, they report thirst – long before it becomes dangerous."
+        }
+      }
     },
     {
       "id": "body-0059",
@@ -1110,17 +1922,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welcher ist der größte Knochen im Körper?",
-      "answers": [
-        "Der Schädel",
-        "Das Schulterblatt",
-        "Die Wirbelsäule",
-        "Der Oberschenkelknochen"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Oberschenkelknochen ist der längste und stärkste Knochen. Die Wirbelsäule ist zwar länger, besteht aber aus vielen einzelnen Wirbeln.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher ist der größte Knochen im Körper?",
+          "answers": [
+            "Der Schädel",
+            "Das Schulterblatt",
+            "Die Wirbelsäule",
+            "Der Oberschenkelknochen"
+          ],
+          "explanation": "Der Oberschenkelknochen ist der längste und stärkste Knochen. Die Wirbelsäule ist zwar länger, besteht aber aus vielen einzelnen Wirbeln."
+        },
+        "en": {
+          "title": "Which is the biggest bone in the body?",
+          "answers": [
+            "The skull",
+            "The shoulder blade",
+            "The spine",
+            "The thigh bone"
+          ],
+          "explanation": "The thigh bone is the longest and strongest bone. The spine is longer, but it is made of many separate vertebrae."
+        }
+      }
     },
     {
       "id": "body-0060",
@@ -1129,17 +1955,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Was ist der härteste Stoff im menschlichen Körper?",
-      "answers": [
-        "Der Oberschenkelknochen",
-        "Der Zahnschmelz",
-        "Die Fingernägel",
-        "Der Schädelknochen"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Zahnschmelz ist härter als jeder Knochen. Er schützt die Zähne beim Kauen, kann sich aber nicht selbst reparieren.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist der härteste Stoff im menschlichen Körper?",
+          "answers": [
+            "Der Oberschenkelknochen",
+            "Der Zahnschmelz",
+            "Die Fingernägel",
+            "Der Schädelknochen"
+          ],
+          "explanation": "Zahnschmelz ist härter als jeder Knochen. Er schützt die Zähne beim Kauen, kann sich aber nicht selbst reparieren."
+        },
+        "en": {
+          "title": "What is the hardest material in the human body?",
+          "answers": [
+            "The thigh bone",
+            "Tooth enamel",
+            "Fingernails",
+            "The skull bone"
+          ],
+          "explanation": "Tooth enamel is harder than any bone. It protects the teeth when we chew, but it can't repair itself."
+        }
+      }
     }
   ]
 }

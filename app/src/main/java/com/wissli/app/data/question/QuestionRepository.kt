@@ -4,9 +4,8 @@ import com.wissli.app.core.model.Category
 import com.wissli.app.core.model.Question
 import kotlinx.coroutines.flow.Flow
 
+/** All texts come in the app language and follow it when it changes. */
 interface QuestionRepository {
-    fun observeDailyQuestion(): Flow<DailyQuestion?>
-
     fun observeCategories(): Flow<List<Category>>
 
     /** Ordered by [Question.order]. */
@@ -14,12 +13,9 @@ interface QuestionRepository {
         categoryId: String,
         level: Int,
     ): List<Question>
-}
 
-data class DailyQuestion(
-    val questionId: String,
-    val title: String,
-    val categoryName: String,
-    val ageFrom: Int,
-    val ageTo: Int,
-)
+    suspend fun getQuestionIds(): List<String>
+
+    /** Emits null while no question with this id exists. */
+    fun observeQuestion(questionId: String): Flow<Question?>
+}

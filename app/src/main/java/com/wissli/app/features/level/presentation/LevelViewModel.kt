@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.wissli.app.core.model.CategoryProgress
 import com.wissli.app.data.progress.ProgressRepository
 import com.wissli.app.data.question.QuestionRepository
+import com.wissli.app.data.stats.StatsRepository
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharedFlow
@@ -19,6 +20,7 @@ class LevelViewModel(
     level: Int,
     private val questionRepository: QuestionRepository,
     private val progressRepository: ProgressRepository,
+    private val statsRepository: StatsRepository,
 ) : ViewModel() {
     private val _state = MutableStateFlow(LevelState(level = level))
     val state: StateFlow<LevelState> = _state.asStateFlow()
@@ -62,11 +64,21 @@ class LevelViewModel(
         dispatch(LevelEvent.AnswerSelected(index))
         val after = _state.value
         val question = before.currentQuestion ?: return
+        // Taps on an already answered question change nothing and must not be counted twice.
+        if (before.isAnswered || !after.isAnswered) return
+        viewModelScope.launch { statsRepository.recordAnswer(categoryId, question.id, after.isAnswerCorrect) }
         val newlySolved = question.id in after.solvedIds && question.id !in before.solvedIds
-        if (!newlySolved || after.isReplay) return
+        if (newlySolved && !after.isReplay) saveProgress(after.level, question.id, after.totalCount)
+    }
+
+    private fun saveProgress(
+        level: Int,
+        questionId: String,
+        levelQuestionCount: Int,
+    ) {
         viewModelScope.launch {
             progressRepository
-                .markSolved(categoryId, after.level, question.id, after.totalCount)
+                .markSolved(categoryId, level, questionId, levelQuestionCount)
                 .onFailure { _effect.emit(LevelEffect.ProgressNotSaved) }
         }
     }

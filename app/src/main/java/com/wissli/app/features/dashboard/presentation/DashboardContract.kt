@@ -2,16 +2,16 @@ package com.wissli.app.features.dashboard.presentation
 
 import com.wissli.app.core.model.CategoryOverview
 import com.wissli.app.core.model.Group
-import com.wissli.app.data.group.GroupMemberSummary
-import com.wissli.app.data.question.DailyQuestion
+import com.wissli.app.core.model.LearningStats
+import com.wissli.app.data.daily.DailyQuestion
 
 data class DashboardState(
     val isLoading: Boolean = true,
     val displayName: String? = null,
     val activeGroup: Group? = null,
     val dailyQuestion: DailyQuestion? = null,
-    val members: List<GroupMemberSummary> = emptyList(),
     val continueLearning: CategoryOverview? = null,
+    val stats: LearningStats = LearningStats(),
 ) {
     val greetingName: String?
         get() =
@@ -24,11 +24,8 @@ data class DashboardState(
 sealed interface DashboardIntent {
     data object GroupSwitcherClicked : DashboardIntent
 
-    data object OpenDailyQuestionClicked : DashboardIntent
-
-    data object ManageMembersClicked : DashboardIntent
-
-    data class MemberClicked(
-        val userId: String,
+    data class DailyAnswerSelected(
+        val questionId: String,
+        val answerIndex: Int,
     ) : DashboardIntent
 }

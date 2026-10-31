@@ -1,14 +1,19 @@
 package com.wissli.app.data.question
 
+import com.wissli.app.core.model.AppLanguage
 import com.wissli.app.data.local.CategoryEntity
+import com.wissli.app.data.local.CategoryNameEntity
 import com.wissli.app.data.local.CategoryWithLevelCount
 import com.wissli.app.data.local.ContentDao
 import com.wissli.app.data.local.ContentInfoEntity
-import com.wissli.app.data.local.DailyQuestionRow
+import com.wissli.app.data.local.ContentRows
+import com.wissli.app.data.local.LocalizedQuestion
 import com.wissli.app.data.local.QuestionEntity
+import com.wissli.app.data.local.QuestionTextEntity
 import com.wissli.app.data.question.content.BundledContentSource
 import com.wissli.app.data.question.content.ContentCategory
 import com.wissli.app.data.question.content.ContentQuestion
+import com.wissli.app.data.question.content.ContentQuestionText
 import com.wissli.app.data.question.content.QuestionContent
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -20,6 +25,7 @@ import org.junit.Test
 
 class RoomQuestionRepositoryTest {
     private val dao = FakeContentDao()
+    private val language = MutableStateFlow(AppLanguage.GERMAN)
 
     @Test
     fun `stores the bundled package on first access`() =
@@ -36,11 +42,11 @@ class RoomQuestionRepositoryTest {
     @Test
     fun `keeps stored content when the bundle is not newer`() =
         runTest {
-            dao.replaceContent(emptyList(), emptyList(), contentVersion = 2)
+            dao.replaceContent(ContentRows(emptyList(), emptyList(), emptyList(), emptyList()), contentVersion = 2)
 
             repository(bundled = content(version = 2, "nature-0001")).getLevelQuestions("nature", 1)
 
-            assertEquals(0, dao.countQuestions())
+            assertEquals(emptyList<String>(), dao.getQuestionIds())
             assertEquals(1, dao.replaceCount)
         }
 
@@ -62,7 +68,7 @@ class RoomQuestionRepositoryTest {
     fun `checks the bundle only once per app start`() =
         runTest {
             val source = CountingSource(content(version = 1, "nature-0001"))
-            val repository = RoomQuestionRepository(dao, source)
+            val repository = RoomQuestionRepository(dao, source, language)
 
             repository.getLevelQuestions("nature", 1)
             repository.observeCategories().first()
@@ -79,36 +85,41 @@ class RoomQuestionRepositoryTest {
                     override suspend fun load(): QuestionContent = error("broken package")
                 }
 
-            val questions = RoomQuestionRepository(dao, broken).getLevelQuestions("nature", 1)
+            val questions = RoomQuestionRepository(dao, broken, language).getLevelQuestions("nature", 1)
 
             assertEquals(listOf("nature-0001"), questions.map { it.id })
         }
 
     @Test
-    fun `daily question rotates through all questions by day`() =
+    fun `texts follow the app language`() =
         runTest {
-            dao.replaceContent(emptyList(), emptyList(), contentVersion = 1)
-            val bundled = content(version = 2, "nature-0001", "nature-0002", "nature-0003")
+            val repository = repository(bundled = content(version = 1, "nature-0001"))
+            assertEquals("Natur", categoryName(repository))
+            assertEquals("Frage nature-0001", repository.getLevelQuestions("nature", 1).single().title)
 
-            val day4 = repository(bundled, epochDay = 4).observeDailyQuestion().first()
-            val day5 = repository(bundled, epochDay = 5).observeDailyQuestion().first()
+            language.value = AppLanguage.ENGLISH
 
-            assertEquals("nature-0002", day4?.questionId)
-            assertEquals("nature-0003", day5?.questionId)
-            assertEquals("Natur", day5?.categoryName)
+            assertEquals("Nature", categoryName(repository))
+            assertEquals("Question nature-0001", repository.observeQuestion("nature-0001").first()?.title)
         }
 
-    private fun repository(
-        bundled: QuestionContent,
-        epochDay: Long = 0,
-    ) = RoomQuestionRepository(dao, CountingSource(bundled), currentEpochDay = { epochDay })
+    private fun repository(bundled: QuestionContent) = RoomQuestionRepository(dao, CountingSource(bundled), language)
+
+    private suspend fun categoryName(repository: RoomQuestionRepository): String =
+        repository
+            .observeCategories()
+            .first()
+            .single()
+            .name
 
     private fun content(
         version: Int,
         vararg questionIds: String,
     ) = QuestionContent(
         contentVersion = version,
-        categories = listOf(ContentCategory(id = "nature", name = "Natur", order = 0)),
+        languages = listOf("de", "en"),
+        categories =
+            listOf(ContentCategory(id = "nature", names = mapOf("de" to "Natur", "en" to "Nature"), order = 0)),
         questions =
             questionIds.mapIndexed { index, id ->
                 ContentQuestion(
@@ -116,13 +127,15 @@ class RoomQuestionRepositoryTest {
                     categoryId = "nature",
                     level = 1,
                     order = index + 1,
-                    title = "Question $id",
-                    answers = listOf("a", "b", "c", "d"),
                     correctAnswerIndex = 0,
-                    explanation = "Because.",
                     ageFrom = 6,
                     ageTo = 12,
                     difficulty = null,
+                    texts =
+                        mapOf(
+                            "de" to ContentQuestionText("Frage $id", listOf("a", "b", "c", "d"), "Weil."),
+                            "en" to ContentQuestionText("Question $id", listOf("a", "b", "c", "d"), "Because."),
+                        ),
                 )
             },
     )
@@ -138,63 +151,84 @@ class RoomQuestionRepositoryTest {
         }
     }
 
+    /** Mirrors the joins of the real queries on in-memory rows. */
     private class FakeContentDao : ContentDao() {
-        private val categories = MutableStateFlow(emptyList<CategoryEntity>())
-        private val questions = MutableStateFlow(emptyList<QuestionEntity>())
+        private val rows = MutableStateFlow(ContentRows(emptyList(), emptyList(), emptyList(), emptyList()))
         private var info: ContentInfoEntity? = null
         var replaceCount = 0
 
-        override fun observeCategories(): Flow<List<CategoryWithLevelCount>> =
-            categories.map { all ->
-                all.sortedBy { it.sortOrder }.map { category ->
-                    val levelCount =
-                        questions.value.filter { it.categoryId == category.id }.maxOfOrNull { it.level } ?: 0
-                    CategoryWithLevelCount(category.id, category.name, category.sortOrder, levelCount)
+        override fun observeCategories(language: String): Flow<List<CategoryWithLevelCount>> =
+            rows.map { all ->
+                all.categories.sortedBy { it.sortOrder }.mapNotNull { category ->
+                    val name =
+                        all.categoryNames.firstOrNull { it.categoryId == category.id && it.language == language }
+                            ?: return@mapNotNull null
+                    val levelCount = all.questions.filter { it.categoryId == category.id }.maxOfOrNull { it.level } ?: 0
+                    CategoryWithLevelCount(category.id, name.name, category.sortOrder, levelCount)
                 }
             }
 
         override suspend fun getLevelQuestions(
             categoryId: String,
             level: Int,
-        ) = questions.value.filter { it.categoryId == categoryId && it.level == level }.sortedBy { it.sortOrder }
+            language: String,
+        ) = localized(language).filter { it.categoryId == categoryId && it.level == level }.sortedBy { it.sortOrder }
 
-        override suspend fun countQuestions() = questions.value.size
+        override fun observeQuestion(
+            questionId: String,
+            language: String,
+        ): Flow<LocalizedQuestion?> = rows.map { localized(language).firstOrNull { it.id == questionId } }
 
-        override suspend fun getDailyQuestionAt(offset: Int) =
-            questions.value.sortedBy { it.id }.getOrNull(offset)?.let { question ->
-                val categoryName = categories.value.first { it.id == question.categoryId }.name
-                DailyQuestionRow(question.id, question.title, categoryName, question.ageFrom, question.ageTo)
-            }
+        override suspend fun getQuestionIds() =
+            rows.value.questions
+                .map { it.id }
+                .sorted()
 
         override suspend fun getContentVersion() = info?.contentVersion
 
         override suspend fun replaceContent(
-            categories: List<CategoryEntity>,
-            questions: List<QuestionEntity>,
+            rows: ContentRows,
             contentVersion: Int,
         ) {
             replaceCount++
-            super.replaceContent(categories, questions, contentVersion)
+            this.rows.value = rows
+            info = ContentInfoEntity(contentVersion = contentVersion)
         }
 
-        override suspend fun deleteQuestions() {
-            questions.value = emptyList()
-        }
+        override suspend fun deleteQuestionTexts() = Unit
 
-        override suspend fun deleteCategories() {
-            categories.value = emptyList()
-        }
+        override suspend fun deleteQuestions() = Unit
 
-        override suspend fun insertCategories(categories: List<CategoryEntity>) {
-            this.categories.value += categories
-        }
+        override suspend fun deleteCategoryNames() = Unit
 
-        override suspend fun insertQuestions(questions: List<QuestionEntity>) {
-            this.questions.value += questions
-        }
+        override suspend fun deleteCategories() = Unit
 
-        override suspend fun upsertContentInfo(info: ContentInfoEntity) {
-            this.info = info
-        }
+        override suspend fun insertCategories(categories: List<CategoryEntity>) = Unit
+
+        override suspend fun insertCategoryNames(names: List<CategoryNameEntity>) = Unit
+
+        override suspend fun insertQuestions(questions: List<QuestionEntity>) = Unit
+
+        override suspend fun insertQuestionTexts(texts: List<QuestionTextEntity>) = Unit
+
+        override suspend fun upsertContentInfo(info: ContentInfoEntity) = Unit
+
+        private fun localized(language: String): List<LocalizedQuestion> =
+            rows.value.questions.mapNotNull { question ->
+                val text =
+                    rows.value.questionTexts.firstOrNull { it.questionId == question.id && it.language == language }
+                        ?: return@mapNotNull null
+                LocalizedQuestion(
+                    id = question.id,
+                    categoryId = question.categoryId,
+                    level = question.level,
+                    sortOrder = question.sortOrder,
+                    correctAnswerIndex = question.correctAnswerIndex,
+                    difficulty = question.difficulty,
+                    title = text.title,
+                    answersJson = text.answersJson,
+                    explanation = text.explanation,
+                )
+            }
     }
 }

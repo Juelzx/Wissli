@@ -30,16 +30,27 @@
     <string name="dashboard_greeting_named">Hallo, %1$s</string>
     <string name="dashboard_greeting">Hallo!</string>
     <string name="dashboard_no_group">Noch keine Gruppe</string>
-    <string name="dashboard_account_menu">Konto</string>
-    <string name="dashboard_sign_out">Abmelden</string>
     <string name="dashboard_daily_question_label">FRAGE DES TAGES</string>
-    <string name="dashboard_daily_question_meta">%1$s · %2$d–%3$d J.</string>
-    <string name="dashboard_daily_question_open">Frage ansehen</string>
+    <string name="dashboard_open_profile">Profil öffnen</string>
+    <string name="dashboard_daily_question_next">Morgen wartet eine neue Frage auf dich.</string>
     <string name="dashboard_learning_title">Dein Fortschritt</string>
     <string name="dashboard_learning_all">Alle Themen</string>
-    <string name="dashboard_members_title">Mitspieler</string>
-    <string name="dashboard_members_manage">Verwalten</string>
-    <string name="dashboard_members_empty">Noch niemand außer dir hier. Lade jemanden in deine Gruppe ein!</string>
+    <string name="dashboard_stats_title">Deine Lern-Übersicht</string>
+    <string name="dashboard_stats_solved">Fragen gelöst</string>
+    <string name="dashboard_stats_accuracy">richtig beantwortet</string>
+    <plurals name="dashboard_stats_streak">
+        <item quantity="one">Tag in Folge</item>
+        <item quantity="other">Tage in Folge</item>
+    </plurals>
+    <string name="dashboard_stats_percent">%1$d %%</string>
+    <string name="dashboard_stats_last_days">Letzte 7 Tage</string>
+    <plurals name="dashboard_stats_day_answers">
+        <item quantity="one">%1$s: %2$d Antwort</item>
+        <item quantity="other">%1$s: %2$d Antworten</item>
+    </plurals>
+    <string name="dashboard_stats_topics">Trefferquote nach Thema</string>
+    <string name="dashboard_stats_topic_detail">%1$d von %2$d · %3$s</string>
+    <string name="dashboard_stats_empty">Beantworte ein paar Fragen in einem Level, dann siehst du hier, wie es in jedem Thema läuft.</string>
     <plurals name="dashboard_member_streak_days">
         <item quantity="one">%d Tag</item>
         <item quantity="other">%d Tage</item>
@@ -108,13 +119,18 @@
     <string name="level_complete_rank_topic">im Thema %1$s</string>
     <string name="level_back_to_overview">Zur Übersicht</string>
 
+    <!-- Profile -->
+    <string name="profile_back">Zurück</string>
+    <string name="profile_title">Dein Profil</string>
+    <string name="profile_no_name">Wissli-Spieler:in</string>
+    <string name="profile_settings_label">EINSTELLUNGEN</string>
+    <string name="profile_language_title">Sprache</string>
+    <string name="profile_language_subtitle">Für die App und alle Fragen.</string>
+    <string name="profile_notifications_title">Benachrichtigungen</string>
+    <string name="profile_notifications_subtitle">Erinnerungen und Neues aus deinen Gruppen. Kommt bald.</string>
+    <string name="profile_sign_out">Abmelden</string>
+
     <!-- Groups -->
     <string name="group_role_owner">Admin</string>
     <string name="group_role_member">Mitglied</string>
-
-    <!-- Challenges (veraltet, zusammen mit OpenChallengeCard.kt entfernen) -->
-    <string name="dashboard_challenge_from">%1$s · %2$s</string>
-    <string name="challenge_status_pending">OFFEN</string>
-    <string name="challenge_status_in_progress">LÄUFT</string>
-    <string name="challenge_status_completed">FERTIG</string>
 </resources>

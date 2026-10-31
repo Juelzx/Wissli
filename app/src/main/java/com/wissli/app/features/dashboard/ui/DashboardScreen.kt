@@ -6,11 +6,10 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListScope
-import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -22,6 +21,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.wissli.app.R
 import com.wissli.app.core.model.Group
@@ -38,7 +38,7 @@ import org.koin.androidx.compose.koinViewModel
 
 @Composable
 fun DashboardScreen(
-    onSignOut: () -> Unit,
+    onOpenProfile: () -> Unit,
     onTabSelected: (MainTab) -> Unit,
     onOpenLevel: (categoryId: String, level: Int) -> Unit,
     viewModel: DashboardViewModel = koinViewModel(),
@@ -47,7 +47,7 @@ fun DashboardScreen(
     DashboardContent(
         state = state,
         onIntent = viewModel::onIntent,
-        onSignOut = onSignOut,
+        onOpenProfile = onOpenProfile,
         onTabSelected = onTabSelected,
         onOpenLevel = onOpenLevel,
     )
@@ -57,7 +57,7 @@ fun DashboardScreen(
 private fun DashboardContent(
     state: DashboardState,
     onIntent: (DashboardIntent) -> Unit,
-    onSignOut: () -> Unit,
+    onOpenProfile: () -> Unit,
     onTabSelected: (MainTab) -> Unit,
     onOpenLevel: (categoryId: String, level: Int) -> Unit,
     modifier: Modifier = Modifier,
@@ -82,54 +82,39 @@ private fun DashboardContent(
                         greetingName = state.greetingName,
                         groupName = state.activeGroup?.name,
                         onGroupSwitcherClicked = { onIntent(DashboardIntent.GroupSwitcherClicked) },
-                        onSignOutClicked = onSignOut,
+                        onProfileClicked = onOpenProfile,
                         modifier = Modifier.padding(horizontal = Spacing.screenHorizontal),
                     )
                 }
                 learningSection(state = state, onTabSelected = onTabSelected, onOpenLevel = onOpenLevel)
-                state.dailyQuestion?.let { question ->
-                    item {
-                        DailyQuestionCard(
-                            question = question,
-                            onOpenClicked = { onIntent(DashboardIntent.OpenDailyQuestionClicked) },
-                            modifier = Modifier.fillMaxWidth().padding(horizontal = Spacing.xs),
-                        )
-                    }
-                }
-                membersSection(state = state, onIntent = onIntent)
+                dailyQuestionSection(state = state, onIntent = onIntent)
+                statsSection(state = state)
             }
         }
     }
 }
 
-private fun LazyListScope.membersSection(
+private fun LazyListScope.dailyQuestionSection(
     state: DashboardState,
     onIntent: (DashboardIntent) -> Unit,
 ) {
-    item {
-        SectionHeader(
-            title = stringResource(R.string.dashboard_members_title),
-            actionLabel = stringResource(R.string.dashboard_members_manage),
-            onActionClicked = { onIntent(DashboardIntent.ManageMembersClicked) },
+    val daily = state.dailyQuestion ?: return
+    item(key = DAILY_QUESTION_KEY) {
+        DailyQuestionCard(
+            dailyQuestion = daily,
+            onAnswerSelected = { index -> onIntent(DashboardIntent.DailyAnswerSelected(daily.question.id, index)) },
+            modifier = Modifier.fillMaxWidth().padding(horizontal = Spacing.xs),
         )
     }
-    item {
-        if (state.members.isEmpty()) {
-            EmptyHint(text = stringResource(R.string.dashboard_members_empty))
-        } else {
-            LazyRow(
-                contentPadding = PaddingValues(horizontal = Spacing.screenHorizontal),
-                horizontalArrangement = Arrangement.spacedBy(Spacing.s),
-            ) {
-                itemsIndexed(state.members, key = { _, member -> member.userId }) { index, member ->
-                    MemberCard(
-                        member = member,
-                        colorIndex = index,
-                        onClick = { onIntent(DashboardIntent.MemberClicked(member.userId)) },
-                    )
-                }
-            }
-        }
+}
+
+private fun LazyListScope.statsSection(state: DashboardState) {
+    item { SectionHeader(title = stringResource(R.string.dashboard_stats_title)) }
+    item(key = STATS_KEY) {
+        LearningStatsCard(
+            stats = state.stats,
+            modifier = Modifier.fillMaxWidth().padding(horizontal = Spacing.xs),
+        )
     }
 }
 
@@ -161,12 +146,16 @@ private fun LazyListScope.learningSection(
 @Composable
 private fun SectionHeader(
     title: String,
-    actionLabel: String,
-    onActionClicked: () -> Unit,
     modifier: Modifier = Modifier,
+    actionLabel: String? = null,
+    onActionClicked: () -> Unit = {},
 ) {
     Row(
-        modifier = modifier.fillMaxWidth().padding(start = Spacing.screenHorizontal, end = Spacing.xs),
+        modifier =
+            modifier
+                .fillMaxWidth()
+                .heightIn(min = SectionHeaderMinHeight)
+                .padding(start = Spacing.screenHorizontal, end = Spacing.xs),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Text(
@@ -175,21 +164,19 @@ private fun SectionHeader(
             color = MaterialTheme.colorScheme.onBackground,
             modifier = Modifier.weight(1f),
         )
-        TextButton(onClick = onActionClicked) {
-            Text(text = actionLabel, style = MaterialTheme.typography.labelLarge)
+        if (actionLabel != null) {
+            TextButton(onClick = onActionClicked) {
+                Text(text = actionLabel, style = MaterialTheme.typography.labelLarge)
+            }
         }
     }
 }
 
-@Composable
-private fun EmptyHint(text: String) {
-    Text(
-        text = text,
-        style = MaterialTheme.typography.bodyMedium,
-        color = MaterialTheme.colorScheme.onSurfaceVariant,
-        modifier = Modifier.padding(horizontal = Spacing.screenHorizontal),
-    )
-}
+private const val DAILY_QUESTION_KEY = "daily_question"
+private const val STATS_KEY = "learning_stats"
+
+// Keeps headers with and without an action button the same height.
+private val SectionHeaderMinHeight = 48.dp
 
 @Preview
 @Composable
@@ -208,8 +195,8 @@ internal fun DashboardPreview() {
                         createdAt = 0L,
                     ),
                 dailyQuestion = PreviewDailyQuestion,
-                members = PreviewMembers,
                 continueLearning = PreviewOverviews.first(),
+                stats = PreviewStats,
             ),
     )
 }
@@ -226,7 +213,7 @@ private fun DashboardContentPreview(state: DashboardState) {
         DashboardContent(
             state = state,
             onIntent = {},
-            onSignOut = {},
+            onOpenProfile = {},
             onTabSelected = {},
             onOpenLevel = { _, _ -> },
         )

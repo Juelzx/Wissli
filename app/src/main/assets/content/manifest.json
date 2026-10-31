@@ -1,55 +1,105 @@
 {
-  "contentVersion": 3,
+  "contentVersion": 4,
+  "languages": [
+    "de",
+    "en"
+  ],
   "categories": [
     {
       "id": "nature",
-      "name": "Natur",
+      "name": {
+        "de": "Natur",
+        "en": "Nature"
+      },
       "order": 0
     },
     {
       "id": "animals",
-      "name": "Tiere",
+      "name": {
+        "de": "Tiere",
+        "en": "Animals"
+      },
       "order": 1
     },
     {
       "id": "space",
-      "name": "Weltall",
+      "name": {
+        "de": "Weltall",
+        "en": "Space"
+      },
       "order": 2
     },
     {
       "id": "body",
-      "name": "Körper",
+      "name": {
+        "de": "Körper",
+        "en": "Body"
+      },
       "order": 3
     },
     {
       "id": "tech",
-      "name": "Technik",
+      "name": {
+        "de": "Technik",
+        "en": "Technology"
+      },
       "order": 4
     },
     {
       "id": "history",
-      "name": "Geschichte",
+      "name": {
+        "de": "Geschichte",
+        "en": "History"
+      },
       "order": 5
     },
     {
       "id": "world",
-      "name": "Welt & Länder",
+      "name": {
+        "de": "Welt & Länder",
+        "en": "World & Countries"
+      },
       "order": 6
     },
     {
       "id": "kitchen",
-      "name": "Küche & Alltag",
+      "name": {
+        "de": "Küche & Alltag",
+        "en": "Kitchen & Everyday Life"
+      },
       "order": 7
     },
     {
       "id": "arts",
-      "name": "Kunst & Musik",
+      "name": {
+        "de": "Kunst & Musik",
+        "en": "Art & Music"
+      },
       "order": 8
     },
     {
       "id": "sports",
-      "name": "Sport & Spiel",
+      "name": {
+        "de": "Sport & Spiel",
+        "en": "Sports & Games"
+      },
       "order": 9
+    },
+    {
+      "id": "math",
+      "name": {
+        "de": "Mathe",
+        "en": "Math"
+      },
+      "order": 10
+    },
+    {
+      "id": "english",
+      "name": {
+        "de": "Englisch",
+        "en": "English"
+      },
+      "order": 11
     }
   ]
 }

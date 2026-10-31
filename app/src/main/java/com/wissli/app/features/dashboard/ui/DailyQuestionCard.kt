@@ -1,47 +1,45 @@
 package com.wissli.app.features.dashboard.ui
 
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.slideInVertically
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.semantics.clearAndSetSemantics
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.wissli.app.R
-import com.wissli.app.data.question.DailyQuestion
+import com.wissli.app.core.model.Question
+import com.wissli.app.data.daily.DailyQuestion
+import com.wissli.app.ui.components.AnswerFeedbackCard
+import com.wissli.app.ui.components.AnswerOption
 import com.wissli.app.ui.components.CardStack
+import com.wissli.app.ui.components.answerLook
 import com.wissli.app.ui.preview.ComponentPreviews
 import com.wissli.app.ui.preview.WissliComponentPreview
-import com.wissli.app.ui.theme.LavenderContainer
 import com.wissli.app.ui.theme.LeafContainer
-import com.wissli.app.ui.theme.OnLavenderContainer
 import com.wissli.app.ui.theme.OnLeafContainer
-import com.wissli.app.ui.theme.OnPeachContainer
-import com.wissli.app.ui.theme.OnSkyContainer
-import com.wissli.app.ui.theme.PeachContainer
-import com.wissli.app.ui.theme.SkyContainer
 import com.wissli.app.ui.theme.Spacing
 
+/** Answered right on the dashboard; once answered it shows the result until the next question. */
 @Composable
 internal fun DailyQuestionCard(
-    question: DailyQuestion,
-    onOpenClicked: () -> Unit,
+    dailyQuestion: DailyQuestion,
+    onAnswerSelected: (answerIndex: Int) -> Unit,
     modifier: Modifier = Modifier,
 ) {
+    val question = dailyQuestion.question
     CardStack(modifier = modifier) {
         Surface(
             modifier = Modifier.fillMaxWidth(),
@@ -49,26 +47,31 @@ internal fun DailyQuestionCard(
             color = MaterialTheme.colorScheme.surfaceContainerLowest,
             shadowElevation = Spacing.xs,
         ) {
-            Column(modifier = Modifier.padding(CardPadding)) {
-                DailyQuestionMeta(question = question)
-                Spacer(Modifier.height(Spacing.s))
+            Column(
+                modifier = Modifier.padding(CardPadding),
+                verticalArrangement = Arrangement.spacedBy(Spacing.xs),
+            ) {
+                DailyQuestionMeta(categoryName = dailyQuestion.categoryName)
                 Text(
                     text = question.title,
                     style = MaterialTheme.typography.headlineMedium,
                     color = MaterialTheme.colorScheme.onSurface,
+                    modifier = Modifier.padding(top = Spacing.xxs, bottom = Spacing.xs),
                 )
-                Spacer(Modifier.height(Spacing.m))
-                AnswerLetterRow()
-                Spacer(Modifier.height(Spacing.m))
-                Button(
-                    onClick = onOpenClicked,
-                    shape = MaterialTheme.shapes.large,
-                    modifier = Modifier.fillMaxWidth().heightIn(min = ActionHeight),
-                ) {
-                    Text(
-                        text = stringResource(R.string.dashboard_daily_question_open),
-                        style = MaterialTheme.typography.titleSmall,
+                question.answers.forEachIndexed { index, answer ->
+                    AnswerOption(
+                        index = index,
+                        text = answer,
+                        look = answerLook(index, question.correctAnswerIndex, dailyQuestion.answeredIndex),
+                        enabled = !dailyQuestion.isAnswered,
+                        onClick = { onAnswerSelected(index) },
                     )
+                }
+                AnimatedVisibility(
+                    visible = dailyQuestion.isAnswered,
+                    enter = fadeIn() + slideInVertically { it / FEEDBACK_SLIDE_DIVISOR },
+                ) {
+                    DailyQuestionResult(dailyQuestion = dailyQuestion)
                 }
             }
         }
@@ -76,7 +79,7 @@ internal fun DailyQuestionCard(
 }
 
 @Composable
-private fun DailyQuestionMeta(question: DailyQuestion) {
+private fun DailyQuestionMeta(categoryName: String) {
     Row(verticalAlignment = Alignment.CenterVertically) {
         Text(
             text = stringResource(R.string.dashboard_daily_question_label),
@@ -89,73 +92,77 @@ private fun DailyQuestionMeta(question: DailyQuestion) {
         )
         Spacer(Modifier.weight(1f))
         Text(
-            text =
-                stringResource(
-                    R.string.dashboard_daily_question_meta,
-                    question.categoryName,
-                    question.ageFrom,
-                    question.ageTo,
-                ),
+            text = categoryName,
             style = MaterialTheme.typography.labelMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
+            maxLines = 1,
+            overflow = TextOverflow.Ellipsis,
+            modifier = Modifier.padding(start = Spacing.xs),
         )
     }
 }
 
-// A teaser of the answer options; the letters alone carry no information for screen readers.
 @Composable
-private fun AnswerLetterRow() {
-    Row(
-        modifier = Modifier.fillMaxWidth().clearAndSetSemantics {},
-        horizontalArrangement = Arrangement.spacedBy(Spacing.xs),
+private fun DailyQuestionResult(dailyQuestion: DailyQuestion) {
+    val isCorrect = dailyQuestion.isAnsweredCorrectly
+    Column(
+        modifier = Modifier.padding(top = Spacing.xs),
+        verticalArrangement = Arrangement.spacedBy(Spacing.s),
     ) {
-        AnswerLetterColors.forEachIndexed { index, (container, content) ->
-            Box(
-                modifier =
-                    Modifier
-                        .weight(1f)
-                        .height(AnswerLetterHeight)
-                        .background(container, MaterialTheme.shapes.small),
-                contentAlignment = Alignment.Center,
-            ) {
-                Text(
-                    text = ('A' + index).toString(),
-                    style = MaterialTheme.typography.titleSmall,
-                    color = content,
-                )
-            }
-        }
+        AnswerFeedbackCard(
+            isCorrect = isCorrect,
+            title = stringResource(if (isCorrect) R.string.level_feedback_correct else R.string.level_feedback_wrong),
+            explanation = dailyQuestion.question.explanation,
+        )
+        Text(
+            text = stringResource(R.string.dashboard_daily_question_next),
+            style = MaterialTheme.typography.labelLarge,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier.fillMaxWidth().padding(horizontal = Spacing.xs),
+        )
     }
 }
 
-private val AnswerLetterColors: List<Pair<Color, Color>> =
-    listOf(
-        SkyContainer to OnSkyContainer,
-        LeafContainer to OnLeafContainer,
-        LavenderContainer to OnLavenderContainer,
-        PeachContainer to OnPeachContainer,
-    )
-
 private val CardPadding = 18.dp
-private val AnswerLetterHeight = 40.dp
-private val ActionHeight = 56.dp
+private const val FEEDBACK_SLIDE_DIVISOR = 4
 
 @ComponentPreviews
 @Composable
 internal fun DailyQuestionCardPreview() {
     WissliComponentPreview {
-        DailyQuestionCard(
-            question = PreviewDailyQuestion,
-            onOpenClicked = {},
-        )
+        DailyQuestionCard(dailyQuestion = PreviewDailyQuestion, onAnswerSelected = {})
+    }
+}
+
+@ComponentPreviews
+@Composable
+internal fun DailyQuestionCardAnsweredPreview() {
+    WissliComponentPreview {
+        DailyQuestionCard(dailyQuestion = PreviewDailyQuestion.copy(answeredIndex = 0), onAnswerSelected = {})
     }
 }
 
 internal val PreviewDailyQuestion =
     DailyQuestion(
-        questionId = "sky-blue",
-        title = "Warum ist der Himmel blau?",
+        question =
+            Question(
+                id = "nature-0001",
+                categoryId = "nature",
+                level = 1,
+                order = 1,
+                title = "Warum ist der Himmel blau?",
+                answers =
+                    listOf(
+                        "Er spiegelt das Meer",
+                        "Blaues Licht wird stärker gestreut",
+                        "Die Sonne ist blau",
+                        "Wegen der Wolken",
+                    ),
+                correctAnswerIndex = 1,
+                explanation =
+                    "Sonnenlicht enthält alle Farben. Die Luft streut kurzwelliges blaues Licht viel stärker " +
+                        "als rotes – deshalb kommt es von überall am Himmel zu uns.",
+            ),
         categoryName = "Natur",
-        ageFrom = 6,
-        ageTo = 10,
+        answeredIndex = null,
     )

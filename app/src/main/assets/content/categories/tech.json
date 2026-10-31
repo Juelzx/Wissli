@@ -8,17 +8,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wozu dient ein Blitzableiter?",
-      "answers": [
-        "Er verhindert Blitze",
-        "Er leitet den Blitz sicher in den Boden",
-        "Er speichert den Strom",
-        "Er lenkt Blitze zum Nachbarn"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Der Blitz schlägt bevorzugt in die höchste leitende Stelle ein. Ein dicker Draht führt den Strom am Haus vorbei in die Erde.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu dient ein Blitzableiter?",
+          "answers": [
+            "Er verhindert Blitze",
+            "Er leitet den Blitz sicher in den Boden",
+            "Er speichert den Strom",
+            "Er lenkt Blitze zum Nachbarn"
+          ],
+          "explanation": "Der Blitz schlägt bevorzugt in die höchste leitende Stelle ein. Ein dicker Draht führt den Strom am Haus vorbei in die Erde."
+        },
+        "en": {
+          "title": "What is a lightning rod for?",
+          "answers": [
+            "It prevents lightning",
+            "It safely leads lightning into the ground",
+            "It stores the electricity",
+            "It sends lightning to the neighbours"
+          ],
+          "explanation": "Lightning likes to strike the highest conductive point. A thick wire carries the current past the house into the ground."
+        }
+      }
     },
     {
       "id": "tech-0002",
@@ -27,17 +41,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wohin bringt der Kühlschrank die Wärme aus seinem Inneren?",
-      "answers": [
-        "Er speichert sie im Gefrierfach",
-        "Er leitet sie ins Abwasser",
-        "Er gibt sie hinten an die Raumluft ab",
-        "Er vernichtet sie"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Ein Kühlmittel nimmt innen Wärme auf und gibt sie über das Gitter an der Rückseite wieder ab. Deshalb ist es dort warm, und ein offener Kühlschrank heizt die Küche insgesamt sogar auf.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wohin bringt der Kühlschrank die Wärme aus seinem Inneren?",
+          "answers": [
+            "Er speichert sie im Gefrierfach",
+            "Er leitet sie ins Abwasser",
+            "Er gibt sie hinten an die Raumluft ab",
+            "Er vernichtet sie"
+          ],
+          "explanation": "Ein Kühlmittel nimmt innen Wärme auf und gibt sie über das Gitter an der Rückseite wieder ab. Deshalb ist es dort warm, und ein offener Kühlschrank heizt die Küche insgesamt sogar auf."
+        },
+        "en": {
+          "title": "Where does a fridge put the heat from inside it?",
+          "answers": [
+            "It stores it in the freezer",
+            "It sends it down the drain",
+            "It releases it into the room at the back",
+            "It destroys it"
+          ],
+          "explanation": "A coolant takes in heat inside and gives it off again through the grille at the back. That's why it's warm there – and an open fridge actually heats up the kitchen overall."
+        }
+      }
     },
     {
       "id": "tech-0003",
@@ -46,17 +74,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum wird ein Handy beim Laden warm?",
-      "answers": [
-        "Das Kabel ist heiß",
-        "Ein Teil der Energie wird zu Wärme",
-        "Der Akku kocht",
-        "Die Apps arbeiten schneller"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Kein Akku nimmt Strom ganz ohne Verluste auf. Ein Teil der Energie wird zu Wärme, besonders beim Schnellladen. Deshalb sollte ein ladendes Handy nicht unter der Bettdecke liegen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum wird ein Handy beim Laden warm?",
+          "answers": [
+            "Das Kabel ist heiß",
+            "Ein Teil der Energie wird zu Wärme",
+            "Der Akku kocht",
+            "Die Apps arbeiten schneller"
+          ],
+          "explanation": "Kein Akku nimmt Strom ganz ohne Verluste auf. Ein Teil der Energie wird zu Wärme, besonders beim Schnellladen. Deshalb sollte ein ladendes Handy nicht unter der Bettdecke liegen."
+        },
+        "en": {
+          "title": "Why does a phone get warm while charging?",
+          "answers": [
+            "The cable is hot",
+            "Some of the energy turns into heat",
+            "The battery is boiling",
+            "The apps run faster"
+          ],
+          "explanation": "No battery takes in electricity without losses. Some of the energy turns into heat, especially when fast charging. That's why a charging phone shouldn't lie under the duvet."
+        }
+      }
     },
     {
       "id": "tech-0004",
@@ -65,17 +107,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie erwärmt eine Mikrowelle das Essen?",
-      "answers": [
-        "Sie macht das Essen radioaktiv",
-        "Sie bringt die Wasserteilchen im Essen zum Schwingen",
-        "Sie erhitzt zuerst den Teller",
-        "Sie heizt die Luft im Inneren"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Mikrowellen lassen die Wassermoleküle im Essen sehr schnell hin und her zappeln. Diese Bewegung wird zu Wärme. Radioaktiv wird das Essen dabei nicht.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie erwärmt eine Mikrowelle das Essen?",
+          "answers": [
+            "Sie macht das Essen radioaktiv",
+            "Sie bringt die Wasserteilchen im Essen zum Schwingen",
+            "Sie erhitzt zuerst den Teller",
+            "Sie heizt die Luft im Inneren"
+          ],
+          "explanation": "Mikrowellen lassen die Wassermoleküle im Essen sehr schnell hin und her zappeln. Diese Bewegung wird zu Wärme. Radioaktiv wird das Essen dabei nicht."
+        },
+        "en": {
+          "title": "How does a microwave heat food?",
+          "answers": [
+            "It makes the food radioactive",
+            "It makes the water particles in the food vibrate",
+            "It heats the plate first",
+            "It heats the air inside"
+          ],
+          "explanation": "Microwaves make the water molecules in food jiggle back and forth very fast. This movement turns into heat. The food does not become radioactive."
+        }
+      }
     },
     {
       "id": "tech-0005",
@@ -84,17 +140,31 @@
       "order": 11,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum leuchtet eine Glühbirne?",
-      "answers": [
-        "Ein dünner Draht wird vom Strom glühend heiß",
-        "Ein kleines Feuer brennt darin",
-        "Ein Gas verbrennt darin",
-        "Sie hat Sonnenlicht gespeichert"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Der Strom muss sich durch einen sehr dünnen Wolframdraht zwängen und heizt ihn auf über 2.000 Grad auf. Dabei glüht er hell. Den größten Teil der Energie macht eine Glühbirne aber zu Wärme, deshalb wurde sie weitgehend durch LEDs ersetzt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum leuchtet eine Glühbirne?",
+          "answers": [
+            "Ein dünner Draht wird vom Strom glühend heiß",
+            "Ein kleines Feuer brennt darin",
+            "Ein Gas verbrennt darin",
+            "Sie hat Sonnenlicht gespeichert"
+          ],
+          "explanation": "Der Strom muss sich durch einen sehr dünnen Wolframdraht zwängen und heizt ihn auf über 2.000 Grad auf. Dabei glüht er hell. Den größten Teil der Energie macht eine Glühbirne aber zu Wärme, deshalb wurde sie weitgehend durch LEDs ersetzt."
+        },
+        "en": {
+          "title": "Why does a light bulb glow?",
+          "answers": [
+            "Electricity makes a thin wire glowing hot",
+            "A small fire burns inside it",
+            "A gas burns inside it",
+            "It has stored sunlight"
+          ],
+          "explanation": "The current has to squeeze through a very thin tungsten wire and heats it to over 2,000 degrees, so it glows brightly. But a light bulb turns most of its energy into heat, which is why it has largely been replaced by LEDs."
+        }
+      }
     },
     {
       "id": "tech-0006",
@@ -103,17 +173,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was ist WLAN?",
-      "answers": [
-        "Ein Kabel unter der Erde",
-        "Ein Satellit",
-        "Internet per Funk ohne Kabel",
-        "Ein Computerspiel"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Router zu Hause sendet die Daten über Funkwellen, ähnlich wie ein Radiosender. Laptop und Handy empfangen sie und funken auch zurück.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist WLAN?",
+          "answers": [
+            "Ein Kabel unter der Erde",
+            "Ein Satellit",
+            "Internet per Funk ohne Kabel",
+            "Ein Computerspiel"
+          ],
+          "explanation": "Der Router zu Hause sendet die Daten über Funkwellen, ähnlich wie ein Radiosender. Laptop und Handy empfangen sie und funken auch zurück."
+        },
+        "en": {
+          "title": "What is Wi-Fi?",
+          "answers": [
+            "A cable under the ground",
+            "A satellite",
+            "Internet by radio, without cables",
+            "A computer game"
+          ],
+          "explanation": "The router at home sends data over radio waves, a bit like a radio station. Laptops and phones receive them and send data back the same way."
+        }
+      }
     },
     {
       "id": "tech-0007",
@@ -122,17 +206,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was ist ein Computervirus?",
-      "answers": [
-        "Ein Fehler im Bildschirm",
-        "Ein kaputtes Kabel",
-        "Eine Grippe aus Computerstaub",
-        "Ein Programm, das sich heimlich verbreitet"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Ein Computervirus ist Software, die sich in andere Programme oder Dateien einschleust und sich weiterkopiert. Wie ein echtes Virus braucht es einen Wirt, daher der Name.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Computervirus?",
+          "answers": [
+            "Ein Fehler im Bildschirm",
+            "Ein kaputtes Kabel",
+            "Eine Grippe aus Computerstaub",
+            "Ein Programm, das sich heimlich verbreitet"
+          ],
+          "explanation": "Ein Computervirus ist Software, die sich in andere Programme oder Dateien einschleust und sich weiterkopiert. Wie ein echtes Virus braucht es einen Wirt, daher der Name."
+        },
+        "en": {
+          "title": "What is a computer virus?",
+          "answers": [
+            "A fault in the screen",
+            "A broken cable",
+            "Flu from computer dust",
+            "A program that spreads secretly"
+          ],
+          "explanation": "A computer virus is software that sneaks into other programs or files and copies itself. Like a real virus it needs a host – hence the name."
+        }
+      }
     },
     {
       "id": "tech-0008",
@@ -141,17 +239,31 @@
       "order": 12,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wofür steht „www“ in Internetadressen?",
-      "answers": [
-        "Wir wollen weiter",
-        "Wireless World Wave",
-        "World Wide Web",
-        "Weltweite Werbung"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Das World Wide Web erfand Tim Berners-Lee 1989 am Forschungszentrum CERN. Es verknüpft Seiten über Links, das Internet selbst ist das Netz darunter.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wofür steht „www“ in Internetadressen?",
+          "answers": [
+            "Wir wollen weiter",
+            "Wireless World Wave",
+            "World Wide Web",
+            "Weltweite Werbung"
+          ],
+          "explanation": "Das World Wide Web erfand Tim Berners-Lee 1989 am Forschungszentrum CERN. Es verknüpft Seiten über Links, das Internet selbst ist das Netz darunter."
+        },
+        "en": {
+          "title": "What does “www” in web addresses stand for?",
+          "answers": [
+            "We want websites",
+            "Wireless World Wave",
+            "World Wide Web",
+            "Worldwide wonders"
+          ],
+          "explanation": "Tim Berners-Lee invented the World Wide Web in 1989 at the CERN research centre. It connects pages through links; the internet itself is the network underneath."
+        }
+      }
     },
     {
       "id": "tech-0009",
@@ -160,17 +272,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie kommt eine E-Mail zum Empfänger?",
-      "answers": [
-        "Über ein einziges langes Kabel",
-        "In kleinen Datenpaketen über viele Rechner",
-        "Direkt per Satellit",
-        "Sie wird ausgedruckt und gefaxt"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Im Internet reisen Daten in kleinen Paketen. Jedes kann einen anderen Weg über Knotenrechner nehmen, beim Empfänger werden sie wieder zusammengesetzt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie kommt eine E-Mail zum Empfänger?",
+          "answers": [
+            "Über ein einziges langes Kabel",
+            "In kleinen Datenpaketen über viele Rechner",
+            "Direkt per Satellit",
+            "Sie wird ausgedruckt und gefaxt"
+          ],
+          "explanation": "Im Internet reisen Daten in kleinen Paketen. Jedes kann einen anderen Weg über Knotenrechner nehmen, beim Empfänger werden sie wieder zusammengesetzt."
+        },
+        "en": {
+          "title": "How does an email reach the person it's for?",
+          "answers": [
+            "Through one single long cable",
+            "In small data packets via many computers",
+            "Directly by satellite",
+            "It is printed and faxed"
+          ],
+          "explanation": "On the internet, data travels in small packets. Each can take a different route through network computers, and they are put back together at the other end."
+        }
+      }
     },
     {
       "id": "tech-0010",
@@ -179,17 +305,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie kann ein Flugzeug fliegen?",
-      "answers": [
-        "Die Triebwerke drücken es nach oben",
-        "Es ist leichter als Luft",
-        "In den Flügeln ist Gas",
-        "Die Flügel lenken Luft nach unten und erzeugen Auftrieb"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Die gewölbten, leicht schräg gestellten Flügel lenken die vorbeiströmende Luft nach unten. Dadurch entsteht eine Kraft nach oben, der Auftrieb. Die Triebwerke sorgen nur für das nötige Tempo.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie kann ein Flugzeug fliegen?",
+          "answers": [
+            "Die Triebwerke drücken es nach oben",
+            "Es ist leichter als Luft",
+            "In den Flügeln ist Gas",
+            "Die Flügel lenken Luft nach unten und erzeugen Auftrieb"
+          ],
+          "explanation": "Die gewölbten, leicht schräg gestellten Flügel lenken die vorbeiströmende Luft nach unten. Dadurch entsteht eine Kraft nach oben, der Auftrieb. Die Triebwerke sorgen nur für das nötige Tempo."
+        },
+        "en": {
+          "title": "How can a plane fly?",
+          "answers": [
+            "The engines push it upwards",
+            "It is lighter than air",
+            "There is gas in the wings",
+            "The wings push air downwards and create lift"
+          ],
+          "explanation": "The curved, slightly tilted wings push the air flowing past them downwards. That creates an upward force called lift. The engines just provide the speed needed."
+        }
+      }
     },
     {
       "id": "tech-0011",
@@ -198,17 +338,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wozu hat ein Auto Sicherheitsgurte?",
-      "answers": [
-        "Sie halten uns beim Bremsen auf dem Sitz fest",
-        "Damit wir aufrecht sitzen",
-        "Damit das Auto schneller fährt",
-        "Zum Schutz vor Dieben"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Bremst ein Auto plötzlich, will unser Körper mit der alten Geschwindigkeit weiterfliegen. Der Gurt fängt ihn ab und verteilt die Kräfte auf Becken und Brust.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu hat ein Auto Sicherheitsgurte?",
+          "answers": [
+            "Sie halten uns beim Bremsen auf dem Sitz fest",
+            "Damit wir aufrecht sitzen",
+            "Damit das Auto schneller fährt",
+            "Zum Schutz vor Dieben"
+          ],
+          "explanation": "Bremst ein Auto plötzlich, will unser Körper mit der alten Geschwindigkeit weiterfliegen. Der Gurt fängt ihn ab und verteilt die Kräfte auf Becken und Brust."
+        },
+        "en": {
+          "title": "Why does a car have seat belts?",
+          "answers": [
+            "They hold us in our seat when braking",
+            "So we sit up straight",
+            "So the car goes faster",
+            "To protect against thieves"
+          ],
+          "explanation": "When a car brakes suddenly, our body wants to keep flying forward at the old speed. The belt catches it and spreads the forces over the hips and chest."
+        }
+      }
     },
     {
       "id": "tech-0012",
@@ -217,17 +371,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie gewinnt ein E-Auto beim Bremsen Strom zurück?",
-      "answers": [
-        "Der Motor arbeitet dann als Generator",
-        "Der Fahrtwind lädt den Akku",
-        "Die Reifen laden den Akku durch Reibung",
-        "Solarzellen in den Bremsen"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Beim Bremsen lässt das E-Auto den Elektromotor als Generator laufen. Er wandelt die Bewegung wieder in Strom um und lädt damit den Akku ein Stück auf.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie gewinnt ein E-Auto beim Bremsen Strom zurück?",
+          "answers": [
+            "Der Motor arbeitet dann als Generator",
+            "Der Fahrtwind lädt den Akku",
+            "Die Reifen laden den Akku durch Reibung",
+            "Solarzellen in den Bremsen"
+          ],
+          "explanation": "Beim Bremsen lässt das E-Auto den Elektromotor als Generator laufen. Er wandelt die Bewegung wieder in Strom um und lädt damit den Akku ein Stück auf."
+        },
+        "en": {
+          "title": "How does an electric car get electricity back when braking?",
+          "answers": [
+            "The motor then works as a generator",
+            "The wind charges the battery",
+            "The tyres charge the battery by friction",
+            "Solar cells in the brakes"
+          ],
+          "explanation": "When braking, an electric car runs its motor as a generator. It turns the movement back into electricity and charges the battery a little."
+        }
+      }
     },
     {
       "id": "tech-0013",
@@ -236,17 +404,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum schwimmt ein Schiff aus Stahl?",
-      "answers": [
-        "Es verdrängt sehr viel Wasser",
-        "Stahl ist leichter als Wasser",
-        "Im Rumpf sind Luftballons",
-        "Der Motor hält es oben"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Der Rumpf ist innen hohl und voller Luft. Ein Schiff sinkt nur so tief ein, bis das verdrängte Wasser genauso viel wiegt wie das ganze Schiff, dann trägt es das Wasser.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum schwimmt ein Schiff aus Stahl?",
+          "answers": [
+            "Es verdrängt sehr viel Wasser",
+            "Stahl ist leichter als Wasser",
+            "Im Rumpf sind Luftballons",
+            "Der Motor hält es oben"
+          ],
+          "explanation": "Der Rumpf ist innen hohl und voller Luft. Ein Schiff sinkt nur so tief ein, bis das verdrängte Wasser genauso viel wiegt wie das ganze Schiff, dann trägt es das Wasser."
+        },
+        "en": {
+          "title": "Why does a steel ship float?",
+          "answers": [
+            "It pushes aside a lot of water",
+            "Steel is lighter than water",
+            "There are balloons in the hull",
+            "The engine keeps it up"
+          ],
+          "explanation": "The hull is hollow and full of air. A ship only sinks in until the water it pushes aside weighs as much as the whole ship – then the water carries it."
+        }
+      }
     },
     {
       "id": "tech-0014",
@@ -255,17 +437,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was macht ein Akku?",
-      "answers": [
-        "Er speichert Strom und gibt ihn später ab",
-        "Er verbindet das Handy mit dem Internet",
-        "Er kühlt das Gerät",
-        "Er erzeugt Strom aus Luft"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "In einem Akku wird elektrische Energie als chemische Energie gespeichert. Beim Entladen läuft die Reaktion rückwärts, und es fließt wieder Strom. Anders als eine normale Batterie lässt er sich viele hundert Mal aufladen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was macht ein Akku?",
+          "answers": [
+            "Er speichert Strom und gibt ihn später ab",
+            "Er verbindet das Handy mit dem Internet",
+            "Er kühlt das Gerät",
+            "Er erzeugt Strom aus Luft"
+          ],
+          "explanation": "In einem Akku wird elektrische Energie als chemische Energie gespeichert. Beim Entladen läuft die Reaktion rückwärts, und es fließt wieder Strom. Anders als eine normale Batterie lässt er sich viele hundert Mal aufladen."
+        },
+        "en": {
+          "title": "What does a rechargeable battery do?",
+          "answers": [
+            "It stores electricity and releases it later",
+            "It connects the phone to the internet",
+            "It cools the device",
+            "It makes electricity from air"
+          ],
+          "explanation": "A rechargeable battery stores electrical energy as chemical energy. When it is used, the reaction runs backwards and electricity flows again. Unlike a normal battery, it can be recharged hundreds of times."
+        }
+      }
     },
     {
       "id": "tech-0015",
@@ -274,17 +470,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Woraus besteht das Bild auf einem Handydisplay?",
-      "answers": [
-        "Aus Millionen winziger Punkte in Rot, Grün und Blau",
-        "Aus bunter Flüssigkeit hinter Glas",
-        "Aus einem Bild, das ein Projektor von hinten zeigt",
-        "Aus einer einzigen farbigen Lampe"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Ein Display besteht aus Pixeln, und jedes hat einen roten, grünen und blauen Bereich. Aus diesen drei Farben mischt es jede andere Farbe. Mit einer Lupe kann man die einzelnen Punkte sehen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woraus besteht das Bild auf einem Handydisplay?",
+          "answers": [
+            "Aus Millionen winziger Punkte in Rot, Grün und Blau",
+            "Aus bunter Flüssigkeit hinter Glas",
+            "Aus einem Bild, das ein Projektor von hinten zeigt",
+            "Aus einer einzigen farbigen Lampe"
+          ],
+          "explanation": "Ein Display besteht aus Pixeln, und jedes hat einen roten, grünen und blauen Bereich. Aus diesen drei Farben mischt es jede andere Farbe. Mit einer Lupe kann man die einzelnen Punkte sehen."
+        },
+        "en": {
+          "title": "What is the picture on a phone screen made of?",
+          "answers": [
+            "Millions of tiny red, green and blue dots",
+            "Colourful liquid behind glass",
+            "A picture shown by a projector from behind",
+            "One single coloured lamp"
+          ],
+          "explanation": "A screen is made of pixels, and each has a red, a green and a blue part. From these three colours it mixes every other colour. With a magnifying glass you can see the single dots."
+        }
+      }
     },
     {
       "id": "tech-0016",
@@ -293,17 +503,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was zeigt ein Kompass an?",
-      "answers": [
-        "Die Temperatur",
-        "Die Uhrzeit",
-        "Die Höhe",
-        "Die Richtung nach Norden"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Die Nadel eines Kompasses ist ein kleiner Magnet. Sie richtet sich am Magnetfeld der Erde aus und zeigt deshalb immer ungefähr nach Norden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was zeigt ein Kompass an?",
+          "answers": [
+            "Die Temperatur",
+            "Die Uhrzeit",
+            "Die Höhe",
+            "Die Richtung nach Norden"
+          ],
+          "explanation": "Die Nadel eines Kompasses ist ein kleiner Magnet. Sie richtet sich am Magnetfeld der Erde aus und zeigt deshalb immer ungefähr nach Norden."
+        },
+        "en": {
+          "title": "What does a compass show?",
+          "answers": [
+            "The temperature",
+            "The time",
+            "The altitude",
+            "The direction of north"
+          ],
+          "explanation": "A compass needle is a small magnet. It lines up with the Earth's magnetic field and so always points roughly north."
+        }
+      }
     },
     {
       "id": "tech-0017",
@@ -312,17 +536,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was macht eine Solarzelle?",
-      "answers": [
-        "Sie spiegelt Licht zur Sonne zurück",
-        "Sie erzeugt Wind",
-        "Sie wandelt Sonnenlicht direkt in Strom um",
-        "Sie kühlt das Dach"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "In einer Solarzelle schlägt das Licht Elektronen im Silizium frei. Sie fließen als Strom durch die Leitungen, ganz ohne bewegliche Teile.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was macht eine Solarzelle?",
+          "answers": [
+            "Sie spiegelt Licht zur Sonne zurück",
+            "Sie erzeugt Wind",
+            "Sie wandelt Sonnenlicht direkt in Strom um",
+            "Sie kühlt das Dach"
+          ],
+          "explanation": "In einer Solarzelle schlägt das Licht Elektronen im Silizium frei. Sie fließen als Strom durch die Leitungen, ganz ohne bewegliche Teile."
+        },
+        "en": {
+          "title": "What does a solar cell do?",
+          "answers": [
+            "It reflects light back to the sun",
+            "It makes wind",
+            "It turns sunlight directly into electricity",
+            "It cools the roof"
+          ],
+          "explanation": "In a solar cell, light knocks electrons loose in the silicon. They flow through the wires as electricity – without any moving parts."
+        }
+      }
     },
     {
       "id": "tech-0018",
@@ -331,17 +569,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wie funktioniert ein Thermometer mit Flüssigkeit?",
-      "answers": [
-        "Eine Feder drückt sie hoch",
-        "Die Flüssigkeit dehnt sich bei Wärme aus und steigt",
-        "Die Flüssigkeit verdunstet",
-        "Wärme zieht die Flüssigkeit an wie ein Magnet"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Fast alle Stoffe dehnen sich bei Wärme aus. In dem dünnen Röhrchen fällt schon ein kleines bisschen Ausdehnung auf, die Flüssigkeit steigt, und an der Skala liest man die Temperatur ab.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie funktioniert ein Thermometer mit Flüssigkeit?",
+          "answers": [
+            "Eine Feder drückt sie hoch",
+            "Die Flüssigkeit dehnt sich bei Wärme aus und steigt",
+            "Die Flüssigkeit verdunstet",
+            "Wärme zieht die Flüssigkeit an wie ein Magnet"
+          ],
+          "explanation": "Fast alle Stoffe dehnen sich bei Wärme aus. In dem dünnen Röhrchen fällt schon ein kleines bisschen Ausdehnung auf, die Flüssigkeit steigt, und an der Skala liest man die Temperatur ab."
+        },
+        "en": {
+          "title": "How does a liquid thermometer work?",
+          "answers": [
+            "A spring pushes it up",
+            "The liquid expands in the warmth and rises",
+            "The liquid evaporates",
+            "Warmth attracts the liquid like a magnet"
+          ],
+          "explanation": "Almost everything expands when it gets warm. In the thin tube even a tiny bit of expansion shows: the liquid rises, and you read the temperature off the scale."
+        }
+      }
     },
     {
       "id": "tech-0019",
@@ -350,17 +602,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wie findet eine Suchmaschine so schnell Webseiten?",
-      "answers": [
-        "Menschen lesen jede Seite vor",
-        "Sie fragt bei jeder Suche alle Seiten neu ab",
-        "Alle Webseiten stehen in einem Buch",
-        "Sie hat das Netz vorher durchsucht und ein Verzeichnis angelegt"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Programme, sogenannte Crawler, folgen rund um die Uhr Links von Seite zu Seite und speichern, was sie finden. Wenn du suchst, schaut die Suchmaschine nur in diesem riesigen Verzeichnis nach.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie findet eine Suchmaschine so schnell Webseiten?",
+          "answers": [
+            "Menschen lesen jede Seite vor",
+            "Sie fragt bei jeder Suche alle Seiten neu ab",
+            "Alle Webseiten stehen in einem Buch",
+            "Sie hat das Netz vorher durchsucht und ein Verzeichnis angelegt"
+          ],
+          "explanation": "Programme, sogenannte Crawler, folgen rund um die Uhr Links von Seite zu Seite und speichern, was sie finden. Wenn du suchst, schaut die Suchmaschine nur in diesem riesigen Verzeichnis nach."
+        },
+        "en": {
+          "title": "How does a search engine find web pages so fast?",
+          "answers": [
+            "People read out every page",
+            "It asks every page again for each search",
+            "All websites are listed in a book",
+            "It has searched the web beforehand and built an index"
+          ],
+          "explanation": "Programs called crawlers follow links from page to page around the clock and save what they find. When you search, the search engine only looks in this huge index."
+        }
+      }
     },
     {
       "id": "tech-0020",
@@ -369,17 +635,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum haben Autoreifen ein Profil?",
-      "answers": [
-        "Damit sie leichter sind",
-        "Damit sie leiser rollen",
-        "Damit bei Nässe das Wasser abfließen kann",
-        "Damit sie schöner aussehen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Auf nasser Straße leiten die Rillen das Wasser unter dem Reifen weg. Ohne Profil könnte das Auto auf einem Wasserfilm rutschen, das nennt man Aquaplaning.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum haben Autoreifen ein Profil?",
+          "answers": [
+            "Damit sie leichter sind",
+            "Damit sie leiser rollen",
+            "Damit bei Nässe das Wasser abfließen kann",
+            "Damit sie schöner aussehen"
+          ],
+          "explanation": "Auf nasser Straße leiten die Rillen das Wasser unter dem Reifen weg. Ohne Profil könnte das Auto auf einem Wasserfilm rutschen, das nennt man Aquaplaning."
+        },
+        "en": {
+          "title": "Why do car tyres have a tread?",
+          "answers": [
+            "So they are lighter",
+            "So they roll more quietly",
+            "So water can drain away in the wet",
+            "So they look nicer"
+          ],
+          "explanation": "On a wet road, the grooves channel the water away from under the tyre. Without tread, the car could slide on a film of water – this is called aquaplaning."
+        }
+      }
     },
     {
       "id": "tech-0021",
@@ -388,17 +668,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wozu dient ein Kühlschrank?",
-      "answers": [
-        "Er hält Lebensmittel kühl und länger frisch",
-        "Er spült Geschirr",
-        "Er wärmt das Essen auf",
-        "Er trocknet Wäsche"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "In der Kälte vermehren sich Bakterien viel langsamer. Deshalb bleiben Milch, Käse und Gemüse im Kühlschrank länger frisch.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu dient ein Kühlschrank?",
+          "answers": [
+            "Er hält Lebensmittel kühl und länger frisch",
+            "Er spült Geschirr",
+            "Er wärmt das Essen auf",
+            "Er trocknet Wäsche"
+          ],
+          "explanation": "In der Kälte vermehren sich Bakterien viel langsamer. Deshalb bleiben Milch, Käse und Gemüse im Kühlschrank länger frisch."
+        },
+        "en": {
+          "title": "What is a fridge for?",
+          "answers": [
+            "It keeps food cool and fresh for longer",
+            "It washes dishes",
+            "It heats up food",
+            "It dries laundry"
+          ],
+          "explanation": "In the cold, bacteria multiply much more slowly. That's why milk, cheese and vegetables stay fresh longer in the fridge."
+        }
+      }
     },
     {
       "id": "tech-0022",
@@ -407,17 +701,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was braucht eine Taschenlampe, damit sie leuchtet?",
-      "answers": [
-        "Wasser",
-        "Sonnencreme",
-        "Luftdruck",
-        "Strom, zum Beispiel aus einer Batterie"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Die Batterie liefert Strom, der durch die Lampe fließt und sie zum Leuchten bringt. Ist die Batterie leer, bleibt es dunkel.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was braucht eine Taschenlampe, damit sie leuchtet?",
+          "answers": [
+            "Wasser",
+            "Sonnencreme",
+            "Luftdruck",
+            "Strom, zum Beispiel aus einer Batterie"
+          ],
+          "explanation": "Die Batterie liefert Strom, der durch die Lampe fließt und sie zum Leuchten bringt. Ist die Batterie leer, bleibt es dunkel."
+        },
+        "en": {
+          "title": "What does a torch need to shine?",
+          "answers": [
+            "Water",
+            "Sun cream",
+            "Air pressure",
+            "Electricity, for example from a battery"
+          ],
+          "explanation": "The battery provides electricity that flows through the bulb and makes it light up. When the battery is flat, it stays dark."
+        }
+      }
     },
     {
       "id": "tech-0023",
@@ -426,17 +734,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum hält ein Magnet an der Kühlschranktür?",
-      "answers": [
-        "Die Tür enthält Eisen",
-        "Der Kühlschrank ist kalt",
-        "Die Tür ist elektrisch geladen",
-        "Am Magnet ist Kleber"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Magnete ziehen Eisen an. Unter dem Lack der Kühlschranktür steckt Stahlblech, das Eisen enthält – deshalb bleibt der Magnet haften.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum hält ein Magnet an der Kühlschranktür?",
+          "answers": [
+            "Die Tür enthält Eisen",
+            "Der Kühlschrank ist kalt",
+            "Die Tür ist elektrisch geladen",
+            "Am Magnet ist Kleber"
+          ],
+          "explanation": "Magnete ziehen Eisen an. Unter dem Lack der Kühlschranktür steckt Stahlblech, das Eisen enthält – deshalb bleibt der Magnet haften."
+        },
+        "en": {
+          "title": "Why does a magnet stick to the fridge door?",
+          "answers": [
+            "The door contains iron",
+            "The fridge is cold",
+            "The door is electrically charged",
+            "The magnet has glue on it"
+          ],
+          "explanation": "Magnets attract iron. Under the paint of the fridge door there is sheet steel, which contains iron – so the magnet sticks."
+        }
+      }
     },
     {
       "id": "tech-0024",
@@ -445,17 +767,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie macht ein Toaster das Brot knusprig?",
-      "answers": [
-        "Er presst das Brot zusammen",
-        "Glühende Drähte strahlen Hitze ab",
-        "Er schickt Strom durch das Brot",
-        "Er bläst kalte Luft darauf"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Im Toaster sind dünne Heizdrähte, die vom Strom rot glühen. Ihre Hitze trocknet die Oberfläche des Brots und färbt sie braun.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie macht ein Toaster das Brot knusprig?",
+          "answers": [
+            "Er presst das Brot zusammen",
+            "Glühende Drähte strahlen Hitze ab",
+            "Er schickt Strom durch das Brot",
+            "Er bläst kalte Luft darauf"
+          ],
+          "explanation": "Im Toaster sind dünne Heizdrähte, die vom Strom rot glühen. Ihre Hitze trocknet die Oberfläche des Brots und färbt sie braun."
+        },
+        "en": {
+          "title": "How does a toaster make bread crispy?",
+          "answers": [
+            "It squashes the bread",
+            "Glowing wires give off heat",
+            "It sends electricity through the bread",
+            "It blows cold air on it"
+          ],
+          "explanation": "Inside the toaster are thin heating wires that glow red from the electricity. Their heat dries the surface of the bread and turns it brown."
+        }
+      }
     },
     {
       "id": "tech-0025",
@@ -464,17 +800,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie sendet eine Fernbedienung ihre Befehle an den Fernseher?",
-      "answers": [
-        "Über ein dünnes Kabel im Boden",
-        "Mit Magneten",
-        "Meist mit unsichtbarem Infrarotlicht",
-        "Mit kleinen Luftstößen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Die Fernbedienung blinkt mit Infrarotlicht, das unsere Augen nicht sehen. Durch eine Handykamera betrachtet, kann man das Blinken oft erkennen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie sendet eine Fernbedienung ihre Befehle an den Fernseher?",
+          "answers": [
+            "Über ein dünnes Kabel im Boden",
+            "Mit Magneten",
+            "Meist mit unsichtbarem Infrarotlicht",
+            "Mit kleinen Luftstößen"
+          ],
+          "explanation": "Die Fernbedienung blinkt mit Infrarotlicht, das unsere Augen nicht sehen. Durch eine Handykamera betrachtet, kann man das Blinken oft erkennen."
+        },
+        "en": {
+          "title": "How does a remote control send its commands to the TV?",
+          "answers": [
+            "Through a thin cable in the floor",
+            "With magnets",
+            "Usually with invisible infrared light",
+            "With little puffs of air"
+          ],
+          "explanation": "The remote flashes infrared light that our eyes can't see. Through a phone camera you can often see the flashing."
+        }
+      }
     },
     {
       "id": "tech-0026",
@@ -483,17 +833,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wozu dient ein Fernrohr?",
-      "answers": [
-        "Um weit entfernte Dinge näher zu sehen",
-        "Um Dinge zu wiegen",
-        "Um im Dunkeln zu hören",
-        "Um die Zeit zu messen"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Linsen oder Spiegel im Fernrohr sammeln das Licht und vergrößern das Bild. Galileo Galilei entdeckte damit die Monde des Jupiter.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu dient ein Fernrohr?",
+          "answers": [
+            "Um weit entfernte Dinge näher zu sehen",
+            "Um Dinge zu wiegen",
+            "Um im Dunkeln zu hören",
+            "Um die Zeit zu messen"
+          ],
+          "explanation": "Linsen oder Spiegel im Fernrohr sammeln das Licht und vergrößern das Bild. Galileo Galilei entdeckte damit die Monde des Jupiter."
+        },
+        "en": {
+          "title": "What is a telescope for?",
+          "answers": [
+            "Seeing faraway things up close",
+            "Weighing things",
+            "Hearing in the dark",
+            "Measuring time"
+          ],
+          "explanation": "Lenses or mirrors in a telescope collect the light and magnify the picture. Galileo Galilei used one to discover Jupiter's moons."
+        }
+      }
     },
     {
       "id": "tech-0027",
@@ -502,17 +866,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Was gelang den Brüdern Wright im Jahr 1903?",
-      "answers": [
-        "Die erste Fahrt mit einer Dampflok",
-        "Der erste gesteuerte Flug mit einem Motorflugzeug",
-        "Der Bau des ersten Autos",
-        "Das erste Telefongespräch"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Orville und Wilbur Wright flogen in den USA mit ihrem Flugzeug „Flyer“. Der erste Flug dauerte nur 12 Sekunden – aber er war der Anfang der Luftfahrt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was gelang den Brüdern Wright im Jahr 1903?",
+          "answers": [
+            "Die erste Fahrt mit einer Dampflok",
+            "Der erste gesteuerte Flug mit einem Motorflugzeug",
+            "Der Bau des ersten Autos",
+            "Das erste Telefongespräch"
+          ],
+          "explanation": "Orville und Wilbur Wright flogen in den USA mit ihrem Flugzeug „Flyer“. Der erste Flug dauerte nur 12 Sekunden – aber er war der Anfang der Luftfahrt."
+        },
+        "en": {
+          "title": "What did the Wright brothers achieve in 1903?",
+          "answers": [
+            "The first ride on a steam train",
+            "The first controlled flight in a powered plane",
+            "Building the first car",
+            "The first telephone call"
+          ],
+          "explanation": "Orville and Wilbur Wright flew their plane, the “Flyer”, in the USA. The first flight lasted only 12 seconds – but it was the beginning of aviation."
+        }
+      }
     },
     {
       "id": "tech-0028",
@@ -521,17 +899,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie heißt ein Rad mit Zähnen, das ein anderes Rad antreibt?",
-      "answers": [
-        "Riesenrad",
-        "Lenkrad",
-        "Zahnrad",
-        "Mühlrad"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Greifen die Zähne zweier Zahnräder ineinander, dreht das eine das andere mit. Zahnräder stecken in Uhren, Fahrrädern und vielen Maschinen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt ein Rad mit Zähnen, das ein anderes Rad antreibt?",
+          "answers": [
+            "Riesenrad",
+            "Lenkrad",
+            "Zahnrad",
+            "Mühlrad"
+          ],
+          "explanation": "Greifen die Zähne zweier Zahnräder ineinander, dreht das eine das andere mit. Zahnräder stecken in Uhren, Fahrrädern und vielen Maschinen."
+        },
+        "en": {
+          "title": "What do we call a wheel with teeth that drives another wheel?",
+          "answers": [
+            "Big wheel",
+            "Steering wheel",
+            "Gear",
+            "Water wheel"
+          ],
+          "explanation": "When the teeth of two gears mesh, one turns the other. Gears are found in clocks, bicycles and many machines."
+        }
+      }
     },
     {
       "id": "tech-0029",
@@ -540,17 +932,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wozu dient ein Flaschenzug?",
-      "answers": [
-        "Um Wasser zu filtern",
-        "Um Flaschen zu öffnen",
-        "Um Züge zu bremsen",
-        "Um schwere Lasten mit weniger Kraft zu heben"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Beim Flaschenzug läuft ein Seil über mehrere Rollen. Man muss dann zwar mehr Seil ziehen, braucht aber viel weniger Kraft.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu dient ein Flaschenzug?",
+          "answers": [
+            "Um Wasser zu filtern",
+            "Um Flaschen zu öffnen",
+            "Um Züge zu bremsen",
+            "Um schwere Lasten mit weniger Kraft zu heben"
+          ],
+          "explanation": "Beim Flaschenzug läuft ein Seil über mehrere Rollen. Man muss dann zwar mehr Seil ziehen, braucht aber viel weniger Kraft."
+        },
+        "en": {
+          "title": "What is a pulley system for?",
+          "answers": [
+            "Filtering water",
+            "Opening bottles",
+            "Braking trains",
+            "Lifting heavy loads with less force"
+          ],
+          "explanation": "In a pulley system, a rope runs over several wheels. You have to pull more rope, but you need much less force."
+        }
+      }
     },
     {
       "id": "tech-0030",
@@ -559,17 +965,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum kann man mit einem langen Hebel schwere Dinge bewegen?",
-      "answers": [
-        "Ein Hebel funktioniert nur mit Strom",
-        "Der Hebel macht Dinge leichter, indem er sie schrumpft",
-        "Ein langer Hebelarm braucht weniger Kraft",
-        "Der Hebel speichert Kraft für später"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Je weiter man vom Drehpunkt entfernt drückt, desto weniger Kraft braucht man. Deshalb kann ein Kind auf der Wippe einen Erwachsenen hochheben, wenn es weit außen sitzt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum kann man mit einem langen Hebel schwere Dinge bewegen?",
+          "answers": [
+            "Ein Hebel funktioniert nur mit Strom",
+            "Der Hebel macht Dinge leichter, indem er sie schrumpft",
+            "Ein langer Hebelarm braucht weniger Kraft",
+            "Der Hebel speichert Kraft für später"
+          ],
+          "explanation": "Je weiter man vom Drehpunkt entfernt drückt, desto weniger Kraft braucht man. Deshalb kann ein Kind auf der Wippe einen Erwachsenen hochheben, wenn es weit außen sitzt."
+        },
+        "en": {
+          "title": "Why can you move heavy things with a long lever?",
+          "answers": [
+            "A lever only works with electricity",
+            "The lever makes things lighter by shrinking them",
+            "A long lever arm needs less force",
+            "The lever stores force for later"
+          ],
+          "explanation": "The farther from the pivot you push, the less force you need. That's why a child on a seesaw can lift an adult if the child sits far out."
+        }
+      }
     },
     {
       "id": "tech-0031",
@@ -578,17 +998,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was ist ein Passwort?",
-      "answers": [
-        "Der Name des eigenen Computers",
-        "Ein Wort, das man allen verraten soll",
-        "Ein geheimes Wort, das ein Konto schützt",
-        "Eine Internetadresse"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Ein Passwort ist wie ein Schlüssel. Nur wer es kennt, kommt an das Konto – deshalb sollte es niemand anderes erfahren.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Passwort?",
+          "answers": [
+            "Der Name des eigenen Computers",
+            "Ein Wort, das man allen verraten soll",
+            "Ein geheimes Wort, das ein Konto schützt",
+            "Eine Internetadresse"
+          ],
+          "explanation": "Ein Passwort ist wie ein Schlüssel. Nur wer es kennt, kommt an das Konto – deshalb sollte es niemand anderes erfahren."
+        },
+        "en": {
+          "title": "What is a password?",
+          "answers": [
+            "The name of your computer",
+            "A word you should tell everyone",
+            "A secret word that protects an account",
+            "A web address"
+          ],
+          "explanation": "A password is like a key. Only someone who knows it can get into the account – so nobody else should find it out."
+        }
+      }
     },
     {
       "id": "tech-0032",
@@ -597,17 +1031,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wofür steht das Zeichen @ in einer E-Mail-Adresse?",
-      "answers": [
-        "Für „Antwort“",
-        "Für „und“",
-        "Für „Adresse“",
-        "Für das englische „at“, also „bei“"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Das Zeichen heißt im Deutschen oft Klammeraffe. Es trennt den Namen vom Anbieter des Postfachs: name@anbieter.de bedeutet „name bei anbieter.de“.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wofür steht das Zeichen @ in einer E-Mail-Adresse?",
+          "answers": [
+            "Für „Antwort“",
+            "Für „und“",
+            "Für „Adresse“",
+            "Für das englische „at“, also „bei“"
+          ],
+          "explanation": "Das Zeichen heißt im Deutschen oft Klammeraffe. Es trennt den Namen vom Anbieter des Postfachs: name@anbieter.de bedeutet „name bei anbieter.de“."
+        },
+        "en": {
+          "title": "What does the @ sign in an email address stand for?",
+          "answers": [
+            "“Answer”",
+            "“And”",
+            "“Address”",
+            "The English word “at”"
+          ],
+          "explanation": "The sign separates the name from the mailbox provider: name@provider.com means “name at provider.com”."
+        }
+      }
     },
     {
       "id": "tech-0033",
@@ -616,17 +1064,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was ist eine App?",
-      "answers": [
-        "Ein Teil des Akkus",
-        "Ein Ladekabel",
-        "Ein Computervirus",
-        "Ein Programm für Handy oder Tablet"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "App ist kurz für das englische „Application“, also Anwendung. Es gibt Apps für Spiele, Musik, Nachrichten und vieles mehr.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist eine App?",
+          "answers": [
+            "Ein Teil des Akkus",
+            "Ein Ladekabel",
+            "Ein Computervirus",
+            "Ein Programm für Handy oder Tablet"
+          ],
+          "explanation": "App ist kurz für das englische „Application“, also Anwendung. Es gibt Apps für Spiele, Musik, Nachrichten und vieles mehr."
+        },
+        "en": {
+          "title": "What is an app?",
+          "answers": [
+            "Part of the battery",
+            "A charging cable",
+            "A computer virus",
+            "A program for a phone or tablet"
+          ],
+          "explanation": "App is short for “application”. There are apps for games, music, messages and much more."
+        }
+      }
     },
     {
       "id": "tech-0034",
@@ -635,17 +1097,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was ist eine Cloud bei Computern?",
-      "answers": [
-        "Ein Lüfter im Computer",
-        "Eine Wolke aus Wasserdampf im Gerät",
-        "Speicherplatz auf Rechnern im Internet",
-        "Eine besondere Tastatur"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Fotos oder Dokumente in der Cloud liegen nicht auf dem eigenen Gerät, sondern in großen Rechenzentren. So kann man von überall darauf zugreifen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist eine Cloud bei Computern?",
+          "answers": [
+            "Ein Lüfter im Computer",
+            "Eine Wolke aus Wasserdampf im Gerät",
+            "Speicherplatz auf Rechnern im Internet",
+            "Eine besondere Tastatur"
+          ],
+          "explanation": "Fotos oder Dokumente in der Cloud liegen nicht auf dem eigenen Gerät, sondern in großen Rechenzentren. So kann man von überall darauf zugreifen."
+        },
+        "en": {
+          "title": "What is the cloud in computing?",
+          "answers": [
+            "A fan in the computer",
+            "A cloud of water vapour in the device",
+            "Storage space on computers on the internet",
+            "A special keyboard"
+          ],
+          "explanation": "Photos or documents in the cloud aren't on your own device but in big data centres. That way you can reach them from anywhere."
+        }
+      }
     },
     {
       "id": "tech-0035",
@@ -654,17 +1130,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Was macht ein Router zu Hause?",
-      "answers": [
-        "Er speichert alle Filme",
-        "Er verteilt das Internet an die Geräte",
-        "Er lädt Handys auf",
-        "Er druckt Seiten aus"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Der Router ist mit dem Internetanschluss verbunden und schickt die Daten per WLAN oder Kabel an Handys, Computer und Fernseher.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was macht ein Router zu Hause?",
+          "answers": [
+            "Er speichert alle Filme",
+            "Er verteilt das Internet an die Geräte",
+            "Er lädt Handys auf",
+            "Er druckt Seiten aus"
+          ],
+          "explanation": "Der Router ist mit dem Internetanschluss verbunden und schickt die Daten per WLAN oder Kabel an Handys, Computer und Fernseher."
+        },
+        "en": {
+          "title": "What does a router do at home?",
+          "answers": [
+            "It stores all the films",
+            "It shares the internet with the devices",
+            "It charges phones",
+            "It prints pages"
+          ],
+          "explanation": "The router is connected to the internet line and sends the data by Wi-Fi or cable to phones, computers and TVs."
+        }
+      }
     },
     {
       "id": "tech-0036",
@@ -673,17 +1163,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was bedeutet eine rote Ampel?",
-      "answers": [
-        "Anhalten",
-        "Schneller fahren",
-        "Abbiegen",
-        "Hupen"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Rot heißt stehen bleiben, Grün heißt fahren oder gehen. Ampeln regeln so, wer an einer Kreuzung gerade an der Reihe ist.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was bedeutet eine rote Ampel?",
+          "answers": [
+            "Anhalten",
+            "Schneller fahren",
+            "Abbiegen",
+            "Hupen"
+          ],
+          "explanation": "Rot heißt stehen bleiben, Grün heißt fahren oder gehen. Ampeln regeln so, wer an einer Kreuzung gerade an der Reihe ist."
+        },
+        "en": {
+          "title": "What does a red traffic light mean?",
+          "answers": [
+            "Stop",
+            "Drive faster",
+            "Turn",
+            "Honk"
+          ],
+          "explanation": "Red means stop, green means go. That's how traffic lights decide whose turn it is at a crossing."
+        }
+      }
     },
     {
       "id": "tech-0037",
@@ -692,17 +1196,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wozu hat ein Fahrrad eine Gangschaltung?",
-      "answers": [
-        "Damit es Strom erzeugt",
-        "Damit die Reifen nicht platzen",
-        "Damit es schöner klingt",
-        "Damit man bergauf und in der Ebene gut treten kann"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "In einem leichten Gang tritt man bergauf mit wenig Kraft, kommt aber langsamer voran. In einem schweren Gang fährt man in der Ebene schneller.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu hat ein Fahrrad eine Gangschaltung?",
+          "answers": [
+            "Damit es Strom erzeugt",
+            "Damit die Reifen nicht platzen",
+            "Damit es schöner klingt",
+            "Damit man bergauf und in der Ebene gut treten kann"
+          ],
+          "explanation": "In einem leichten Gang tritt man bergauf mit wenig Kraft, kommt aber langsamer voran. In einem schweren Gang fährt man in der Ebene schneller."
+        },
+        "en": {
+          "title": "Why does a bike have gears?",
+          "answers": [
+            "So it makes electricity",
+            "So the tyres don't burst",
+            "So it sounds nicer",
+            "So pedalling is easy both uphill and on the flat"
+          ],
+          "explanation": "In a low gear you pedal uphill with little force but move more slowly. In a high gear you go faster on the flat."
+        }
+      }
     },
     {
       "id": "tech-0038",
@@ -711,17 +1229,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was treibt eine Dampflok an?",
-      "answers": [
-        "Wind in einem Segel",
-        "Dampf aus erhitztem Wasser",
-        "Ein Elektromotor",
-        "Pferde im Inneren"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Im Kessel wird Wasser mit Kohle zum Kochen gebracht. Der Dampf drückt Kolben hin und her, und die bewegen die Räder.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was treibt eine Dampflok an?",
+          "answers": [
+            "Wind in einem Segel",
+            "Dampf aus erhitztem Wasser",
+            "Ein Elektromotor",
+            "Pferde im Inneren"
+          ],
+          "explanation": "Im Kessel wird Wasser mit Kohle zum Kochen gebracht. Der Dampf drückt Kolben hin und her, und die bewegen die Räder."
+        },
+        "en": {
+          "title": "What drives a steam locomotive?",
+          "answers": [
+            "Wind in a sail",
+            "Steam from heated water",
+            "An electric motor",
+            "Horses inside it"
+          ],
+          "explanation": "In the boiler, coal is used to boil water. The steam pushes pistons back and forth, and they move the wheels."
+        }
+      }
     },
     {
       "id": "tech-0039",
@@ -730,17 +1262,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum haben Flugzeugfenster runde Ecken?",
-      "answers": [
-        "Damit niemand hinausfällt",
-        "Eckige Fenster würden an den Ecken leichter reißen",
-        "Weil rundes Glas billiger ist",
-        "Damit weniger Sonne hereinkommt"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "In großer Höhe drückt die Luft in der Kabine stark gegen die Wände. An spitzen Ecken sammelt sich diese Spannung, und es können Risse entstehen. Runde Ecken verteilen sie gleichmäßig.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum haben Flugzeugfenster runde Ecken?",
+          "answers": [
+            "Damit niemand hinausfällt",
+            "Eckige Fenster würden an den Ecken leichter reißen",
+            "Weil rundes Glas billiger ist",
+            "Damit weniger Sonne hereinkommt"
+          ],
+          "explanation": "In großer Höhe drückt die Luft in der Kabine stark gegen die Wände. An spitzen Ecken sammelt sich diese Spannung, und es können Risse entstehen. Runde Ecken verteilen sie gleichmäßig."
+        },
+        "en": {
+          "title": "Why do plane windows have rounded corners?",
+          "answers": [
+            "So nobody falls out",
+            "Square windows would crack more easily at the corners",
+            "Because round glass is cheaper",
+            "So less sun gets in"
+          ],
+          "explanation": "High up, the air in the cabin presses hard against the walls. This stress collects at sharp corners, where cracks can form. Rounded corners spread it out evenly."
+        }
+      }
     },
     {
       "id": "tech-0040",
@@ -749,17 +1295,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie taucht ein U-Boot ab und wieder auf?",
-      "answers": [
-        "Es füllt Tanks mit Wasser oder mit Luft",
-        "Es zieht sich an Ankern nach unten",
-        "Es hat Propeller an der Oberseite",
-        "Es macht sich mit Magneten schwer"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Zum Tauchen lässt das U-Boot Wasser in seine Tanks, es wird schwerer. Zum Auftauchen drückt es das Wasser mit Pressluft wieder hinaus.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie taucht ein U-Boot ab und wieder auf?",
+          "answers": [
+            "Es füllt Tanks mit Wasser oder mit Luft",
+            "Es zieht sich an Ankern nach unten",
+            "Es hat Propeller an der Oberseite",
+            "Es macht sich mit Magneten schwer"
+          ],
+          "explanation": "Zum Tauchen lässt das U-Boot Wasser in seine Tanks, es wird schwerer. Zum Auftauchen drückt es das Wasser mit Pressluft wieder hinaus."
+        },
+        "en": {
+          "title": "How does a submarine dive and come back up?",
+          "answers": [
+            "It fills tanks with water or with air",
+            "It pulls itself down on anchors",
+            "It has propellers on top",
+            "It makes itself heavy with magnets"
+          ],
+          "explanation": "To dive, the submarine lets water into its tanks and gets heavier. To surface, it pushes the water out again with compressed air."
+        }
+      }
     },
     {
       "id": "tech-0041",
@@ -768,17 +1328,31 @@
       "order": 18,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Warum wird man in einem startenden Flugzeug in den Sitz gedrückt?",
-      "answers": [
-        "Die Sitze ziehen einen an",
-        "Das Flugzeug wird beim Start schwerer",
-        "Der Körper will wegen seiner Trägheit an Ort und Stelle bleiben",
-        "Ein Luftstrom drückt von vorne"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Alles, was ruht, möchte in Ruhe bleiben – das nennt man Trägheit. Das Flugzeug beschleunigt, der Körper will zurückbleiben, und der Sitz muss ihn mitnehmen. Das spürt man als Druck im Rücken.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum wird man in einem startenden Flugzeug in den Sitz gedrückt?",
+          "answers": [
+            "Die Sitze ziehen einen an",
+            "Das Flugzeug wird beim Start schwerer",
+            "Der Körper will wegen seiner Trägheit an Ort und Stelle bleiben",
+            "Ein Luftstrom drückt von vorne"
+          ],
+          "explanation": "Alles, was ruht, möchte in Ruhe bleiben – das nennt man Trägheit. Das Flugzeug beschleunigt, der Körper will zurückbleiben, und der Sitz muss ihn mitnehmen. Das spürt man als Druck im Rücken."
+        },
+        "en": {
+          "title": "Why are you pressed into your seat when a plane takes off?",
+          "answers": [
+            "The seats pull you in",
+            "The plane gets heavier at take-off",
+            "Because of inertia, your body wants to stay where it is",
+            "A stream of air pushes from the front"
+          ],
+          "explanation": "Everything at rest wants to stay at rest – that's called inertia. The plane speeds up, your body wants to stay behind, and the seat has to take it along. You feel that as pressure in your back."
+        }
+      }
     },
     {
       "id": "tech-0042",
@@ -787,17 +1361,31 @@
       "order": 19,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Wie erzeugt ein Induktionsherd Wärme?",
-      "answers": [
-        "Ein Magnetfeld erhitzt direkt den Topfboden",
-        "Eine Flamme unter dem Glas",
-        "Heiße Luft aus kleinen Löchern",
-        "Die Glasplatte glüht wie ein Toaster"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Unter der Glasplatte liegt eine Spule. Ihr wechselndes Magnetfeld erzeugt im eisenhaltigen Topfboden Ströme, die ihn erhitzen. Die Platte selbst wird nur durch den heißen Topf warm.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie erzeugt ein Induktionsherd Wärme?",
+          "answers": [
+            "Ein Magnetfeld erhitzt direkt den Topfboden",
+            "Eine Flamme unter dem Glas",
+            "Heiße Luft aus kleinen Löchern",
+            "Die Glasplatte glüht wie ein Toaster"
+          ],
+          "explanation": "Unter der Glasplatte liegt eine Spule. Ihr wechselndes Magnetfeld erzeugt im eisenhaltigen Topfboden Ströme, die ihn erhitzen. Die Platte selbst wird nur durch den heißen Topf warm."
+        },
+        "en": {
+          "title": "How does an induction hob make heat?",
+          "answers": [
+            "A magnetic field heats the bottom of the pan directly",
+            "A flame under the glass",
+            "Hot air from small holes",
+            "The glass plate glows like a toaster"
+          ],
+          "explanation": "Under the glass plate is a coil. Its changing magnetic field creates currents in the iron-containing bottom of the pan, which heat it up. The plate itself only gets warm from the hot pan."
+        }
+      }
     },
     {
       "id": "tech-0043",
@@ -806,17 +1394,31 @@
       "order": 9,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Woran erkennen die meisten Bewegungsmelder, dass jemand kommt?",
-      "answers": [
-        "An der Wärmestrahlung des Körpers",
-        "An der Stimme",
-        "Am Gewicht auf dem Boden",
-        "Am Geruch"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Unser Körper strahlt unsichtbare Wärme ab. Der Sensor merkt, wenn sich diese Wärmequelle bewegt, und schaltet das Licht ein.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woran erkennen die meisten Bewegungsmelder, dass jemand kommt?",
+          "answers": [
+            "An der Wärmestrahlung des Körpers",
+            "An der Stimme",
+            "Am Gewicht auf dem Boden",
+            "Am Geruch"
+          ],
+          "explanation": "Unser Körper strahlt unsichtbare Wärme ab. Der Sensor merkt, wenn sich diese Wärmequelle bewegt, und schaltet das Licht ein."
+        },
+        "en": {
+          "title": "How do most motion sensors notice someone coming?",
+          "answers": [
+            "From the heat the body gives off",
+            "From the voice",
+            "From the weight on the floor",
+            "From the smell"
+          ],
+          "explanation": "Our body gives off invisible heat. The sensor notices when this source of heat moves and switches on the light."
+        }
+      }
     },
     {
       "id": "tech-0044",
@@ -825,17 +1427,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie wird ein Handy auf einer Ladematte ohne Kabel geladen?",
-      "answers": [
-        "Über das WLAN",
-        "Durch die Wärme der Matte",
-        "Über ein Magnetfeld zwischen zwei Spulen",
-        "Durch das Licht im Zimmer"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "In der Matte und im Handy steckt je eine Drahtspule. Das Magnetfeld der einen erzeugt in der anderen Strom – ganz ohne Kontakt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie wird ein Handy auf einer Ladematte ohne Kabel geladen?",
+          "answers": [
+            "Über das WLAN",
+            "Durch die Wärme der Matte",
+            "Über ein Magnetfeld zwischen zwei Spulen",
+            "Durch das Licht im Zimmer"
+          ],
+          "explanation": "In der Matte und im Handy steckt je eine Drahtspule. Das Magnetfeld der einen erzeugt in der anderen Strom – ganz ohne Kontakt."
+        },
+        "en": {
+          "title": "How does a phone charge on a charging pad without a cable?",
+          "answers": [
+            "Through the Wi-Fi",
+            "Through the warmth of the pad",
+            "Through a magnetic field between two coils",
+            "Through the light in the room"
+          ],
+          "explanation": "There is a coil of wire in both the pad and the phone. The magnetic field of one creates electricity in the other – without touching."
+        }
+      }
     },
     {
       "id": "tech-0045",
@@ -844,17 +1460,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was macht eine Waschmaschine beim Schleudern?",
-      "answers": [
-        "Sie dreht die Trommel so schnell, dass Wasser herausfliegt",
-        "Sie saugt die Luft heraus",
-        "Sie heizt die Wäsche, bis sie trocken ist",
-        "Sie presst die Wäsche platt"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Die Trommel dreht sich über tausend Mal pro Minute. Das Wasser wird nach außen geschleudert und fließt durch die Löcher ab, die Wäsche bleibt drin.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was macht eine Waschmaschine beim Schleudern?",
+          "answers": [
+            "Sie dreht die Trommel so schnell, dass Wasser herausfliegt",
+            "Sie saugt die Luft heraus",
+            "Sie heizt die Wäsche, bis sie trocken ist",
+            "Sie presst die Wäsche platt"
+          ],
+          "explanation": "Die Trommel dreht sich über tausend Mal pro Minute. Das Wasser wird nach außen geschleudert und fließt durch die Löcher ab, die Wäsche bleibt drin."
+        },
+        "en": {
+          "title": "What does a washing machine do when it spins?",
+          "answers": [
+            "It turns the drum so fast that water flies out",
+            "It sucks out the air",
+            "It heats the laundry until it's dry",
+            "It presses the laundry flat"
+          ],
+          "explanation": "The drum turns more than a thousand times a minute. The water is flung outwards and drains through the holes, while the laundry stays inside."
+        }
+      }
     },
     {
       "id": "tech-0046",
@@ -863,17 +1493,31 @@
       "order": 8,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Was macht eine Sicherung im Stromkasten?",
-      "answers": [
-        "Sie speichert Strom für die Nacht",
-        "Sie zählt den verbrauchten Strom",
-        "Sie macht den Strom stärker",
-        "Sie unterbricht den Strom, wenn zu viel fließt"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Fließt durch eine Leitung zu viel Strom, kann sie heiß werden. Die Sicherung schaltet dann ab, bevor etwas passiert.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was macht eine Sicherung im Stromkasten?",
+          "answers": [
+            "Sie speichert Strom für die Nacht",
+            "Sie zählt den verbrauchten Strom",
+            "Sie macht den Strom stärker",
+            "Sie unterbricht den Strom, wenn zu viel fließt"
+          ],
+          "explanation": "Fließt durch eine Leitung zu viel Strom, kann sie heiß werden. Die Sicherung schaltet dann ab, bevor etwas passiert."
+        },
+        "en": {
+          "title": "What does a fuse in the fuse box do?",
+          "answers": [
+            "It stores electricity for the night",
+            "It counts the electricity used",
+            "It makes the electricity stronger",
+            "It cuts the power when too much flows"
+          ],
+          "explanation": "If too much current flows through a wire, it can get hot. The fuse then switches off before anything happens."
+        }
+      }
     },
     {
       "id": "tech-0047",
@@ -882,17 +1526,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Wozu wurden die ersten Dampfmaschinen vor allem gebaut?",
-      "answers": [
-        "Um Musik zu spielen",
-        "Um Wasser aus Bergwerken zu pumpen",
-        "Um Brot zu backen",
-        "Um Autos anzutreiben"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Bergwerke liefen ständig mit Grundwasser voll. Die ersten Dampfmaschinen im 18. Jahrhundert pumpten es heraus. Erst später trieben sie auch Fabriken, Schiffe und Lokomotiven an.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu wurden die ersten Dampfmaschinen vor allem gebaut?",
+          "answers": [
+            "Um Musik zu spielen",
+            "Um Wasser aus Bergwerken zu pumpen",
+            "Um Brot zu backen",
+            "Um Autos anzutreiben"
+          ],
+          "explanation": "Bergwerke liefen ständig mit Grundwasser voll. Die ersten Dampfmaschinen im 18. Jahrhundert pumpten es heraus. Erst später trieben sie auch Fabriken, Schiffe und Lokomotiven an."
+        },
+        "en": {
+          "title": "What were the first steam engines mainly built for?",
+          "answers": [
+            "Playing music",
+            "Pumping water out of mines",
+            "Baking bread",
+            "Driving cars"
+          ],
+          "explanation": "Mines kept filling up with groundwater. The first steam engines in the 18th century pumped it out. Only later did they also power factories, ships and locomotives."
+        }
+      }
     },
     {
       "id": "tech-0048",
@@ -901,17 +1559,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was baute Carl Benz im Jahr 1886?",
-      "answers": [
-        "Das erste Flugzeug",
-        "Das erste Fahrrad",
-        "Die erste Eisenbahn",
-        "Ein Auto mit Benzinmotor"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Benz Patent-Motorwagen hatte drei Räder und fuhr etwa 16 km/h schnell. Er gilt als erstes praktisch nutzbares Auto.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was baute Carl Benz im Jahr 1886?",
+          "answers": [
+            "Das erste Flugzeug",
+            "Das erste Fahrrad",
+            "Die erste Eisenbahn",
+            "Ein Auto mit Benzinmotor"
+          ],
+          "explanation": "Der Benz Patent-Motorwagen hatte drei Räder und fuhr etwa 16 km/h schnell. Er gilt als erstes praktisch nutzbares Auto."
+        },
+        "en": {
+          "title": "What did Carl Benz build in 1886?",
+          "answers": [
+            "The first plane",
+            "The first bicycle",
+            "The first railway",
+            "A car with a petrol engine"
+          ],
+          "explanation": "The Benz Patent-Motorwagen had three wheels and a top speed of about 16 km/h. It is seen as the first practical car."
+        }
+      }
     },
     {
       "id": "tech-0049",
@@ -920,17 +1592,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wozu dient eine Lupe?",
-      "answers": [
-        "Sie misst die Temperatur",
-        "Sie lässt Dinge größer erscheinen",
-        "Sie zeigt nach Norden",
-        "Sie macht Dinge heller"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Eine Lupe ist eine nach außen gewölbte Linse. Sie lenkt das Licht so, dass kleine Dinge wie Ameisen oder Schrift größer aussehen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu dient eine Lupe?",
+          "answers": [
+            "Sie misst die Temperatur",
+            "Sie lässt Dinge größer erscheinen",
+            "Sie zeigt nach Norden",
+            "Sie macht Dinge heller"
+          ],
+          "explanation": "Eine Lupe ist eine nach außen gewölbte Linse. Sie lenkt das Licht so, dass kleine Dinge wie Ameisen oder Schrift größer aussehen."
+        },
+        "en": {
+          "title": "What is a magnifying glass for?",
+          "answers": [
+            "It measures the temperature",
+            "It makes things look bigger",
+            "It points north",
+            "It makes things brighter"
+          ],
+          "explanation": "A magnifying glass is a lens that bulges outwards. It bends light so that small things like ants or writing look bigger."
+        }
+      }
     },
     {
       "id": "tech-0050",
@@ -939,17 +1625,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was ist ein Roboter?",
-      "answers": [
-        "Ein Mensch in einer Rüstung",
-        "Eine Maschine, die Aufgaben selbstständig ausführen kann",
-        "Ein Spielzeug ohne Batterie",
-        "Ein Programm zum Musikhören"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Roboter bauen Autos, saugen Staub oder mähen Rasen. Sensoren helfen ihnen, ihre Umgebung wahrzunehmen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Roboter?",
+          "answers": [
+            "Ein Mensch in einer Rüstung",
+            "Eine Maschine, die Aufgaben selbstständig ausführen kann",
+            "Ein Spielzeug ohne Batterie",
+            "Ein Programm zum Musikhören"
+          ],
+          "explanation": "Roboter bauen Autos, saugen Staub oder mähen Rasen. Sensoren helfen ihnen, ihre Umgebung wahrzunehmen."
+        },
+        "en": {
+          "title": "What is a robot?",
+          "answers": [
+            "A person in armour",
+            "A machine that can carry out tasks by itself",
+            "A toy without batteries",
+            "A program for listening to music"
+          ],
+          "explanation": "Robots build cars, vacuum floors or mow lawns. Sensors help them notice their surroundings."
+        }
+      }
     },
     {
       "id": "tech-0051",
@@ -958,17 +1658,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was bedeutet „online“?",
-      "answers": [
-        "Ausgeschaltet",
-        "In einer Warteschlange",
-        "Auf einer Linie gemalt",
-        "Mit dem Internet verbunden"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "„Online“ ist Englisch und heißt wörtlich „in der Leitung“. Das Gegenteil ist „offline“.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was bedeutet „online“?",
+          "answers": [
+            "Ausgeschaltet",
+            "In einer Warteschlange",
+            "Auf einer Linie gemalt",
+            "Mit dem Internet verbunden"
+          ],
+          "explanation": "„Online“ ist Englisch und heißt wörtlich „in der Leitung“. Das Gegenteil ist „offline“."
+        },
+        "en": {
+          "title": "What does “online” mean?",
+          "answers": [
+            "Switched off",
+            "In a queue",
+            "Drawn on a line",
+            "Connected to the internet"
+          ],
+          "explanation": "“Online” literally means “on the line”. The opposite is “offline”."
+        }
+      }
     },
     {
       "id": "tech-0052",
@@ -977,17 +1691,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was ist ein Browser?",
-      "answers": [
-        "Eine Taste auf der Tastatur",
-        "Ein Computerspiel",
-        "Ein Programm zum Anzeigen von Webseiten",
-        "Ein Gerät zum Drucken"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Mit einem Browser ruft man Internetseiten auf. Man gibt eine Adresse ein, und der Browser holt die Seite und zeigt sie an.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Browser?",
+          "answers": [
+            "Eine Taste auf der Tastatur",
+            "Ein Computerspiel",
+            "Ein Programm zum Anzeigen von Webseiten",
+            "Ein Gerät zum Drucken"
+          ],
+          "explanation": "Mit einem Browser ruft man Internetseiten auf. Man gibt eine Adresse ein, und der Browser holt die Seite und zeigt sie an."
+        },
+        "en": {
+          "title": "What is a browser?",
+          "answers": [
+            "A key on the keyboard",
+            "A computer game",
+            "A program for showing web pages",
+            "A device for printing"
+          ],
+          "explanation": "You use a browser to open websites. You type in an address, and the browser fetches the page and shows it."
+        }
+      }
     },
     {
       "id": "tech-0053",
@@ -996,17 +1724,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was ist ein QR-Code?",
-      "answers": [
-        "Ein Muster aus Quadraten, das Informationen speichert",
-        "Ein Code für den Haustürschlüssel",
-        "Ein Computerspiel",
-        "Eine Geheimschrift der Römer"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Mit der Handykamera kann man einen QR-Code scannen. Darin steckt zum Beispiel eine Internetadresse, die sich dann öffnet.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein QR-Code?",
+          "answers": [
+            "Ein Muster aus Quadraten, das Informationen speichert",
+            "Ein Code für den Haustürschlüssel",
+            "Ein Computerspiel",
+            "Eine Geheimschrift der Römer"
+          ],
+          "explanation": "Mit der Handykamera kann man einen QR-Code scannen. Darin steckt zum Beispiel eine Internetadresse, die sich dann öffnet."
+        },
+        "en": {
+          "title": "What is a QR code?",
+          "answers": [
+            "A pattern of squares that stores information",
+            "A code for the front door key",
+            "A computer game",
+            "A secret script of the Romans"
+          ],
+          "explanation": "You can scan a QR code with a phone camera. It holds, for example, a web address, which then opens."
+        }
+      }
     },
     {
       "id": "tech-0054",
@@ -1015,17 +1757,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Was misst man in Megabit pro Sekunde?",
-      "answers": [
-        "Wie warm ein Computer wird",
-        "Wie groß ein Bildschirm ist",
-        "Wie viel Strom ein Akku hat",
-        "Wie schnell Daten übertragen werden"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Je mehr Megabit pro Sekunde eine Internetleitung schafft, desto schneller laden Videos und Webseiten.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was misst man in Megabit pro Sekunde?",
+          "answers": [
+            "Wie warm ein Computer wird",
+            "Wie groß ein Bildschirm ist",
+            "Wie viel Strom ein Akku hat",
+            "Wie schnell Daten übertragen werden"
+          ],
+          "explanation": "Je mehr Megabit pro Sekunde eine Internetleitung schafft, desto schneller laden Videos und Webseiten."
+        },
+        "en": {
+          "title": "What is measured in megabits per second?",
+          "answers": [
+            "How warm a computer gets",
+            "How big a screen is",
+            "How much charge a battery has",
+            "How fast data is transferred"
+          ],
+          "explanation": "The more megabits per second an internet line manages, the faster videos and websites load."
+        }
+      }
     },
     {
       "id": "tech-0055",
@@ -1034,17 +1790,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Was ist ein Bit?",
-      "answers": [
-        "Ein Stück Kabel",
-        "Die kleinste Informationseinheit, eine 0 oder 1",
-        "Ein Punkt auf dem Bildschirm",
-        "Ein kleines Programm"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Computer rechnen nur mit zwei Zuständen: Strom an oder aus, 1 oder 0. Acht Bits ergeben ein Byte, damit lässt sich zum Beispiel ein Buchstabe speichern.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Bit?",
+          "answers": [
+            "Ein Stück Kabel",
+            "Die kleinste Informationseinheit, eine 0 oder 1",
+            "Ein Punkt auf dem Bildschirm",
+            "Ein kleines Programm"
+          ],
+          "explanation": "Computer rechnen nur mit zwei Zuständen: Strom an oder aus, 1 oder 0. Acht Bits ergeben ein Byte, damit lässt sich zum Beispiel ein Buchstabe speichern."
+        },
+        "en": {
+          "title": "What is a bit?",
+          "answers": [
+            "A piece of cable",
+            "The smallest unit of information, a 0 or a 1",
+            "A dot on the screen",
+            "A small program"
+          ],
+          "explanation": "Computers only work with two states: power on or off, 1 or 0. Eight bits make a byte, which can store a letter, for example."
+        }
+      }
     },
     {
       "id": "tech-0056",
@@ -1053,17 +1823,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Warum leuchten Warnwesten so grell?",
-      "answers": [
-        "Damit Insekten fernbleiben",
-        "Weil die Farbe billig ist",
-        "Damit man im Straßenverkehr gut gesehen wird",
-        "Damit sie wärmen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Leuchtfarben fallen schon von Weitem auf. Dazu kommen Streifen, die das Scheinwerferlicht von Autos zurückwerfen – so sieht man die Weste auch nachts.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum leuchten Warnwesten so grell?",
+          "answers": [
+            "Damit Insekten fernbleiben",
+            "Weil die Farbe billig ist",
+            "Damit man im Straßenverkehr gut gesehen wird",
+            "Damit sie wärmen"
+          ],
+          "explanation": "Leuchtfarben fallen schon von Weitem auf. Dazu kommen Streifen, die das Scheinwerferlicht von Autos zurückwerfen – so sieht man die Weste auch nachts."
+        },
+        "en": {
+          "title": "Why are high-visibility vests so bright?",
+          "answers": [
+            "To keep insects away",
+            "Because the colour is cheap",
+            "So you are easy to see in traffic",
+            "So they keep you warm"
+          ],
+          "explanation": "Bright colours stand out from far away. On top come stripes that reflect car headlights – so you can see the vest at night too."
+        }
+      }
     },
     {
       "id": "tech-0057",
@@ -1072,17 +1856,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie bremst ein Fahrrad mit Felgenbremse?",
-      "answers": [
-        "Ein Fallschirm öffnet sich",
-        "Bremsklötze reiben am Rad",
-        "Ein Magnet hält die Straße fest",
-        "Der Reifen lässt Luft ab"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Zieht man am Bremshebel, drücken Gummiklötze auf die Felge. Die Reibung bremst das Rad ab und macht die Bewegung zu Wärme.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie bremst ein Fahrrad mit Felgenbremse?",
+          "answers": [
+            "Ein Fallschirm öffnet sich",
+            "Bremsklötze reiben am Rad",
+            "Ein Magnet hält die Straße fest",
+            "Der Reifen lässt Luft ab"
+          ],
+          "explanation": "Zieht man am Bremshebel, drücken Gummiklötze auf die Felge. Die Reibung bremst das Rad ab und macht die Bewegung zu Wärme."
+        },
+        "en": {
+          "title": "How does a bike with rim brakes stop?",
+          "answers": [
+            "A parachute opens",
+            "Brake pads rub against the wheel",
+            "A magnet holds on to the road",
+            "The tyre lets out air"
+          ],
+          "explanation": "When you pull the brake lever, rubber pads press on the rim. The friction slows the wheel and turns the movement into heat."
+        }
+      }
     },
     {
       "id": "tech-0058",
@@ -1091,17 +1889,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum legt man sich mit dem Motorrad in die Kurve?",
-      "answers": [
-        "So kippt es nicht nach außen",
-        "Damit der Motor kühler bleibt",
-        "Weil die Straße schief ist",
-        "Damit der Fahrer besser sieht"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "In der Kurve zieht es Fahrer und Maschine nach außen. Durch das Neigen nach innen halten sie dagegen und bleiben im Gleichgewicht – wie beim Fahrradfahren.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum legt man sich mit dem Motorrad in die Kurve?",
+          "answers": [
+            "So kippt es nicht nach außen",
+            "Damit der Motor kühler bleibt",
+            "Weil die Straße schief ist",
+            "Damit der Fahrer besser sieht"
+          ],
+          "explanation": "In der Kurve zieht es Fahrer und Maschine nach außen. Durch das Neigen nach innen halten sie dagegen und bleiben im Gleichgewicht – wie beim Fahrradfahren."
+        },
+        "en": {
+          "title": "Why do motorcyclists lean into a bend?",
+          "answers": [
+            "So the bike doesn't tip outwards",
+            "So the engine stays cooler",
+            "Because the road is tilted",
+            "So the rider can see better"
+          ],
+          "explanation": "In a bend, rider and machine are pulled outwards. By leaning in, they push against it and stay balanced – just like on a bike."
+        }
+      }
     },
     {
       "id": "tech-0059",
@@ -1110,17 +1922,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Was macht ein Katalysator im Auto?",
-      "answers": [
-        "Er kühlt den Motor",
-        "Er dämpft den Motorlärm",
-        "Er macht das Auto schneller",
-        "Er wandelt giftige Abgase in weniger schädliche um"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Im Katalysator reagieren die Abgase an einer Schicht aus Edelmetallen. Giftige Stoffe wie Kohlenmonoxid werden dabei zu weniger schädlichen umgewandelt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was macht ein Katalysator im Auto?",
+          "answers": [
+            "Er kühlt den Motor",
+            "Er dämpft den Motorlärm",
+            "Er macht das Auto schneller",
+            "Er wandelt giftige Abgase in weniger schädliche um"
+          ],
+          "explanation": "Im Katalysator reagieren die Abgase an einer Schicht aus Edelmetallen. Giftige Stoffe wie Kohlenmonoxid werden dabei zu weniger schädlichen umgewandelt."
+        },
+        "en": {
+          "title": "What does a catalytic converter do in a car?",
+          "answers": [
+            "It cools the engine",
+            "It muffles the engine noise",
+            "It makes the car faster",
+            "It turns toxic exhaust gases into less harmful ones"
+          ],
+          "explanation": "In the catalytic converter, the exhaust gases react on a layer of precious metals. Toxic substances like carbon monoxide are turned into less harmful ones."
+        }
+      }
     },
     {
       "id": "tech-0060",
@@ -1129,17 +1955,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wozu dient eine Waage?",
-      "answers": [
-        "Um die Länge zu messen",
-        "Um die Lautstärke zu messen",
-        "Um das Gewicht zu messen",
-        "Um die Zeit zu messen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Schon die alten Ägypter benutzten Balkenwaagen. Heute messen Waagen das Gewicht meist elektronisch.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu dient eine Waage?",
+          "answers": [
+            "Um die Länge zu messen",
+            "Um die Lautstärke zu messen",
+            "Um das Gewicht zu messen",
+            "Um die Zeit zu messen"
+          ],
+          "explanation": "Schon die alten Ägypter benutzten Balkenwaagen. Heute messen Waagen das Gewicht meist elektronisch."
+        },
+        "en": {
+          "title": "What are scales for?",
+          "answers": [
+            "Measuring length",
+            "Measuring loudness",
+            "Measuring weight",
+            "Measuring time"
+          ],
+          "explanation": "The ancient Egyptians already used balance scales. Today scales usually measure weight electronically."
+        }
+      }
     }
   ]
 }

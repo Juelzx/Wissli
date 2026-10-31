@@ -8,17 +8,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie viele Saiten hat eine normale Gitarre?",
-      "answers": [
-        "Sechs",
-        "Zwölf",
-        "Fünf",
-        "Vier"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Eine klassische Gitarre hat sechs Saiten. Es gibt auch Zwölfsaiter mit doppelten Saiten, und ein E-Bass hat meist vier.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Saiten hat eine normale Gitarre?",
+          "answers": [
+            "Sechs",
+            "Zwölf",
+            "Fünf",
+            "Vier"
+          ],
+          "explanation": "Eine klassische Gitarre hat sechs Saiten. Es gibt auch Zwölfsaiter mit doppelten Saiten, und ein E-Bass hat meist vier."
+        },
+        "en": {
+          "title": "How many strings does a normal guitar have?",
+          "answers": [
+            "Six",
+            "Twelve",
+            "Five",
+            "Four"
+          ],
+          "explanation": "A classical guitar has six strings. There are also twelve-string guitars with doubled strings, and an electric bass usually has four."
+        }
+      }
     },
     {
       "id": "arts-0002",
@@ -27,17 +41,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum klingen dicke Saiten tiefer?",
-      "answers": [
-        "Sie schwingen schneller",
-        "Sie schwingen langsamer",
-        "Sie sind lauter",
-        "Sie sind aus anderem Holz"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Je schwerer und lockerer eine Saite ist, desto langsamer schwingt sie. Langsame Schwingungen hören wir als tiefe Töne, schnelle als hohe. Deshalb stimmt man eine Gitarre durch Spannen oder Lockern der Saiten.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum klingen dicke Saiten tiefer?",
+          "answers": [
+            "Sie schwingen schneller",
+            "Sie schwingen langsamer",
+            "Sie sind lauter",
+            "Sie sind aus anderem Holz"
+          ],
+          "explanation": "Je schwerer und lockerer eine Saite ist, desto langsamer schwingt sie. Langsame Schwingungen hören wir als tiefe Töne, schnelle als hohe. Deshalb stimmt man eine Gitarre durch Spannen oder Lockern der Saiten."
+        },
+        "en": {
+          "title": "Why do thick strings sound lower?",
+          "answers": [
+            "They vibrate faster",
+            "They vibrate more slowly",
+            "They are louder",
+            "They are made of different wood"
+          ],
+          "explanation": "The heavier and looser a string is, the more slowly it vibrates. We hear slow vibrations as low notes and fast ones as high notes. That's why you tune a guitar by tightening or loosening the strings."
+        }
+      }
     },
     {
       "id": "arts-0003",
@@ -46,17 +74,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wer malte die Mona Lisa?",
-      "answers": [
-        "Michelangelo",
-        "Pablo Picasso",
-        "Leonardo da Vinci",
-        "Vincent van Gogh"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Leonardo da Vinci malte das Bild Anfang des 16. Jahrhunderts. Heute hängt es im Louvre in Paris hinter Panzerglas und gehört zu den berühmtesten Gemälden der Welt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer malte die Mona Lisa?",
+          "answers": [
+            "Michelangelo",
+            "Pablo Picasso",
+            "Leonardo da Vinci",
+            "Vincent van Gogh"
+          ],
+          "explanation": "Leonardo da Vinci malte das Bild Anfang des 16. Jahrhunderts. Heute hängt es im Louvre in Paris hinter Panzerglas und gehört zu den berühmtesten Gemälden der Welt."
+        },
+        "en": {
+          "title": "Who painted the Mona Lisa?",
+          "answers": [
+            "Michelangelo",
+            "Pablo Picasso",
+            "Leonardo da Vinci",
+            "Vincent van Gogh"
+          ],
+          "explanation": "Leonardo da Vinci painted the picture at the beginning of the 16th century. Today it hangs behind bulletproof glass in the Louvre in Paris and is one of the most famous paintings in the world."
+        }
+      }
     },
     {
       "id": "arts-0004",
@@ -65,17 +107,31 @@
       "order": 11,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Welche drei Farben gelten im Malkasten als Grundfarben?",
-      "answers": [
-        "Schwarz, Weiß und Grau",
-        "Rot, Gelb und Blau",
-        "Rot, Grün und Blau",
-        "Grün, Orange und Lila"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Aus Rot, Gelb und Blau lassen sich im Malkasten viele andere Farben mischen, zum Beispiel Orange aus Rot und Gelb. Bei Licht, etwa auf Bildschirmen, sind die Grundfarben dagegen Rot, Grün und Blau.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche drei Farben gelten im Malkasten als Grundfarben?",
+          "answers": [
+            "Schwarz, Weiß und Grau",
+            "Rot, Gelb und Blau",
+            "Rot, Grün und Blau",
+            "Grün, Orange und Lila"
+          ],
+          "explanation": "Aus Rot, Gelb und Blau lassen sich im Malkasten viele andere Farben mischen, zum Beispiel Orange aus Rot und Gelb. Bei Licht, etwa auf Bildschirmen, sind die Grundfarben dagegen Rot, Grün und Blau."
+        },
+        "en": {
+          "title": "Which three colours count as primary colours in a paint box?",
+          "answers": [
+            "Black, white and grey",
+            "Red, yellow and blue",
+            "Red, green and blue",
+            "Green, orange and purple"
+          ],
+          "explanation": "With red, yellow and blue you can mix many other colours in a paint box, for example orange from red and yellow. With light, such as on screens, the primary colours are red, green and blue instead."
+        }
+      }
     },
     {
       "id": "arts-0005",
@@ -84,17 +140,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Welche Farbe entsteht, wenn man Gelb und Blau mischt?",
-      "answers": [
-        "Grün",
-        "Lila",
-        "Orange",
-        "Braun"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Gelb und Blau ergeben Grün. Je mehr Blau man nimmt, desto dunkler und kühler wird das Grün.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Farbe entsteht, wenn man Gelb und Blau mischt?",
+          "answers": [
+            "Grün",
+            "Lila",
+            "Orange",
+            "Braun"
+          ],
+          "explanation": "Gelb und Blau ergeben Grün. Je mehr Blau man nimmt, desto dunkler und kühler wird das Grün."
+        },
+        "en": {
+          "title": "What colour do you get when you mix yellow and blue?",
+          "answers": [
+            "Green",
+            "Purple",
+            "Orange",
+            "Brown"
+          ],
+          "explanation": "Yellow and blue make green. The more blue you use, the darker and cooler the green becomes."
+        }
+      }
     },
     {
       "id": "arts-0006",
@@ -103,17 +173,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welches Instrument hat 88 Tasten?",
-      "answers": [
-        "Das Akkordeon",
-        "Die Harfe",
-        "Das Klavier",
-        "Die Orgel"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Ein normales Klavier hat 52 weiße und 36 schwarze Tasten. Jede Taste lässt einen kleinen Hammer gegen eine Saite schlagen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Instrument hat 88 Tasten?",
+          "answers": [
+            "Das Akkordeon",
+            "Die Harfe",
+            "Das Klavier",
+            "Die Orgel"
+          ],
+          "explanation": "Ein normales Klavier hat 52 weiße und 36 schwarze Tasten. Jede Taste lässt einen kleinen Hammer gegen eine Saite schlagen."
+        },
+        "en": {
+          "title": "Which instrument has 88 keys?",
+          "answers": [
+            "The accordion",
+            "The harp",
+            "The piano",
+            "The organ"
+          ],
+          "explanation": "A normal piano has 52 white and 36 black keys. Each key makes a small hammer strike a string."
+        }
+      }
     },
     {
       "id": "arts-0007",
@@ -122,17 +206,31 @@
       "order": 12,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wie heißt die Person, die ein Orchester leitet?",
-      "answers": [
-        "Konzertmeister oder Konzertmeisterin",
-        "Solist oder Solistin",
-        "Komponist oder Komponistin",
-        "Dirigent oder Dirigentin"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Dirigent gibt mit Händen oder Taktstock das Tempo vor und zeigt, wann welche Instrumente einsetzen und wie laut sie spielen. Der Konzertmeister ist dagegen die erste Geige im Orchester.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt die Person, die ein Orchester leitet?",
+          "answers": [
+            "Konzertmeister oder Konzertmeisterin",
+            "Solist oder Solistin",
+            "Komponist oder Komponistin",
+            "Dirigent oder Dirigentin"
+          ],
+          "explanation": "Der Dirigent gibt mit Händen oder Taktstock das Tempo vor und zeigt, wann welche Instrumente einsetzen und wie laut sie spielen. Der Konzertmeister ist dagegen die erste Geige im Orchester."
+        },
+        "en": {
+          "title": "What is the person who leads an orchestra called?",
+          "answers": [
+            "Concertmaster",
+            "Soloist",
+            "Composer",
+            "Conductor"
+          ],
+          "explanation": "The conductor sets the tempo with their hands or a baton and shows when each instrument comes in and how loudly to play. The concertmaster, on the other hand, is the lead violin in the orchestra."
+        }
+      }
     },
     {
       "id": "arts-0008",
@@ -141,17 +239,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Auf wie vielen Linien stehen Noten?",
-      "answers": [
-        "Sieben",
-        "Sechs",
-        "Fünf",
-        "Vier"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Noten stehen auf und zwischen fünf Linien. Je höher eine Note sitzt, desto höher ist der Ton. Der Notenschlüssel am Anfang legt fest, welche Linie welcher Ton ist.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Auf wie vielen Linien stehen Noten?",
+          "answers": [
+            "Sieben",
+            "Sechs",
+            "Fünf",
+            "Vier"
+          ],
+          "explanation": "Noten stehen auf und zwischen fünf Linien. Je höher eine Note sitzt, desto höher ist der Ton. Der Notenschlüssel am Anfang legt fest, welche Linie welcher Ton ist."
+        },
+        "en": {
+          "title": "How many lines are musical notes written on?",
+          "answers": [
+            "Seven",
+            "Six",
+            "Five",
+            "Four"
+          ],
+          "explanation": "Notes sit on and between five lines. The higher a note sits, the higher the sound. The clef at the start decides which line stands for which note."
+        }
+      }
     },
     {
       "id": "arts-0009",
@@ -160,17 +272,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Welcher Komponist wurde taub und komponierte trotzdem weiter?",
-      "answers": [
-        "Antonio Vivaldi",
-        "Johann Sebastian Bach",
-        "Ludwig van Beethoven",
-        "Wolfgang Amadeus Mozart"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Beethoven verlor schon mit Ende zwanzig nach und nach sein Gehör. Seine berühmte Neunte Sinfonie schrieb er, als er fast nichts mehr hörte.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Komponist wurde taub und komponierte trotzdem weiter?",
+          "answers": [
+            "Antonio Vivaldi",
+            "Johann Sebastian Bach",
+            "Ludwig van Beethoven",
+            "Wolfgang Amadeus Mozart"
+          ],
+          "explanation": "Beethoven verlor schon mit Ende zwanzig nach und nach sein Gehör. Seine berühmte Neunte Sinfonie schrieb er, als er fast nichts mehr hörte."
+        },
+        "en": {
+          "title": "Which composer went deaf and still kept composing?",
+          "answers": [
+            "Antonio Vivaldi",
+            "Johann Sebastian Bach",
+            "Ludwig van Beethoven",
+            "Wolfgang Amadeus Mozart"
+          ],
+          "explanation": "Beethoven began gradually losing his hearing in his late twenties. He wrote his famous Ninth Symphony when he could hardly hear anything any more."
+        }
+      }
     },
     {
       "id": "arts-0010",
@@ -179,17 +305,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum hat eine Geige einen hohlen Holzkörper?",
-      "answers": [
-        "Damit sie nicht zerbricht",
-        "Er verstärkt den Klang der Saiten",
-        "Damit sie leichter ist",
-        "Damit man Noten hineinlegen kann"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Eine Saite allein bewegt kaum Luft und klingt sehr leise. Über den Steg überträgt sie ihre Schwingungen auf den Holzkörper, der mit der Luft darin mitschwingt und den Ton laut macht.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum hat eine Geige einen hohlen Holzkörper?",
+          "answers": [
+            "Damit sie nicht zerbricht",
+            "Er verstärkt den Klang der Saiten",
+            "Damit sie leichter ist",
+            "Damit man Noten hineinlegen kann"
+          ],
+          "explanation": "Eine Saite allein bewegt kaum Luft und klingt sehr leise. Über den Steg überträgt sie ihre Schwingungen auf den Holzkörper, der mit der Luft darin mitschwingt und den Ton laut macht."
+        },
+        "en": {
+          "title": "Why does a violin have a hollow wooden body?",
+          "answers": [
+            "So it doesn't break",
+            "It makes the sound of the strings louder",
+            "To make it lighter",
+            "So you can keep sheet music in it"
+          ],
+          "explanation": "A string on its own hardly moves any air and sounds very quiet. Through the bridge it passes its vibrations to the wooden body, which vibrates along with the air inside and makes the sound loud."
+        }
+      }
     },
     {
       "id": "arts-0011",
@@ -198,17 +338,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was ist ein Selbstporträt?",
-      "answers": [
-        "Ein Bild von Obst",
-        "Ein Bild einer Landschaft",
-        "Ein Bild, das jemand von sich selbst malt",
-        "Ein Bild ohne Farben"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Viele Malerinnen und Maler haben sich selbst gemalt, oft mit Hilfe eines Spiegels. Vincent van Gogh schuf über 35 Selbstporträts.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Selbstporträt?",
+          "answers": [
+            "Ein Bild von Obst",
+            "Ein Bild einer Landschaft",
+            "Ein Bild, das jemand von sich selbst malt",
+            "Ein Bild ohne Farben"
+          ],
+          "explanation": "Viele Malerinnen und Maler haben sich selbst gemalt, oft mit Hilfe eines Spiegels. Vincent van Gogh schuf über 35 Selbstporträts."
+        },
+        "en": {
+          "title": "What is a self-portrait?",
+          "answers": [
+            "A picture of fruit",
+            "A picture of a landscape",
+            "A picture someone paints of themselves",
+            "A picture without colours"
+          ],
+          "explanation": "Many painters have painted themselves, often with the help of a mirror. Vincent van Gogh made more than 35 self-portraits."
+        }
+      }
     },
     {
       "id": "arts-0012",
@@ -217,17 +371,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Welches dieser Instrumente ist ein Blechblasinstrument?",
-      "answers": [
-        "Die Querflöte",
-        "Die Trompete",
-        "Das Schlagzeug",
-        "Die Geige"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Bei Blechblasinstrumenten erzeugen die Lippen den Ton, indem sie im Mundstück vibrieren. Die Querflöte ist zwar meist aus Metall, zählt aber zu den Holzblasinstrumenten, weil man über eine Kante bläst.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches dieser Instrumente ist ein Blechblasinstrument?",
+          "answers": [
+            "Die Querflöte",
+            "Die Trompete",
+            "Das Schlagzeug",
+            "Die Geige"
+          ],
+          "explanation": "Bei Blechblasinstrumenten erzeugen die Lippen den Ton, indem sie im Mundstück vibrieren. Die Querflöte ist zwar meist aus Metall, zählt aber zu den Holzblasinstrumenten, weil man über eine Kante bläst."
+        },
+        "en": {
+          "title": "Which of these instruments is a brass instrument?",
+          "answers": [
+            "The flute",
+            "The trumpet",
+            "The drum kit",
+            "The violin"
+          ],
+          "explanation": "With brass instruments, the lips make the sound by vibrating in the mouthpiece. The flute is usually made of metal, but it counts as a woodwind instrument because you blow across an edge."
+        }
+      }
     },
     {
       "id": "arts-0013",
@@ -236,17 +404,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was macht ein Bildhauer?",
-      "answers": [
-        "Er malt Wände an",
-        "Er baut Häuser",
-        "Er formt Figuren aus Stein, Holz oder Ton",
-        "Er fotografiert"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Bildhauer schlagen Figuren aus Stein, schnitzen Holz, formen Ton oder gießen Bronze. Eine der berühmtesten Skulpturen ist der David von Michelangelo in Florenz.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was macht ein Bildhauer?",
+          "answers": [
+            "Er malt Wände an",
+            "Er baut Häuser",
+            "Er formt Figuren aus Stein, Holz oder Ton",
+            "Er fotografiert"
+          ],
+          "explanation": "Bildhauer schlagen Figuren aus Stein, schnitzen Holz, formen Ton oder gießen Bronze. Eine der berühmtesten Skulpturen ist der David von Michelangelo in Florenz."
+        },
+        "en": {
+          "title": "What does a sculptor do?",
+          "answers": [
+            "They paint walls",
+            "They build houses",
+            "They shape figures out of stone, wood or clay",
+            "They take photos"
+          ],
+          "explanation": "Sculptors carve figures out of stone or wood, shape clay or cast bronze. One of the most famous sculptures is Michelangelo's David in Florence."
+        }
+      }
     },
     {
       "id": "arts-0014",
@@ -255,17 +437,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Was bedeutet „forte“ in der Musik?",
-      "answers": [
-        "Schnell",
-        "Laut",
-        "Leise",
-        "Langsam"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Viele Musikbegriffe sind italienisch. „Forte“ heißt laut, „piano“ heißt leise. Daher hat das Pianoforte, kurz Klavier, seinen Namen: Man konnte darauf leise und laut spielen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was bedeutet „forte“ in der Musik?",
+          "answers": [
+            "Schnell",
+            "Laut",
+            "Leise",
+            "Langsam"
+          ],
+          "explanation": "Viele Musikbegriffe sind italienisch. „Forte“ heißt laut, „piano“ heißt leise. Daher hat das Pianoforte, kurz Klavier, seinen Namen: Man konnte darauf leise und laut spielen."
+        },
+        "en": {
+          "title": "What does “forte” mean in music?",
+          "answers": [
+            "Fast",
+            "Loud",
+            "Quiet",
+            "Slow"
+          ],
+          "explanation": "Many musical terms are Italian. “Forte” means loud and “piano” means quiet. That's where the pianoforte, or piano for short, gets its name: you could play it both quietly and loudly."
+        }
+      }
     },
     {
       "id": "arts-0015",
@@ -274,17 +470,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wer komponierte die „Kleine Nachtmusik“?",
-      "answers": [
-        "Joseph Haydn",
-        "Johann Sebastian Bach",
-        "Ludwig van Beethoven",
-        "Wolfgang Amadeus Mozart"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Mozart schrieb das Stück 1787 in Wien. Er komponierte schon als kleines Kind und schuf in seinem kurzen Leben über 600 Werke.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer komponierte die „Kleine Nachtmusik“?",
+          "answers": [
+            "Joseph Haydn",
+            "Johann Sebastian Bach",
+            "Ludwig van Beethoven",
+            "Wolfgang Amadeus Mozart"
+          ],
+          "explanation": "Mozart schrieb das Stück 1787 in Wien. Er komponierte schon als kleines Kind und schuf in seinem kurzen Leben über 600 Werke."
+        },
+        "en": {
+          "title": "Who composed “Eine kleine Nachtmusik”?",
+          "answers": [
+            "Joseph Haydn",
+            "Johann Sebastian Bach",
+            "Ludwig van Beethoven",
+            "Wolfgang Amadeus Mozart"
+          ],
+          "explanation": "Mozart wrote the piece in Vienna in 1787. He was already composing as a small child and wrote over 600 works in his short life."
+        }
+      }
     },
     {
       "id": "arts-0016",
@@ -293,17 +503,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Aus welchem Land stammte der Maler Pablo Picasso?",
-      "answers": [
-        "Frankreich",
-        "Italien",
-        "Mexiko",
-        "Spanien"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Picasso wurde 1881 in Málaga geboren, lebte aber die meiste Zeit in Frankreich. Mit seinen kantigen, zerlegten Formen begründete er den Kubismus mit.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Aus welchem Land stammte der Maler Pablo Picasso?",
+          "answers": [
+            "Frankreich",
+            "Italien",
+            "Mexiko",
+            "Spanien"
+          ],
+          "explanation": "Picasso wurde 1881 in Málaga geboren, lebte aber die meiste Zeit in Frankreich. Mit seinen kantigen, zerlegten Formen begründete er den Kubismus mit."
+        },
+        "en": {
+          "title": "Which country did the painter Pablo Picasso come from?",
+          "answers": [
+            "France",
+            "Italy",
+            "Mexico",
+            "Spain"
+          ],
+          "explanation": "Picasso was born in Málaga in 1881 but lived in France most of his life. With his angular, broken-up shapes, he helped found Cubism."
+        }
+      }
     },
     {
       "id": "arts-0017",
@@ -312,17 +536,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was ist ein Mosaik?",
-      "answers": [
-        "Ein Bild aus vielen kleinen Steinchen",
-        "Ein gewebter Teppich",
-        "Eine Statue aus Holz",
-        "Ein Bild aus Wasserfarben"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Für ein Mosaik setzt man kleine Stücke aus Stein, Glas oder Keramik dicht nebeneinander. Schon die alten Römer schmückten so ihre Fußböden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Mosaik?",
+          "answers": [
+            "Ein Bild aus vielen kleinen Steinchen",
+            "Ein gewebter Teppich",
+            "Eine Statue aus Holz",
+            "Ein Bild aus Wasserfarben"
+          ],
+          "explanation": "Für ein Mosaik setzt man kleine Stücke aus Stein, Glas oder Keramik dicht nebeneinander. Schon die alten Römer schmückten so ihre Fußböden."
+        },
+        "en": {
+          "title": "What is a mosaic?",
+          "answers": [
+            "A picture made of lots of little stones",
+            "A woven carpet",
+            "A wooden statue",
+            "A picture made with watercolours"
+          ],
+          "explanation": "For a mosaic, small pieces of stone, glass or ceramic are set close together. The ancient Romans already decorated their floors this way."
+        }
+      }
     },
     {
       "id": "arts-0018",
@@ -331,17 +569,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie viele Musiker spielen in einem Streichquartett?",
-      "answers": [
-        "Vier",
-        "Fünf",
-        "Drei",
-        "Zwei"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Ein Streichquartett besteht aus zwei Geigen, einer Bratsche und einem Cello. „Quartett“ kommt vom lateinischen Wort für vier.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Musiker spielen in einem Streichquartett?",
+          "answers": [
+            "Vier",
+            "Fünf",
+            "Drei",
+            "Zwei"
+          ],
+          "explanation": "Ein Streichquartett besteht aus zwei Geigen, einer Bratsche und einem Cello. „Quartett“ kommt vom lateinischen Wort für vier."
+        },
+        "en": {
+          "title": "How many musicians play in a string quartet?",
+          "answers": [
+            "Four",
+            "Five",
+            "Three",
+            "Two"
+          ],
+          "explanation": "A string quartet is made up of two violins, a viola and a cello. “Quartet” comes from the Latin word for four."
+        }
+      }
     },
     {
       "id": "arts-0019",
@@ -350,17 +602,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Womit hält man beim Üben gleichmäßig den Takt?",
-      "answers": [
-        "Mit einer Stimmgabel",
-        "Mit einem Notenständer",
-        "Mit einem Kompass",
-        "Mit einem Metronom"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Ein Metronom tickt gleichmäßig in einem einstellbaren Tempo. Die Stimmgabel dagegen gibt einen festen Ton zum Stimmen vor.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Womit hält man beim Üben gleichmäßig den Takt?",
+          "answers": [
+            "Mit einer Stimmgabel",
+            "Mit einem Notenständer",
+            "Mit einem Kompass",
+            "Mit einem Metronom"
+          ],
+          "explanation": "Ein Metronom tickt gleichmäßig in einem einstellbaren Tempo. Die Stimmgabel dagegen gibt einen festen Ton zum Stimmen vor."
+        },
+        "en": {
+          "title": "What helps you keep a steady beat while practising?",
+          "answers": [
+            "A tuning fork",
+            "A music stand",
+            "A compass",
+            "A metronome"
+          ],
+          "explanation": "A metronome ticks evenly at a tempo you can set. A tuning fork, on the other hand, gives a fixed note for tuning."
+        }
+      }
     },
     {
       "id": "arts-0020",
@@ -369,17 +635,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Welche Band aus Liverpool wurde in den 1960ern weltberühmt?",
-      "answers": [
-        "Die Beatles",
-        "Die Rolling Stones",
-        "ABBA",
-        "Queen"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "John Lennon, Paul McCartney, George Harrison und Ringo Starr gehören zu den erfolgreichsten Musikern aller Zeiten. Ihre ersten großen Auftritte hatten sie übrigens in Hamburg.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Band aus Liverpool wurde in den 1960ern weltberühmt?",
+          "answers": [
+            "Die Beatles",
+            "Die Rolling Stones",
+            "ABBA",
+            "Queen"
+          ],
+          "explanation": "John Lennon, Paul McCartney, George Harrison und Ringo Starr gehören zu den erfolgreichsten Musikern aller Zeiten. Ihre ersten großen Auftritte hatten sie übrigens in Hamburg."
+        },
+        "en": {
+          "title": "Which band from Liverpool became world-famous in the 1960s?",
+          "answers": [
+            "The Beatles",
+            "The Rolling Stones",
+            "ABBA",
+            "Queen"
+          ],
+          "explanation": "John Lennon, Paul McCartney, George Harrison and Ringo Starr are among the most successful musicians of all time. By the way, they had their first big gigs in Hamburg."
+        }
+      }
     },
     {
       "id": "arts-0021",
@@ -388,17 +668,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Welche Farbe entsteht, wenn man Rot und Gelb mischt?",
-      "answers": [
-        "Orange",
-        "Braun",
-        "Lila",
-        "Grün"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Rot und Gelb sind Grundfarben. Gemischt ergeben sie Orange – je mehr Gelb, desto heller wird es.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Farbe entsteht, wenn man Rot und Gelb mischt?",
+          "answers": [
+            "Orange",
+            "Braun",
+            "Lila",
+            "Grün"
+          ],
+          "explanation": "Rot und Gelb sind Grundfarben. Gemischt ergeben sie Orange – je mehr Gelb, desto heller wird es."
+        },
+        "en": {
+          "title": "What colour do you get when you mix red and yellow?",
+          "answers": [
+            "Orange",
+            "Brown",
+            "Purple",
+            "Green"
+          ],
+          "explanation": "Red and yellow are primary colours. Mixed together they make orange – the more yellow, the lighter it gets."
+        }
+      }
     },
     {
       "id": "arts-0022",
@@ -407,17 +701,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welche Farbe entsteht, wenn man Rot und Blau mischt?",
-      "answers": [
-        "Grün",
-        "Gelb",
-        "Lila",
-        "Orange"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Aus Rot und Blau wird Lila, auch Violett genannt. Mit mehr Blau wird es kühler, mit mehr Rot wärmer.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Farbe entsteht, wenn man Rot und Blau mischt?",
+          "answers": [
+            "Grün",
+            "Gelb",
+            "Lila",
+            "Orange"
+          ],
+          "explanation": "Aus Rot und Blau wird Lila, auch Violett genannt. Mit mehr Blau wird es kühler, mit mehr Rot wärmer."
+        },
+        "en": {
+          "title": "What colour do you get when you mix red and blue?",
+          "answers": [
+            "Green",
+            "Yellow",
+            "Purple",
+            "Orange"
+          ],
+          "explanation": "Red and blue make purple, also called violet. With more blue it gets cooler, with more red warmer."
+        }
+      }
     },
     {
       "id": "arts-0023",
@@ -426,17 +734,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was planen Architektinnen und Architekten?",
-      "answers": [
-        "Theaterstücke",
-        "Gemälde",
-        "Musikstücke",
-        "Gebäude"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Architekten entwerfen Häuser, Brücken oder Schulen. Sie überlegen, wie ein Gebäude aussieht, wie stabil es ist und wie man darin gut leben kann.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was planen Architektinnen und Architekten?",
+          "answers": [
+            "Theaterstücke",
+            "Gemälde",
+            "Musikstücke",
+            "Gebäude"
+          ],
+          "explanation": "Architekten entwerfen Häuser, Brücken oder Schulen. Sie überlegen, wie ein Gebäude aussieht, wie stabil es ist und wie man darin gut leben kann."
+        },
+        "en": {
+          "title": "What do architects design?",
+          "answers": [
+            "Plays",
+            "Paintings",
+            "Pieces of music",
+            "Buildings"
+          ],
+          "explanation": "Architects design houses, bridges or schools. They think about how a building looks, how stable it is and how people can live well in it."
+        }
+      }
     },
     {
       "id": "arts-0024",
@@ -445,17 +767,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was ist eine Skulptur?",
-      "answers": [
-        "Ein flaches Gemälde",
-        "Ein Tanz",
-        "Eine Figur, die man von allen Seiten betrachten kann",
-        "Ein Musikstück"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Skulpturen werden aus Stein, Holz, Metall oder Ton geschaffen. Anders als ein Bild haben sie Höhe, Breite und Tiefe.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist eine Skulptur?",
+          "answers": [
+            "Ein flaches Gemälde",
+            "Ein Tanz",
+            "Eine Figur, die man von allen Seiten betrachten kann",
+            "Ein Musikstück"
+          ],
+          "explanation": "Skulpturen werden aus Stein, Holz, Metall oder Ton geschaffen. Anders als ein Bild haben sie Höhe, Breite und Tiefe."
+        },
+        "en": {
+          "title": "What is a sculpture?",
+          "answers": [
+            "A flat painting",
+            "A dance",
+            "A figure you can look at from all sides",
+            "A piece of music"
+          ],
+          "explanation": "Sculptures are made of stone, wood, metal or clay. Unlike a picture, they have height, width and depth."
+        }
+      }
     },
     {
       "id": "arts-0025",
@@ -464,17 +800,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Was zeigt ein Stillleben?",
-      "answers": [
-        "Ein leeres Blatt",
-        "Schlafende Menschen",
-        "Unbewegte Gegenstände wie Obst oder Blumen",
-        "Eine stille Landschaft bei Nacht"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Auf einem Stillleben sind Dinge zu sehen, die sich nicht bewegen: Früchte, Vasen, Bücher. Maler üben daran Licht, Schatten und Oberflächen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was zeigt ein Stillleben?",
+          "answers": [
+            "Ein leeres Blatt",
+            "Schlafende Menschen",
+            "Unbewegte Gegenstände wie Obst oder Blumen",
+            "Eine stille Landschaft bei Nacht"
+          ],
+          "explanation": "Auf einem Stillleben sind Dinge zu sehen, die sich nicht bewegen: Früchte, Vasen, Bücher. Maler üben daran Licht, Schatten und Oberflächen."
+        },
+        "en": {
+          "title": "What does a still life show?",
+          "answers": [
+            "A blank sheet",
+            "Sleeping people",
+            "Objects that don't move, such as fruit or flowers",
+            "A quiet landscape at night"
+          ],
+          "explanation": "A still life shows things that don't move: fruit, vases, books. Painters use it to practise light, shadow and surfaces."
+        }
+      }
     },
     {
       "id": "arts-0026",
@@ -483,17 +833,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Auf welchem Instrument trommelt man?",
-      "answers": [
-        "Auf der Flöte",
-        "Auf der Harfe",
-        "Auf dem Schlagzeug",
-        "Auf der Geige"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Ein Schlagzeug besteht aus mehreren Trommeln und Becken. Es gibt einer Band den Rhythmus vor.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Auf welchem Instrument trommelt man?",
+          "answers": [
+            "Auf der Flöte",
+            "Auf der Harfe",
+            "Auf dem Schlagzeug",
+            "Auf der Geige"
+          ],
+          "explanation": "Ein Schlagzeug besteht aus mehreren Trommeln und Becken. Es gibt einer Band den Rhythmus vor."
+        },
+        "en": {
+          "title": "Which instrument do you drum on?",
+          "answers": [
+            "The flute",
+            "The harp",
+            "The drum kit",
+            "The violin"
+          ],
+          "explanation": "A drum kit is made up of several drums and cymbals. It gives a band its rhythm."
+        }
+      }
     },
     {
       "id": "arts-0027",
@@ -502,17 +866,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Womit streicht man über die Saiten einer Geige?",
-      "answers": [
-        "Mit einem Hammer",
-        "Mit einem Mundstück",
-        "Mit einem Blasebalg",
-        "Mit einem Bogen"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Bogen ist mit Pferdehaar bespannt, das mit Harz eingerieben wird. Streicht man damit über die Saiten, beginnen sie zu schwingen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Womit streicht man über die Saiten einer Geige?",
+          "answers": [
+            "Mit einem Hammer",
+            "Mit einem Mundstück",
+            "Mit einem Blasebalg",
+            "Mit einem Bogen"
+          ],
+          "explanation": "Der Bogen ist mit Pferdehaar bespannt, das mit Harz eingerieben wird. Streicht man damit über die Saiten, beginnen sie zu schwingen."
+        },
+        "en": {
+          "title": "What do you draw across the strings of a violin?",
+          "answers": [
+            "A hammer",
+            "A mouthpiece",
+            "A pair of bellows",
+            "A bow"
+          ],
+          "explanation": "The bow is strung with horsehair that is rubbed with rosin. When you draw it across the strings, they start to vibrate."
+        }
+      }
     },
     {
       "id": "arts-0028",
@@ -521,17 +899,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Welches dieser Instrumente ist ein Holzblasinstrument?",
-      "answers": [
-        "Die Tuba",
-        "Die Klarinette",
-        "Das Xylophon",
-        "Die Posaune"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Bei der Klarinette schwingt ein dünnes Holzblättchen am Mundstück. Posaune und Tuba sind Blechblasinstrumente, das Xylophon ist ein Schlaginstrument.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches dieser Instrumente ist ein Holzblasinstrument?",
+          "answers": [
+            "Die Tuba",
+            "Die Klarinette",
+            "Das Xylophon",
+            "Die Posaune"
+          ],
+          "explanation": "Bei der Klarinette schwingt ein dünnes Holzblättchen am Mundstück. Posaune und Tuba sind Blechblasinstrumente, das Xylophon ist ein Schlaginstrument."
+        },
+        "en": {
+          "title": "Which of these instruments is a woodwind instrument?",
+          "answers": [
+            "The tuba",
+            "The clarinet",
+            "The xylophone",
+            "The trombone"
+          ],
+          "explanation": "In a clarinet, a thin reed vibrates on the mouthpiece. The trombone and tuba are brass instruments, and the xylophone is a percussion instrument."
+        }
+      }
     },
     {
       "id": "arts-0029",
@@ -540,17 +932,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum klingt eine große Trommel tiefer als eine kleine?",
-      "answers": [
-        "Ihr großes Fell schwingt langsamer",
-        "Sie ist aus dickerem Holz",
-        "Man schlägt sie leiser",
-        "Sie hat mehr Luft zum Atmen"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Je langsamer etwas schwingt, desto tiefer klingt es. Ein großes Trommelfell schwingt langsamer als ein kleines – genau wie bei dicken und dünnen Saiten.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum klingt eine große Trommel tiefer als eine kleine?",
+          "answers": [
+            "Ihr großes Fell schwingt langsamer",
+            "Sie ist aus dickerem Holz",
+            "Man schlägt sie leiser",
+            "Sie hat mehr Luft zum Atmen"
+          ],
+          "explanation": "Je langsamer etwas schwingt, desto tiefer klingt es. Ein großes Trommelfell schwingt langsamer als ein kleines – genau wie bei dicken und dünnen Saiten."
+        },
+        "en": {
+          "title": "Why does a big drum sound lower than a small one?",
+          "answers": [
+            "Its large skin vibrates more slowly",
+            "It is made of thicker wood",
+            "You hit it more softly",
+            "It has more air to breathe"
+          ],
+          "explanation": "The more slowly something vibrates, the lower it sounds. A large drum skin vibrates more slowly than a small one – just like thick and thin strings."
+        }
+      }
     },
     {
       "id": "arts-0030",
@@ -559,17 +965,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Welches ist das größte Streichinstrument im Orchester?",
-      "answers": [
-        "Der Kontrabass",
-        "Die Harfe",
-        "Die Bratsche",
-        "Das Cello"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Ein Kontrabass ist größer als die meisten Erwachsenen. Man spielt ihn im Stehen oder auf einem hohen Hocker, und er klingt sehr tief.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches ist das größte Streichinstrument im Orchester?",
+          "answers": [
+            "Der Kontrabass",
+            "Die Harfe",
+            "Die Bratsche",
+            "Das Cello"
+          ],
+          "explanation": "Ein Kontrabass ist größer als die meisten Erwachsenen. Man spielt ihn im Stehen oder auf einem hohen Hocker, und er klingt sehr tief."
+        },
+        "en": {
+          "title": "Which is the largest string instrument in the orchestra?",
+          "answers": [
+            "The double bass",
+            "The harp",
+            "The viola",
+            "The cello"
+          ],
+          "explanation": "A double bass is taller than most adults. It is played standing up or on a high stool, and it sounds very low."
+        }
+      }
     },
     {
       "id": "arts-0031",
@@ -578,17 +998,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie heißt ein Lied, bei dem mehrere Gruppen dieselbe Melodie zeitversetzt singen?",
-      "answers": [
-        "Refrain",
-        "Solo",
-        "Duett",
-        "Kanon"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Beim Kanon beginnt eine Gruppe, die nächste setzt etwas später mit derselben Melodie ein. „Bruder Jakob“ ist ein bekanntes Beispiel.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt ein Lied, bei dem mehrere Gruppen dieselbe Melodie zeitversetzt singen?",
+          "answers": [
+            "Refrain",
+            "Solo",
+            "Duett",
+            "Kanon"
+          ],
+          "explanation": "Beim Kanon beginnt eine Gruppe, die nächste setzt etwas später mit derselben Melodie ein. „Bruder Jakob“ ist ein bekanntes Beispiel."
+        },
+        "en": {
+          "title": "What do you call a song where several groups sing the same tune starting at different times?",
+          "answers": [
+            "A chorus",
+            "A solo",
+            "A duet",
+            "A round"
+          ],
+          "explanation": "In a round, one group starts and the next comes in a little later with the same tune. “Frère Jacques” is a well-known example."
+        }
+      }
     },
     {
       "id": "arts-0032",
@@ -597,17 +1031,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wie nennt man eine Gruppe von Menschen, die zusammen singt?",
-      "answers": [
-        "Publikum",
-        "Chor",
-        "Ballett",
-        "Orchester"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "In einem Chor singen meist mehrere Stimmgruppen, zum Beispiel Sopran, Alt, Tenor und Bass. Zusammen ergeben sie einen vollen Klang.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie nennt man eine Gruppe von Menschen, die zusammen singt?",
+          "answers": [
+            "Publikum",
+            "Chor",
+            "Ballett",
+            "Orchester"
+          ],
+          "explanation": "In einem Chor singen meist mehrere Stimmgruppen, zum Beispiel Sopran, Alt, Tenor und Bass. Zusammen ergeben sie einen vollen Klang."
+        },
+        "en": {
+          "title": "What do you call a group of people who sing together?",
+          "answers": [
+            "An audience",
+            "A choir",
+            "A ballet",
+            "An orchestra"
+          ],
+          "explanation": "A choir usually has several voice groups, for example soprano, alto, tenor and bass. Together they make a full sound."
+        }
+      }
     },
     {
       "id": "arts-0033",
@@ -616,17 +1064,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Was bedeutet „piano“ in der Musik?",
-      "answers": [
-        "Schnell",
-        "Langsam",
-        "Laut",
-        "Leise"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Musikbegriffe sind oft italienisch. „Piano“ heißt leise, „forte“ laut. Das Klavier heißt auf Italienisch übrigens „Pianoforte“, weil man darauf beides spielen kann.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was bedeutet „piano“ in der Musik?",
+          "answers": [
+            "Schnell",
+            "Langsam",
+            "Laut",
+            "Leise"
+          ],
+          "explanation": "Musikbegriffe sind oft italienisch. „Piano“ heißt leise, „forte“ laut. Das Klavier heißt auf Italienisch übrigens „Pianoforte“, weil man darauf beides spielen kann."
+        },
+        "en": {
+          "title": "What does “piano” mean in music?",
+          "answers": [
+            "Fast",
+            "Slow",
+            "Loud",
+            "Quiet"
+          ],
+          "explanation": "Musical terms are often Italian. “Piano” means quiet and “forte” loud. By the way, the piano's full Italian name is “pianoforte”, because you can play both on it."
+        }
+      }
     },
     {
       "id": "arts-0034",
@@ -635,17 +1097,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was ist der Refrain eines Liedes?",
-      "answers": [
-        "Das Ende ohne Musik",
-        "Der Teil, der sich immer wiederholt",
-        "Das erste Wort",
-        "Der Titel"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Zwischen den Strophen kommt immer wieder der Refrain. Weil er sich wiederholt, kann man ihn meist am schnellsten mitsingen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist der Refrain eines Liedes?",
+          "answers": [
+            "Das Ende ohne Musik",
+            "Der Teil, der sich immer wiederholt",
+            "Das erste Wort",
+            "Der Titel"
+          ],
+          "explanation": "Zwischen den Strophen kommt immer wieder der Refrain. Weil er sich wiederholt, kann man ihn meist am schnellsten mitsingen."
+        },
+        "en": {
+          "title": "What is the chorus of a song?",
+          "answers": [
+            "The ending without music",
+            "The part that keeps repeating",
+            "The first word",
+            "The title"
+          ],
+          "explanation": "The chorus comes back again and again between the verses. Because it repeats, it's usually the part you can sing along to soonest."
+        }
+      }
     },
     {
       "id": "arts-0035",
@@ -654,17 +1130,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie heißt das Zeichen am Anfang der Notenlinien, das die Tonhöhe festlegt?",
-      "answers": [
-        "Fermate",
-        "Taktstrich",
-        "Notenschlüssel",
-        "Pausenzeichen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Notenschlüssel zeigt, welcher Ton auf welcher Linie liegt. Am bekanntesten ist der Violinschlüssel, der wie eine verschnörkelte Acht aussieht.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt das Zeichen am Anfang der Notenlinien, das die Tonhöhe festlegt?",
+          "answers": [
+            "Fermate",
+            "Taktstrich",
+            "Notenschlüssel",
+            "Pausenzeichen"
+          ],
+          "explanation": "Der Notenschlüssel zeigt, welcher Ton auf welcher Linie liegt. Am bekanntesten ist der Violinschlüssel, der wie eine verschnörkelte Acht aussieht."
+        },
+        "en": {
+          "title": "What is the sign at the start of the stave that sets the pitch called?",
+          "answers": [
+            "Fermata",
+            "Bar line",
+            "Clef",
+            "Rest"
+          ],
+          "explanation": "The clef shows which note sits on which line. The best known is the treble clef, which looks like a curly figure eight."
+        }
+      }
     },
     {
       "id": "arts-0036",
@@ -673,17 +1163,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wer malte das Bild „Die Sternennacht“?",
-      "answers": [
-        "Vincent van Gogh",
-        "Pablo Picasso",
-        "Claude Monet",
-        "Leonardo da Vinci"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Der Niederländer Vincent van Gogh malte 1889 einen wirbelnden Nachthimmel über einem Dorf. Sein Stil mit kräftigen Pinselstrichen ist unverwechselbar.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer malte das Bild „Die Sternennacht“?",
+          "answers": [
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Claude Monet",
+            "Leonardo da Vinci"
+          ],
+          "explanation": "Der Niederländer Vincent van Gogh malte 1889 einen wirbelnden Nachthimmel über einem Dorf. Sein Stil mit kräftigen Pinselstrichen ist unverwechselbar."
+        },
+        "en": {
+          "title": "Who painted “The Starry Night”?",
+          "answers": [
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Claude Monet",
+            "Leonardo da Vinci"
+          ],
+          "explanation": "In 1889 the Dutch painter Vincent van Gogh painted a swirling night sky over a village. His style with bold brushstrokes is unmistakable."
+        }
+      }
     },
     {
       "id": "arts-0037",
@@ -692,17 +1196,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wer sammelte die Märchen „Hänsel und Gretel“ und „Rotkäppchen“?",
-      "answers": [
-        "Astrid Lindgren",
-        "Die Brüder Grimm",
-        "Wilhelm Busch",
-        "Hans Christian Andersen"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Jacob und Wilhelm Grimm schrieben Märchen auf, die sich die Menschen seit Langem erzählten. Ihre Sammlung wurde in über 100 Sprachen übersetzt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer sammelte die Märchen „Hänsel und Gretel“ und „Rotkäppchen“?",
+          "answers": [
+            "Astrid Lindgren",
+            "Die Brüder Grimm",
+            "Wilhelm Busch",
+            "Hans Christian Andersen"
+          ],
+          "explanation": "Jacob und Wilhelm Grimm schrieben Märchen auf, die sich die Menschen seit Langem erzählten. Ihre Sammlung wurde in über 100 Sprachen übersetzt."
+        },
+        "en": {
+          "title": "Who collected the fairy tales “Hansel and Gretel” and “Little Red Riding Hood”?",
+          "answers": [
+            "Astrid Lindgren",
+            "The Brothers Grimm",
+            "Wilhelm Busch",
+            "Hans Christian Andersen"
+          ],
+          "explanation": "Jacob and Wilhelm Grimm wrote down fairy tales that people had been telling each other for a long time. Their collection has been translated into more than 100 languages."
+        }
+      }
     },
     {
       "id": "arts-0038",
@@ -711,17 +1229,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wer erfand die Figur Pippi Langstrumpf?",
-      "answers": [
-        "Cornelia Funke",
-        "Astrid Lindgren",
-        "Michael Ende",
-        "Erich Kästner"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Die Schwedin Astrid Lindgren dachte sich Pippi für ihre kranke Tochter aus. Später schrieb sie auch „Michel aus Lönneberga“ und „Ronja Räubertochter“.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer erfand die Figur Pippi Langstrumpf?",
+          "answers": [
+            "Cornelia Funke",
+            "Astrid Lindgren",
+            "Michael Ende",
+            "Erich Kästner"
+          ],
+          "explanation": "Die Schwedin Astrid Lindgren dachte sich Pippi für ihre kranke Tochter aus. Später schrieb sie auch „Michel aus Lönneberga“ und „Ronja Räubertochter“."
+        },
+        "en": {
+          "title": "Who created the character Pippi Longstocking?",
+          "answers": [
+            "Cornelia Funke",
+            "Astrid Lindgren",
+            "Michael Ende",
+            "Erich Kästner"
+          ],
+          "explanation": "The Swedish author Astrid Lindgren made up Pippi for her sick daughter. Later she also wrote “Emil of Lönneberga” and “Ronia, the Robber's Daughter”."
+        }
+      }
     },
     {
       "id": "arts-0039",
@@ -730,17 +1262,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wer malte die Decke der Sixtinischen Kapelle in Rom?",
-      "answers": [
-        "Michelangelo",
-        "Rembrandt",
-        "Raffael",
-        "Leonardo da Vinci"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Michelangelo arbeitete vier Jahre lang auf einem Gerüst an den riesigen Deckenbildern. Er war eigentlich Bildhauer und malte gar nicht so gern.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer malte die Decke der Sixtinischen Kapelle in Rom?",
+          "answers": [
+            "Michelangelo",
+            "Rembrandt",
+            "Raffael",
+            "Leonardo da Vinci"
+          ],
+          "explanation": "Michelangelo arbeitete vier Jahre lang auf einem Gerüst an den riesigen Deckenbildern. Er war eigentlich Bildhauer und malte gar nicht so gern."
+        },
+        "en": {
+          "title": "Who painted the ceiling of the Sistine Chapel in Rome?",
+          "answers": [
+            "Michelangelo",
+            "Rembrandt",
+            "Raphael",
+            "Leonardo da Vinci"
+          ],
+          "explanation": "Michelangelo worked on the huge ceiling paintings from a scaffold for four years. He was really a sculptor and didn't enjoy painting much."
+        }
+      }
     },
     {
       "id": "arts-0040",
@@ -749,17 +1295,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie hieß der Komponist Ludwig van … mit Nachnamen?",
-      "answers": [
-        "Haydn",
-        "Mozart",
-        "Bach",
-        "Beethoven"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Ludwig van Beethoven wurde 1770 in Bonn geboren. Seine 9. Sinfonie mit der „Ode an die Freude“ ist heute die Hymne Europas.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie hieß der Komponist Ludwig van … mit Nachnamen?",
+          "answers": [
+            "Haydn",
+            "Mozart",
+            "Bach",
+            "Beethoven"
+          ],
+          "explanation": "Ludwig van Beethoven wurde 1770 in Bonn geboren. Seine 9. Sinfonie mit der „Ode an die Freude“ ist heute die Hymne Europas."
+        },
+        "en": {
+          "title": "What was the surname of the composer Ludwig van …?",
+          "answers": [
+            "Haydn",
+            "Mozart",
+            "Bach",
+            "Beethoven"
+          ],
+          "explanation": "Ludwig van Beethoven was born in Bonn in 1770. His Ninth Symphony with the “Ode to Joy” is now the anthem of Europe."
+        }
+      }
     },
     {
       "id": "arts-0041",
@@ -768,17 +1328,31 @@
       "order": 18,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Wie viele verschiedene Tasten (weiß und schwarz) hat eine Oktave auf dem Klavier?",
-      "answers": [
-        "Sieben",
-        "Acht",
-        "Zwölf",
-        "Zehn"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Sieben weiße und fünf schwarze Tasten ergeben zusammen zwölf verschiedene Töne. Danach wiederholt sich das Muster eine Oktave höher.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele verschiedene Tasten (weiß und schwarz) hat eine Oktave auf dem Klavier?",
+          "answers": [
+            "Sieben",
+            "Acht",
+            "Zwölf",
+            "Zehn"
+          ],
+          "explanation": "Sieben weiße und fünf schwarze Tasten ergeben zusammen zwölf verschiedene Töne. Danach wiederholt sich das Muster eine Oktave höher."
+        },
+        "en": {
+          "title": "How many different keys (white and black) are in one octave on the piano?",
+          "answers": [
+            "Seven",
+            "Eight",
+            "Twelve",
+            "Ten"
+          ],
+          "explanation": "Seven white and five black keys make twelve different notes in total. After that the pattern repeats one octave higher."
+        }
+      }
     },
     {
       "id": "arts-0042",
@@ -787,17 +1361,31 @@
       "order": 19,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Welcher Komponist schrieb „Die vier Jahreszeiten“?",
-      "answers": [
-        "Joseph Haydn",
-        "Wolfgang Amadeus Mozart",
-        "Antonio Vivaldi",
-        "Johann Sebastian Bach"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Italiener Antonio Vivaldi schrieb die vier Violinkonzerte um 1720. Man hört darin Vogelgezwitscher, Gewitter und klirrende Kälte.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Komponist schrieb „Die vier Jahreszeiten“?",
+          "answers": [
+            "Joseph Haydn",
+            "Wolfgang Amadeus Mozart",
+            "Antonio Vivaldi",
+            "Johann Sebastian Bach"
+          ],
+          "explanation": "Der Italiener Antonio Vivaldi schrieb die vier Violinkonzerte um 1720. Man hört darin Vogelgezwitscher, Gewitter und klirrende Kälte."
+        },
+        "en": {
+          "title": "Which composer wrote “The Four Seasons”?",
+          "answers": [
+            "Joseph Haydn",
+            "Wolfgang Amadeus Mozart",
+            "Antonio Vivaldi",
+            "Johann Sebastian Bach"
+          ],
+          "explanation": "The Italian Antonio Vivaldi wrote these four violin concertos around 1720. In them you can hear birdsong, thunderstorms and biting cold."
+        }
+      }
     },
     {
       "id": "arts-0043",
@@ -806,17 +1394,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welche Farbe liegt im Farbkreis Rot genau gegenüber?",
-      "answers": [
-        "Blau",
-        "Orange",
-        "Grün",
-        "Rosa"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Gegenüberliegende Farben heißen Komplementärfarben. Nebeneinander leuchten sie besonders stark – deshalb wirken rote Erdbeeren zwischen grünen Blättern so kräftig.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Farbe liegt im Farbkreis Rot genau gegenüber?",
+          "answers": [
+            "Blau",
+            "Orange",
+            "Grün",
+            "Rosa"
+          ],
+          "explanation": "Gegenüberliegende Farben heißen Komplementärfarben. Nebeneinander leuchten sie besonders stark – deshalb wirken rote Erdbeeren zwischen grünen Blättern so kräftig."
+        },
+        "en": {
+          "title": "Which colour is exactly opposite red on the colour wheel?",
+          "answers": [
+            "Blue",
+            "Orange",
+            "Green",
+            "Pink"
+          ],
+          "explanation": "Opposite colours are called complementary colours. Next to each other they look especially bright – that's why red strawberries look so vivid between green leaves."
+        }
+      }
     },
     {
       "id": "arts-0044",
@@ -825,17 +1427,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was ist ein Graffiti?",
-      "answers": [
-        "Ein auf eine Wand gesprühtes Bild oder ein Schriftzug",
-        "Eine italienische Nudelsorte",
-        "Ein Tanz aus Brasilien",
-        "Ein Instrument aus Holz"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Graffiti werden meist mit Sprühdosen gemalt. An vielen Orten gibt es Wände, an denen das ausdrücklich erlaubt ist.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Graffiti?",
+          "answers": [
+            "Ein auf eine Wand gesprühtes Bild oder ein Schriftzug",
+            "Eine italienische Nudelsorte",
+            "Ein Tanz aus Brasilien",
+            "Ein Instrument aus Holz"
+          ],
+          "explanation": "Graffiti werden meist mit Sprühdosen gemalt. An vielen Orten gibt es Wände, an denen das ausdrücklich erlaubt ist."
+        },
+        "en": {
+          "title": "What is graffiti?",
+          "answers": [
+            "A picture or lettering sprayed onto a wall",
+            "A kind of Italian pasta",
+            "A dance from Brazil",
+            "A wooden instrument"
+          ],
+          "explanation": "Graffiti is usually painted with spray cans. In many places there are walls where it is expressly allowed."
+        }
+      }
     },
     {
       "id": "arts-0045",
@@ -844,17 +1460,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Worauf stellt man eine Leinwand beim Malen?",
-      "answers": [
-        "Auf ein Stativ",
-        "Auf einen Notenständer",
-        "Auf eine Leiter",
-        "Auf eine Staffelei"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Die Staffelei hält das Bild schräg und in Augenhöhe. So kann man im Stehen malen und immer wieder einen Schritt zurücktreten.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Worauf stellt man eine Leinwand beim Malen?",
+          "answers": [
+            "Auf ein Stativ",
+            "Auf einen Notenständer",
+            "Auf eine Leiter",
+            "Auf eine Staffelei"
+          ],
+          "explanation": "Die Staffelei hält das Bild schräg und in Augenhöhe. So kann man im Stehen malen und immer wieder einen Schritt zurücktreten."
+        },
+        "en": {
+          "title": "What do you put a canvas on while painting?",
+          "answers": [
+            "A tripod",
+            "A music stand",
+            "A ladder",
+            "An easel"
+          ],
+          "explanation": "The easel holds the picture at a slant and at eye level. That way you can paint standing up and keep stepping back to look."
+        }
+      }
     },
     {
       "id": "arts-0046",
@@ -863,17 +1493,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welche Farbe entsteht, wenn man alle Farben aus dem Malkasten mischt?",
-      "answers": [
-        "Weiß",
-        "Ein dunkles Braun bis Schwarz",
-        "Hellgelb",
-        "Regenbogenbunt"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Jede Farbe im Malkasten schluckt einen Teil des Lichts. Mischt man alle, wird fast alles geschluckt, und es entsteht ein dunkles Braun. Bei Licht ist es umgekehrt: Alle Farben zusammen ergeben Weiß.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Farbe entsteht, wenn man alle Farben aus dem Malkasten mischt?",
+          "answers": [
+            "Weiß",
+            "Ein dunkles Braun bis Schwarz",
+            "Hellgelb",
+            "Regenbogenbunt"
+          ],
+          "explanation": "Jede Farbe im Malkasten schluckt einen Teil des Lichts. Mischt man alle, wird fast alles geschluckt, und es entsteht ein dunkles Braun. Bei Licht ist es umgekehrt: Alle Farben zusammen ergeben Weiß."
+        },
+        "en": {
+          "title": "What colour do you get when you mix all the colours in a paint box?",
+          "answers": [
+            "White",
+            "A dark brown, almost black",
+            "Light yellow",
+            "Rainbow-coloured"
+          ],
+          "explanation": "Every paint colour swallows part of the light. If you mix them all, almost all the light is swallowed and you get a dark brown. With light it's the other way round: all colours together make white."
+        }
+      }
     },
     {
       "id": "arts-0047",
@@ -882,17 +1526,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was ist ein Porträt?",
-      "answers": [
-        "Ein Bild ohne Farbe",
-        "Ein Bild von Obst",
-        "Ein Bild eines Menschen",
-        "Ein Bild einer Landschaft"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Ein Porträt zeigt meist das Gesicht oder den Oberkörper eines Menschen. Die Mona Lisa ist das berühmteste Porträt der Welt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Porträt?",
+          "answers": [
+            "Ein Bild ohne Farbe",
+            "Ein Bild von Obst",
+            "Ein Bild eines Menschen",
+            "Ein Bild einer Landschaft"
+          ],
+          "explanation": "Ein Porträt zeigt meist das Gesicht oder den Oberkörper eines Menschen. Die Mona Lisa ist das berühmteste Porträt der Welt."
+        },
+        "en": {
+          "title": "What is a portrait?",
+          "answers": [
+            "A picture without colour",
+            "A picture of fruit",
+            "A picture of a person",
+            "A picture of a landscape"
+          ],
+          "explanation": "A portrait usually shows a person's face or upper body. The Mona Lisa is the most famous portrait in the world."
+        }
+      }
     },
     {
       "id": "arts-0048",
@@ -901,17 +1559,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welches Instrument hat Pfeifen und steht oft in Kirchen?",
-      "answers": [
-        "Die Harfe",
-        "Das Akkordeon",
-        "Die Orgel",
-        "Das Klavier"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Eine große Orgel kann Tausende Pfeifen haben, von wenigen Zentimetern bis über zehn Meter Länge. Sie gilt als größtes Musikinstrument.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Instrument hat Pfeifen und steht oft in Kirchen?",
+          "answers": [
+            "Die Harfe",
+            "Das Akkordeon",
+            "Die Orgel",
+            "Das Klavier"
+          ],
+          "explanation": "Eine große Orgel kann Tausende Pfeifen haben, von wenigen Zentimetern bis über zehn Meter Länge. Sie gilt als größtes Musikinstrument."
+        },
+        "en": {
+          "title": "Which instrument has pipes and is often found in churches?",
+          "answers": [
+            "The harp",
+            "The accordion",
+            "The organ",
+            "The piano"
+          ],
+          "explanation": "A large organ can have thousands of pipes, from a few centimetres to more than ten metres long. It is considered the largest musical instrument."
+        }
+      }
     },
     {
       "id": "arts-0049",
@@ -920,17 +1592,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wie entsteht der Ton bei einer Blockflöte?",
-      "answers": [
-        "Die Luft im Rohr gerät in Schwingung",
-        "Eine Saite im Inneren schwingt",
-        "Ein kleiner Lautsprecher summt",
-        "Das Holz klopft gegen die Lippen"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Der Luftstrom trifft auf eine scharfe Kante und bringt die Luft im Rohr zum Schwingen. Mit den Fingerlöchern ändert man, wie lang die schwingende Luftsäule ist – und damit den Ton.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie entsteht der Ton bei einer Blockflöte?",
+          "answers": [
+            "Die Luft im Rohr gerät in Schwingung",
+            "Eine Saite im Inneren schwingt",
+            "Ein kleiner Lautsprecher summt",
+            "Das Holz klopft gegen die Lippen"
+          ],
+          "explanation": "Der Luftstrom trifft auf eine scharfe Kante und bringt die Luft im Rohr zum Schwingen. Mit den Fingerlöchern ändert man, wie lang die schwingende Luftsäule ist – und damit den Ton."
+        },
+        "en": {
+          "title": "How does a recorder make its sound?",
+          "answers": [
+            "The air inside the tube starts to vibrate",
+            "A string inside vibrates",
+            "A tiny speaker hums",
+            "The wood taps against your lips"
+          ],
+          "explanation": "The stream of air hits a sharp edge and makes the air in the tube vibrate. The finger holes change how long the vibrating column of air is – and so the note."
+        }
+      }
     },
     {
       "id": "arts-0050",
@@ -939,17 +1625,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wie heißt das Instrument mit Tasten und Balg, das man vor dem Bauch trägt?",
-      "answers": [
-        "Akkordeon",
-        "Dudelsack",
-        "Keyboard",
-        "Mundharmonika"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Beim Akkordeon drückt man den Balg zusammen und zieht ihn auseinander. Die Luft bringt kleine Metallzungen zum Klingen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt das Instrument mit Tasten und Balg, das man vor dem Bauch trägt?",
+          "answers": [
+            "Akkordeon",
+            "Dudelsack",
+            "Keyboard",
+            "Mundharmonika"
+          ],
+          "explanation": "Beim Akkordeon drückt man den Balg zusammen und zieht ihn auseinander. Die Luft bringt kleine Metallzungen zum Klingen."
+        },
+        "en": {
+          "title": "What is the instrument with keys and bellows that you wear in front of your tummy called?",
+          "answers": [
+            "Accordion",
+            "Bagpipes",
+            "Keyboard",
+            "Harmonica"
+          ],
+          "explanation": "With an accordion you squeeze the bellows together and pull them apart. The air makes small metal reeds sound."
+        }
+      }
     },
     {
       "id": "arts-0051",
@@ -958,17 +1658,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Welches Instrument gibt im Orchester meist den Ton zum Stimmen an?",
-      "answers": [
-        "Die Pauke",
-        "Die Geige",
-        "Die Trompete",
-        "Die Oboe"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Vor dem Konzert spielt die Oboe ein langes A, und alle anderen stimmen ihre Instrumente danach. Ihr klarer Ton ist gut zu hören und lässt sich kaum verstellen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Instrument gibt im Orchester meist den Ton zum Stimmen an?",
+          "answers": [
+            "Die Pauke",
+            "Die Geige",
+            "Die Trompete",
+            "Die Oboe"
+          ],
+          "explanation": "Vor dem Konzert spielt die Oboe ein langes A, und alle anderen stimmen ihre Instrumente danach. Ihr klarer Ton ist gut zu hören und lässt sich kaum verstellen."
+        },
+        "en": {
+          "title": "Which instrument usually gives the tuning note in an orchestra?",
+          "answers": [
+            "The timpani",
+            "The violin",
+            "The trumpet",
+            "The oboe"
+          ],
+          "explanation": "Before a concert the oboe plays a long A, and everyone else tunes their instruments to it. Its clear sound is easy to hear and hardly goes out of tune."
+        }
+      }
     },
     {
       "id": "arts-0052",
@@ -977,17 +1691,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was ist ein Xylophon?",
-      "answers": [
-        "Ein Tasteninstrument mit Pfeifen",
-        "Ein Blasinstrument aus Metall",
-        "Ein Saiteninstrument",
-        "Ein Schlaginstrument mit Platten aus Holz"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Beim Xylophon schlägt man mit Klöppeln auf unterschiedlich lange Holzplatten. Kurze Platten klingen hoch, lange tief.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Xylophon?",
+          "answers": [
+            "Ein Tasteninstrument mit Pfeifen",
+            "Ein Blasinstrument aus Metall",
+            "Ein Saiteninstrument",
+            "Ein Schlaginstrument mit Platten aus Holz"
+          ],
+          "explanation": "Beim Xylophon schlägt man mit Klöppeln auf unterschiedlich lange Holzplatten. Kurze Platten klingen hoch, lange tief."
+        },
+        "en": {
+          "title": "What is a xylophone?",
+          "answers": [
+            "A keyboard instrument with pipes",
+            "A metal wind instrument",
+            "A string instrument",
+            "A percussion instrument with wooden bars"
+          ],
+          "explanation": "On a xylophone you strike wooden bars of different lengths with mallets. Short bars sound high, long ones low."
+        }
+      }
     },
     {
       "id": "arts-0053",
@@ -996,17 +1724,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie heißt ein großes Werk für Orchester mit mehreren Sätzen?",
-      "answers": [
-        "Rap",
-        "Sinfonie",
-        "Kanon",
-        "Schlager"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Eine Sinfonie hat meist vier Sätze mit unterschiedlichem Tempo. Berühmte Sinfonien schrieben zum Beispiel Mozart und Beethoven.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt ein großes Werk für Orchester mit mehreren Sätzen?",
+          "answers": [
+            "Rap",
+            "Sinfonie",
+            "Kanon",
+            "Schlager"
+          ],
+          "explanation": "Eine Sinfonie hat meist vier Sätze mit unterschiedlichem Tempo. Berühmte Sinfonien schrieben zum Beispiel Mozart und Beethoven."
+        },
+        "en": {
+          "title": "What is a big work for orchestra with several movements called?",
+          "answers": [
+            "Rap",
+            "Symphony",
+            "Round",
+            "Pop song"
+          ],
+          "explanation": "A symphony usually has four movements at different speeds. Mozart and Beethoven, for example, wrote famous symphonies."
+        }
+      }
     },
     {
       "id": "arts-0054",
@@ -1015,17 +1757,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was ist eine Oper?",
-      "answers": [
-        "Ein Konzert nur mit Trommeln",
-        "Ein Theaterstück, in dem gesungen wird",
-        "Ein Tanz ohne Musik",
-        "Ein Gemälde in einer Kirche"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "In der Oper erzählen Sängerinnen und Sänger eine Geschichte, begleitet von einem Orchester. „Die Zauberflöte“ von Mozart ist eine der bekanntesten.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist eine Oper?",
+          "answers": [
+            "Ein Konzert nur mit Trommeln",
+            "Ein Theaterstück, in dem gesungen wird",
+            "Ein Tanz ohne Musik",
+            "Ein Gemälde in einer Kirche"
+          ],
+          "explanation": "In der Oper erzählen Sängerinnen und Sänger eine Geschichte, begleitet von einem Orchester. „Die Zauberflöte“ von Mozart ist eine der bekanntesten."
+        },
+        "en": {
+          "title": "What is an opera?",
+          "answers": [
+            "A concert with only drums",
+            "A play in which the performers sing",
+            "A dance without music",
+            "A painting in a church"
+          ],
+          "explanation": "In an opera, singers tell a story accompanied by an orchestra. Mozart's “The Magic Flute” is one of the best known."
+        }
+      }
     },
     {
       "id": "arts-0055",
@@ -1034,17 +1790,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was gibt das Tempo in der Musik an?",
-      "answers": [
-        "Welches Instrument spielt",
-        "Wie schnell gespielt wird",
-        "Wie laut gespielt wird",
-        "Wie hoch ein Ton ist"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Das Tempo wird oft in Schlägen pro Minute angegeben oder mit italienischen Wörtern wie „allegro“ für schnell und „adagio“ für langsam.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was gibt das Tempo in der Musik an?",
+          "answers": [
+            "Welches Instrument spielt",
+            "Wie schnell gespielt wird",
+            "Wie laut gespielt wird",
+            "Wie hoch ein Ton ist"
+          ],
+          "explanation": "Das Tempo wird oft in Schlägen pro Minute angegeben oder mit italienischen Wörtern wie „allegro“ für schnell und „adagio“ für langsam."
+        },
+        "en": {
+          "title": "What does the tempo tell you in music?",
+          "answers": [
+            "Which instrument is playing",
+            "How fast to play",
+            "How loud to play",
+            "How high a note is"
+          ],
+          "explanation": "Tempo is often given in beats per minute or with Italian words like “allegro” for fast and “adagio” for slow."
+        }
+      }
     },
     {
       "id": "arts-0056",
@@ -1053,17 +1823,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welche Note dauert in einem Vierertakt einen ganzen Takt lang?",
-      "answers": [
-        "Die ganze Note",
-        "Die Achtelnote",
-        "Die halbe Note",
-        "Die Viertelnote"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Eine ganze Note dauert vier Schläge, eine halbe zwei und eine Viertelnote einen. Die ganze Note ist ein leerer Kreis ohne Hals.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Note dauert in einem Vierertakt einen ganzen Takt lang?",
+          "answers": [
+            "Die ganze Note",
+            "Die Achtelnote",
+            "Die halbe Note",
+            "Die Viertelnote"
+          ],
+          "explanation": "Eine ganze Note dauert vier Schläge, eine halbe zwei und eine Viertelnote einen. Die ganze Note ist ein leerer Kreis ohne Hals."
+        },
+        "en": {
+          "title": "In four-four time, which note lasts a whole bar?",
+          "answers": [
+            "The whole note",
+            "The eighth note",
+            "The half note",
+            "The quarter note"
+          ],
+          "explanation": "A whole note lasts four beats, a half note two and a quarter note one. The whole note is an empty circle without a stem."
+        }
+      }
     },
     {
       "id": "arts-0057",
@@ -1072,17 +1856,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welcher Maler ist berühmt für seine Bilder von Seerosen?",
-      "answers": [
-        "Vincent van Gogh",
-        "Pablo Picasso",
-        "Albrecht Dürer",
-        "Claude Monet"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Franzose Claude Monet legte in seinem Garten einen Teich an und malte die Seerosen darin über 200 Mal, bei jedem Licht anders.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Maler ist berühmt für seine Bilder von Seerosen?",
+          "answers": [
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Albrecht Dürer",
+            "Claude Monet"
+          ],
+          "explanation": "Der Franzose Claude Monet legte in seinem Garten einen Teich an und malte die Seerosen darin über 200 Mal, bei jedem Licht anders."
+        },
+        "en": {
+          "title": "Which painter is famous for his pictures of water lilies?",
+          "answers": [
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Albrecht Dürer",
+            "Claude Monet"
+          ],
+          "explanation": "The Frenchman Claude Monet made a pond in his garden and painted the water lilies in it more than 200 times, each time in different light."
+        }
+      }
     },
     {
       "id": "arts-0058",
@@ -1091,17 +1889,31 @@
       "order": 8,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wer schrieb „Das doppelte Lottchen“ und „Emil und die Detektive“?",
-      "answers": [
-        "Otfried Preußler",
-        "Michael Ende",
-        "Astrid Lindgren",
-        "Erich Kästner"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Erich Kästner war einer der beliebtesten deutschen Kinderbuchautoren. Viele seiner Bücher wurden mehrfach verfilmt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer schrieb „Das doppelte Lottchen“ und „Emil und die Detektive“?",
+          "answers": [
+            "Otfried Preußler",
+            "Michael Ende",
+            "Astrid Lindgren",
+            "Erich Kästner"
+          ],
+          "explanation": "Erich Kästner war einer der beliebtesten deutschen Kinderbuchautoren. Viele seiner Bücher wurden mehrfach verfilmt."
+        },
+        "en": {
+          "title": "Who wrote “Lottie and Lisa” and “Emil and the Detectives”?",
+          "answers": [
+            "Otfried Preußler",
+            "Michael Ende",
+            "Astrid Lindgren",
+            "Erich Kästner"
+          ],
+          "explanation": "Erich Kästner was one of the most popular German children's authors. Many of his books have been made into films several times – “Lottie and Lisa”, for example, as “The Parent Trap”."
+        }
+      }
     },
     {
       "id": "arts-0059",
@@ -1110,17 +1922,31 @@
       "order": 9,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Welcher Komponist lebte um 1700 und schrieb viel Musik für die Orgel?",
-      "answers": [
-        "Frédéric Chopin",
-        "Johann Sebastian Bach",
-        "Ludwig van Beethoven",
-        "Elvis Presley"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Johann Sebastian Bach arbeitete lange als Kantor in Leipzig. Er war selbst ein großartiger Organist und hatte 20 Kinder.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Komponist lebte um 1700 und schrieb viel Musik für die Orgel?",
+          "answers": [
+            "Frédéric Chopin",
+            "Johann Sebastian Bach",
+            "Ludwig van Beethoven",
+            "Elvis Presley"
+          ],
+          "explanation": "Johann Sebastian Bach arbeitete lange als Kantor in Leipzig. Er war selbst ein großartiger Organist und hatte 20 Kinder."
+        },
+        "en": {
+          "title": "Which composer lived around 1700 and wrote a lot of music for the organ?",
+          "answers": [
+            "Frédéric Chopin",
+            "Johann Sebastian Bach",
+            "Ludwig van Beethoven",
+            "Elvis Presley"
+          ],
+          "explanation": "Johann Sebastian Bach worked for a long time as cantor in Leipzig. He was a brilliant organist himself and had 20 children."
+        }
+      }
     },
     {
       "id": "arts-0060",
@@ -1129,17 +1955,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Welchen Spitznamen hatte der Sänger Elvis Presley?",
-      "answers": [
-        "King of Rock ’n’ Roll",
-        "Prinz der Oper",
-        "König des Walzers",
-        "Kaiser der Klassik"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Elvis Presley wurde in den 1950er-Jahren weltberühmt. Mit seiner Musik und seinem Hüftschwung begeisterte er Millionen Fans.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welchen Spitznamen hatte der Sänger Elvis Presley?",
+          "answers": [
+            "King of Rock ’n’ Roll",
+            "Prinz der Oper",
+            "König des Walzers",
+            "Kaiser der Klassik"
+          ],
+          "explanation": "Elvis Presley wurde in den 1950er-Jahren weltberühmt. Mit seiner Musik und seinem Hüftschwung begeisterte er Millionen Fans."
+        },
+        "en": {
+          "title": "What was the singer Elvis Presley's nickname?",
+          "answers": [
+            "King of Rock ’n’ Roll",
+            "Prince of Opera",
+            "King of the Waltz",
+            "Emperor of Classical Music"
+          ],
+          "explanation": "Elvis Presley became world-famous in the 1950s. He thrilled millions of fans with his music and his swinging hips."
+        }
+      }
     }
   ]
 }

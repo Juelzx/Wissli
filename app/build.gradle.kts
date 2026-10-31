@@ -53,6 +53,10 @@ android {
         compose = true
         buildConfig = true
     }
+    // Lists the app's languages for the system's per-app language settings (Android 13+).
+    androidResources {
+        generateLocaleConfig = true
+    }
 
     // Lets JVM unit tests use Android stubs such as a placeholder Context without Robolectric.
     testOptions {
@@ -82,6 +86,7 @@ ktlint {
 dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.appcompat)
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)

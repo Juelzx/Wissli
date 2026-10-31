@@ -11,5 +11,5 @@ val learnModule =
     module {
         viewModelOf(::LearnViewModel)
         viewModel { (categoryId: String) -> CategoryViewModel(categoryId, get(), get()) }
-        viewModel { (categoryId: String, level: Int) -> LevelViewModel(categoryId, level, get(), get()) }
+        viewModel { (categoryId: String, level: Int) -> LevelViewModel(categoryId, level, get(), get(), get()) }
     }

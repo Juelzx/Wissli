@@ -8,17 +8,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wer baute die Pyramiden von Gizeh?",
-      "answers": [
-        "Römische Soldaten",
-        "Griechische Baumeister",
-        "Ausschließlich Sklaven",
-        "Ägyptische Arbeiter, die dafür versorgt wurden"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Archäologen haben Arbeiterdörfer mit Bäckereien und Gräbern der Bauleute gefunden. Die Pyramiden sind rund 4.500 Jahre alt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer baute die Pyramiden von Gizeh?",
+          "answers": [
+            "Römische Soldaten",
+            "Griechische Baumeister",
+            "Ausschließlich Sklaven",
+            "Ägyptische Arbeiter, die dafür versorgt wurden"
+          ],
+          "explanation": "Archäologen haben Arbeiterdörfer mit Bäckereien und Gräbern der Bauleute gefunden. Die Pyramiden sind rund 4.500 Jahre alt."
+        },
+        "en": {
+          "title": "Who built the pyramids of Giza?",
+          "answers": [
+            "Roman soldiers",
+            "Greek master builders",
+            "Only slaves",
+            "Egyptian workers who were fed and housed for it"
+          ],
+          "explanation": "Archaeologists have found workers' villages with bakeries and the graves of the builders. The pyramids are about 4,500 years old."
+        }
+      }
     },
     {
       "id": "history-0002",
@@ -27,17 +41,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wonach suchte Kolumbus, als er 1492 Amerika erreichte?",
-      "answers": [
-        "Nach einem neuen Kontinent",
-        "Nach einem Seeweg nach Indien",
-        "Nach dem Nordpol",
-        "Nach dem Goldland Eldorado"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Kolumbus wollte Asien erreichen, indem er nach Westen segelte. Er hielt die Inseln für Indien, daher der Name „Indianer“.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wonach suchte Kolumbus, als er 1492 Amerika erreichte?",
+          "answers": [
+            "Nach einem neuen Kontinent",
+            "Nach einem Seeweg nach Indien",
+            "Nach dem Nordpol",
+            "Nach dem Goldland Eldorado"
+          ],
+          "explanation": "Kolumbus wollte Asien erreichen, indem er nach Westen segelte. Er hielt die Inseln für Indien, daher der Name „Indianer“."
+        },
+        "en": {
+          "title": "What was Columbus looking for when he reached America in 1492?",
+          "answers": [
+            "A new continent",
+            "A sea route to India",
+            "The North Pole",
+            "Eldorado, the land of gold"
+          ],
+          "explanation": "Columbus wanted to reach Asia by sailing west. He thought the islands were India – that's why the people there were wrongly called “Indians”."
+        }
+      }
     },
     {
       "id": "history-0003",
@@ -46,17 +74,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wo wohnten viele Ritter im Mittelalter?",
-      "answers": [
-        "In Hochhäusern",
-        "In Burgen",
-        "In Pyramiden",
-        "In Iglus"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Burgen waren Wohnsitz und Festung zugleich. Dicke Mauern, Wassergräben und Zugbrücken schützten vor Angreifern.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wo wohnten viele Ritter im Mittelalter?",
+          "answers": [
+            "In Hochhäusern",
+            "In Burgen",
+            "In Pyramiden",
+            "In Iglus"
+          ],
+          "explanation": "Burgen waren Wohnsitz und Festung zugleich. Dicke Mauern, Wassergräben und Zugbrücken schützten vor Angreifern."
+        },
+        "en": {
+          "title": "Where did many knights live in the Middle Ages?",
+          "answers": [
+            "In skyscrapers",
+            "In castles",
+            "In pyramids",
+            "In igloos"
+          ],
+          "explanation": "Castles were home and fortress at the same time. Thick walls, moats and drawbridges protected them from attackers."
+        }
+      }
     },
     {
       "id": "history-0004",
@@ -65,17 +107,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie entstanden Bücher, bevor es den Buchdruck gab?",
-      "answers": [
-        "Sie wurden von Hand abgeschrieben",
-        "Mit Stempeln aus Kartoffeln",
-        "Mit der Schreibmaschine",
-        "Man malte nur Bilder"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "In Klöstern schrieben Mönche Bücher Seite für Seite ab. Für eine einzige Bibel brauchte ein Schreiber oft Jahre, deshalb waren Bücher sehr wertvoll.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie entstanden Bücher, bevor es den Buchdruck gab?",
+          "answers": [
+            "Sie wurden von Hand abgeschrieben",
+            "Mit Stempeln aus Kartoffeln",
+            "Mit der Schreibmaschine",
+            "Man malte nur Bilder"
+          ],
+          "explanation": "In Klöstern schrieben Mönche Bücher Seite für Seite ab. Für eine einzige Bibel brauchte ein Schreiber oft Jahre, deshalb waren Bücher sehr wertvoll."
+        },
+        "en": {
+          "title": "How were books made before printing existed?",
+          "answers": [
+            "They were copied out by hand",
+            "With potato stamps",
+            "With a typewriter",
+            "People only painted pictures"
+          ],
+          "explanation": "In monasteries, monks copied books page by page. One single Bible often took a scribe years, so books were very valuable."
+        }
+      }
     },
     {
       "id": "history-0005",
@@ -84,17 +140,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was erfand Johannes Gutenberg um 1450?",
-      "answers": [
-        "Das Papier",
-        "Den Bleistift",
-        "Die Brille",
-        "Den Buchdruck mit beweglichen Buchstaben"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Gutenberg goss einzelne Buchstaben aus Metall, die man zu Seiten zusammensetzen und immer wieder verwenden konnte. So ließen sich Bücher viel schneller und billiger herstellen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was erfand Johannes Gutenberg um 1450?",
+          "answers": [
+            "Das Papier",
+            "Den Bleistift",
+            "Die Brille",
+            "Den Buchdruck mit beweglichen Buchstaben"
+          ],
+          "explanation": "Gutenberg goss einzelne Buchstaben aus Metall, die man zu Seiten zusammensetzen und immer wieder verwenden konnte. So ließen sich Bücher viel schneller und billiger herstellen."
+        },
+        "en": {
+          "title": "What did Johannes Gutenberg invent around 1450?",
+          "answers": [
+            "Paper",
+            "The pencil",
+            "Glasses",
+            "Printing with movable letters"
+          ],
+          "explanation": "Gutenberg cast single letters from metal that could be put together into pages and used again and again. That made books much faster and cheaper to produce."
+        }
+      }
     },
     {
       "id": "history-0006",
@@ -103,17 +173,31 @@
       "order": 11,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Welche Sprache sprachen die alten Römer?",
-      "answers": [
-        "Griechisch",
-        "Italienisch",
-        "Spanisch",
-        "Latein"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Aus dem Latein der Römer entstanden später Sprachen wie Italienisch, Französisch und Spanisch. Auch viele deutsche Wörter stammen daher, etwa „Fenster“ von „fenestra“.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Sprache sprachen die alten Römer?",
+          "answers": [
+            "Griechisch",
+            "Italienisch",
+            "Spanisch",
+            "Latein"
+          ],
+          "explanation": "Aus dem Latein der Römer entstanden später Sprachen wie Italienisch, Französisch und Spanisch. Auch viele deutsche Wörter stammen daher, etwa „Fenster“ von „fenestra“."
+        },
+        "en": {
+          "title": "Which language did the ancient Romans speak?",
+          "answers": [
+            "Greek",
+            "Italian",
+            "Spanish",
+            "Latin"
+          ],
+          "explanation": "The Romans' Latin later turned into languages such as Italian, French and Spanish. Many English words come from it too, like “aquarium” from “aqua”, water."
+        }
+      }
     },
     {
       "id": "history-0007",
@@ -122,17 +206,31 @@
       "order": 12,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wer waren die Wikinger?",
-      "answers": [
-        "Seefahrer aus Skandinavien",
-        "Ein Volk aus Afrika",
-        "Ritter aus Frankreich",
-        "Römische Soldaten"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Die Wikinger kamen aus dem heutigen Norwegen, Schweden und Dänemark. Mit ihren schnellen Schiffen segelten sie bis nach Nordamerika und handelten, siedelten oder plünderten. Hörnerhelme trugen sie übrigens nicht.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer waren die Wikinger?",
+          "answers": [
+            "Seefahrer aus Skandinavien",
+            "Ein Volk aus Afrika",
+            "Ritter aus Frankreich",
+            "Römische Soldaten"
+          ],
+          "explanation": "Die Wikinger kamen aus dem heutigen Norwegen, Schweden und Dänemark. Mit ihren schnellen Schiffen segelten sie bis nach Nordamerika und handelten, siedelten oder plünderten. Hörnerhelme trugen sie übrigens nicht."
+        },
+        "en": {
+          "title": "Who were the Vikings?",
+          "answers": [
+            "Seafarers from Scandinavia",
+            "A people from Africa",
+            "Knights from France",
+            "Roman soldiers"
+          ],
+          "explanation": "The Vikings came from what is now Norway, Sweden and Denmark. In their fast ships they sailed as far as North America to trade, settle or raid. By the way, they did not wear horned helmets."
+        }
+      }
     },
     {
       "id": "history-0008",
@@ -141,17 +239,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum machten die alten Ägypter Mumien?",
-      "answers": [
-        "Um Platz zu sparen",
-        "Um Krankheiten zu heilen",
-        "Der Körper sollte für das Leben nach dem Tod erhalten bleiben",
-        "Als Vogelscheuchen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Die Ägypter glaubten, die Seele brauche den Körper auch nach dem Tod. Deshalb entnahmen sie die inneren Organe, trockneten den Körper mit Salz und wickelten ihn in Leinenbinden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum machten die alten Ägypter Mumien?",
+          "answers": [
+            "Um Platz zu sparen",
+            "Um Krankheiten zu heilen",
+            "Der Körper sollte für das Leben nach dem Tod erhalten bleiben",
+            "Als Vogelscheuchen"
+          ],
+          "explanation": "Die Ägypter glaubten, die Seele brauche den Körper auch nach dem Tod. Deshalb entnahmen sie die inneren Organe, trockneten den Körper mit Salz und wickelten ihn in Leinenbinden."
+        },
+        "en": {
+          "title": "Why did the ancient Egyptians make mummies?",
+          "answers": [
+            "To save space",
+            "To cure diseases",
+            "The body was to be kept for the afterlife",
+            "As scarecrows"
+          ],
+          "explanation": "The Egyptians believed the soul still needed the body after death. So they removed the inner organs, dried the body with salt and wrapped it in linen bandages."
+        }
+      }
     },
     {
       "id": "history-0009",
@@ -160,17 +272,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie lange dauerte es, den Kölner Dom fertigzubauen?",
-      "answers": [
-        "Etwa 6 Jahre",
-        "Etwa 6.000 Jahre",
-        "Über 600 Jahre",
-        "Etwa 60 Jahre"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Bau begann 1248, stand dann aber jahrhundertelang still. Erst 1880 wurde der Dom fertig, über 600 Jahre nach dem ersten Stein.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie lange dauerte es, den Kölner Dom fertigzubauen?",
+          "answers": [
+            "Etwa 6 Jahre",
+            "Etwa 6.000 Jahre",
+            "Über 600 Jahre",
+            "Etwa 60 Jahre"
+          ],
+          "explanation": "Der Bau begann 1248, stand dann aber jahrhundertelang still. Erst 1880 wurde der Dom fertig, über 600 Jahre nach dem ersten Stein."
+        },
+        "en": {
+          "title": "How long did it take to finish Cologne Cathedral?",
+          "answers": [
+            "About 6 years",
+            "About 6,000 years",
+            "More than 600 years",
+            "About 60 years"
+          ],
+          "explanation": "Building started in 1248 but then stood still for centuries. The cathedral was only finished in 1880, more than 600 years after the first stone."
+        }
+      }
     },
     {
       "id": "history-0010",
@@ -179,17 +305,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie bezahlte man, bevor es Geld gab?",
-      "answers": [
-        "Man tauschte Waren gegeneinander",
-        "Mit Kreditkarten",
-        "Gar nicht, alles war umsonst",
-        "Mit Briefmarken"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Wer Getreide hatte und Werkzeug brauchte, tauschte. Weil das umständlich war, nutzte man später Dinge, die alle haben wollten, etwa Muscheln, Salz oder Metall, und schließlich Münzen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie bezahlte man, bevor es Geld gab?",
+          "answers": [
+            "Man tauschte Waren gegeneinander",
+            "Mit Kreditkarten",
+            "Gar nicht, alles war umsonst",
+            "Mit Briefmarken"
+          ],
+          "explanation": "Wer Getreide hatte und Werkzeug brauchte, tauschte. Weil das umständlich war, nutzte man später Dinge, die alle haben wollten, etwa Muscheln, Salz oder Metall, und schließlich Münzen."
+        },
+        "en": {
+          "title": "How did people pay before there was money?",
+          "answers": [
+            "They swapped goods",
+            "With credit cards",
+            "They didn't – everything was free",
+            "With stamps"
+          ],
+          "explanation": "If you had grain and needed tools, you swapped. Because that was awkward, people later used things everybody wanted, such as shells, salt or metal, and finally coins."
+        }
+      }
     },
     {
       "id": "history-0011",
@@ -198,17 +338,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wie machte man Essen früher ohne Kühlschrank haltbar?",
-      "answers": [
-        "Durch Salzen, Räuchern und Trocknen",
-        "Indem man es täglich wusch",
-        "Mit Strom aus Wassermühlen",
-        "Gar nicht, alles wurde sofort gegessen"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Salz und Rauch entziehen dem Essen Wasser und hemmen Keime. So hielten Schinken, Fisch und Trockenobst monatelang. Später kamen Eiskeller dazu, in denen im Winter gesammeltes Eis lag.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie machte man Essen früher ohne Kühlschrank haltbar?",
+          "answers": [
+            "Durch Salzen, Räuchern und Trocknen",
+            "Indem man es täglich wusch",
+            "Mit Strom aus Wassermühlen",
+            "Gar nicht, alles wurde sofort gegessen"
+          ],
+          "explanation": "Salz und Rauch entziehen dem Essen Wasser und hemmen Keime. So hielten Schinken, Fisch und Trockenobst monatelang. Später kamen Eiskeller dazu, in denen im Winter gesammeltes Eis lag."
+        },
+        "en": {
+          "title": "How did people make food last without a fridge?",
+          "answers": [
+            "By salting, smoking and drying it",
+            "By washing it every day",
+            "With electricity from water mills",
+            "They didn't – everything was eaten straight away"
+          ],
+          "explanation": "Salt and smoke draw water out of food and slow down germs. That way ham, fish and dried fruit lasted for months. Later there were ice cellars, filled with ice collected in winter."
+        }
+      }
     },
     {
       "id": "history-0012",
@@ -217,17 +371,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wozu nutzte man früher Brieftauben?",
-      "answers": [
-        "Als Wachtiere",
-        "Als Wecker",
-        "Um Nachrichten zu überbringen",
-        "Zur Wettervorhersage"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Brieftauben finden über weite Entfernungen zu ihrem Heimatschlag zurück. Man nahm sie mit, band ihnen eine kleine Nachricht ans Bein und ließ sie fliegen. Noch im Ersten Weltkrieg wurden sie eingesetzt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu nutzte man früher Brieftauben?",
+          "answers": [
+            "Als Wachtiere",
+            "Als Wecker",
+            "Um Nachrichten zu überbringen",
+            "Zur Wettervorhersage"
+          ],
+          "explanation": "Brieftauben finden über weite Entfernungen zu ihrem Heimatschlag zurück. Man nahm sie mit, band ihnen eine kleine Nachricht ans Bein und ließ sie fliegen. Noch im Ersten Weltkrieg wurden sie eingesetzt."
+        },
+        "en": {
+          "title": "What were carrier pigeons used for?",
+          "answers": [
+            "As guard animals",
+            "As alarm clocks",
+            "Delivering messages",
+            "Forecasting the weather"
+          ],
+          "explanation": "Carrier pigeons find their way home over long distances. People took them along, tied a small message to a leg and let them fly. They were still used in the First World War."
+        }
+      }
     },
     {
       "id": "history-0013",
@@ -236,17 +404,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Was waren die Olympischen Spiele der Antike?",
-      "answers": [
-        "Gladiatorenkämpfe in Rom",
-        "Sportwettkämpfe in Griechenland zu Ehren des Zeus",
-        "Ein ägyptisches Erntefest",
-        "Ein römisches Theaterfest"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Ab 776 vor Christus trafen sich Athleten in Olympia, um zu Ehren des Gottes Zeus im Laufen, Ringen und Wagenrennen anzutreten. Die modernen Spiele gibt es erst seit 1896.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was waren die Olympischen Spiele der Antike?",
+          "answers": [
+            "Gladiatorenkämpfe in Rom",
+            "Sportwettkämpfe in Griechenland zu Ehren des Zeus",
+            "Ein ägyptisches Erntefest",
+            "Ein römisches Theaterfest"
+          ],
+          "explanation": "Ab 776 vor Christus trafen sich Athleten in Olympia, um zu Ehren des Gottes Zeus im Laufen, Ringen und Wagenrennen anzutreten. Die modernen Spiele gibt es erst seit 1896."
+        },
+        "en": {
+          "title": "What were the Olympic Games of ancient times?",
+          "answers": [
+            "Gladiator fights in Rome",
+            "Sports contests in Greece in honour of Zeus",
+            "An Egyptian harvest festival",
+            "A Roman theatre festival"
+          ],
+          "explanation": "From 776 BC, athletes met in Olympia to compete in running, wrestling and chariot racing in honour of the god Zeus. The modern Games have only existed since 1896."
+        }
+      }
     },
     {
       "id": "history-0014",
@@ -255,17 +437,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wozu wurde die Chinesische Mauer gebaut?",
-      "answers": [
-        "Als Straße für Händler",
-        "Gegen Überschwemmungen",
-        "Als Grenze zu Indien",
-        "Zum Schutz vor Angriffen aus dem Norden"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Über Jahrhunderte ließen verschiedene Kaiser Mauern bauen, um Reitervölker aus dem Norden abzuhalten. Dass man die Mauer vom Mond aus sehen kann, stimmt übrigens nicht.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu wurde die Chinesische Mauer gebaut?",
+          "answers": [
+            "Als Straße für Händler",
+            "Gegen Überschwemmungen",
+            "Als Grenze zu Indien",
+            "Zum Schutz vor Angriffen aus dem Norden"
+          ],
+          "explanation": "Über Jahrhunderte ließen verschiedene Kaiser Mauern bauen, um Reitervölker aus dem Norden abzuhalten. Dass man die Mauer vom Mond aus sehen kann, stimmt übrigens nicht."
+        },
+        "en": {
+          "title": "What was the Great Wall of China built for?",
+          "answers": [
+            "As a road for traders",
+            "Against floods",
+            "As a border with India",
+            "To protect against attacks from the north"
+          ],
+          "explanation": "Over centuries, different emperors had walls built to keep out horse-riding peoples from the north. By the way, it isn't true that you can see the wall from the moon."
+        }
+      }
     },
     {
       "id": "history-0015",
@@ -274,17 +470,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wer erreichte als Erster den Südpol?",
-      "answers": [
-        "Robert Scott",
-        "Roald Amundsen",
-        "Neil Armstrong",
-        "Christoph Kolumbus"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Der Norweger Roald Amundsen erreichte den Südpol im Dezember 1911. Der Brite Robert Scott kam gut einen Monat später an und überlebte den Rückweg nicht.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer erreichte als Erster den Südpol?",
+          "answers": [
+            "Robert Scott",
+            "Roald Amundsen",
+            "Neil Armstrong",
+            "Christoph Kolumbus"
+          ],
+          "explanation": "Der Norweger Roald Amundsen erreichte den Südpol im Dezember 1911. Der Brite Robert Scott kam gut einen Monat später an und überlebte den Rückweg nicht."
+        },
+        "en": {
+          "title": "Who was the first to reach the South Pole?",
+          "answers": [
+            "Robert Scott",
+            "Roald Amundsen",
+            "Neil Armstrong",
+            "Christopher Columbus"
+          ],
+          "explanation": "The Norwegian Roald Amundsen reached the South Pole in December 1911. The Briton Robert Scott arrived just over a month later and did not survive the journey back."
+        }
+      }
     },
     {
       "id": "history-0016",
@@ -293,17 +503,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wofür nutzten Menschen in der Steinzeit Feuer?",
-      "answers": [
-        "Um Eis zu machen",
-        "Nur für Feste",
-        "Zum Wärmen, Kochen und zum Schutz vor Tieren",
-        "Gar nicht, Feuer kannten sie nicht"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Feuer spendete Wärme und Licht, hielt wilde Tiere fern und machte Fleisch durch Garen bekömmlicher. Mit Feuerstein und Pyrit konnten Steinzeitmenschen selbst Funken schlagen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wofür nutzten Menschen in der Steinzeit Feuer?",
+          "answers": [
+            "Um Eis zu machen",
+            "Nur für Feste",
+            "Zum Wärmen, Kochen und zum Schutz vor Tieren",
+            "Gar nicht, Feuer kannten sie nicht"
+          ],
+          "explanation": "Feuer spendete Wärme und Licht, hielt wilde Tiere fern und machte Fleisch durch Garen bekömmlicher. Mit Feuerstein und Pyrit konnten Steinzeitmenschen selbst Funken schlagen."
+        },
+        "en": {
+          "title": "What did Stone Age people use fire for?",
+          "answers": [
+            "To make ice",
+            "Only for parties",
+            "Warmth, cooking and protection from animals",
+            "Nothing – they didn't know fire"
+          ],
+          "explanation": "Fire gave warmth and light, kept wild animals away and made meat easier to digest by cooking it. With flint and pyrite, Stone Age people could strike sparks themselves."
+        }
+      }
     },
     {
       "id": "history-0017",
@@ -312,17 +536,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wie maß man die Zeit, bevor es Räderuhren gab?",
-      "answers": [
-        "Am Wachstum von Pflanzen",
-        "Mit Handys",
-        "Indem man Herzschläge zählte",
-        "Mit Sonnenuhren, Wasseruhren und Sanduhren"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Eine Sonnenuhr zeigt die Zeit über den wandernden Schatten eines Stabs. Bei Wolken oder nachts halfen Wasseruhren, bei denen Wasser gleichmäßig aus einem Gefäß tropfte, und später Sanduhren.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie maß man die Zeit, bevor es Räderuhren gab?",
+          "answers": [
+            "Am Wachstum von Pflanzen",
+            "Mit Handys",
+            "Indem man Herzschläge zählte",
+            "Mit Sonnenuhren, Wasseruhren und Sanduhren"
+          ],
+          "explanation": "Eine Sonnenuhr zeigt die Zeit über den wandernden Schatten eines Stabs. Bei Wolken oder nachts halfen Wasseruhren, bei denen Wasser gleichmäßig aus einem Gefäß tropfte, und später Sanduhren."
+        },
+        "en": {
+          "title": "How did people measure time before there were mechanical clocks?",
+          "answers": [
+            "By how plants grew",
+            "With mobile phones",
+            "By counting heartbeats",
+            "With sundials, water clocks and hourglasses"
+          ],
+          "explanation": "A sundial shows the time with the moving shadow of a stick. On cloudy days or at night, water clocks helped, where water dripped steadily from a container – and later hourglasses."
+        }
+      }
     },
     {
       "id": "history-0018",
@@ -331,17 +569,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Worauf schrieben die alten Ägypter?",
-      "answers": [
-        "Auf Papier aus Holz",
-        "Auf Glasplatten",
-        "Auf Plastikfolie",
-        "Auf Papyrus aus einer Schilfpflanze"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Aus dem Mark der Papyruspflanze, die am Nil wuchs, schnitten die Ägypter dünne Streifen, legten sie kreuzweise übereinander und pressten sie. Vom Wort Papyrus stammt unser Wort Papier.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Worauf schrieben die alten Ägypter?",
+          "answers": [
+            "Auf Papier aus Holz",
+            "Auf Glasplatten",
+            "Auf Plastikfolie",
+            "Auf Papyrus aus einer Schilfpflanze"
+          ],
+          "explanation": "Aus dem Mark der Papyruspflanze, die am Nil wuchs, schnitten die Ägypter dünne Streifen, legten sie kreuzweise übereinander und pressten sie. Vom Wort Papyrus stammt unser Wort Papier."
+        },
+        "en": {
+          "title": "What did the ancient Egyptians write on?",
+          "answers": [
+            "Paper made from wood",
+            "Glass plates",
+            "Plastic film",
+            "Papyrus made from a reed plant"
+          ],
+          "explanation": "From the pith of the papyrus plant that grew along the Nile, the Egyptians cut thin strips, laid them crosswise and pressed them. Our word “paper” comes from papyrus."
+        }
+      }
     },
     {
       "id": "history-0019",
@@ -350,17 +602,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wo wuschen sich viele Menschen im alten Rom?",
-      "answers": [
-        "In Badewannen mit warmem Leitungswasser",
-        "Nur im Fluss",
-        "Gar nicht",
-        "In großen öffentlichen Badehäusern"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "In den Thermen gab es Kalt-, Warm- und Heißbäder, Schwitzräume und Sportplätze. Für wenig Geld traf man sich dort, wusch sich und erfuhr Neuigkeiten.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wo wuschen sich viele Menschen im alten Rom?",
+          "answers": [
+            "In Badewannen mit warmem Leitungswasser",
+            "Nur im Fluss",
+            "Gar nicht",
+            "In großen öffentlichen Badehäusern"
+          ],
+          "explanation": "In den Thermen gab es Kalt-, Warm- und Heißbäder, Schwitzräume und Sportplätze. Für wenig Geld traf man sich dort, wusch sich und erfuhr Neuigkeiten."
+        },
+        "en": {
+          "title": "Where did many people wash in ancient Rome?",
+          "answers": [
+            "In bathtubs with warm tap water",
+            "Only in the river",
+            "Nowhere",
+            "In big public bathhouses"
+          ],
+          "explanation": "The baths had cold, warm and hot pools, sweating rooms and sports grounds. For little money, people met there, washed and caught up on the news."
+        }
+      }
     },
     {
       "id": "history-0020",
@@ -369,17 +635,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Welche Tiere zogen früher Pflüge und Kutschen?",
-      "answers": [
-        "Schafe und Ziegen",
-        "Pferde und Ochsen",
-        "Elefanten",
-        "Hunde und Katzen"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Bevor es Traktoren und Autos gab, waren Pferde und Ochsen die stärksten Helfer. Die Leistung von Motoren wird bis heute in Pferdestärken angegeben.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Tiere zogen früher Pflüge und Kutschen?",
+          "answers": [
+            "Schafe und Ziegen",
+            "Pferde und Ochsen",
+            "Elefanten",
+            "Hunde und Katzen"
+          ],
+          "explanation": "Bevor es Traktoren und Autos gab, waren Pferde und Ochsen die stärksten Helfer. Die Leistung von Motoren wird bis heute in Pferdestärken angegeben."
+        },
+        "en": {
+          "title": "Which animals used to pull ploughs and carriages?",
+          "answers": [
+            "Sheep and goats",
+            "Horses and oxen",
+            "Elephants",
+            "Dogs and cats"
+          ],
+          "explanation": "Before tractors and cars, horses and oxen were the strongest helpers. Engine power is still given in horsepower today."
+        }
+      }
     },
     {
       "id": "history-0021",
@@ -388,17 +668,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was trugen Ritter zum Schutz im Kampf?",
-      "answers": [
-        "Eine Rüstung",
-        "Eine Schwimmweste",
-        "Einen Taucheranzug",
-        "Einen Fahrradhelm"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Ritterrüstungen bestanden aus Kettenhemden oder Metallplatten. Eine vollständige Plattenrüstung wog oft 20 bis 30 Kilogramm.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was trugen Ritter zum Schutz im Kampf?",
+          "answers": [
+            "Eine Rüstung",
+            "Eine Schwimmweste",
+            "Einen Taucheranzug",
+            "Einen Fahrradhelm"
+          ],
+          "explanation": "Ritterrüstungen bestanden aus Kettenhemden oder Metallplatten. Eine vollständige Plattenrüstung wog oft 20 bis 30 Kilogramm."
+        },
+        "en": {
+          "title": "What did knights wear to protect themselves in battle?",
+          "answers": [
+            "Armour",
+            "A life jacket",
+            "A diving suit",
+            "A bike helmet"
+          ],
+          "explanation": "Knights' armour was made of chain mail or metal plates. A full suit of plate armour often weighed 20 to 30 kilograms."
+        }
+      }
     },
     {
       "id": "history-0022",
@@ -407,17 +701,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was ist ein Burggraben?",
-      "answers": [
-        "Ein Grab für Ritter",
-        "Ein Weg für Kutschen",
-        "Ein Graben, oft mit Wasser, rund um eine Burg",
-        "Ein Keller für Vorräte"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Graben machte es Angreifern schwer, an die Mauern zu kommen. Hinein kam man nur über eine Brücke.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Burggraben?",
+          "answers": [
+            "Ein Grab für Ritter",
+            "Ein Weg für Kutschen",
+            "Ein Graben, oft mit Wasser, rund um eine Burg",
+            "Ein Keller für Vorräte"
+          ],
+          "explanation": "Der Graben machte es Angreifern schwer, an die Mauern zu kommen. Hinein kam man nur über eine Brücke."
+        },
+        "en": {
+          "title": "What is a moat?",
+          "answers": [
+            "A grave for knights",
+            "A road for carriages",
+            "A ditch, often filled with water, around a castle",
+            "A cellar for supplies"
+          ],
+          "explanation": "The moat made it hard for attackers to reach the walls. The only way in was over a bridge."
+        }
+      }
     },
     {
       "id": "history-0023",
@@ -426,17 +734,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Was war ein Knappe?",
-      "answers": [
-        "Ein Bauer, der Steuern eintrieb",
-        "Ein Mönch im Kloster",
-        "Ein Koch auf der Burg",
-        "Ein junger Helfer, der zum Ritter ausgebildet wurde"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Ein Knappe diente einem Ritter, pflegte Pferd und Rüstung und lernte das Kämpfen. Mit etwa 21 Jahren konnte er selbst zum Ritter geschlagen werden.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was war ein Knappe?",
+          "answers": [
+            "Ein Bauer, der Steuern eintrieb",
+            "Ein Mönch im Kloster",
+            "Ein Koch auf der Burg",
+            "Ein junger Helfer, der zum Ritter ausgebildet wurde"
+          ],
+          "explanation": "Ein Knappe diente einem Ritter, pflegte Pferd und Rüstung und lernte das Kämpfen. Mit etwa 21 Jahren konnte er selbst zum Ritter geschlagen werden."
+        },
+        "en": {
+          "title": "What was a squire?",
+          "answers": [
+            "A farmer who collected taxes",
+            "A monk in a monastery",
+            "A cook at the castle",
+            "A young helper being trained to become a knight"
+          ],
+          "explanation": "A squire served a knight, looked after his horse and armour and learned to fight. At about 21 he could be knighted himself."
+        }
+      }
     },
     {
       "id": "history-0024",
@@ -445,17 +767,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wer lebte im Mittelalter in Klöstern?",
-      "answers": [
-        "Könige und Königinnen",
-        "Mönche und Nonnen",
-        "Händler und Seefahrer",
-        "Ritter und Knappen"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "In Klöstern beteten, arbeiteten und lernten Mönche und Nonnen. Sie schrieben auch viele Bücher ab und bewahrten so altes Wissen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer lebte im Mittelalter in Klöstern?",
+          "answers": [
+            "Könige und Königinnen",
+            "Mönche und Nonnen",
+            "Händler und Seefahrer",
+            "Ritter und Knappen"
+          ],
+          "explanation": "In Klöstern beteten, arbeiteten und lernten Mönche und Nonnen. Sie schrieben auch viele Bücher ab und bewahrten so altes Wissen."
+        },
+        "en": {
+          "title": "Who lived in monasteries in the Middle Ages?",
+          "answers": [
+            "Kings and queens",
+            "Monks and nuns",
+            "Traders and sailors",
+            "Knights and squires"
+          ],
+          "explanation": "In monasteries, monks and nuns prayed, worked and studied. They also copied many books and so kept old knowledge alive."
+        }
+      }
     },
     {
       "id": "history-0025",
@@ -464,17 +800,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welcher Fluss war für das alte Ägypten lebenswichtig?",
-      "answers": [
-        "Der Nil",
-        "Die Donau",
-        "Der Rhein",
-        "Der Amazonas"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Jedes Jahr trat der Nil über die Ufer und hinterließ fruchtbaren Schlamm. Nur deshalb konnten die Ägypter mitten in der Wüste Getreide anbauen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Fluss war für das alte Ägypten lebenswichtig?",
+          "answers": [
+            "Der Nil",
+            "Die Donau",
+            "Der Rhein",
+            "Der Amazonas"
+          ],
+          "explanation": "Jedes Jahr trat der Nil über die Ufer und hinterließ fruchtbaren Schlamm. Nur deshalb konnten die Ägypter mitten in der Wüste Getreide anbauen."
+        },
+        "en": {
+          "title": "Which river was vital for ancient Egypt?",
+          "answers": [
+            "The Nile",
+            "The Danube",
+            "The Rhine",
+            "The Amazon"
+          ],
+          "explanation": "Every year the Nile flooded its banks and left fertile mud behind. Only because of that could the Egyptians grow grain in the middle of the desert."
+        }
+      }
     },
     {
       "id": "history-0026",
@@ -483,17 +833,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wer waren die Gladiatoren?",
-      "answers": [
-        "Griechische Gelehrte",
-        "Römische Bäcker",
-        "Kämpfer, die im alten Rom vor Publikum kämpften",
-        "Ägyptische Priester"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Gladiatoren traten in Arenen gegeneinander oder gegen wilde Tiere an. Viele waren Gefangene oder Sklaven, manche wurden berühmt wie heutige Sportstars.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer waren die Gladiatoren?",
+          "answers": [
+            "Griechische Gelehrte",
+            "Römische Bäcker",
+            "Kämpfer, die im alten Rom vor Publikum kämpften",
+            "Ägyptische Priester"
+          ],
+          "explanation": "Gladiatoren traten in Arenen gegeneinander oder gegen wilde Tiere an. Viele waren Gefangene oder Sklaven, manche wurden berühmt wie heutige Sportstars."
+        },
+        "en": {
+          "title": "Who were the gladiators?",
+          "answers": [
+            "Greek scholars",
+            "Roman bakers",
+            "Fighters who fought in front of crowds in ancient Rome",
+            "Egyptian priests"
+          ],
+          "explanation": "Gladiators fought each other or wild animals in arenas. Many were prisoners or slaves, and some became as famous as sports stars today."
+        }
+      }
     },
     {
       "id": "history-0027",
@@ -502,17 +866,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was ist das Kolosseum in Rom?",
-      "answers": [
-        "Eine riesige Arena aus der Römerzeit",
-        "Ein Hafen",
-        "Eine Kirche",
-        "Ein Königspalast"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Das Kolosseum wurde vor fast 2.000 Jahren gebaut und bot Platz für rund 50.000 Zuschauer. Seine Ruine kann man heute noch besichtigen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist das Kolosseum in Rom?",
+          "answers": [
+            "Eine riesige Arena aus der Römerzeit",
+            "Ein Hafen",
+            "Eine Kirche",
+            "Ein Königspalast"
+          ],
+          "explanation": "Das Kolosseum wurde vor fast 2.000 Jahren gebaut und bot Platz für rund 50.000 Zuschauer. Seine Ruine kann man heute noch besichtigen."
+        },
+        "en": {
+          "title": "What is the Colosseum in Rome?",
+          "answers": [
+            "A huge arena from Roman times",
+            "A harbour",
+            "A church",
+            "A royal palace"
+          ],
+          "explanation": "The Colosseum was built almost 2,000 years ago and held about 50,000 spectators. You can still visit its ruins today."
+        }
+      }
     },
     {
       "id": "history-0028",
@@ -521,17 +899,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie heißen die Schriftzeichen der alten Ägypter?",
-      "answers": [
-        "Buchstaben",
-        "Hieroglyphen",
-        "Runen",
-        "Keilschrift"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Hieroglyphen sind kleine Bilder, die für Laute oder ganze Wörter stehen. Erst 1822 gelang es, sie mit Hilfe des Steins von Rosette wieder zu lesen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißen die Schriftzeichen der alten Ägypter?",
+          "answers": [
+            "Buchstaben",
+            "Hieroglyphen",
+            "Runen",
+            "Keilschrift"
+          ],
+          "explanation": "Hieroglyphen sind kleine Bilder, die für Laute oder ganze Wörter stehen. Erst 1822 gelang es, sie mit Hilfe des Steins von Rosette wieder zu lesen."
+        },
+        "en": {
+          "title": "What are the written signs of the ancient Egyptians called?",
+          "answers": [
+            "Letters",
+            "Hieroglyphs",
+            "Runes",
+            "Cuneiform"
+          ],
+          "explanation": "Hieroglyphs are small pictures that stand for sounds or whole words. It was only in 1822 that people managed to read them again, with the help of the Rosetta Stone."
+        }
+      }
     },
     {
       "id": "history-0029",
@@ -540,17 +932,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Woran orientierten sich Seefahrer früher auf dem offenen Meer?",
-      "answers": [
-        "Am GPS",
-        "An Leuchtfarbe auf dem Wasser",
-        "An den Sternen und am Kompass",
-        "An Karten aus dem Internet"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Ohne Land in Sicht halfen die Sonne, der Polarstern und später der Kompass, die Richtung zu halten. Erst seit wenigen Jahrzehnten gibt es Satellitennavigation.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woran orientierten sich Seefahrer früher auf dem offenen Meer?",
+          "answers": [
+            "Am GPS",
+            "An Leuchtfarbe auf dem Wasser",
+            "An den Sternen und am Kompass",
+            "An Karten aus dem Internet"
+          ],
+          "explanation": "Ohne Land in Sicht halfen die Sonne, der Polarstern und später der Kompass, die Richtung zu halten. Erst seit wenigen Jahrzehnten gibt es Satellitennavigation."
+        },
+        "en": {
+          "title": "How did sailors find their way on the open sea in the past?",
+          "answers": [
+            "By GPS",
+            "By glowing paint on the water",
+            "By the stars and the compass",
+            "With maps from the internet"
+          ],
+          "explanation": "With no land in sight, the sun, the North Star and later the compass helped keep the right direction. Satellite navigation has only existed for a few decades."
+        }
+      }
     },
     {
       "id": "history-0030",
@@ -559,17 +965,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Welcher Reisende aus Venedig kam im 13. Jahrhundert bis nach China?",
-      "answers": [
-        "Marco Polo",
-        "James Cook",
-        "Vasco da Gama",
-        "Christoph Kolumbus"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Marco Polo lebte viele Jahre am Hof des chinesischen Herrschers. Sein Reisebericht machte Europa neugierig auf Asien.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Reisende aus Venedig kam im 13. Jahrhundert bis nach China?",
+          "answers": [
+            "Marco Polo",
+            "James Cook",
+            "Vasco da Gama",
+            "Christoph Kolumbus"
+          ],
+          "explanation": "Marco Polo lebte viele Jahre am Hof des chinesischen Herrschers. Sein Reisebericht machte Europa neugierig auf Asien."
+        },
+        "en": {
+          "title": "Which traveller from Venice got as far as China in the 13th century?",
+          "answers": [
+            "Marco Polo",
+            "James Cook",
+            "Vasco da Gama",
+            "Christopher Columbus"
+          ],
+          "explanation": "Marco Polo lived for many years at the court of the Chinese ruler. His travel report made Europe curious about Asia."
+        }
+      }
     },
     {
       "id": "history-0031",
@@ -578,17 +998,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Wer fand als erster Europäer den Seeweg nach Indien rund um Afrika?",
-      "answers": [
-        "Marco Polo",
-        "Ferdinand Magellan",
-        "Christoph Kolumbus",
-        "Vasco da Gama"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Portugiese Vasco da Gama segelte 1498 um die Südspitze Afrikas und erreichte Indien. So konnten Gewürze direkt per Schiff nach Europa gebracht werden.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer fand als erster Europäer den Seeweg nach Indien rund um Afrika?",
+          "answers": [
+            "Marco Polo",
+            "Ferdinand Magellan",
+            "Christoph Kolumbus",
+            "Vasco da Gama"
+          ],
+          "explanation": "Der Portugiese Vasco da Gama segelte 1498 um die Südspitze Afrikas und erreichte Indien. So konnten Gewürze direkt per Schiff nach Europa gebracht werden."
+        },
+        "en": {
+          "title": "Who was the first European to find the sea route to India around Africa?",
+          "answers": [
+            "Marco Polo",
+            "Ferdinand Magellan",
+            "Christopher Columbus",
+            "Vasco da Gama"
+          ],
+          "explanation": "In 1498 the Portuguese Vasco da Gama sailed around the southern tip of Africa and reached India. Spices could now be shipped straight to Europe."
+        }
+      }
     },
     {
       "id": "history-0032",
@@ -597,17 +1031,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was wurde zuerst erfunden: das Rad oder das Auto?",
-      "answers": [
-        "Keins von beiden",
-        "Beide gleichzeitig",
-        "Das Auto",
-        "Das Rad"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Das Rad ist über 5.000 Jahre alt. Das Auto gibt es erst seit etwa 140 Jahren – ohne Räder würde es aber gar nicht fahren.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was wurde zuerst erfunden: das Rad oder das Auto?",
+          "answers": [
+            "Keins von beiden",
+            "Beide gleichzeitig",
+            "Das Auto",
+            "Das Rad"
+          ],
+          "explanation": "Das Rad ist über 5.000 Jahre alt. Das Auto gibt es erst seit etwa 140 Jahren – ohne Räder würde es aber gar nicht fahren."
+        },
+        "en": {
+          "title": "Which came first: the wheel or the car?",
+          "answers": [
+            "Neither",
+            "Both at the same time",
+            "The car",
+            "The wheel"
+          ],
+          "explanation": "The wheel is more than 5,000 years old. The car has only been around for about 140 years – and it couldn't drive without wheels."
+        }
+      }
     },
     {
       "id": "history-0033",
@@ -616,17 +1064,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Woraus waren die ersten Werkzeuge der Steinzeit?",
-      "answers": [
-        "Aus Plastik",
-        "Aus Stein, Holz und Knochen",
-        "Aus Eisen",
-        "Aus Gold"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Steinzeitmenschen schlugen scharfe Klingen aus Feuerstein. Daher hat die Steinzeit ihren Namen. Metall lernten Menschen erst viel später zu bearbeiten.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woraus waren die ersten Werkzeuge der Steinzeit?",
+          "answers": [
+            "Aus Plastik",
+            "Aus Stein, Holz und Knochen",
+            "Aus Eisen",
+            "Aus Gold"
+          ],
+          "explanation": "Steinzeitmenschen schlugen scharfe Klingen aus Feuerstein. Daher hat die Steinzeit ihren Namen. Metall lernten Menschen erst viel später zu bearbeiten."
+        },
+        "en": {
+          "title": "What were the first Stone Age tools made of?",
+          "answers": [
+            "Plastic",
+            "Stone, wood and bone",
+            "Iron",
+            "Gold"
+          ],
+          "explanation": "Stone Age people knocked sharp blades out of flint – that's where the Stone Age got its name. People only learned to work metal much later."
+        }
+      }
     },
     {
       "id": "history-0034",
@@ -635,17 +1097,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wo wurde das Papier erfunden?",
-      "answers": [
-        "Bei den Wikingern",
-        "Im alten Rom",
-        "Im alten Ägypten",
-        "In China"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "In China wurde vor rund 2.000 Jahren Papier aus Pflanzenfasern hergestellt. Erst viel später kam die Technik über Arabien nach Europa. Ägyptischer Papyrus ist etwas anderes: gepresste Pflanzenstreifen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wo wurde das Papier erfunden?",
+          "answers": [
+            "Bei den Wikingern",
+            "Im alten Rom",
+            "Im alten Ägypten",
+            "In China"
+          ],
+          "explanation": "In China wurde vor rund 2.000 Jahren Papier aus Pflanzenfasern hergestellt. Erst viel später kam die Technik über Arabien nach Europa. Ägyptischer Papyrus ist etwas anderes: gepresste Pflanzenstreifen."
+        },
+        "en": {
+          "title": "Where was paper invented?",
+          "answers": [
+            "Among the Vikings",
+            "In ancient Rome",
+            "In ancient Egypt",
+            "In China"
+          ],
+          "explanation": "In China, paper was made from plant fibres about 2,000 years ago. The technique reached Europe through Arabia much later. Egyptian papyrus is something else: pressed strips of plant."
+        }
+      }
     },
     {
       "id": "history-0035",
@@ -654,17 +1130,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wozu dienten Windmühlen früher vor allem?",
-      "answers": [
-        "Zum Erzeugen von Strom",
-        "Zum Fliegenlernen",
-        "Zum Mahlen von Getreide",
-        "Zum Kühlen von Häusern"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Wind drehte die Flügel, und die trieben schwere Mahlsteine an, die Korn zu Mehl zermahlten. Heutige Windräder erzeugen dagegen Strom.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu dienten Windmühlen früher vor allem?",
+          "answers": [
+            "Zum Erzeugen von Strom",
+            "Zum Fliegenlernen",
+            "Zum Mahlen von Getreide",
+            "Zum Kühlen von Häusern"
+          ],
+          "explanation": "Der Wind drehte die Flügel, und die trieben schwere Mahlsteine an, die Korn zu Mehl zermahlten. Heutige Windräder erzeugen dagegen Strom."
+        },
+        "en": {
+          "title": "What were windmills mainly used for in the past?",
+          "answers": [
+            "Making electricity",
+            "Learning to fly",
+            "Grinding grain",
+            "Cooling houses"
+          ],
+          "explanation": "The wind turned the sails, which drove heavy millstones that ground grain into flour. Today's wind turbines, on the other hand, make electricity."
+        }
+      }
     },
     {
       "id": "history-0036",
@@ -673,17 +1163,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Worauf schrieben Kinder früher in der Schule oft?",
-      "answers": [
-        "Auf ein Tablet",
-        "Mit Füller in Hefte aus Plastik",
-        "Mit Kreide auf Papier",
-        "Mit einem Griffel auf eine Schiefertafel"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Papier war lange teuer. Auf der Schiefertafel konnte man schreiben, wegwischen und immer wieder neu anfangen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Worauf schrieben Kinder früher in der Schule oft?",
+          "answers": [
+            "Auf ein Tablet",
+            "Mit Füller in Hefte aus Plastik",
+            "Mit Kreide auf Papier",
+            "Mit einem Griffel auf eine Schiefertafel"
+          ],
+          "explanation": "Papier war lange teuer. Auf der Schiefertafel konnte man schreiben, wegwischen und immer wieder neu anfangen."
+        },
+        "en": {
+          "title": "What did children often write on at school in the past?",
+          "answers": [
+            "A tablet",
+            "Plastic exercise books with a fountain pen",
+            "Paper with chalk",
+            "A slate, with a slate pencil"
+          ],
+          "explanation": "Paper was expensive for a long time. On a slate you could write, wipe it clean and start again and again."
+        }
+      }
     },
     {
       "id": "history-0037",
@@ -692,17 +1196,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Womit machte man Licht, bevor es elektrischen Strom gab?",
-      "answers": [
-        "Mit Taschenlampen",
-        "Mit Kerzen und Öllampen",
-        "Gar nicht",
-        "Mit Glühwürmchen in Gläsern"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Kerzen aus Wachs oder Talg und Lampen mit Öl spendeten Licht. Später kamen Gaslaternen dazu, die in Städten die Straßen erhellten.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Womit machte man Licht, bevor es elektrischen Strom gab?",
+          "answers": [
+            "Mit Taschenlampen",
+            "Mit Kerzen und Öllampen",
+            "Gar nicht",
+            "Mit Glühwürmchen in Gläsern"
+          ],
+          "explanation": "Kerzen aus Wachs oder Talg und Lampen mit Öl spendeten Licht. Später kamen Gaslaternen dazu, die in Städten die Straßen erhellten."
+        },
+        "en": {
+          "title": "How did people make light before there was electricity?",
+          "answers": [
+            "With torches",
+            "With candles and oil lamps",
+            "They didn't",
+            "With fireflies in jars"
+          ],
+          "explanation": "Candles made of wax or tallow and lamps burning oil gave light. Later came gas lamps that lit the streets of towns."
+        }
+      }
     },
     {
       "id": "history-0038",
@@ -711,17 +1229,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie nannte man die Boten, die früher Post zu Pferd über weite Strecken brachten?",
-      "answers": [
-        "Knappen",
-        "Postreiter",
-        "Kutscher",
-        "Ritter"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Postreiter wechselten an Stationen ihre Pferde und ritten so schnell wie möglich weiter. Briefe kamen auf diese Weise in wenigen Tagen durch ganz Europa.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie nannte man die Boten, die früher Post zu Pferd über weite Strecken brachten?",
+          "answers": [
+            "Knappen",
+            "Postreiter",
+            "Kutscher",
+            "Ritter"
+          ],
+          "explanation": "Postreiter wechselten an Stationen ihre Pferde und ritten so schnell wie möglich weiter. Briefe kamen auf diese Weise in wenigen Tagen durch ganz Europa."
+        },
+        "en": {
+          "title": "What were the messengers called who carried post on horseback over long distances?",
+          "answers": [
+            "Squires",
+            "Post riders",
+            "Coachmen",
+            "Knights"
+          ],
+          "explanation": "Post riders changed horses at stations and rode on as fast as possible. That way letters crossed the whole of Europe in a few days."
+        }
+      }
     },
     {
       "id": "history-0039",
@@ -730,17 +1262,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wozu diente der Marktplatz einer mittelalterlichen Stadt?",
-      "answers": [
-        "Für Ritterturniere",
-        "Als Hafen für Schiffe",
-        "Zum Kaufen und Verkaufen von Waren",
-        "Als Friedhof"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Auf dem Markt boten Bauern und Handwerker ihre Waren an. Oft standen dort auch das Rathaus und der Brunnen – der Marktplatz war die Mitte der Stadt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu diente der Marktplatz einer mittelalterlichen Stadt?",
+          "answers": [
+            "Für Ritterturniere",
+            "Als Hafen für Schiffe",
+            "Zum Kaufen und Verkaufen von Waren",
+            "Als Friedhof"
+          ],
+          "explanation": "Auf dem Markt boten Bauern und Handwerker ihre Waren an. Oft standen dort auch das Rathaus und der Brunnen – der Marktplatz war die Mitte der Stadt."
+        },
+        "en": {
+          "title": "What was the market square of a medieval town for?",
+          "answers": [
+            "Knights' tournaments",
+            "As a harbour for ships",
+            "Buying and selling goods",
+            "As a graveyard"
+          ],
+          "explanation": "At the market, farmers and craftspeople sold their goods. The town hall and the well often stood there too – the market square was the heart of the town."
+        }
+      }
     },
     {
       "id": "history-0040",
@@ -749,17 +1295,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welche Stadt wurde im Jahr 79 vom Vesuv verschüttet?",
-      "answers": [
-        "Pompeji",
-        "Athen",
-        "Venedig",
-        "Rom"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Der Vulkan Vesuv begrub Pompeji unter einer dicken Schicht aus Asche. Deshalb sind Häuser, Straßen und sogar Wandbilder bis heute erstaunlich gut erhalten.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Stadt wurde im Jahr 79 vom Vesuv verschüttet?",
+          "answers": [
+            "Pompeji",
+            "Athen",
+            "Venedig",
+            "Rom"
+          ],
+          "explanation": "Der Vulkan Vesuv begrub Pompeji unter einer dicken Schicht aus Asche. Deshalb sind Häuser, Straßen und sogar Wandbilder bis heute erstaunlich gut erhalten."
+        },
+        "en": {
+          "title": "Which town was buried by Mount Vesuvius in the year 79?",
+          "answers": [
+            "Pompeii",
+            "Athens",
+            "Venice",
+            "Rome"
+          ],
+          "explanation": "The volcano Vesuvius buried Pompeii under a thick layer of ash. That's why houses, streets and even wall paintings are still amazingly well preserved today."
+        }
+      }
     },
     {
       "id": "history-0041",
@@ -768,17 +1328,31 @@
       "order": 18,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Warum trugen Pestärzte Masken mit langem Schnabel?",
-      "answers": [
-        "Als Zeichen ihres Standes",
-        "Um Kranke zu erschrecken",
-        "Im Schnabel steckten duftende Kräuter gegen die „schlechte Luft“",
-        "Zum Schutz vor Regen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Man glaubte damals, Krankheiten entstünden durch stinkende Luft. Die duftenden Kräuter sollten sie reinigen. Dass Flöhe die Pest übertragen, wusste man noch nicht.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum trugen Pestärzte Masken mit langem Schnabel?",
+          "answers": [
+            "Als Zeichen ihres Standes",
+            "Um Kranke zu erschrecken",
+            "Im Schnabel steckten duftende Kräuter gegen die „schlechte Luft“",
+            "Zum Schutz vor Regen"
+          ],
+          "explanation": "Man glaubte damals, Krankheiten entstünden durch stinkende Luft. Die duftenden Kräuter sollten sie reinigen. Dass Flöhe die Pest übertragen, wusste man noch nicht."
+        },
+        "en": {
+          "title": "Why did plague doctors wear masks with long beaks?",
+          "answers": [
+            "As a sign of their rank",
+            "To frighten the sick",
+            "The beak held fragrant herbs against the “bad air”",
+            "To protect against rain"
+          ],
+          "explanation": "At the time people believed diseases came from foul-smelling air. The fragrant herbs were meant to clean it. Nobody knew yet that fleas spread the plague."
+        }
+      }
     },
     {
       "id": "history-0042",
@@ -787,17 +1361,31 @@
       "order": 19,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Nach wem ist der Monat Juli benannt?",
-      "answers": [
-        "Nach einem Kaiser namens Julian",
-        "Nach dem Römer Julius Caesar",
-        "Nach einer Göttin des Sommers",
-        "Nach dem lateinischen Wort für warm"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Julius Caesar ließ den Kalender neu ordnen, und sein Geburtsmonat wurde nach ihm benannt. Der August trägt den Namen seines Nachfolgers, Kaiser Augustus.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Nach wem ist der Monat Juli benannt?",
+          "answers": [
+            "Nach einem Kaiser namens Julian",
+            "Nach dem Römer Julius Caesar",
+            "Nach einer Göttin des Sommers",
+            "Nach dem lateinischen Wort für warm"
+          ],
+          "explanation": "Julius Caesar ließ den Kalender neu ordnen, und sein Geburtsmonat wurde nach ihm benannt. Der August trägt den Namen seines Nachfolgers, Kaiser Augustus."
+        },
+        "en": {
+          "title": "Who is the month of July named after?",
+          "answers": [
+            "An emperor called Julian",
+            "The Roman Julius Caesar",
+            "A goddess of summer",
+            "The Latin word for warm"
+          ],
+          "explanation": "Julius Caesar had the calendar reorganised, and the month of his birth was named after him. August carries the name of his successor, Emperor Augustus."
+        }
+      }
     },
     {
       "id": "history-0043",
@@ -806,17 +1394,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wer war Kleopatra?",
-      "answers": [
-        "Eine römische Göttin",
-        "Eine Malerin aus Italien",
-        "Eine Königin im alten Ägypten",
-        "Eine griechische Sportlerin"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Kleopatra war die letzte Herrscherin des alten Ägyptens. Sie sprach viele Sprachen und war eine geschickte Politikerin.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer war Kleopatra?",
+          "answers": [
+            "Eine römische Göttin",
+            "Eine Malerin aus Italien",
+            "Eine Königin im alten Ägypten",
+            "Eine griechische Sportlerin"
+          ],
+          "explanation": "Kleopatra war die letzte Herrscherin des alten Ägyptens. Sie sprach viele Sprachen und war eine geschickte Politikerin."
+        },
+        "en": {
+          "title": "Who was Cleopatra?",
+          "answers": [
+            "A Roman goddess",
+            "A painter from Italy",
+            "A queen of ancient Egypt",
+            "A Greek athlete"
+          ],
+          "explanation": "Cleopatra was the last ruler of ancient Egypt. She spoke many languages and was a skilful politician."
+        }
+      }
     },
     {
       "id": "history-0044",
@@ -825,17 +1427,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Womit schrieben die Römer ihre Zahlen?",
-      "answers": [
-        "Mit unseren heutigen Ziffern",
-        "Mit kleinen Tierbildern",
-        "Mit Punkten wie auf einem Würfel",
-        "Mit Buchstaben wie I, V, X und L"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "I steht für 1, V für 5, X für 10, L für 50, C für 100 und M für 1.000. Römische Zahlen sieht man heute noch auf manchen Uhren.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Womit schrieben die Römer ihre Zahlen?",
+          "answers": [
+            "Mit unseren heutigen Ziffern",
+            "Mit kleinen Tierbildern",
+            "Mit Punkten wie auf einem Würfel",
+            "Mit Buchstaben wie I, V, X und L"
+          ],
+          "explanation": "I steht für 1, V für 5, X für 10, L für 50, C für 100 und M für 1.000. Römische Zahlen sieht man heute noch auf manchen Uhren."
+        },
+        "en": {
+          "title": "What did the Romans use to write numbers?",
+          "answers": [
+            "The digits we use today",
+            "Little animal pictures",
+            "Dots like on a dice",
+            "Letters such as I, V, X and L"
+          ],
+          "explanation": "I stands for 1, V for 5, X for 10, L for 50, C for 100 and M for 1,000. You can still see Roman numerals on some clocks today."
+        }
+      }
     },
     {
       "id": "history-0045",
@@ -844,17 +1460,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Welche Zahl bedeutet das römische Zeichen X?",
-      "answers": [
-        "Eins",
-        "Hundert",
-        "Fünf",
-        "Zehn"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Das X steht für 10. Steht ein kleineres Zeichen davor, wird es abgezogen: IX ist 9. Steht es dahinter, wird es addiert: XI ist 11.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Zahl bedeutet das römische Zeichen X?",
+          "answers": [
+            "Eins",
+            "Hundert",
+            "Fünf",
+            "Zehn"
+          ],
+          "explanation": "Das X steht für 10. Steht ein kleineres Zeichen davor, wird es abgezogen: IX ist 9. Steht es dahinter, wird es addiert: XI ist 11."
+        },
+        "en": {
+          "title": "Which number does the Roman sign X stand for?",
+          "answers": [
+            "One",
+            "One hundred",
+            "Five",
+            "Ten"
+          ],
+          "explanation": "X stands for 10. A smaller sign in front of it is subtracted: IX is 9. A smaller sign after it is added: XI is 11."
+        }
+      }
     },
     {
       "id": "history-0046",
@@ -863,17 +1493,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie hieß ein Wettkampf, bei dem Ritter mit Lanzen zu Pferd gegeneinander antraten?",
-      "answers": [
-        "Ritterturnier",
-        "Olympiade",
-        "Marathon",
-        "Regatta"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Bei Turnieren zeigten Ritter ihr Können vor Publikum. Ziel war es, den Gegner mit einer stumpfen Lanze vom Pferd zu stoßen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie hieß ein Wettkampf, bei dem Ritter mit Lanzen zu Pferd gegeneinander antraten?",
+          "answers": [
+            "Ritterturnier",
+            "Olympiade",
+            "Marathon",
+            "Regatta"
+          ],
+          "explanation": "Bei Turnieren zeigten Ritter ihr Können vor Publikum. Ziel war es, den Gegner mit einer stumpfen Lanze vom Pferd zu stoßen."
+        },
+        "en": {
+          "title": "What was a contest called in which knights on horseback fought each other with lances?",
+          "answers": [
+            "Tournament",
+            "Olympics",
+            "Marathon",
+            "Regatta"
+          ],
+          "explanation": "At tournaments, knights showed their skills in front of crowds. The aim was to knock the opponent off his horse with a blunt lance."
+        }
+      }
     },
     {
       "id": "history-0047",
@@ -882,17 +1526,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wozu hatte eine Burg eine Zugbrücke?",
-      "answers": [
-        "Man konnte sie bei Gefahr hochziehen",
-        "Als Spielplatz",
-        "Um Wasser zu schöpfen",
-        "Damit Schiffe darunter durchfahren"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "War die Brücke hochgezogen, versperrte sie das Tor, und der Graben davor war kaum zu überwinden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu hatte eine Burg eine Zugbrücke?",
+          "answers": [
+            "Man konnte sie bei Gefahr hochziehen",
+            "Als Spielplatz",
+            "Um Wasser zu schöpfen",
+            "Damit Schiffe darunter durchfahren"
+          ],
+          "explanation": "War die Brücke hochgezogen, versperrte sie das Tor, und der Graben davor war kaum zu überwinden."
+        },
+        "en": {
+          "title": "Why did a castle have a drawbridge?",
+          "answers": [
+            "It could be raised when there was danger",
+            "As a playground",
+            "To scoop up water",
+            "So ships could pass underneath"
+          ],
+          "explanation": "When the bridge was raised, it blocked the gate, and the moat in front was almost impossible to cross."
+        }
+      }
     },
     {
       "id": "history-0048",
@@ -901,17 +1559,31 @@
       "order": 8,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wer war Karl der Große?",
-      "answers": [
-        "Ein besonders großer Ritter",
-        "Ein mächtiger Herrscher, der im Jahr 800 Kaiser wurde",
-        "Ein Entdecker Amerikas",
-        "Der Erfinder des Buchdrucks"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Karl der Große herrschte über ein riesiges Reich, das große Teile des heutigen Frankreichs, Deutschlands und Italiens umfasste. Seinen Beinamen bekam er wegen seiner Macht.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer war Karl der Große?",
+          "answers": [
+            "Ein besonders großer Ritter",
+            "Ein mächtiger Herrscher, der im Jahr 800 Kaiser wurde",
+            "Ein Entdecker Amerikas",
+            "Der Erfinder des Buchdrucks"
+          ],
+          "explanation": "Karl der Große herrschte über ein riesiges Reich, das große Teile des heutigen Frankreichs, Deutschlands und Italiens umfasste. Seinen Beinamen bekam er wegen seiner Macht."
+        },
+        "en": {
+          "title": "Who was Charlemagne?",
+          "answers": [
+            "An especially tall knight",
+            "A powerful ruler who became emperor in the year 800",
+            "A discoverer of America",
+            "The inventor of printing"
+          ],
+          "explanation": "Charlemagne – Charles the Great – ruled a huge empire covering large parts of today's France, Germany and Italy. He got his nickname because of his power."
+        }
+      }
     },
     {
       "id": "history-0049",
@@ -920,17 +1592,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Welcher Kapitän erforschte im 18. Jahrhundert den Pazifik und die Ostküste Australiens?",
-      "answers": [
-        "Leif Eriksson",
-        "Christoph Kolumbus",
-        "James Cook",
-        "Marco Polo"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Brite James Cook unternahm drei große Reisen und zeichnete genaue Karten vieler Inseln und Küsten, die in Europa noch unbekannt waren.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Kapitän erforschte im 18. Jahrhundert den Pazifik und die Ostküste Australiens?",
+          "answers": [
+            "Leif Eriksson",
+            "Christoph Kolumbus",
+            "James Cook",
+            "Marco Polo"
+          ],
+          "explanation": "Der Brite James Cook unternahm drei große Reisen und zeichnete genaue Karten vieler Inseln und Küsten, die in Europa noch unbekannt waren."
+        },
+        "en": {
+          "title": "Which captain explored the Pacific and the east coast of Australia in the 18th century?",
+          "answers": [
+            "Leif Erikson",
+            "Christopher Columbus",
+            "James Cook",
+            "Marco Polo"
+          ],
+          "explanation": "The Briton James Cook made three great voyages and drew accurate maps of many islands and coasts that were still unknown in Europe."
+        }
+      }
     },
     {
       "id": "history-0050",
@@ -939,17 +1625,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welche Seefahrer erreichten Amerika schon rund 500 Jahre vor Kolumbus?",
-      "answers": [
-        "Die Ägypter",
-        "Die Römer",
-        "Die Griechen",
-        "Die Wikinger"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Um das Jahr 1000 segelte Leif Eriksson von Grönland nach Nordamerika. In Kanada wurden Reste einer Wikingersiedlung gefunden.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Seefahrer erreichten Amerika schon rund 500 Jahre vor Kolumbus?",
+          "answers": [
+            "Die Ägypter",
+            "Die Römer",
+            "Die Griechen",
+            "Die Wikinger"
+          ],
+          "explanation": "Um das Jahr 1000 segelte Leif Eriksson von Grönland nach Nordamerika. In Kanada wurden Reste einer Wikingersiedlung gefunden."
+        },
+        "en": {
+          "title": "Which seafarers reached America about 500 years before Columbus?",
+          "answers": [
+            "The Egyptians",
+            "The Romans",
+            "The Greeks",
+            "The Vikings"
+          ],
+          "explanation": "Around the year 1000, Leif Erikson sailed from Greenland to North America. The remains of a Viking settlement have been found in Canada."
+        }
+      }
     },
     {
       "id": "history-0051",
@@ -958,17 +1658,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wer stand 1953 als Erste auf dem Gipfel des Mount Everest?",
-      "answers": [
-        "Neil Armstrong",
-        "Roald Amundsen",
-        "Edmund Hillary und Tenzing Norgay",
-        "Reinhold Messner"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Neuseeländer Edmund Hillary und der Sherpa Tenzing Norgay erreichten am 29. Mai 1953 gemeinsam den höchsten Punkt der Erde.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer stand 1953 als Erste auf dem Gipfel des Mount Everest?",
+          "answers": [
+            "Neil Armstrong",
+            "Roald Amundsen",
+            "Edmund Hillary und Tenzing Norgay",
+            "Reinhold Messner"
+          ],
+          "explanation": "Der Neuseeländer Edmund Hillary und der Sherpa Tenzing Norgay erreichten am 29. Mai 1953 gemeinsam den höchsten Punkt der Erde."
+        },
+        "en": {
+          "title": "Who were the first to stand on the summit of Mount Everest, in 1953?",
+          "answers": [
+            "Neil Armstrong",
+            "Roald Amundsen",
+            "Edmund Hillary and Tenzing Norgay",
+            "Reinhold Messner"
+          ],
+          "explanation": "On 29 May 1953, the New Zealander Edmund Hillary and the Sherpa Tenzing Norgay reached the highest point on Earth together."
+        }
+      }
     },
     {
       "id": "history-0052",
@@ -977,17 +1691,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Womit machte man Feuer, bevor es Streichhölzer gab?",
-      "answers": [
-        "Mit Feuerstein und Zunder",
-        "Mit Batterien",
-        "Mit Wasser und Salz",
-        "Mit Eiswürfeln"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Schlägt man Feuerstein gegen ein Eisenstück, sprühen Funken. Fallen sie auf trockenen Zunder, etwa einen getrockneten Pilz, beginnt er zu glimmen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Womit machte man Feuer, bevor es Streichhölzer gab?",
+          "answers": [
+            "Mit Feuerstein und Zunder",
+            "Mit Batterien",
+            "Mit Wasser und Salz",
+            "Mit Eiswürfeln"
+          ],
+          "explanation": "Schlägt man Feuerstein gegen ein Eisenstück, sprühen Funken. Fallen sie auf trockenen Zunder, etwa einen getrockneten Pilz, beginnt er zu glimmen."
+        },
+        "en": {
+          "title": "How did people make fire before matches existed?",
+          "answers": [
+            "With flint and tinder",
+            "With batteries",
+            "With water and salt",
+            "With ice cubes"
+          ],
+          "explanation": "If you strike flint against a piece of iron, sparks fly. When they land on dry tinder, such as a dried fungus, it starts to glow."
+        }
+      }
     },
     {
       "id": "history-0053",
@@ -996,17 +1724,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie heißt die Zeit nach der Steinzeit, als Menschen Kupfer und Zinn mischten?",
-      "answers": [
-        "Goldzeit",
-        "Bronzezeit",
-        "Eiszeit",
-        "Eisenzeit"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Aus Kupfer und Zinn entsteht Bronze, die viel härter ist als reines Kupfer. Daraus machte man Werkzeuge, Waffen und Schmuck. Danach folgte die Eisenzeit.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt die Zeit nach der Steinzeit, als Menschen Kupfer und Zinn mischten?",
+          "answers": [
+            "Goldzeit",
+            "Bronzezeit",
+            "Eiszeit",
+            "Eisenzeit"
+          ],
+          "explanation": "Aus Kupfer und Zinn entsteht Bronze, die viel härter ist als reines Kupfer. Daraus machte man Werkzeuge, Waffen und Schmuck. Danach folgte die Eisenzeit."
+        },
+        "en": {
+          "title": "What is the period after the Stone Age called, when people mixed copper and tin?",
+          "answers": [
+            "Golden Age",
+            "Bronze Age",
+            "Ice Age",
+            "Iron Age"
+          ],
+          "explanation": "Copper and tin make bronze, which is much harder than pure copper. People made tools, weapons and jewellery from it. Then came the Iron Age."
+        }
+      }
     },
     {
       "id": "history-0054",
@@ -1015,17 +1757,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Wann fuhr die erste Eisenbahn in Deutschland?",
-      "answers": [
-        "1635",
-        "1835",
-        "1735",
-        "1935"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Am 7. Dezember 1835 fuhr die Lok „Adler“ von Nürnberg nach Fürth. Die Strecke war nur rund sechs Kilometer lang.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wann fuhr die erste Eisenbahn in Deutschland?",
+          "answers": [
+            "1635",
+            "1835",
+            "1735",
+            "1935"
+          ],
+          "explanation": "Am 7. Dezember 1835 fuhr die Lok „Adler“ von Nürnberg nach Fürth. Die Strecke war nur rund sechs Kilometer lang."
+        },
+        "en": {
+          "title": "When did the first railway run in Germany?",
+          "answers": [
+            "1635",
+            "1835",
+            "1735",
+            "1935"
+          ],
+          "explanation": "On 7 December 1835, the locomotive “Adler” ran from Nuremberg to Fürth. The line was only about six kilometres long."
+        }
+      }
     },
     {
       "id": "history-0055",
@@ -1034,17 +1790,31 @@
       "order": 9,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Was ist ein Abakus?",
-      "answers": [
-        "Ein Rechenbrett mit verschiebbaren Kugeln",
-        "Ein Schreibgerät",
-        "Ein Musikinstrument",
-        "Eine Waffe der Römer"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Mit dem Abakus rechnete man schon vor Tausenden Jahren. Jede Reihe Kugeln steht für eine Stelle, zum Beispiel Einer, Zehner und Hunderter.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Abakus?",
+          "answers": [
+            "Ein Rechenbrett mit verschiebbaren Kugeln",
+            "Ein Schreibgerät",
+            "Ein Musikinstrument",
+            "Eine Waffe der Römer"
+          ],
+          "explanation": "Mit dem Abakus rechnete man schon vor Tausenden Jahren. Jede Reihe Kugeln steht für eine Stelle, zum Beispiel Einer, Zehner und Hunderter."
+        },
+        "en": {
+          "title": "What is an abacus?",
+          "answers": [
+            "A counting frame with beads you can slide",
+            "A writing tool",
+            "A musical instrument",
+            "A Roman weapon"
+          ],
+          "explanation": "People did sums on an abacus thousands of years ago. Each row of beads stands for a place, such as ones, tens and hundreds."
+        }
+      }
     },
     {
       "id": "history-0056",
@@ -1053,17 +1823,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Woher holten die Menschen ihr Wasser, bevor es Wasserleitungen gab?",
-      "answers": [
-        "Aus dem Supermarkt",
-        "Aus Brunnen, Quellen und Flüssen",
-        "Aus dem Wasserhahn",
-        "Aus dem Regenbogen"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Wasser musste man in Eimern nach Hause tragen. Der Dorfbrunnen war deshalb auch ein Treffpunkt, an dem man Neuigkeiten austauschte.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woher holten die Menschen ihr Wasser, bevor es Wasserleitungen gab?",
+          "answers": [
+            "Aus dem Supermarkt",
+            "Aus Brunnen, Quellen und Flüssen",
+            "Aus dem Wasserhahn",
+            "Aus dem Regenbogen"
+          ],
+          "explanation": "Wasser musste man in Eimern nach Hause tragen. Der Dorfbrunnen war deshalb auch ein Treffpunkt, an dem man Neuigkeiten austauschte."
+        },
+        "en": {
+          "title": "Where did people get their water before there were water pipes?",
+          "answers": [
+            "From the supermarket",
+            "From wells, springs and rivers",
+            "From the tap",
+            "From the rainbow"
+          ],
+          "explanation": "Water had to be carried home in buckets. So the village well was also a meeting place where people swapped news."
+        }
+      }
     },
     {
       "id": "history-0057",
@@ -1072,17 +1856,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Was waren Zünfte im Mittelalter?",
-      "answers": [
-        "Zusammenschlüsse von Handwerkern",
-        "Dorffeste",
-        "Gruppen von Rittern",
-        "Besondere Burgen"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Bäcker, Schmiede oder Schneider hatten jeweils ihre Zunft. Sie legte Preise und Regeln fest und kümmerte sich um die Ausbildung.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was waren Zünfte im Mittelalter?",
+          "answers": [
+            "Zusammenschlüsse von Handwerkern",
+            "Dorffeste",
+            "Gruppen von Rittern",
+            "Besondere Burgen"
+          ],
+          "explanation": "Bäcker, Schmiede oder Schneider hatten jeweils ihre Zunft. Sie legte Preise und Regeln fest und kümmerte sich um die Ausbildung."
+        },
+        "en": {
+          "title": "What were guilds in the Middle Ages?",
+          "answers": [
+            "Associations of craftspeople",
+            "Village festivals",
+            "Groups of knights",
+            "Special castles"
+          ],
+          "explanation": "Bakers, smiths and tailors each had their own guild. It set prices and rules and took care of training."
+        }
+      }
     },
     {
       "id": "history-0058",
@@ -1091,17 +1889,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie reiste man vor der Eisenbahn über Land?",
-      "answers": [
-        "Mit dem Flugzeug",
-        "Mit dem Fahrrad",
-        "Mit dem Bus",
-        "Zu Fuß, zu Pferd oder mit der Kutsche"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Reisen war langsam und anstrengend. Mit der Postkutsche schaffte man an einem Tag oft nur 50 bis 100 Kilometer.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie reiste man vor der Eisenbahn über Land?",
+          "answers": [
+            "Mit dem Flugzeug",
+            "Mit dem Fahrrad",
+            "Mit dem Bus",
+            "Zu Fuß, zu Pferd oder mit der Kutsche"
+          ],
+          "explanation": "Reisen war langsam und anstrengend. Mit der Postkutsche schaffte man an einem Tag oft nur 50 bis 100 Kilometer."
+        },
+        "en": {
+          "title": "How did people travel over land before the railway?",
+          "answers": [
+            "By plane",
+            "By bike",
+            "By bus",
+            "On foot, on horseback or by carriage"
+          ],
+          "explanation": "Travelling was slow and tiring. By stagecoach you often only managed 50 to 100 kilometres a day."
+        }
+      }
     },
     {
       "id": "history-0059",
@@ -1110,17 +1922,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was aßen die meisten Menschen im Mittelalter jeden Tag?",
-      "answers": [
-        "Schokolade",
-        "Kartoffeln mit Ketchup",
-        "Brei und Brot aus Getreide",
-        "Pizza"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Getreidebrei und Brot waren die wichtigsten Speisen. Kartoffeln und Kakao gab es in Europa noch gar nicht – sie kamen erst nach der Entdeckung Amerikas.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was aßen die meisten Menschen im Mittelalter jeden Tag?",
+          "answers": [
+            "Schokolade",
+            "Kartoffeln mit Ketchup",
+            "Brei und Brot aus Getreide",
+            "Pizza"
+          ],
+          "explanation": "Getreidebrei und Brot waren die wichtigsten Speisen. Kartoffeln und Kakao gab es in Europa noch gar nicht – sie kamen erst nach der Entdeckung Amerikas."
+        },
+        "en": {
+          "title": "What did most people eat every day in the Middle Ages?",
+          "answers": [
+            "Chocolate",
+            "Potatoes with ketchup",
+            "Porridge and bread made from grain",
+            "Pizza"
+          ],
+          "explanation": "Grain porridge and bread were the most important foods. Potatoes and cocoa didn't even exist in Europe yet – they only arrived after America was discovered."
+        }
+      }
     },
     {
       "id": "history-0060",
@@ -1129,17 +1955,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was machte ein Nachtwächter?",
-      "answers": [
-        "Er stellte Wecker her",
-        "Er beobachtete die Sterne",
-        "Er bewachte nur das Schloss des Königs",
-        "Er ging nachts durch die Stadt und passte auf"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Nachtwächter achtete auf Feuer und Diebe und rief die Stunden aus. In manchen Städten kann man heute noch an Nachtwächterführungen teilnehmen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was machte ein Nachtwächter?",
+          "answers": [
+            "Er stellte Wecker her",
+            "Er beobachtete die Sterne",
+            "Er bewachte nur das Schloss des Königs",
+            "Er ging nachts durch die Stadt und passte auf"
+          ],
+          "explanation": "Der Nachtwächter achtete auf Feuer und Diebe und rief die Stunden aus. In manchen Städten kann man heute noch an Nachtwächterführungen teilnehmen."
+        },
+        "en": {
+          "title": "What did a night watchman do?",
+          "answers": [
+            "He made alarm clocks",
+            "He watched the stars",
+            "He only guarded the king's palace",
+            "He walked through the town at night and kept watch"
+          ],
+          "explanation": "The night watchman looked out for fires and thieves and called out the hours. In some towns you can still go on night watchman tours today."
+        }
+      }
     }
   ]
 }

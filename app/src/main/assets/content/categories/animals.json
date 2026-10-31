@@ -8,17 +8,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum leuchten Glühwürmchen?",
-      "answers": [
-        "Sie haben kleine Batterien",
-        "Ein Stoff in ihrem Körper leuchtet",
-        "Mondlicht spiegelt sich",
-        "Sie speichern Sonnenlicht"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "In ihrem Hinterleib reagiert der Stoff Luciferin mit Sauerstoff. Dabei entsteht kaltes Licht, mit dem sie Partner anlocken.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum leuchten Glühwürmchen?",
+          "answers": [
+            "Sie haben kleine Batterien",
+            "Ein Stoff in ihrem Körper leuchtet",
+            "Mondlicht spiegelt sich",
+            "Sie speichern Sonnenlicht"
+          ],
+          "explanation": "In ihrem Hinterleib reagiert der Stoff Luciferin mit Sauerstoff. Dabei entsteht kaltes Licht, mit dem sie Partner anlocken."
+        },
+        "en": {
+          "title": "Why do fireflies glow?",
+          "answers": [
+            "They have tiny batteries",
+            "A substance in their body lights up",
+            "Moonlight is reflected",
+            "They store sunlight"
+          ],
+          "explanation": "In their abdomen, a substance called luciferin reacts with oxygen. This makes cold light that they use to attract a partner."
+        }
+      }
     },
     {
       "id": "animals-0002",
@@ -27,17 +41,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum zirpen Grillen?",
-      "answers": [
-        "Sie reiben ihre Flügel aneinander",
-        "Sie pfeifen mit dem Mund",
-        "Sie haben kleine Glöckchen",
-        "Sie klopfen auf Steine"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Männliche Grillen streichen eine geriffelte Kante des einen Flügels über den anderen – wie ein Bogen über eine Geige. So rufen sie nach Weibchen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum zirpen Grillen?",
+          "answers": [
+            "Sie reiben ihre Flügel aneinander",
+            "Sie pfeifen mit dem Mund",
+            "Sie haben kleine Glöckchen",
+            "Sie klopfen auf Steine"
+          ],
+          "explanation": "Männliche Grillen streichen eine geriffelte Kante des einen Flügels über den anderen – wie ein Bogen über eine Geige. So rufen sie nach Weibchen."
+        },
+        "en": {
+          "title": "Why do crickets chirp?",
+          "answers": [
+            "They rub their wings together",
+            "They whistle with their mouth",
+            "They have tiny bells",
+            "They tap on stones"
+          ],
+          "explanation": "Male crickets run a ridged edge of one wing over the other – like a bow over a violin. That's how they call for females."
+        }
+      }
     },
     {
       "id": "animals-0003",
@@ -46,17 +74,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie atmen Fische?",
-      "answers": [
-        "Sie tauchen zum Atmen auf",
-        "Mit Kiemen holen sie Sauerstoff aus dem Wasser",
-        "Über die Schuppen",
-        "Sie brauchen keinen Sauerstoff"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Wasser strömt durch das Maul über die Kiemen. Dort geht der im Wasser gelöste Sauerstoff ins Blut über.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie atmen Fische?",
+          "answers": [
+            "Sie tauchen zum Atmen auf",
+            "Mit Kiemen holen sie Sauerstoff aus dem Wasser",
+            "Über die Schuppen",
+            "Sie brauchen keinen Sauerstoff"
+          ],
+          "explanation": "Wasser strömt durch das Maul über die Kiemen. Dort geht der im Wasser gelöste Sauerstoff ins Blut über."
+        },
+        "en": {
+          "title": "How do fish breathe?",
+          "answers": [
+            "They come up for air",
+            "Their gills take oxygen from the water",
+            "Through their scales",
+            "They don't need oxygen"
+          ],
+          "explanation": "Water flows in through the mouth and over the gills. There, the oxygen dissolved in the water passes into the blood."
+        }
+      }
     },
     {
       "id": "animals-0004",
@@ -65,17 +107,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum sehen Katzen im Dunkeln so gut?",
-      "answers": [
-        "Sie haben mehr Augenlider",
-        "Ihre Augen leuchten selbst",
-        "Sie sehen Wärme",
-        "Eine Spiegelschicht im Auge nutzt das Licht doppelt"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Die Schicht hinter der Netzhaut heißt Tapetum lucidum. Sie wirft Licht, das die Netzhaut verfehlt hat, ein zweites Mal zurück. Deshalb leuchten Katzenaugen auch im Scheinwerferlicht.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum sehen Katzen im Dunkeln so gut?",
+          "answers": [
+            "Sie haben mehr Augenlider",
+            "Ihre Augen leuchten selbst",
+            "Sie sehen Wärme",
+            "Eine Spiegelschicht im Auge nutzt das Licht doppelt"
+          ],
+          "explanation": "Die Schicht hinter der Netzhaut heißt Tapetum lucidum. Sie wirft Licht, das die Netzhaut verfehlt hat, ein zweites Mal zurück. Deshalb leuchten Katzenaugen auch im Scheinwerferlicht."
+        },
+        "en": {
+          "title": "Why can cats see so well in the dark?",
+          "answers": [
+            "They have more eyelids",
+            "Their eyes glow by themselves",
+            "They see heat",
+            "A mirror layer in the eye uses the light twice"
+          ],
+          "explanation": "The layer behind the retina is called the tapetum lucidum. It reflects light that missed the retina back a second time. That's also why cats' eyes shine in headlights."
+        }
+      }
     },
     {
       "id": "animals-0005",
@@ -84,17 +140,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum hecheln Hunde?",
-      "answers": [
-        "Weil sie sich freuen",
-        "Weil sie Durst haben",
-        "Um sich abzukühlen",
-        "Um besser zu riechen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Hunde können kaum schwitzen, nur ein wenig über die Pfoten. Beim Hecheln verdunstet Feuchtigkeit von Zunge und Atemwegen, und das kühlt den Körper.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum hecheln Hunde?",
+          "answers": [
+            "Weil sie sich freuen",
+            "Weil sie Durst haben",
+            "Um sich abzukühlen",
+            "Um besser zu riechen"
+          ],
+          "explanation": "Hunde können kaum schwitzen, nur ein wenig über die Pfoten. Beim Hecheln verdunstet Feuchtigkeit von Zunge und Atemwegen, und das kühlt den Körper."
+        },
+        "en": {
+          "title": "Why do dogs pant?",
+          "answers": [
+            "Because they are happy",
+            "Because they are thirsty",
+            "To cool down",
+            "To smell better"
+          ],
+          "explanation": "Dogs can hardly sweat, only a little through their paws. When they pant, moisture evaporates from the tongue and airways, and that cools the body."
+        }
+      }
     },
     {
       "id": "animals-0006",
@@ -103,17 +173,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welches ist das größte Tier der Erde?",
-      "answers": [
-        "Der Walhai",
-        "Der Blauwal",
-        "Die Giraffe",
-        "Der Afrikanische Elefant"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Blauwale werden bis zu 30 Meter lang und über 150 Tonnen schwer. Damit sind sie schwerer als jeder Dinosaurier, den man bisher kennt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches ist das größte Tier der Erde?",
+          "answers": [
+            "Der Walhai",
+            "Der Blauwal",
+            "Die Giraffe",
+            "Der Afrikanische Elefant"
+          ],
+          "explanation": "Blauwale werden bis zu 30 Meter lang und über 150 Tonnen schwer. Damit sind sie schwerer als jeder Dinosaurier, den man bisher kennt."
+        },
+        "en": {
+          "title": "What is the biggest animal on Earth?",
+          "answers": [
+            "The whale shark",
+            "The blue whale",
+            "The giraffe",
+            "The African elephant"
+          ],
+          "explanation": "Blue whales grow up to 30 metres long and weigh more than 150 tonnes. That makes them heavier than any dinosaur we know of."
+        }
+      }
     },
     {
       "id": "animals-0007",
@@ -122,17 +206,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welches Landtier ist am schnellsten?",
-      "answers": [
-        "Der Gepard",
-        "Der Windhund",
-        "Das Rennpferd",
-        "Der Löwe"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Ein Gepard schafft auf kurzen Strecken rund 100 Kilometer pro Stunde. Lange hält er das Tempo aber nicht durch, nach wenigen hundert Metern ist er erschöpft.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Landtier ist am schnellsten?",
+          "answers": [
+            "Der Gepard",
+            "Der Windhund",
+            "Das Rennpferd",
+            "Der Löwe"
+          ],
+          "explanation": "Ein Gepard schafft auf kurzen Strecken rund 100 Kilometer pro Stunde. Lange hält er das Tempo aber nicht durch, nach wenigen hundert Metern ist er erschöpft."
+        },
+        "en": {
+          "title": "Which land animal is the fastest?",
+          "answers": [
+            "The cheetah",
+            "The greyhound",
+            "The racehorse",
+            "The lion"
+          ],
+          "explanation": "Over short distances a cheetah reaches about 100 kilometres per hour. But it can't keep up the speed for long – after a few hundred metres it is exhausted."
+        }
+      }
     },
     {
       "id": "animals-0008",
@@ -141,17 +239,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum verschlafen manche Tiere den Winter?",
-      "answers": [
-        "Weil sie im Sommer zu viel laufen",
-        "Im Winter finden sie kaum Nahrung",
-        "Damit ihr Fell nachwächst",
-        "Weil es zu dunkel ist"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Igel, Murmeltiere und Siebenschläfer fahren Herzschlag und Körpertemperatur stark herunter. So reicht das Fettpolster, das sie sich im Herbst angefressen haben, bis zum Frühling.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum verschlafen manche Tiere den Winter?",
+          "answers": [
+            "Weil sie im Sommer zu viel laufen",
+            "Im Winter finden sie kaum Nahrung",
+            "Damit ihr Fell nachwächst",
+            "Weil es zu dunkel ist"
+          ],
+          "explanation": "Igel, Murmeltiere und Siebenschläfer fahren Herzschlag und Körpertemperatur stark herunter. So reicht das Fettpolster, das sie sich im Herbst angefressen haben, bis zum Frühling."
+        },
+        "en": {
+          "title": "Why do some animals sleep through the winter?",
+          "answers": [
+            "Because they run too much in summer",
+            "They can hardly find food in winter",
+            "So their fur grows back",
+            "Because it is too dark"
+          ],
+          "explanation": "Hedgehogs, marmots and dormice turn their heartbeat and body temperature way down. That way the fat they ate in autumn lasts until spring."
+        }
+      }
     },
     {
       "id": "animals-0009",
@@ -160,17 +272,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum fliegen viele Vögel im Herbst nach Süden?",
-      "answers": [
-        "Weil ihre Federn ausfallen",
-        "Um dort Eier zu legen",
-        "Dort finden sie im Winter genug Futter",
-        "Weil der Wind sie dorthin trägt"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Viele Zugvögel fressen Insekten, und die gibt es bei uns im Winter kaum. Im Frühling kehren sie zurück, weil sie hier bei langen Tagen und viel Futter ihre Jungen aufziehen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum fliegen viele Vögel im Herbst nach Süden?",
+          "answers": [
+            "Weil ihre Federn ausfallen",
+            "Um dort Eier zu legen",
+            "Dort finden sie im Winter genug Futter",
+            "Weil der Wind sie dorthin trägt"
+          ],
+          "explanation": "Viele Zugvögel fressen Insekten, und die gibt es bei uns im Winter kaum. Im Frühling kehren sie zurück, weil sie hier bei langen Tagen und viel Futter ihre Jungen aufziehen."
+        },
+        "en": {
+          "title": "Why do many birds fly south in autumn?",
+          "answers": [
+            "Because their feathers fall out",
+            "To lay eggs there",
+            "They find enough food there in winter",
+            "Because the wind carries them there"
+          ],
+          "explanation": "Many migrating birds eat insects, and there are hardly any here in winter. They return in spring to raise their young here, with long days and plenty of food."
+        }
+      }
     },
     {
       "id": "animals-0010",
@@ -179,17 +305,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wie viele Beine hat eine Spinne?",
-      "answers": [
-        "Zwölf",
-        "Acht",
-        "Sechs",
-        "Zehn"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Spinnen haben acht Beine und gehören deshalb nicht zu den Insekten, die immer sechs Beine haben. Sie sind Spinnentiere, genau wie Skorpione und Zecken.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Beine hat eine Spinne?",
+          "answers": [
+            "Zwölf",
+            "Acht",
+            "Sechs",
+            "Zehn"
+          ],
+          "explanation": "Spinnen haben acht Beine und gehören deshalb nicht zu den Insekten, die immer sechs Beine haben. Sie sind Spinnentiere, genau wie Skorpione und Zecken."
+        },
+        "en": {
+          "title": "How many legs does a spider have?",
+          "answers": [
+            "Twelve",
+            "Eight",
+            "Six",
+            "Ten"
+          ],
+          "explanation": "Spiders have eight legs, so they are not insects, which always have six. They are arachnids, just like scorpions and ticks."
+        }
+      }
     },
     {
       "id": "animals-0011",
@@ -198,17 +338,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Was speichern Kamele in ihrem Höcker?",
-      "answers": [
-        "Fett",
-        "Muskeln zum Laufen",
-        "Luft",
-        "Wasser"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Viele glauben, im Höcker sei Wasser. Tatsächlich ist es Fett, von dem das Kamel zehren kann, wenn es wenig Futter findet. Weil das Fett im Höcker sitzt statt überall unter der Haut, kann der übrige Körper Wärme besser abgeben.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was speichern Kamele in ihrem Höcker?",
+          "answers": [
+            "Fett",
+            "Muskeln zum Laufen",
+            "Luft",
+            "Wasser"
+          ],
+          "explanation": "Viele glauben, im Höcker sei Wasser. Tatsächlich ist es Fett, von dem das Kamel zehren kann, wenn es wenig Futter findet. Weil das Fett im Höcker sitzt statt überall unter der Haut, kann der übrige Körper Wärme besser abgeben."
+        },
+        "en": {
+          "title": "What do camels store in their hump?",
+          "answers": [
+            "Fat",
+            "Muscles for running",
+            "Air",
+            "Water"
+          ],
+          "explanation": "Many people think the hump holds water. In fact it is fat that the camel can live on when it finds little food. Because the fat sits in the hump instead of all over under the skin, the rest of the body can lose heat more easily."
+        }
+      }
     },
     {
       "id": "animals-0012",
@@ -217,17 +371,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie hält sich ein Eisbär warm?",
-      "answers": [
-        "Sein Blut ist wärmer als das anderer Tiere",
-        "Er meidet kaltes Wasser",
-        "Er zittert ununterbrochen",
-        "Mit einer dicken Fettschicht und dichtem Fell"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Unter dem Fell liegt eine bis zu zehn Zentimeter dicke Fettschicht. Dazu kommen dichte Unterwolle und lange Deckhaare. Eisbären sind so gut isoliert, dass sie eher überhitzen als frieren.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie hält sich ein Eisbär warm?",
+          "answers": [
+            "Sein Blut ist wärmer als das anderer Tiere",
+            "Er meidet kaltes Wasser",
+            "Er zittert ununterbrochen",
+            "Mit einer dicken Fettschicht und dichtem Fell"
+          ],
+          "explanation": "Unter dem Fell liegt eine bis zu zehn Zentimeter dicke Fettschicht. Dazu kommen dichte Unterwolle und lange Deckhaare. Eisbären sind so gut isoliert, dass sie eher überhitzen als frieren."
+        },
+        "en": {
+          "title": "How does a polar bear keep warm?",
+          "answers": [
+            "Its blood is warmer than other animals'",
+            "It avoids cold water",
+            "It shivers all the time",
+            "With a thick layer of fat and dense fur"
+          ],
+          "explanation": "Under its fur lies a layer of fat up to ten centimetres thick. On top come dense underfur and long guard hairs. Polar bears are so well insulated that they are more likely to overheat than to freeze."
+        }
+      }
     },
     {
       "id": "animals-0013",
@@ -236,17 +404,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie finden Fledermäuse im Dunkeln ihren Weg?",
-      "answers": [
-        "Mit dem Echo ihrer Rufe",
-        "Sie sehen Wärme",
-        "Sie folgen dem Mondlicht",
-        "Sie riechen Hindernisse"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Fledermäuse stoßen sehr hohe Rufe aus, die wir nicht hören. Aus dem Echo erkennen sie Hindernisse und sogar winzige Insekten. Das nennt man Echoortung.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie finden Fledermäuse im Dunkeln ihren Weg?",
+          "answers": [
+            "Mit dem Echo ihrer Rufe",
+            "Sie sehen Wärme",
+            "Sie folgen dem Mondlicht",
+            "Sie riechen Hindernisse"
+          ],
+          "explanation": "Fledermäuse stoßen sehr hohe Rufe aus, die wir nicht hören. Aus dem Echo erkennen sie Hindernisse und sogar winzige Insekten. Das nennt man Echoortung."
+        },
+        "en": {
+          "title": "How do bats find their way in the dark?",
+          "answers": [
+            "With the echo of their calls",
+            "They see heat",
+            "They follow the moonlight",
+            "They smell obstacles"
+          ],
+          "explanation": "Bats make very high calls that we can't hear. From the echo they recognise obstacles and even tiny insects. This is called echolocation."
+        }
+      }
     },
     {
       "id": "animals-0014",
@@ -255,17 +437,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum schnüffeln Hunde so viel?",
-      "answers": [
-        "Weil ihre Nase juckt",
-        "Sie suchen immer nach Futter",
-        "Sie sehen im Hellen schlecht",
-        "Die Nase ist ihr wichtigster Sinn"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Eine Hundenase hat viele Millionen Riechzellen mehr als unsere. Beim Schnüffeln erfahren Hunde, wer vorbeigekommen ist und wie lange das ungefähr her ist.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum schnüffeln Hunde so viel?",
+          "answers": [
+            "Weil ihre Nase juckt",
+            "Sie suchen immer nach Futter",
+            "Sie sehen im Hellen schlecht",
+            "Die Nase ist ihr wichtigster Sinn"
+          ],
+          "explanation": "Eine Hundenase hat viele Millionen Riechzellen mehr als unsere. Beim Schnüffeln erfahren Hunde, wer vorbeigekommen ist und wie lange das ungefähr her ist."
+        },
+        "en": {
+          "title": "Why do dogs sniff so much?",
+          "answers": [
+            "Because their nose itches",
+            "They are always looking for food",
+            "They see badly in daylight",
+            "Their nose is their most important sense"
+          ],
+          "explanation": "A dog's nose has many millions more smell cells than ours. By sniffing, dogs find out who passed by and roughly how long ago."
+        }
+      }
     },
     {
       "id": "animals-0015",
@@ -274,17 +470,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wozu haben Katzen Schnurrhaare?",
-      "answers": [
-        "Nur zur Zierde",
-        "Zum Tasten",
-        "Zum Hören",
-        "Zum Schmecken"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Schnurrhaare sind sehr empfindliche Tasthaare. Mit ihnen spüren Katzen kleinste Luftbewegungen und merken auch im Dunkeln, ob sie durch eine enge Lücke passen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu haben Katzen Schnurrhaare?",
+          "answers": [
+            "Nur zur Zierde",
+            "Zum Tasten",
+            "Zum Hören",
+            "Zum Schmecken"
+          ],
+          "explanation": "Schnurrhaare sind sehr empfindliche Tasthaare. Mit ihnen spüren Katzen kleinste Luftbewegungen und merken auch im Dunkeln, ob sie durch eine enge Lücke passen."
+        },
+        "en": {
+          "title": "What do cats use their whiskers for?",
+          "answers": [
+            "Just for decoration",
+            "Feeling things",
+            "Hearing",
+            "Tasting"
+          ],
+          "explanation": "Whiskers are very sensitive touch hairs. With them, cats feel the tiniest air movements and can tell even in the dark whether they fit through a narrow gap."
+        }
+      }
     },
     {
       "id": "animals-0016",
@@ -293,17 +503,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie atmen Wale?",
-      "answers": [
-        "Mit Lungen, dafür tauchen sie auf",
-        "Mit Kiemen wie Fische",
-        "Sie atmen gar nicht",
-        "Durch die Haut"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Wale sind Säugetiere. Sie holen an der Oberfläche durch das Blasloch auf dem Kopf Luft. Manche Wale können danach über eine Stunde tauchen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie atmen Wale?",
+          "answers": [
+            "Mit Lungen, dafür tauchen sie auf",
+            "Mit Kiemen wie Fische",
+            "Sie atmen gar nicht",
+            "Durch die Haut"
+          ],
+          "explanation": "Wale sind Säugetiere. Sie holen an der Oberfläche durch das Blasloch auf dem Kopf Luft. Manche Wale können danach über eine Stunde tauchen."
+        },
+        "en": {
+          "title": "How do whales breathe?",
+          "answers": [
+            "With lungs – they come up to the surface for it",
+            "With gills like fish",
+            "They don't breathe at all",
+            "Through their skin"
+          ],
+          "explanation": "Whales are mammals. They take in air at the surface through the blowhole on their head. Some whales can then dive for more than an hour."
+        }
+      }
     },
     {
       "id": "animals-0017",
@@ -312,17 +536,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum laufen Ameisen oft hintereinander her?",
-      "answers": [
-        "Sie sehen den Weg sehr genau",
-        "Sie halten sich an den Beinen fest",
-        "Sie folgen einer Duftspur",
-        "Die Königin ruft sie"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Hat eine Ameise Futter gefunden, legt sie auf dem Rückweg eine Duftspur. Andere Ameisen folgen ihr und verstärken die Spur, so entsteht eine regelrechte Ameisenstraße.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum laufen Ameisen oft hintereinander her?",
+          "answers": [
+            "Sie sehen den Weg sehr genau",
+            "Sie halten sich an den Beinen fest",
+            "Sie folgen einer Duftspur",
+            "Die Königin ruft sie"
+          ],
+          "explanation": "Hat eine Ameise Futter gefunden, legt sie auf dem Rückweg eine Duftspur. Andere Ameisen folgen ihr und verstärken die Spur, so entsteht eine regelrechte Ameisenstraße."
+        },
+        "en": {
+          "title": "Why do ants often walk in a line?",
+          "answers": [
+            "They can see the way very clearly",
+            "They hold on to each other's legs",
+            "They follow a scent trail",
+            "The queen calls them"
+          ],
+          "explanation": "When an ant has found food, it leaves a scent trail on the way back. Other ants follow it and make the trail stronger – that's how a real ant road forms."
+        }
+      }
     },
     {
       "id": "animals-0018",
@@ -331,17 +569,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum wedelt ein Hund mit dem Schwanz?",
-      "answers": [
-        "Er zeigt damit seine Stimmung",
-        "Er kühlt sich damit ab",
-        "Er vertreibt Fliegen",
-        "Er hält so das Gleichgewicht"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Schwanzwedeln heißt nicht immer Freude. Locker und breit ist meist freundlich, steif und hoch kann Aufregung oder Warnung bedeuten. Hunde nutzen den Schwanz, um sich mit anderen zu verständigen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum wedelt ein Hund mit dem Schwanz?",
+          "answers": [
+            "Er zeigt damit seine Stimmung",
+            "Er kühlt sich damit ab",
+            "Er vertreibt Fliegen",
+            "Er hält so das Gleichgewicht"
+          ],
+          "explanation": "Schwanzwedeln heißt nicht immer Freude. Locker und breit ist meist freundlich, steif und hoch kann Aufregung oder Warnung bedeuten. Hunde nutzen den Schwanz, um sich mit anderen zu verständigen."
+        },
+        "en": {
+          "title": "Why does a dog wag its tail?",
+          "answers": [
+            "To show its mood",
+            "To cool down",
+            "To chase away flies",
+            "To keep its balance"
+          ],
+          "explanation": "Tail wagging doesn't always mean joy. Loose and wide is usually friendly, stiff and high can mean excitement or a warning. Dogs use their tail to talk to others."
+        }
+      }
     },
     {
       "id": "animals-0019",
@@ -350,17 +602,31 @@
       "order": 11,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welcher Vogel legt die größten Eier?",
-      "answers": [
-        "Der Schwan",
-        "Der Adler",
-        "Der Pinguin",
-        "Der Strauß"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Ein Straußenei wiegt rund anderthalb Kilogramm, so viel wie etwa 25 Hühnereier. Die Schale ist so dick, dass ein Erwachsener darauf stehen kann.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Vogel legt die größten Eier?",
+          "answers": [
+            "Der Schwan",
+            "Der Adler",
+            "Der Pinguin",
+            "Der Strauß"
+          ],
+          "explanation": "Ein Straußenei wiegt rund anderthalb Kilogramm, so viel wie etwa 25 Hühnereier. Die Schale ist so dick, dass ein Erwachsener darauf stehen kann."
+        },
+        "en": {
+          "title": "Which bird lays the biggest eggs?",
+          "answers": [
+            "The swan",
+            "The eagle",
+            "The penguin",
+            "The ostrich"
+          ],
+          "explanation": "An ostrich egg weighs about one and a half kilograms, as much as about 25 hen's eggs. The shell is so thick that an adult can stand on it."
+        }
+      }
     },
     {
       "id": "animals-0020",
@@ -369,17 +635,31 @@
       "order": 12,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wozu haben Igel Stacheln?",
-      "answers": [
-        "Um Äpfel zu tragen",
-        "Um Nester zu bauen",
-        "Um sich warmzuhalten",
-        "Zum Schutz vor Feinden"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Bei Gefahr rollt sich der Igel zu einer Stachelkugel zusammen. Dass Igel Äpfel auf ihren Stacheln tragen, ist übrigens ein Märchen: Sie fressen vor allem Käfer, Würmer und Schnecken.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu haben Igel Stacheln?",
+          "answers": [
+            "Um Äpfel zu tragen",
+            "Um Nester zu bauen",
+            "Um sich warmzuhalten",
+            "Zum Schutz vor Feinden"
+          ],
+          "explanation": "Bei Gefahr rollt sich der Igel zu einer Stachelkugel zusammen. Dass Igel Äpfel auf ihren Stacheln tragen, ist übrigens ein Märchen: Sie fressen vor allem Käfer, Würmer und Schnecken."
+        },
+        "en": {
+          "title": "Why do hedgehogs have spines?",
+          "answers": [
+            "To carry apples",
+            "To build nests",
+            "To keep warm",
+            "To protect themselves from enemies"
+          ],
+          "explanation": "When in danger, a hedgehog rolls up into a spiky ball. By the way, hedgehogs carrying apples on their spines is a fairy tale: they mostly eat beetles, worms and snails."
+        }
+      }
     },
     {
       "id": "animals-0021",
@@ -388,17 +668,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wie viele Beine hat ein Insekt?",
-      "answers": [
-        "Acht",
-        "Vier",
-        "Zehn",
-        "Sechs"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Alle Insekten haben sechs Beine – Käfer, Ameisen und Schmetterlinge genauso. Spinnen haben acht und gehören deshalb nicht dazu.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Beine hat ein Insekt?",
+          "answers": [
+            "Acht",
+            "Vier",
+            "Zehn",
+            "Sechs"
+          ],
+          "explanation": "Alle Insekten haben sechs Beine – Käfer, Ameisen und Schmetterlinge genauso. Spinnen haben acht und gehören deshalb nicht dazu."
+        },
+        "en": {
+          "title": "How many legs does an insect have?",
+          "answers": [
+            "Eight",
+            "Four",
+            "Ten",
+            "Six"
+          ],
+          "explanation": "All insects have six legs – beetles, ants and butterflies alike. Spiders have eight, so they don't belong to this group."
+        }
+      }
     },
     {
       "id": "animals-0022",
@@ -407,17 +701,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was wird aus einer Raupe?",
-      "answers": [
-        "Ein Regenwurm",
-        "Ein Schmetterling",
-        "Eine Spinne",
-        "Eine Biene"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Die Raupe frisst sich satt, verpuppt sich und baut in der Puppe ihren ganzen Körper um. Heraus schlüpft ein Schmetterling.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was wird aus einer Raupe?",
+          "answers": [
+            "Ein Regenwurm",
+            "Ein Schmetterling",
+            "Eine Spinne",
+            "Eine Biene"
+          ],
+          "explanation": "Die Raupe frisst sich satt, verpuppt sich und baut in der Puppe ihren ganzen Körper um. Heraus schlüpft ein Schmetterling."
+        },
+        "en": {
+          "title": "What does a caterpillar turn into?",
+          "answers": [
+            "An earthworm",
+            "A butterfly",
+            "A spider",
+            "A bee"
+          ],
+          "explanation": "The caterpillar eats its fill, becomes a pupa and rebuilds its whole body inside it. Out comes a butterfly."
+        }
+      }
     },
     {
       "id": "animals-0023",
@@ -426,17 +734,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was wird aus einer Kaulquappe?",
-      "answers": [
-        "Ein Frosch",
-        "Eine Schildkröte",
-        "Ein Fisch",
-        "Eine Libelle"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Kaulquappen leben im Wasser und atmen mit Kiemen. Nach und nach wachsen ihnen Beine, der Schwanz verschwindet, und aus ihnen werden Frösche, die an Land gehen können.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was wird aus einer Kaulquappe?",
+          "answers": [
+            "Ein Frosch",
+            "Eine Schildkröte",
+            "Ein Fisch",
+            "Eine Libelle"
+          ],
+          "explanation": "Kaulquappen leben im Wasser und atmen mit Kiemen. Nach und nach wachsen ihnen Beine, der Schwanz verschwindet, und aus ihnen werden Frösche, die an Land gehen können."
+        },
+        "en": {
+          "title": "What does a tadpole turn into?",
+          "answers": [
+            "A frog",
+            "A turtle",
+            "A fish",
+            "A dragonfly"
+          ],
+          "explanation": "Tadpoles live in water and breathe with gills. Little by little they grow legs, the tail disappears, and they become frogs that can go on land."
+        }
+      }
     },
     {
       "id": "animals-0024",
@@ -445,17 +767,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wo leben Pinguine in freier Natur?",
-      "answers": [
-        "In der Sahara",
-        "Am Nordpol",
-        "In Europas Wäldern",
-        "Auf der Südhalbkugel"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Alle wilden Pinguine leben südlich des Äquators, viele in der Antarktis, manche auch in Südafrika oder Südamerika. Am Nordpol gibt es keine – dort leben dafür Eisbären.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wo leben Pinguine in freier Natur?",
+          "answers": [
+            "In der Sahara",
+            "Am Nordpol",
+            "In Europas Wäldern",
+            "Auf der Südhalbkugel"
+          ],
+          "explanation": "Alle wilden Pinguine leben südlich des Äquators, viele in der Antarktis, manche auch in Südafrika oder Südamerika. Am Nordpol gibt es keine – dort leben dafür Eisbären."
+        },
+        "en": {
+          "title": "Where do penguins live in the wild?",
+          "answers": [
+            "In the Sahara",
+            "At the North Pole",
+            "In Europe's forests",
+            "In the southern hemisphere"
+          ],
+          "explanation": "All wild penguins live south of the equator, many in Antarctica, some in South Africa or South America. There are none at the North Pole – polar bears live there instead."
+        }
+      }
     },
     {
       "id": "animals-0025",
@@ -464,17 +800,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wozu baut ein Biber Dämme?",
-      "answers": [
-        "Um Fische zu fangen",
-        "Um Holz zu trocknen",
-        "Damit der Eingang seiner Burg unter Wasser liegt",
-        "Um darin zu schwimmen zu lernen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Biber staut den Bach, bis der Eingang zu seiner Burg unter Wasser liegt. So kommen Feinde wie der Fuchs nicht hinein.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu baut ein Biber Dämme?",
+          "answers": [
+            "Um Fische zu fangen",
+            "Um Holz zu trocknen",
+            "Damit der Eingang seiner Burg unter Wasser liegt",
+            "Um darin zu schwimmen zu lernen"
+          ],
+          "explanation": "Der Biber staut den Bach, bis der Eingang zu seiner Burg unter Wasser liegt. So kommen Feinde wie der Fuchs nicht hinein."
+        },
+        "en": {
+          "title": "Why does a beaver build dams?",
+          "answers": [
+            "To catch fish",
+            "To dry wood",
+            "So the entrance to its lodge is under water",
+            "To learn to swim in it"
+          ],
+          "explanation": "The beaver dams the stream until the entrance to its lodge is under water. That keeps enemies like the fox out."
+        }
+      }
     },
     {
       "id": "animals-0026",
@@ -483,17 +833,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Warum sammeln Eichhörnchen im Herbst Nüsse?",
-      "answers": [
-        "Sie legen Vorräte für den Winter an",
-        "Sie verschenken sie",
-        "Sie spielen damit Fangen",
-        "Sie bauen damit ihr Nest"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Eichhörnchen verstecken Nüsse an vielen Stellen. Nicht alle finden sie wieder – aus den vergessenen wachsen manchmal neue Bäume.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum sammeln Eichhörnchen im Herbst Nüsse?",
+          "answers": [
+            "Sie legen Vorräte für den Winter an",
+            "Sie verschenken sie",
+            "Sie spielen damit Fangen",
+            "Sie bauen damit ihr Nest"
+          ],
+          "explanation": "Eichhörnchen verstecken Nüsse an vielen Stellen. Nicht alle finden sie wieder – aus den vergessenen wachsen manchmal neue Bäume."
+        },
+        "en": {
+          "title": "Why do squirrels collect nuts in autumn?",
+          "answers": [
+            "They store food for the winter",
+            "They give them away",
+            "They play catch with them",
+            "They build their nest with them"
+          ],
+          "explanation": "Squirrels hide nuts in lots of places. They don't find them all again – sometimes new trees grow from the forgotten ones."
+        }
+      }
     },
     {
       "id": "animals-0027",
@@ -502,17 +866,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Warum spinnen viele Spinnen Netze?",
-      "answers": [
-        "Als Bett zum Schlafen",
-        "Um sich zu wärmen",
-        "Als Regenschirm",
-        "Um Beute zu fangen"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Das klebrige Netz ist eine Falle für Fliegen und Mücken. Spürt die Spinne das Zappeln, eilt sie herbei.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum spinnen viele Spinnen Netze?",
+          "answers": [
+            "Als Bett zum Schlafen",
+            "Um sich zu wärmen",
+            "Als Regenschirm",
+            "Um Beute zu fangen"
+          ],
+          "explanation": "Das klebrige Netz ist eine Falle für Fliegen und Mücken. Spürt die Spinne das Zappeln, eilt sie herbei."
+        },
+        "en": {
+          "title": "Why do many spiders spin webs?",
+          "answers": [
+            "As a bed to sleep in",
+            "To keep warm",
+            "As an umbrella",
+            "To catch prey"
+          ],
+          "explanation": "The sticky web is a trap for flies and mosquitoes. When the spider feels the wriggling, it rushes over."
+        }
+      }
     },
     {
       "id": "animals-0028",
@@ -521,17 +899,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie zeigen Bienen den anderen, wo es Blüten gibt?",
-      "answers": [
-        "Sie bringen ein Blatt mit",
-        "Sie tanzen",
-        "Sie malen eine Karte",
-        "Sie summen ein Lied"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Mit dem Schwänzeltanz zeigt eine Biene den anderen Richtung und Entfernung einer Futterquelle. Die Richtung beim Tanzen bezieht sich auf den Stand der Sonne.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie zeigen Bienen den anderen, wo es Blüten gibt?",
+          "answers": [
+            "Sie bringen ein Blatt mit",
+            "Sie tanzen",
+            "Sie malen eine Karte",
+            "Sie summen ein Lied"
+          ],
+          "explanation": "Mit dem Schwänzeltanz zeigt eine Biene den anderen Richtung und Entfernung einer Futterquelle. Die Richtung beim Tanzen bezieht sich auf den Stand der Sonne."
+        },
+        "en": {
+          "title": "How do bees show the others where to find flowers?",
+          "answers": [
+            "They bring back a leaf",
+            "They dance",
+            "They draw a map",
+            "They hum a song"
+          ],
+          "explanation": "With the waggle dance, a bee shows the others the direction and distance of a food source. The direction of the dance relates to the position of the sun."
+        }
+      }
     },
     {
       "id": "animals-0029",
@@ -540,17 +932,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum legt der Kuckuck seine Eier in fremde Nester?",
-      "answers": [
-        "Andere Vögel sollen seine Küken großziehen",
-        "Er verwechselt die Nester",
-        "Damit die Eier wärmer liegen",
-        "Sein eigenes Nest ist zu klein"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Der Kuckuck baut kein eigenes Nest. Seine Eier sehen denen der Gastvögel ähnlich, und die Pflegeeltern füttern das fremde Küken, als wäre es ihr eigenes.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum legt der Kuckuck seine Eier in fremde Nester?",
+          "answers": [
+            "Andere Vögel sollen seine Küken großziehen",
+            "Er verwechselt die Nester",
+            "Damit die Eier wärmer liegen",
+            "Sein eigenes Nest ist zu klein"
+          ],
+          "explanation": "Der Kuckuck baut kein eigenes Nest. Seine Eier sehen denen der Gastvögel ähnlich, und die Pflegeeltern füttern das fremde Küken, als wäre es ihr eigenes."
+        },
+        "en": {
+          "title": "Why does the cuckoo lay its eggs in other birds' nests?",
+          "answers": [
+            "Other birds are meant to raise its chicks",
+            "It mixes up the nests",
+            "So the eggs stay warmer",
+            "Its own nest is too small"
+          ],
+          "explanation": "The cuckoo doesn't build its own nest. Its eggs look like those of the host birds, and the foster parents feed the strange chick as if it were their own."
+        }
+      }
     },
     {
       "id": "animals-0030",
@@ -559,17 +965,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Womit riechen Schlangen?",
-      "answers": [
-        "Mit den Schuppen",
-        "Mit der Schwanzspitze",
-        "Mit den Augen",
-        "Mit ihrer Zunge"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Die gespaltene Zunge sammelt Duftteilchen aus der Luft und bringt sie zu einem Sinnesorgan im Gaumen. So riecht die Schlange sogar, aus welcher Richtung ein Duft kommt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Womit riechen Schlangen?",
+          "answers": [
+            "Mit den Schuppen",
+            "Mit der Schwanzspitze",
+            "Mit den Augen",
+            "Mit ihrer Zunge"
+          ],
+          "explanation": "Die gespaltene Zunge sammelt Duftteilchen aus der Luft und bringt sie zu einem Sinnesorgan im Gaumen. So riecht die Schlange sogar, aus welcher Richtung ein Duft kommt."
+        },
+        "en": {
+          "title": "What do snakes smell with?",
+          "answers": [
+            "Their scales",
+            "The tip of their tail",
+            "Their eyes",
+            "Their tongue"
+          ],
+          "explanation": "The forked tongue collects scent particles from the air and brings them to a sense organ in the roof of the mouth. The snake can even smell which direction a scent comes from."
+        }
+      }
     },
     {
       "id": "animals-0031",
@@ -578,17 +998,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum haben Eulen so große Augen?",
-      "answers": [
-        "Um Feinde zu blenden",
-        "Damit sie in der Dämmerung viel Licht einfangen",
-        "Damit sie größer wirken",
-        "Weil sie kurzsichtig sind"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Eulen jagen vor allem in der Dämmerung und nachts. Große Augen lassen viel Licht hinein, so sehen sie auch bei wenig Licht noch gut.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum haben Eulen so große Augen?",
+          "answers": [
+            "Um Feinde zu blenden",
+            "Damit sie in der Dämmerung viel Licht einfangen",
+            "Damit sie größer wirken",
+            "Weil sie kurzsichtig sind"
+          ],
+          "explanation": "Eulen jagen vor allem in der Dämmerung und nachts. Große Augen lassen viel Licht hinein, so sehen sie auch bei wenig Licht noch gut."
+        },
+        "en": {
+          "title": "Why do owls have such big eyes?",
+          "answers": [
+            "To dazzle enemies",
+            "To catch lots of light at dusk",
+            "To look bigger",
+            "Because they are short-sighted"
+          ],
+          "explanation": "Owls mostly hunt at dusk and at night. Big eyes let in lots of light, so they can still see well when there is little of it."
+        }
+      }
     },
     {
       "id": "animals-0032",
@@ -597,17 +1031,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum können Eulen ihren Kopf so weit drehen?",
-      "answers": [
-        "Ihr Kopf ist nur locker befestigt",
-        "Sie haben keinen Hals",
-        "Ihre Augen sind starr und können sich nicht bewegen",
-        "Sie haben zwei Hälse"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Eulenaugen sind röhrenförmig und fest im Schädel. Um sich umzusehen, dreht die Eule stattdessen den Kopf – bis zu etwa 270 Grad.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum können Eulen ihren Kopf so weit drehen?",
+          "answers": [
+            "Ihr Kopf ist nur locker befestigt",
+            "Sie haben keinen Hals",
+            "Ihre Augen sind starr und können sich nicht bewegen",
+            "Sie haben zwei Hälse"
+          ],
+          "explanation": "Eulenaugen sind röhrenförmig und fest im Schädel. Um sich umzusehen, dreht die Eule stattdessen den Kopf – bis zu etwa 270 Grad."
+        },
+        "en": {
+          "title": "Why can owls turn their heads so far?",
+          "answers": [
+            "Their head is only loosely attached",
+            "They have no neck",
+            "Their eyes are fixed and can't move",
+            "They have two necks"
+          ],
+          "explanation": "Owl eyes are tube-shaped and fixed in the skull. To look around, the owl turns its head instead – up to about 270 degrees."
+        }
+      }
     },
     {
       "id": "animals-0033",
@@ -616,17 +1064,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum schnurren Katzen?",
-      "answers": [
-        "Weil sie erkältet sind",
-        "Um Mäuse anzulocken",
-        "Meist, weil sie sich wohlfühlen",
-        "Weil sie schnarchen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Katzen schnurren vor allem, wenn sie entspannt sind. Manchmal schnurren sie aber auch, um sich selbst zu beruhigen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum schnurren Katzen?",
+          "answers": [
+            "Weil sie erkältet sind",
+            "Um Mäuse anzulocken",
+            "Meist, weil sie sich wohlfühlen",
+            "Weil sie schnarchen"
+          ],
+          "explanation": "Katzen schnurren vor allem, wenn sie entspannt sind. Manchmal schnurren sie aber auch, um sich selbst zu beruhigen."
+        },
+        "en": {
+          "title": "Why do cats purr?",
+          "answers": [
+            "Because they have a cold",
+            "To lure mice",
+            "Usually because they feel good",
+            "Because they snore"
+          ],
+          "explanation": "Cats mainly purr when they are relaxed. But sometimes they also purr to calm themselves down."
+        }
+      }
     },
     {
       "id": "animals-0034",
@@ -635,17 +1097,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was fressen Kaninchen am liebsten?",
-      "answers": [
-        "Heu, Gras und Gemüse",
-        "Schokolade",
-        "Fleisch",
-        "Brot mit Wurst"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Kaninchen sind Pflanzenfresser. Heu und frisches Grün halten ihre Verdauung in Schwung und nutzen die Zähne ab.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was fressen Kaninchen am liebsten?",
+          "answers": [
+            "Heu, Gras und Gemüse",
+            "Schokolade",
+            "Fleisch",
+            "Brot mit Wurst"
+          ],
+          "explanation": "Kaninchen sind Pflanzenfresser. Heu und frisches Grün halten ihre Verdauung in Schwung und nutzen die Zähne ab."
+        },
+        "en": {
+          "title": "What do rabbits like to eat most?",
+          "answers": [
+            "Hay, grass and vegetables",
+            "Chocolate",
+            "Meat",
+            "Bread with sausage"
+          ],
+          "explanation": "Rabbits are plant eaters. Hay and fresh greens keep their digestion going and wear down their teeth."
+        }
+      }
     },
     {
       "id": "animals-0035",
@@ -654,17 +1130,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum nagen Kaninchen und Meerschweinchen so viel?",
-      "answers": [
-        "Sie langweilen sich",
-        "Ihre Zähne wachsen ein Leben lang nach",
-        "Sie bauen Höhlen",
-        "Sie suchen nach Wasser"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Die Schneidezähne dieser Tiere wachsen ständig nach. Durch Kauen und Nagen nutzen sie sich ab und bleiben so genau richtig lang.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum nagen Kaninchen und Meerschweinchen so viel?",
+          "answers": [
+            "Sie langweilen sich",
+            "Ihre Zähne wachsen ein Leben lang nach",
+            "Sie bauen Höhlen",
+            "Sie suchen nach Wasser"
+          ],
+          "explanation": "Die Schneidezähne dieser Tiere wachsen ständig nach. Durch Kauen und Nagen nutzen sie sich ab und bleiben so genau richtig lang."
+        },
+        "en": {
+          "title": "Why do rabbits and guinea pigs gnaw so much?",
+          "answers": [
+            "They are bored",
+            "Their teeth keep growing all their life",
+            "They are digging burrows",
+            "They are looking for water"
+          ],
+          "explanation": "The front teeth of these animals never stop growing. Chewing and gnawing wears them down so they stay just the right length."
+        }
+      }
     },
     {
       "id": "animals-0036",
@@ -673,17 +1163,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Welches Tier hat den längsten Hals?",
-      "answers": [
-        "Der Schwan",
-        "Das Kamel",
-        "Die Giraffe",
-        "Der Strauß"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Hals einer Giraffe kann über zwei Meter lang sein. Erstaunlich: Er hat trotzdem nur sieben Halswirbel, genau wie unserer.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Tier hat den längsten Hals?",
+          "answers": [
+            "Der Schwan",
+            "Das Kamel",
+            "Die Giraffe",
+            "Der Strauß"
+          ],
+          "explanation": "Der Hals einer Giraffe kann über zwei Meter lang sein. Erstaunlich: Er hat trotzdem nur sieben Halswirbel, genau wie unserer."
+        },
+        "en": {
+          "title": "Which animal has the longest neck?",
+          "answers": [
+            "The swan",
+            "The camel",
+            "The giraffe",
+            "The ostrich"
+          ],
+          "explanation": "A giraffe's neck can be more than two metres long. Amazingly, it still has only seven neck bones, just like ours."
+        }
+      }
     },
     {
       "id": "animals-0037",
@@ -692,17 +1196,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welches ist das größte Landtier?",
-      "answers": [
-        "Das Nashorn",
-        "Der Afrikanische Elefant",
-        "Die Giraffe",
-        "Das Flusspferd"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Afrikanische Elefanten können über sechs Tonnen wiegen. Die Giraffe ist zwar höher, aber viel leichter.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches ist das größte Landtier?",
+          "answers": [
+            "Das Nashorn",
+            "Der Afrikanische Elefant",
+            "Die Giraffe",
+            "Das Flusspferd"
+          ],
+          "explanation": "Afrikanische Elefanten können über sechs Tonnen wiegen. Die Giraffe ist zwar höher, aber viel leichter."
+        },
+        "en": {
+          "title": "What is the biggest land animal?",
+          "answers": [
+            "The rhinoceros",
+            "The African elephant",
+            "The giraffe",
+            "The hippopotamus"
+          ],
+          "explanation": "African elephants can weigh more than six tonnes. The giraffe is taller, but much lighter."
+        }
+      }
     },
     {
       "id": "animals-0038",
@@ -711,17 +1229,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Welcher Vogel kann sogar rückwärts fliegen?",
-      "answers": [
-        "Der Kolibri",
-        "Der Adler",
-        "Der Spatz",
-        "Die Taube"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Kolibris schlagen ihre Flügel bis zu 80 Mal pro Sekunde. Damit können sie in der Luft stehen, um Nektar zu trinken, und sogar rückwärts fliegen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Vogel kann sogar rückwärts fliegen?",
+          "answers": [
+            "Der Kolibri",
+            "Der Adler",
+            "Der Spatz",
+            "Die Taube"
+          ],
+          "explanation": "Kolibris schlagen ihre Flügel bis zu 80 Mal pro Sekunde. Damit können sie in der Luft stehen, um Nektar zu trinken, und sogar rückwärts fliegen."
+        },
+        "en": {
+          "title": "Which bird can even fly backwards?",
+          "answers": [
+            "The hummingbird",
+            "The eagle",
+            "The sparrow",
+            "The pigeon"
+          ],
+          "explanation": "Hummingbirds beat their wings up to 80 times per second. That lets them hover in the air to drink nectar and even fly backwards."
+        }
+      }
     },
     {
       "id": "animals-0039",
@@ -730,17 +1262,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum haben Polarfüchse kleine Ohren?",
-      "answers": [
-        "Weil sie schlecht hören",
-        "Damit sie in enge Höhlen passen",
-        "Damit kein Schnee hineinfällt",
-        "So verlieren sie weniger Wärme"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Über große Ohren gibt ein Tier viel Wärme ab. Der Wüstenfuchs hat deshalb riesige Ohren zum Kühlen, der Polarfuchs dagegen kleine, gut eingepackte.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum haben Polarfüchse kleine Ohren?",
+          "answers": [
+            "Weil sie schlecht hören",
+            "Damit sie in enge Höhlen passen",
+            "Damit kein Schnee hineinfällt",
+            "So verlieren sie weniger Wärme"
+          ],
+          "explanation": "Über große Ohren gibt ein Tier viel Wärme ab. Der Wüstenfuchs hat deshalb riesige Ohren zum Kühlen, der Polarfuchs dagegen kleine, gut eingepackte."
+        },
+        "en": {
+          "title": "Why do arctic foxes have small ears?",
+          "answers": [
+            "Because they hear badly",
+            "So they fit into narrow dens",
+            "So no snow falls in",
+            "So they lose less heat"
+          ],
+          "explanation": "An animal loses a lot of heat through big ears. That's why the desert fox has huge ears to cool down, while the arctic fox has small, well-wrapped ones."
+        }
+      }
     },
     {
       "id": "animals-0040",
@@ -749,17 +1295,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wozu hat ein Elefant einen Rüssel?",
-      "answers": [
-        "Zum Atmen unter der Erde",
-        "Nur zum Trompeten",
-        "Zum Greifen, Trinken und Riechen",
-        "Zum Graben von Höhlen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Rüssel ist Nase und Oberlippe zugleich. Elefanten pflücken damit Blätter, saugen Wasser zum Trinken an und riechen Wasser aus großer Entfernung.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu hat ein Elefant einen Rüssel?",
+          "answers": [
+            "Zum Atmen unter der Erde",
+            "Nur zum Trompeten",
+            "Zum Greifen, Trinken und Riechen",
+            "Zum Graben von Höhlen"
+          ],
+          "explanation": "Der Rüssel ist Nase und Oberlippe zugleich. Elefanten pflücken damit Blätter, saugen Wasser zum Trinken an und riechen Wasser aus großer Entfernung."
+        },
+        "en": {
+          "title": "What does an elephant use its trunk for?",
+          "answers": [
+            "For breathing underground",
+            "Only for trumpeting",
+            "Grabbing, drinking and smelling",
+            "For digging caves"
+          ],
+          "explanation": "The trunk is nose and upper lip in one. Elephants use it to pick leaves, suck up water to drink and smell water from far away."
+        }
+      }
     },
     {
       "id": "animals-0041",
@@ -768,17 +1328,31 @@
       "order": 19,
       "difficulty": "HARD",
       "difficultyScore": 7,
-      "title": "Wie viele Herzen hat ein Oktopus?",
-      "answers": [
-        "Zwei",
-        "Eins",
-        "Drei",
-        "Acht"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Zwei Kiemenherzen pumpen das Blut durch die Kiemen, ein drittes Herz versorgt den restlichen Körper. Sein Blut ist übrigens blau, weil es Kupfer statt Eisen enthält.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Herzen hat ein Oktopus?",
+          "answers": [
+            "Zwei",
+            "Eins",
+            "Drei",
+            "Acht"
+          ],
+          "explanation": "Zwei Kiemenherzen pumpen das Blut durch die Kiemen, ein drittes Herz versorgt den restlichen Körper. Sein Blut ist übrigens blau, weil es Kupfer statt Eisen enthält."
+        },
+        "en": {
+          "title": "How many hearts does an octopus have?",
+          "answers": [
+            "Two",
+            "One",
+            "Three",
+            "Eight"
+          ],
+          "explanation": "Two gill hearts pump blood through the gills, and a third heart supplies the rest of the body. By the way, its blood is blue because it contains copper instead of iron."
+        }
+      }
     },
     {
       "id": "animals-0042",
@@ -787,17 +1361,31 @@
       "order": 8,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Zu welcher Tiergruppe gehören Wale?",
-      "answers": [
-        "Zu den Reptilien",
-        "Zu den Säugetieren",
-        "Zu den Amphibien",
-        "Zu den Fischen"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Wale atmen mit Lungen, bringen lebende Junge zur Welt und säugen sie mit Milch. Sie sehen zwar aus wie Fische, sind aber Säugetiere wie wir.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Zu welcher Tiergruppe gehören Wale?",
+          "answers": [
+            "Zu den Reptilien",
+            "Zu den Säugetieren",
+            "Zu den Amphibien",
+            "Zu den Fischen"
+          ],
+          "explanation": "Wale atmen mit Lungen, bringen lebende Junge zur Welt und säugen sie mit Milch. Sie sehen zwar aus wie Fische, sind aber Säugetiere wie wir."
+        },
+        "en": {
+          "title": "Which group of animals do whales belong to?",
+          "answers": [
+            "Reptiles",
+            "Mammals",
+            "Amphibians",
+            "Fish"
+          ],
+          "explanation": "Whales breathe with lungs, give birth to live young and feed them milk. They may look like fish, but they are mammals like us."
+        }
+      }
     },
     {
       "id": "animals-0043",
@@ -806,17 +1394,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum häuten sich Schlangen?",
-      "answers": [
-        "Weil ihnen zu warm ist",
-        "Um Feinde zu verwirren",
-        "Ihre Haut wächst nicht mit",
-        "Um sich zu verkleiden"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Die äußere Hautschicht einer Schlange wächst nicht mit. Wird sie zu eng, streift die Schlange sie in einem Stück ab – darunter ist schon eine neue.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum häuten sich Schlangen?",
+          "answers": [
+            "Weil ihnen zu warm ist",
+            "Um Feinde zu verwirren",
+            "Ihre Haut wächst nicht mit",
+            "Um sich zu verkleiden"
+          ],
+          "explanation": "Die äußere Hautschicht einer Schlange wächst nicht mit. Wird sie zu eng, streift die Schlange sie in einem Stück ab – darunter ist schon eine neue."
+        },
+        "en": {
+          "title": "Why do snakes shed their skin?",
+          "answers": [
+            "Because they are too warm",
+            "To confuse enemies",
+            "Their skin doesn't grow with them",
+            "To dress up"
+          ],
+          "explanation": "The outer layer of a snake's skin doesn't grow. When it gets too tight, the snake slips out of it in one piece – there is already a new one underneath."
+        }
+      }
     },
     {
       "id": "animals-0044",
@@ -825,17 +1427,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum sind Flamingos rosa?",
-      "answers": [
-        "Sie baden in rotem Schlamm",
-        "Durch Farbstoffe in ihrer Nahrung",
-        "Die Sonne färbt sie",
-        "Sie schlüpfen schon rosa"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Flamingos fressen kleine Krebse und Algen mit roten Farbstoffen. Diese lagern sich in den Federn ein. Junge Flamingos sind zuerst grau.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum sind Flamingos rosa?",
+          "answers": [
+            "Sie baden in rotem Schlamm",
+            "Durch Farbstoffe in ihrer Nahrung",
+            "Die Sonne färbt sie",
+            "Sie schlüpfen schon rosa"
+          ],
+          "explanation": "Flamingos fressen kleine Krebse und Algen mit roten Farbstoffen. Diese lagern sich in den Federn ein. Junge Flamingos sind zuerst grau."
+        },
+        "en": {
+          "title": "Why are flamingos pink?",
+          "answers": [
+            "They bathe in red mud",
+            "Because of colourings in their food",
+            "The sun colours them",
+            "They hatch pink"
+          ],
+          "explanation": "Flamingos eat small shrimps and algae with red colourings. These are stored in their feathers. Young flamingos are grey at first."
+        }
+      }
     },
     {
       "id": "animals-0045",
@@ -844,17 +1460,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum leben Wölfe im Rudel?",
-      "answers": [
-        "Gemeinsam jagen und verteidigen sie besser",
-        "Weil sie Angst im Dunkeln haben",
-        "Weil ihnen allein kalt ist",
-        "Weil sie nicht allein schlafen können"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Ein Rudel ist meist eine Familie. Zusammen können Wölfe große Beute wie Hirsche jagen und ihre Jungen beschützen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum leben Wölfe im Rudel?",
+          "answers": [
+            "Gemeinsam jagen und verteidigen sie besser",
+            "Weil sie Angst im Dunkeln haben",
+            "Weil ihnen allein kalt ist",
+            "Weil sie nicht allein schlafen können"
+          ],
+          "explanation": "Ein Rudel ist meist eine Familie. Zusammen können Wölfe große Beute wie Hirsche jagen und ihre Jungen beschützen."
+        },
+        "en": {
+          "title": "Why do wolves live in packs?",
+          "answers": [
+            "Together they hunt and defend better",
+            "Because they are afraid of the dark",
+            "Because they get cold alone",
+            "Because they can't sleep alone"
+          ],
+          "explanation": "A pack is usually a family. Together, wolves can hunt big prey like deer and protect their young."
+        }
+      }
     },
     {
       "id": "animals-0046",
@@ -863,17 +1493,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum plustern sich Vögel bei Kälte auf?",
-      "answers": [
-        "Sie wollen größer wirken",
-        "Sie wollen schlafen",
-        "Zwischen den Federn hält sich warme Luft",
-        "Sie trocknen ihr Gefieder"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Aufgeplusterte Federn halten eine dicke Schicht Luft fest. Die wärmt wie eine Daunenjacke – die ja auch mit Federn gefüllt ist.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum plustern sich Vögel bei Kälte auf?",
+          "answers": [
+            "Sie wollen größer wirken",
+            "Sie wollen schlafen",
+            "Zwischen den Federn hält sich warme Luft",
+            "Sie trocknen ihr Gefieder"
+          ],
+          "explanation": "Aufgeplusterte Federn halten eine dicke Schicht Luft fest. Die wärmt wie eine Daunenjacke – die ja auch mit Federn gefüllt ist."
+        },
+        "en": {
+          "title": "Why do birds fluff up their feathers when it's cold?",
+          "answers": [
+            "They want to look bigger",
+            "They want to sleep",
+            "Warm air is trapped between the feathers",
+            "They are drying their feathers"
+          ],
+          "explanation": "Fluffed-up feathers hold a thick layer of air. It keeps them warm like a down jacket – which is filled with feathers, after all."
+        }
+      }
     },
     {
       "id": "animals-0047",
@@ -882,17 +1526,31 @@
       "order": 18,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Warum ändert ein Chamäleon seine Farbe?",
-      "answers": [
-        "Weil es bunte Insekten frisst",
-        "Weil seine Haut alt wird",
-        "Vor allem, um Stimmung zu zeigen",
-        "Ausschließlich, um sich zu tarnen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Chamäleons haben Hautzellen mit winzigen Kristallen, deren Abstand sie verändern können. Damit zeigen sie vor allem ihre Stimmung, zum Beispiel gegenüber Rivalen, und regeln ihre Temperatur. Zur Tarnung dient eher ihre Grundfarbe.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ändert ein Chamäleon seine Farbe?",
+          "answers": [
+            "Weil es bunte Insekten frisst",
+            "Weil seine Haut alt wird",
+            "Vor allem, um Stimmung zu zeigen",
+            "Ausschließlich, um sich zu tarnen"
+          ],
+          "explanation": "Chamäleons haben Hautzellen mit winzigen Kristallen, deren Abstand sie verändern können. Damit zeigen sie vor allem ihre Stimmung, zum Beispiel gegenüber Rivalen, und regeln ihre Temperatur. Zur Tarnung dient eher ihre Grundfarbe."
+        },
+        "en": {
+          "title": "Why does a chameleon change colour?",
+          "answers": [
+            "Because it eats colourful insects",
+            "Because its skin gets old",
+            "Mostly to show its mood",
+            "Only to camouflage itself"
+          ],
+          "explanation": "Chameleons have skin cells with tiny crystals whose spacing they can change. They mainly use this to show their mood, for example towards rivals, and to control their temperature. Their basic colour is what really camouflages them."
+        }
+      }
     },
     {
       "id": "animals-0048",
@@ -901,17 +1559,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Was sehen Bienen, das wir nicht sehen können?",
-      "answers": [
-        "Wärme",
-        "Elektrischen Strom",
-        "Schall",
-        "Ultraviolettes Licht"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Bienen sehen UV-Licht. Viele Blüten haben UV-Muster, die wie Landebahnen zum Nektar führen. Rot dagegen können Bienen kaum erkennen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was sehen Bienen, das wir nicht sehen können?",
+          "answers": [
+            "Wärme",
+            "Elektrischen Strom",
+            "Schall",
+            "Ultraviolettes Licht"
+          ],
+          "explanation": "Bienen sehen UV-Licht. Viele Blüten haben UV-Muster, die wie Landebahnen zum Nektar führen. Rot dagegen können Bienen kaum erkennen."
+        },
+        "en": {
+          "title": "What can bees see that we can't?",
+          "answers": [
+            "Heat",
+            "Electric current",
+            "Sound",
+            "Ultraviolet light"
+          ],
+          "explanation": "Bees see UV light. Many flowers have UV patterns that lead to the nectar like landing strips. Red, on the other hand, bees can hardly see."
+        }
+      }
     },
     {
       "id": "animals-0049",
@@ -920,17 +1592,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Womit hören Heuschrecken?",
-      "answers": [
-        "Mit den Fühlern",
-        "Mit Ohren an den Beinen oder am Hinterleib",
-        "Mit den Flügeln",
-        "Sie hören gar nicht"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Laubheuschrecken haben ihre Hörorgane an den Vorderbeinen, Feldheuschrecken seitlich am Hinterleib. Ihre Fühler nutzen sie zum Tasten und Riechen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Womit hören Heuschrecken?",
+          "answers": [
+            "Mit den Fühlern",
+            "Mit Ohren an den Beinen oder am Hinterleib",
+            "Mit den Flügeln",
+            "Sie hören gar nicht"
+          ],
+          "explanation": "Laubheuschrecken haben ihre Hörorgane an den Vorderbeinen, Feldheuschrecken seitlich am Hinterleib. Ihre Fühler nutzen sie zum Tasten und Riechen."
+        },
+        "en": {
+          "title": "What do grasshoppers hear with?",
+          "answers": [
+            "Their antennae",
+            "Ears on their legs or on their abdomen",
+            "Their wings",
+            "They can't hear at all"
+          ],
+          "explanation": "Bush crickets have their hearing organs on their front legs, grasshoppers on the sides of their abdomen. They use their antennae for touching and smelling."
+        }
+      }
     },
     {
       "id": "animals-0050",
@@ -939,17 +1625,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum haben Hasen so lange Ohren?",
-      "answers": [
-        "Sie hören Feinde früh und geben Wärme ab",
-        "Um damit zu greifen",
-        "Damit sie schöner aussehen",
-        "Zum Schwimmen"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Mit den beweglichen Ohren hören Hasen Gefahren schon von Weitem. Außerdem geben die gut durchbluteten Ohren an heißen Tagen Wärme ab.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum haben Hasen so lange Ohren?",
+          "answers": [
+            "Sie hören Feinde früh und geben Wärme ab",
+            "Um damit zu greifen",
+            "Damit sie schöner aussehen",
+            "Zum Schwimmen"
+          ],
+          "explanation": "Mit den beweglichen Ohren hören Hasen Gefahren schon von Weitem. Außerdem geben die gut durchbluteten Ohren an heißen Tagen Wärme ab."
+        },
+        "en": {
+          "title": "Why do hares have such long ears?",
+          "answers": [
+            "They hear enemies early and give off heat",
+            "To grab things",
+            "To look prettier",
+            "For swimming"
+          ],
+          "explanation": "With their movable ears, hares hear danger from far away. And on hot days, the ears with lots of blood vessels give off heat."
+        }
+      }
     },
     {
       "id": "animals-0051",
@@ -958,17 +1658,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wie alt kann ein Hund ungefähr werden?",
-      "answers": [
-        "10 bis 15 Jahre",
-        "100 Jahre",
-        "2 bis 3 Jahre",
-        "50 Jahre"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Wie alt ein Hund wird, hängt stark von der Rasse ab. Kleine Hunde leben oft länger als sehr große.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie alt kann ein Hund ungefähr werden?",
+          "answers": [
+            "10 bis 15 Jahre",
+            "100 Jahre",
+            "2 bis 3 Jahre",
+            "50 Jahre"
+          ],
+          "explanation": "Wie alt ein Hund wird, hängt stark von der Rasse ab. Kleine Hunde leben oft länger als sehr große."
+        },
+        "en": {
+          "title": "Roughly how old can a dog get?",
+          "answers": [
+            "10 to 15 years",
+            "100 years",
+            "2 to 3 years",
+            "50 years"
+          ],
+          "explanation": "How old a dog gets depends a lot on its breed. Small dogs often live longer than very big ones."
+        }
+      }
     },
     {
       "id": "animals-0052",
@@ -977,17 +1691,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum landen Katzen bei einem Sturz meist auf den Füßen?",
-      "answers": [
-        "Sie sind besonders leicht",
-        "Ihr Schwanz ist ein Fallschirm",
-        "Ihre Pfoten sind magnetisch",
-        "Sie drehen sich im Fall blitzschnell"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Katzen merken mit dem Gleichgewichtssinn sofort, wo oben und unten ist. Sie drehen erst den Kopf, dann den Körper und landen so auf allen vieren.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum landen Katzen bei einem Sturz meist auf den Füßen?",
+          "answers": [
+            "Sie sind besonders leicht",
+            "Ihr Schwanz ist ein Fallschirm",
+            "Ihre Pfoten sind magnetisch",
+            "Sie drehen sich im Fall blitzschnell"
+          ],
+          "explanation": "Katzen merken mit dem Gleichgewichtssinn sofort, wo oben und unten ist. Sie drehen erst den Kopf, dann den Körper und landen so auf allen vieren."
+        },
+        "en": {
+          "title": "Why do cats usually land on their feet when they fall?",
+          "answers": [
+            "They are especially light",
+            "Their tail is a parachute",
+            "Their paws are magnetic",
+            "They twist round lightning-fast while falling"
+          ],
+          "explanation": "Thanks to their sense of balance, cats know at once which way is up. They turn their head first, then their body, and land on all fours."
+        }
+      }
     },
     {
       "id": "animals-0053",
@@ -996,17 +1724,31 @@
       "order": 9,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum schlafen Katzen so viel?",
-      "answers": [
-        "Weil sie immer krank sind",
-        "Weil sie nachts nicht schlafen dürfen",
-        "Weil ihnen langweilig ist",
-        "Als Jäger sparen sie Energie für die Jagd"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Katzen schlafen oft 12 bis 16 Stunden am Tag. Ihre Vorfahren mussten bei der Jagd blitzschnell sein – dafür ruhen sie sich den Rest der Zeit aus.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum schlafen Katzen so viel?",
+          "answers": [
+            "Weil sie immer krank sind",
+            "Weil sie nachts nicht schlafen dürfen",
+            "Weil ihnen langweilig ist",
+            "Als Jäger sparen sie Energie für die Jagd"
+          ],
+          "explanation": "Katzen schlafen oft 12 bis 16 Stunden am Tag. Ihre Vorfahren mussten bei der Jagd blitzschnell sein – dafür ruhen sie sich den Rest der Zeit aus."
+        },
+        "en": {
+          "title": "Why do cats sleep so much?",
+          "answers": [
+            "Because they are always ill",
+            "Because they aren't allowed to sleep at night",
+            "Because they are bored",
+            "As hunters, they save energy for the hunt"
+          ],
+          "explanation": "Cats often sleep 12 to 16 hours a day. Their ancestors had to be lightning-fast when hunting – so they rest the rest of the time."
+        }
+      }
     },
     {
       "id": "animals-0054",
@@ -1015,17 +1757,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie nennt man ein junges Pferd?",
-      "answers": [
-        "Lamm",
-        "Welpe",
-        "Kalb",
-        "Fohlen"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Ein Fohlen kann schon kurz nach der Geburt stehen und laufen. Das ist wichtig, denn in freier Natur müssen Pferde schnell vor Feinden fliehen können.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie nennt man ein junges Pferd?",
+          "answers": [
+            "Lamm",
+            "Welpe",
+            "Kalb",
+            "Fohlen"
+          ],
+          "explanation": "Ein Fohlen kann schon kurz nach der Geburt stehen und laufen. Das ist wichtig, denn in freier Natur müssen Pferde schnell vor Feinden fliehen können."
+        },
+        "en": {
+          "title": "What is a young horse called?",
+          "answers": [
+            "Lamb",
+            "Puppy",
+            "Calf",
+            "Foal"
+          ],
+          "explanation": "A foal can stand and walk soon after it is born. That's important, because in the wild horses must be able to run from enemies quickly."
+        }
+      }
     },
     {
       "id": "animals-0055",
@@ -1034,17 +1790,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welches Tier kann über 150 Jahre alt werden?",
-      "answers": [
-        "Der Papagei",
-        "Der Löwe",
-        "Der Hamster",
-        "Die Riesenschildkröte"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Riesenschildkröten wie die von den Galápagos-Inseln leben sehr langsam und können weit über 100 Jahre alt werden. Papageien schaffen immerhin oft 50 Jahre und mehr.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Tier kann über 150 Jahre alt werden?",
+          "answers": [
+            "Der Papagei",
+            "Der Löwe",
+            "Der Hamster",
+            "Die Riesenschildkröte"
+          ],
+          "explanation": "Riesenschildkröten wie die von den Galápagos-Inseln leben sehr langsam und können weit über 100 Jahre alt werden. Papageien schaffen immerhin oft 50 Jahre und mehr."
+        },
+        "en": {
+          "title": "Which animal can live to be more than 150 years old?",
+          "answers": [
+            "The parrot",
+            "The lion",
+            "The hamster",
+            "The giant tortoise"
+          ],
+          "explanation": "Giant tortoises like those from the Galápagos Islands live very slowly and can reach well over 100 years. Parrots often manage 50 years or more."
+        }
+      }
     },
     {
       "id": "animals-0056",
@@ -1053,17 +1823,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Welcher Fisch ist der größte?",
-      "answers": [
-        "Der Thunfisch",
-        "Der Walhai",
-        "Der Weiße Hai",
-        "Der Blauwal"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Der Walhai wird über 12 Meter lang und frisst trotzdem nur Plankton. Der Blauwal ist zwar größer, aber kein Fisch, sondern ein Säugetier.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Fisch ist der größte?",
+          "answers": [
+            "Der Thunfisch",
+            "Der Walhai",
+            "Der Weiße Hai",
+            "Der Blauwal"
+          ],
+          "explanation": "Der Walhai wird über 12 Meter lang und frisst trotzdem nur Plankton. Der Blauwal ist zwar größer, aber kein Fisch, sondern ein Säugetier."
+        },
+        "en": {
+          "title": "Which fish is the biggest?",
+          "answers": [
+            "The tuna",
+            "The whale shark",
+            "The great white shark",
+            "The blue whale"
+          ],
+          "explanation": "The whale shark grows over 12 metres long and still only eats plankton. The blue whale is bigger, but it isn't a fish – it is a mammal."
+        }
+      }
     },
     {
       "id": "animals-0057",
@@ -1072,17 +1856,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Welcher Vogel ist im Sturzflug am schnellsten?",
-      "answers": [
-        "Der Wanderfalke",
-        "Der Strauß",
-        "Der Pinguin",
-        "Die Möwe"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Im Sturzflug auf seine Beute erreicht der Wanderfalke über 300 km/h. Damit ist er das schnellste Tier der Welt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Vogel ist im Sturzflug am schnellsten?",
+          "answers": [
+            "Der Wanderfalke",
+            "Der Strauß",
+            "Der Pinguin",
+            "Die Möwe"
+          ],
+          "explanation": "Im Sturzflug auf seine Beute erreicht der Wanderfalke über 300 km/h. Damit ist er das schnellste Tier der Welt."
+        },
+        "en": {
+          "title": "Which bird is the fastest in a dive?",
+          "answers": [
+            "The peregrine falcon",
+            "The ostrich",
+            "The penguin",
+            "The seagull"
+          ],
+          "explanation": "Diving at its prey, the peregrine falcon reaches more than 300 km/h. That makes it the fastest animal in the world."
+        }
+      }
     },
     {
       "id": "animals-0058",
@@ -1091,17 +1889,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wo leben Koalas in freier Natur?",
-      "answers": [
-        "In Afrika",
-        "In Australien",
-        "In der Arktis",
-        "In Südamerika"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Koalas leben in den Eukalyptuswäldern Australiens. Sie fressen fast nur Eukalyptusblätter und schlafen bis zu 20 Stunden am Tag.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wo leben Koalas in freier Natur?",
+          "answers": [
+            "In Afrika",
+            "In Australien",
+            "In der Arktis",
+            "In Südamerika"
+          ],
+          "explanation": "Koalas leben in den Eukalyptuswäldern Australiens. Sie fressen fast nur Eukalyptusblätter und schlafen bis zu 20 Stunden am Tag."
+        },
+        "en": {
+          "title": "Where do koalas live in the wild?",
+          "answers": [
+            "In Africa",
+            "In Australia",
+            "In the Arctic",
+            "In South America"
+          ],
+          "explanation": "Koalas live in Australia's eucalyptus forests. They eat almost nothing but eucalyptus leaves and sleep up to 20 hours a day."
+        }
+      }
     },
     {
       "id": "animals-0059",
@@ -1110,17 +1922,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum haben viele Wüstentiere ein helles Fell?",
-      "answers": [
-        "Helle Farbe heizt sich weniger auf und tarnt im Sand",
-        "Die Sonne bleicht sie aus",
-        "Damit sie nachts leuchten",
-        "Weil sie kein Wasser zum Färben haben"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Helles Fell wirft viel Sonnenlicht zurück und wird deshalb nicht so heiß. Außerdem sind die Tiere im Sand für Feinde schwer zu entdecken.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum haben viele Wüstentiere ein helles Fell?",
+          "answers": [
+            "Helle Farbe heizt sich weniger auf und tarnt im Sand",
+            "Die Sonne bleicht sie aus",
+            "Damit sie nachts leuchten",
+            "Weil sie kein Wasser zum Färben haben"
+          ],
+          "explanation": "Helles Fell wirft viel Sonnenlicht zurück und wird deshalb nicht so heiß. Außerdem sind die Tiere im Sand für Feinde schwer zu entdecken."
+        },
+        "en": {
+          "title": "Why do many desert animals have light-coloured fur?",
+          "answers": [
+            "Light colours heat up less and blend in with the sand",
+            "The sun bleaches them",
+            "So they glow at night",
+            "Because they have no water to dye it"
+          ],
+          "explanation": "Light fur reflects a lot of sunlight, so it doesn't get as hot. And in the sand the animals are hard for enemies to spot."
+        }
+      }
     },
     {
       "id": "animals-0060",
@@ -1129,17 +1955,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wozu bauen Vögel Nester?",
-      "answers": [
-        "Um Regen zu sammeln",
-        "Als Vorratskammer",
-        "Um darin Eier auszubrüten und Junge großzuziehen",
-        "Um darin zu überwintern"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Im Nest liegen die Eier geschützt und warm. Nach dem Schlüpfen füttern die Eltern ihre Jungen dort, bis sie fliegen können.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu bauen Vögel Nester?",
+          "answers": [
+            "Um Regen zu sammeln",
+            "Als Vorratskammer",
+            "Um darin Eier auszubrüten und Junge großzuziehen",
+            "Um darin zu überwintern"
+          ],
+          "explanation": "Im Nest liegen die Eier geschützt und warm. Nach dem Schlüpfen füttern die Eltern ihre Jungen dort, bis sie fliegen können."
+        },
+        "en": {
+          "title": "Why do birds build nests?",
+          "answers": [
+            "To collect rain",
+            "As a pantry",
+            "To hatch eggs and raise their young",
+            "To spend the winter in"
+          ],
+          "explanation": "In the nest, the eggs lie safe and warm. After hatching, the parents feed their young there until they can fly."
+        }
+      }
     }
   ]
 }

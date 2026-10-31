@@ -22,6 +22,7 @@ import com.wissli.app.features.dashboard.ui.DashboardScreen
 import com.wissli.app.features.learn.ui.LearnScreen
 import com.wissli.app.features.level.ui.LevelScreen
 import com.wissli.app.features.login.ui.LoginScreen
+import com.wissli.app.features.profile.ui.ProfileScreen
 import org.koin.androidx.compose.koinViewModel
 
 @Composable
@@ -61,14 +62,21 @@ private fun WissliGraph(
         }
         composable<Route.Home> {
             DashboardScreen(
+                onOpenProfile = { navController.navigate(Route.Profile) },
+                onTabSelected = onTabSelected,
+                onOpenLevel = onOpenLevel,
+            )
+        }
+        composable<Route.Profile> {
+            ProfileScreen(
+                onBack = { navController.popBackStack() },
                 onSignOut = {
                     onSignOut()
+                    // Home sits below the profile, so this clears the whole signed-in stack.
                     navController.navigate(Route.Login) {
                         popUpTo<Route.Home> { inclusive = true }
                     }
                 },
-                onTabSelected = onTabSelected,
-                onOpenLevel = onOpenLevel,
             )
         }
         learnDestinations(navController = navController, onTabSelected = onTabSelected, onOpenLevel = onOpenLevel)

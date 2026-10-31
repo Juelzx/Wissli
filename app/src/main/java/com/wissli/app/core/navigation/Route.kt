@@ -14,6 +14,9 @@ sealed interface Route {
     data object Learn : Route
 
     @Serializable
+    data object Profile : Route
+
+    @Serializable
     data class Category(
         val categoryId: String,
     ) : Route

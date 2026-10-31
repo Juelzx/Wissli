@@ -1,0 +1,1325 @@
+{
+  "categoryId": "english",
+  "questions": [
+    {
+      "id": "english-0001",
+      "subtopic": "colors",
+      "level": 1,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "correctAnswerIndex": 1,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was heißt „rot“ auf Englisch?",
+          "answers": [
+            "blue",
+            "red",
+            "yellow",
+            "green"
+          ],
+          "explanation": "„Red“ ist Englisch für Rot. Blau heißt „blue“, Grün „green“ und Gelb „yellow“."
+        },
+        "en": {
+          "title": "What colour are ripe strawberries?",
+          "answers": [
+            "blue",
+            "red",
+            "yellow",
+            "green"
+          ],
+          "explanation": "Ripe strawberries are red. Blue, green and yellow are other colours you will meet a lot."
+        }
+      }
+    },
+    {
+      "id": "english-0002",
+      "subtopic": "animals",
+      "level": 1,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was heißt „Hund“ auf Englisch?",
+          "answers": [
+            "dog",
+            "duck",
+            "cow",
+            "cat"
+          ],
+          "explanation": "Hund heißt „dog“. Eine Katze ist eine „cat“, eine Kuh eine „cow“ und eine Ente eine „duck“."
+        },
+        "en": {
+          "title": "Which animal barks?",
+          "answers": [
+            "dog",
+            "duck",
+            "cow",
+            "cat"
+          ],
+          "explanation": "Dogs bark. Cats meow, cows moo and ducks quack."
+        }
+      }
+    },
+    {
+      "id": "english-0003",
+      "subtopic": "numbers",
+      "level": 1,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "correctAnswerIndex": 1,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Zahl ist „three“?",
+          "answers": [
+            "2",
+            "3",
+            "13",
+            "30"
+          ],
+          "explanation": "„Three“ ist die Drei. Die 13 heißt „thirteen“ und die 30 „thirty“."
+        },
+        "en": {
+          "title": "Which number is “three”?",
+          "answers": [
+            "2",
+            "3",
+            "13",
+            "30"
+          ],
+          "explanation": "“Three” is 3. 13 is “thirteen” and 30 is “thirty”."
+        }
+      }
+    },
+    {
+      "id": "english-0004",
+      "subtopic": "greetings",
+      "level": 1,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was sagst du auf Englisch zur Begrüßung?",
+          "answers": [
+            "Hello",
+            "Goodbye",
+            "Sorry",
+            "Thank you"
+          ],
+          "explanation": "„Hello“ heißt Hallo. „Goodbye“ sagst du zum Abschied und „Thank you“ heißt Danke."
+        },
+        "en": {
+          "title": "What do you say when you meet someone?",
+          "answers": [
+            "Hello",
+            "Goodbye",
+            "Sorry",
+            "Thank you"
+          ],
+          "explanation": "“Hello” is a greeting. “Goodbye” is for leaving and “thank you” is for thanking someone."
+        }
+      }
+    },
+    {
+      "id": "english-0005",
+      "subtopic": "family",
+      "level": 1,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 3,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was heißt „Mutter“ auf Englisch?",
+          "answers": [
+            "sister",
+            "father",
+            "brother",
+            "mother"
+          ],
+          "explanation": "Mutter heißt „mother“, oft sagt man einfach „mum“. Der Vater ist der „father“."
+        },
+        "en": {
+          "title": "Which word means the same as “mum”?",
+          "answers": [
+            "sister",
+            "father",
+            "brother",
+            "mother"
+          ],
+          "explanation": "“Mum” is short for “mother”. In the same way, “dad” is short for “father”."
+        }
+      }
+    },
+    {
+      "id": "english-0006",
+      "subtopic": "food",
+      "level": 1,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 2,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was heißt „Apfel“ auf Englisch?",
+          "answers": [
+            "milk",
+            "bread",
+            "apple",
+            "egg"
+          ],
+          "explanation": "Apfel heißt „apple“. Ein Ei ist ein „egg“, Brot „bread“ und Milch „milk“."
+        },
+        "en": {
+          "title": "Which fruit grows on trees and can be red or green?",
+          "answers": [
+            "milk",
+            "bread",
+            "apple",
+            "egg"
+          ],
+          "explanation": "Apples grow on trees. Eggs come from hens, bread is baked and milk comes from cows."
+        }
+      }
+    },
+    {
+      "id": "english-0007",
+      "subtopic": "colors",
+      "level": 1,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 1,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Farbe ist „green“?",
+          "answers": [
+            "Blau",
+            "Grün",
+            "Grau",
+            "Gelb"
+          ],
+          "explanation": "„Green“ ist Grün. Gelb heißt „yellow“, Grau „grey“ und Blau „blue“."
+        },
+        "en": {
+          "title": "What colour is grass?",
+          "answers": [
+            "Blue",
+            "Green",
+            "Grey",
+            "Yellow"
+          ],
+          "explanation": "Grass is green. Plants are green because of a green colouring in their leaves."
+        }
+      }
+    },
+    {
+      "id": "english-0008",
+      "subtopic": "numbers",
+      "level": 1,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 1,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt die Zahl 10 auf Englisch?",
+          "answers": [
+            "two",
+            "ten",
+            "nine",
+            "twelve"
+          ],
+          "explanation": "10 heißt „ten“. Die 9 ist „nine“, die 2 „two“ und die 12 „twelve“."
+        },
+        "en": {
+          "title": "How do you write the number 10 as a word?",
+          "answers": [
+            "two",
+            "ten",
+            "nine",
+            "twelve"
+          ],
+          "explanation": "10 is written “ten”. 9 is “nine”, 2 is “two” and 12 is “twelve”."
+        }
+      }
+    },
+    {
+      "id": "english-0009",
+      "subtopic": "animals",
+      "level": 1,
+      "order": 11,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 2,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist eine „cat“?",
+          "answers": [
+            "Ein Hund",
+            "Eine Maus",
+            "Eine Katze",
+            "Ein Vogel"
+          ],
+          "explanation": "„Cat“ heißt Katze. Ein Hund ist ein „dog“, eine Maus eine „mouse“ und ein Vogel ein „bird“."
+        },
+        "en": {
+          "title": "Which animal says “meow”?",
+          "answers": [
+            "A dog",
+            "A mouse",
+            "A cat",
+            "A bird"
+          ],
+          "explanation": "Cats meow. Dogs bark, mice squeak and birds sing or tweet."
+        }
+      }
+    },
+    {
+      "id": "english-0010",
+      "subtopic": "greetings",
+      "level": 1,
+      "order": 12,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 2,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was heißt „Thank you“?",
+          "answers": [
+            "Hallo",
+            "Bitte",
+            "Danke",
+            "Tschüss"
+          ],
+          "explanation": "„Thank you“ heißt Danke. „Please“ heißt Bitte und „Goodbye“ Tschüss."
+        },
+        "en": {
+          "title": "What do you say when someone gives you a present?",
+          "answers": [
+            "Hello",
+            "Please",
+            "Thank you",
+            "Goodbye"
+          ],
+          "explanation": "You say “thank you” to show you are glad about a present or some help."
+        }
+      }
+    },
+    {
+      "id": "english-0011",
+      "subtopic": "food",
+      "level": 1,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was bekommst du, wenn du „water“ bestellst?",
+          "answers": [
+            "Wasser",
+            "Saft",
+            "Tee",
+            "Milch"
+          ],
+          "explanation": "„Water“ ist Wasser. Milch heißt „milk“, Saft „juice“ und Tee „tea“."
+        },
+        "en": {
+          "title": "What comes out of the tap and is good when you are thirsty?",
+          "answers": [
+            "Water",
+            "Juice",
+            "Tea",
+            "Milk"
+          ],
+          "explanation": "Water comes out of the tap. Milk, juice and tea come from cows, fruit and leaves."
+        }
+      }
+    },
+    {
+      "id": "english-0012",
+      "subtopic": "family",
+      "level": 1,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 3,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer ist dein „brother“?",
+          "answers": [
+            "Deine Schwester",
+            "Dein Opa",
+            "Dein Onkel",
+            "Dein Bruder"
+          ],
+          "explanation": "„Brother“ heißt Bruder, „sister“ heißt Schwester."
+        },
+        "en": {
+          "title": "What do you call a boy who has the same parents as you?",
+          "answers": [
+            "Sister",
+            "Grandpa",
+            "Uncle",
+            "Brother"
+          ],
+          "explanation": "A boy with the same parents as you is your brother. A girl would be your sister."
+        }
+      }
+    },
+    {
+      "id": "english-0013",
+      "subtopic": "grammar",
+      "level": 1,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 3,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie sagt man „ich bin“ auf Englisch?",
+          "answers": [
+            "I like",
+            "I have",
+            "I go",
+            "I am"
+          ],
+          "explanation": "„Ich bin“ heißt „I am“, zum Beispiel: „I am eight years old.“"
+        },
+        "en": {
+          "title": "Which words complete the sentence: “___ eight years old.”?",
+          "answers": [
+            "I like",
+            "I have",
+            "I go",
+            "I am"
+          ],
+          "explanation": "You say “I am eight years old.” In English, your age goes with “am”."
+        }
+      }
+    },
+    {
+      "id": "english-0014",
+      "subtopic": "colors",
+      "level": 1,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 2,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Farbe entsteht aus „blue“ und „yellow“?",
+          "answers": [
+            "black",
+            "red",
+            "green",
+            "white"
+          ],
+          "explanation": "Blau und Gelb gemischt ergeben Grün – auf Englisch „green“."
+        },
+        "en": {
+          "title": "What do you get when you mix blue and yellow paint?",
+          "answers": [
+            "black",
+            "red",
+            "green",
+            "white"
+          ],
+          "explanation": "Blue and yellow paint mixed together make green."
+        }
+      }
+    },
+    {
+      "id": "english-0015",
+      "subtopic": "grammar",
+      "level": 1,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 1,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist die Mehrzahl von „cat“?",
+          "answers": [
+            "cat",
+            "cats",
+            "cates",
+            "caten"
+          ],
+          "explanation": "Im Englischen hängt man für die Mehrzahl meist einfach ein „s“ an: one cat, two cats."
+        },
+        "en": {
+          "title": "What is the plural of “cat”?",
+          "answers": [
+            "cat",
+            "cats",
+            "cates",
+            "caten"
+          ],
+          "explanation": "Most English words just add an “s” for more than one: one cat, two cats."
+        }
+      }
+    },
+    {
+      "id": "english-0016",
+      "subtopic": "numbers",
+      "level": 1,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 1,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist „five“ plus „two“?",
+          "answers": [
+            "six",
+            "seven",
+            "eight",
+            "nine"
+          ],
+          "explanation": "Five ist 5 und two ist 2. 5 + 2 = 7, auf Englisch „seven“."
+        },
+        "en": {
+          "title": "What is five plus two?",
+          "answers": [
+            "six",
+            "seven",
+            "eight",
+            "nine"
+          ],
+          "explanation": "Five and two more make seven: 5 + 2 = 7."
+        }
+      }
+    },
+    {
+      "id": "english-0017",
+      "subtopic": "animals",
+      "level": 1,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 1,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Tier ist ein „horse“?",
+          "answers": [
+            "Ein Haus",
+            "Ein Pferd",
+            "Ein Huhn",
+            "Ein Hase"
+          ],
+          "explanation": "„Horse“ ist ein Pferd. Es klingt ein bisschen wie Haus, aber ein Haus heißt „house“."
+        },
+        "en": {
+          "title": "Which of these can you ride and says “neigh”?",
+          "answers": [
+            "A house",
+            "A horse",
+            "A hen",
+            "A hare"
+          ],
+          "explanation": "A horse neighs and can be ridden. Careful: “horse” and “house” look alike but mean very different things."
+        }
+      }
+    },
+    {
+      "id": "english-0018",
+      "subtopic": "greetings",
+      "level": 1,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 0,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was sagst du auf Englisch am Morgen zur Begrüßung?",
+          "answers": [
+            "Good morning",
+            "Good afternoon",
+            "Good evening",
+            "Good night"
+          ],
+          "explanation": "Am Morgen sagt man „Good morning“. „Good night“ sagst du erst vor dem Schlafengehen."
+        },
+        "en": {
+          "title": "What do you say to greet someone at breakfast time?",
+          "answers": [
+            "Good morning",
+            "Good afternoon",
+            "Good evening",
+            "Good night"
+          ],
+          "explanation": "In the morning you say “good morning”. “Good night” is only for bedtime."
+        }
+      }
+    },
+    {
+      "id": "english-0019",
+      "subtopic": "food",
+      "level": 1,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 1,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist „bread“?",
+          "answers": [
+            "Brei",
+            "Brot",
+            "Bratwurst",
+            "Butter"
+          ],
+          "explanation": "„Bread“ heißt Brot. Butter heißt im Englischen auch „butter“."
+        },
+        "en": {
+          "title": "Which food is baked from flour and comes in loaves?",
+          "answers": [
+            "Porridge",
+            "Bread",
+            "Sausage",
+            "Butter"
+          ],
+          "explanation": "Bread is baked from flour, water and yeast. You buy it as a loaf or in slices."
+        }
+      }
+    },
+    {
+      "id": "english-0020",
+      "subtopic": "family",
+      "level": 1,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 2,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer ist deine „grandmother“?",
+          "answers": [
+            "Deine Cousine",
+            "Deine Mama",
+            "Deine Oma",
+            "Deine Tante"
+          ],
+          "explanation": "„Grandmother“ ist die Oma, „grandfather“ der Opa. Kurz sagt man „grandma“ und „grandpa“."
+        },
+        "en": {
+          "title": "Who is the mother of your mum or dad?",
+          "answers": [
+            "Your cousin",
+            "Your mum",
+            "Your grandmother",
+            "Your aunt"
+          ],
+          "explanation": "Your parents' mother is your grandmother – or grandma for short."
+        }
+      }
+    },
+    {
+      "id": "english-0021",
+      "subtopic": "body",
+      "level": 2,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 3,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was heißt „Hand“ auf Englisch?",
+          "answers": [
+            "nose",
+            "foot",
+            "head",
+            "hand"
+          ],
+          "explanation": "Hand heißt auch auf Englisch „hand“. Kopf ist „head“, Fuß „foot“ und Nase „nose“."
+        },
+        "en": {
+          "title": "What do you wave with to say hello?",
+          "answers": [
+            "nose",
+            "foot",
+            "head",
+            "hand"
+          ],
+          "explanation": "You wave your hand to say hello or goodbye."
+        }
+      }
+    },
+    {
+      "id": "english-0022",
+      "subtopic": "body",
+      "level": 2,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 2,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist die „nose“?",
+          "answers": [
+            "Der Mund",
+            "Das Ohr",
+            "Die Nase",
+            "Das Auge"
+          ],
+          "explanation": "„Nose“ heißt Nase. Das Ohr ist das „ear“, der Mund der „mouth“ und das Auge das „eye“."
+        },
+        "en": {
+          "title": "What do you smell with?",
+          "answers": [
+            "Your mouth",
+            "Your ear",
+            "Your nose",
+            "Your eye"
+          ],
+          "explanation": "You smell with your nose, hear with your ears and see with your eyes."
+        }
+      }
+    },
+    {
+      "id": "english-0023",
+      "subtopic": "days",
+      "level": 2,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Tag ist „Sunday“?",
+          "answers": [
+            "Sonntag",
+            "Montag",
+            "Samstag",
+            "Freitag"
+          ],
+          "explanation": "„Sunday“ ist der Sonntag – der Tag der Sonne. Samstag heißt „Saturday“."
+        },
+        "en": {
+          "title": "Which day comes right after Saturday?",
+          "answers": [
+            "Sunday",
+            "Monday",
+            "Saturday",
+            "Friday"
+          ],
+          "explanation": "The weekend is Saturday and then Sunday. After Sunday a new week starts with Monday."
+        }
+      }
+    },
+    {
+      "id": "english-0024",
+      "subtopic": "days",
+      "level": 2,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 2,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Tage hat eine „week“?",
+          "answers": [
+            "5",
+            "10",
+            "7",
+            "12"
+          ],
+          "explanation": "Eine „week“ ist eine Woche und hat sieben Tage, von Monday bis Sunday."
+        },
+        "en": {
+          "title": "How many days are in a week?",
+          "answers": [
+            "5",
+            "10",
+            "7",
+            "12"
+          ],
+          "explanation": "A week has seven days, from Monday to Sunday."
+        }
+      }
+    },
+    {
+      "id": "english-0025",
+      "subtopic": "clothes",
+      "level": 2,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 1,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ziehst du an, wenn du „shoes“ anziehst?",
+          "answers": [
+            "Hosen",
+            "Schuhe",
+            "Mützen",
+            "Socken"
+          ],
+          "explanation": "„Shoes“ sind Schuhe. Socken heißen „socks“ und Mützen „hats“."
+        },
+        "en": {
+          "title": "What do you wear on your feet over your socks?",
+          "answers": [
+            "Trousers",
+            "Shoes",
+            "Hats",
+            "Socks"
+          ],
+          "explanation": "Shoes go on over your socks, so your feet stay warm and safe."
+        }
+      }
+    },
+    {
+      "id": "english-0026",
+      "subtopic": "clothes",
+      "level": 2,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was heißt „Hose“ auf Englisch?",
+          "answers": [
+            "trousers",
+            "shirt",
+            "jacket",
+            "scarf"
+          ],
+          "explanation": "Hose heißt „trousers“, in Amerika sagt man „pants“. Der Schal ist ein „scarf“."
+        },
+        "en": {
+          "title": "What do you wear on your legs?",
+          "answers": [
+            "trousers",
+            "shirt",
+            "jacket",
+            "scarf"
+          ],
+          "explanation": "Trousers cover your legs. In American English they are called “pants”."
+        }
+      }
+    },
+    {
+      "id": "english-0027",
+      "subtopic": "weather",
+      "level": 2,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was heißt „Sonne“ auf Englisch?",
+          "answers": [
+            "sun",
+            "wind",
+            "snow",
+            "rain"
+          ],
+          "explanation": "Sonne heißt „sun“. Schnee ist „snow“, Regen „rain“ und Wind „wind“."
+        },
+        "en": {
+          "title": "What shines in the sky during the day?",
+          "answers": [
+            "sun",
+            "wind",
+            "snow",
+            "rain"
+          ],
+          "explanation": "The sun shines during the day and gives us light and warmth."
+        }
+      }
+    },
+    {
+      "id": "english-0028",
+      "subtopic": "weather",
+      "level": 2,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 2,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was fällt vom Himmel, wenn es „snow“ gibt?",
+          "answers": [
+            "Sand",
+            "Laub",
+            "Schnee",
+            "Regen"
+          ],
+          "explanation": "„Snow“ ist Schnee. Regen heißt „rain“."
+        },
+        "en": {
+          "title": "What falls from the sky on a cold winter day and is white?",
+          "answers": [
+            "Sand",
+            "Leaves",
+            "Snow",
+            "Rain"
+          ],
+          "explanation": "When it is cold enough, water in the clouds freezes and falls as white snow."
+        }
+      }
+    },
+    {
+      "id": "english-0029",
+      "subtopic": "opposites",
+      "level": 2,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 3,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist das Gegenteil von „big“?",
+          "answers": [
+            "fat",
+            "long",
+            "tall",
+            "small"
+          ],
+          "explanation": "„Big“ heißt groß, das Gegenteil ist „small“ – klein."
+        },
+        "en": {
+          "title": "What is the opposite of “big”?",
+          "answers": [
+            "fat",
+            "long",
+            "tall",
+            "small"
+          ],
+          "explanation": "Something that is not big is small. An elephant is big, a mouse is small."
+        }
+      }
+    },
+    {
+      "id": "english-0030",
+      "subtopic": "opposites",
+      "level": 2,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 1,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist das Gegenteil von „hot“?",
+          "answers": [
+            "wet",
+            "cold",
+            "old",
+            "warm"
+          ],
+          "explanation": "„Hot“ heißt heiß, das Gegenteil ist „cold“ – kalt."
+        },
+        "en": {
+          "title": "What is the opposite of “hot”?",
+          "answers": [
+            "wet",
+            "cold",
+            "old",
+            "warm"
+          ],
+          "explanation": "Hot and cold are opposites: soup is hot, ice cream is cold."
+        }
+      }
+    },
+    {
+      "id": "english-0031",
+      "subtopic": "school",
+      "level": 2,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 3,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein „book“?",
+          "answers": [
+            "Ein Bauch",
+            "Ein Ball",
+            "Ein Bus",
+            "Ein Buch"
+          ],
+          "explanation": "„Book“ heißt Buch. Ball heißt auch auf Englisch „ball“."
+        },
+        "en": {
+          "title": "What do you read stories in?",
+          "answers": [
+            "A bag",
+            "A ball",
+            "A bus",
+            "A book"
+          ],
+          "explanation": "Stories are printed in books. You can carry your books in a bag."
+        }
+      }
+    },
+    {
+      "id": "english-0032",
+      "subtopic": "school",
+      "level": 2,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 1,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein „pencil“?",
+          "answers": [
+            "Ein Pinsel",
+            "Ein Bleistift",
+            "Ein Lineal",
+            "Ein Radiergummi"
+          ],
+          "explanation": "„Pencil“ heißt Bleistift. Ein Lineal ist ein „ruler“ und ein Radiergummi ein „rubber“."
+        },
+        "en": {
+          "title": "What do you write with and can sharpen?",
+          "answers": [
+            "A paintbrush",
+            "A pencil",
+            "A ruler",
+            "A rubber"
+          ],
+          "explanation": "You write with a pencil and sharpen it when the tip gets blunt."
+        }
+      }
+    },
+    {
+      "id": "english-0033",
+      "subtopic": "verbs",
+      "level": 2,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 0,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was bedeutet „to run“?",
+          "answers": [
+            "rennen",
+            "raten",
+            "reden",
+            "rufen"
+          ],
+          "explanation": "„To run“ heißt rennen. Reden heißt „to talk“ und rufen „to call“."
+        },
+        "en": {
+          "title": "What do you do when you move very fast on your feet?",
+          "answers": [
+            "run",
+            "guess",
+            "talk",
+            "call"
+          ],
+          "explanation": "Moving fast on your feet is running. Walking is the slow way."
+        }
+      }
+    },
+    {
+      "id": "english-0034",
+      "subtopic": "verbs",
+      "level": 2,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 1,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was bedeutet „I can swim“?",
+          "answers": [
+            "Ich gehe schwimmen",
+            "Ich kann schwimmen",
+            "Ich muss schwimmen",
+            "Ich will schwimmen"
+          ],
+          "explanation": "„Can“ heißt können. „I can swim“ bedeutet also: Ich kann schwimmen."
+        },
+        "en": {
+          "title": "Which sentence means you know how to swim?",
+          "answers": [
+            "I go swimming",
+            "I can swim",
+            "I must swim",
+            "I want to swim"
+          ],
+          "explanation": "“Can” says you are able to do something: “I can swim.”"
+        }
+      }
+    },
+    {
+      "id": "english-0035",
+      "subtopic": "grammar",
+      "level": 2,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "correctAnswerIndex": 3,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist die Mehrzahl von „mouse“?",
+          "answers": [
+            "mousen",
+            "mouses",
+            "meese",
+            "mice"
+          ],
+          "explanation": "„Mouse“ ist eine Ausnahme: Eine Maus ist „one mouse“, zwei Mäuse sind „two mice“."
+        },
+        "en": {
+          "title": "What is the plural of “mouse”?",
+          "answers": [
+            "mousen",
+            "mouses",
+            "meese",
+            "mice"
+          ],
+          "explanation": "“Mouse” is a special word: one mouse, two mice."
+        }
+      }
+    },
+    {
+      "id": "english-0036",
+      "subtopic": "grammar",
+      "level": 2,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "correctAnswerIndex": 2,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Wort passt? „She ___ a dog.“",
+          "answers": [
+            "have",
+            "am",
+            "has",
+            "is"
+          ],
+          "explanation": "Bei „he“, „she“ und „it“ wird aus „have“ ein „has“: She has a dog."
+        },
+        "en": {
+          "title": "Which word fits? “She ___ a dog.”",
+          "answers": [
+            "have",
+            "am",
+            "has",
+            "is"
+          ],
+          "explanation": "With “he”, “she” and “it”, “have” turns into “has”: She has a dog."
+        }
+      }
+    },
+    {
+      "id": "english-0037",
+      "subtopic": "days",
+      "level": 2,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 0,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Monat ist „May“?",
+          "answers": [
+            "Mai",
+            "Juni",
+            "März",
+            "August"
+          ],
+          "explanation": "„May“ ist der Mai. März heißt „March“ und Juni „June“."
+        },
+        "en": {
+          "title": "Which month comes after April?",
+          "answers": [
+            "May",
+            "June",
+            "March",
+            "August"
+          ],
+          "explanation": "The months go March, April, May, June. May comes right after April."
+        }
+      }
+    },
+    {
+      "id": "english-0038",
+      "subtopic": "opposites",
+      "level": 2,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 2,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist das Gegenteil von „happy“?",
+          "answers": [
+            "lucky",
+            "hungry",
+            "sad",
+            "funny"
+          ],
+          "explanation": "„Happy“ heißt fröhlich, das Gegenteil ist „sad“ – traurig."
+        },
+        "en": {
+          "title": "What is the opposite of “happy”?",
+          "answers": [
+            "lucky",
+            "hungry",
+            "sad",
+            "funny"
+          ],
+          "explanation": "Happy and sad are opposites. A smile shows you are happy, tears often mean you are sad."
+        }
+      }
+    },
+    {
+      "id": "english-0039",
+      "subtopic": "body",
+      "level": 2,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 1,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was sind „feet“?",
+          "answers": [
+            "Hände",
+            "Füße",
+            "Finger",
+            "Knie"
+          ],
+          "explanation": "„Feet“ ist die Mehrzahl von „foot“: ein Fuß, zwei Füße."
+        },
+        "en": {
+          "title": "What is the plural of “foot”?",
+          "answers": [
+            "foots",
+            "feet",
+            "feets",
+            "footes"
+          ],
+          "explanation": "“Foot” is a special word: one foot, two feet."
+        }
+      }
+    },
+    {
+      "id": "english-0040",
+      "subtopic": "weather",
+      "level": 2,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 3,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was bedeutet „It is raining“?",
+          "answers": [
+            "Es ist sonnig",
+            "Es schneit",
+            "Es ist windig",
+            "Es regnet"
+          ],
+          "explanation": "„Rain“ ist Regen, „It is raining“ heißt also: Es regnet."
+        },
+        "en": {
+          "title": "Which sentence means water is falling from the clouds?",
+          "answers": [
+            "It is sunny",
+            "It is snowing",
+            "It is windy",
+            "It is raining"
+          ],
+          "explanation": "When drops of water fall from the clouds, we say “it is raining”."
+        }
+      }
+    }
+  ]
+}

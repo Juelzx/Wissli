@@ -10,17 +10,11 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.material3.DropdownMenu
-import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Path
@@ -42,7 +36,7 @@ internal fun DashboardHeader(
     greetingName: String?,
     groupName: String?,
     onGroupSwitcherClicked: () -> Unit,
-    onSignOutClicked: () -> Unit,
+    onProfileClicked: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
     Row(
@@ -66,7 +60,7 @@ internal fun DashboardHeader(
                 overflow = TextOverflow.Ellipsis,
             )
         }
-        AccountMenu(name = greetingName.orEmpty(), onSignOutClicked = onSignOutClicked)
+        ProfileButton(name = greetingName.orEmpty(), onClick = onProfileClicked)
     }
 }
 
@@ -116,30 +110,17 @@ private fun DropdownArrow() {
     }
 }
 
-// TODO: move sign-out to the profile screen once it exists.
 @Composable
-private fun AccountMenu(
+private fun ProfileButton(
     name: String,
-    onSignOutClicked: () -> Unit,
+    onClick: () -> Unit,
 ) {
-    var expanded by remember { mutableStateOf(false) }
-    val accountLabel = stringResource(R.string.dashboard_account_menu)
-    Box {
-        IconButton(
-            onClick = { expanded = true },
-            modifier = Modifier.size(AccountButtonSize).semantics { contentDescription = accountLabel },
-        ) {
-            InitialAvatar(name = name)
-        }
-        DropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
-            DropdownMenuItem(
-                text = { Text(text = stringResource(R.string.dashboard_sign_out)) },
-                onClick = {
-                    expanded = false
-                    onSignOutClicked()
-                },
-            )
-        }
+    val profileLabel = stringResource(R.string.dashboard_open_profile)
+    IconButton(
+        onClick = onClick,
+        modifier = Modifier.size(AccountButtonSize).semantics { contentDescription = profileLabel },
+    ) {
+        InitialAvatar(name = name)
     }
 }
 
@@ -156,7 +137,7 @@ internal fun DashboardHeaderPreview() {
             greetingName = "Sarah",
             groupName = "Familie Kaufmann",
             onGroupSwitcherClicked = {},
-            onSignOutClicked = {},
+            onProfileClicked = {},
         )
     }
 }
@@ -165,6 +146,6 @@ internal fun DashboardHeaderPreview() {
 @Composable
 internal fun DashboardHeaderWithoutDataPreview() {
     WissliComponentPreview {
-        DashboardHeader(greetingName = null, groupName = null, onGroupSwitcherClicked = {}, onSignOutClicked = {})
+        DashboardHeader(greetingName = null, groupName = null, onGroupSwitcherClicked = {}, onProfileClicked = {})
     }
 }

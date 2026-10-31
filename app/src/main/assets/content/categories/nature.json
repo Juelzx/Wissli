@@ -8,17 +8,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum ist der Himmel blau?",
-      "answers": [
-        "Er spiegelt das Meer",
-        "Wegen der Wolken",
-        "Blaues Licht wird stärker gestreut",
-        "Die Sonne ist blau"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Sonnenlicht enthält alle Farben. Die Luft streut kurzwelliges blaues Licht viel stärker als rotes – deshalb kommt es von überall am Himmel zu uns.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist der Himmel blau?",
+          "answers": [
+            "Er spiegelt das Meer",
+            "Wegen der Wolken",
+            "Blaues Licht wird stärker gestreut",
+            "Die Sonne ist blau"
+          ],
+          "explanation": "Sonnenlicht enthält alle Farben. Die Luft streut kurzwelliges blaues Licht viel stärker als rotes – deshalb kommt es von überall am Himmel zu uns."
+        },
+        "en": {
+          "title": "Why is the sky blue?",
+          "answers": [
+            "It reflects the sea",
+            "Because of the clouds",
+            "Blue light gets scattered more",
+            "The sun is blue"
+          ],
+          "explanation": "Sunlight contains all colours. Air scatters short-wave blue light much more than red light – so blue reaches us from all over the sky."
+        }
+      }
     },
     {
       "id": "nature-0002",
@@ -27,17 +41,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum fallen im Herbst die Blätter?",
-      "answers": [
-        "Der Baum spart Wasser",
-        "Vögel fressen sie",
-        "Der Wind reißt sie ab",
-        "Sie werden zu schwer"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Im Winter kommt der Baum schlecht an Wasser. Über Blätter würde er viel davon verdunsten, also wirft er sie ab und macht Pause.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum fallen im Herbst die Blätter?",
+          "answers": [
+            "Der Baum spart Wasser",
+            "Vögel fressen sie",
+            "Der Wind reißt sie ab",
+            "Sie werden zu schwer"
+          ],
+          "explanation": "Im Winter kommt der Baum schlecht an Wasser. Über Blätter würde er viel davon verdunsten, also wirft er sie ab und macht Pause."
+        },
+        "en": {
+          "title": "Why do leaves fall in autumn?",
+          "answers": [
+            "The tree saves water",
+            "Birds eat them",
+            "The wind tears them off",
+            "They get too heavy"
+          ],
+          "explanation": "In winter a tree struggles to get water. Its leaves would let a lot of it evaporate, so it drops them and takes a break."
+        }
+      }
     },
     {
       "id": "nature-0003",
@@ -46,17 +74,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum ist Meerwasser salzig?",
-      "answers": [
-        "Fische geben Salz ab",
-        "Salz fällt mit dem Regen",
-        "Flüsse spülen Salz aus Gestein hinein",
-        "Es ist gar nicht salzig"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Regen löst winzige Mengen Salz aus Steinen. Flüsse tragen es ins Meer, dort verdunstet das Wasser – das Salz bleibt zurück.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist Meerwasser salzig?",
+          "answers": [
+            "Fische geben Salz ab",
+            "Salz fällt mit dem Regen",
+            "Flüsse spülen Salz aus Gestein hinein",
+            "Es ist gar nicht salzig"
+          ],
+          "explanation": "Regen löst winzige Mengen Salz aus Steinen. Flüsse tragen es ins Meer, dort verdunstet das Wasser – das Salz bleibt zurück."
+        },
+        "en": {
+          "title": "Why is seawater salty?",
+          "answers": [
+            "Fish give off salt",
+            "Salt falls with the rain",
+            "Rivers wash in salt from rocks",
+            "It isn't salty at all"
+          ],
+          "explanation": "Rain dissolves tiny amounts of salt from rocks. Rivers carry it into the sea, where the water evaporates – and the salt stays behind."
+        }
+      }
     },
     {
       "id": "nature-0004",
@@ -65,17 +107,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum blitzt es bei einem Gewitter?",
-      "answers": [
-        "Elektrische Ladung entlädt sich",
-        "Die Sonne spiegelt sich",
-        "Wolken reiben an Bergen",
-        "Regentropfen leuchten"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "In Gewitterwolken reiben Eiskörnchen aneinander und laden sich auf. Wird die Spannung zu groß, springt ein riesiger Funke über: der Blitz.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum blitzt es bei einem Gewitter?",
+          "answers": [
+            "Elektrische Ladung entlädt sich",
+            "Die Sonne spiegelt sich",
+            "Wolken reiben an Bergen",
+            "Regentropfen leuchten"
+          ],
+          "explanation": "In Gewitterwolken reiben Eiskörnchen aneinander und laden sich auf. Wird die Spannung zu groß, springt ein riesiger Funke über: der Blitz."
+        },
+        "en": {
+          "title": "Why is there lightning in a thunderstorm?",
+          "answers": [
+            "Electric charge is released",
+            "The sun is reflected",
+            "Clouds rub against mountains",
+            "Raindrops glow"
+          ],
+          "explanation": "In storm clouds, bits of ice rub together and become charged. When the tension gets too big, a giant spark jumps across: lightning."
+        }
+      }
     },
     {
       "id": "nature-0005",
@@ -84,17 +140,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum hören wir den Donner später als wir den Blitz sehen?",
-      "answers": [
-        "Wolken bremsen das Licht",
-        "Die Ohren sind langsamer",
-        "Der Donner kommt zuerst",
-        "Schall ist langsamer als Licht"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Licht ist fast eine Million Mal schneller als Schall. Zählst du die Sekunden bis zum Donner und teilst durch drei, weißt du ungefähr, wie viele Kilometer das Gewitter entfernt ist.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum hören wir den Donner später als wir den Blitz sehen?",
+          "answers": [
+            "Wolken bremsen das Licht",
+            "Die Ohren sind langsamer",
+            "Der Donner kommt zuerst",
+            "Schall ist langsamer als Licht"
+          ],
+          "explanation": "Licht ist fast eine Million Mal schneller als Schall. Zählst du die Sekunden bis zum Donner und teilst durch drei, weißt du ungefähr, wie viele Kilometer das Gewitter entfernt ist."
+        },
+        "en": {
+          "title": "Why do we hear thunder later than we see lightning?",
+          "answers": [
+            "Clouds slow down the light",
+            "Our ears are slower",
+            "The thunder comes first",
+            "Sound is slower than light"
+          ],
+          "explanation": "Light is almost a million times faster than sound. Count the seconds until the thunder and divide by three to find out roughly how many kilometres away the storm is."
+        }
+      }
     },
     {
       "id": "nature-0006",
@@ -103,17 +173,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum gibt es einen Regenbogen?",
-      "answers": [
-        "Wolken sind bunt",
-        "Der Himmel spiegelt Blumen",
-        "Regentropfen zerlegen Sonnenlicht",
-        "Die Sonne malt ihn"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Jeder Regentropfen wirkt wie ein kleines Prisma: Er bricht das Sonnenlicht und fächert es in seine Farben auf.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum gibt es einen Regenbogen?",
+          "answers": [
+            "Wolken sind bunt",
+            "Der Himmel spiegelt Blumen",
+            "Regentropfen zerlegen Sonnenlicht",
+            "Die Sonne malt ihn"
+          ],
+          "explanation": "Jeder Regentropfen wirkt wie ein kleines Prisma: Er bricht das Sonnenlicht und fächert es in seine Farben auf."
+        },
+        "en": {
+          "title": "Why is there a rainbow?",
+          "answers": [
+            "Clouds are colourful",
+            "The sky reflects flowers",
+            "Raindrops split up sunlight",
+            "The sun paints it"
+          ],
+          "explanation": "Every raindrop works like a tiny prism: it bends sunlight and fans it out into its colours."
+        }
+      }
     },
     {
       "id": "nature-0007",
@@ -122,17 +206,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum schwimmt Eis auf dem Wasser?",
-      "answers": [
-        "Eis ist leichter als gleich viel Wasser",
-        "Eis ist magnetisch",
-        "Eis enthält Luftballons",
-        "Wasser drückt es hoch, weil es kalt ist"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Beim Gefrieren ordnen sich Wassermoleküle mit mehr Abstand an. Eis hat deshalb eine geringere Dichte als flüssiges Wasser und schwimmt oben.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum schwimmt Eis auf dem Wasser?",
+          "answers": [
+            "Eis ist leichter als gleich viel Wasser",
+            "Eis ist magnetisch",
+            "Eis enthält Luftballons",
+            "Wasser drückt es hoch, weil es kalt ist"
+          ],
+          "explanation": "Beim Gefrieren ordnen sich Wassermoleküle mit mehr Abstand an. Eis hat deshalb eine geringere Dichte als flüssiges Wasser und schwimmt oben."
+        },
+        "en": {
+          "title": "Why does ice float on water?",
+          "answers": [
+            "Ice is lighter than the same amount of water",
+            "Ice is magnetic",
+            "Ice contains balloons",
+            "Water pushes it up because it is cold"
+          ],
+          "explanation": "When water freezes, its molecules line up with more space between them. So ice is less dense than liquid water and floats on top."
+        }
+      }
     },
     {
       "id": "nature-0008",
@@ -141,17 +239,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum ist es im Sommer wärmer als im Winter?",
-      "answers": [
-        "Es gibt weniger Wolken",
-        "Die Sonne steht höher am Himmel",
-        "Die Sonne brennt im Sommer stärker",
-        "Das Meer gibt im Sommer Wärme ab"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Die Erdachse ist schief. Im Sommer ist unsere Hälfte zur Sonne geneigt, die Strahlen treffen steiler auf und die Tage sind länger.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist es im Sommer wärmer als im Winter?",
+          "answers": [
+            "Es gibt weniger Wolken",
+            "Die Sonne steht höher am Himmel",
+            "Die Sonne brennt im Sommer stärker",
+            "Das Meer gibt im Sommer Wärme ab"
+          ],
+          "explanation": "Die Erdachse ist schief. Im Sommer ist unsere Hälfte zur Sonne geneigt, die Strahlen treffen steiler auf und die Tage sind länger."
+        },
+        "en": {
+          "title": "Why is it warmer in summer than in winter?",
+          "answers": [
+            "There are fewer clouds",
+            "The sun is higher in the sky",
+            "The sun burns harder in summer",
+            "The sea gives off warmth in summer"
+          ],
+          "explanation": "Earth's axis is tilted. In summer our half leans towards the sun, the rays hit more steeply and the days are longer."
+        }
+      }
     },
     {
       "id": "nature-0009",
@@ -160,17 +272,31 @@
       "order": 11,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum sind Pflanzen grün?",
-      "answers": [
-        "Die Erde färbt sie",
-        "Sie sind gar nicht grün",
-        "Sie trinken grünes Wasser",
-        "Chlorophyll wirft grünes Licht zurück"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Blattfarbstoff Chlorophyll nutzt rotes und blaues Licht zur Energiegewinnung. Grünes Licht braucht er kaum – es wird zurückgeworfen und landet in unseren Augen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum sind Pflanzen grün?",
+          "answers": [
+            "Die Erde färbt sie",
+            "Sie sind gar nicht grün",
+            "Sie trinken grünes Wasser",
+            "Chlorophyll wirft grünes Licht zurück"
+          ],
+          "explanation": "Der Blattfarbstoff Chlorophyll nutzt rotes und blaues Licht zur Energiegewinnung. Grünes Licht braucht er kaum – es wird zurückgeworfen und landet in unseren Augen."
+        },
+        "en": {
+          "title": "Why are plants green?",
+          "answers": [
+            "The soil colours them",
+            "They aren't green at all",
+            "They drink green water",
+            "Chlorophyll reflects green light"
+          ],
+          "explanation": "The leaf pigment chlorophyll uses red and blue light to make energy. It hardly needs green light – that gets reflected and ends up in our eyes."
+        }
+      }
     },
     {
       "id": "nature-0010",
@@ -179,17 +305,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum gibt es Ebbe und Flut?",
-      "answers": [
-        "Flüsse laufen über",
-        "Der Wind dreht sich",
-        "Der Mond zieht am Wasser",
-        "Wale schieben das Wasser"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Die Anziehungskraft des Mondes zieht das Meerwasser zu einem Berg. Weil sich die Erde dreht, wandern diese Berge über die Küsten – zweimal am Tag kommt Flut.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum gibt es Ebbe und Flut?",
+          "answers": [
+            "Flüsse laufen über",
+            "Der Wind dreht sich",
+            "Der Mond zieht am Wasser",
+            "Wale schieben das Wasser"
+          ],
+          "explanation": "Die Anziehungskraft des Mondes zieht das Meerwasser zu einem Berg. Weil sich die Erde dreht, wandern diese Berge über die Küsten – zweimal am Tag kommt Flut."
+        },
+        "en": {
+          "title": "Why are there tides?",
+          "answers": [
+            "Rivers overflow",
+            "The wind turns around",
+            "The moon pulls on the water",
+            "Whales push the water"
+          ],
+          "explanation": "The moon's gravity pulls the seawater into a bulge. As Earth turns, these bulges travel across the coasts – high tide comes twice a day."
+        }
+      }
     },
     {
       "id": "nature-0011",
@@ -198,17 +338,31 @@
       "order": 12,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum haben Kakteen Stacheln?",
-      "answers": [
-        "Um Sonnenlicht zu speichern",
-        "Über Stacheln verlieren sie kaum Wasser",
-        "Damit sie schneller wachsen",
-        "Weil sie sehr alt sind"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Kakteenstacheln sind umgebildete Blätter. Über große Blätter würde in der Wüste viel Wasser verdunsten, über Stacheln kaum. Außerdem schützen sie vor durstigen Tieren, die an das Wasser im Stamm wollen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum haben Kakteen Stacheln?",
+          "answers": [
+            "Um Sonnenlicht zu speichern",
+            "Über Stacheln verlieren sie kaum Wasser",
+            "Damit sie schneller wachsen",
+            "Weil sie sehr alt sind"
+          ],
+          "explanation": "Kakteenstacheln sind umgebildete Blätter. Über große Blätter würde in der Wüste viel Wasser verdunsten, über Stacheln kaum. Außerdem schützen sie vor durstigen Tieren, die an das Wasser im Stamm wollen."
+        },
+        "en": {
+          "title": "Why do cacti have spines?",
+          "answers": [
+            "To store sunlight",
+            "They lose hardly any water through spines",
+            "So they grow faster",
+            "Because they are very old"
+          ],
+          "explanation": "Cactus spines are changed leaves. Big leaves would let lots of water evaporate in the desert, spines hardly any. They also keep off thirsty animals that want the water in the stem."
+        }
+      }
     },
     {
       "id": "nature-0012",
@@ -217,17 +371,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum entsteht Nebel?",
-      "answers": [
-        "Der Wind wirbelt Staub auf",
-        "Rauch steigt aus dem Boden",
-        "Wolken fallen herunter",
-        "Feuchte Luft kühlt ab und bildet Tröpfchen"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Kühlt feuchte Luft ab, kann sie nicht mehr so viel Wasserdampf halten. Winzige Tröpfchen schweben dann in Bodennähe – im Grunde ist Nebel eine Wolke am Boden.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum entsteht Nebel?",
+          "answers": [
+            "Der Wind wirbelt Staub auf",
+            "Rauch steigt aus dem Boden",
+            "Wolken fallen herunter",
+            "Feuchte Luft kühlt ab und bildet Tröpfchen"
+          ],
+          "explanation": "Kühlt feuchte Luft ab, kann sie nicht mehr so viel Wasserdampf halten. Winzige Tröpfchen schweben dann in Bodennähe – im Grunde ist Nebel eine Wolke am Boden."
+        },
+        "en": {
+          "title": "How does fog form?",
+          "answers": [
+            "The wind whirls up dust",
+            "Smoke rises from the ground",
+            "Clouds fall down",
+            "Moist air cools down and forms droplets"
+          ],
+          "explanation": "When moist air cools, it can't hold as much water vapour. Tiny droplets then float near the ground – fog is basically a cloud on the ground."
+        }
+      }
     },
     {
       "id": "nature-0013",
@@ -236,17 +404,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum ist Schnee weiß?",
-      "answers": [
-        "Eiskristalle streuen alle Farben gleich",
-        "Er besteht aus gefrorener Milch",
-        "Er ist eigentlich blau",
-        "Die Wolken färben ihn"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Schnee besteht aus unzähligen Eiskristallen. Ihre vielen Flächen werfen alle Farben des Lichts gleichmäßig zurück – und alle Farben zusammen sehen wir als Weiß.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist Schnee weiß?",
+          "answers": [
+            "Eiskristalle streuen alle Farben gleich",
+            "Er besteht aus gefrorener Milch",
+            "Er ist eigentlich blau",
+            "Die Wolken färben ihn"
+          ],
+          "explanation": "Schnee besteht aus unzähligen Eiskristallen. Ihre vielen Flächen werfen alle Farben des Lichts gleichmäßig zurück – und alle Farben zusammen sehen wir als Weiß."
+        },
+        "en": {
+          "title": "Why is snow white?",
+          "answers": [
+            "Ice crystals scatter all colours equally",
+            "It is made of frozen milk",
+            "It is actually blue",
+            "The clouds colour it"
+          ],
+          "explanation": "Snow is made of countless ice crystals. Their many surfaces reflect all colours of light evenly – and all colours together look white to us."
+        }
+      }
     },
     {
       "id": "nature-0014",
@@ -255,17 +437,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum haben Bäume Jahresringe?",
-      "answers": [
-        "Die Rinde rutscht nach innen",
-        "Im Frühling und Herbst wächst das Holz verschieden",
-        "Sie werden jedes Jahr bemalt",
-        "Würmer bohren Kreise"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Im Frühling wächst helles, lockeres Holz, im Spätsommer dunkleres, festes. Zusammen ergibt das einen Ring pro Jahr.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum haben Bäume Jahresringe?",
+          "answers": [
+            "Die Rinde rutscht nach innen",
+            "Im Frühling und Herbst wächst das Holz verschieden",
+            "Sie werden jedes Jahr bemalt",
+            "Würmer bohren Kreise"
+          ],
+          "explanation": "Im Frühling wächst helles, lockeres Holz, im Spätsommer dunkleres, festes. Zusammen ergibt das einen Ring pro Jahr."
+        },
+        "en": {
+          "title": "Why do trees have growth rings?",
+          "answers": [
+            "The bark slides inwards",
+            "Wood grows differently in spring and autumn",
+            "They get painted every year",
+            "Worms bore circles"
+          ],
+          "explanation": "In spring, light and loose wood grows; in late summer, darker and firmer wood. Together they make one ring per year."
+        }
+      }
     },
     {
       "id": "nature-0015",
@@ -274,17 +470,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum rostet Eisen?",
-      "answers": [
-        "Sonnenlicht färbt es",
-        "Es reagiert mit Sauerstoff und Wasser",
-        "Es wird zu alt",
-        "Bakterien malen es braun"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Eisen verbindet sich mit Sauerstoff aus Luft und Wasser zu Eisenoxid. Diese bröselige, rotbraune Schicht nennen wir Rost.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum rostet Eisen?",
+          "answers": [
+            "Sonnenlicht färbt es",
+            "Es reagiert mit Sauerstoff und Wasser",
+            "Es wird zu alt",
+            "Bakterien malen es braun"
+          ],
+          "explanation": "Eisen verbindet sich mit Sauerstoff aus Luft und Wasser zu Eisenoxid. Diese bröselige, rotbraune Schicht nennen wir Rost."
+        },
+        "en": {
+          "title": "Why does iron rust?",
+          "answers": [
+            "Sunlight colours it",
+            "It reacts with oxygen and water",
+            "It gets too old",
+            "Bacteria paint it brown"
+          ],
+          "explanation": "Iron combines with oxygen from air and water to form iron oxide. We call this crumbly, reddish-brown layer rust."
+        }
+      }
     },
     {
       "id": "nature-0016",
@@ -293,17 +503,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum duften Blumen?",
-      "answers": [
-        "Weil sie gewaschen wurden",
-        "Um Insekten anzulocken",
-        "Um Regen anzuziehen",
-        "Um andere Blumen zu warnen"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Mit ihrem Duft locken Blüten Bienen und andere Insekten an. Die tragen beim Naschen Pollen weiter und helfen so bei der Bestäubung.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum duften Blumen?",
+          "answers": [
+            "Weil sie gewaschen wurden",
+            "Um Insekten anzulocken",
+            "Um Regen anzuziehen",
+            "Um andere Blumen zu warnen"
+          ],
+          "explanation": "Mit ihrem Duft locken Blüten Bienen und andere Insekten an. Die tragen beim Naschen Pollen weiter und helfen so bei der Bestäubung."
+        },
+        "en": {
+          "title": "Why do flowers smell nice?",
+          "answers": [
+            "Because they were washed",
+            "To attract insects",
+            "To attract rain",
+            "To warn other flowers"
+          ],
+          "explanation": "Flowers use their scent to attract bees and other insects. While snacking, these carry pollen along and help with pollination."
+        }
+      }
     },
     {
       "id": "nature-0017",
@@ -312,17 +536,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum wehen Winde?",
-      "answers": [
-        "Bäume fächeln Luft",
-        "Luft strömt von hohem zu tiefem Druck",
-        "Die Erde atmet",
-        "Das Meer pustet"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Die Sonne erwärmt die Erde ungleichmäßig. Warme Luft steigt auf, kühlere strömt nach – diese Ausgleichsbewegung spüren wir als Wind.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum wehen Winde?",
+          "answers": [
+            "Bäume fächeln Luft",
+            "Luft strömt von hohem zu tiefem Druck",
+            "Die Erde atmet",
+            "Das Meer pustet"
+          ],
+          "explanation": "Die Sonne erwärmt die Erde ungleichmäßig. Warme Luft steigt auf, kühlere strömt nach – diese Ausgleichsbewegung spüren wir als Wind."
+        },
+        "en": {
+          "title": "Why does the wind blow?",
+          "answers": [
+            "Trees fan the air",
+            "Air flows from high to low pressure",
+            "The Earth breathes",
+            "The sea blows"
+          ],
+          "explanation": "The sun warms the Earth unevenly. Warm air rises and cooler air flows in – we feel this balancing movement as wind."
+        }
+      }
     },
     {
       "id": "nature-0018",
@@ -331,17 +569,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum sind Vulkane heiß?",
-      "answers": [
-        "Blitze schlagen ein",
-        "Geschmolzenes Gestein kommt aus der Tiefe",
-        "Es brennt Holz in ihnen",
-        "Sie stehen in der Sonne"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Tief unter der Erdkruste ist es so heiß, dass Gestein schmilzt. Bei einem Ausbruch drückt dieses Magma nach oben und tritt als Lava aus.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum sind Vulkane heiß?",
+          "answers": [
+            "Blitze schlagen ein",
+            "Geschmolzenes Gestein kommt aus der Tiefe",
+            "Es brennt Holz in ihnen",
+            "Sie stehen in der Sonne"
+          ],
+          "explanation": "Tief unter der Erdkruste ist es so heiß, dass Gestein schmilzt. Bei einem Ausbruch drückt dieses Magma nach oben und tritt als Lava aus."
+        },
+        "en": {
+          "title": "Why are volcanoes hot?",
+          "answers": [
+            "Lightning strikes them",
+            "Molten rock comes up from deep down",
+            "Wood burns inside them",
+            "They stand in the sun"
+          ],
+          "explanation": "Deep below the Earth's crust it is so hot that rock melts. During an eruption this magma pushes up and comes out as lava."
+        }
+      }
     },
     {
       "id": "nature-0019",
@@ -350,17 +602,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie entstehen Tropfsteine in einer Höhle?",
-      "answers": [
-        "Sie wachsen wie Pflanzen aus Samen",
-        "Fledermäuse bauen sie",
-        "Gefrorenes Wasser wird zu Stein",
-        "Tropfendes Wasser lässt gelösten Kalk zurück"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Regenwasser löst auf seinem Weg durch den Boden Kalk aus dem Gestein. Tropft es von der Höhlendecke, bleibt jedes Mal ein winziger Rest Kalk zurück. Über viele tausend Jahre wachsen so Tropfsteine heran.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie entstehen Tropfsteine in einer Höhle?",
+          "answers": [
+            "Sie wachsen wie Pflanzen aus Samen",
+            "Fledermäuse bauen sie",
+            "Gefrorenes Wasser wird zu Stein",
+            "Tropfendes Wasser lässt gelösten Kalk zurück"
+          ],
+          "explanation": "Regenwasser löst auf seinem Weg durch den Boden Kalk aus dem Gestein. Tropft es von der Höhlendecke, bleibt jedes Mal ein winziger Rest Kalk zurück. Über viele tausend Jahre wachsen so Tropfsteine heran."
+        },
+        "en": {
+          "title": "How do stalactites form in a cave?",
+          "answers": [
+            "They grow from seeds like plants",
+            "Bats build them",
+            "Frozen water turns to stone",
+            "Dripping water leaves dissolved lime behind"
+          ],
+          "explanation": "On its way through the ground, rainwater dissolves lime from the rock. Each time it drips from the cave ceiling, a tiny bit of lime is left behind. Over thousands of years stalactites grow."
+        }
+      }
     },
     {
       "id": "nature-0020",
@@ -369,17 +635,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Woher kommt das Wasser einer Quelle?",
-      "answers": [
-        "Es entsteht im Gestein neu",
-        "Von Regen, der im Boden versickert ist",
-        "Aus dem heißen Erdkern",
-        "Aus einem Meer unter der Erde"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Regen versickert im Boden und sammelt sich als Grundwasser zwischen Sand und Gestein. Wo eine wasserdichte Schicht es an die Oberfläche lenkt, tritt es als Quelle wieder aus.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woher kommt das Wasser einer Quelle?",
+          "answers": [
+            "Es entsteht im Gestein neu",
+            "Von Regen, der im Boden versickert ist",
+            "Aus dem heißen Erdkern",
+            "Aus einem Meer unter der Erde"
+          ],
+          "explanation": "Regen versickert im Boden und sammelt sich als Grundwasser zwischen Sand und Gestein. Wo eine wasserdichte Schicht es an die Oberfläche lenkt, tritt es als Quelle wieder aus."
+        },
+        "en": {
+          "title": "Where does the water of a spring come from?",
+          "answers": [
+            "It forms anew in the rock",
+            "From rain that soaked into the ground",
+            "From the hot core of the Earth",
+            "From a sea under the ground"
+          ],
+          "explanation": "Rain soaks into the ground and collects as groundwater between sand and rock. Where a waterproof layer guides it to the surface, it comes out again as a spring."
+        }
+      }
     },
     {
       "id": "nature-0021",
@@ -388,17 +668,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Woraus bestehen Wolken?",
-      "answers": [
-        "Aus winzigen Wassertröpfchen oder Eiskristallen",
-        "Aus Rauch",
-        "Aus reinem Wasserdampf",
-        "Aus feinem Staub"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Warme Luft trägt unsichtbaren Wasserdampf nach oben. Dort kühlt er ab und wird zu winzigen Tröpfchen oder Eiskristallen – Milliarden davon sehen wir als Wolke.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woraus bestehen Wolken?",
+          "answers": [
+            "Aus winzigen Wassertröpfchen oder Eiskristallen",
+            "Aus Rauch",
+            "Aus reinem Wasserdampf",
+            "Aus feinem Staub"
+          ],
+          "explanation": "Warme Luft trägt unsichtbaren Wasserdampf nach oben. Dort kühlt er ab und wird zu winzigen Tröpfchen oder Eiskristallen – Milliarden davon sehen wir als Wolke."
+        },
+        "en": {
+          "title": "What are clouds made of?",
+          "answers": [
+            "Tiny water droplets or ice crystals",
+            "Smoke",
+            "Pure water vapour",
+            "Fine dust"
+          ],
+          "explanation": "Warm air carries invisible water vapour upwards. There it cools and turns into tiny droplets or ice crystals – we see billions of them as a cloud."
+        }
+      }
     },
     {
       "id": "nature-0022",
@@ -407,17 +701,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum fällt im Winter Schnee statt Regen?",
-      "answers": [
-        "Wolken sind im Winter größer",
-        "Schnee kommt aus dem Weltall",
-        "In der kalten Wolke gefriert das Wasser zu Eiskristallen",
-        "Der Wind färbt den Regen weiß"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "In kalten Wolken wachsen Eiskristalle zu Schneeflocken zusammen. Ist es auch unten kalt genug, schmelzen sie auf dem Weg zum Boden nicht.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum fällt im Winter Schnee statt Regen?",
+          "answers": [
+            "Wolken sind im Winter größer",
+            "Schnee kommt aus dem Weltall",
+            "In der kalten Wolke gefriert das Wasser zu Eiskristallen",
+            "Der Wind färbt den Regen weiß"
+          ],
+          "explanation": "In kalten Wolken wachsen Eiskristalle zu Schneeflocken zusammen. Ist es auch unten kalt genug, schmelzen sie auf dem Weg zum Boden nicht."
+        },
+        "en": {
+          "title": "Why does snow fall in winter instead of rain?",
+          "answers": [
+            "Clouds are bigger in winter",
+            "Snow comes from space",
+            "In the cold cloud, water freezes into ice crystals",
+            "The wind colours the rain white"
+          ],
+          "explanation": "In cold clouds, ice crystals grow together into snowflakes. If it is cold enough down below too, they don't melt on the way to the ground."
+        }
+      }
     },
     {
       "id": "nature-0023",
@@ -426,17 +734,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was brauchen Pflanzen zum Wachsen?",
-      "answers": [
-        "Zucker aus dem Supermarkt",
-        "Nur Erde",
-        "Nur Dunkelheit",
-        "Licht, Wasser und Luft"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Mit Sonnenlicht machen Pflanzen aus Wasser und dem Kohlendioxid der Luft ihren eigenen Zucker. Aus dem Boden holen sie zusätzlich Nährstoffe.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was brauchen Pflanzen zum Wachsen?",
+          "answers": [
+            "Zucker aus dem Supermarkt",
+            "Nur Erde",
+            "Nur Dunkelheit",
+            "Licht, Wasser und Luft"
+          ],
+          "explanation": "Mit Sonnenlicht machen Pflanzen aus Wasser und dem Kohlendioxid der Luft ihren eigenen Zucker. Aus dem Boden holen sie zusätzlich Nährstoffe."
+        },
+        "en": {
+          "title": "What do plants need to grow?",
+          "answers": [
+            "Sugar from the supermarket",
+            "Only soil",
+            "Only darkness",
+            "Light, water and air"
+          ],
+          "explanation": "Using sunlight, plants make their own sugar from water and the carbon dioxide in the air. They also take nutrients from the soil."
+        }
+      }
     },
     {
       "id": "nature-0024",
@@ -445,17 +767,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wozu haben Pflanzen Wurzeln?",
-      "answers": [
-        "Damit die Pflanze sehen kann",
-        "Um Licht zu sammeln",
-        "Damit die Pflanze wandern kann",
-        "Sie halten die Pflanze fest und saugen Wasser auf"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Wurzeln verankern die Pflanze im Boden, damit der Wind sie nicht umwirft. Mit feinen Härchen nehmen sie Wasser und Nährstoffe auf.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu haben Pflanzen Wurzeln?",
+          "answers": [
+            "Damit die Pflanze sehen kann",
+            "Um Licht zu sammeln",
+            "Damit die Pflanze wandern kann",
+            "Sie halten die Pflanze fest und saugen Wasser auf"
+          ],
+          "explanation": "Wurzeln verankern die Pflanze im Boden, damit der Wind sie nicht umwirft. Mit feinen Härchen nehmen sie Wasser und Nährstoffe auf."
+        },
+        "en": {
+          "title": "What are plant roots for?",
+          "answers": [
+            "So the plant can see",
+            "To collect light",
+            "So the plant can walk around",
+            "They hold the plant in place and soak up water"
+          ],
+          "explanation": "Roots anchor the plant in the ground so the wind can't blow it over. With fine hairs they take up water and nutrients."
+        }
+      }
     },
     {
       "id": "nature-0025",
@@ -464,17 +800,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was passiert mit einer Pfütze, wenn lange die Sonne scheint?",
-      "answers": [
-        "Es verwandelt sich in Erde",
-        "Das Wasser verdunstet",
-        "Es wird zu Eis",
-        "Es wird zu Salz"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Die Wärme lässt Wasserteilchen als unsichtbaren Wasserdampf in die Luft aufsteigen. Irgendwann kann daraus wieder eine Wolke werden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was passiert mit einer Pfütze, wenn lange die Sonne scheint?",
+          "answers": [
+            "Es verwandelt sich in Erde",
+            "Das Wasser verdunstet",
+            "Es wird zu Eis",
+            "Es wird zu Salz"
+          ],
+          "explanation": "Die Wärme lässt Wasserteilchen als unsichtbaren Wasserdampf in die Luft aufsteigen. Irgendwann kann daraus wieder eine Wolke werden."
+        },
+        "en": {
+          "title": "What happens to a puddle when the sun shines for a long time?",
+          "answers": [
+            "It changes into soil",
+            "The water evaporates",
+            "It turns into ice",
+            "It turns into salt"
+          ],
+          "explanation": "The warmth makes water particles rise into the air as invisible water vapour. At some point they may become a cloud again."
+        }
+      }
     },
     {
       "id": "nature-0026",
@@ -483,17 +833,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie heißt der Weg des Wassers vom Meer in die Wolken, als Regen zurück und über Flüsse wieder ins Meer?",
-      "answers": [
-        "Wetterspirale",
-        "Regenrad",
-        "Wasserkreislauf",
-        "Mondkreislauf"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Die Sonne lässt Wasser verdunsten, in der Höhe bilden sich Wolken, es regnet, und Flüsse bringen das Wasser zurück ins Meer. Dieses Wasser ist seit Millionen Jahren immer wieder unterwegs.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt der Weg des Wassers vom Meer in die Wolken, als Regen zurück und über Flüsse wieder ins Meer?",
+          "answers": [
+            "Wetterspirale",
+            "Regenrad",
+            "Wasserkreislauf",
+            "Mondkreislauf"
+          ],
+          "explanation": "Die Sonne lässt Wasser verdunsten, in der Höhe bilden sich Wolken, es regnet, und Flüsse bringen das Wasser zurück ins Meer. Dieses Wasser ist seit Millionen Jahren immer wieder unterwegs."
+        },
+        "en": {
+          "title": "What do we call the journey of water from the sea into the clouds, back down as rain and through rivers into the sea again?",
+          "answers": [
+            "Weather spiral",
+            "Rain wheel",
+            "Water cycle",
+            "Moon cycle"
+          ],
+          "explanation": "The sun makes water evaporate, clouds form high up, it rains, and rivers carry the water back to the sea. This water has been on the move for millions of years."
+        }
+      }
     },
     {
       "id": "nature-0027",
@@ -502,17 +866,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was kommt bei einem Vulkanausbruch heraus?",
-      "answers": [
-        "Schnee",
-        "Sand vom Strand",
-        "Nur Wasser",
-        "Lava, Asche und Gase"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Tief unter der Erde ist Gestein so heiß, dass es schmilzt. Bricht es durch, fließt es als Lava heraus, dazu kommen Asche und Gase.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was kommt bei einem Vulkanausbruch heraus?",
+          "answers": [
+            "Schnee",
+            "Sand vom Strand",
+            "Nur Wasser",
+            "Lava, Asche und Gase"
+          ],
+          "explanation": "Tief unter der Erde ist Gestein so heiß, dass es schmilzt. Bricht es durch, fließt es als Lava heraus, dazu kommen Asche und Gase."
+        },
+        "en": {
+          "title": "What comes out of a volcano when it erupts?",
+          "answers": [
+            "Snow",
+            "Sand from the beach",
+            "Only water",
+            "Lava, ash and gases"
+          ],
+          "explanation": "Deep underground, rock is so hot that it melts. When it breaks through, it flows out as lava, together with ash and gases."
+        }
+      }
     },
     {
       "id": "nature-0028",
@@ -521,17 +899,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Woraus entsteht Sand?",
-      "answers": [
-        "Aus Baumrinde",
-        "Aus getrockneten Wolken",
-        "Aus zerriebenem Gestein",
-        "Aus Salzkristallen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Wind, Wasser und Frost zerkleinern Felsen über sehr lange Zeit. Wellen reiben die Stückchen weiter, bis winzige Körner übrig bleiben. Manchmal sind auch zerbrochene Muscheln dabei.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woraus entsteht Sand?",
+          "answers": [
+            "Aus Baumrinde",
+            "Aus getrockneten Wolken",
+            "Aus zerriebenem Gestein",
+            "Aus Salzkristallen"
+          ],
+          "explanation": "Wind, Wasser und Frost zerkleinern Felsen über sehr lange Zeit. Wellen reiben die Stückchen weiter, bis winzige Körner übrig bleiben. Manchmal sind auch zerbrochene Muscheln dabei."
+        },
+        "en": {
+          "title": "What is sand made of?",
+          "answers": [
+            "Tree bark",
+            "Dried clouds",
+            "Ground-down rock",
+            "Salt crystals"
+          ],
+          "explanation": "Wind, water and frost break rocks down over a very long time. Waves grind the pieces further until tiny grains are left. Sometimes broken shells are mixed in too."
+        }
+      }
     },
     {
       "id": "nature-0029",
@@ -540,17 +932,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum ist der Himmel bei Sonnenuntergang oft rot?",
-      "answers": [
-        "Der Himmel spiegelt das Meer",
-        "Das Licht legt einen langen Weg durch die Luft zurück",
-        "Die Wolken glühen",
-        "Die Sonne kühlt abends ab"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Abends steht die Sonne tief, ihr Licht muss viel mehr Luft durchqueren. Das blaue Licht wird unterwegs weggestreut, übrig bleiben Rot und Orange.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist der Himmel bei Sonnenuntergang oft rot?",
+          "answers": [
+            "Der Himmel spiegelt das Meer",
+            "Das Licht legt einen langen Weg durch die Luft zurück",
+            "Die Wolken glühen",
+            "Die Sonne kühlt abends ab"
+          ],
+          "explanation": "Abends steht die Sonne tief, ihr Licht muss viel mehr Luft durchqueren. Das blaue Licht wird unterwegs weggestreut, übrig bleiben Rot und Orange."
+        },
+        "en": {
+          "title": "Why is the sky often red at sunset?",
+          "answers": [
+            "The sky reflects the sea",
+            "The light travels a long way through the air",
+            "The clouds glow",
+            "The sun cools down in the evening"
+          ],
+          "explanation": "In the evening the sun is low, so its light has to cross much more air. The blue light gets scattered away on the way, leaving red and orange."
+        }
+      }
     },
     {
       "id": "nature-0030",
@@ -559,17 +965,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Warum gibt es Schatten?",
-      "answers": [
-        "Der Boden ist dort dunkel gefärbt",
-        "Ein Gegenstand hält das Licht auf",
-        "Licht fließt um Dinge herum",
-        "Die Sonne macht kurz Pause"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Licht breitet sich geradlinig aus. Wo etwas im Weg steht, kommt kein Licht hin – dort entsteht der Schatten.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum gibt es Schatten?",
+          "answers": [
+            "Der Boden ist dort dunkel gefärbt",
+            "Ein Gegenstand hält das Licht auf",
+            "Licht fließt um Dinge herum",
+            "Die Sonne macht kurz Pause"
+          ],
+          "explanation": "Licht breitet sich geradlinig aus. Wo etwas im Weg steht, kommt kein Licht hin – dort entsteht der Schatten."
+        },
+        "en": {
+          "title": "Why are there shadows?",
+          "answers": [
+            "The ground is coloured dark there",
+            "An object blocks the light",
+            "Light flows around things",
+            "The sun takes a short break"
+          ],
+          "explanation": "Light travels in straight lines. Where something is in the way, no light gets there – that's where the shadow is."
+        }
+      }
     },
     {
       "id": "nature-0031",
@@ -578,17 +998,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie entsteht Hagel?",
-      "answers": [
-        "Eis fällt aus dem Weltall",
-        "Schnee wird beim Fallen zusammengepresst",
-        "Tropfen werden in der Gewitterwolke immer wieder hochgewirbelt und frieren",
-        "Die ganze Wolke friert auf einmal ein"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "In Gewitterwolken gibt es starke Aufwinde. Sie tragen Tropfen immer wieder in eiskalte Höhen, wo Schicht um Schicht Eis dazukommt – bis die Körner zu schwer sind und herunterfallen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie entsteht Hagel?",
+          "answers": [
+            "Eis fällt aus dem Weltall",
+            "Schnee wird beim Fallen zusammengepresst",
+            "Tropfen werden in der Gewitterwolke immer wieder hochgewirbelt und frieren",
+            "Die ganze Wolke friert auf einmal ein"
+          ],
+          "explanation": "In Gewitterwolken gibt es starke Aufwinde. Sie tragen Tropfen immer wieder in eiskalte Höhen, wo Schicht um Schicht Eis dazukommt – bis die Körner zu schwer sind und herunterfallen."
+        },
+        "en": {
+          "title": "How does hail form?",
+          "answers": [
+            "Ice falls from space",
+            "Snow gets squashed while falling",
+            "Drops are whirled up again and again in the storm cloud and freeze",
+            "The whole cloud freezes at once"
+          ],
+          "explanation": "Storm clouds have strong updrafts. They carry drops up into icy heights again and again, adding layer after layer of ice – until the hailstones are too heavy and fall."
+        }
+      }
     },
     {
       "id": "nature-0032",
@@ -597,17 +1031,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum ist es auf hohen Bergen kälter als im Tal?",
-      "answers": [
-        "Oben scheint die Sonne schwächer",
-        "Auf Bergen weht immer Nordwind",
-        "Der Schnee kühlt die Luft von oben",
-        "Aufsteigende Luft dehnt sich aus und kühlt dabei ab"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Oben drückt weniger Luft, deshalb dehnt sich aufsteigende Luft aus und wird dabei kälter. Pro 100 Höhenmeter sinkt die Temperatur um etwa ein halbes Grad – obwohl man der Sonne näher ist.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist es auf hohen Bergen kälter als im Tal?",
+          "answers": [
+            "Oben scheint die Sonne schwächer",
+            "Auf Bergen weht immer Nordwind",
+            "Der Schnee kühlt die Luft von oben",
+            "Aufsteigende Luft dehnt sich aus und kühlt dabei ab"
+          ],
+          "explanation": "Oben drückt weniger Luft, deshalb dehnt sich aufsteigende Luft aus und wird dabei kälter. Pro 100 Höhenmeter sinkt die Temperatur um etwa ein halbes Grad – obwohl man der Sonne näher ist."
+        },
+        "en": {
+          "title": "Why is it colder on high mountains than in the valley?",
+          "answers": [
+            "The sun shines more weakly up there",
+            "A north wind always blows on mountains",
+            "The snow cools the air from above",
+            "Rising air expands and cools down"
+          ],
+          "explanation": "Higher up there is less air pressing down, so rising air expands and gets colder. Every 100 metres up, the temperature drops by about half a degree – even though you are closer to the sun."
+        }
+      }
     },
     {
       "id": "nature-0033",
@@ -616,17 +1064,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum drehen sich junge Sonnenblumen zur Sonne?",
-      "answers": [
-        "Sie wachsen auf der Schattenseite schneller",
-        "Der Wind dreht sie",
-        "Bienen ziehen sie herum",
-        "Ihre Blüten sind magnetisch"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Junge Sonnenblumen wachsen auf der Seite, die gerade im Schatten liegt, etwas schneller. Dadurch neigt sich der Kopf der Sonne nach. Ausgewachsene Blüten bleiben meist nach Osten gerichtet.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum drehen sich junge Sonnenblumen zur Sonne?",
+          "answers": [
+            "Sie wachsen auf der Schattenseite schneller",
+            "Der Wind dreht sie",
+            "Bienen ziehen sie herum",
+            "Ihre Blüten sind magnetisch"
+          ],
+          "explanation": "Junge Sonnenblumen wachsen auf der Seite, die gerade im Schatten liegt, etwas schneller. Dadurch neigt sich der Kopf der Sonne nach. Ausgewachsene Blüten bleiben meist nach Osten gerichtet."
+        },
+        "en": {
+          "title": "Why do young sunflowers turn towards the sun?",
+          "answers": [
+            "They grow faster on the shady side",
+            "The wind turns them",
+            "Bees pull them around",
+            "Their flowers are magnetic"
+          ],
+          "explanation": "Young sunflowers grow a little faster on the side that is in the shade. That makes the head lean after the sun. Fully grown flowers usually stay facing east."
+        }
+      }
     },
     {
       "id": "nature-0034",
@@ -635,17 +1097,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Was machen Pflanzen mit dem Kohlendioxid aus der Luft?",
-      "answers": [
-        "Sie atmen es unverändert wieder aus",
-        "Sie bauen daraus mit Licht Zucker",
-        "Sie machen daraus Erde",
-        "Sie verwandeln es in Blütenduft"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Diese Fotosynthese passiert in den grünen Blättern. Als Abfall entsteht Sauerstoff – genau das, was wir zum Atmen brauchen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was machen Pflanzen mit dem Kohlendioxid aus der Luft?",
+          "answers": [
+            "Sie atmen es unverändert wieder aus",
+            "Sie bauen daraus mit Licht Zucker",
+            "Sie machen daraus Erde",
+            "Sie verwandeln es in Blütenduft"
+          ],
+          "explanation": "Diese Fotosynthese passiert in den grünen Blättern. Als Abfall entsteht Sauerstoff – genau das, was wir zum Atmen brauchen."
+        },
+        "en": {
+          "title": "What do plants do with the carbon dioxide from the air?",
+          "answers": [
+            "They breathe it out unchanged",
+            "They use light to turn it into sugar",
+            "They make soil out of it",
+            "They turn it into flower scent"
+          ],
+          "explanation": "This photosynthesis happens in green leaves. The waste product is oxygen – exactly what we need to breathe."
+        }
+      }
     },
     {
       "id": "nature-0035",
@@ -654,17 +1130,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum friert ein See zuerst an der Oberfläche zu?",
-      "answers": [
-        "Fische halten das Wasser unten warm",
-        "Am Grund wärmen Steine das Wasser",
-        "Der Wind kühlt nur die Mitte",
-        "Wasser ist bei 4 °C am schwersten und sinkt nach unten"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Wasser ist bei 4 °C am dichtesten. Dieses Wasser sinkt zum Grund, kälteres bleibt oben und gefriert dort zuerst. Unter dem Eis können Fische den Winter überstehen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum friert ein See zuerst an der Oberfläche zu?",
+          "answers": [
+            "Fische halten das Wasser unten warm",
+            "Am Grund wärmen Steine das Wasser",
+            "Der Wind kühlt nur die Mitte",
+            "Wasser ist bei 4 °C am schwersten und sinkt nach unten"
+          ],
+          "explanation": "Wasser ist bei 4 °C am dichtesten. Dieses Wasser sinkt zum Grund, kälteres bleibt oben und gefriert dort zuerst. Unter dem Eis können Fische den Winter überstehen."
+        },
+        "en": {
+          "title": "Why does a lake freeze at the surface first?",
+          "answers": [
+            "Fish keep the water warm down below",
+            "Stones warm the water at the bottom",
+            "The wind only cools the middle",
+            "Water is heaviest at 4 °C and sinks to the bottom"
+          ],
+          "explanation": "Water is densest at 4 °C. This water sinks to the bottom, colder water stays on top and freezes there first. Under the ice, fish can survive the winter."
+        }
+      }
     },
     {
       "id": "nature-0036",
@@ -673,17 +1163,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was ist ein Fossil?",
-      "answers": [
-        "Ein versteinerter Rest eines Lebewesens",
-        "Ein besonders alter Kristall",
-        "Ein Edelstein aus einem Vulkan",
-        "Ein Stein aus dem Weltall"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Wird ein totes Tier oder eine Pflanze schnell von Schlamm bedeckt, kann es über Millionen Jahre zu Stein werden. So wissen wir zum Beispiel, wie Dinosaurier aussahen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Fossil?",
+          "answers": [
+            "Ein versteinerter Rest eines Lebewesens",
+            "Ein besonders alter Kristall",
+            "Ein Edelstein aus einem Vulkan",
+            "Ein Stein aus dem Weltall"
+          ],
+          "explanation": "Wird ein totes Tier oder eine Pflanze schnell von Schlamm bedeckt, kann es über Millionen Jahre zu Stein werden. So wissen wir zum Beispiel, wie Dinosaurier aussahen."
+        },
+        "en": {
+          "title": "What is a fossil?",
+          "answers": [
+            "The stone remains of a living thing",
+            "A very old crystal",
+            "A gemstone from a volcano",
+            "A stone from space"
+          ],
+          "explanation": "If a dead animal or plant is quickly covered in mud, it can turn to stone over millions of years. That's how we know what dinosaurs looked like, for example."
+        }
+      }
     },
     {
       "id": "nature-0037",
@@ -692,17 +1196,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum bebt manchmal die Erde?",
-      "answers": [
-        "Vulkane niesen",
-        "Unterirdische Flüsse laufen über",
-        "Riesige Gesteinsplatten verschieben sich ruckartig",
-        "Der Mond rüttelt an der Erde"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Die Erdkruste besteht aus großen Platten, die sich ganz langsam bewegen. Verhaken sie sich, baut sich Spannung auf, die sich plötzlich löst – dann bebt die Erde.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum bebt manchmal die Erde?",
+          "answers": [
+            "Vulkane niesen",
+            "Unterirdische Flüsse laufen über",
+            "Riesige Gesteinsplatten verschieben sich ruckartig",
+            "Der Mond rüttelt an der Erde"
+          ],
+          "explanation": "Die Erdkruste besteht aus großen Platten, die sich ganz langsam bewegen. Verhaken sie sich, baut sich Spannung auf, die sich plötzlich löst – dann bebt die Erde."
+        },
+        "en": {
+          "title": "Why does the Earth sometimes shake?",
+          "answers": [
+            "Volcanoes sneeze",
+            "Underground rivers overflow",
+            "Huge plates of rock suddenly shift",
+            "The moon shakes the Earth"
+          ],
+          "explanation": "The Earth's crust is made of big plates that move very slowly. When they get stuck, tension builds up and is suddenly released – then the Earth quakes."
+        }
+      }
     },
     {
       "id": "nature-0038",
@@ -711,17 +1229,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Welche Farbe hat Licht, das alle Regenbogenfarben gleichzeitig enthält?",
-      "answers": [
-        "Weiß",
-        "Grau",
-        "Schwarz",
-        "Braun"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Sonnenlicht sieht weiß aus, weil es alle Farben gleichzeitig enthält. Ein Prisma oder Regentropfen können es wieder in die einzelnen Farben aufteilen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Farbe hat Licht, das alle Regenbogenfarben gleichzeitig enthält?",
+          "answers": [
+            "Weiß",
+            "Grau",
+            "Schwarz",
+            "Braun"
+          ],
+          "explanation": "Sonnenlicht sieht weiß aus, weil es alle Farben gleichzeitig enthält. Ein Prisma oder Regentropfen können es wieder in die einzelnen Farben aufteilen."
+        },
+        "en": {
+          "title": "What colour is light that contains all the colours of the rainbow at once?",
+          "answers": [
+            "White",
+            "Grey",
+            "Black",
+            "Brown"
+          ],
+          "explanation": "Sunlight looks white because it contains all colours at once. A prism or raindrops can split it back into the single colours."
+        }
+      }
     },
     {
       "id": "nature-0039",
@@ -730,17 +1262,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Was zeigt ein Barometer an?",
-      "answers": [
-        "Die Windstärke",
-        "Den Luftdruck",
-        "Die Temperatur des Bodens",
-        "Die Regenmenge"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Ein Barometer misst, wie stark die Luft drückt. Fällt der Luftdruck, kommt oft schlechteres Wetter, steigt er, wird es meist freundlich.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was zeigt ein Barometer an?",
+          "answers": [
+            "Die Windstärke",
+            "Den Luftdruck",
+            "Die Temperatur des Bodens",
+            "Die Regenmenge"
+          ],
+          "explanation": "Ein Barometer misst, wie stark die Luft drückt. Fällt der Luftdruck, kommt oft schlechteres Wetter, steigt er, wird es meist freundlich."
+        },
+        "en": {
+          "title": "What does a barometer show?",
+          "answers": [
+            "Wind strength",
+            "Air pressure",
+            "The temperature of the ground",
+            "The amount of rain"
+          ],
+          "explanation": "A barometer measures how hard the air presses. When air pressure falls, worse weather often follows; when it rises, it usually gets nicer."
+        }
+      }
     },
     {
       "id": "nature-0040",
@@ -749,17 +1295,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Woraus wächst ein neuer Baum?",
-      "answers": [
-        "Aus einem Samen",
-        "Aus einem Stein",
-        "Aus einem abgefallenen Blatt",
-        "Aus einem Stück Rinde"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "In jedem Samen, etwa einer Eichel oder Kastanie, steckt ein winziger Keimling mit Vorrat. Landet er in feuchter Erde, keimt er und wächst langsam zu einem Baum heran.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woraus wächst ein neuer Baum?",
+          "answers": [
+            "Aus einem Samen",
+            "Aus einem Stein",
+            "Aus einem abgefallenen Blatt",
+            "Aus einem Stück Rinde"
+          ],
+          "explanation": "In jedem Samen, etwa einer Eichel oder Kastanie, steckt ein winziger Keimling mit Vorrat. Landet er in feuchter Erde, keimt er und wächst langsam zu einem Baum heran."
+        },
+        "en": {
+          "title": "What does a new tree grow from?",
+          "answers": [
+            "A seed",
+            "A stone",
+            "A fallen leaf",
+            "A piece of bark"
+          ],
+          "explanation": "Every seed, such as an acorn or a chestnut, holds a tiny seedling with a food supply. If it lands in moist soil, it sprouts and slowly grows into a tree."
+        }
+      }
     },
     {
       "id": "nature-0041",
@@ -768,17 +1328,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was ist ein Tornado?",
-      "answers": [
-        "Ein Vulkan unter Wasser",
-        "Ein besonders langer Blitz",
-        "Ein schnell drehender Luftwirbel",
-        "Eine riesige Meereswelle"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Ein Tornado ist ein Wirbel, der von einer Gewitterwolke bis zum Boden reicht. Darin kann der Wind über 300 km/h schnell werden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Tornado?",
+          "answers": [
+            "Ein Vulkan unter Wasser",
+            "Ein besonders langer Blitz",
+            "Ein schnell drehender Luftwirbel",
+            "Eine riesige Meereswelle"
+          ],
+          "explanation": "Ein Tornado ist ein Wirbel, der von einer Gewitterwolke bis zum Boden reicht. Darin kann der Wind über 300 km/h schnell werden."
+        },
+        "en": {
+          "title": "What is a tornado?",
+          "answers": [
+            "An underwater volcano",
+            "A very long bolt of lightning",
+            "A fast-spinning whirl of air",
+            "A giant ocean wave"
+          ],
+          "explanation": "A tornado is a whirl that reaches from a storm cloud down to the ground. The wind inside can go faster than 300 km/h."
+        }
+      }
     },
     {
       "id": "nature-0042",
@@ -787,17 +1361,31 @@
       "order": 9,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum ist es nachts bei klarem Himmel kälter als bei Wolken?",
-      "answers": [
-        "Ohne Wolken weht immer Wind",
-        "Wolken halten die Wärme des Bodens fest",
-        "Die Sterne kühlen die Erde",
-        "Der Mond strahlt Kälte ab"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Nachts gibt der Boden die Wärme des Tages ab. Wolken wirken wie eine Decke und schicken einen Teil zurück. Ohne Wolken entweicht die Wärme ins All – im Frühling gibt es dann oft Bodenfrost.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist es nachts bei klarem Himmel kälter als bei Wolken?",
+          "answers": [
+            "Ohne Wolken weht immer Wind",
+            "Wolken halten die Wärme des Bodens fest",
+            "Die Sterne kühlen die Erde",
+            "Der Mond strahlt Kälte ab"
+          ],
+          "explanation": "Nachts gibt der Boden die Wärme des Tages ab. Wolken wirken wie eine Decke und schicken einen Teil zurück. Ohne Wolken entweicht die Wärme ins All – im Frühling gibt es dann oft Bodenfrost."
+        },
+        "en": {
+          "title": "Why is it colder at night under a clear sky than under clouds?",
+          "answers": [
+            "Without clouds there is always wind",
+            "Clouds hold in the warmth of the ground",
+            "The stars cool the Earth",
+            "The moon gives off cold"
+          ],
+          "explanation": "At night the ground gives off the day's warmth. Clouds act like a blanket and send some of it back. Without clouds the warmth escapes into space – in spring there is often ground frost then."
+        }
+      }
     },
     {
       "id": "nature-0043",
@@ -806,17 +1394,31 @@
       "order": 19,
       "difficulty": "HARD",
       "difficultyScore": 7,
-      "title": "Warum ist Eis so rutschig?",
-      "answers": [
-        "Eis ist glatt wie ein Spiegel",
-        "Eis stößt Gummi ab",
-        "Auf der Oberfläche liegt eine hauchdünne, fast flüssige Schicht",
-        "Der Druck der Schuhe schmilzt das Eis"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Lange dachte man, der Druck der Schuhe schmilzt das Eis. Dafür reicht er aber bei Weitem nicht. Die obersten Wasserteilchen sind kaum gebunden und bilden eine flüssigkeitsähnliche Schicht – darauf rutscht man.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist Eis so rutschig?",
+          "answers": [
+            "Eis ist glatt wie ein Spiegel",
+            "Eis stößt Gummi ab",
+            "Auf der Oberfläche liegt eine hauchdünne, fast flüssige Schicht",
+            "Der Druck der Schuhe schmilzt das Eis"
+          ],
+          "explanation": "Lange dachte man, der Druck der Schuhe schmilzt das Eis. Dafür reicht er aber bei Weitem nicht. Die obersten Wasserteilchen sind kaum gebunden und bilden eine flüssigkeitsähnliche Schicht – darauf rutscht man."
+        },
+        "en": {
+          "title": "Why is ice so slippery?",
+          "answers": [
+            "Ice is as smooth as a mirror",
+            "Ice repels rubber",
+            "Its surface has a wafer-thin, almost liquid layer",
+            "The pressure of your shoes melts the ice"
+          ],
+          "explanation": "For a long time people thought the pressure of shoes melts the ice. But it isn't nearly strong enough. The top water particles are hardly bound and form a liquid-like layer – that's what you slide on."
+        }
+      }
     },
     {
       "id": "nature-0044",
@@ -825,17 +1427,31 @@
       "order": 18,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Warum werden Blätter im Herbst gelb?",
-      "answers": [
-        "Der Baum bildet neuen gelben Farbstoff",
-        "Die Blätter verbrennen in der Sonne",
-        "Die Kälte färbt die Blätter",
-        "Das grüne Chlorophyll wird abgebaut, das Gelb war schon da"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Das Gelb steckt den ganzen Sommer im Blatt, wird aber vom Grün überdeckt. Im Herbst holt der Baum das wertvolle Chlorophyll zurück in den Stamm, und die gelben Farbstoffe werden sichtbar.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum werden Blätter im Herbst gelb?",
+          "answers": [
+            "Der Baum bildet neuen gelben Farbstoff",
+            "Die Blätter verbrennen in der Sonne",
+            "Die Kälte färbt die Blätter",
+            "Das grüne Chlorophyll wird abgebaut, das Gelb war schon da"
+          ],
+          "explanation": "Das Gelb steckt den ganzen Sommer im Blatt, wird aber vom Grün überdeckt. Im Herbst holt der Baum das wertvolle Chlorophyll zurück in den Stamm, und die gelben Farbstoffe werden sichtbar."
+        },
+        "en": {
+          "title": "Why do leaves turn yellow in autumn?",
+          "answers": [
+            "The tree makes new yellow colouring",
+            "The leaves burn in the sun",
+            "The cold colours the leaves",
+            "The green chlorophyll is broken down – the yellow was already there"
+          ],
+          "explanation": "The yellow is in the leaf all summer but is covered by the green. In autumn the tree pulls the valuable chlorophyll back into its trunk, and the yellow pigments show."
+        }
+      }
     },
     {
       "id": "nature-0045",
@@ -844,17 +1460,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Aus welchem Teil der Pflanze wird die Frucht?",
-      "answers": [
-        "Aus der Blüte",
-        "Aus der Wurzel",
-        "Aus dem Stängel",
-        "Aus dem Blatt"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Wird eine Blüte bestäubt, wächst aus ihr die Frucht mit den Samen. Aus jeder Apfelblüte kann so ein Apfel werden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Aus welchem Teil der Pflanze wird die Frucht?",
+          "answers": [
+            "Aus der Blüte",
+            "Aus der Wurzel",
+            "Aus dem Stängel",
+            "Aus dem Blatt"
+          ],
+          "explanation": "Wird eine Blüte bestäubt, wächst aus ihr die Frucht mit den Samen. Aus jeder Apfelblüte kann so ein Apfel werden."
+        },
+        "en": {
+          "title": "Which part of a plant turns into the fruit?",
+          "answers": [
+            "The flower",
+            "The root",
+            "The stem",
+            "The leaf"
+          ],
+          "explanation": "Once a flower is pollinated, the fruit with its seeds grows from it. That way every apple blossom can become an apple."
+        }
+      }
     },
     {
       "id": "nature-0046",
@@ -863,17 +1493,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie helfen Bienen den Pflanzen?",
-      "answers": [
-        "Sie gießen sie mit Honig",
-        "Sie tragen Blütenstaub von Blüte zu Blüte",
-        "Sie schneiden welke Blätter ab",
-        "Sie lockern die Erde"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Beim Nektarsammeln bleibt Blütenstaub an der Biene hängen. In der nächsten Blüte streift sie ihn ab, und die Blüte kann eine Frucht bilden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie helfen Bienen den Pflanzen?",
+          "answers": [
+            "Sie gießen sie mit Honig",
+            "Sie tragen Blütenstaub von Blüte zu Blüte",
+            "Sie schneiden welke Blätter ab",
+            "Sie lockern die Erde"
+          ],
+          "explanation": "Beim Nektarsammeln bleibt Blütenstaub an der Biene hängen. In der nächsten Blüte streift sie ihn ab, und die Blüte kann eine Frucht bilden."
+        },
+        "en": {
+          "title": "How do bees help plants?",
+          "answers": [
+            "They water them with honey",
+            "They carry pollen from flower to flower",
+            "They cut off wilted leaves",
+            "They loosen the soil"
+          ],
+          "explanation": "While a bee collects nectar, pollen sticks to it. It brushes the pollen off in the next flower, which can then form a fruit."
+        }
+      }
     },
     {
       "id": "nature-0047",
@@ -882,17 +1526,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum bleiben Nadelbäume im Winter grün?",
-      "answers": [
-        "Sie haben Frostschutz aus Harz in den Wurzeln",
-        "Sie wachsen nur im Winter",
-        "Der Schnee färbt sie grün",
-        "Ihre Nadeln verlieren kaum Wasser"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Nadeln sind schmal und mit Wachs überzogen. Deshalb verdunsten sie im Winter kaum Wasser, und der Baum kann sie behalten. Eine Ausnahme ist die Lärche: Sie wirft ihre Nadeln im Herbst ab.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum bleiben Nadelbäume im Winter grün?",
+          "answers": [
+            "Sie haben Frostschutz aus Harz in den Wurzeln",
+            "Sie wachsen nur im Winter",
+            "Der Schnee färbt sie grün",
+            "Ihre Nadeln verlieren kaum Wasser"
+          ],
+          "explanation": "Nadeln sind schmal und mit Wachs überzogen. Deshalb verdunsten sie im Winter kaum Wasser, und der Baum kann sie behalten. Eine Ausnahme ist die Lärche: Sie wirft ihre Nadeln im Herbst ab."
+        },
+        "en": {
+          "title": "Why do conifers stay green in winter?",
+          "answers": [
+            "Their roots have resin antifreeze",
+            "They only grow in winter",
+            "The snow colours them green",
+            "Their needles lose hardly any water"
+          ],
+          "explanation": "Needles are narrow and coated with wax. So in winter they hardly lose any water and the tree can keep them. The larch is an exception: it drops its needles in autumn."
+        }
+      }
     },
     {
       "id": "nature-0048",
@@ -901,17 +1559,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie viel des Wassers auf der Erde ist Süßwasser?",
-      "answers": [
-        "Etwa die Hälfte",
-        "Gar keins",
-        "Nur ein kleiner Teil, etwa 3 Prozent",
-        "Fast alles"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Rund 97 Prozent des Wassers ist salziges Meerwasser. Vom Süßwasser ist zudem das meiste in Gletschern und an den Polen gefroren.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viel des Wassers auf der Erde ist Süßwasser?",
+          "answers": [
+            "Etwa die Hälfte",
+            "Gar keins",
+            "Nur ein kleiner Teil, etwa 3 Prozent",
+            "Fast alles"
+          ],
+          "explanation": "Rund 97 Prozent des Wassers ist salziges Meerwasser. Vom Süßwasser ist zudem das meiste in Gletschern und an den Polen gefroren."
+        },
+        "en": {
+          "title": "How much of the water on Earth is fresh water?",
+          "answers": [
+            "About half",
+            "None at all",
+            "Only a small part, about 3 percent",
+            "Almost all of it"
+          ],
+          "explanation": "About 97 percent of the water is salty seawater. And most of the fresh water is frozen in glaciers and at the poles."
+        }
+      }
     },
     {
       "id": "nature-0049",
@@ -920,17 +1592,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was ist ein Gletscher?",
-      "answers": [
-        "Ein langsam fließender Strom aus Eis",
-        "Ein See unter der Erde",
-        "Ein Berg aus Salz",
-        "Ein gefrorener Wasserfall"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Gletscher entstehen, wo über viele Jahre mehr Schnee fällt als schmilzt. Der Schnee wird zu Eis gepresst, das unter seinem eigenen Gewicht ganz langsam bergab fließt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Gletscher?",
+          "answers": [
+            "Ein langsam fließender Strom aus Eis",
+            "Ein See unter der Erde",
+            "Ein Berg aus Salz",
+            "Ein gefrorener Wasserfall"
+          ],
+          "explanation": "Gletscher entstehen, wo über viele Jahre mehr Schnee fällt als schmilzt. Der Schnee wird zu Eis gepresst, das unter seinem eigenen Gewicht ganz langsam bergab fließt."
+        },
+        "en": {
+          "title": "What is a glacier?",
+          "answers": [
+            "A slowly flowing river of ice",
+            "A lake under the ground",
+            "A mountain of salt",
+            "A frozen waterfall"
+          ],
+          "explanation": "Glaciers form where more snow falls than melts over many years. The snow is pressed into ice, which flows downhill very slowly under its own weight."
+        }
+      }
     },
     {
       "id": "nature-0050",
@@ -939,17 +1625,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wodurch entstehen die meisten Wellen auf dem Meer?",
-      "answers": [
-        "Das Meer atmet",
-        "Fische schwimmen im Kreis",
-        "Der Wind schiebt die Wasseroberfläche an",
-        "Der Meeresboden wackelt ständig"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Wind reibt über das Wasser und schiebt es zu kleinen Hügeln auf. Je stärker und länger er weht, desto höher werden die Wellen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wodurch entstehen die meisten Wellen auf dem Meer?",
+          "answers": [
+            "Das Meer atmet",
+            "Fische schwimmen im Kreis",
+            "Der Wind schiebt die Wasseroberfläche an",
+            "Der Meeresboden wackelt ständig"
+          ],
+          "explanation": "Wind reibt über das Wasser und schiebt es zu kleinen Hügeln auf. Je stärker und länger er weht, desto höher werden die Wellen."
+        },
+        "en": {
+          "title": "What causes most waves on the sea?",
+          "answers": [
+            "The sea breathes",
+            "Fish swim in circles",
+            "The wind pushes the water's surface",
+            "The sea floor wobbles all the time"
+          ],
+          "explanation": "Wind rubs over the water and pushes it into small hills. The stronger and longer it blows, the higher the waves get."
+        }
+      }
     },
     {
       "id": "nature-0051",
@@ -958,17 +1658,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie heißt geschmolzenes Gestein, solange es unter der Erde ist?",
-      "answers": [
-        "Magma",
-        "Lava",
-        "Basalt",
-        "Granit"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Unter der Erde heißt das geschmolzene Gestein Magma. Erst wenn es bei einem Ausbruch an die Oberfläche kommt, nennt man es Lava.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt geschmolzenes Gestein, solange es unter der Erde ist?",
+          "answers": [
+            "Magma",
+            "Lava",
+            "Basalt",
+            "Granit"
+          ],
+          "explanation": "Unter der Erde heißt das geschmolzene Gestein Magma. Erst wenn es bei einem Ausbruch an die Oberfläche kommt, nennt man es Lava."
+        },
+        "en": {
+          "title": "What is molten rock called while it is still underground?",
+          "answers": [
+            "Magma",
+            "Lava",
+            "Basalt",
+            "Granite"
+          ],
+          "explanation": "Underground, molten rock is called magma. Only when it reaches the surface during an eruption is it called lava."
+        }
+      }
     },
     {
       "id": "nature-0052",
@@ -977,17 +1691,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was ist der härteste natürliche Stoff?",
-      "answers": [
-        "Marmor",
-        "Diamant",
-        "Eisen",
-        "Granit"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Mit einem Diamanten kann man fast alles ritzen, sogar Glas und Stahl. Deshalb sitzen kleine Diamanten an Bohrern und Sägen für Stein.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist der härteste natürliche Stoff?",
+          "answers": [
+            "Marmor",
+            "Diamant",
+            "Eisen",
+            "Granit"
+          ],
+          "explanation": "Mit einem Diamanten kann man fast alles ritzen, sogar Glas und Stahl. Deshalb sitzen kleine Diamanten an Bohrern und Sägen für Stein."
+        },
+        "en": {
+          "title": "What is the hardest natural material?",
+          "answers": [
+            "Marble",
+            "Diamond",
+            "Iron",
+            "Granite"
+          ],
+          "explanation": "A diamond can scratch almost anything, even glass and steel. That's why tiny diamonds sit on drills and saws for cutting stone."
+        }
+      }
     },
     {
       "id": "nature-0053",
@@ -996,17 +1724,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Woraus besteht ein Diamant?",
-      "answers": [
-        "Aus Salz",
-        "Aus gepresstem Eis",
-        "Aus Glas",
-        "Aus Kohlenstoff"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Ein Diamant ist reiner Kohlenstoff – wie der Graphit in einer Bleistiftmine. Tief in der Erde wurden die Teilchen unter riesigem Druck und großer Hitze nur viel fester verbunden.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woraus besteht ein Diamant?",
+          "answers": [
+            "Aus Salz",
+            "Aus gepresstem Eis",
+            "Aus Glas",
+            "Aus Kohlenstoff"
+          ],
+          "explanation": "Ein Diamant ist reiner Kohlenstoff – wie der Graphit in einer Bleistiftmine. Tief in der Erde wurden die Teilchen unter riesigem Druck und großer Hitze nur viel fester verbunden."
+        },
+        "en": {
+          "title": "What is a diamond made of?",
+          "answers": [
+            "Salt",
+            "Pressed ice",
+            "Glass",
+            "Carbon"
+          ],
+          "explanation": "A diamond is pure carbon – like the graphite in a pencil. Deep in the Earth, huge pressure and heat simply bound the particles much more tightly."
+        }
+      }
     },
     {
       "id": "nature-0054",
@@ -1015,17 +1757,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum findet man in den Alpen versteinerte Muscheln?",
-      "answers": [
-        "Muscheln lebten früher in Bergbächen",
-        "Das Gestein lag einmal am Meeresboden",
-        "Wanderer haben sie verloren",
-        "Vögel haben Muscheln hinaufgetragen"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Vor vielen Millionen Jahren lag dort ein Meer. Als Erdplatten zusammenstießen, wurde der Meeresboden mitsamt den Muscheln zu den Alpen aufgefaltet.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum findet man in den Alpen versteinerte Muscheln?",
+          "answers": [
+            "Muscheln lebten früher in Bergbächen",
+            "Das Gestein lag einmal am Meeresboden",
+            "Wanderer haben sie verloren",
+            "Vögel haben Muscheln hinaufgetragen"
+          ],
+          "explanation": "Vor vielen Millionen Jahren lag dort ein Meer. Als Erdplatten zusammenstießen, wurde der Meeresboden mitsamt den Muscheln zu den Alpen aufgefaltet."
+        },
+        "en": {
+          "title": "Why can you find fossil shells in the Alps?",
+          "answers": [
+            "Shells used to live in mountain streams",
+            "The rock was once on the sea floor",
+            "Hikers lost them",
+            "Birds carried shells up there"
+          ],
+          "explanation": "Many millions of years ago there was a sea there. When plates of the Earth collided, the sea floor and its shells were folded up into the Alps."
+        }
+      }
     },
     {
       "id": "nature-0055",
@@ -1034,17 +1790,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum sieht man einen Regenbogen nur, wenn die Sonne hinter einem steht?",
-      "answers": [
-        "Die Tropfen werfen das Licht zu uns zurück",
-        "Sonst ist er zu weit weg",
-        "Regenbögen gibt es nur morgens",
-        "Sonst blendet die Sonne zu stark"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "In jedem Tropfen wird das Licht gebrochen und an der Rückseite gespiegelt. Es kommt also ungefähr in die Richtung zurück, aus der es kam – deshalb muss die Sonne in deinem Rücken stehen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum sieht man einen Regenbogen nur, wenn die Sonne hinter einem steht?",
+          "answers": [
+            "Die Tropfen werfen das Licht zu uns zurück",
+            "Sonst ist er zu weit weg",
+            "Regenbögen gibt es nur morgens",
+            "Sonst blendet die Sonne zu stark"
+          ],
+          "explanation": "In jedem Tropfen wird das Licht gebrochen und an der Rückseite gespiegelt. Es kommt also ungefähr in die Richtung zurück, aus der es kam – deshalb muss die Sonne in deinem Rücken stehen."
+        },
+        "en": {
+          "title": "Why do you only see a rainbow when the sun is behind you?",
+          "answers": [
+            "The drops send the light back towards us",
+            "Otherwise it is too far away",
+            "Rainbows only appear in the morning",
+            "Otherwise the sun is too dazzling"
+          ],
+          "explanation": "In each drop, light is bent and reflected off the back. So it comes back roughly the way it came – that's why the sun has to be behind you."
+        }
+      }
     },
     {
       "id": "nature-0056",
@@ -1053,17 +1823,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum werden schwarze Sachen in der Sonne besonders heiß?",
-      "answers": [
-        "Schwarz zieht die Sonne an",
-        "Schwarze Stoffe sind immer dicker",
-        "Schwarz schluckt fast alles Licht und macht daraus Wärme",
-        "Schwarze Farbe ist von Natur aus warm"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Helle Flächen werfen viel Licht zurück, dunkle schlucken es. Das geschluckte Licht wird zu Wärme – deshalb ist ein schwarzes T-Shirt in der Sonne wärmer als ein weißes.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum werden schwarze Sachen in der Sonne besonders heiß?",
+          "answers": [
+            "Schwarz zieht die Sonne an",
+            "Schwarze Stoffe sind immer dicker",
+            "Schwarz schluckt fast alles Licht und macht daraus Wärme",
+            "Schwarze Farbe ist von Natur aus warm"
+          ],
+          "explanation": "Helle Flächen werfen viel Licht zurück, dunkle schlucken es. Das geschluckte Licht wird zu Wärme – deshalb ist ein schwarzes T-Shirt in der Sonne wärmer als ein weißes."
+        },
+        "en": {
+          "title": "Why do black things get especially hot in the sun?",
+          "answers": [
+            "Black attracts the sun",
+            "Black fabrics are always thicker",
+            "Black absorbs almost all light and turns it into heat",
+            "Black paint is naturally warm"
+          ],
+          "explanation": "Light surfaces reflect a lot of light, dark ones absorb it. The absorbed light turns into heat – that's why a black T-shirt gets warmer in the sun than a white one."
+        }
+      }
     },
     {
       "id": "nature-0057",
@@ -1072,17 +1856,31 @@
       "order": 8,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Welche Farbe hat ein Regenbogen ganz außen?",
-      "answers": [
-        "Grün",
-        "Violett",
-        "Gelb",
-        "Rot"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Rotes Licht wird in den Tropfen am wenigsten abgelenkt und erscheint deshalb außen, Violett innen. Bei einem zweiten, blasseren Regenbogen ist die Reihenfolge umgekehrt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Farbe hat ein Regenbogen ganz außen?",
+          "answers": [
+            "Grün",
+            "Violett",
+            "Gelb",
+            "Rot"
+          ],
+          "explanation": "Rotes Licht wird in den Tropfen am wenigsten abgelenkt und erscheint deshalb außen, Violett innen. Bei einem zweiten, blasseren Regenbogen ist die Reihenfolge umgekehrt."
+        },
+        "en": {
+          "title": "Which colour is on the very outside of a rainbow?",
+          "answers": [
+            "Green",
+            "Violet",
+            "Yellow",
+            "Red"
+          ],
+          "explanation": "Red light is bent the least in the drops, so it appears on the outside and violet on the inside. In a second, paler rainbow the order is reversed."
+        }
+      }
     },
     {
       "id": "nature-0058",
@@ -1091,17 +1889,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum regnet es aus manchen Wolken und aus anderen nicht?",
-      "answers": [
-        "Erst wenn Tröpfchen zu schweren Tropfen zusammenwachsen, fallen sie",
-        "Der Wind entscheidet, welche Wolke regnet",
-        "Regen gibt es nur über Bergen",
-        "Nur graue Wolken enthalten Wasser"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Wolkentröpfchen sind so winzig, dass sie in der Luft schweben. Erst wenn sich sehr viele zu einem Tropfen vereinigen, wird er schwer genug, um zu fallen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum regnet es aus manchen Wolken und aus anderen nicht?",
+          "answers": [
+            "Erst wenn Tröpfchen zu schweren Tropfen zusammenwachsen, fallen sie",
+            "Der Wind entscheidet, welche Wolke regnet",
+            "Regen gibt es nur über Bergen",
+            "Nur graue Wolken enthalten Wasser"
+          ],
+          "explanation": "Wolkentröpfchen sind so winzig, dass sie in der Luft schweben. Erst wenn sich sehr viele zu einem Tropfen vereinigen, wird er schwer genug, um zu fallen."
+        },
+        "en": {
+          "title": "Why does rain fall from some clouds and not from others?",
+          "answers": [
+            "Droplets only fall once they grow into heavy drops",
+            "The wind decides which cloud rains",
+            "Rain only falls over mountains",
+            "Only grey clouds contain water"
+          ],
+          "explanation": "Cloud droplets are so tiny that they float in the air. Only when a great many join into one drop does it get heavy enough to fall."
+        }
+      }
     },
     {
       "id": "nature-0059",
@@ -1110,17 +1922,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie nennt man es, wenn es sehr lange nicht regnet und der Boden austrocknet?",
-      "answers": [
-        "Frost",
-        "Dürre",
-        "Sturm",
-        "Flut"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Bei einer Dürre fehlt über Wochen oder Monate der Regen. Pflanzen vertrocknen, Flüsse führen wenig Wasser, und Bauern haben schlechte Ernten.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie nennt man es, wenn es sehr lange nicht regnet und der Boden austrocknet?",
+          "answers": [
+            "Frost",
+            "Dürre",
+            "Sturm",
+            "Flut"
+          ],
+          "explanation": "Bei einer Dürre fehlt über Wochen oder Monate der Regen. Pflanzen vertrocknen, Flüsse führen wenig Wasser, und Bauern haben schlechte Ernten."
+        },
+        "en": {
+          "title": "What is it called when it doesn't rain for a very long time and the ground dries out?",
+          "answers": [
+            "Frost",
+            "Drought",
+            "Storm",
+            "Flood"
+          ],
+          "explanation": "In a drought there is no rain for weeks or months. Plants dry up, rivers carry little water and farmers have poor harvests."
+        }
+      }
     },
     {
       "id": "nature-0060",
@@ -1129,17 +1955,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was misst man in Grad Celsius?",
-      "answers": [
-        "Die Luftfeuchtigkeit",
-        "Die Regenmenge",
-        "Die Windstärke",
-        "Die Temperatur"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Bei 0 Grad Celsius gefriert Wasser, bei 100 Grad kocht es. Benannt ist die Skala nach dem schwedischen Forscher Anders Celsius.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was misst man in Grad Celsius?",
+          "answers": [
+            "Die Luftfeuchtigkeit",
+            "Die Regenmenge",
+            "Die Windstärke",
+            "Die Temperatur"
+          ],
+          "explanation": "Bei 0 Grad Celsius gefriert Wasser, bei 100 Grad kocht es. Benannt ist die Skala nach dem schwedischen Forscher Anders Celsius."
+        },
+        "en": {
+          "title": "What is measured in degrees Celsius?",
+          "answers": [
+            "Humidity",
+            "The amount of rain",
+            "Wind strength",
+            "Temperature"
+          ],
+          "explanation": "Water freezes at 0 degrees Celsius and boils at 100 degrees. The scale is named after the Swedish scientist Anders Celsius."
+        }
+      }
     }
   ]
 }

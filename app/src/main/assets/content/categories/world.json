@@ -8,17 +8,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welcher ist der größte Ozean?",
-      "answers": [
-        "Der Indische Ozean",
-        "Der Atlantik",
-        "Der Pazifik",
-        "Das Nordpolarmeer"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Pazifik bedeckt etwa ein Drittel der Erdoberfläche, mehr als alle Landflächen zusammen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher ist der größte Ozean?",
+          "answers": [
+            "Der Indische Ozean",
+            "Der Atlantik",
+            "Der Pazifik",
+            "Das Nordpolarmeer"
+          ],
+          "explanation": "Der Pazifik bedeckt etwa ein Drittel der Erdoberfläche, mehr als alle Landflächen zusammen."
+        },
+        "en": {
+          "title": "Which is the largest ocean?",
+          "answers": [
+            "The Indian Ocean",
+            "The Atlantic",
+            "The Pacific",
+            "The Arctic Ocean"
+          ],
+          "explanation": "The Pacific covers about a third of the Earth's surface – more than all the land put together."
+        }
+      }
     },
     {
       "id": "world-0002",
@@ -27,17 +41,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum ist das Tote Meer so salzig?",
-      "answers": [
-        "Es liegt auf einem Salzberg",
-        "Es regnet dort salzig",
-        "Wasser fließt hinein, aber nur durch Verdunsten hinaus",
-        "Es ist mit dem Ozean verbunden"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Jordan bringt Wasser mit gelösten Mineralien. Das Wasser verdunstet in der Hitze, das Salz bleibt zurück. Deshalb kann man darin mühelos treiben.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist das Tote Meer so salzig?",
+          "answers": [
+            "Es liegt auf einem Salzberg",
+            "Es regnet dort salzig",
+            "Wasser fließt hinein, aber nur durch Verdunsten hinaus",
+            "Es ist mit dem Ozean verbunden"
+          ],
+          "explanation": "Der Jordan bringt Wasser mit gelösten Mineralien. Das Wasser verdunstet in der Hitze, das Salz bleibt zurück. Deshalb kann man darin mühelos treiben."
+        },
+        "en": {
+          "title": "Why is the Dead Sea so salty?",
+          "answers": [
+            "It lies on a salt mountain",
+            "The rain there is salty",
+            "Water flows in but only leaves by evaporating",
+            "It is connected to the ocean"
+          ],
+          "explanation": "The Jordan River brings water with dissolved minerals. The water evaporates in the heat and the salt stays behind. That's why you can float in it effortlessly."
+        }
+      }
     },
     {
       "id": "world-0003",
@@ -46,17 +74,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Auf welchem Kontinent liegt Ägypten?",
-      "answers": [
-        "Europa",
-        "Asien",
-        "Afrika",
-        "Südamerika"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Ägypten liegt im Nordosten Afrikas. Nur die Sinai-Halbinsel jenseits des Suezkanals zählt schon zu Asien.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Auf welchem Kontinent liegt Ägypten?",
+          "answers": [
+            "Europa",
+            "Asien",
+            "Afrika",
+            "Südamerika"
+          ],
+          "explanation": "Ägypten liegt im Nordosten Afrikas. Nur die Sinai-Halbinsel jenseits des Suezkanals zählt schon zu Asien."
+        },
+        "en": {
+          "title": "Which continent is Egypt on?",
+          "answers": [
+            "Europe",
+            "Asia",
+            "Africa",
+            "South America"
+          ],
+          "explanation": "Egypt lies in the north-east of Africa. Only the Sinai Peninsula beyond the Suez Canal already counts as Asia."
+        }
+      }
     },
     {
       "id": "world-0004",
@@ -65,17 +107,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welcher ist der höchste Berg der Welt?",
-      "answers": [
-        "Die Zugspitze",
-        "Der Mount Everest",
-        "Der K2",
-        "Der Kilimandscharo"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Der Mount Everest im Himalaya ist rund 8.849 Meter hoch. Er wächst sogar noch ein wenig, weil sich Indien Jahr für Jahr gegen Asien schiebt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher ist der höchste Berg der Welt?",
+          "answers": [
+            "Die Zugspitze",
+            "Der Mount Everest",
+            "Der K2",
+            "Der Kilimandscharo"
+          ],
+          "explanation": "Der Mount Everest im Himalaya ist rund 8.849 Meter hoch. Er wächst sogar noch ein wenig, weil sich Indien Jahr für Jahr gegen Asien schiebt."
+        },
+        "en": {
+          "title": "What is the highest mountain in the world?",
+          "answers": [
+            "The Zugspitze",
+            "Mount Everest",
+            "K2",
+            "Kilimanjaro"
+          ],
+          "explanation": "Mount Everest in the Himalayas is about 8,849 metres high. It is even still growing a little, because India pushes against Asia year after year."
+        }
+      }
     },
     {
       "id": "world-0005",
@@ -84,17 +140,31 @@
       "order": 11,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welches ist das größte Land der Erde?",
-      "answers": [
-        "Russland",
-        "USA",
-        "China",
-        "Kanada"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Russland erstreckt sich von Osteuropa bis zum Pazifik und ist fast doppelt so groß wie Kanada, das zweitgrößte Land.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches ist das größte Land der Erde?",
+          "answers": [
+            "Russland",
+            "USA",
+            "China",
+            "Kanada"
+          ],
+          "explanation": "Russland erstreckt sich von Osteuropa bis zum Pazifik und ist fast doppelt so groß wie Kanada, das zweitgrößte Land."
+        },
+        "en": {
+          "title": "Which is the largest country on Earth?",
+          "answers": [
+            "Russia",
+            "USA",
+            "China",
+            "Canada"
+          ],
+          "explanation": "Russia stretches from Eastern Europe to the Pacific and is almost twice as big as Canada, the second-largest country."
+        }
+      }
     },
     {
       "id": "world-0006",
@@ -103,17 +173,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Welche Sprache sprechen die meisten Menschen als Muttersprache?",
-      "answers": [
-        "Chinesisch",
-        "Englisch",
-        "Spanisch",
-        "Hindi"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Hochchinesisch, auch Mandarin genannt, ist für fast eine Milliarde Menschen die Muttersprache. Englisch sprechen insgesamt zwar mehr Menschen, aber die meisten als Fremdsprache.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Sprache sprechen die meisten Menschen als Muttersprache?",
+          "answers": [
+            "Chinesisch",
+            "Englisch",
+            "Spanisch",
+            "Hindi"
+          ],
+          "explanation": "Hochchinesisch, auch Mandarin genannt, ist für fast eine Milliarde Menschen die Muttersprache. Englisch sprechen insgesamt zwar mehr Menschen, aber die meisten als Fremdsprache."
+        },
+        "en": {
+          "title": "Which language do most people speak as their mother tongue?",
+          "answers": [
+            "Chinese",
+            "English",
+            "Spanish",
+            "Hindi"
+          ],
+          "explanation": "Standard Chinese, also called Mandarin, is the mother tongue of almost a billion people. More people speak English overall, but most of them as a foreign language."
+        }
+      }
     },
     {
       "id": "world-0007",
@@ -122,17 +206,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "In welchem Land steht der Eiffelturm?",
-      "answers": [
-        "Spanien",
-        "Frankreich",
-        "Belgien",
-        "Italien"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Der Eiffelturm wurde 1889 für die Weltausstellung in Paris gebaut. Eigentlich sollte er nach 20 Jahren wieder abgerissen werden, doch als Funkturm wurde er gebraucht und blieb stehen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "In welchem Land steht der Eiffelturm?",
+          "answers": [
+            "Spanien",
+            "Frankreich",
+            "Belgien",
+            "Italien"
+          ],
+          "explanation": "Der Eiffelturm wurde 1889 für die Weltausstellung in Paris gebaut. Eigentlich sollte er nach 20 Jahren wieder abgerissen werden, doch als Funkturm wurde er gebraucht und blieb stehen."
+        },
+        "en": {
+          "title": "Which country is the Eiffel Tower in?",
+          "answers": [
+            "Spain",
+            "France",
+            "Belgium",
+            "Italy"
+          ],
+          "explanation": "The Eiffel Tower was built in 1889 for the World's Fair in Paris. It was meant to be torn down after 20 years, but it was needed as a radio tower and stayed."
+        }
+      }
     },
     {
       "id": "world-0008",
@@ -141,17 +239,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum ist es am Äquator so heiß?",
-      "answers": [
-        "Dort liegt der Erdkern näher an der Oberfläche",
-        "Dort gibt es keine Wolken",
-        "Die Sonne steht dort das ganze Jahr hoch am Himmel",
-        "Dort weht nie Wind"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Am Äquator treffen die Sonnenstrahlen fast senkrecht auf. Ihre Energie verteilt sich auf eine kleine Fläche und heizt stärker. Weiter im Norden treffen sie schräg auf und verteilen sich auf mehr Fläche.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist es am Äquator so heiß?",
+          "answers": [
+            "Dort liegt der Erdkern näher an der Oberfläche",
+            "Dort gibt es keine Wolken",
+            "Die Sonne steht dort das ganze Jahr hoch am Himmel",
+            "Dort weht nie Wind"
+          ],
+          "explanation": "Am Äquator treffen die Sonnenstrahlen fast senkrecht auf. Ihre Energie verteilt sich auf eine kleine Fläche und heizt stärker. Weiter im Norden treffen sie schräg auf und verteilen sich auf mehr Fläche."
+        },
+        "en": {
+          "title": "Why is it so hot at the equator?",
+          "answers": [
+            "The Earth's core is closer to the surface there",
+            "There are no clouds there",
+            "The sun is high in the sky there all year round",
+            "The wind never blows there"
+          ],
+          "explanation": "At the equator the sun's rays hit almost straight down. Their energy is spread over a small area and heats it more. Further north they hit at an angle and spread over a larger area."
+        }
+      }
     },
     {
       "id": "world-0009",
@@ -160,17 +272,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Welche Sprache spricht man in Brasilien?",
-      "answers": [
-        "Spanisch",
-        "Englisch",
-        "Brasilianisch",
-        "Portugiesisch"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Brasilien war lange eine Kolonie Portugals. Deshalb spricht man dort Portugiesisch, während in fast allen Nachbarländern Spanisch gesprochen wird.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Sprache spricht man in Brasilien?",
+          "answers": [
+            "Spanisch",
+            "Englisch",
+            "Brasilianisch",
+            "Portugiesisch"
+          ],
+          "explanation": "Brasilien war lange eine Kolonie Portugals. Deshalb spricht man dort Portugiesisch, während in fast allen Nachbarländern Spanisch gesprochen wird."
+        },
+        "en": {
+          "title": "Which language is spoken in Brazil?",
+          "answers": [
+            "Spanish",
+            "English",
+            "Brazilian",
+            "Portuguese"
+          ],
+          "explanation": "Brazil was a Portuguese colony for a long time. That's why people speak Portuguese there, while almost all neighbouring countries speak Spanish."
+        }
+      }
     },
     {
       "id": "world-0010",
@@ -179,17 +305,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wie heißt die Hauptstadt von Italien?",
-      "answers": [
-        "Mailand",
-        "Venedig",
-        "Neapel",
-        "Rom"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Rom ist seit 1871 die Hauptstadt Italiens. Wegen ihrer langen Geschichte nennt man sie auch die „Ewige Stadt“.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt die Hauptstadt von Italien?",
+          "answers": [
+            "Mailand",
+            "Venedig",
+            "Neapel",
+            "Rom"
+          ],
+          "explanation": "Rom ist seit 1871 die Hauptstadt Italiens. Wegen ihrer langen Geschichte nennt man sie auch die „Ewige Stadt“."
+        },
+        "en": {
+          "title": "What is the capital of Italy?",
+          "answers": [
+            "Milan",
+            "Venice",
+            "Naples",
+            "Rome"
+          ],
+          "explanation": "Rome has been the capital of Italy since 1871. Because of its long history, it is also called the “Eternal City”."
+        }
+      }
     },
     {
       "id": "world-0011",
@@ -198,17 +338,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welches Land hat die meisten Einwohner?",
-      "answers": [
-        "Indonesien",
-        "USA",
-        "China",
-        "Indien"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Im Jahr 2023 hat Indien China überholt. Beide Länder haben jeweils über 1,4 Milliarden Einwohner, zusammen lebt dort mehr als ein Drittel aller Menschen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Land hat die meisten Einwohner?",
+          "answers": [
+            "Indonesien",
+            "USA",
+            "China",
+            "Indien"
+          ],
+          "explanation": "Im Jahr 2023 hat Indien China überholt. Beide Länder haben jeweils über 1,4 Milliarden Einwohner, zusammen lebt dort mehr als ein Drittel aller Menschen."
+        },
+        "en": {
+          "title": "Which country has the most inhabitants?",
+          "answers": [
+            "Indonesia",
+            "USA",
+            "China",
+            "India"
+          ],
+          "explanation": "In 2023 India overtook China. Each country has more than 1.4 billion inhabitants – together that's more than a third of all people."
+        }
+      }
     },
     {
       "id": "world-0012",
@@ -217,17 +371,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wo liegt der kälteste Ort der Erde?",
-      "answers": [
-        "In Sibirien",
-        "Auf dem Mount Everest",
-        "Am Nordpol",
-        "In der Antarktis"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "In der Antarktis wurden schon fast minus 90 Grad gemessen. Am Südpol ist es kälter als am Nordpol, weil das Land dort hoch liegt und unter dickem Eis steckt, während am Nordpol nur Meereis auf dem Ozean schwimmt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wo liegt der kälteste Ort der Erde?",
+          "answers": [
+            "In Sibirien",
+            "Auf dem Mount Everest",
+            "Am Nordpol",
+            "In der Antarktis"
+          ],
+          "explanation": "In der Antarktis wurden schon fast minus 90 Grad gemessen. Am Südpol ist es kälter als am Nordpol, weil das Land dort hoch liegt und unter dickem Eis steckt, während am Nordpol nur Meereis auf dem Ozean schwimmt."
+        },
+        "en": {
+          "title": "Where is the coldest place on Earth?",
+          "answers": [
+            "In Siberia",
+            "On Mount Everest",
+            "At the North Pole",
+            "In Antarctica"
+          ],
+          "explanation": "Almost minus 90 degrees Celsius has been measured in Antarctica. The South Pole is colder than the North Pole because the land there is high and covered in thick ice, while at the North Pole only sea ice floats on the ocean."
+        }
+      }
     },
     {
       "id": "world-0013",
@@ -236,17 +404,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wie sagt man „Danke“ auf Spanisch?",
-      "answers": [
-        "Grazie",
-        "Gracias",
-        "Merci",
-        "Obrigado"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "„Gracias“ ist Spanisch. „Merci“ sagt man in Frankreich, „Grazie“ in Italien und „Obrigado“ oder „Obrigada“ in Portugal und Brasilien.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie sagt man „Danke“ auf Spanisch?",
+          "answers": [
+            "Grazie",
+            "Gracias",
+            "Merci",
+            "Obrigado"
+          ],
+          "explanation": "„Gracias“ ist Spanisch. „Merci“ sagt man in Frankreich, „Grazie“ in Italien und „Obrigado“ oder „Obrigada“ in Portugal und Brasilien."
+        },
+        "en": {
+          "title": "How do you say “thank you” in Spanish?",
+          "answers": [
+            "Grazie",
+            "Gracias",
+            "Merci",
+            "Obrigado"
+          ],
+          "explanation": "“Gracias” is Spanish. “Merci” is said in France, “Grazie” in Italy, and “Obrigado” or “Obrigada” in Portugal and Brazil."
+        }
+      }
     },
     {
       "id": "world-0014",
@@ -255,17 +437,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "In welchem Land gibt es Deutsch, Französisch, Italienisch und Rätoromanisch als Landessprachen?",
-      "answers": [
-        "In Österreich",
-        "In der Schweiz",
-        "In Belgien",
-        "In Luxemburg"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Die Schweiz hat vier Landessprachen. Am meisten wird Deutsch gesprochen, im Westen Französisch, im Süden Italienisch und in einigen Tälern Graubündens Rätoromanisch.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "In welchem Land gibt es Deutsch, Französisch, Italienisch und Rätoromanisch als Landessprachen?",
+          "answers": [
+            "In Österreich",
+            "In der Schweiz",
+            "In Belgien",
+            "In Luxemburg"
+          ],
+          "explanation": "Die Schweiz hat vier Landessprachen. Am meisten wird Deutsch gesprochen, im Westen Französisch, im Süden Italienisch und in einigen Tälern Graubündens Rätoromanisch."
+        },
+        "en": {
+          "title": "Which country has German, French, Italian and Romansh as national languages?",
+          "answers": [
+            "Austria",
+            "Switzerland",
+            "Belgium",
+            "Luxembourg"
+          ],
+          "explanation": "Switzerland has four national languages. German is spoken most, French in the west, Italian in the south and Romansh in some valleys of Graubünden."
+        }
+      }
     },
     {
       "id": "world-0015",
@@ -274,17 +470,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Aus welchem Land stammt die Pizza?",
-      "answers": [
-        "Frankreich",
-        "Griechenland",
-        "USA",
-        "Italien"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Die Pizza, wie wir sie kennen, stammt aus Neapel. Die Pizza Margherita mit Tomate, Mozzarella und Basilikum zeigt angeblich die Farben der italienischen Flagge.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Aus welchem Land stammt die Pizza?",
+          "answers": [
+            "Frankreich",
+            "Griechenland",
+            "USA",
+            "Italien"
+          ],
+          "explanation": "Die Pizza, wie wir sie kennen, stammt aus Neapel. Die Pizza Margherita mit Tomate, Mozzarella und Basilikum zeigt angeblich die Farben der italienischen Flagge."
+        },
+        "en": {
+          "title": "Which country does pizza come from?",
+          "answers": [
+            "France",
+            "Greece",
+            "USA",
+            "Italy"
+          ],
+          "explanation": "Pizza as we know it comes from Naples. The Pizza Margherita with tomato, mozzarella and basil supposedly shows the colours of the Italian flag."
+        }
+      }
     },
     {
       "id": "world-0016",
@@ -293,17 +503,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was feiert man in China mit Drachentänzen und Feuerwerk?",
-      "answers": [
-        "Halloween",
-        "Den Sommeranfang",
-        "Weihnachten",
-        "Das Neujahrsfest"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Das chinesische Neujahr richtet sich nach dem Mondkalender und fällt jedes Jahr auf einen Tag zwischen dem 21. Januar und dem 20. Februar. Feuerwerk und Drachen sollen das Unglück vertreiben.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was feiert man in China mit Drachentänzen und Feuerwerk?",
+          "answers": [
+            "Halloween",
+            "Den Sommeranfang",
+            "Weihnachten",
+            "Das Neujahrsfest"
+          ],
+          "explanation": "Das chinesische Neujahr richtet sich nach dem Mondkalender und fällt jedes Jahr auf einen Tag zwischen dem 21. Januar und dem 20. Februar. Feuerwerk und Drachen sollen das Unglück vertreiben."
+        },
+        "en": {
+          "title": "What is celebrated in China with dragon dances and fireworks?",
+          "answers": [
+            "Halloween",
+            "The start of summer",
+            "Christmas",
+            "New Year"
+          ],
+          "explanation": "Chinese New Year follows the lunar calendar and falls on a day between 21 January and 20 February each year. Fireworks and dragons are meant to drive away bad luck."
+        }
+      }
     },
     {
       "id": "world-0017",
@@ -312,17 +536,31 @@
       "order": 12,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie begrüßt man sich in Japan traditionell?",
-      "answers": [
-        "Mit einem Klaps auf die Schulter",
-        "Mit einer Verbeugung",
-        "Mit Nasenreiben",
-        "Mit einem Kuss auf die Wange"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "In Japan verbeugt man sich zur Begrüßung. Je tiefer die Verbeugung, desto mehr Respekt zeigt man. Mit Gästen aus dem Ausland gibt man sich aber oft auch die Hand.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie begrüßt man sich in Japan traditionell?",
+          "answers": [
+            "Mit einem Klaps auf die Schulter",
+            "Mit einer Verbeugung",
+            "Mit Nasenreiben",
+            "Mit einem Kuss auf die Wange"
+          ],
+          "explanation": "In Japan verbeugt man sich zur Begrüßung. Je tiefer die Verbeugung, desto mehr Respekt zeigt man. Mit Gästen aus dem Ausland gibt man sich aber oft auch die Hand."
+        },
+        "en": {
+          "title": "How do people traditionally greet each other in Japan?",
+          "answers": [
+            "With a pat on the shoulder",
+            "With a bow",
+            "By rubbing noses",
+            "With a kiss on the cheek"
+          ],
+          "explanation": "In Japan people bow to greet each other. The deeper the bow, the more respect it shows. With guests from abroad, people often shake hands too."
+        }
+      }
     },
     {
       "id": "world-0018",
@@ -331,17 +569,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Welches Land hat ein Ahornblatt auf der Flagge?",
-      "answers": [
-        "USA",
-        "Kanada",
-        "Neuseeland",
-        "Schweden"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Das rote Ahornblatt ist seit 1965 auf der Flagge Kanadas. Aus dem Saft des Zuckerahorns wird dort der berühmte Ahornsirup gekocht.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Land hat ein Ahornblatt auf der Flagge?",
+          "answers": [
+            "USA",
+            "Kanada",
+            "Neuseeland",
+            "Schweden"
+          ],
+          "explanation": "Das rote Ahornblatt ist seit 1965 auf der Flagge Kanadas. Aus dem Saft des Zuckerahorns wird dort der berühmte Ahornsirup gekocht."
+        },
+        "en": {
+          "title": "Which country has a maple leaf on its flag?",
+          "answers": [
+            "USA",
+            "Canada",
+            "New Zealand",
+            "Sweden"
+          ],
+          "explanation": "The red maple leaf has been on Canada's flag since 1965. The famous maple syrup is boiled there from the sap of the sugar maple."
+        }
+      }
     },
     {
       "id": "world-0019",
@@ -350,17 +602,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Aus welcher Sprache stammt das englische Wort „kindergarten“?",
-      "answers": [
-        "Aus dem Französischen",
-        "Aus dem Lateinischen",
-        "Es ist ein englisches Wort",
-        "Aus dem Deutschen"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Pädagoge Friedrich Fröbel gründete 1840 den ersten Kindergarten. Die Idee verbreitete sich weltweit, und das deutsche Wort wanderte gleich mit, ins Englische und viele andere Sprachen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Aus welcher Sprache stammt das englische Wort „kindergarten“?",
+          "answers": [
+            "Aus dem Französischen",
+            "Aus dem Lateinischen",
+            "Es ist ein englisches Wort",
+            "Aus dem Deutschen"
+          ],
+          "explanation": "Der Pädagoge Friedrich Fröbel gründete 1840 den ersten Kindergarten. Die Idee verbreitete sich weltweit, und das deutsche Wort wanderte gleich mit, ins Englische und viele andere Sprachen."
+        },
+        "en": {
+          "title": "Which language does the English word “kindergarten” come from?",
+          "answers": [
+            "French",
+            "Latin",
+            "It is an English word",
+            "German"
+          ],
+          "explanation": "The educator Friedrich Fröbel opened the first kindergarten in 1840. The idea spread worldwide, and the German word travelled with it into English and many other languages."
+        }
+      }
     },
     {
       "id": "world-0020",
@@ -369,17 +635,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welches ist der kleinste Staat der Welt?",
-      "answers": [
-        "Luxemburg",
-        "Monaco",
-        "Die Vatikanstadt",
-        "Liechtenstein"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Die Vatikanstadt liegt mitten in Rom und ist kleiner als ein halber Quadratkilometer. Dort wohnt der Papst, und nur wenige hundert Menschen haben die Staatsbürgerschaft.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches ist der kleinste Staat der Welt?",
+          "answers": [
+            "Luxemburg",
+            "Monaco",
+            "Die Vatikanstadt",
+            "Liechtenstein"
+          ],
+          "explanation": "Die Vatikanstadt liegt mitten in Rom und ist kleiner als ein halber Quadratkilometer. Dort wohnt der Papst, und nur wenige hundert Menschen haben die Staatsbürgerschaft."
+        },
+        "en": {
+          "title": "Which is the smallest country in the world?",
+          "answers": [
+            "Luxembourg",
+            "Monaco",
+            "Vatican City",
+            "Liechtenstein"
+          ],
+          "explanation": "Vatican City lies in the middle of Rome and is smaller than half a square kilometre. The Pope lives there, and only a few hundred people are citizens."
+        }
+      }
     },
     {
       "id": "world-0021",
@@ -388,17 +668,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wie heißt die Hauptstadt von Deutschland?",
-      "answers": [
-        "München",
-        "Hamburg",
-        "Köln",
-        "Berlin"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Berlin ist auch die größte Stadt Deutschlands. Dort sitzen Bundestag und Bundesregierung.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt die Hauptstadt von Deutschland?",
+          "answers": [
+            "München",
+            "Hamburg",
+            "Köln",
+            "Berlin"
+          ],
+          "explanation": "Berlin ist auch die größte Stadt Deutschlands. Dort sitzen Bundestag und Bundesregierung."
+        },
+        "en": {
+          "title": "What is the capital of Germany?",
+          "answers": [
+            "Munich",
+            "Hamburg",
+            "Cologne",
+            "Berlin"
+          ],
+          "explanation": "Berlin is also Germany's largest city. The parliament and the federal government are based there."
+        }
+      }
     },
     {
       "id": "world-0022",
@@ -407,17 +701,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wie heißt die Hauptstadt von Frankreich?",
-      "answers": [
-        "Paris",
-        "Nizza",
-        "Lyon",
-        "Marseille"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Paris liegt an der Seine und ist berühmt für den Eiffelturm und das Museum Louvre, in dem die Mona Lisa hängt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt die Hauptstadt von Frankreich?",
+          "answers": [
+            "Paris",
+            "Nizza",
+            "Lyon",
+            "Marseille"
+          ],
+          "explanation": "Paris liegt an der Seine und ist berühmt für den Eiffelturm und das Museum Louvre, in dem die Mona Lisa hängt."
+        },
+        "en": {
+          "title": "What is the capital of France?",
+          "answers": [
+            "Paris",
+            "Nice",
+            "Lyon",
+            "Marseille"
+          ],
+          "explanation": "Paris lies on the Seine and is famous for the Eiffel Tower and the Louvre museum, where the Mona Lisa hangs."
+        }
+      }
     },
     {
       "id": "world-0023",
@@ -426,17 +734,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie viele Kontinente zählt man meistens?",
-      "answers": [
-        "Sieben",
-        "Fünf",
-        "Drei",
-        "Zwölf"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Meist zählt man Afrika, Antarktis, Asien, Australien, Europa, Nordamerika und Südamerika. Die olympischen Ringe stehen dagegen für fünf bewohnte Erdteile, weil Amerika dort als einer gilt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Kontinente zählt man meistens?",
+          "answers": [
+            "Sieben",
+            "Fünf",
+            "Drei",
+            "Zwölf"
+          ],
+          "explanation": "Meist zählt man Afrika, Antarktis, Asien, Australien, Europa, Nordamerika und Südamerika. Die olympischen Ringe stehen dagegen für fünf bewohnte Erdteile, weil Amerika dort als einer gilt."
+        },
+        "en": {
+          "title": "How many continents are usually counted?",
+          "answers": [
+            "Seven",
+            "Five",
+            "Three",
+            "Twelve"
+          ],
+          "explanation": "Usually people count Africa, Antarctica, Asia, Australia, Europe, North America and South America. The Olympic rings, however, stand for five inhabited parts of the world, because the Americas count as one."
+        }
+      }
     },
     {
       "id": "world-0024",
@@ -445,17 +767,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Welcher Fluss fließt durch Köln?",
-      "answers": [
-        "Die Elbe",
-        "Der Rhein",
-        "Die Donau",
-        "Die Spree"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Der Rhein entspringt in den Schweizer Alpen und mündet in den Niederlanden in die Nordsee. Er ist eine der wichtigsten Wasserstraßen Europas.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Fluss fließt durch Köln?",
+          "answers": [
+            "Die Elbe",
+            "Der Rhein",
+            "Die Donau",
+            "Die Spree"
+          ],
+          "explanation": "Der Rhein entspringt in den Schweizer Alpen und mündet in den Niederlanden in die Nordsee. Er ist eine der wichtigsten Wasserstraßen Europas."
+        },
+        "en": {
+          "title": "Which river flows through Cologne?",
+          "answers": [
+            "The Elbe",
+            "The Rhine",
+            "The Danube",
+            "The Spree"
+          ],
+          "explanation": "The Rhine rises in the Swiss Alps and flows into the North Sea in the Netherlands. It is one of Europe's most important waterways."
+        }
+      }
     },
     {
       "id": "world-0025",
@@ -464,17 +800,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Auf welchem Kontinent liegt Brasilien?",
-      "answers": [
-        "Asien",
-        "Nordamerika",
-        "Afrika",
-        "Südamerika"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Brasilien ist das größte Land Südamerikas. Ein großer Teil des Amazonas-Regenwalds liegt dort.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Auf welchem Kontinent liegt Brasilien?",
+          "answers": [
+            "Asien",
+            "Nordamerika",
+            "Afrika",
+            "Südamerika"
+          ],
+          "explanation": "Brasilien ist das größte Land Südamerikas. Ein großer Teil des Amazonas-Regenwalds liegt dort."
+        },
+        "en": {
+          "title": "Which continent is Brazil on?",
+          "answers": [
+            "Asia",
+            "North America",
+            "Africa",
+            "South America"
+          ],
+          "explanation": "Brazil is the largest country in South America. A big part of the Amazon rainforest is there."
+        }
+      }
     },
     {
       "id": "world-0026",
@@ -483,17 +833,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wie nennt man sehr hohe Hochhäuser?",
-      "answers": [
-        "Sternentürme",
-        "Himmelsleitern",
-        "Wolkenkratzer",
-        "Windmühlen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Wolkenkratzer haben oft über 100 Stockwerke. Das höchste Gebäude der Welt, der Burj Khalifa in Dubai, ist über 800 Meter hoch.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie nennt man sehr hohe Hochhäuser?",
+          "answers": [
+            "Sternentürme",
+            "Himmelsleitern",
+            "Wolkenkratzer",
+            "Windmühlen"
+          ],
+          "explanation": "Wolkenkratzer haben oft über 100 Stockwerke. Das höchste Gebäude der Welt, der Burj Khalifa in Dubai, ist über 800 Meter hoch."
+        },
+        "en": {
+          "title": "What do you call very tall high-rise buildings?",
+          "answers": [
+            "Star towers",
+            "Sky ladders",
+            "Skyscrapers",
+            "Windmills"
+          ],
+          "explanation": "Skyscrapers often have over 100 floors. The tallest building in the world, the Burj Khalifa in Dubai, is more than 800 metres high."
+        }
+      }
     },
     {
       "id": "world-0027",
@@ -502,17 +866,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie heißt die größte heiße Wüste der Erde?",
-      "answers": [
-        "Die Sahara",
-        "Die Gobi",
-        "Die Atacama",
-        "Die Kalahari"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Die Sahara im Norden Afrikas ist fast so groß wie die USA. Nur ein kleiner Teil besteht aus Sanddünen, der Rest aus Fels und Geröll.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt die größte heiße Wüste der Erde?",
+          "answers": [
+            "Die Sahara",
+            "Die Gobi",
+            "Die Atacama",
+            "Die Kalahari"
+          ],
+          "explanation": "Die Sahara im Norden Afrikas ist fast so groß wie die USA. Nur ein kleiner Teil besteht aus Sanddünen, der Rest aus Fels und Geröll."
+        },
+        "en": {
+          "title": "What is the largest hot desert on Earth?",
+          "answers": [
+            "The Sahara",
+            "The Gobi",
+            "The Atacama",
+            "The Kalahari"
+          ],
+          "explanation": "The Sahara in northern Africa is almost as big as the USA. Only a small part is sand dunes; the rest is rock and gravel."
+        }
+      }
     },
     {
       "id": "world-0028",
@@ -521,17 +899,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Welcher ist der größte Kontinent?",
-      "answers": [
-        "Asien",
-        "Afrika",
-        "Australien",
-        "Europa"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Asien ist der größte Kontinent und hat auch die meisten Einwohner. Dort liegen zum Beispiel China, Indien und der größte Teil Russlands.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher ist der größte Kontinent?",
+          "answers": [
+            "Asien",
+            "Afrika",
+            "Australien",
+            "Europa"
+          ],
+          "explanation": "Asien ist der größte Kontinent und hat auch die meisten Einwohner. Dort liegen zum Beispiel China, Indien und der größte Teil Russlands."
+        },
+        "en": {
+          "title": "Which is the largest continent?",
+          "answers": [
+            "Asia",
+            "Africa",
+            "Australia",
+            "Europe"
+          ],
+          "explanation": "Asia is the largest continent and also has the most people. China, India and most of Russia are there, for example."
+        }
+      }
     },
     {
       "id": "world-0029",
@@ -540,17 +932,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welches ist das größte Land Südamerikas?",
-      "answers": [
-        "Chile",
-        "Argentinien",
-        "Peru",
-        "Brasilien"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Brasilien nimmt fast die Hälfte Südamerikas ein. Es ist so groß, dass es dort vier Zeitzonen gibt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches ist das größte Land Südamerikas?",
+          "answers": [
+            "Chile",
+            "Argentinien",
+            "Peru",
+            "Brasilien"
+          ],
+          "explanation": "Brasilien nimmt fast die Hälfte Südamerikas ein. Es ist so groß, dass es dort vier Zeitzonen gibt."
+        },
+        "en": {
+          "title": "Which is the largest country in South America?",
+          "answers": [
+            "Chile",
+            "Argentina",
+            "Peru",
+            "Brazil"
+          ],
+          "explanation": "Brazil takes up almost half of South America. It is so big that it has four time zones."
+        }
+      }
     },
     {
       "id": "world-0030",
@@ -559,17 +965,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie heißt der höchste Berg Deutschlands?",
-      "answers": [
-        "Der Watzmann",
-        "Der Feldberg",
-        "Der Brocken",
-        "Die Zugspitze"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Die Zugspitze in den bayerischen Alpen ist knapp 3.000 Meter hoch. Man kommt mit einer Zahnradbahn und Seilbahnen bis auf den Gipfel.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt der höchste Berg Deutschlands?",
+          "answers": [
+            "Der Watzmann",
+            "Der Feldberg",
+            "Der Brocken",
+            "Die Zugspitze"
+          ],
+          "explanation": "Die Zugspitze in den bayerischen Alpen ist knapp 3.000 Meter hoch. Man kommt mit einer Zahnradbahn und Seilbahnen bis auf den Gipfel."
+        },
+        "en": {
+          "title": "What is the highest mountain in Germany?",
+          "answers": [
+            "The Watzmann",
+            "The Feldberg",
+            "The Brocken",
+            "The Zugspitze"
+          ],
+          "explanation": "The Zugspitze in the Bavarian Alps is almost 3,000 metres high. You can reach the summit by cog railway and cable cars."
+        }
+      }
     },
     {
       "id": "world-0031",
@@ -578,17 +998,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wie sagt man „Hallo“ auf Englisch?",
-      "answers": [
-        "Hola",
-        "Ciao",
-        "Hello",
-        "Bonjour"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "„Hola“ ist Spanisch, „Bonjour“ Französisch und „Ciao“ Italienisch. Englisch ist die Sprache, die weltweit am meisten gelernt wird.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie sagt man „Hallo“ auf Englisch?",
+          "answers": [
+            "Hola",
+            "Ciao",
+            "Hello",
+            "Bonjour"
+          ],
+          "explanation": "„Hola“ ist Spanisch, „Bonjour“ Französisch und „Ciao“ Italienisch. Englisch ist die Sprache, die weltweit am meisten gelernt wird."
+        },
+        "en": {
+          "title": "How do you say “Hello” in German?",
+          "answers": [
+            "Hola",
+            "Ciao",
+            "Hallo",
+            "Bonjour"
+          ],
+          "explanation": "“Hola” is Spanish, “Bonjour” French and “Ciao” Italian. German and English are closely related, which is why “Hallo” and “Hello” sound so alike."
+        }
+      }
     },
     {
       "id": "world-0032",
@@ -597,17 +1031,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welche Sprache spricht man in Österreich?",
-      "answers": [
-        "Ungarisch",
-        "Österreichisch als eigene Sprache",
-        "Deutsch",
-        "Französisch"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "In Österreich spricht man Deutsch, mit eigenen Wörtern: Dort sagt man zum Beispiel „Paradeiser“ statt Tomate und „Marille“ statt Aprikose.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Sprache spricht man in Österreich?",
+          "answers": [
+            "Ungarisch",
+            "Österreichisch als eigene Sprache",
+            "Deutsch",
+            "Französisch"
+          ],
+          "explanation": "In Österreich spricht man Deutsch, mit eigenen Wörtern: Dort sagt man zum Beispiel „Paradeiser“ statt Tomate und „Marille“ statt Aprikose."
+        },
+        "en": {
+          "title": "Which language is spoken in Austria?",
+          "answers": [
+            "Hungarian",
+            "Austrian as a separate language",
+            "German",
+            "French"
+          ],
+          "explanation": "People in Austria speak German, with their own words: for example, they say “Paradeiser” instead of “Tomate” for tomato and “Marille” instead of “Aprikose” for apricot."
+        }
+      }
     },
     {
       "id": "world-0033",
@@ -616,17 +1064,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wie sagt man „Guten Tag“ auf Französisch?",
-      "answers": [
-        "Buongiorno",
-        "Bonjour",
-        "Good morning",
-        "Buenos días"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "„Bonjour“ bedeutet wörtlich „guter Tag“. „Buongiorno“ ist Italienisch, „Buenos días“ Spanisch und „Good morning“ Englisch.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie sagt man „Guten Tag“ auf Französisch?",
+          "answers": [
+            "Buongiorno",
+            "Bonjour",
+            "Good morning",
+            "Buenos días"
+          ],
+          "explanation": "„Bonjour“ bedeutet wörtlich „guter Tag“. „Buongiorno“ ist Italienisch, „Buenos días“ Spanisch und „Good morning“ Englisch."
+        },
+        "en": {
+          "title": "How do you say “Good day” in French?",
+          "answers": [
+            "Buongiorno",
+            "Bonjour",
+            "Guten Tag",
+            "Buenos días"
+          ],
+          "explanation": "“Bonjour” literally means “good day”. “Buongiorno” is Italian, “Buenos días” Spanish and “Guten Tag” German."
+        }
+      }
     },
     {
       "id": "world-0034",
@@ -635,17 +1097,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Welche Sprache spricht man in Mexiko hauptsächlich?",
-      "answers": [
-        "Französisch",
-        "Spanisch",
-        "Englisch",
-        "Portugiesisch"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Spanische Eroberer brachten ihre Sprache vor 500 Jahren nach Mexiko. Heute ist es das Land mit den meisten Spanisch-Sprechenden der Welt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Sprache spricht man in Mexiko hauptsächlich?",
+          "answers": [
+            "Französisch",
+            "Spanisch",
+            "Englisch",
+            "Portugiesisch"
+          ],
+          "explanation": "Spanische Eroberer brachten ihre Sprache vor 500 Jahren nach Mexiko. Heute ist es das Land mit den meisten Spanisch-Sprechenden der Welt."
+        },
+        "en": {
+          "title": "Which language is mainly spoken in Mexico?",
+          "answers": [
+            "French",
+            "Spanish",
+            "English",
+            "Portuguese"
+          ],
+          "explanation": "Spanish conquerors brought their language to Mexico 500 years ago. Today it is the country with the most Spanish speakers in the world."
+        }
+      }
     },
     {
       "id": "world-0035",
@@ -654,17 +1130,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welche Schrift benutzt man in Russland?",
-      "answers": [
-        "Die arabische Schrift",
-        "Die kyrillische Schrift",
-        "Hieroglyphen",
-        "Die lateinische Schrift"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Die kyrillische Schrift hat teils ähnliche Buchstaben wie unsere, die aber anders gelesen werden. Das russische „P“ ist zum Beispiel ein „R“.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Schrift benutzt man in Russland?",
+          "answers": [
+            "Die arabische Schrift",
+            "Die kyrillische Schrift",
+            "Hieroglyphen",
+            "Die lateinische Schrift"
+          ],
+          "explanation": "Die kyrillische Schrift hat teils ähnliche Buchstaben wie unsere, die aber anders gelesen werden. Das russische „P“ ist zum Beispiel ein „R“."
+        },
+        "en": {
+          "title": "Which alphabet is used in Russia?",
+          "answers": [
+            "The Arabic script",
+            "The Cyrillic alphabet",
+            "Hieroglyphs",
+            "The Latin alphabet"
+          ],
+          "explanation": "Some Cyrillic letters look like ours but are read differently. The Russian “P”, for example, is an “R”."
+        }
+      }
     },
     {
       "id": "world-0036",
@@ -673,17 +1163,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Womit isst man in Japan traditionell?",
-      "answers": [
-        "Mit einem Muschellöffel",
-        "Mit einer Holzgabel",
-        "Mit Stäbchen",
-        "Nur mit den Händen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "In Japan, China und Korea isst man traditionell mit Stäbchen. Suppe darf man in Japan übrigens direkt aus der Schale schlürfen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Womit isst man in Japan traditionell?",
+          "answers": [
+            "Mit einem Muschellöffel",
+            "Mit einer Holzgabel",
+            "Mit Stäbchen",
+            "Nur mit den Händen"
+          ],
+          "explanation": "In Japan, China und Korea isst man traditionell mit Stäbchen. Suppe darf man in Japan übrigens direkt aus der Schale schlürfen."
+        },
+        "en": {
+          "title": "What do people traditionally eat with in Japan?",
+          "answers": [
+            "With a shell spoon",
+            "With a wooden fork",
+            "With chopsticks",
+            "Only with their hands"
+          ],
+          "explanation": "In Japan, China and Korea people traditionally eat with chopsticks. By the way, in Japan it's fine to slurp soup straight from the bowl."
+        }
+      }
     },
     {
       "id": "world-0037",
@@ -692,17 +1196,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "In welchem Land stehen die Pyramiden von Gizeh?",
-      "answers": [
-        "Ägypten",
-        "Griechenland",
-        "Mexiko",
-        "Indien"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Die Pyramiden von Gizeh stehen am Rand von Kairo. Auch in Mexiko gibt es Pyramiden, die aber von ganz anderen Völkern gebaut wurden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "In welchem Land stehen die Pyramiden von Gizeh?",
+          "answers": [
+            "Ägypten",
+            "Griechenland",
+            "Mexiko",
+            "Indien"
+          ],
+          "explanation": "Die Pyramiden von Gizeh stehen am Rand von Kairo. Auch in Mexiko gibt es Pyramiden, die aber von ganz anderen Völkern gebaut wurden."
+        },
+        "en": {
+          "title": "Which country are the Pyramids of Giza in?",
+          "answers": [
+            "Egypt",
+            "Greece",
+            "Mexico",
+            "India"
+          ],
+          "explanation": "The Pyramids of Giza stand on the edge of Cairo. There are pyramids in Mexico too, but they were built by completely different peoples."
+        }
+      }
     },
     {
       "id": "world-0038",
@@ -711,17 +1229,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "In welcher Stadt steht die Freiheitsstatue?",
-      "answers": [
-        "Washington",
-        "New York",
-        "Paris",
-        "London"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Die Statue war ein Geschenk Frankreichs an die USA. Sie steht auf einer Insel vor New York und ist mit Sockel über 90 Meter hoch.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "In welcher Stadt steht die Freiheitsstatue?",
+          "answers": [
+            "Washington",
+            "New York",
+            "Paris",
+            "London"
+          ],
+          "explanation": "Die Statue war ein Geschenk Frankreichs an die USA. Sie steht auf einer Insel vor New York und ist mit Sockel über 90 Meter hoch."
+        },
+        "en": {
+          "title": "Which city is the Statue of Liberty in?",
+          "answers": [
+            "Washington",
+            "New York",
+            "Paris",
+            "London"
+          ],
+          "explanation": "The statue was a gift from France to the USA. It stands on an island off New York and, with its base, is over 90 metres tall."
+        }
+      }
     },
     {
       "id": "world-0039",
@@ -730,17 +1262,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "In welchem Land feiert man den „Tag der Toten“ mit bunten Totenköpfen aus Zucker?",
-      "answers": [
-        "Italien",
-        "Brasilien",
-        "Mexiko",
-        "Spanien"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Am „Día de los Muertos“ Anfang November erinnern sich Familien in Mexiko fröhlich an ihre Verstorbenen. Es gibt Blumen, Musik und Totenköpfe aus Zucker.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "In welchem Land feiert man den „Tag der Toten“ mit bunten Totenköpfen aus Zucker?",
+          "answers": [
+            "Italien",
+            "Brasilien",
+            "Mexiko",
+            "Spanien"
+          ],
+          "explanation": "Am „Día de los Muertos“ Anfang November erinnern sich Familien in Mexiko fröhlich an ihre Verstorbenen. Es gibt Blumen, Musik und Totenköpfe aus Zucker."
+        },
+        "en": {
+          "title": "Which country celebrates the “Day of the Dead” with colourful sugar skulls?",
+          "answers": [
+            "Italy",
+            "Brazil",
+            "Mexico",
+            "Spain"
+          ],
+          "explanation": "On the “Día de los Muertos” at the start of November, families in Mexico cheerfully remember their loved ones who have died. There are flowers, music and skulls made of sugar."
+        }
+      }
     },
     {
       "id": "world-0040",
@@ -749,17 +1295,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "In welcher Stadt steht der Uhrturm „Big Ben“?",
-      "answers": [
-        "New York",
-        "Berlin",
-        "Dublin",
-        "London"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Eigentlich heißt nur die große Glocke im Turm Big Ben. Der Turm gehört zum britischen Parlament an der Themse.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "In welcher Stadt steht der Uhrturm „Big Ben“?",
+          "answers": [
+            "New York",
+            "Berlin",
+            "Dublin",
+            "London"
+          ],
+          "explanation": "Eigentlich heißt nur die große Glocke im Turm Big Ben. Der Turm gehört zum britischen Parlament an der Themse."
+        },
+        "en": {
+          "title": "Which city is the clock tower “Big Ben” in?",
+          "answers": [
+            "New York",
+            "Berlin",
+            "Dublin",
+            "London"
+          ],
+          "explanation": "Strictly speaking, only the big bell inside the tower is called Big Ben. The tower belongs to the British Parliament on the Thames."
+        }
+      }
     },
     {
       "id": "world-0041",
@@ -768,17 +1328,31 @@
       "order": 19,
       "difficulty": "HARD",
       "difficultyScore": 7,
-      "title": "Welches Land hat die meisten Zeitzonen?",
-      "answers": [
-        "China",
-        "USA",
-        "Frankreich",
-        "Russland"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Wegen seiner Überseegebiete von der Karibik bis in den Pazifik kommt Frankreich auf 12 Zeitzonen, Russland auf 11. China nutzt trotz seiner Größe nur eine.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Land hat die meisten Zeitzonen?",
+          "answers": [
+            "China",
+            "USA",
+            "Frankreich",
+            "Russland"
+          ],
+          "explanation": "Wegen seiner Überseegebiete von der Karibik bis in den Pazifik kommt Frankreich auf 12 Zeitzonen, Russland auf 11. China nutzt trotz seiner Größe nur eine."
+        },
+        "en": {
+          "title": "Which country has the most time zones?",
+          "answers": [
+            "China",
+            "USA",
+            "France",
+            "Russia"
+          ],
+          "explanation": "Thanks to its overseas territories from the Caribbean to the Pacific, France has 12 time zones, Russia 11. Despite its size, China uses only one."
+        }
+      }
     },
     {
       "id": "world-0042",
@@ -787,17 +1361,31 @@
       "order": 18,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Welches ist die größte Wüste der Erde?",
-      "answers": [
-        "Die Antarktis",
-        "Die Gobi",
-        "Die Sahara",
-        "Die Arabische Wüste"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Wüste heißt: Es fällt kaum Niederschlag. Das trifft auch auf die eisige Antarktis zu – und sie ist sogar größer als die Sahara, die größte heiße Wüste.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches ist die größte Wüste der Erde?",
+          "answers": [
+            "Die Antarktis",
+            "Die Gobi",
+            "Die Sahara",
+            "Die Arabische Wüste"
+          ],
+          "explanation": "Wüste heißt: Es fällt kaum Niederschlag. Das trifft auch auf die eisige Antarktis zu – und sie ist sogar größer als die Sahara, die größte heiße Wüste."
+        },
+        "en": {
+          "title": "Which is the largest desert on Earth?",
+          "answers": [
+            "Antarctica",
+            "The Gobi",
+            "The Sahara",
+            "The Arabian Desert"
+          ],
+          "explanation": "A desert is a place with hardly any rain or snow. That's true of icy Antarctica too – and it is even bigger than the Sahara, the largest hot desert."
+        }
+      }
     },
     {
       "id": "world-0043",
@@ -806,17 +1394,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Welches Land hat die Form eines Stiefels?",
-      "answers": [
-        "Griechenland",
-        "Norwegen",
-        "Italien",
-        "Spanien"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Auf der Landkarte sieht Italien aus wie ein Stiefel, der gegen den Ball Sizilien tritt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Land hat die Form eines Stiefels?",
+          "answers": [
+            "Griechenland",
+            "Norwegen",
+            "Italien",
+            "Spanien"
+          ],
+          "explanation": "Auf der Landkarte sieht Italien aus wie ein Stiefel, der gegen den Ball Sizilien tritt."
+        },
+        "en": {
+          "title": "Which country is shaped like a boot?",
+          "answers": [
+            "Greece",
+            "Norway",
+            "Italy",
+            "Spain"
+          ],
+          "explanation": "On the map, Italy looks like a boot kicking the ball of Sicily."
+        }
+      }
     },
     {
       "id": "world-0044",
@@ -825,17 +1427,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wo leben die meisten Menschen der Welt?",
-      "answers": [
-        "In Australien",
-        "In Afrika",
-        "In Asien",
-        "In Europa"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Fast sechs von zehn Menschen leben in Asien. Allein in Indien und China zusammen sind es fast drei Milliarden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wo leben die meisten Menschen der Welt?",
+          "answers": [
+            "In Australien",
+            "In Afrika",
+            "In Asien",
+            "In Europa"
+          ],
+          "explanation": "Fast sechs von zehn Menschen leben in Asien. Allein in Indien und China zusammen sind es fast drei Milliarden."
+        },
+        "en": {
+          "title": "Where do most people in the world live?",
+          "answers": [
+            "In Australia",
+            "In Africa",
+            "In Asia",
+            "In Europe"
+          ],
+          "explanation": "Almost six out of ten people live in Asia. India and China alone have almost three billion people together."
+        }
+      }
     },
     {
       "id": "world-0045",
@@ -844,17 +1460,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Wie heißt die Hauptstadt von Australien?",
-      "answers": [
-        "Perth",
-        "Canberra",
-        "Sydney",
-        "Melbourne"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Sydney und Melbourne stritten, wer Hauptstadt wird. Als Kompromiss baute man dazwischen eine neue Stadt: Canberra.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt die Hauptstadt von Australien?",
+          "answers": [
+            "Perth",
+            "Canberra",
+            "Sydney",
+            "Melbourne"
+          ],
+          "explanation": "Sydney und Melbourne stritten, wer Hauptstadt wird. Als Kompromiss baute man dazwischen eine neue Stadt: Canberra."
+        },
+        "en": {
+          "title": "What is the capital of Australia?",
+          "answers": [
+            "Perth",
+            "Canberra",
+            "Sydney",
+            "Melbourne"
+          ],
+          "explanation": "Sydney and Melbourne argued about which should be the capital. As a compromise, a new city was built in between: Canberra."
+        }
+      }
     },
     {
       "id": "world-0046",
@@ -863,17 +1493,31 @@
       "order": 9,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welche zwei Kontinente verbindet die Stadt Istanbul?",
-      "answers": [
-        "Europa und Asien",
-        "Europa und Afrika",
-        "Europa und Amerika",
-        "Asien und Afrika"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Istanbul liegt an beiden Ufern des Bosporus, einer Meerenge. Mit Brücken und Tunneln fährt man dort jeden Tag von Europa nach Asien.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche zwei Kontinente verbindet die Stadt Istanbul?",
+          "answers": [
+            "Europa und Asien",
+            "Europa und Afrika",
+            "Europa und Amerika",
+            "Asien und Afrika"
+          ],
+          "explanation": "Istanbul liegt an beiden Ufern des Bosporus, einer Meerenge. Mit Brücken und Tunneln fährt man dort jeden Tag von Europa nach Asien."
+        },
+        "en": {
+          "title": "Which two continents does the city of Istanbul connect?",
+          "answers": [
+            "Europe and Asia",
+            "Europe and Africa",
+            "Europe and America",
+            "Asia and Africa"
+          ],
+          "explanation": "Istanbul lies on both shores of the Bosphorus, a narrow strait. Every day people cross from Europe to Asia there over bridges and through tunnels."
+        }
+      }
     },
     {
       "id": "world-0047",
@@ -882,17 +1526,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welche Stadt in Deutschland hat die meisten Einwohner?",
-      "answers": [
-        "München",
-        "Berlin",
-        "Köln",
-        "Hamburg"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "In Berlin leben fast vier Millionen Menschen. Danach folgen Hamburg und München.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Stadt in Deutschland hat die meisten Einwohner?",
+          "answers": [
+            "München",
+            "Berlin",
+            "Köln",
+            "Hamburg"
+          ],
+          "explanation": "In Berlin leben fast vier Millionen Menschen. Danach folgen Hamburg und München."
+        },
+        "en": {
+          "title": "Which city in Germany has the most inhabitants?",
+          "answers": [
+            "Munich",
+            "Berlin",
+            "Cologne",
+            "Hamburg"
+          ],
+          "explanation": "Almost four million people live in Berlin. Hamburg and Munich come next."
+        }
+      }
     },
     {
       "id": "world-0048",
@@ -901,17 +1559,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welcher Fluss legt den längsten Weg durch Deutschland zurück?",
-      "answers": [
-        "Die Elbe",
-        "Die Donau",
-        "Die Weser",
-        "Der Rhein"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Von seinen rund 1.230 Kilometern fließt der Rhein etwa 865 durch Deutschland. Die Donau ist insgesamt länger, fließt aber zum größten Teil durch andere Länder.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Fluss legt den längsten Weg durch Deutschland zurück?",
+          "answers": [
+            "Die Elbe",
+            "Die Donau",
+            "Die Weser",
+            "Der Rhein"
+          ],
+          "explanation": "Von seinen rund 1.230 Kilometern fließt der Rhein etwa 865 durch Deutschland. Die Donau ist insgesamt länger, fließt aber zum größten Teil durch andere Länder."
+        },
+        "en": {
+          "title": "Which river travels the longest distance through Germany?",
+          "answers": [
+            "The Elbe",
+            "The Danube",
+            "The Weser",
+            "The Rhine"
+          ],
+          "explanation": "Of its roughly 1,230 kilometres, the Rhine flows about 865 through Germany. The Danube is longer overall, but flows mostly through other countries."
+        }
+      }
     },
     {
       "id": "world-0049",
@@ -920,17 +1592,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welcher Ozean liegt zwischen Europa und Amerika?",
-      "answers": [
-        "Der Atlantik",
-        "Der Pazifik",
-        "Der Indische Ozean",
-        "Das Mittelmeer"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Der Atlantik ist der zweitgrößte Ozean. Früher dauerte eine Schiffsreise über ihn Wochen, heute fliegt man in etwa acht Stunden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Ozean liegt zwischen Europa und Amerika?",
+          "answers": [
+            "Der Atlantik",
+            "Der Pazifik",
+            "Der Indische Ozean",
+            "Das Mittelmeer"
+          ],
+          "explanation": "Der Atlantik ist der zweitgrößte Ozean. Früher dauerte eine Schiffsreise über ihn Wochen, heute fliegt man in etwa acht Stunden."
+        },
+        "en": {
+          "title": "Which ocean lies between Europe and America?",
+          "answers": [
+            "The Atlantic",
+            "The Pacific",
+            "The Indian Ocean",
+            "The Mediterranean"
+          ],
+          "explanation": "The Atlantic is the second-largest ocean. Crossing it by ship used to take weeks; today the flight takes about eight hours."
+        }
+      }
     },
     {
       "id": "world-0050",
@@ -939,17 +1625,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "In welchem Land steht das höchste Gebäude der Welt?",
-      "answers": [
-        "In China",
-        "In den USA",
-        "In den Vereinigten Arabischen Emiraten",
-        "In Japan"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Burj Khalifa in Dubai ist über 800 Meter hoch und hat mehr als 160 Stockwerke. Bei klarem Wetter sieht man ihn aus fast 100 Kilometern Entfernung.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "In welchem Land steht das höchste Gebäude der Welt?",
+          "answers": [
+            "In China",
+            "In den USA",
+            "In den Vereinigten Arabischen Emiraten",
+            "In Japan"
+          ],
+          "explanation": "Der Burj Khalifa in Dubai ist über 800 Meter hoch und hat mehr als 160 Stockwerke. Bei klarem Wetter sieht man ihn aus fast 100 Kilometern Entfernung."
+        },
+        "en": {
+          "title": "Which country has the tallest building in the world?",
+          "answers": [
+            "China",
+            "The USA",
+            "The United Arab Emirates",
+            "Japan"
+          ],
+          "explanation": "The Burj Khalifa in Dubai is more than 800 metres tall and has over 160 floors. On a clear day you can see it from almost 100 kilometres away."
+        }
+      }
     },
     {
       "id": "world-0051",
@@ -958,17 +1658,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie sagt man „Danke“ auf Französisch?",
-      "answers": [
-        "Merci",
-        "Grazie",
-        "Gracias",
-        "Thank you"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "„Grazie“ ist Italienisch, „Thank you“ Englisch und „Gracias“ Spanisch. Mit „Merci“ bedankt man sich übrigens auch in der Schweiz.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie sagt man „Danke“ auf Französisch?",
+          "answers": [
+            "Merci",
+            "Grazie",
+            "Gracias",
+            "Thank you"
+          ],
+          "explanation": "„Grazie“ ist Italienisch, „Thank you“ Englisch und „Gracias“ Spanisch. Mit „Merci“ bedankt man sich übrigens auch in der Schweiz."
+        },
+        "en": {
+          "title": "How do you say “thank you” in French?",
+          "answers": [
+            "Merci",
+            "Grazie",
+            "Gracias",
+            "Danke"
+          ],
+          "explanation": "“Grazie” is Italian, “Danke” German and “Gracias” Spanish. People also say “Merci” in Switzerland, by the way."
+        }
+      }
     },
     {
       "id": "world-0052",
@@ -977,17 +1691,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie viele Sprachen gibt es ungefähr auf der Welt?",
-      "answers": [
-        "Etwa 50",
-        "Rund 7.000",
-        "Über eine Million",
-        "Etwa 500"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Allein in Papua-Neuguinea werden über 800 Sprachen gesprochen. Viele kleine Sprachen sind allerdings vom Aussterben bedroht.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Sprachen gibt es ungefähr auf der Welt?",
+          "answers": [
+            "Etwa 50",
+            "Rund 7.000",
+            "Über eine Million",
+            "Etwa 500"
+          ],
+          "explanation": "Allein in Papua-Neuguinea werden über 800 Sprachen gesprochen. Viele kleine Sprachen sind allerdings vom Aussterben bedroht."
+        },
+        "en": {
+          "title": "Roughly how many languages are there in the world?",
+          "answers": [
+            "About 50",
+            "About 7,000",
+            "Over a million",
+            "About 500"
+          ],
+          "explanation": "Over 800 languages are spoken in Papua New Guinea alone. Many small languages, however, are in danger of dying out."
+        }
+      }
     },
     {
       "id": "world-0053",
@@ -996,17 +1724,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "In welche Richtung schreibt man Arabisch?",
-      "answers": [
-        "Im Kreis",
-        "Von unten nach oben",
-        "Von links nach rechts",
-        "Von rechts nach links"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Arabisch und Hebräisch schreibt man von rechts nach links. Bücher werden deshalb von der für uns „hinteren“ Seite aus geöffnet.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "In welche Richtung schreibt man Arabisch?",
+          "answers": [
+            "Im Kreis",
+            "Von unten nach oben",
+            "Von links nach rechts",
+            "Von rechts nach links"
+          ],
+          "explanation": "Arabisch und Hebräisch schreibt man von rechts nach links. Bücher werden deshalb von der für uns „hinteren“ Seite aus geöffnet."
+        },
+        "en": {
+          "title": "Which direction is Arabic written in?",
+          "answers": [
+            "In a circle",
+            "From bottom to top",
+            "From left to right",
+            "From right to left"
+          ],
+          "explanation": "Arabic and Hebrew are written from right to left. That's why books are opened from what is the “back” for us."
+        }
+      }
     },
     {
       "id": "world-0054",
@@ -1015,17 +1757,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Was ist Esperanto?",
-      "answers": [
-        "Eine italienische Nudelsorte",
-        "Eine erfundene Sprache zur Verständigung zwischen Völkern",
-        "Ein Tanz aus Spanien",
-        "Eine alte Schrift aus Ägypten"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Esperanto wurde 1887 von Ludwik Zamenhof erfunden. Es sollte leicht zu lernen sein und Menschen aller Länder verbinden.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist Esperanto?",
+          "answers": [
+            "Eine italienische Nudelsorte",
+            "Eine erfundene Sprache zur Verständigung zwischen Völkern",
+            "Ein Tanz aus Spanien",
+            "Eine alte Schrift aus Ägypten"
+          ],
+          "explanation": "Esperanto wurde 1887 von Ludwik Zamenhof erfunden. Es sollte leicht zu lernen sein und Menschen aller Länder verbinden."
+        },
+        "en": {
+          "title": "What is Esperanto?",
+          "answers": [
+            "A type of Italian pasta",
+            "An invented language to help peoples understand each other",
+            "A dance from Spain",
+            "An old script from Egypt"
+          ],
+          "explanation": "Esperanto was invented in 1887 by Ludwik Zamenhof. It was meant to be easy to learn and to connect people from all countries."
+        }
+      }
     },
     {
       "id": "world-0055",
@@ -1034,17 +1790,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wie sagt man „Ja“ auf Italienisch?",
-      "answers": [
-        "Oui",
-        "Sì",
-        "Jo",
-        "Da"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "„Oui“ ist Französisch und „Da“ Russisch. Italienisch und Spanisch sind eng verwandt – auf Spanisch heißt „Ja“ ebenfalls „Sí“.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie sagt man „Ja“ auf Italienisch?",
+          "answers": [
+            "Oui",
+            "Sì",
+            "Jo",
+            "Da"
+          ],
+          "explanation": "„Oui“ ist Französisch und „Da“ Russisch. Italienisch und Spanisch sind eng verwandt – auf Spanisch heißt „Ja“ ebenfalls „Sí“."
+        },
+        "en": {
+          "title": "How do you say “yes” in Italian?",
+          "answers": [
+            "Oui",
+            "Sì",
+            "Ja",
+            "Da"
+          ],
+          "explanation": "“Oui” is French, “Da” Russian and “Ja” German. Italian and Spanish are closely related – in Spanish, “yes” is “Sí” too."
+        }
+      }
     },
     {
       "id": "world-0056",
@@ -1053,17 +1823,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie heißt das große Volksfest im Herbst in München?",
-      "answers": [
-        "Schützenfest",
-        "Kirmes",
-        "Karneval",
-        "Oktoberfest"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Das Oktoberfest beginnt meist schon im September. Es geht auf eine königliche Hochzeit im Jahr 1810 zurück.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt das große Volksfest im Herbst in München?",
+          "answers": [
+            "Schützenfest",
+            "Kirmes",
+            "Karneval",
+            "Oktoberfest"
+          ],
+          "explanation": "Das Oktoberfest beginnt meist schon im September. Es geht auf eine königliche Hochzeit im Jahr 1810 zurück."
+        },
+        "en": {
+          "title": "What is the big autumn folk festival in Munich called?",
+          "answers": [
+            "Shooting festival",
+            "Funfair",
+            "Carnival",
+            "Oktoberfest"
+          ],
+          "explanation": "Oktoberfest usually starts in September. It goes back to a royal wedding in 1810."
+        }
+      }
     },
     {
       "id": "world-0057",
@@ -1072,17 +1856,31 @@
       "order": 8,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "In welchem Land wird das Farbenfest Holi besonders groß gefeiert?",
-      "answers": [
-        "Brasilien",
-        "Ägypten",
-        "Japan",
-        "Indien"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Bei Holi begrüßen die Menschen den Frühling und bewerfen sich mit buntem Farbpulver. Danach sind alle Kleider und Gesichter kunterbunt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "In welchem Land wird das Farbenfest Holi besonders groß gefeiert?",
+          "answers": [
+            "Brasilien",
+            "Ägypten",
+            "Japan",
+            "Indien"
+          ],
+          "explanation": "Bei Holi begrüßen die Menschen den Frühling und bewerfen sich mit buntem Farbpulver. Danach sind alle Kleider und Gesichter kunterbunt."
+        },
+        "en": {
+          "title": "Which country celebrates the festival of colours, Holi, in an especially big way?",
+          "answers": [
+            "Brazil",
+            "Egypt",
+            "Japan",
+            "India"
+          ],
+          "explanation": "At Holi people welcome spring and throw colourful powder at each other. Afterwards everyone's clothes and faces are all the colours of the rainbow."
+        }
+      }
     },
     {
       "id": "world-0058",
@@ -1091,17 +1889,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was ist ein Kimono?",
-      "answers": [
-        "Ein Musikinstrument",
-        "Ein Kampfsport",
-        "Ein traditionelles japanisches Gewand",
-        "Ein japanisches Gericht"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Kimonos werden heute vor allem zu besonderen Anlässen getragen, etwa zu Hochzeiten oder Festen. Gehalten werden sie von einem breiten Gürtel, dem Obi.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Kimono?",
+          "answers": [
+            "Ein Musikinstrument",
+            "Ein Kampfsport",
+            "Ein traditionelles japanisches Gewand",
+            "Ein japanisches Gericht"
+          ],
+          "explanation": "Kimonos werden heute vor allem zu besonderen Anlässen getragen, etwa zu Hochzeiten oder Festen. Gehalten werden sie von einem breiten Gürtel, dem Obi."
+        },
+        "en": {
+          "title": "What is a kimono?",
+          "answers": [
+            "A musical instrument",
+            "A martial art",
+            "A traditional Japanese garment",
+            "A Japanese dish"
+          ],
+          "explanation": "Today kimonos are mostly worn on special occasions, such as weddings or festivals. They are held together by a wide sash called an obi."
+        }
+      }
     },
     {
       "id": "world-0059",
@@ -1110,17 +1922,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "In welcher Stadt steht das Brandenburger Tor?",
-      "answers": [
-        "Potsdam",
-        "Hamburg",
-        "Brandenburg an der Havel",
-        "Berlin"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Das Brandenburger Tor ist ein Wahrzeichen Berlins. Es heißt so, weil hier früher die Straße nach Brandenburg an der Havel begann.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "In welcher Stadt steht das Brandenburger Tor?",
+          "answers": [
+            "Potsdam",
+            "Hamburg",
+            "Brandenburg an der Havel",
+            "Berlin"
+          ],
+          "explanation": "Das Brandenburger Tor ist ein Wahrzeichen Berlins. Es heißt so, weil hier früher die Straße nach Brandenburg an der Havel begann."
+        },
+        "en": {
+          "title": "Which city is the Brandenburg Gate in?",
+          "answers": [
+            "Potsdam",
+            "Hamburg",
+            "Brandenburg an der Havel",
+            "Berlin"
+          ],
+          "explanation": "The Brandenburg Gate is a landmark of Berlin. It got its name because the road to the town of Brandenburg an der Havel used to start here."
+        }
+      }
     },
     {
       "id": "world-0060",
@@ -1129,17 +1955,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Wo stehen die riesigen Steinfiguren namens Moai?",
-      "answers": [
-        "Auf der Osterinsel",
-        "Auf Hawaii",
-        "In Ägypten",
-        "In Irland"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Die Bewohner der kleinen Insel im Pazifik meißelten vor Hunderten Jahren fast 900 dieser Figuren aus Vulkangestein. Manche sind über zehn Meter hoch.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wo stehen die riesigen Steinfiguren namens Moai?",
+          "answers": [
+            "Auf der Osterinsel",
+            "Auf Hawaii",
+            "In Ägypten",
+            "In Irland"
+          ],
+          "explanation": "Die Bewohner der kleinen Insel im Pazifik meißelten vor Hunderten Jahren fast 900 dieser Figuren aus Vulkangestein. Manche sind über zehn Meter hoch."
+        },
+        "en": {
+          "title": "Where are the giant stone figures called Moai?",
+          "answers": [
+            "On Easter Island",
+            "In Hawaii",
+            "In Egypt",
+            "In Ireland"
+          ],
+          "explanation": "Hundreds of years ago, the people of this small Pacific island carved almost 900 of these figures from volcanic rock. Some are over ten metres tall."
+        }
+      }
     }
   ]
 }

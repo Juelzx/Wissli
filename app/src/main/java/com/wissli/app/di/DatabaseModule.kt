@@ -2,6 +2,7 @@ package com.wissli.app.di
 
 import androidx.room3.Room
 import androidx.sqlite.driver.bundled.BundledSQLiteDriver
+import com.wissli.app.data.local.AnswerDao
 import com.wissli.app.data.local.ContentDao
 import com.wissli.app.data.local.ProgressDao
 import com.wissli.app.data.local.WissliDatabase
@@ -20,4 +21,5 @@ val databaseModule =
         }
         single<ContentDao> { get<WissliDatabase>().contentDao() }
         single<ProgressDao> { get<WissliDatabase>().progressDao() }
+        single<AnswerDao> { get<WissliDatabase>().answerDao() }
     }

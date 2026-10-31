@@ -1,0 +1,1325 @@
+{
+  "categoryId": "math",
+  "questions": [
+    {
+      "id": "math-0001",
+      "subtopic": "counting",
+      "level": 1,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "correctAnswerIndex": 3,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Zahl kommt nach 7?",
+          "answers": [
+            "10",
+            "9",
+            "6",
+            "8"
+          ],
+          "explanation": "Beim Zählen kommt nach der 7 die 8: 6, 7, 8, 9."
+        },
+        "en": {
+          "title": "Which number comes after 7?",
+          "answers": [
+            "10",
+            "9",
+            "6",
+            "8"
+          ],
+          "explanation": "When you count, 8 comes after 7: 6, 7, 8, 9."
+        }
+      }
+    },
+    {
+      "id": "math-0002",
+      "subtopic": "addition",
+      "level": 1,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "correctAnswerIndex": 3,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist 2 + 3?",
+          "answers": [
+            "4",
+            "23",
+            "6",
+            "5"
+          ],
+          "explanation": "Starte bei 2 und zähle 3 weiter: 3, 4, 5. Also ist 2 + 3 = 5."
+        },
+        "en": {
+          "title": "What is 2 + 3?",
+          "answers": [
+            "4",
+            "23",
+            "6",
+            "5"
+          ],
+          "explanation": "Start at 2 and count on 3: 3, 4, 5. So 2 + 3 = 5."
+        }
+      }
+    },
+    {
+      "id": "math-0003",
+      "subtopic": "addition",
+      "level": 1,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 3,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist 4 + 4?",
+          "answers": [
+            "9",
+            "7",
+            "44",
+            "8"
+          ],
+          "explanation": "4 + 4 ist eine Verdopplung: Zweimal 4 ergibt 8."
+        },
+        "en": {
+          "title": "What is 4 + 4?",
+          "answers": [
+            "9",
+            "7",
+            "44",
+            "8"
+          ],
+          "explanation": "4 + 4 is a double: two times 4 makes 8."
+        }
+      }
+    },
+    {
+      "id": "math-0004",
+      "subtopic": "subtraction",
+      "level": 1,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 1,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist 9 − 3?",
+          "answers": [
+            "5",
+            "6",
+            "12",
+            "7"
+          ],
+          "explanation": "Von 9 nimmst du 3 weg und zählst rückwärts: 8, 7, 6. Es bleiben 6."
+        },
+        "en": {
+          "title": "What is 9 − 3?",
+          "answers": [
+            "5",
+            "6",
+            "12",
+            "7"
+          ],
+          "explanation": "Take 3 away from 9 by counting back: 8, 7, 6. That leaves 6."
+        }
+      }
+    },
+    {
+      "id": "math-0005",
+      "subtopic": "subtraction",
+      "level": 1,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist 5 − 5?",
+          "answers": [
+            "0",
+            "1",
+            "5",
+            "10"
+          ],
+          "explanation": "Wenn du alles wegnimmst, bleibt nichts übrig – also 0."
+        },
+        "en": {
+          "title": "What is 5 − 5?",
+          "answers": [
+            "0",
+            "1",
+            "5",
+            "10"
+          ],
+          "explanation": "If you take everything away, nothing is left – so the answer is 0."
+        }
+      }
+    },
+    {
+      "id": "math-0006",
+      "subtopic": "compare",
+      "level": 1,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Zahl ist am größten?",
+          "answers": [
+            "12",
+            "2",
+            "9",
+            "10"
+          ],
+          "explanation": "12 hat einen Zehner und zwei Einer – das ist mehr als 9 oder 10."
+        },
+        "en": {
+          "title": "Which number is the biggest?",
+          "answers": [
+            "12",
+            "2",
+            "9",
+            "10"
+          ],
+          "explanation": "12 has one ten and two ones – that is more than 9 or 10."
+        }
+      }
+    },
+    {
+      "id": "math-0007",
+      "subtopic": "shapes",
+      "level": 1,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Ecken hat ein Dreieck?",
+          "answers": [
+            "3",
+            "5",
+            "4",
+            "0"
+          ],
+          "explanation": "Der Name verrät es schon: Ein Drei-eck hat drei Ecken und drei Seiten."
+        },
+        "en": {
+          "title": "How many corners does a triangle have?",
+          "answers": [
+            "3",
+            "5",
+            "4",
+            "0"
+          ],
+          "explanation": "The name gives it away: a tri-angle has three corners and three sides."
+        }
+      }
+    },
+    {
+      "id": "math-0008",
+      "subtopic": "shapes",
+      "level": 1,
+      "order": 11,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 1,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Form hat keine Ecken?",
+          "answers": [
+            "Quadrat",
+            "Kreis",
+            "Dreieck",
+            "Rechteck"
+          ],
+          "explanation": "Ein Kreis ist ganz rund. Er hat keine Ecken und keine geraden Seiten."
+        },
+        "en": {
+          "title": "Which shape has no corners?",
+          "answers": [
+            "Square",
+            "Circle",
+            "Triangle",
+            "Rectangle"
+          ],
+          "explanation": "A circle is round all the way. It has no corners and no straight sides."
+        }
+      }
+    },
+    {
+      "id": "math-0009",
+      "subtopic": "patterns",
+      "level": 1,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 3,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Zahl fehlt? 2, 4, 6, …",
+          "answers": [
+            "7",
+            "5",
+            "10",
+            "8"
+          ],
+          "explanation": "Die Zahlen springen immer um 2 weiter: 2, 4, 6, 8."
+        },
+        "en": {
+          "title": "Which number is missing? 2, 4, 6, …",
+          "answers": [
+            "7",
+            "5",
+            "10",
+            "8"
+          ],
+          "explanation": "The numbers jump by 2 each time: 2, 4, 6, 8."
+        }
+      }
+    },
+    {
+      "id": "math-0010",
+      "subtopic": "wordproblem",
+      "level": 1,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 1,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Lena hat 3 Äpfel und bekommt 2 dazu. Wie viele hat sie jetzt?",
+          "answers": [
+            "4",
+            "5",
+            "6",
+            "1"
+          ],
+          "explanation": "3 Äpfel und 2 dazu: 3 + 2 = 5 Äpfel."
+        },
+        "en": {
+          "title": "Lena has 3 apples and gets 2 more. How many does she have now?",
+          "answers": [
+            "4",
+            "5",
+            "6",
+            "1"
+          ],
+          "explanation": "3 apples plus 2 more: 3 + 2 = 5 apples."
+        }
+      }
+    },
+    {
+      "id": "math-0011",
+      "subtopic": "wordproblem",
+      "level": 1,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 3,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Auf einem Ast sitzen 8 Vögel. 3 fliegen weg. Wie viele bleiben sitzen?",
+          "answers": [
+            "6",
+            "11",
+            "3",
+            "5"
+          ],
+          "explanation": "Wegfliegen heißt wegnehmen: 8 − 3 = 5 Vögel bleiben sitzen."
+        },
+        "en": {
+          "title": "8 birds sit on a branch. 3 fly away. How many are left?",
+          "answers": [
+            "6",
+            "11",
+            "3",
+            "5"
+          ],
+          "explanation": "Flying away means taking away: 8 − 3 = 5 birds are left."
+        }
+      }
+    },
+    {
+      "id": "math-0012",
+      "subtopic": "counting",
+      "level": 1,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 0,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Finger hast du an einer Hand?",
+          "answers": [
+            "5",
+            "6",
+            "10",
+            "4"
+          ],
+          "explanation": "An jeder Hand hast du fünf Finger – an beiden Händen zusammen zehn."
+        },
+        "en": {
+          "title": "How many fingers do you have on one hand?",
+          "answers": [
+            "5",
+            "6",
+            "10",
+            "4"
+          ],
+          "explanation": "Each hand has five fingers – both hands together have ten."
+        }
+      }
+    },
+    {
+      "id": "math-0013",
+      "subtopic": "compare",
+      "level": 1,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 2,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Zeichen gehört in die Lücke? 7 … 4",
+          "answers": [
+            "+",
+            "=",
+            ">",
+            "<"
+          ],
+          "explanation": "Die 7 ist größer als die 4. Die offene Seite des Zeichens zeigt immer zur größeren Zahl: 7 > 4."
+        },
+        "en": {
+          "title": "Which sign goes in the gap? 7 … 4",
+          "answers": [
+            "+",
+            "=",
+            ">",
+            "<"
+          ],
+          "explanation": "7 is bigger than 4. The open side of the sign always faces the bigger number: 7 > 4."
+        }
+      }
+    },
+    {
+      "id": "math-0014",
+      "subtopic": "addition",
+      "level": 1,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 2,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist 6 + 4?",
+          "answers": [
+            "9",
+            "11",
+            "10",
+            "2"
+          ],
+          "explanation": "6 und 4 sind Zehnerfreunde: Zusammen ergeben sie genau 10."
+        },
+        "en": {
+          "title": "What is 6 + 4?",
+          "answers": [
+            "9",
+            "11",
+            "10",
+            "2"
+          ],
+          "explanation": "6 and 4 are friends of ten: together they make exactly 10."
+        }
+      }
+    },
+    {
+      "id": "math-0015",
+      "subtopic": "subtraction",
+      "level": 1,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 1,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist 10 − 7?",
+          "answers": [
+            "17",
+            "3",
+            "4",
+            "2"
+          ],
+          "explanation": "Von 7 bis 10 sind es 3 Schritte. Also ist 10 − 7 = 3."
+        },
+        "en": {
+          "title": "What is 10 − 7?",
+          "answers": [
+            "17",
+            "3",
+            "4",
+            "2"
+          ],
+          "explanation": "From 7 up to 10 is 3 steps. So 10 − 7 = 3."
+        }
+      }
+    },
+    {
+      "id": "math-0016",
+      "subtopic": "counting",
+      "level": 1,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 3,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Zahl liegt zwischen 14 und 16?",
+          "answers": [
+            "17",
+            "13",
+            "16",
+            "15"
+          ],
+          "explanation": "Zähl einfach mit: 14, 15, 16. Die 15 liegt genau dazwischen."
+        },
+        "en": {
+          "title": "Which number is between 14 and 16?",
+          "answers": [
+            "17",
+            "13",
+            "16",
+            "15"
+          ],
+          "explanation": "Just count along: 14, 15, 16. 15 sits right in between."
+        }
+      }
+    },
+    {
+      "id": "math-0017",
+      "subtopic": "shapes",
+      "level": 1,
+      "order": 12,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Seiten hat ein Quadrat?",
+          "answers": [
+            "4",
+            "5",
+            "3",
+            "6"
+          ],
+          "explanation": "Ein Quadrat hat vier gleich lange Seiten und vier Ecken."
+        },
+        "en": {
+          "title": "How many sides does a square have?",
+          "answers": [
+            "4",
+            "5",
+            "3",
+            "6"
+          ],
+          "explanation": "A square has four sides of the same length and four corners."
+        }
+      }
+    },
+    {
+      "id": "math-0018",
+      "subtopic": "wordproblem",
+      "level": 1,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "correctAnswerIndex": 2,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Tim hat 10 Murmeln. Er schenkt 4 seiner Schwester und findet dann 1 neue. Wie viele hat er jetzt?",
+          "answers": [
+            "6",
+            "5",
+            "7",
+            "15"
+          ],
+          "explanation": "Erst wegnehmen, dann dazutun: 10 − 4 = 6, und 6 + 1 = 7."
+        },
+        "en": {
+          "title": "Tim has 10 marbles. He gives 4 to his sister and then finds 1 more. How many does he have now?",
+          "answers": [
+            "6",
+            "5",
+            "7",
+            "15"
+          ],
+          "explanation": "First take away, then add: 10 − 4 = 6, and 6 + 1 = 7."
+        }
+      }
+    },
+    {
+      "id": "math-0019",
+      "subtopic": "patterns",
+      "level": 1,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 1,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Zahl fehlt? 10, 9, 8, …, 6",
+          "answers": [
+            "11",
+            "7",
+            "9",
+            "5"
+          ],
+          "explanation": "Hier wird rückwärts gezählt: 10, 9, 8, 7, 6."
+        },
+        "en": {
+          "title": "Which number is missing? 10, 9, 8, …, 6",
+          "answers": [
+            "11",
+            "7",
+            "9",
+            "5"
+          ],
+          "explanation": "This row counts backwards: 10, 9, 8, 7, 6."
+        }
+      }
+    },
+    {
+      "id": "math-0020",
+      "subtopic": "addition",
+      "level": 1,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "correctAnswerIndex": 2,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist 8 + 5?",
+          "answers": [
+            "12",
+            "3",
+            "13",
+            "14"
+          ],
+          "explanation": "Erst bis zur 10 auffüllen: 8 + 2 = 10. Dann die restlichen 3 dazu: 13."
+        },
+        "en": {
+          "title": "What is 8 + 5?",
+          "answers": [
+            "12",
+            "3",
+            "13",
+            "14"
+          ],
+          "explanation": "First fill up to 10: 8 + 2 = 10. Then add the other 3: 13."
+        }
+      }
+    },
+    {
+      "id": "math-0021",
+      "subtopic": "addition",
+      "level": 2,
+      "order": 1,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist 10 + 7?",
+          "answers": [
+            "17",
+            "18",
+            "3",
+            "107"
+          ],
+          "explanation": "Ein Zehner und sieben Einer ergeben 17."
+        },
+        "en": {
+          "title": "What is 10 + 7?",
+          "answers": [
+            "17",
+            "18",
+            "3",
+            "107"
+          ],
+          "explanation": "One ten and seven ones make 17."
+        }
+      }
+    },
+    {
+      "id": "math-0022",
+      "subtopic": "addition",
+      "level": 2,
+      "order": 7,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist 9 + 9?",
+          "answers": [
+            "18",
+            "99",
+            "19",
+            "16"
+          ],
+          "explanation": "Das Doppelte von 9 ist 18. Tipp: Das sind 2 weniger als 10 + 10."
+        },
+        "en": {
+          "title": "What is 9 + 9?",
+          "answers": [
+            "18",
+            "99",
+            "19",
+            "16"
+          ],
+          "explanation": "Double 9 is 18. Tip: that is 2 less than 10 + 10."
+        }
+      }
+    },
+    {
+      "id": "math-0023",
+      "subtopic": "subtraction",
+      "level": 2,
+      "order": 2,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 2,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist 15 − 5?",
+          "answers": [
+            "20",
+            "11",
+            "10",
+            "5"
+          ],
+          "explanation": "Die 5 Einer fallen weg, übrig bleibt der Zehner: 10."
+        },
+        "en": {
+          "title": "What is 15 − 5?",
+          "answers": [
+            "20",
+            "11",
+            "10",
+            "5"
+          ],
+          "explanation": "The 5 ones are taken away and the ten is left: 10."
+        }
+      }
+    },
+    {
+      "id": "math-0024",
+      "subtopic": "subtraction",
+      "level": 2,
+      "order": 11,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 3,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist 13 − 4?",
+          "answers": [
+            "11",
+            "8",
+            "17",
+            "9"
+          ],
+          "explanation": "Erst bis zur 10: 13 − 3 = 10. Dann noch 1 weg: 9."
+        },
+        "en": {
+          "title": "What is 13 − 4?",
+          "answers": [
+            "11",
+            "8",
+            "17",
+            "9"
+          ],
+          "explanation": "First back to 10: 13 − 3 = 10. Then take away 1 more: 9."
+        }
+      }
+    },
+    {
+      "id": "math-0025",
+      "subtopic": "doubling",
+      "level": 2,
+      "order": 3,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 3,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist das Doppelte von 6?",
+          "answers": [
+            "3",
+            "66",
+            "8",
+            "12"
+          ],
+          "explanation": "Das Doppelte heißt zweimal: 6 + 6 = 12."
+        },
+        "en": {
+          "title": "What is double 6?",
+          "answers": [
+            "3",
+            "66",
+            "8",
+            "12"
+          ],
+          "explanation": "Double means two times: 6 + 6 = 12."
+        }
+      }
+    },
+    {
+      "id": "math-0026",
+      "subtopic": "doubling",
+      "level": 2,
+      "order": 8,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 1,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist die Hälfte von 10?",
+          "answers": [
+            "2",
+            "5",
+            "20",
+            "4"
+          ],
+          "explanation": "Teilst du 10 gerecht zwischen zwei Kindern, bekommt jedes 5."
+        },
+        "en": {
+          "title": "What is half of 10?",
+          "answers": [
+            "2",
+            "5",
+            "20",
+            "4"
+          ],
+          "explanation": "If you share 10 fairly between two children, each gets 5."
+        }
+      }
+    },
+    {
+      "id": "math-0027",
+      "subtopic": "doubling",
+      "level": 2,
+      "order": 12,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 1,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist die Hälfte von 18?",
+          "answers": [
+            "36",
+            "9",
+            "8",
+            "6"
+          ],
+          "explanation": "9 + 9 = 18, also ist die Hälfte von 18 genau 9."
+        },
+        "en": {
+          "title": "What is half of 18?",
+          "answers": [
+            "36",
+            "9",
+            "8",
+            "6"
+          ],
+          "explanation": "9 + 9 = 18, so half of 18 is exactly 9."
+        }
+      }
+    },
+    {
+      "id": "math-0028",
+      "subtopic": "tens",
+      "level": 2,
+      "order": 9,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 2,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Zehner hat die Zahl 40?",
+          "answers": [
+            "0",
+            "14",
+            "4",
+            "40"
+          ],
+          "explanation": "40 sind vier Zehner: 10, 20, 30, 40."
+        },
+        "en": {
+          "title": "How many tens are in the number 40?",
+          "answers": [
+            "0",
+            "14",
+            "4",
+            "40"
+          ],
+          "explanation": "40 is four tens: 10, 20, 30, 40."
+        }
+      }
+    },
+    {
+      "id": "math-0029",
+      "subtopic": "tens",
+      "level": 2,
+      "order": 5,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 2,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist 30 + 20?",
+          "answers": [
+            "60",
+            "5",
+            "50",
+            "32"
+          ],
+          "explanation": "3 Zehner und 2 Zehner sind 5 Zehner – also 50."
+        },
+        "en": {
+          "title": "What is 30 + 20?",
+          "answers": [
+            "60",
+            "5",
+            "50",
+            "32"
+          ],
+          "explanation": "3 tens and 2 tens make 5 tens – that is 50."
+        }
+      }
+    },
+    {
+      "id": "math-0030",
+      "subtopic": "tens",
+      "level": 2,
+      "order": 13,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 1,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Zahl hat 6 Zehner und 3 Einer?",
+          "answers": [
+            "36",
+            "63",
+            "603",
+            "9"
+          ],
+          "explanation": "Die Zehner stehen vorne, die Einer hinten: 63."
+        },
+        "en": {
+          "title": "Which number has 6 tens and 3 ones?",
+          "answers": [
+            "36",
+            "63",
+            "603",
+            "9"
+          ],
+          "explanation": "The tens come first and the ones come last: 63."
+        }
+      }
+    },
+    {
+      "id": "math-0031",
+      "subtopic": "time",
+      "level": 2,
+      "order": 4,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 1,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Monate hat ein Jahr?",
+          "answers": [
+            "7",
+            "12",
+            "10",
+            "52"
+          ],
+          "explanation": "Von Januar bis Dezember sind es zwölf Monate."
+        },
+        "en": {
+          "title": "How many months are in a year?",
+          "answers": [
+            "7",
+            "12",
+            "10",
+            "52"
+          ],
+          "explanation": "From January to December there are twelve months."
+        }
+      }
+    },
+    {
+      "id": "math-0032",
+      "subtopic": "time",
+      "level": 2,
+      "order": 10,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Minuten hat eine Stunde?",
+          "answers": [
+            "60",
+            "30",
+            "12",
+            "100"
+          ],
+          "explanation": "Der große Zeiger braucht 60 Minuten für eine ganze Runde um die Uhr."
+        },
+        "en": {
+          "title": "How many minutes are in an hour?",
+          "answers": [
+            "60",
+            "30",
+            "12",
+            "100"
+          ],
+          "explanation": "The long hand takes 60 minutes to go all the way around the clock."
+        }
+      }
+    },
+    {
+      "id": "math-0033",
+      "subtopic": "time",
+      "level": 2,
+      "order": 18,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "correctAnswerIndex": 2,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Der kleine Zeiger zeigt auf die 3, der große auf die 12. Wie spät ist es?",
+          "answers": [
+            "Viertel nach 12",
+            "12 Uhr",
+            "3 Uhr",
+            "halb 3"
+          ],
+          "explanation": "Steht der große Zeiger auf der 12, ist es eine volle Stunde. Der kleine Zeiger sagt, welche: 3 Uhr."
+        },
+        "en": {
+          "title": "The short hand points to 3, the long hand to 12. What time is it?",
+          "answers": [
+            "Quarter past 12",
+            "12 o'clock",
+            "3 o'clock",
+            "Half past 2"
+          ],
+          "explanation": "When the long hand is on 12, it is a full hour. The short hand tells you which one: 3 o'clock."
+        }
+      }
+    },
+    {
+      "id": "math-0034",
+      "subtopic": "money",
+      "level": 2,
+      "order": 15,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 3,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Cent sind ein Euro?",
+          "answers": [
+            "1000",
+            "10",
+            "50",
+            "100"
+          ],
+          "explanation": "Ein Euro ist genauso viel wert wie 100 Cent."
+        },
+        "en": {
+          "title": "How many cents make one euro?",
+          "answers": [
+            "1000",
+            "10",
+            "50",
+            "100"
+          ],
+          "explanation": "One euro is worth exactly 100 cents."
+        }
+      }
+    },
+    {
+      "id": "math-0035",
+      "subtopic": "money",
+      "level": 2,
+      "order": 14,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 3,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Du hast eine 2-Euro-Münze und zwei 1-Euro-Münzen. Wie viel Geld ist das?",
+          "answers": [
+            "3 Euro",
+            "5 Euro",
+            "2 Euro",
+            "4 Euro"
+          ],
+          "explanation": "Zähl die Münzen zusammen: 2 + 1 + 1 = 4 Euro."
+        },
+        "en": {
+          "title": "You have a 2-euro coin and two 1-euro coins. How much money is that?",
+          "answers": [
+            "3 euros",
+            "5 euros",
+            "2 euros",
+            "4 euros"
+          ],
+          "explanation": "Add up the coins: 2 + 1 + 1 = 4 euros."
+        }
+      }
+    },
+    {
+      "id": "math-0036",
+      "subtopic": "wordproblem",
+      "level": 2,
+      "order": 16,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 1,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "In einer Klasse sind 12 Mädchen und 8 Jungen. Wie viele Kinder sind es?",
+          "answers": [
+            "18",
+            "20",
+            "4",
+            "22"
+          ],
+          "explanation": "12 + 8 = 20. Die 2 und die 8 sind Zehnerfreunde und ergeben einen neuen Zehner."
+        },
+        "en": {
+          "title": "A class has 12 girls and 8 boys. How many children is that?",
+          "answers": [
+            "18",
+            "20",
+            "4",
+            "22"
+          ],
+          "explanation": "12 + 8 = 20. The 2 and the 8 are friends of ten and make a new ten."
+        }
+      }
+    },
+    {
+      "id": "math-0037",
+      "subtopic": "wordproblem",
+      "level": 2,
+      "order": 17,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 3,
+      "correctAnswerIndex": 0,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Eine Spinne hat 8 Beine. Wie viele Beine haben 2 Spinnen?",
+          "answers": [
+            "16",
+            "4",
+            "10",
+            "18"
+          ],
+          "explanation": "Zweimal 8 Beine: 8 + 8 = 16."
+        },
+        "en": {
+          "title": "A spider has 8 legs. How many legs do 2 spiders have?",
+          "answers": [
+            "16",
+            "4",
+            "10",
+            "18"
+          ],
+          "explanation": "Two times 8 legs: 8 + 8 = 16."
+        }
+      }
+    },
+    {
+      "id": "math-0038",
+      "subtopic": "wordproblem",
+      "level": 2,
+      "order": 19,
+      "difficulty": "MEDIUM",
+      "difficultyScore": 4,
+      "correctAnswerIndex": 3,
+      "ageFrom": 8,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Mia ist 7 Jahre alt, ihr Bruder ist 5 Jahre älter. Wie alt ist er?",
+          "answers": [
+            "13",
+            "11",
+            "2",
+            "12"
+          ],
+          "explanation": "5 Jahre älter heißt 5 dazu: 7 + 5 = 12."
+        },
+        "en": {
+          "title": "Mia is 7 years old and her brother is 5 years older. How old is he?",
+          "answers": [
+            "13",
+            "11",
+            "2",
+            "12"
+          ],
+          "explanation": "5 years older means adding 5: 7 + 5 = 12."
+        }
+      }
+    },
+    {
+      "id": "math-0039",
+      "subtopic": "patterns",
+      "level": 2,
+      "order": 20,
+      "difficulty": "EASY",
+      "difficultyScore": 2,
+      "correctAnswerIndex": 0,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Zahl fehlt? 5, 10, 15, …",
+          "answers": [
+            "20",
+            "25",
+            "16",
+            "30"
+          ],
+          "explanation": "Hier geht es immer 5 weiter: 5, 10, 15, 20."
+        },
+        "en": {
+          "title": "Which number is missing? 5, 10, 15, …",
+          "answers": [
+            "20",
+            "25",
+            "16",
+            "30"
+          ],
+          "explanation": "Each step adds 5: 5, 10, 15, 20."
+        }
+      }
+    },
+    {
+      "id": "math-0040",
+      "subtopic": "shapes",
+      "level": 2,
+      "order": 6,
+      "difficulty": "EASY",
+      "difficultyScore": 1,
+      "correctAnswerIndex": 2,
+      "ageFrom": 6,
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Körper rollt am besten?",
+          "answers": [
+            "Pyramide",
+            "Quader",
+            "Kugel",
+            "Würfel"
+          ],
+          "explanation": "Eine Kugel ist überall rund, deshalb rollt sie in jede Richtung."
+        },
+        "en": {
+          "title": "Which solid rolls best?",
+          "answers": [
+            "Pyramid",
+            "Box",
+            "Ball",
+            "Cube"
+          ],
+          "explanation": "A ball is round everywhere, so it rolls in every direction."
+        }
+      }
+    }
+  ]
+}

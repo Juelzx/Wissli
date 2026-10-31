@@ -8,17 +8,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wie viele Spieler hat eine Fußballmannschaft auf dem Feld?",
-      "answers": [
-        "Zwölf",
-        "Zehn",
-        "Neun",
-        "Elf"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Elf Spielerinnen oder Spieler pro Team stehen auf dem Platz, eine oder einer davon im Tor. Daneben warten Auswechselspieler auf der Bank.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Spieler hat eine Fußballmannschaft auf dem Feld?",
+          "answers": [
+            "Zwölf",
+            "Zehn",
+            "Neun",
+            "Elf"
+          ],
+          "explanation": "Elf Spielerinnen oder Spieler pro Team stehen auf dem Platz, eine oder einer davon im Tor. Daneben warten Auswechselspieler auf der Bank."
+        },
+        "en": {
+          "title": "How many players does a football team have on the pitch?",
+          "answers": [
+            "Twelve",
+            "Ten",
+            "Nine",
+            "Eleven"
+          ],
+          "explanation": "Eleven players per team are on the pitch, one of them in goal. Substitutes wait on the bench."
+        }
+      }
     },
     {
       "id": "sports-0002",
@@ -27,17 +41,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum hat ein Golfball kleine Dellen?",
-      "answers": [
-        "Nur zur Verzierung",
-        "Damit er nicht zerspringt",
-        "Damit er weiter fliegt",
-        "Damit er besser rollt"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Die vielen Dellen wirbeln die Luft direkt an der Oberfläche auf. Dadurch löst sich die Strömung später vom Ball, er wird weniger gebremst und fliegt etwa doppelt so weit wie ein glatter Ball.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum hat ein Golfball kleine Dellen?",
+          "answers": [
+            "Nur zur Verzierung",
+            "Damit er nicht zerspringt",
+            "Damit er weiter fliegt",
+            "Damit er besser rollt"
+          ],
+          "explanation": "Die vielen Dellen wirbeln die Luft direkt an der Oberfläche auf. Dadurch löst sich die Strömung später vom Ball, er wird weniger gebremst und fliegt etwa doppelt so weit wie ein glatter Ball."
+        },
+        "en": {
+          "title": "Why does a golf ball have little dimples?",
+          "answers": [
+            "Just for decoration",
+            "So it doesn't shatter",
+            "So it flies further",
+            "So it rolls better"
+          ],
+          "explanation": "The many dimples stir up the air right at the surface. This makes the airflow leave the ball later, so it is slowed down less and flies about twice as far as a smooth ball."
+        }
+      }
     },
     {
       "id": "sports-0003",
@@ -46,17 +74,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie oft finden Olympische Sommerspiele statt?",
-      "answers": [
-        "Alle zehn Jahre",
-        "Alle vier Jahre",
-        "Jedes Jahr",
-        "Alle zwei Jahre"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Sommer- und Winterspiele finden jeweils alle vier Jahre statt, aber um zwei Jahre versetzt. Deshalb gibt es alle zwei Jahre Olympische Spiele.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie oft finden Olympische Sommerspiele statt?",
+          "answers": [
+            "Alle zehn Jahre",
+            "Alle vier Jahre",
+            "Jedes Jahr",
+            "Alle zwei Jahre"
+          ],
+          "explanation": "Sommer- und Winterspiele finden jeweils alle vier Jahre statt, aber um zwei Jahre versetzt. Deshalb gibt es alle zwei Jahre Olympische Spiele."
+        },
+        "en": {
+          "title": "How often are the Summer Olympic Games held?",
+          "answers": [
+            "Every ten years",
+            "Every four years",
+            "Every year",
+            "Every two years"
+          ],
+          "explanation": "The Summer and Winter Games are each held every four years, but two years apart. That's why there are Olympic Games every two years."
+        }
+      }
     },
     {
       "id": "sports-0004",
@@ -65,17 +107,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wofür stehen die fünf olympischen Ringe?",
-      "answers": [
-        "Für fünf Sportarten",
-        "Für fünf Gründerländer",
-        "Für die fünf bewohnten Erdteile",
-        "Für fünf Goldmedaillen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Die Ringe stehen für die fünf bewohnten Erdteile, die sich bei den Spielen treffen. Mit dem weißen Hintergrund sollte in jeder Nationalflagge mindestens eine ihrer Farben vorkommen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wofür stehen die fünf olympischen Ringe?",
+          "answers": [
+            "Für fünf Sportarten",
+            "Für fünf Gründerländer",
+            "Für die fünf bewohnten Erdteile",
+            "Für fünf Goldmedaillen"
+          ],
+          "explanation": "Die Ringe stehen für die fünf bewohnten Erdteile, die sich bei den Spielen treffen. Mit dem weißen Hintergrund sollte in jeder Nationalflagge mindestens eine ihrer Farben vorkommen."
+        },
+        "en": {
+          "title": "What do the five Olympic rings stand for?",
+          "answers": [
+            "Five sports",
+            "Five founding countries",
+            "The five inhabited parts of the world",
+            "Five gold medals"
+          ],
+          "explanation": "The rings stand for the five inhabited parts of the world that meet at the Games. Together with the white background, at least one of their colours was meant to appear in every national flag."
+        }
+      }
     },
     {
       "id": "sports-0005",
@@ -84,17 +140,31 @@
       "order": 12,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wie lang ist ein Marathon?",
-      "answers": [
-        "Genau 50 Kilometer",
-        "Genau 100 Kilometer",
-        "Gut 42 Kilometer",
-        "Gut 21 Kilometer"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Ein Marathon ist genau 42,195 Kilometer lang. Der Name erinnert an eine Sage: Ein Bote soll von Marathon nach Athen gelaufen sein, um einen Sieg zu verkünden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie lang ist ein Marathon?",
+          "answers": [
+            "Genau 50 Kilometer",
+            "Genau 100 Kilometer",
+            "Gut 42 Kilometer",
+            "Gut 21 Kilometer"
+          ],
+          "explanation": "Ein Marathon ist genau 42,195 Kilometer lang. Der Name erinnert an eine Sage: Ein Bote soll von Marathon nach Athen gelaufen sein, um einen Sieg zu verkünden."
+        },
+        "en": {
+          "title": "How long is a marathon?",
+          "answers": [
+            "Exactly 50 kilometres",
+            "Exactly 100 kilometres",
+            "Just over 42 kilometres",
+            "Just over 21 kilometres"
+          ],
+          "explanation": "A marathon is exactly 42.195 kilometres long. The name recalls a legend: a messenger is said to have run from Marathon to Athens to announce a victory."
+        }
+      }
     },
     {
       "id": "sports-0006",
@@ -103,17 +173,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "In welcher Sportart gibt es einen „Touchdown“?",
-      "answers": [
-        "Eishockey",
-        "American Football",
-        "Rugby",
-        "Basketball"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Beim American Football gibt es einen Touchdown, wenn ein Team den Ball in die Endzone des Gegners trägt oder dort fängt. Das bringt sechs Punkte.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "In welcher Sportart gibt es einen „Touchdown“?",
+          "answers": [
+            "Eishockey",
+            "American Football",
+            "Rugby",
+            "Basketball"
+          ],
+          "explanation": "Beim American Football gibt es einen Touchdown, wenn ein Team den Ball in die Endzone des Gegners trägt oder dort fängt. Das bringt sechs Punkte."
+        },
+        "en": {
+          "title": "In which sport is there a “touchdown”?",
+          "answers": [
+            "Ice hockey",
+            "American football",
+            "Rugby",
+            "Basketball"
+          ],
+          "explanation": "In American football, a team scores a touchdown when it carries the ball into the opponent's end zone or catches it there. It's worth six points."
+        }
+      }
     },
     {
       "id": "sports-0007",
@@ -122,17 +206,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie viele Felder hat ein Schachbrett?",
-      "answers": [
-        "100",
-        "48",
-        "32",
-        "64"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Ein Schachbrett hat acht mal acht Felder, also 64, abwechselnd hell und dunkel. Jeder Spieler startet mit 16 Figuren.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Felder hat ein Schachbrett?",
+          "answers": [
+            "100",
+            "48",
+            "32",
+            "64"
+          ],
+          "explanation": "Ein Schachbrett hat acht mal acht Felder, also 64, abwechselnd hell und dunkel. Jeder Spieler startet mit 16 Figuren."
+        },
+        "en": {
+          "title": "How many squares does a chessboard have?",
+          "answers": [
+            "100",
+            "48",
+            "32",
+            "64"
+          ],
+          "explanation": "A chessboard has eight by eight squares, so 64, alternately light and dark. Each player starts with 16 pieces."
+        }
+      }
     },
     {
       "id": "sports-0008",
@@ -141,17 +239,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Welche Schachfigur zieht nur schräg?",
-      "answers": [
-        "Der Turm",
-        "Der Läufer",
-        "Der Springer",
-        "Die Dame"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Der Läufer zieht beliebig weit, aber immer nur schräg. Deshalb bleibt er das ganze Spiel lang auf Feldern derselben Farbe.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Schachfigur zieht nur schräg?",
+          "answers": [
+            "Der Turm",
+            "Der Läufer",
+            "Der Springer",
+            "Die Dame"
+          ],
+          "explanation": "Der Läufer zieht beliebig weit, aber immer nur schräg. Deshalb bleibt er das ganze Spiel lang auf Feldern derselben Farbe."
+        },
+        "en": {
+          "title": "Which chess piece only moves diagonally?",
+          "answers": [
+            "The rook",
+            "The bishop",
+            "The knight",
+            "The queen"
+          ],
+          "explanation": "The bishop can move as far as it likes, but only diagonally. That's why it stays on squares of the same colour for the whole game."
+        }
+      }
     },
     {
       "id": "sports-0009",
@@ -160,17 +272,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie viele Augen hat ein normaler Würfel insgesamt?",
-      "answers": [
-        "21",
-        "18",
-        "24",
-        "20"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "1 + 2 + 3 + 4 + 5 + 6 ergibt 21. Die gegenüberliegenden Seiten eines Würfels ergeben übrigens zusammen immer sieben.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Augen hat ein normaler Würfel insgesamt?",
+          "answers": [
+            "21",
+            "18",
+            "24",
+            "20"
+          ],
+          "explanation": "1 + 2 + 3 + 4 + 5 + 6 ergibt 21. Die gegenüberliegenden Seiten eines Würfels ergeben übrigens zusammen immer sieben."
+        },
+        "en": {
+          "title": "How many dots does a normal die have altogether?",
+          "answers": [
+            "21",
+            "18",
+            "24",
+            "20"
+          ],
+          "explanation": "1 + 2 + 3 + 4 + 5 + 6 makes 21. By the way, opposite sides of a die always add up to seven."
+        }
+      }
     },
     {
       "id": "sports-0010",
@@ -179,17 +305,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum springt ein prall aufgepumpter Ball besser?",
-      "answers": [
-        "Er ist dann leichter",
-        "Die zusammengedrückte Luft drückt ihn zurück",
-        "Er hat dann mehr Gummi",
-        "Der Boden wird härter"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Beim Aufprall wird der Ball kurz platt gedrückt. Die Luft darin wird zusammengepresst und drückt wie eine Feder zurück. Ist wenig Luft drin, geht mehr Energie verloren, und der Ball springt schlapp.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum springt ein prall aufgepumpter Ball besser?",
+          "answers": [
+            "Er ist dann leichter",
+            "Die zusammengedrückte Luft drückt ihn zurück",
+            "Er hat dann mehr Gummi",
+            "Der Boden wird härter"
+          ],
+          "explanation": "Beim Aufprall wird der Ball kurz platt gedrückt. Die Luft darin wird zusammengepresst und drückt wie eine Feder zurück. Ist wenig Luft drin, geht mehr Energie verloren, und der Ball springt schlapp."
+        },
+        "en": {
+          "title": "Why does a fully pumped-up ball bounce better?",
+          "answers": [
+            "It is lighter then",
+            "The squeezed air pushes it back",
+            "It has more rubber then",
+            "The ground gets harder"
+          ],
+          "explanation": "When it hits the ground, the ball is briefly squashed flat. The air inside is squeezed and pushes back like a spring. If there's little air inside, more energy is lost and the ball bounces weakly."
+        }
+      }
     },
     {
       "id": "sports-0011",
@@ -198,17 +338,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wer hält den Weltrekord im 100-Meter-Lauf der Männer?",
-      "answers": [
-        "Michael Phelps",
-        "Carl Lewis",
-        "Jesse Owens",
-        "Usain Bolt"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Jamaikaner Usain Bolt lief 2009 in Berlin 9,58 Sekunden. Dabei erreichte er zwischendurch fast 45 Kilometer pro Stunde.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer hält den Weltrekord im 100-Meter-Lauf der Männer?",
+          "answers": [
+            "Michael Phelps",
+            "Carl Lewis",
+            "Jesse Owens",
+            "Usain Bolt"
+          ],
+          "explanation": "Der Jamaikaner Usain Bolt lief 2009 in Berlin 9,58 Sekunden. Dabei erreichte er zwischendurch fast 45 Kilometer pro Stunde."
+        },
+        "en": {
+          "title": "Who holds the men's 100-metre world record?",
+          "answers": [
+            "Michael Phelps",
+            "Carl Lewis",
+            "Jesse Owens",
+            "Usain Bolt"
+          ],
+          "explanation": "Jamaica's Usain Bolt ran 9.58 seconds in Berlin in 2009. Along the way he reached almost 45 kilometres per hour."
+        }
+      }
     },
     {
       "id": "sports-0012",
@@ -217,17 +371,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "In welcher Sportart zählt man „15, 30, 40“?",
-      "answers": [
-        "Tischtennis",
-        "Badminton",
-        "Volleyball",
-        "Tennis"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Im Tennis zählt man die Punkte eines Spiels mit 15, 30 und 40. Woher diese Zählung kommt, weiß niemand sicher. Eine Vermutung: Früher zeigte eine Uhr mit Viertelstunden den Spielstand an.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "In welcher Sportart zählt man „15, 30, 40“?",
+          "answers": [
+            "Tischtennis",
+            "Badminton",
+            "Volleyball",
+            "Tennis"
+          ],
+          "explanation": "Im Tennis zählt man die Punkte eines Spiels mit 15, 30 und 40. Woher diese Zählung kommt, weiß niemand sicher. Eine Vermutung: Früher zeigte eine Uhr mit Viertelstunden den Spielstand an."
+        },
+        "en": {
+          "title": "In which sport do you count “15, 30, 40”?",
+          "answers": [
+            "Table tennis",
+            "Badminton",
+            "Volleyball",
+            "Tennis"
+          ],
+          "explanation": "In tennis the points in a game are counted as 15, 30 and 40. Nobody knows for sure where this comes from. One guess: a clock face with quarter hours used to show the score."
+        }
+      }
     },
     {
       "id": "sports-0013",
@@ -236,17 +404,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Welche Medaille bekommt der Zweite bei Olympia?",
-      "answers": [
-        "Silber",
-        "Bronze",
-        "Kupfer",
-        "Gold"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Gold für Platz eins, Silber für Platz zwei, Bronze für Platz drei. Die Goldmedaillen bestehen übrigens größtenteils aus Silber und sind nur vergoldet.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Medaille bekommt der Zweite bei Olympia?",
+          "answers": [
+            "Silber",
+            "Bronze",
+            "Kupfer",
+            "Gold"
+          ],
+          "explanation": "Gold für Platz eins, Silber für Platz zwei, Bronze für Platz drei. Die Goldmedaillen bestehen übrigens größtenteils aus Silber und sind nur vergoldet."
+        },
+        "en": {
+          "title": "Which medal does the runner-up get at the Olympics?",
+          "answers": [
+            "Silver",
+            "Bronze",
+            "Copper",
+            "Gold"
+          ],
+          "explanation": "Gold for first place, silver for second, bronze for third. By the way, gold medals are mostly made of silver and only gold-plated."
+        }
+      }
     },
     {
       "id": "sports-0014",
@@ -255,17 +437,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wo fanden 1896 die ersten Olympischen Spiele der Neuzeit statt?",
-      "answers": [
-        "In Paris",
-        "In Athen",
-        "In Olympia",
-        "In Rom"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "1896 trafen sich in Athen rund 240 Sportler aus 14 Ländern, damals nur Männer. Griechenland wurde gewählt, weil die Idee von den antiken Spielen in Olympia stammt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wo fanden 1896 die ersten Olympischen Spiele der Neuzeit statt?",
+          "answers": [
+            "In Paris",
+            "In Athen",
+            "In Olympia",
+            "In Rom"
+          ],
+          "explanation": "1896 trafen sich in Athen rund 240 Sportler aus 14 Ländern, damals nur Männer. Griechenland wurde gewählt, weil die Idee von den antiken Spielen in Olympia stammt."
+        },
+        "en": {
+          "title": "Where were the first modern Olympic Games held in 1896?",
+          "answers": [
+            "In Paris",
+            "In Athens",
+            "In Olympia",
+            "In Rome"
+          ],
+          "explanation": "In 1896 around 240 athletes from 14 countries met in Athens – only men at the time. Greece was chosen because the idea comes from the ancient Games in Olympia."
+        }
+      }
     },
     {
       "id": "sports-0015",
@@ -274,17 +470,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum wärmt man sich vor dem Sport auf?",
-      "answers": [
-        "Um müde zu werden",
-        "Damit man nicht friert",
-        "Muskeln und Gelenke werden besser durchblutet",
-        "Damit man durch Schwitzen leichter wird"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Beim Aufwärmen schlägt das Herz schneller, und die Muskeln werden wärmer und besser durchblutet. Sie arbeiten dann geschmeidiger, und man ist bereit für schnelle Bewegungen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum wärmt man sich vor dem Sport auf?",
+          "answers": [
+            "Um müde zu werden",
+            "Damit man nicht friert",
+            "Muskeln und Gelenke werden besser durchblutet",
+            "Damit man durch Schwitzen leichter wird"
+          ],
+          "explanation": "Beim Aufwärmen schlägt das Herz schneller, und die Muskeln werden wärmer und besser durchblutet. Sie arbeiten dann geschmeidiger, und man ist bereit für schnelle Bewegungen."
+        },
+        "en": {
+          "title": "Why do you warm up before sport?",
+          "answers": [
+            "To get tired",
+            "So you don't get cold",
+            "Muscles and joints get better blood flow",
+            "So you get lighter by sweating"
+          ],
+          "explanation": "When you warm up, your heart beats faster and your muscles get warmer with better blood flow. They then work more smoothly, and you're ready for quick movements."
+        }
+      }
     },
     {
       "id": "sports-0016",
@@ -293,17 +503,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum atmet man beim Sport schneller?",
-      "answers": [
-        "Weil man aufgeregt ist",
-        "Damit man leichter wird",
-        "Die Muskeln brauchen mehr Sauerstoff",
-        "Weil die Lunge kleiner wird"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Arbeitende Muskeln brauchen mehr Energie und dafür Sauerstoff. Schnelleres Atmen und ein schnellerer Herzschlag bringen ihn rascher ins Blut und zu den Muskeln.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum atmet man beim Sport schneller?",
+          "answers": [
+            "Weil man aufgeregt ist",
+            "Damit man leichter wird",
+            "Die Muskeln brauchen mehr Sauerstoff",
+            "Weil die Lunge kleiner wird"
+          ],
+          "explanation": "Arbeitende Muskeln brauchen mehr Energie und dafür Sauerstoff. Schnelleres Atmen und ein schnellerer Herzschlag bringen ihn rascher ins Blut und zu den Muskeln."
+        },
+        "en": {
+          "title": "Why do you breathe faster during sport?",
+          "answers": [
+            "Because you're excited",
+            "So you get lighter",
+            "Your muscles need more oxygen",
+            "Because your lungs get smaller"
+          ],
+          "explanation": "Working muscles need more energy, and for that they need oxygen. Breathing faster and a faster heartbeat get it into the blood and to the muscles more quickly."
+        }
+      }
     },
     {
       "id": "sports-0017",
@@ -312,17 +536,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Bei welchem Spiel muss man vier Steine in eine Reihe bringen?",
-      "answers": [
-        "Mühle",
-        "Halma",
-        "Dame",
-        "Vier gewinnt"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Bei „Vier gewinnt“ lassen zwei Spieler abwechselnd Steine in ein senkrechtes Gitter fallen. Wer zuerst vier in einer Reihe hat, waagerecht, senkrecht oder schräg, gewinnt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Bei welchem Spiel muss man vier Steine in eine Reihe bringen?",
+          "answers": [
+            "Mühle",
+            "Halma",
+            "Dame",
+            "Vier gewinnt"
+          ],
+          "explanation": "Bei „Vier gewinnt“ lassen zwei Spieler abwechselnd Steine in ein senkrechtes Gitter fallen. Wer zuerst vier in einer Reihe hat, waagerecht, senkrecht oder schräg, gewinnt."
+        },
+        "en": {
+          "title": "In which game do you have to get four counters in a row?",
+          "answers": [
+            "Nine Men's Morris",
+            "Halma",
+            "Draughts",
+            "Connect Four"
+          ],
+          "explanation": "In Connect Four two players take turns dropping counters into an upright grid. Whoever first gets four in a row – across, up and down or diagonally – wins."
+        }
+      }
     },
     {
       "id": "sports-0018",
@@ -331,17 +569,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie viele Karten hat ein Skatblatt?",
-      "answers": [
-        "52",
-        "32",
-        "54",
-        "36"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Ein Skatblatt hat 32 Karten, von der Sieben bis zum Ass in vier Farben. Für Poker oder Rommé nimmt man dagegen meist ein Blatt mit 52 Karten.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Karten hat ein Skatblatt?",
+          "answers": [
+            "52",
+            "32",
+            "54",
+            "36"
+          ],
+          "explanation": "Ein Skatblatt hat 32 Karten, von der Sieben bis zum Ass in vier Farben. Für Poker oder Rommé nimmt man dagegen meist ein Blatt mit 52 Karten."
+        },
+        "en": {
+          "title": "How many cards are in a Skat deck?",
+          "answers": [
+            "52",
+            "32",
+            "54",
+            "36"
+          ],
+          "explanation": "A Skat deck, popular in Germany, has 32 cards, from seven to ace in four suits. For poker or rummy, on the other hand, you usually use a deck of 52 cards."
+        }
+      }
     },
     {
       "id": "sports-0019",
@@ -350,17 +602,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wer hat die meisten olympischen Goldmedaillen gewonnen?",
-      "answers": [
-        "Michael Phelps",
-        "Usain Bolt",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Der US-Schwimmer Michael Phelps gewann zwischen 2004 und 2016 insgesamt 23 olympische Goldmedaillen, mehr als jeder andere Sportler.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wer hat die meisten olympischen Goldmedaillen gewonnen?",
+          "answers": [
+            "Michael Phelps",
+            "Usain Bolt",
+            "Simone Biles",
+            "Carl Lewis"
+          ],
+          "explanation": "Der US-Schwimmer Michael Phelps gewann zwischen 2004 und 2016 insgesamt 23 olympische Goldmedaillen, mehr als jeder andere Sportler."
+        },
+        "en": {
+          "title": "Who has won the most Olympic gold medals?",
+          "answers": [
+            "Michael Phelps",
+            "Usain Bolt",
+            "Simone Biles",
+            "Carl Lewis"
+          ],
+          "explanation": "US swimmer Michael Phelps won a total of 23 Olympic gold medals between 2004 and 2016 – more than any other athlete."
+        }
+      }
     },
     {
       "id": "sports-0020",
@@ -369,17 +635,31 @@
       "order": 11,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum sollte man beim Sport genug trinken?",
-      "answers": [
-        "Damit der Magen voll ist",
-        "Der Körper verliert Wasser durch Schweiß",
-        "Damit die Muskeln schwerer werden",
-        "Weil Wasser viele Kalorien hat"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Beim Sport schwitzen wir, um nicht zu überhitzen. Das verlorene Wasser muss zurück in den Körper, sonst lässt die Leistung nach.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum sollte man beim Sport genug trinken?",
+          "answers": [
+            "Damit der Magen voll ist",
+            "Der Körper verliert Wasser durch Schweiß",
+            "Damit die Muskeln schwerer werden",
+            "Weil Wasser viele Kalorien hat"
+          ],
+          "explanation": "Beim Sport schwitzen wir, um nicht zu überhitzen. Das verlorene Wasser muss zurück in den Körper, sonst lässt die Leistung nach."
+        },
+        "en": {
+          "title": "Why should you drink enough during sport?",
+          "answers": [
+            "So your stomach is full",
+            "Your body loses water through sweat",
+            "To make your muscles heavier",
+            "Because water has lots of calories"
+          ],
+          "explanation": "During sport we sweat so we don't overheat. The lost water has to get back into the body, otherwise performance drops."
+        }
+      }
     },
     {
       "id": "sports-0021",
@@ -388,17 +668,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Womit spielt man Tennis?",
-      "answers": [
-        "Mit den Füßen und einem Ball",
-        "Mit einem Stock und einem Puck",
-        "Mit Pfeil und Bogen",
-        "Mit einem Schläger und einem Ball"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Beim Tennis schlägt man den Ball mit dem Schläger über ein Netz. Er darf dabei höchstens einmal auf dem Boden aufkommen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Womit spielt man Tennis?",
+          "answers": [
+            "Mit den Füßen und einem Ball",
+            "Mit einem Stock und einem Puck",
+            "Mit Pfeil und Bogen",
+            "Mit einem Schläger und einem Ball"
+          ],
+          "explanation": "Beim Tennis schlägt man den Ball mit dem Schläger über ein Netz. Er darf dabei höchstens einmal auf dem Boden aufkommen."
+        },
+        "en": {
+          "title": "What do you play tennis with?",
+          "answers": [
+            "Your feet and a ball",
+            "A stick and a puck",
+            "A bow and arrow",
+            "A racket and a ball"
+          ],
+          "explanation": "In tennis you hit the ball over a net with a racket. It may bounce on the ground no more than once."
+        }
+      }
     },
     {
       "id": "sports-0022",
@@ -407,17 +701,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie viele Spieler einer Basketballmannschaft stehen gleichzeitig auf dem Feld?",
-      "answers": [
-        "Drei",
-        "Elf",
-        "Fünf",
-        "Sieben"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Beim Basketball spielen fünf gegen fünf. Weil das Spiel so schnell ist, wird oft ausgewechselt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Spieler einer Basketballmannschaft stehen gleichzeitig auf dem Feld?",
+          "answers": [
+            "Drei",
+            "Elf",
+            "Fünf",
+            "Sieben"
+          ],
+          "explanation": "Beim Basketball spielen fünf gegen fünf. Weil das Spiel so schnell ist, wird oft ausgewechselt."
+        },
+        "en": {
+          "title": "How many players from a basketball team are on the court at the same time?",
+          "answers": [
+            "Three",
+            "Eleven",
+            "Five",
+            "Seven"
+          ],
+          "explanation": "Basketball is played five against five. Because the game is so fast, players are often substituted."
+        }
+      }
     },
     {
       "id": "sports-0023",
@@ -426,17 +734,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was ist beim Fußball ein Elfmeter?",
-      "answers": [
-        "Ein Foul, an dem elf Spieler beteiligt sind",
-        "Ein Spieler mit der Nummer elf",
-        "Ein Tor nach elf Minuten",
-        "Ein Strafstoß aus elf Metern Entfernung"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Wird im Strafraum gefoult, gibt es einen Elfmeter. Dann stehen sich nur Schütze und Torwart gegenüber.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist beim Fußball ein Elfmeter?",
+          "answers": [
+            "Ein Foul, an dem elf Spieler beteiligt sind",
+            "Ein Spieler mit der Nummer elf",
+            "Ein Tor nach elf Minuten",
+            "Ein Strafstoß aus elf Metern Entfernung"
+          ],
+          "explanation": "Wird im Strafraum gefoult, gibt es einen Elfmeter. Dann stehen sich nur Schütze und Torwart gegenüber."
+        },
+        "en": {
+          "title": "What is a penalty in football?",
+          "answers": [
+            "A foul involving eleven players",
+            "A player wearing number eleven",
+            "A goal after eleven minutes",
+            "A free shot at goal from eleven metres"
+          ],
+          "explanation": "If there's a foul in the penalty area, a penalty is awarded. Then it's just the kicker against the goalkeeper."
+        }
+      }
     },
     {
       "id": "sports-0024",
@@ -445,17 +767,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Für welche Sportart braucht man einen Federball?",
-      "answers": [
-        "Squash",
-        "Tischtennis",
-        "Badminton",
-        "Volleyball"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Der Federball hat einen Korken als Kopf und einen Kranz aus Federn oder Kunststoff. Die Federn bremsen ihn in der Luft stark ab.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Für welche Sportart braucht man einen Federball?",
+          "answers": [
+            "Squash",
+            "Tischtennis",
+            "Badminton",
+            "Volleyball"
+          ],
+          "explanation": "Der Federball hat einen Korken als Kopf und einen Kranz aus Federn oder Kunststoff. Die Federn bremsen ihn in der Luft stark ab."
+        },
+        "en": {
+          "title": "Which sport needs a shuttlecock?",
+          "answers": [
+            "Squash",
+            "Table tennis",
+            "Badminton",
+            "Volleyball"
+          ],
+          "explanation": "A shuttlecock has a cork head and a ring of feathers or plastic. The feathers slow it down a lot in the air."
+        }
+      }
     },
     {
       "id": "sports-0025",
@@ -464,17 +800,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Wie lange dauert ein Fußballspiel ohne Verlängerung?",
-      "answers": [
-        "90 Minuten",
-        "120 Minuten",
-        "45 Minuten",
-        "60 Minuten"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Gespielt werden zwei Halbzeiten zu je 45 Minuten. Dazu kommt oft etwas Nachspielzeit für Unterbrechungen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie lange dauert ein Fußballspiel ohne Verlängerung?",
+          "answers": [
+            "90 Minuten",
+            "120 Minuten",
+            "45 Minuten",
+            "60 Minuten"
+          ],
+          "explanation": "Gespielt werden zwei Halbzeiten zu je 45 Minuten. Dazu kommt oft etwas Nachspielzeit für Unterbrechungen."
+        },
+        "en": {
+          "title": "How long does a football match last without extra time?",
+          "answers": [
+            "90 minutes",
+            "120 minutes",
+            "45 minutes",
+            "60 minutes"
+          ],
+          "explanation": "There are two halves of 45 minutes each. Often a little stoppage time is added for interruptions."
+        }
+      }
     },
     {
       "id": "sports-0026",
@@ -483,17 +833,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Welche Medaille bekommt der Sieger bei Olympia?",
-      "answers": [
-        "Platin",
-        "Gold",
-        "Bronze",
-        "Silber"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Gold für Platz eins, Silber für Platz zwei und Bronze für Platz drei. Die Goldmedaille besteht übrigens größtenteils aus Silber und ist nur vergoldet.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Medaille bekommt der Sieger bei Olympia?",
+          "answers": [
+            "Platin",
+            "Gold",
+            "Bronze",
+            "Silber"
+          ],
+          "explanation": "Gold für Platz eins, Silber für Platz zwei und Bronze für Platz drei. Die Goldmedaille besteht übrigens größtenteils aus Silber und ist nur vergoldet."
+        },
+        "en": {
+          "title": "Which medal does the winner get at the Olympics?",
+          "answers": [
+            "Platinum",
+            "Gold",
+            "Bronze",
+            "Silver"
+          ],
+          "explanation": "Gold for first place, silver for second and bronze for third. By the way, the gold medal is mostly made of silver and only gold-plated."
+        }
+      }
     },
     {
       "id": "sports-0027",
@@ -502,17 +866,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welche Sportarten gehören zu den Olympischen Winterspielen?",
-      "answers": [
-        "Skifahren, Eishockey und Rodeln",
-        "Schwimmen, Rudern und Segeln",
-        "Fußball, Tennis und Golf",
-        "Turnen, Boxen und Reiten"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Bei den Winterspielen geht es um Sport auf Schnee und Eis. Sie finden wie die Sommerspiele alle vier Jahre statt, zeitversetzt um zwei Jahre.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Sportarten gehören zu den Olympischen Winterspielen?",
+          "answers": [
+            "Skifahren, Eishockey und Rodeln",
+            "Schwimmen, Rudern und Segeln",
+            "Fußball, Tennis und Golf",
+            "Turnen, Boxen und Reiten"
+          ],
+          "explanation": "Bei den Winterspielen geht es um Sport auf Schnee und Eis. Sie finden wie die Sommerspiele alle vier Jahre statt, zeitversetzt um zwei Jahre."
+        },
+        "en": {
+          "title": "Which sports are part of the Winter Olympics?",
+          "answers": [
+            "Skiing, ice hockey and tobogganing",
+            "Swimming, rowing and sailing",
+            "Football, tennis and golf",
+            "Gymnastics, boxing and riding"
+          ],
+          "explanation": "The Winter Games are about sport on snow and ice. Like the Summer Games, they take place every four years, two years apart."
+        }
+      }
     },
     {
       "id": "sports-0028",
@@ -521,17 +899,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was brennt während der Olympischen Spiele im Stadion?",
-      "answers": [
-        "Das olympische Feuer",
-        "Kerzen auf einem Kuchen",
-        "Eine Laterne für jedes Land",
-        "Ein großes Lagerfeuer zum Grillen"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Das Feuer wird in einer großen Schale entzündet und brennt, bis die Spiele zu Ende sind. Es erinnert an die Spiele im alten Griechenland.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was brennt während der Olympischen Spiele im Stadion?",
+          "answers": [
+            "Das olympische Feuer",
+            "Kerzen auf einem Kuchen",
+            "Eine Laterne für jedes Land",
+            "Ein großes Lagerfeuer zum Grillen"
+          ],
+          "explanation": "Das Feuer wird in einer großen Schale entzündet und brennt, bis die Spiele zu Ende sind. Es erinnert an die Spiele im alten Griechenland."
+        },
+        "en": {
+          "title": "What burns in the stadium during the Olympic Games?",
+          "answers": [
+            "The Olympic flame",
+            "Candles on a cake",
+            "A lantern for every country",
+            "A big campfire for a barbecue"
+          ],
+          "explanation": "The flame is lit in a large bowl and burns until the Games are over. It recalls the Games in ancient Greece."
+        }
+      }
     },
     {
       "id": "sports-0029",
@@ -540,17 +932,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Wo wird das olympische Feuer jedes Mal entzündet?",
-      "answers": [
-        "In Rom",
-        "Im Gastgeberland",
-        "In Olympia in Griechenland",
-        "In Paris"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Mit einem Hohlspiegel bündelt man in Olympia die Sonnenstrahlen und entzündet so die Fackel. Dann wird sie in einem Staffellauf ins Gastgeberland gebracht.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wo wird das olympische Feuer jedes Mal entzündet?",
+          "answers": [
+            "In Rom",
+            "Im Gastgeberland",
+            "In Olympia in Griechenland",
+            "In Paris"
+          ],
+          "explanation": "Mit einem Hohlspiegel bündelt man in Olympia die Sonnenstrahlen und entzündet so die Fackel. Dann wird sie in einem Staffellauf ins Gastgeberland gebracht."
+        },
+        "en": {
+          "title": "Where is the Olympic flame lit each time?",
+          "answers": [
+            "In Rome",
+            "In the host country",
+            "In Olympia in Greece",
+            "In Paris"
+          ],
+          "explanation": "In Olympia a curved mirror focuses the sun's rays to light the torch. It is then carried to the host country in a relay."
+        }
+      }
     },
     {
       "id": "sports-0030",
@@ -559,17 +965,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie viele Figuren hat jeder Spieler zu Beginn einer Schachpartie?",
-      "answers": [
-        "16",
-        "12",
-        "8",
-        "20"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Jeder hat acht Bauern sowie König, Dame, zwei Türme, zwei Läufer und zwei Springer. Zusammen sind das 16 Figuren.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Figuren hat jeder Spieler zu Beginn einer Schachpartie?",
+          "answers": [
+            "16",
+            "12",
+            "8",
+            "20"
+          ],
+          "explanation": "Jeder hat acht Bauern sowie König, Dame, zwei Türme, zwei Läufer und zwei Springer. Zusammen sind das 16 Figuren."
+        },
+        "en": {
+          "title": "How many pieces does each player have at the start of a chess game?",
+          "answers": [
+            "16",
+            "12",
+            "8",
+            "20"
+          ],
+          "explanation": "Each player has eight pawns plus a king, a queen, two rooks, two bishops and two knights. That makes 16 pieces."
+        }
+      }
     },
     {
       "id": "sports-0031",
@@ -578,17 +998,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Welche Schachfigur muss man unbedingt schützen?",
-      "answers": [
-        "Den Turm",
-        "Den König",
-        "Die Dame",
-        "Den Bauern"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Wer den König des Gegners so angreift, dass er nicht mehr entkommen kann, gewinnt. Die Dame ist zwar stärker, aber man kann sie verlieren, ohne die Partie zu verlieren.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Schachfigur muss man unbedingt schützen?",
+          "answers": [
+            "Den Turm",
+            "Den König",
+            "Die Dame",
+            "Den Bauern"
+          ],
+          "explanation": "Wer den König des Gegners so angreift, dass er nicht mehr entkommen kann, gewinnt. Die Dame ist zwar stärker, aber man kann sie verlieren, ohne die Partie zu verlieren."
+        },
+        "en": {
+          "title": "Which chess piece must you protect at all costs?",
+          "answers": [
+            "The rook",
+            "The king",
+            "The queen",
+            "The pawn"
+          ],
+          "explanation": "Whoever attacks the opponent's king so that it can no longer escape wins. The queen is stronger, but you can lose her without losing the game."
+        }
+      }
     },
     {
       "id": "sports-0032",
@@ -597,17 +1031,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wie viele Seiten hat ein normaler Spielwürfel?",
-      "answers": [
-        "Acht",
-        "Zwölf",
-        "Vier",
-        "Sechs"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Die gegenüberliegenden Seiten eines Würfels ergeben zusammen immer sieben: 1 und 6, 2 und 5, 3 und 4.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Seiten hat ein normaler Spielwürfel?",
+          "answers": [
+            "Acht",
+            "Zwölf",
+            "Vier",
+            "Sechs"
+          ],
+          "explanation": "Die gegenüberliegenden Seiten eines Würfels ergeben zusammen immer sieben: 1 und 6, 2 und 5, 3 und 4."
+        },
+        "en": {
+          "title": "How many sides does a normal die have?",
+          "answers": [
+            "Eight",
+            "Twelve",
+            "Four",
+            "Six"
+          ],
+          "explanation": "Opposite sides of a die always add up to seven: 1 and 6, 2 and 5, 3 and 4."
+        }
+      }
     },
     {
       "id": "sports-0033",
@@ -616,17 +1064,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Bei welchem Spiel rollt man eine schwere Kugel auf zehn Pins zu?",
-      "answers": [
-        "Golf",
-        "Bowling",
-        "Boccia",
-        "Billard"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Beim Bowling hat man pro Durchgang zwei Würfe, um alle zehn Pins umzuwerfen. Schafft man es mit dem ersten, heißt das „Strike“.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Bei welchem Spiel rollt man eine schwere Kugel auf zehn Pins zu?",
+          "answers": [
+            "Golf",
+            "Bowling",
+            "Boccia",
+            "Billard"
+          ],
+          "explanation": "Beim Bowling hat man pro Durchgang zwei Würfe, um alle zehn Pins umzuwerfen. Schafft man es mit dem ersten, heißt das „Strike“."
+        },
+        "en": {
+          "title": "In which game do you roll a heavy ball towards ten pins?",
+          "answers": [
+            "Golf",
+            "Bowling",
+            "Boccia",
+            "Billiards"
+          ],
+          "explanation": "In bowling you get two throws per frame to knock down all ten pins. If you manage it with the first one, it's called a “strike”."
+        }
+      }
     },
     {
       "id": "sports-0034",
@@ -635,17 +1097,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie nennt man es beim Schach, wenn der König nicht mehr entkommen kann?",
-      "answers": [
-        "Rochade",
-        "Remis",
-        "Schachmatt",
-        "Patt"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "„Schachmatt“ kommt vom persischen „Schah mat“: Der König ist hilflos. Ein Patt dagegen endet unentschieden.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie nennt man es beim Schach, wenn der König nicht mehr entkommen kann?",
+          "answers": [
+            "Rochade",
+            "Remis",
+            "Schachmatt",
+            "Patt"
+          ],
+          "explanation": "„Schachmatt“ kommt vom persischen „Schah mat“: Der König ist hilflos. Ein Patt dagegen endet unentschieden."
+        },
+        "en": {
+          "title": "What is it called in chess when the king can no longer escape?",
+          "answers": [
+            "Castling",
+            "Draw",
+            "Checkmate",
+            "Stalemate"
+          ],
+          "explanation": "“Checkmate” comes from the Persian “shah mat”: the king is helpless. A stalemate, on the other hand, ends in a draw."
+        }
+      }
     },
     {
       "id": "sports-0035",
@@ -654,17 +1130,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Welcher Muskel arbeitet ständig, sogar im Schlaf?",
-      "answers": [
-        "Das Herz",
-        "Der Po-Muskel",
-        "Der Wadenmuskel",
-        "Der Bizeps"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Das Herz ist ein Muskel, der nie Pause macht. Es schlägt über 100.000 Mal am Tag.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher Muskel arbeitet ständig, sogar im Schlaf?",
+          "answers": [
+            "Das Herz",
+            "Der Po-Muskel",
+            "Der Wadenmuskel",
+            "Der Bizeps"
+          ],
+          "explanation": "Das Herz ist ein Muskel, der nie Pause macht. Es schlägt über 100.000 Mal am Tag."
+        },
+        "en": {
+          "title": "Which muscle works all the time, even while you sleep?",
+          "answers": [
+            "The heart",
+            "The bottom muscle",
+            "The calf muscle",
+            "The biceps"
+          ],
+          "explanation": "The heart is a muscle that never takes a break. It beats more than 100,000 times a day."
+        }
+      }
     },
     {
       "id": "sports-0036",
@@ -673,17 +1163,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum bekommt man nach ungewohntem Sport Muskelkater?",
-      "answers": [
-        "Die Muskeln sind eingeschlafen",
-        "Durch winzige Verletzungen in den Muskelfasern",
-        "Milchsäure verklebt die Muskeln",
-        "Man hat zu viel getrunken"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Lange glaubte man, Milchsäure sei schuld. Heute weiß man: Bei ungewohnter Belastung entstehen winzige Risse in den Muskelfasern. Beim Heilen schmerzen sie – meist erst am nächsten Tag.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum bekommt man nach ungewohntem Sport Muskelkater?",
+          "answers": [
+            "Die Muskeln sind eingeschlafen",
+            "Durch winzige Verletzungen in den Muskelfasern",
+            "Milchsäure verklebt die Muskeln",
+            "Man hat zu viel getrunken"
+          ],
+          "explanation": "Lange glaubte man, Milchsäure sei schuld. Heute weiß man: Bei ungewohnter Belastung entstehen winzige Risse in den Muskelfasern. Beim Heilen schmerzen sie – meist erst am nächsten Tag."
+        },
+        "en": {
+          "title": "Why do your muscles ache after sport you're not used to?",
+          "answers": [
+            "The muscles have fallen asleep",
+            "Because of tiny injuries in the muscle fibres",
+            "Lactic acid glues the muscles together",
+            "You drank too much"
+          ],
+          "explanation": "For a long time people thought lactic acid was to blame. Today we know that unusual strain causes tiny tears in the muscle fibres. They hurt while they heal – usually not until the next day."
+        }
+      }
     },
     {
       "id": "sports-0037",
@@ -692,17 +1196,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum wird einem beim Sport warm?",
-      "answers": [
-        "Die Sonne scheint stärker",
-        "Arbeitende Muskeln erzeugen Wärme",
-        "Das Blut kocht",
-        "Die Kleidung reibt"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Muskeln verwandeln nur einen Teil ihrer Energie in Bewegung, der Rest wird zu Wärme. Deshalb schwitzt man bei Anstrengung.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum wird einem beim Sport warm?",
+          "answers": [
+            "Die Sonne scheint stärker",
+            "Arbeitende Muskeln erzeugen Wärme",
+            "Das Blut kocht",
+            "Die Kleidung reibt"
+          ],
+          "explanation": "Muskeln verwandeln nur einen Teil ihrer Energie in Bewegung, der Rest wird zu Wärme. Deshalb schwitzt man bei Anstrengung."
+        },
+        "en": {
+          "title": "Why do you get warm during sport?",
+          "answers": [
+            "The sun shines more strongly",
+            "Working muscles produce heat",
+            "Your blood boils",
+            "Your clothes rub"
+          ],
+          "explanation": "Muscles turn only part of their energy into movement; the rest becomes heat. That's why you sweat when you exert yourself."
+        }
+      }
     },
     {
       "id": "sports-0038",
@@ -711,17 +1229,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie hoch hängt ein Basketballkorb?",
-      "answers": [
-        "Etwa 5 Meter",
-        "Etwa 10 Meter",
-        "Etwa 1 Meter",
-        "Etwa 3 Meter"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Korb hängt genau 3,05 Meter hoch. Besonders große Spieler können trotzdem den Ball von oben hineinstopfen – das heißt „Dunking“.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie hoch hängt ein Basketballkorb?",
+          "answers": [
+            "Etwa 5 Meter",
+            "Etwa 10 Meter",
+            "Etwa 1 Meter",
+            "Etwa 3 Meter"
+          ],
+          "explanation": "Der Korb hängt genau 3,05 Meter hoch. Besonders große Spieler können trotzdem den Ball von oben hineinstopfen – das heißt „Dunking“."
+        },
+        "en": {
+          "title": "How high is a basketball hoop?",
+          "answers": [
+            "About 5 metres",
+            "About 10 metres",
+            "About 1 metre",
+            "About 3 metres"
+          ],
+          "explanation": "The hoop hangs exactly 3.05 metres high. Even so, very tall players can push the ball in from above – that's called a “dunk”."
+        }
+      }
     },
     {
       "id": "sports-0039",
@@ -730,17 +1262,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Welcher argentinische Fußballer wurde 2022 mit seinem Land Weltmeister?",
-      "answers": [
-        "Neymar",
-        "Cristiano Ronaldo",
-        "Lionel Messi",
-        "Kylian Mbappé"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Lionel Messi gilt als einer der besten Fußballer aller Zeiten. Im Finale 2022 setzte sich Argentinien gegen Frankreich im Elfmeterschießen durch.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welcher argentinische Fußballer wurde 2022 mit seinem Land Weltmeister?",
+          "answers": [
+            "Neymar",
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Kylian Mbappé"
+          ],
+          "explanation": "Lionel Messi gilt als einer der besten Fußballer aller Zeiten. Im Finale 2022 setzte sich Argentinien gegen Frankreich im Elfmeterschießen durch."
+        },
+        "en": {
+          "title": "Which Argentinian footballer won the 2022 World Cup with his country?",
+          "answers": [
+            "Neymar",
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Kylian Mbappé"
+          ],
+          "explanation": "Lionel Messi is considered one of the best footballers of all time. In the 2022 final, Argentina beat France on penalties."
+        }
+      }
     },
     {
       "id": "sports-0040",
@@ -749,17 +1295,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie weit springen die besten Weitspringer ungefähr?",
-      "answers": [
-        "Etwa 3 Meter",
-        "Etwa 1 Meter",
-        "Etwa 20 Meter",
-        "Über 8 Meter"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Weltrekord der Männer liegt bei 8,95 Metern, der der Frauen bei 7,52 Metern. Das ist weiter als ein Klassenzimmer lang ist.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie weit springen die besten Weitspringer ungefähr?",
+          "answers": [
+            "Etwa 3 Meter",
+            "Etwa 1 Meter",
+            "Etwa 20 Meter",
+            "Über 8 Meter"
+          ],
+          "explanation": "Der Weltrekord der Männer liegt bei 8,95 Metern, der der Frauen bei 7,52 Metern. Das ist weiter als ein Klassenzimmer lang ist."
+        },
+        "en": {
+          "title": "Roughly how far do the best long jumpers jump?",
+          "answers": [
+            "About 3 metres",
+            "About 1 metre",
+            "About 20 metres",
+            "Over 8 metres"
+          ],
+          "explanation": "The men's world record is 8.95 metres and the women's is 7.52 metres. That's further than a classroom is long."
+        }
+      }
     },
     {
       "id": "sports-0041",
@@ -768,17 +1328,31 @@
       "order": 18,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Warum fliegt ein Fußball mit viel Drall eine Kurve?",
-      "answers": [
-        "Die Nähte wirken wie ein Lenkrad",
-        "Der Wind dreht sich mit dem Ball",
-        "Der drehende Ball lenkt die Luft zur Seite ab",
-        "Der Ball wird auf einer Seite schwerer"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Ein drehender Ball reißt die Luft an einer Seite mit und lenkt sie ab. Als Gegenreaktion wird der Ball in die andere Richtung gedrückt. Diesen Magnus-Effekt nutzen Spieler bei Freistößen um die Mauer herum.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum fliegt ein Fußball mit viel Drall eine Kurve?",
+          "answers": [
+            "Die Nähte wirken wie ein Lenkrad",
+            "Der Wind dreht sich mit dem Ball",
+            "Der drehende Ball lenkt die Luft zur Seite ab",
+            "Der Ball wird auf einer Seite schwerer"
+          ],
+          "explanation": "Ein drehender Ball reißt die Luft an einer Seite mit und lenkt sie ab. Als Gegenreaktion wird der Ball in die andere Richtung gedrückt. Diesen Magnus-Effekt nutzen Spieler bei Freistößen um die Mauer herum."
+        },
+        "en": {
+          "title": "Why does a football with lots of spin fly in a curve?",
+          "answers": [
+            "The seams act like a steering wheel",
+            "The wind turns with the ball",
+            "The spinning ball pushes the air to one side",
+            "The ball gets heavier on one side"
+          ],
+          "explanation": "A spinning ball drags the air along on one side and deflects it. In return, the ball is pushed the other way. Players use this Magnus effect to curl free kicks around the wall."
+        }
+      }
     },
     {
       "id": "sports-0042",
@@ -787,17 +1361,31 @@
       "order": 19,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Warum starten Läufer beim 400-Meter-Lauf versetzt?",
-      "answers": [
-        "Weil der Wind von vorne kommt",
-        "Die Schnellsten starten hinten",
-        "Damit sie sich nicht anrempeln",
-        "Die äußeren Bahnen sind in der Kurve länger"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Wer außen läuft, muss in den Kurven einen größeren Bogen laufen. Damit alle genau 400 Meter schaffen, starten die äußeren Bahnen weiter vorne.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum starten Läufer beim 400-Meter-Lauf versetzt?",
+          "answers": [
+            "Weil der Wind von vorne kommt",
+            "Die Schnellsten starten hinten",
+            "Damit sie sich nicht anrempeln",
+            "Die äußeren Bahnen sind in der Kurve länger"
+          ],
+          "explanation": "Wer außen läuft, muss in den Kurven einen größeren Bogen laufen. Damit alle genau 400 Meter schaffen, starten die äußeren Bahnen weiter vorne."
+        },
+        "en": {
+          "title": "Why do runners start staggered in the 400-metre race?",
+          "answers": [
+            "Because the wind comes from the front",
+            "The fastest start at the back",
+            "So they don't bump into each other",
+            "The outer lanes are longer around the bends"
+          ],
+          "explanation": "Runners on the outside have to run a wider curve on the bends. So that everyone runs exactly 400 metres, the outer lanes start further ahead."
+        }
+      }
     },
     {
       "id": "sports-0043",
@@ -806,17 +1394,31 @@
       "order": 8,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie viele Spieler einer Volleyballmannschaft stehen auf dem Feld?",
-      "answers": [
-        "Elf",
-        "Sechs",
-        "Acht",
-        "Fünf"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Beim Hallenvolleyball spielen sechs gegen sechs. Beim Beachvolleyball im Sand sind es nur zwei pro Team.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Spieler einer Volleyballmannschaft stehen auf dem Feld?",
+          "answers": [
+            "Elf",
+            "Sechs",
+            "Acht",
+            "Fünf"
+          ],
+          "explanation": "Beim Hallenvolleyball spielen sechs gegen sechs. Beim Beachvolleyball im Sand sind es nur zwei pro Team."
+        },
+        "en": {
+          "title": "How many players from a volleyball team are on the court?",
+          "answers": [
+            "Eleven",
+            "Six",
+            "Eight",
+            "Five"
+          ],
+          "explanation": "Indoor volleyball is played six against six. In beach volleyball on sand there are only two per team."
+        }
+      }
     },
     {
       "id": "sports-0044",
@@ -825,17 +1427,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was bedeutet beim Fußball die Rote Karte?",
-      "answers": [
-        "Das Spiel ist zu Ende",
-        "Es gibt einen Eckstoß",
-        "Ein Spieler muss vom Platz",
-        "Ein Tor zählt doppelt"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Für ein grobes Foul zeigt der Schiedsrichter Rot. Die Mannschaft muss dann den Rest des Spiels mit einem Spieler weniger auskommen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was bedeutet beim Fußball die Rote Karte?",
+          "answers": [
+            "Das Spiel ist zu Ende",
+            "Es gibt einen Eckstoß",
+            "Ein Spieler muss vom Platz",
+            "Ein Tor zählt doppelt"
+          ],
+          "explanation": "Für ein grobes Foul zeigt der Schiedsrichter Rot. Die Mannschaft muss dann den Rest des Spiels mit einem Spieler weniger auskommen."
+        },
+        "en": {
+          "title": "What does a red card mean in football?",
+          "answers": [
+            "The match is over",
+            "There is a corner kick",
+            "A player has to leave the pitch",
+            "A goal counts double"
+          ],
+          "explanation": "The referee shows a red card for a serious foul. The team then has to play the rest of the match with one player fewer."
+        }
+      }
     },
     {
       "id": "sports-0045",
@@ -844,17 +1460,31 @@
       "order": 9,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie heißt es beim Fußball, wenn ein Angreifer beim Abspiel näher am Tor steht als der vorletzte Verteidiger?",
-      "answers": [
-        "Einwurf",
-        "Abseits",
-        "Freistoß",
-        "Eckball"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Die Abseitsregel verhindert, dass Stürmer einfach neben dem gegnerischen Tor warten. Ob Abseits war, wird heute oft per Video überprüft.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie heißt es beim Fußball, wenn ein Angreifer beim Abspiel näher am Tor steht als der vorletzte Verteidiger?",
+          "answers": [
+            "Einwurf",
+            "Abseits",
+            "Freistoß",
+            "Eckball"
+          ],
+          "explanation": "Die Abseitsregel verhindert, dass Stürmer einfach neben dem gegnerischen Tor warten. Ob Abseits war, wird heute oft per Video überprüft."
+        },
+        "en": {
+          "title": "What is it called in football when an attacker is closer to goal than the second-last defender as the ball is passed?",
+          "answers": [
+            "Throw-in",
+            "Offside",
+            "Free kick",
+            "Corner kick"
+          ],
+          "explanation": "The offside rule stops strikers from simply waiting next to the opponent's goal. Today, whether it was offside is often checked on video."
+        }
+      }
     },
     {
       "id": "sports-0046",
@@ -863,17 +1493,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wie viele Punkte zählt im Basketball ein Treffer von weit hinter der Linie?",
-      "answers": [
-        "Sechs",
-        "Vier",
-        "Zwei",
-        "Drei"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Normale Körbe zählen zwei Punkte, Freiwürfe einen. Wer hinter der Dreipunktelinie wirft, bekommt drei.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie viele Punkte zählt im Basketball ein Treffer von weit hinter der Linie?",
+          "answers": [
+            "Sechs",
+            "Vier",
+            "Zwei",
+            "Drei"
+          ],
+          "explanation": "Normale Körbe zählen zwei Punkte, Freiwürfe einen. Wer hinter der Dreipunktelinie wirft, bekommt drei."
+        },
+        "en": {
+          "title": "How many points is a basket from far behind the line worth in basketball?",
+          "answers": [
+            "Six",
+            "Four",
+            "Two",
+            "Three"
+          ],
+          "explanation": "Normal baskets count two points and free throws one. If you shoot from behind the three-point line, you get three."
+        }
+      }
     },
     {
       "id": "sports-0047",
@@ -882,17 +1526,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wo finden die Olympischen Sommerspiele 2028 statt?",
-      "answers": [
-        "In Los Angeles",
-        "In Tokio",
-        "In Paris",
-        "In Berlin"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Los Angeles ist dann schon zum dritten Mal Gastgeber, nach 1932 und 1984. Die Spiele 2024 fanden in Paris statt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wo finden die Olympischen Sommerspiele 2028 statt?",
+          "answers": [
+            "In Los Angeles",
+            "In Tokio",
+            "In Paris",
+            "In Berlin"
+          ],
+          "explanation": "Los Angeles ist dann schon zum dritten Mal Gastgeber, nach 1932 und 1984. Die Spiele 2024 fanden in Paris statt."
+        },
+        "en": {
+          "title": "Where will the 2028 Summer Olympics be held?",
+          "answers": [
+            "In Los Angeles",
+            "In Tokyo",
+            "In Paris",
+            "In Berlin"
+          ],
+          "explanation": "Los Angeles will then be host for the third time, after 1932 and 1984. The 2024 Games were held in Paris."
+        }
+      }
     },
     {
       "id": "sports-0048",
@@ -901,17 +1559,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Welche Farben haben die olympischen Ringe?",
-      "answers": [
-        "Alle sind golden",
-        "Blau, Gelb, Schwarz, Grün und Rot",
-        "Rot, Weiß und Blau",
-        "Schwarz und Weiß"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Zusammen mit dem weißen Hintergrund findet sich in diesen Farben die Flagge fast jedes Landes der Welt wieder.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Farben haben die olympischen Ringe?",
+          "answers": [
+            "Alle sind golden",
+            "Blau, Gelb, Schwarz, Grün und Rot",
+            "Rot, Weiß und Blau",
+            "Schwarz und Weiß"
+          ],
+          "explanation": "Zusammen mit dem weißen Hintergrund findet sich in diesen Farben die Flagge fast jedes Landes der Welt wieder."
+        },
+        "en": {
+          "title": "What colours are the Olympic rings?",
+          "answers": [
+            "All gold",
+            "Blue, yellow, black, green and red",
+            "Red, white and blue",
+            "Black and white"
+          ],
+          "explanation": "Together with the white background, these colours can be found in the flag of almost every country in the world."
+        }
+      }
     },
     {
       "id": "sports-0049",
@@ -920,17 +1592,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was ist ein Zehnkampf?",
-      "answers": [
-        "Ein Spiel mit zehn Mannschaften",
-        "Ein Lauf über zehn Kilometer",
-        "Ein Boxkampf über zehn Runden",
-        "Ein Wettkampf aus zehn verschiedenen Disziplinen"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Zehnkämpfer laufen, springen und werfen an zwei Tagen in zehn Disziplinen. Wer insgesamt die meisten Punkte hat, gewinnt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist ein Zehnkampf?",
+          "answers": [
+            "Ein Spiel mit zehn Mannschaften",
+            "Ein Lauf über zehn Kilometer",
+            "Ein Boxkampf über zehn Runden",
+            "Ein Wettkampf aus zehn verschiedenen Disziplinen"
+          ],
+          "explanation": "Zehnkämpfer laufen, springen und werfen an zwei Tagen in zehn Disziplinen. Wer insgesamt die meisten Punkte hat, gewinnt."
+        },
+        "en": {
+          "title": "What is a decathlon?",
+          "answers": [
+            "A game with ten teams",
+            "A ten-kilometre run",
+            "A boxing match over ten rounds",
+            "A competition made up of ten different events"
+          ],
+          "explanation": "Decathletes run, jump and throw in ten events over two days. Whoever has the most points overall wins."
+        }
+      }
     },
     {
       "id": "sports-0050",
@@ -939,17 +1625,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Bei welcher Wintersportart wischen Spieler mit Besen über das Eis?",
-      "answers": [
-        "Bobfahren",
-        "Eishockey",
-        "Curling",
-        "Biathlon"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Beim Curling gleitet ein schwerer Stein über das Eis. Durch das Wischen wird das Eis etwas glatter, und der Stein rutscht weiter und gerader.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Bei welcher Wintersportart wischen Spieler mit Besen über das Eis?",
+          "answers": [
+            "Bobfahren",
+            "Eishockey",
+            "Curling",
+            "Biathlon"
+          ],
+          "explanation": "Beim Curling gleitet ein schwerer Stein über das Eis. Durch das Wischen wird das Eis etwas glatter, und der Stein rutscht weiter und gerader."
+        },
+        "en": {
+          "title": "In which winter sport do players sweep the ice with brooms?",
+          "answers": [
+            "Bobsleigh",
+            "Ice hockey",
+            "Curling",
+            "Biathlon"
+          ],
+          "explanation": "In curling a heavy stone slides across the ice. Sweeping makes the ice a little smoother, so the stone slides further and straighter."
+        }
+      }
     },
     {
       "id": "sports-0051",
@@ -958,17 +1658,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Bei welchem Brettspiel springt man mit schwarzen und weißen Steinen über die des Gegners?",
-      "answers": [
-        "Halma",
-        "Schach",
-        "Dame",
-        "Mühle"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Bei Dame zieht man schräg und schlägt gegnerische Steine, indem man über sie springt. Erreicht ein Stein die andere Seite, wird er selbst zur „Dame“.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Bei welchem Brettspiel springt man mit schwarzen und weißen Steinen über die des Gegners?",
+          "answers": [
+            "Halma",
+            "Schach",
+            "Dame",
+            "Mühle"
+          ],
+          "explanation": "Bei Dame zieht man schräg und schlägt gegnerische Steine, indem man über sie springt. Erreicht ein Stein die andere Seite, wird er selbst zur „Dame“."
+        },
+        "en": {
+          "title": "In which board game do you jump over your opponent's pieces with black and white pieces?",
+          "answers": [
+            "Halma",
+            "Chess",
+            "Draughts",
+            "Nine Men's Morris"
+          ],
+          "explanation": "In draughts (also called checkers) you move diagonally and capture your opponent's pieces by jumping over them. If a piece reaches the other side, it becomes a “king”."
+        }
+      }
     },
     {
       "id": "sports-0052",
@@ -977,17 +1691,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Mit wie vielen Steinen spielt jeder bei Mühle?",
-      "answers": [
-        "Sieben",
-        "Neun",
-        "Sechs",
-        "Zwölf"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Ziel ist es, drei Steine in eine Reihe zu bringen – eine Mühle. Dann darf man einen Stein des Gegners wegnehmen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Mit wie vielen Steinen spielt jeder bei Mühle?",
+          "answers": [
+            "Sieben",
+            "Neun",
+            "Sechs",
+            "Zwölf"
+          ],
+          "explanation": "Ziel ist es, drei Steine in eine Reihe zu bringen – eine Mühle. Dann darf man einen Stein des Gegners wegnehmen."
+        },
+        "en": {
+          "title": "How many pieces does each player use in Nine Men's Morris?",
+          "answers": [
+            "Seven",
+            "Nine",
+            "Six",
+            "Twelve"
+          ],
+          "explanation": "The aim is to get three pieces in a row – a “mill”. Then you may remove one of your opponent's pieces."
+        }
+      }
     },
     {
       "id": "sports-0053",
@@ -996,17 +1724,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was braucht man für „Mensch ärgere Dich nicht“?",
-      "answers": [
-        "Einen Würfel und Spielfiguren",
-        "Karten und Chips",
-        "Einen Ball und ein Netz",
-        "Einen Schläger"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Das Spiel wurde vor über 100 Jahren in Deutschland erfunden. Wer zuerst alle vier Figuren ins Ziel bringt, gewinnt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was braucht man für „Mensch ärgere Dich nicht“?",
+          "answers": [
+            "Einen Würfel und Spielfiguren",
+            "Karten und Chips",
+            "Einen Ball und ein Netz",
+            "Einen Schläger"
+          ],
+          "explanation": "Das Spiel wurde vor über 100 Jahren in Deutschland erfunden. Wer zuerst alle vier Figuren ins Ziel bringt, gewinnt."
+        },
+        "en": {
+          "title": "What do you need for the board game “Mensch ärgere Dich nicht”, the German cousin of Ludo?",
+          "answers": [
+            "A die and playing pieces",
+            "Cards and chips",
+            "A ball and a net",
+            "A racket"
+          ],
+          "explanation": "The game was invented in Germany more than 100 years ago. Its name means “Don't get annoyed”. Whoever gets all four pieces home first wins."
+        }
+      }
     },
     {
       "id": "sports-0054",
@@ -1015,17 +1757,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Welche Schachfigur darf über andere Figuren springen?",
-      "answers": [
-        "Der Turm",
-        "Die Dame",
-        "Der Läufer",
-        "Der Springer"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Springer zieht in einer L-Form: zwei Felder geradeaus und eins zur Seite. Als einzige Figur darf er dabei über andere hinweg.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Schachfigur darf über andere Figuren springen?",
+          "answers": [
+            "Der Turm",
+            "Die Dame",
+            "Der Läufer",
+            "Der Springer"
+          ],
+          "explanation": "Der Springer zieht in einer L-Form: zwei Felder geradeaus und eins zur Seite. Als einzige Figur darf er dabei über andere hinweg."
+        },
+        "en": {
+          "title": "Which chess piece can jump over other pieces?",
+          "answers": [
+            "The rook",
+            "The queen",
+            "The bishop",
+            "The knight"
+          ],
+          "explanation": "The knight moves in an L shape: two squares straight ahead and one to the side. It's the only piece allowed to jump over others."
+        }
+      }
     },
     {
       "id": "sports-0055",
@@ -1034,17 +1790,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Welches Organ holt beim Sport den Sauerstoff aus der Luft?",
-      "answers": [
-        "Die Nieren",
-        "Der Magen",
-        "Die Lunge",
-        "Die Leber"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Beim Sport atmen wir schneller und tiefer. Die Lunge gibt den Sauerstoff ans Blut weiter, das ihn zu den Muskeln bringt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welches Organ holt beim Sport den Sauerstoff aus der Luft?",
+          "answers": [
+            "Die Nieren",
+            "Der Magen",
+            "Die Lunge",
+            "Die Leber"
+          ],
+          "explanation": "Beim Sport atmen wir schneller und tiefer. Die Lunge gibt den Sauerstoff ans Blut weiter, das ihn zu den Muskeln bringt."
+        },
+        "en": {
+          "title": "Which organ takes oxygen from the air during sport?",
+          "answers": [
+            "The kidneys",
+            "The stomach",
+            "The lungs",
+            "The liver"
+          ],
+          "explanation": "During sport we breathe faster and deeper. The lungs pass the oxygen to the blood, which carries it to the muscles."
+        }
+      }
     },
     {
       "id": "sports-0056",
@@ -1053,17 +1823,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum trainieren manche Sportler in den Bergen?",
-      "answers": [
-        "Weil es dort weniger regnet",
-        "Der Körper bildet in dünner Luft mehr rote Blutkörperchen",
-        "Dort ist es ruhiger zum Nachdenken",
-        "Bergluft macht leichter"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "In der Höhe enthält jeder Atemzug weniger Sauerstoff. Der Körper bildet deshalb mehr rote Blutkörperchen, die Sauerstoff transportieren. Zurück im Tal hilft das bei Ausdauersport.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum trainieren manche Sportler in den Bergen?",
+          "answers": [
+            "Weil es dort weniger regnet",
+            "Der Körper bildet in dünner Luft mehr rote Blutkörperchen",
+            "Dort ist es ruhiger zum Nachdenken",
+            "Bergluft macht leichter"
+          ],
+          "explanation": "In der Höhe enthält jeder Atemzug weniger Sauerstoff. Der Körper bildet deshalb mehr rote Blutkörperchen, die Sauerstoff transportieren. Zurück im Tal hilft das bei Ausdauersport."
+        },
+        "en": {
+          "title": "Why do some athletes train in the mountains?",
+          "answers": [
+            "Because it rains less there",
+            "In thin air the body makes more red blood cells",
+            "It's quieter there for thinking",
+            "Mountain air makes you lighter"
+          ],
+          "explanation": "At altitude every breath contains less oxygen. So the body makes more red blood cells, which carry oxygen. Back in the valley, this helps in endurance sports."
+        }
+      }
     },
     {
       "id": "sports-0057",
@@ -1072,17 +1856,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum wird man beim Sport rot im Gesicht?",
-      "answers": [
-        "Die Haut bekommt einen Sonnenbrand",
-        "Der Schweiß ist rot",
-        "Man schämt sich",
-        "Mehr Blut fließt zur Haut, um Wärme abzugeben"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Der Körper muss die Wärme der Muskeln loswerden. Dafür weiten sich die Blutgefäße in der Haut, und die Wärme geht an die Luft über.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum wird man beim Sport rot im Gesicht?",
+          "answers": [
+            "Die Haut bekommt einen Sonnenbrand",
+            "Der Schweiß ist rot",
+            "Man schämt sich",
+            "Mehr Blut fließt zur Haut, um Wärme abzugeben"
+          ],
+          "explanation": "Der Körper muss die Wärme der Muskeln loswerden. Dafür weiten sich die Blutgefäße in der Haut, und die Wärme geht an die Luft über."
+        },
+        "en": {
+          "title": "Why does your face go red during sport?",
+          "answers": [
+            "Your skin gets sunburnt",
+            "Sweat is red",
+            "You're embarrassed",
+            "More blood flows to the skin to release heat"
+          ],
+          "explanation": "The body has to get rid of the heat from the muscles. To do this, the blood vessels in the skin widen and the heat passes into the air."
+        }
+      }
     },
     {
       "id": "sports-0058",
@@ -1091,17 +1889,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was bedeutet Ausdauer beim Sport?",
-      "answers": [
-        "Sich lange anstrengen zu können",
-        "Sehr schwere Dinge heben zu können",
-        "Sehr hoch springen zu können",
-        "Besonders schnell reagieren zu können"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Ausdauer trainiert man zum Beispiel beim Laufen, Radfahren oder Schwimmen. Herz und Lunge werden dabei leistungsfähiger.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was bedeutet Ausdauer beim Sport?",
+          "answers": [
+            "Sich lange anstrengen zu können",
+            "Sehr schwere Dinge heben zu können",
+            "Sehr hoch springen zu können",
+            "Besonders schnell reagieren zu können"
+          ],
+          "explanation": "Ausdauer trainiert man zum Beispiel beim Laufen, Radfahren oder Schwimmen. Herz und Lunge werden dabei leistungsfähiger."
+        },
+        "en": {
+          "title": "What does endurance mean in sport?",
+          "answers": [
+            "Being able to keep going for a long time",
+            "Being able to lift very heavy things",
+            "Being able to jump very high",
+            "Being able to react especially fast"
+          ],
+          "explanation": "You train endurance by running, cycling or swimming, for example. Your heart and lungs become more efficient."
+        }
+      }
     },
     {
       "id": "sports-0059",
@@ -1110,17 +1922,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wie hoch springen die besten Hochspringer ungefähr?",
-      "answers": [
-        "Fast 2,50 Meter",
-        "Etwa 6 Meter",
-        "Etwa 4 Meter",
-        "Etwa 1 Meter"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Der Weltrekord liegt bei 2,45 Metern – das ist höher als eine Zimmerdecke. Die Springer überqueren die Latte rückwärts mit dem „Fosbury-Flop“.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie hoch springen die besten Hochspringer ungefähr?",
+          "answers": [
+            "Fast 2,50 Meter",
+            "Etwa 6 Meter",
+            "Etwa 4 Meter",
+            "Etwa 1 Meter"
+          ],
+          "explanation": "Der Weltrekord liegt bei 2,45 Metern – das ist höher als eine Zimmerdecke. Die Springer überqueren die Latte rückwärts mit dem „Fosbury-Flop“."
+        },
+        "en": {
+          "title": "Roughly how high do the best high jumpers jump?",
+          "answers": [
+            "Almost 2.50 metres",
+            "About 6 metres",
+            "About 4 metres",
+            "About 1 metre"
+          ],
+          "explanation": "The world record is 2.45 metres – higher than a room's ceiling. Jumpers clear the bar backwards with the “Fosbury Flop”."
+        }
+      }
     },
     {
       "id": "sports-0060",
@@ -1129,17 +1955,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Welche Tennisspielerin gewann 23 Grand-Slam-Titel im Einzel?",
-      "answers": [
-        "Serena Williams",
-        "Naomi Osaka",
-        "Steffi Graf",
-        "Venus Williams"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Serena Williams aus den USA gewann zwischen 1999 und 2017 23 der wichtigsten Turniere. Steffi Graf aus Deutschland kam auf 22.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche Tennisspielerin gewann 23 Grand-Slam-Titel im Einzel?",
+          "answers": [
+            "Serena Williams",
+            "Naomi Osaka",
+            "Steffi Graf",
+            "Venus Williams"
+          ],
+          "explanation": "Serena Williams aus den USA gewann zwischen 1999 und 2017 23 der wichtigsten Turniere. Steffi Graf aus Deutschland kam auf 22."
+        },
+        "en": {
+          "title": "Which tennis player won 23 Grand Slam singles titles?",
+          "answers": [
+            "Serena Williams",
+            "Naomi Osaka",
+            "Steffi Graf",
+            "Venus Williams"
+          ],
+          "explanation": "Serena Williams from the USA won 23 of the most important tournaments between 1999 and 2017. Germany's Steffi Graf won 22."
+        }
+      }
     }
   ]
 }

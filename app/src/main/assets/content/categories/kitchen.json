@@ -8,17 +8,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum tränen die Augen beim Zwiebelschneiden?",
-      "answers": [
-        "Der Geruch macht traurig",
-        "Der Zwiebelsaft spritzt ins Auge",
-        "Die Zwiebel setzt ein reizendes Gas frei",
-        "Das Messer ist zu stumpf"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Beim Schneiden werden Zellen zerstört, und es entsteht ein schwefelhaltiges Gas. Es reizt die Augen, die sich mit Tränen wehren.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum tränen die Augen beim Zwiebelschneiden?",
+          "answers": [
+            "Der Geruch macht traurig",
+            "Der Zwiebelsaft spritzt ins Auge",
+            "Die Zwiebel setzt ein reizendes Gas frei",
+            "Das Messer ist zu stumpf"
+          ],
+          "explanation": "Beim Schneiden werden Zellen zerstört, und es entsteht ein schwefelhaltiges Gas. Es reizt die Augen, die sich mit Tränen wehren."
+        },
+        "en": {
+          "title": "Why do your eyes water when you cut onions?",
+          "answers": [
+            "The smell makes you sad",
+            "Onion juice squirts into your eye",
+            "The onion releases an irritating gas",
+            "The knife is too blunt"
+          ],
+          "explanation": "Cutting destroys cells, and a gas containing sulphur is formed. It irritates the eyes, which defend themselves with tears."
+        }
+      }
     },
     {
       "id": "kitchen-0002",
@@ -27,17 +41,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum geht Hefeteig auf?",
-      "answers": [
-        "Die Wärme dehnt den Teig",
-        "Durch das Kneten",
-        "Das Mehl quillt auf",
-        "Hefepilze bilden Gasbläschen aus Kohlendioxid"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Hefe frisst Zucker und gibt dabei CO₂ ab. Das Klebereiweiß im Teig hält die Bläschen fest, so wird das Brot luftig.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum geht Hefeteig auf?",
+          "answers": [
+            "Die Wärme dehnt den Teig",
+            "Durch das Kneten",
+            "Das Mehl quillt auf",
+            "Hefepilze bilden Gasbläschen aus Kohlendioxid"
+          ],
+          "explanation": "Hefe frisst Zucker und gibt dabei CO₂ ab. Das Klebereiweiß im Teig hält die Bläschen fest, so wird das Brot luftig."
+        },
+        "en": {
+          "title": "Why does yeast dough rise?",
+          "answers": [
+            "The warmth stretches the dough",
+            "Because of the kneading",
+            "The flour swells",
+            "Yeast makes bubbles of carbon dioxide gas"
+          ],
+          "explanation": "Yeast eats sugar and gives off CO₂. The gluten in the dough traps the bubbles, which makes the bread light and fluffy."
+        }
+      }
     },
     {
       "id": "kitchen-0003",
@@ -46,17 +74,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum schwimmt ein altes Ei im Wasser oben?",
-      "answers": [
-        "Altes Eiweiß ist leichter als Wasser",
-        "In einem alten Ei ist mehr Luft",
-        "Das Eigelb wird zu Gas",
-        "Die Schale wird mit der Zeit dicker"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Durch die Schale verdunstet mit der Zeit etwas Wasser, und die Luftblase am stumpfen Ende wird größer. Ein sehr altes Ei bekommt so genug Auftrieb, dass es oben schwimmt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum schwimmt ein altes Ei im Wasser oben?",
+          "answers": [
+            "Altes Eiweiß ist leichter als Wasser",
+            "In einem alten Ei ist mehr Luft",
+            "Das Eigelb wird zu Gas",
+            "Die Schale wird mit der Zeit dicker"
+          ],
+          "explanation": "Durch die Schale verdunstet mit der Zeit etwas Wasser, und die Luftblase am stumpfen Ende wird größer. Ein sehr altes Ei bekommt so genug Auftrieb, dass es oben schwimmt."
+        },
+        "en": {
+          "title": "Why does an old egg float to the top in water?",
+          "answers": [
+            "Old egg white is lighter than water",
+            "There is more air in an old egg",
+            "The yolk turns into gas",
+            "The shell gets thicker over time"
+          ],
+          "explanation": "Over time some water evaporates through the shell, and the air bubble at the blunt end gets bigger. A very old egg gets enough lift that it floats."
+        }
+      }
     },
     {
       "id": "kitchen-0004",
@@ -65,17 +107,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum kocht Nudelwasser so leicht über?",
-      "answers": [
-        "Salz bringt das Wasser zum Schäumen",
-        "Die Nudeln geben Luft ab",
-        "Das Wasser wird beim Kochen schwerer",
-        "Stärke bildet einen Schaum, der die Blasen festhält"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Aus den Nudeln löst sich Stärke. Sie macht die Dampfblasen an der Oberfläche stabil, ähnlich wie Seife, und es bildet sich ein Schaum, der über den Rand steigt. Ein Holzlöffel quer über dem Topf bringt die Blasen zum Platzen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum kocht Nudelwasser so leicht über?",
+          "answers": [
+            "Salz bringt das Wasser zum Schäumen",
+            "Die Nudeln geben Luft ab",
+            "Das Wasser wird beim Kochen schwerer",
+            "Stärke bildet einen Schaum, der die Blasen festhält"
+          ],
+          "explanation": "Aus den Nudeln löst sich Stärke. Sie macht die Dampfblasen an der Oberfläche stabil, ähnlich wie Seife, und es bildet sich ein Schaum, der über den Rand steigt. Ein Holzlöffel quer über dem Topf bringt die Blasen zum Platzen."
+        },
+        "en": {
+          "title": "Why does pasta water boil over so easily?",
+          "answers": [
+            "Salt makes the water foam",
+            "The pasta releases air",
+            "Water gets heavier when it boils",
+            "Starch forms a foam that traps the bubbles"
+          ],
+          "explanation": "Starch dissolves out of the pasta. Like soap, it makes the steam bubbles at the surface stable, and a foam forms that rises over the edge. A wooden spoon laid across the pot makes the bubbles burst."
+        }
+      }
     },
     {
       "id": "kitchen-0005",
@@ -84,17 +140,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum wird ein aufgeschnittener Apfel braun?",
-      "answers": [
-        "Das Messer färbt ab",
-        "Er trocknet aus",
-        "Das Licht färbt ihn",
-        "Stoffe im Apfel reagieren mit Sauerstoff"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Beim Schneiden werden Zellen geöffnet. Ein Enzym im Apfel lässt dann Stoffe mit dem Sauerstoff der Luft reagieren, und es entstehen braune Farbstoffe. Ein paar Tropfen Zitronensaft bremsen das.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum wird ein aufgeschnittener Apfel braun?",
+          "answers": [
+            "Das Messer färbt ab",
+            "Er trocknet aus",
+            "Das Licht färbt ihn",
+            "Stoffe im Apfel reagieren mit Sauerstoff"
+          ],
+          "explanation": "Beim Schneiden werden Zellen geöffnet. Ein Enzym im Apfel lässt dann Stoffe mit dem Sauerstoff der Luft reagieren, und es entstehen braune Farbstoffe. Ein paar Tropfen Zitronensaft bremsen das."
+        },
+        "en": {
+          "title": "Why does a cut apple turn brown?",
+          "answers": [
+            "The knife leaves colour behind",
+            "It dries out",
+            "The light colours it",
+            "Substances in the apple react with oxygen"
+          ],
+          "explanation": "Cutting opens up cells. An enzyme in the apple then makes substances react with oxygen in the air, and brown pigments form. A few drops of lemon juice slow this down."
+        }
+      }
     },
     {
       "id": "kitchen-0006",
@@ -103,17 +173,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum springt Popcorn auf?",
-      "answers": [
-        "Das Öl springt hoch",
-        "Wasser im Korn wird zu Dampf und sprengt die Schale",
-        "Das Salz platzt",
-        "Luft im Korn explodiert"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "In jedem Maiskorn steckt ein wenig Wasser. Beim Erhitzen wird es zu Dampf, der Druck steigt, bis die harte Schale aufplatzt und die weiche Stärke herausquillt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum springt Popcorn auf?",
+          "answers": [
+            "Das Öl springt hoch",
+            "Wasser im Korn wird zu Dampf und sprengt die Schale",
+            "Das Salz platzt",
+            "Luft im Korn explodiert"
+          ],
+          "explanation": "In jedem Maiskorn steckt ein wenig Wasser. Beim Erhitzen wird es zu Dampf, der Druck steigt, bis die harte Schale aufplatzt und die weiche Stärke herausquillt."
+        },
+        "en": {
+          "title": "Why does popcorn pop?",
+          "answers": [
+            "The oil jumps up",
+            "Water in the kernel turns to steam and bursts the shell",
+            "The salt bursts",
+            "Air in the kernel explodes"
+          ],
+          "explanation": "Every corn kernel contains a little water. When heated, it turns into steam and the pressure rises until the hard shell bursts open and the soft starch puffs out."
+        }
+      }
     },
     {
       "id": "kitchen-0007",
@@ -122,17 +206,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum streut man im Winter Salz auf Straßen?",
-      "answers": [
-        "Salz macht die Reifen griffig",
-        "Salz wärmt die Straße",
-        "Salzwasser gefriert erst bei tieferen Temperaturen",
-        "Salz saugt das Eis auf"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Salz löst sich im Schmelzwasser, und Salzwasser gefriert erst deutlich unter null Grad. So taut das Eis und friert nicht so schnell wieder fest.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum streut man im Winter Salz auf Straßen?",
+          "answers": [
+            "Salz macht die Reifen griffig",
+            "Salz wärmt die Straße",
+            "Salzwasser gefriert erst bei tieferen Temperaturen",
+            "Salz saugt das Eis auf"
+          ],
+          "explanation": "Salz löst sich im Schmelzwasser, und Salzwasser gefriert erst deutlich unter null Grad. So taut das Eis und friert nicht so schnell wieder fest."
+        },
+        "en": {
+          "title": "Why do people spread salt on roads in winter?",
+          "answers": [
+            "Salt makes tyres grip better",
+            "Salt warms the road",
+            "Salt water only freezes at lower temperatures",
+            "Salt soaks up the ice"
+          ],
+          "explanation": "Salt dissolves in meltwater, and salt water only freezes well below zero degrees Celsius. So the ice melts and doesn't freeze solid again so quickly."
+        }
+      }
     },
     {
       "id": "kitchen-0008",
@@ -141,17 +239,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum beschlägt der Spiegel nach dem Duschen?",
-      "answers": [
-        "Der Spiegel schwitzt",
-        "Das Licht wird feucht",
-        "Seife verdampft",
-        "Wasserdampf wird auf dem kühlen Glas zu Tröpfchen"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Warme Duschluft enthält viel Wasserdampf. Trifft sie auf den kühleren Spiegel, kühlt sie ab, und der Dampf wird zu winzigen Tröpfchen, die das Bild verschleiern.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum beschlägt der Spiegel nach dem Duschen?",
+          "answers": [
+            "Der Spiegel schwitzt",
+            "Das Licht wird feucht",
+            "Seife verdampft",
+            "Wasserdampf wird auf dem kühlen Glas zu Tröpfchen"
+          ],
+          "explanation": "Warme Duschluft enthält viel Wasserdampf. Trifft sie auf den kühleren Spiegel, kühlt sie ab, und der Dampf wird zu winzigen Tröpfchen, die das Bild verschleiern."
+        },
+        "en": {
+          "title": "Why does the mirror steam up after a shower?",
+          "answers": [
+            "The mirror sweats",
+            "The light gets damp",
+            "Soap evaporates",
+            "Water vapour turns into droplets on the cool glass"
+          ],
+          "explanation": "Warm shower air contains a lot of water vapour. When it meets the cooler mirror, it cools down and the vapour turns into tiny droplets that blur the reflection."
+        }
+      }
     },
     {
       "id": "kitchen-0009",
@@ -160,17 +272,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum löst Spülmittel Fett?",
-      "answers": [
-        "Seine Teilchen verbinden Fett und Wasser",
-        "Es macht das Wasser heißer",
-        "Es verbrennt das Fett",
-        "Es zieht das Fett wie ein Magnet an"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Spülmittel-Teilchen haben ein wasserliebendes und ein fettliebendes Ende. Sie umschließen das Fett mit dem einen Ende, und mit dem anderen nimmt das Wasser sie mit.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum löst Spülmittel Fett?",
+          "answers": [
+            "Seine Teilchen verbinden Fett und Wasser",
+            "Es macht das Wasser heißer",
+            "Es verbrennt das Fett",
+            "Es zieht das Fett wie ein Magnet an"
+          ],
+          "explanation": "Spülmittel-Teilchen haben ein wasserliebendes und ein fettliebendes Ende. Sie umschließen das Fett mit dem einen Ende, und mit dem anderen nimmt das Wasser sie mit."
+        },
+        "en": {
+          "title": "Why does washing-up liquid remove grease?",
+          "answers": [
+            "Its particles link grease and water",
+            "It makes the water hotter",
+            "It burns the grease",
+            "It attracts grease like a magnet"
+          ],
+          "explanation": "Washing-up liquid particles have one end that likes water and one end that likes fat. They surround the grease with one end, and the water carries them away by the other."
+        }
+      }
     },
     {
       "id": "kitchen-0010",
@@ -179,17 +305,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum werden Nudeln beim Kochen weich?",
-      "answers": [
-        "Das Salz weicht sie auf",
-        "Der Dampf bläst sie auf",
-        "Die Hitze schmilzt sie",
-        "Sie nehmen Wasser auf"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Trockene Nudeln bestehen vor allem aus Stärke. Im heißen Wasser saugt sie Wasser auf, quillt und wird weich. Deshalb sind gekochte Nudeln etwa doppelt so schwer wie trockene.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum werden Nudeln beim Kochen weich?",
+          "answers": [
+            "Das Salz weicht sie auf",
+            "Der Dampf bläst sie auf",
+            "Die Hitze schmilzt sie",
+            "Sie nehmen Wasser auf"
+          ],
+          "explanation": "Trockene Nudeln bestehen vor allem aus Stärke. Im heißen Wasser saugt sie Wasser auf, quillt und wird weich. Deshalb sind gekochte Nudeln etwa doppelt so schwer wie trockene."
+        },
+        "en": {
+          "title": "Why does pasta go soft when you cook it?",
+          "answers": [
+            "The salt softens it",
+            "The steam puffs it up",
+            "The heat melts it",
+            "It soaks up water"
+          ],
+          "explanation": "Dry pasta is mostly starch. In hot water the starch soaks up water, swells and goes soft. That's why cooked pasta weighs about twice as much as dry pasta."
+        }
+      }
     },
     {
       "id": "kitchen-0011",
@@ -198,17 +338,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum ist Milch weiß?",
-      "answers": [
-        "Weil sie Zucker enthält",
-        "Winzige Fett- und Eiweißteilchen streuen das Licht",
-        "Weil Kühe Gras fressen",
-        "Weil sie gekühlt wird"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Milch ist zum größten Teil Wasser mit vielen winzigen Fettkügelchen und Eiweißteilchen. Sie streuen alle Farben des Lichts gleich stark, und alle Farben zusammen sehen wir als Weiß.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist Milch weiß?",
+          "answers": [
+            "Weil sie Zucker enthält",
+            "Winzige Fett- und Eiweißteilchen streuen das Licht",
+            "Weil Kühe Gras fressen",
+            "Weil sie gekühlt wird"
+          ],
+          "explanation": "Milch ist zum größten Teil Wasser mit vielen winzigen Fettkügelchen und Eiweißteilchen. Sie streuen alle Farben des Lichts gleich stark, und alle Farben zusammen sehen wir als Weiß."
+        },
+        "en": {
+          "title": "Why is milk white?",
+          "answers": [
+            "Because it contains sugar",
+            "Tiny fat and protein particles scatter the light",
+            "Because cows eat grass",
+            "Because it is kept cold"
+          ],
+          "explanation": "Milk is mostly water with lots of tiny fat globules and protein particles. They scatter all colours of light equally, and all colours together look white to us."
+        }
+      }
     },
     {
       "id": "kitchen-0012",
@@ -217,17 +371,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum knirscht frischer Schnee bei Frost unter den Schuhen?",
-      "answers": [
-        "Der Schnee ist nass",
-        "Die Schuhsohlen sind gefroren",
-        "Die Eiskristalle brechen und reiben aneinander",
-        "Luft pfeift aus dem Schnee"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Bei strengem Frost sind die Schneekristalle hart und spröde. Unter dem Schuh brechen und reiben sie aneinander, das hört man als Knirschen. Bei Tauwetter ist der Schnee weich und bleibt still.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum knirscht frischer Schnee bei Frost unter den Schuhen?",
+          "answers": [
+            "Der Schnee ist nass",
+            "Die Schuhsohlen sind gefroren",
+            "Die Eiskristalle brechen und reiben aneinander",
+            "Luft pfeift aus dem Schnee"
+          ],
+          "explanation": "Bei strengem Frost sind die Schneekristalle hart und spröde. Unter dem Schuh brechen und reiben sie aneinander, das hört man als Knirschen. Bei Tauwetter ist der Schnee weich und bleibt still."
+        },
+        "en": {
+          "title": "Why does fresh snow crunch under your shoes when it's freezing?",
+          "answers": [
+            "The snow is wet",
+            "The shoe soles are frozen",
+            "The ice crystals break and rub against each other",
+            "Air whistles out of the snow"
+          ],
+          "explanation": "In a hard frost, snow crystals are hard and brittle. Under your shoe they break and rub against each other, which you hear as crunching. When it thaws, the snow is soft and stays quiet."
+        }
+      }
     },
     {
       "id": "kitchen-0013",
@@ -236,17 +404,31 @@
       "order": 11,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum bekommt man manchmal an der Türklinke einen Schlag?",
-      "answers": [
-        "Die Klinke hängt am Stromnetz",
-        "Die Klinke speichert Sonnenlicht",
-        "Der Körper hat sich elektrisch aufgeladen",
-        "Das Metall ist zu kalt"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Beim Gehen über Teppich reiben Schuhe und Boden aneinander, und der Körper lädt sich auf. Berührt man Metall, gleicht sich die Ladung mit einem kleinen Funken aus. Bei trockener Heizungsluft passiert das besonders oft.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum bekommt man manchmal an der Türklinke einen Schlag?",
+          "answers": [
+            "Die Klinke hängt am Stromnetz",
+            "Die Klinke speichert Sonnenlicht",
+            "Der Körper hat sich elektrisch aufgeladen",
+            "Das Metall ist zu kalt"
+          ],
+          "explanation": "Beim Gehen über Teppich reiben Schuhe und Boden aneinander, und der Körper lädt sich auf. Berührt man Metall, gleicht sich die Ladung mit einem kleinen Funken aus. Bei trockener Heizungsluft passiert das besonders oft."
+        },
+        "en": {
+          "title": "Why do you sometimes get a shock from a door handle?",
+          "answers": [
+            "The handle is connected to the mains",
+            "The handle stores sunlight",
+            "Your body has built up an electric charge",
+            "The metal is too cold"
+          ],
+          "explanation": "When you walk across carpet, your shoes and the floor rub together and your body becomes charged. When you touch metal, the charge evens out with a tiny spark. This happens especially often in dry, heated air."
+        }
+      }
     },
     {
       "id": "kitchen-0014",
@@ -255,17 +437,31 @@
       "order": 12,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum trocknet Wäsche im Wind schneller?",
-      "answers": [
-        "Wind ist immer wärmer als stille Luft",
-        "Der Wind saugt das Wasser in die Wolken",
-        "Die Wäsche friert im Wind",
-        "Der Wind trägt die feuchte Luft weg"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Direkt an nasser Wäsche ist die Luft schnell voller Feuchtigkeit, dann verdunstet kaum noch Wasser. Wind tauscht diese feuchte Luft ständig gegen trockenere aus, und die Wäsche trocknet schneller.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum trocknet Wäsche im Wind schneller?",
+          "answers": [
+            "Wind ist immer wärmer als stille Luft",
+            "Der Wind saugt das Wasser in die Wolken",
+            "Die Wäsche friert im Wind",
+            "Der Wind trägt die feuchte Luft weg"
+          ],
+          "explanation": "Direkt an nasser Wäsche ist die Luft schnell voller Feuchtigkeit, dann verdunstet kaum noch Wasser. Wind tauscht diese feuchte Luft ständig gegen trockenere aus, und die Wäsche trocknet schneller."
+        },
+        "en": {
+          "title": "Why does washing dry faster in the wind?",
+          "answers": [
+            "Wind is always warmer than still air",
+            "The wind sucks the water up into the clouds",
+            "The washing freezes in the wind",
+            "The wind carries the damp air away"
+          ],
+          "explanation": "Right next to wet washing, the air soon fills up with moisture, and then hardly any water evaporates. Wind keeps swapping this damp air for drier air, so the washing dries faster."
+        }
+      }
     },
     {
       "id": "kitchen-0015",
@@ -274,17 +470,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum gehört Metall nicht in die Mikrowelle?",
-      "answers": [
-        "Es wird magnetisch",
-        "Es macht das Essen giftig",
-        "Es kann Funken schlagen",
-        "Es schmilzt sofort"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Mikrowellen bringen in Metall Elektronen in Bewegung. An Kanten und Spitzen, etwa bei Alufolie oder Gabeln, können dadurch Funken überspringen und das Gerät beschädigen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum gehört Metall nicht in die Mikrowelle?",
+          "answers": [
+            "Es wird magnetisch",
+            "Es macht das Essen giftig",
+            "Es kann Funken schlagen",
+            "Es schmilzt sofort"
+          ],
+          "explanation": "Mikrowellen bringen in Metall Elektronen in Bewegung. An Kanten und Spitzen, etwa bei Alufolie oder Gabeln, können dadurch Funken überspringen und das Gerät beschädigen."
+        },
+        "en": {
+          "title": "Why shouldn't metal go in the microwave?",
+          "answers": [
+            "It becomes magnetic",
+            "It makes the food poisonous",
+            "It can cause sparks",
+            "It melts immediately"
+          ],
+          "explanation": "Microwaves set electrons in metal moving. At edges and points, such as on foil or forks, sparks can jump and damage the appliance."
+        }
+      }
     },
     {
       "id": "kitchen-0016",
@@ -293,17 +503,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum bleibt Tee in einer Thermoskanne lange heiß?",
-      "answers": [
-        "Zwischen ihren Wänden ist fast keine Luft",
-        "Der Deckel heizt nach",
-        "Sie ist innen mit Watte gefüllt",
-        "Sie ist aus besonders warmem Metall"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Eine Thermoskanne hat doppelte Wände, und dazwischen ist fast keine Luft. Ohne Luftteilchen kann Wärme kaum hindurchwandern, deshalb bleibt Heißes heiß und Kaltes kalt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum bleibt Tee in einer Thermoskanne lange heiß?",
+          "answers": [
+            "Zwischen ihren Wänden ist fast keine Luft",
+            "Der Deckel heizt nach",
+            "Sie ist innen mit Watte gefüllt",
+            "Sie ist aus besonders warmem Metall"
+          ],
+          "explanation": "Eine Thermoskanne hat doppelte Wände, und dazwischen ist fast keine Luft. Ohne Luftteilchen kann Wärme kaum hindurchwandern, deshalb bleibt Heißes heiß und Kaltes kalt."
+        },
+        "en": {
+          "title": "Why does tea stay hot in a vacuum flask for a long time?",
+          "answers": [
+            "There is almost no air between its walls",
+            "The lid keeps heating it",
+            "It is filled with cotton wool inside",
+            "It is made of especially warm metal"
+          ],
+          "explanation": "A vacuum flask has double walls with almost no air between them. Without air particles, heat can hardly get through, so hot things stay hot and cold things stay cold."
+        }
+      }
     },
     {
       "id": "kitchen-0017",
@@ -312,17 +536,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Woraus wird Schokolade hergestellt?",
-      "answers": [
-        "Aus Karamell",
-        "Aus Kaffeebohnen",
-        "Aus Kakaobohnen",
-        "Aus Haselnüssen"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Kakaobohnen wachsen in großen Früchten am Kakaobaum in tropischen Ländern. Sie werden fermentiert, getrocknet, geröstet und gemahlen, dann kommen Zucker und oft Milchpulver dazu.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woraus wird Schokolade hergestellt?",
+          "answers": [
+            "Aus Karamell",
+            "Aus Kaffeebohnen",
+            "Aus Kakaobohnen",
+            "Aus Haselnüssen"
+          ],
+          "explanation": "Kakaobohnen wachsen in großen Früchten am Kakaobaum in tropischen Ländern. Sie werden fermentiert, getrocknet, geröstet und gemahlen, dann kommen Zucker und oft Milchpulver dazu."
+        },
+        "en": {
+          "title": "What is chocolate made from?",
+          "answers": [
+            "Caramel",
+            "Coffee beans",
+            "Cocoa beans",
+            "Hazelnuts"
+          ],
+          "explanation": "Cocoa beans grow in large fruits on the cocoa tree in tropical countries. They are fermented, dried, roasted and ground, then sugar and often milk powder are added."
+        }
+      }
     },
     {
       "id": "kitchen-0018",
@@ -331,17 +569,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum sieht ein Strohhalm im Wasserglas geknickt aus?",
-      "answers": [
-        "Unsere Augen sehen durch Wasser schlecht",
-        "Das Licht ändert an der Wasseroberfläche seine Richtung",
-        "Der Strohhalm ist weich geworden",
-        "Das Wasser verbiegt den Strohhalm"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Licht ist in Wasser langsamer als in Luft. Beim Übergang ändert es deshalb seine Richtung, das nennt man Brechung. Der Teil im Wasser scheint dadurch an einer anderen Stelle zu sein, als er wirklich ist.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum sieht ein Strohhalm im Wasserglas geknickt aus?",
+          "answers": [
+            "Unsere Augen sehen durch Wasser schlecht",
+            "Das Licht ändert an der Wasseroberfläche seine Richtung",
+            "Der Strohhalm ist weich geworden",
+            "Das Wasser verbiegt den Strohhalm"
+          ],
+          "explanation": "Licht ist in Wasser langsamer als in Luft. Beim Übergang ändert es deshalb seine Richtung, das nennt man Brechung. Der Teil im Wasser scheint dadurch an einer anderen Stelle zu sein, als er wirklich ist."
+        },
+        "en": {
+          "title": "Why does a straw look bent in a glass of water?",
+          "answers": [
+            "Our eyes see badly through water",
+            "Light changes direction at the water's surface",
+            "The straw has gone soft",
+            "The water bends the straw"
+          ],
+          "explanation": "Light travels more slowly in water than in air. So it changes direction as it passes from one to the other, which is called refraction. That makes the part in the water seem to be somewhere other than where it really is."
+        }
+      }
     },
     {
       "id": "kitchen-0019",
@@ -350,17 +602,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wozu kommt Backpulver in den Kuchenteig?",
-      "answers": [
-        "Damit der Kuchen süß wird",
-        "Es bildet Gasbläschen, die den Teig lockern",
-        "Damit er länger hält",
-        "Damit er nicht anbrennt"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Backpulver enthält Natron und eine Säure. Mit Feuchtigkeit und Hitze reagieren sie und bilden Kohlendioxid, das als Bläschen den Teig aufgehen lässt.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu kommt Backpulver in den Kuchenteig?",
+          "answers": [
+            "Damit der Kuchen süß wird",
+            "Es bildet Gasbläschen, die den Teig lockern",
+            "Damit er länger hält",
+            "Damit er nicht anbrennt"
+          ],
+          "explanation": "Backpulver enthält Natron und eine Säure. Mit Feuchtigkeit und Hitze reagieren sie und bilden Kohlendioxid, das als Bläschen den Teig aufgehen lässt."
+        },
+        "en": {
+          "title": "Why is baking powder added to cake batter?",
+          "answers": [
+            "To make the cake sweet",
+            "It forms gas bubbles that make the batter light",
+            "So it keeps longer",
+            "So it doesn't burn"
+          ],
+          "explanation": "Baking powder contains baking soda and an acid. With moisture and heat they react and form carbon dioxide, which makes the batter rise as bubbles."
+        }
+      }
     },
     {
       "id": "kitchen-0020",
@@ -369,17 +635,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum quietscht eine Tür?",
-      "answers": [
-        "Die trockenen Scharniere reiben ruckartig aneinander",
-        "Das Holz ist zu alt",
-        "Die Tür ist zu schwer",
-        "Luft pfeift durch den Spalt"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Ohne Schmiermittel haften die Metallteile im Scharnier kurz aneinander und rutschen dann ruckartig weiter. Dieses schnelle Haften und Rutschen bringt das Metall zum Schwingen, und es quietscht. Ein Tropfen Öl hilft.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum quietscht eine Tür?",
+          "answers": [
+            "Die trockenen Scharniere reiben ruckartig aneinander",
+            "Das Holz ist zu alt",
+            "Die Tür ist zu schwer",
+            "Luft pfeift durch den Spalt"
+          ],
+          "explanation": "Ohne Schmiermittel haften die Metallteile im Scharnier kurz aneinander und rutschen dann ruckartig weiter. Dieses schnelle Haften und Rutschen bringt das Metall zum Schwingen, und es quietscht. Ein Tropfen Öl hilft."
+        },
+        "en": {
+          "title": "Why does a door squeak?",
+          "answers": [
+            "The dry hinges rub against each other in jerks",
+            "The wood is too old",
+            "The door is too heavy",
+            "Air whistles through the gap"
+          ],
+          "explanation": "Without lubricant, the metal parts in the hinge stick together briefly and then slip on in a jerk. This quick sticking and slipping makes the metal vibrate, and it squeaks. A drop of oil helps."
+        }
+      }
     },
     {
       "id": "kitchen-0021",
@@ -388,17 +668,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Woraus wird Butter gemacht?",
-      "answers": [
-        "Aus Olivenöl",
-        "Aus Mehl",
-        "Aus Sahne",
-        "Aus Eiern"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Schlägt man Sahne sehr lange, klumpt das Fett zusammen und trennt sich von der Flüssigkeit. Die festen Klumpen sind Butter.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woraus wird Butter gemacht?",
+          "answers": [
+            "Aus Olivenöl",
+            "Aus Mehl",
+            "Aus Sahne",
+            "Aus Eiern"
+          ],
+          "explanation": "Schlägt man Sahne sehr lange, klumpt das Fett zusammen und trennt sich von der Flüssigkeit. Die festen Klumpen sind Butter."
+        },
+        "en": {
+          "title": "What is butter made from?",
+          "answers": [
+            "Olive oil",
+            "Flour",
+            "Cream",
+            "Eggs"
+          ],
+          "explanation": "If you whip cream for a very long time, the fat clumps together and separates from the liquid. The solid lumps are butter."
+        }
+      }
     },
     {
       "id": "kitchen-0022",
@@ -407,17 +701,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Woraus wird Käse gemacht?",
-      "answers": [
-        "Aus Milch",
-        "Aus Mehl und Wasser",
-        "Aus Hühnereiern",
-        "Aus Bananen"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Für Käse wird Milch dick gemacht, die feste Masse gepresst und oft monatelang gelagert. So entstehen ganz unterschiedliche Sorten.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woraus wird Käse gemacht?",
+          "answers": [
+            "Aus Milch",
+            "Aus Mehl und Wasser",
+            "Aus Hühnereiern",
+            "Aus Bananen"
+          ],
+          "explanation": "Für Käse wird Milch dick gemacht, die feste Masse gepresst und oft monatelang gelagert. So entstehen ganz unterschiedliche Sorten."
+        },
+        "en": {
+          "title": "What is cheese made from?",
+          "answers": [
+            "Milk",
+            "Flour and water",
+            "Hens' eggs",
+            "Bananas"
+          ],
+          "explanation": "To make cheese, milk is thickened, the solid mass is pressed and often stored for months. That's how very different kinds are made."
+        }
+      }
     },
     {
       "id": "kitchen-0023",
@@ -426,17 +734,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Woraus werden Pommes frites gemacht?",
-      "answers": [
-        "Aus Nudelteig",
-        "Aus Äpfeln",
-        "Aus Mais",
-        "Aus Kartoffeln"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Kartoffeln werden in Stäbchen geschnitten und in heißem Fett gebacken. Außen werden sie knusprig, innen bleiben sie weich.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woraus werden Pommes frites gemacht?",
+          "answers": [
+            "Aus Nudelteig",
+            "Aus Äpfeln",
+            "Aus Mais",
+            "Aus Kartoffeln"
+          ],
+          "explanation": "Kartoffeln werden in Stäbchen geschnitten und in heißem Fett gebacken. Außen werden sie knusprig, innen bleiben sie weich."
+        },
+        "en": {
+          "title": "What are chips (French fries) made from?",
+          "answers": [
+            "Pasta dough",
+            "Apples",
+            "Corn",
+            "Potatoes"
+          ],
+          "explanation": "Potatoes are cut into sticks and cooked in hot fat. They become crispy on the outside and stay soft inside."
+        }
+      }
     },
     {
       "id": "kitchen-0024",
@@ -445,17 +767,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum schmeckt eine Zitrone sauer?",
-      "answers": [
-        "Sie ist noch unreif",
-        "Sie wurde mit Essig gegossen",
-        "Sie enthält Salz",
-        "Sie enthält viel Zitronensäure"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Zitronensäure steckt in vielen Früchten, in Zitronen aber besonders viel. Sie wird auch in Limonaden und Bonbons verwendet.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum schmeckt eine Zitrone sauer?",
+          "answers": [
+            "Sie ist noch unreif",
+            "Sie wurde mit Essig gegossen",
+            "Sie enthält Salz",
+            "Sie enthält viel Zitronensäure"
+          ],
+          "explanation": "Zitronensäure steckt in vielen Früchten, in Zitronen aber besonders viel. Sie wird auch in Limonaden und Bonbons verwendet."
+        },
+        "en": {
+          "title": "Why does a lemon taste sour?",
+          "answers": [
+            "It isn't ripe yet",
+            "It was watered with vinegar",
+            "It contains salt",
+            "It contains a lot of citric acid"
+          ],
+          "explanation": "Citric acid is found in many fruits, but there's especially a lot in lemons. It is also used in lemonades and sweets."
+        }
+      }
     },
     {
       "id": "kitchen-0025",
@@ -464,17 +800,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum wird Brot hart, wenn es lange liegt?",
-      "answers": [
-        "Es verliert Wasser, und die Stärke wird wieder fest",
-        "Die Hefe wird zu Stein",
-        "Es friert langsam ein",
-        "Es nimmt Staub auf"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Beim Backen nimmt die Stärke im Mehl Wasser auf und wird weich. Mit der Zeit gibt sie es wieder ab, die Krume wird fest und trocken.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum wird Brot hart, wenn es lange liegt?",
+          "answers": [
+            "Es verliert Wasser, und die Stärke wird wieder fest",
+            "Die Hefe wird zu Stein",
+            "Es friert langsam ein",
+            "Es nimmt Staub auf"
+          ],
+          "explanation": "Beim Backen nimmt die Stärke im Mehl Wasser auf und wird weich. Mit der Zeit gibt sie es wieder ab, die Krume wird fest und trocken."
+        },
+        "en": {
+          "title": "Why does bread go hard when it's left out for a long time?",
+          "answers": [
+            "It loses water and the starch firms up again",
+            "The yeast turns to stone",
+            "It slowly freezes",
+            "It soaks up dust"
+          ],
+          "explanation": "During baking, the starch in the flour takes up water and goes soft. Over time it gives the water off again, and the crumb becomes firm and dry."
+        }
+      }
     },
     {
       "id": "kitchen-0026",
@@ -483,17 +833,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Bei wie viel Grad kocht Wasser normalerweise?",
-      "answers": [
-        "Bei 50 Grad Celsius",
-        "Bei 200 Grad Celsius",
-        "Bei 100 Grad Celsius",
-        "Bei 37 Grad Celsius"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Bei 100 Grad Celsius bildet Wasser im ganzen Topf Dampfblasen und sprudelt. Heißer wird es im offenen Topf nicht, auch wenn man die Platte höher dreht.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Bei wie viel Grad kocht Wasser normalerweise?",
+          "answers": [
+            "Bei 50 Grad Celsius",
+            "Bei 200 Grad Celsius",
+            "Bei 100 Grad Celsius",
+            "Bei 37 Grad Celsius"
+          ],
+          "explanation": "Bei 100 Grad Celsius bildet Wasser im ganzen Topf Dampfblasen und sprudelt. Heißer wird es im offenen Topf nicht, auch wenn man die Platte höher dreht."
+        },
+        "en": {
+          "title": "At what temperature does water normally boil?",
+          "answers": [
+            "At 50 degrees Celsius",
+            "At 200 degrees Celsius",
+            "At 100 degrees Celsius",
+            "At 37 degrees Celsius"
+          ],
+          "explanation": "At 100 degrees Celsius, water forms steam bubbles throughout the pot and bubbles away. In an open pot it doesn't get any hotter, even if you turn the hob up."
+        }
+      }
     },
     {
       "id": "kitchen-0027",
@@ -502,17 +866,31 @@
       "order": 8,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Was passiert mit dem Eiweiß, wenn man ein Ei kocht?",
-      "answers": [
-        "Es wird zu Zucker",
-        "Es wird fest und weiß",
-        "Es verschwindet",
-        "Es wird flüssig und grün"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Durch die Hitze verändern sich die Eiweißteilchen und verknäulen sich. Aus dem durchsichtigen Glibber wird festes, weißes Eiweiß.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was passiert mit dem Eiweiß, wenn man ein Ei kocht?",
+          "answers": [
+            "Es wird zu Zucker",
+            "Es wird fest und weiß",
+            "Es verschwindet",
+            "Es wird flüssig und grün"
+          ],
+          "explanation": "Durch die Hitze verändern sich die Eiweißteilchen und verknäulen sich. Aus dem durchsichtigen Glibber wird festes, weißes Eiweiß."
+        },
+        "en": {
+          "title": "What happens to the egg white when you boil an egg?",
+          "answers": [
+            "It turns into sugar",
+            "It becomes firm and white",
+            "It disappears",
+            "It becomes runny and green"
+          ],
+          "explanation": "The heat changes the protein particles and makes them tangle up. The see-through goo turns into firm, white egg white."
+        }
+      }
     },
     {
       "id": "kitchen-0028",
@@ -521,17 +899,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum rührt man Pudding beim Kochen ständig um?",
-      "answers": [
-        "Damit er nicht anbrennt und keine Klümpchen bildet",
-        "Damit er seine Farbe behält",
-        "Damit er schneller abkühlt",
-        "Damit er süßer wird"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Am heißen Topfboden würde die Stärke schnell anbrennen und Klumpen bilden. Durch das Rühren verteilt sich die Wärme gleichmäßig.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum rührt man Pudding beim Kochen ständig um?",
+          "answers": [
+            "Damit er nicht anbrennt und keine Klümpchen bildet",
+            "Damit er seine Farbe behält",
+            "Damit er schneller abkühlt",
+            "Damit er süßer wird"
+          ],
+          "explanation": "Am heißen Topfboden würde die Stärke schnell anbrennen und Klumpen bilden. Durch das Rühren verteilt sich die Wärme gleichmäßig."
+        },
+        "en": {
+          "title": "Why do you keep stirring pudding while it cooks?",
+          "answers": [
+            "So it doesn't burn or get lumpy",
+            "So it keeps its colour",
+            "So it cools down faster",
+            "To make it sweeter"
+          ],
+          "explanation": "On the hot bottom of the pan, the starch would quickly burn and form lumps. Stirring spreads the heat evenly."
+        }
+      }
     },
     {
       "id": "kitchen-0029",
@@ -540,17 +932,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum kocht Wasser mit Deckel schneller?",
-      "answers": [
-        "Der Deckel macht das Wasser leichter",
-        "Der Deckel hält die Wärme im Topf",
-        "Der Deckel verdoppelt die Hitze der Platte",
-        "Wasser kocht nur im Dunkeln"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Ohne Deckel entweicht viel Wärme mit dem Dampf. Mit Deckel bleibt sie im Topf – das Wasser kocht schneller, und man spart Energie.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum kocht Wasser mit Deckel schneller?",
+          "answers": [
+            "Der Deckel macht das Wasser leichter",
+            "Der Deckel hält die Wärme im Topf",
+            "Der Deckel verdoppelt die Hitze der Platte",
+            "Wasser kocht nur im Dunkeln"
+          ],
+          "explanation": "Ohne Deckel entweicht viel Wärme mit dem Dampf. Mit Deckel bleibt sie im Topf – das Wasser kocht schneller, und man spart Energie."
+        },
+        "en": {
+          "title": "Why does water boil faster with a lid on?",
+          "answers": [
+            "The lid makes the water lighter",
+            "The lid keeps the heat in the pot",
+            "The lid doubles the heat of the hob",
+            "Water only boils in the dark"
+          ],
+          "explanation": "Without a lid, a lot of heat escapes with the steam. With a lid it stays in the pot – the water boils faster and you save energy."
+        }
+      }
     },
     {
       "id": "kitchen-0030",
@@ -559,17 +965,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum wird Fleisch beim Braten braun?",
-      "answers": [
-        "Eiweiß und Zucker reagieren bei Hitze miteinander",
-        "Es verbrennt sofort",
-        "Es rostet",
-        "Das Fett färbt es braun"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Ab etwa 140 °C entstehen aus Eiweiß und Zucker neue braune Stoffe mit leckerem Röstgeschmack. Dasselbe passiert bei Brotkruste und Bratkartoffeln.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum wird Fleisch beim Braten braun?",
+          "answers": [
+            "Eiweiß und Zucker reagieren bei Hitze miteinander",
+            "Es verbrennt sofort",
+            "Es rostet",
+            "Das Fett färbt es braun"
+          ],
+          "explanation": "Ab etwa 140 °C entstehen aus Eiweiß und Zucker neue braune Stoffe mit leckerem Röstgeschmack. Dasselbe passiert bei Brotkruste und Bratkartoffeln."
+        },
+        "en": {
+          "title": "Why does meat turn brown when you fry it?",
+          "answers": [
+            "Protein and sugar react with each other in the heat",
+            "It burns straight away",
+            "It rusts",
+            "The fat colours it brown"
+          ],
+          "explanation": "From about 140 °C, protein and sugar form new brown substances with a tasty roasted flavour. The same happens with bread crust and fried potatoes."
+        }
+      }
     },
     {
       "id": "kitchen-0031",
@@ -578,17 +998,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Warum schmilzt ein Eiswürfel in der Hand?",
-      "answers": [
-        "Der Eiswürfel ist zu alt",
-        "Die Hand ist nass",
-        "Eis verträgt keine Haut",
-        "Die Wärme der Hand bringt ihn zum Schmelzen"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Unsere Hand ist über 30 Grad warm. Diese Wärme fließt in das Eis, und es wird wieder zu Wasser.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum schmilzt ein Eiswürfel in der Hand?",
+          "answers": [
+            "Der Eiswürfel ist zu alt",
+            "Die Hand ist nass",
+            "Eis verträgt keine Haut",
+            "Die Wärme der Hand bringt ihn zum Schmelzen"
+          ],
+          "explanation": "Unsere Hand ist über 30 Grad warm. Diese Wärme fließt in das Eis, und es wird wieder zu Wasser."
+        },
+        "en": {
+          "title": "Why does an ice cube melt in your hand?",
+          "answers": [
+            "The ice cube is too old",
+            "Your hand is wet",
+            "Ice can't stand skin",
+            "The warmth of your hand melts it"
+          ],
+          "explanation": "Our hand is over 30 degrees Celsius warm. That heat flows into the ice and it turns back into water."
+        }
+      }
     },
     {
       "id": "kitchen-0032",
@@ -597,17 +1031,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum kann eine volle Glasflasche im Gefrierfach platzen?",
-      "answers": [
-        "Das Glas schrumpft zu stark",
-        "Kälte macht Glas weich",
-        "Die Luft in der Flasche explodiert",
-        "Wasser dehnt sich beim Gefrieren aus"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Gefrierendes Wasser braucht etwa ein Zehntel mehr Platz. In einer vollen, verschlossenen Flasche ist dafür kein Raum – das Eis sprengt das Glas.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum kann eine volle Glasflasche im Gefrierfach platzen?",
+          "answers": [
+            "Das Glas schrumpft zu stark",
+            "Kälte macht Glas weich",
+            "Die Luft in der Flasche explodiert",
+            "Wasser dehnt sich beim Gefrieren aus"
+          ],
+          "explanation": "Gefrierendes Wasser braucht etwa ein Zehntel mehr Platz. In einer vollen, verschlossenen Flasche ist dafür kein Raum – das Eis sprengt das Glas."
+        },
+        "en": {
+          "title": "Why can a full glass bottle burst in the freezer?",
+          "answers": [
+            "The glass shrinks too much",
+            "Cold makes glass soft",
+            "The air in the bottle explodes",
+            "Water expands when it freezes"
+          ],
+          "explanation": "Freezing water needs about a tenth more space. In a full, closed bottle there's no room for that – the ice bursts the glass."
+        }
+      }
     },
     {
       "id": "kitchen-0033",
@@ -616,17 +1064,31 @@
       "order": 18,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum fühlt sich Metall kälter an als Holz, obwohl beide gleich warm sind?",
-      "answers": [
-        "Metall ist immer kälter als die Luft",
-        "Metall leitet die Wärme schneller von der Hand weg",
-        "Holz erzeugt selbst Wärme",
-        "In Metall steckt Eis"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Wir fühlen nicht die Temperatur, sondern wie schnell unsere Hand Wärme verliert. Metall leitet sie viel besser ab als Holz – deshalb wirkt es kalt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum fühlt sich Metall kälter an als Holz, obwohl beide gleich warm sind?",
+          "answers": [
+            "Metall ist immer kälter als die Luft",
+            "Metall leitet die Wärme schneller von der Hand weg",
+            "Holz erzeugt selbst Wärme",
+            "In Metall steckt Eis"
+          ],
+          "explanation": "Wir fühlen nicht die Temperatur, sondern wie schnell unsere Hand Wärme verliert. Metall leitet sie viel besser ab als Holz – deshalb wirkt es kalt."
+        },
+        "en": {
+          "title": "Why does metal feel colder than wood even though both are the same temperature?",
+          "answers": [
+            "Metal is always colder than the air",
+            "Metal carries heat away from your hand faster",
+            "Wood makes its own heat",
+            "There is ice inside metal"
+          ],
+          "explanation": "We don't feel the temperature, but how quickly our hand loses heat. Metal conducts heat away much better than wood – that's why it feels cold."
+        }
+      }
     },
     {
       "id": "kitchen-0034",
@@ -635,17 +1097,31 @@
       "order": 19,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum kann man mit einem Strohhalm trinken?",
-      "answers": [
-        "Der Mund zieht das Wasser magnetisch an",
-        "Der Strohhalm pumpt von selbst",
-        "Flüssigkeit steigt von allein nach oben",
-        "Der Luftdruck drückt das Getränk nach oben"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Beim Saugen wird der Druck im Strohhalm kleiner. Die Luft drückt weiter auf die Oberfläche im Glas und schiebt das Getränk den Halm hinauf.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum kann man mit einem Strohhalm trinken?",
+          "answers": [
+            "Der Mund zieht das Wasser magnetisch an",
+            "Der Strohhalm pumpt von selbst",
+            "Flüssigkeit steigt von allein nach oben",
+            "Der Luftdruck drückt das Getränk nach oben"
+          ],
+          "explanation": "Beim Saugen wird der Druck im Strohhalm kleiner. Die Luft drückt weiter auf die Oberfläche im Glas und schiebt das Getränk den Halm hinauf."
+        },
+        "en": {
+          "title": "Why can you drink through a straw?",
+          "answers": [
+            "Your mouth attracts the water magnetically",
+            "The straw pumps by itself",
+            "Liquid rises up on its own",
+            "Air pressure pushes the drink up"
+          ],
+          "explanation": "When you suck, the pressure inside the straw drops. The air keeps pressing on the surface in the glass and pushes the drink up the straw."
+        }
+      }
     },
     {
       "id": "kitchen-0035",
@@ -654,17 +1130,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum sieht man bei Kälte seinen Atem?",
-      "answers": [
-        "Die Luft ist im Winter weiß",
-        "Der Atem gefriert zu Schnee",
-        "Die feuchte Atemluft kühlt ab und bildet winzige Tröpfchen",
-        "Man atmet im Winter Rauch aus"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Unsere Atemluft ist warm und enthält unsichtbaren Wasserdampf. In kalter Luft kühlt er schnell ab und wird zu einem kleinen Nebelwölkchen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum sieht man bei Kälte seinen Atem?",
+          "answers": [
+            "Die Luft ist im Winter weiß",
+            "Der Atem gefriert zu Schnee",
+            "Die feuchte Atemluft kühlt ab und bildet winzige Tröpfchen",
+            "Man atmet im Winter Rauch aus"
+          ],
+          "explanation": "Unsere Atemluft ist warm und enthält unsichtbaren Wasserdampf. In kalter Luft kühlt er schnell ab und wird zu einem kleinen Nebelwölkchen."
+        },
+        "en": {
+          "title": "Why can you see your breath when it's cold?",
+          "answers": [
+            "The air is white in winter",
+            "Your breath freezes into snow",
+            "The moist breath cools and forms tiny droplets",
+            "You breathe out smoke in winter"
+          ],
+          "explanation": "The air we breathe out is warm and contains invisible water vapour. In cold air it cools quickly and turns into a little cloud of mist."
+        }
+      }
     },
     {
       "id": "kitchen-0036",
@@ -673,17 +1163,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Wozu dient ein Sieb?",
-      "answers": [
-        "Um Flüssigkeit von Festem zu trennen",
-        "Um Eier zu kochen",
-        "Um Teig zu kneten",
-        "Um Suppe zu wärmen"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Gießt man Nudeln in ein Sieb, läuft das Wasser durch die Löcher ab, und die Nudeln bleiben drin. Mit feinen Sieben kann man auch Mehl lockern.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu dient ein Sieb?",
+          "answers": [
+            "Um Flüssigkeit von Festem zu trennen",
+            "Um Eier zu kochen",
+            "Um Teig zu kneten",
+            "Um Suppe zu wärmen"
+          ],
+          "explanation": "Gießt man Nudeln in ein Sieb, läuft das Wasser durch die Löcher ab, und die Nudeln bleiben drin. Mit feinen Sieben kann man auch Mehl lockern."
+        },
+        "en": {
+          "title": "What is a sieve for?",
+          "answers": [
+            "To separate liquid from solids",
+            "To boil eggs",
+            "To knead dough",
+            "To heat soup"
+          ],
+          "explanation": "When you pour pasta into a sieve, the water drains through the holes and the pasta stays inside. Fine sieves can also be used to loosen flour."
+        }
+      }
     },
     {
       "id": "kitchen-0037",
@@ -692,17 +1196,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum riecht Müll im Sommer schneller?",
-      "answers": [
-        "Im Sommer gibt es mehr Müll",
-        "Die Sonne färbt ihn",
-        "Bakterien vermehren sich bei Wärme schneller",
-        "Wärme macht Plastik zu Gas"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Bakterien zersetzen Essensreste und erzeugen dabei übel riechende Stoffe. Bei Wärme arbeiten sie viel schneller als bei Kälte.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum riecht Müll im Sommer schneller?",
+          "answers": [
+            "Im Sommer gibt es mehr Müll",
+            "Die Sonne färbt ihn",
+            "Bakterien vermehren sich bei Wärme schneller",
+            "Wärme macht Plastik zu Gas"
+          ],
+          "explanation": "Bakterien zersetzen Essensreste und erzeugen dabei übel riechende Stoffe. Bei Wärme arbeiten sie viel schneller als bei Kälte."
+        },
+        "en": {
+          "title": "Why does rubbish start to smell sooner in summer?",
+          "answers": [
+            "There is more rubbish in summer",
+            "The sun colours it",
+            "Bacteria multiply faster in the warmth",
+            "Warmth turns plastic into gas"
+          ],
+          "explanation": "Bacteria break down food leftovers and produce bad-smelling substances as they do. In the warmth they work much faster than in the cold."
+        }
+      }
     },
     {
       "id": "kitchen-0038",
@@ -711,17 +1229,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Wozu kommt Spezialsalz in die Spülmaschine?",
-      "answers": [
-        "Damit das Geschirr salzig schmeckt",
-        "Es hilft, das Wasser weicher zu machen, damit sich kein Kalk ablagert",
-        "Damit die Maschine nicht einfriert",
-        "Damit es besser riecht"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Hartes Wasser enthält viel Kalk, der weiße Flecken hinterlässt. Ein Filter in der Maschine holt den Kalk heraus, und das Salz reinigt diesen Filter regelmäßig.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu kommt Spezialsalz in die Spülmaschine?",
+          "answers": [
+            "Damit das Geschirr salzig schmeckt",
+            "Es hilft, das Wasser weicher zu machen, damit sich kein Kalk ablagert",
+            "Damit die Maschine nicht einfriert",
+            "Damit es besser riecht"
+          ],
+          "explanation": "Hartes Wasser enthält viel Kalk, der weiße Flecken hinterlässt. Ein Filter in der Maschine holt den Kalk heraus, und das Salz reinigt diesen Filter regelmäßig."
+        },
+        "en": {
+          "title": "Why is special salt put in the dishwasher?",
+          "answers": [
+            "So the dishes taste salty",
+            "It helps soften the water so limescale doesn't build up",
+            "So the machine doesn't freeze",
+            "So it smells nicer"
+          ],
+          "explanation": "Hard water contains a lot of limescale, which leaves white spots. A filter in the machine removes the limescale, and the salt regularly cleans that filter."
+        }
+      }
     },
     {
       "id": "kitchen-0039",
@@ -730,17 +1262,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Wie glättet ein Bügeleisen Falten?",
-      "answers": [
-        "Es klebt die Falten fest",
-        "Es saugt die Falten auf",
-        "Wärme und Dampf machen die Fasern weich und formbar",
-        "Es schneidet die Falten ab"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Hitze und Feuchtigkeit lockern die Verbindungen in den Stofffasern. Unter dem Druck des Bügeleisens werden sie glatt und bleiben so, wenn sie abkühlen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wie glättet ein Bügeleisen Falten?",
+          "answers": [
+            "Es klebt die Falten fest",
+            "Es saugt die Falten auf",
+            "Wärme und Dampf machen die Fasern weich und formbar",
+            "Es schneidet die Falten ab"
+          ],
+          "explanation": "Hitze und Feuchtigkeit lockern die Verbindungen in den Stofffasern. Unter dem Druck des Bügeleisens werden sie glatt und bleiben so, wenn sie abkühlen."
+        },
+        "en": {
+          "title": "How does an iron smooth out creases?",
+          "answers": [
+            "It glues the creases down",
+            "It sucks up the creases",
+            "Heat and steam make the fibres soft and easy to shape",
+            "It cuts the creases off"
+          ],
+          "explanation": "Heat and moisture loosen the bonds in the fabric fibres. Under the pressure of the iron they become smooth and stay that way as they cool."
+        }
+      }
     },
     {
       "id": "kitchen-0040",
@@ -749,17 +1295,31 @@
       "order": 9,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum trennt man Müll?",
-      "answers": [
-        "Damit die Tonne leichter wird",
-        "Damit Stoffe wiederverwertet werden können",
-        "Damit die Müllabfuhr schneller fährt",
-        "Weil Müll sonst explodiert"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Aus altem Papier wird neues Papier, aus Glas neues Glas. Das spart Rohstoffe und Energie.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum trennt man Müll?",
+          "answers": [
+            "Damit die Tonne leichter wird",
+            "Damit Stoffe wiederverwertet werden können",
+            "Damit die Müllabfuhr schneller fährt",
+            "Weil Müll sonst explodiert"
+          ],
+          "explanation": "Aus altem Papier wird neues Papier, aus Glas neues Glas. Das spart Rohstoffe und Energie."
+        },
+        "en": {
+          "title": "Why do we sort our rubbish?",
+          "answers": [
+            "So the bin is lighter",
+            "So materials can be recycled",
+            "So the bin lorry can drive faster",
+            "Because rubbish would otherwise explode"
+          ],
+          "explanation": "Old paper becomes new paper, and old glass becomes new glass. This saves raw materials and energy."
+        }
+      }
     },
     {
       "id": "kitchen-0041",
@@ -768,17 +1328,31 @@
       "order": 18,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Warum kocht Wasser auf der Zugspitze schon bei etwa 90 °C?",
-      "answers": [
-        "Das Wasser ist reiner",
-        "Der Luftdruck ist dort geringer",
-        "Die Sonne ist näher",
-        "Die Luft ist kälter"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Je weniger Luft auf das Wasser drückt, desto leichter entweichen Wasserteilchen als Dampf. Nudeln brauchen dort deshalb länger, weil das Wasser nicht so heiß wird.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum kocht Wasser auf der Zugspitze schon bei etwa 90 °C?",
+          "answers": [
+            "Das Wasser ist reiner",
+            "Der Luftdruck ist dort geringer",
+            "Die Sonne ist näher",
+            "Die Luft ist kälter"
+          ],
+          "explanation": "Je weniger Luft auf das Wasser drückt, desto leichter entweichen Wasserteilchen als Dampf. Nudeln brauchen dort deshalb länger, weil das Wasser nicht so heiß wird."
+        },
+        "en": {
+          "title": "Why does water boil at only about 90 °C on top of the Zugspitze?",
+          "answers": [
+            "The water is purer",
+            "The air pressure is lower there",
+            "The sun is closer",
+            "The air is colder"
+          ],
+          "explanation": "The less air presses down on the water, the more easily water particles escape as steam. That's why pasta takes longer up there – the water doesn't get as hot."
+        }
+      }
     },
     {
       "id": "kitchen-0042",
@@ -787,17 +1361,31 @@
       "order": 13,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum wird Sahne beim Schlagen fest?",
-      "answers": [
-        "Der Zucker wird hart",
-        "Das Wasser verdunstet beim Rühren",
-        "Fetttröpfchen bilden ein Gerüst um eingeschlagene Luftbläschen",
-        "Die Sahne friert durch die Bewegung"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Beim Schlagen kommen Luftbläschen in die Sahne. Die Fetttröpfchen lagern sich an ihnen an und verbinden sich zu einem festen Schaum. Schlägt man zu lange, wird Butter daraus.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum wird Sahne beim Schlagen fest?",
+          "answers": [
+            "Der Zucker wird hart",
+            "Das Wasser verdunstet beim Rühren",
+            "Fetttröpfchen bilden ein Gerüst um eingeschlagene Luftbläschen",
+            "Die Sahne friert durch die Bewegung"
+          ],
+          "explanation": "Beim Schlagen kommen Luftbläschen in die Sahne. Die Fetttröpfchen lagern sich an ihnen an und verbinden sich zu einem festen Schaum. Schlägt man zu lange, wird Butter daraus."
+        },
+        "en": {
+          "title": "Why does cream go stiff when you whip it?",
+          "answers": [
+            "The sugar gets hard",
+            "The water evaporates while stirring",
+            "Fat droplets build a framework around whipped-in air bubbles",
+            "The movement freezes the cream"
+          ],
+          "explanation": "Whipping gets air bubbles into the cream. The fat droplets attach to them and join up into a firm foam. If you whip for too long, it turns into butter."
+        }
+      }
     },
     {
       "id": "kitchen-0043",
@@ -806,17 +1394,31 @@
       "order": 1,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Woher kommt Honig?",
-      "answers": [
-        "Er wächst an Bäumen",
-        "Kühe geben ihn",
-        "Er wird aus Zuckerrüben gepresst",
-        "Bienen machen ihn aus Blütennektar"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Bienen sammeln Nektar, bringen ihn in den Stock und dicken ihn ein. Für ein Glas Honig fliegen sie zusammen eine Strecke, die viele Male um die Erde reicht.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woher kommt Honig?",
+          "answers": [
+            "Er wächst an Bäumen",
+            "Kühe geben ihn",
+            "Er wird aus Zuckerrüben gepresst",
+            "Bienen machen ihn aus Blütennektar"
+          ],
+          "explanation": "Bienen sammeln Nektar, bringen ihn in den Stock und dicken ihn ein. Für ein Glas Honig fliegen sie zusammen eine Strecke, die viele Male um die Erde reicht."
+        },
+        "en": {
+          "title": "Where does honey come from?",
+          "answers": [
+            "It grows on trees",
+            "Cows produce it",
+            "It is pressed from sugar beet",
+            "Bees make it from flower nectar"
+          ],
+          "explanation": "Bees collect nectar, bring it to the hive and thicken it. For one jar of honey, together they fly a distance that would go round the Earth many times."
+        }
+      }
     },
     {
       "id": "kitchen-0044",
@@ -825,17 +1427,31 @@
       "order": 9,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Woraus wird Zucker in Deutschland meistens hergestellt?",
-      "answers": [
-        "Aus Mais",
-        "Aus Zuckerrohr",
-        "Aus Zuckerrüben",
-        "Aus Honig"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Zuckerrohr wächst nur in warmen Ländern. Bei uns gewinnt man Zucker aus Zuckerrüben, die auf den Feldern wachsen.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woraus wird Zucker in Deutschland meistens hergestellt?",
+          "answers": [
+            "Aus Mais",
+            "Aus Zuckerrohr",
+            "Aus Zuckerrüben",
+            "Aus Honig"
+          ],
+          "explanation": "Zuckerrohr wächst nur in warmen Ländern. Bei uns gewinnt man Zucker aus Zuckerrüben, die auf den Feldern wachsen."
+        },
+        "en": {
+          "title": "What is sugar in Germany mostly made from?",
+          "answers": [
+            "Corn",
+            "Sugar cane",
+            "Sugar beet",
+            "Honey"
+          ],
+          "explanation": "Sugar cane only grows in warm countries. In Germany sugar is made from sugar beet, which grows in the fields."
+        }
+      }
     },
     {
       "id": "kitchen-0045",
@@ -844,17 +1460,31 @@
       "order": 4,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Was ist Tofu?",
-      "answers": [
-        "Ein japanischer Fisch",
-        "Eine Käsesorte aus Kuhmilch",
-        "Ein Lebensmittel aus Sojabohnen",
-        "Ein Pilz"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Für Tofu wird aus Sojabohnen eine Art Milch gemacht und dann fest werden lassen. Tofu enthält viel Eiweiß und kommt ursprünglich aus China.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was ist Tofu?",
+          "answers": [
+            "Ein japanischer Fisch",
+            "Eine Käsesorte aus Kuhmilch",
+            "Ein Lebensmittel aus Sojabohnen",
+            "Ein Pilz"
+          ],
+          "explanation": "Für Tofu wird aus Sojabohnen eine Art Milch gemacht und dann fest werden lassen. Tofu enthält viel Eiweiß und kommt ursprünglich aus China."
+        },
+        "en": {
+          "title": "What is tofu?",
+          "answers": [
+            "A Japanese fish",
+            "A kind of cheese made from cow's milk",
+            "A food made from soya beans",
+            "A mushroom"
+          ],
+          "explanation": "To make tofu, soya beans are turned into a kind of milk, which is then left to set. Tofu contains a lot of protein and originally comes from China."
+        }
+      }
     },
     {
       "id": "kitchen-0046",
@@ -863,17 +1493,31 @@
       "order": 11,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum ist Chili scharf?",
-      "answers": [
-        "Sie ist immer heiß gekocht",
-        "Der Stoff Capsaicin reizt Sinneszellen für Hitze und Schmerz",
-        "Sie enthält Säure wie Zitronen",
-        "Sie enthält viel Salz"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Capsaicin gaukelt dem Mund Hitze vor, obwohl gar nichts heiß ist. Wasser hilft kaum dagegen, Milch oder Joghurt lindern das Brennen besser.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum ist Chili scharf?",
+          "answers": [
+            "Sie ist immer heiß gekocht",
+            "Der Stoff Capsaicin reizt Sinneszellen für Hitze und Schmerz",
+            "Sie enthält Säure wie Zitronen",
+            "Sie enthält viel Salz"
+          ],
+          "explanation": "Capsaicin gaukelt dem Mund Hitze vor, obwohl gar nichts heiß ist. Wasser hilft kaum dagegen, Milch oder Joghurt lindern das Brennen besser."
+        },
+        "en": {
+          "title": "Why are chillies hot?",
+          "answers": [
+            "They are always cooked hot",
+            "A substance called capsaicin irritates the sensory cells for heat and pain",
+            "They contain acid like lemons",
+            "They contain a lot of salt"
+          ],
+          "explanation": "Capsaicin tricks your mouth into feeling heat, even though nothing is actually hot. Water hardly helps; milk or yoghurt ease the burning better."
+        }
+      }
     },
     {
       "id": "kitchen-0047",
@@ -882,17 +1526,31 @@
       "order": 19,
       "difficulty": "HARD",
       "difficultyScore": 6,
-      "title": "Welche dieser Früchte ist botanisch eine Beere?",
-      "answers": [
-        "Die Erdbeere",
-        "Die Kirsche",
-        "Die Himbeere",
-        "Die Banane"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Für Botaniker ist eine Beere eine Frucht, deren Samen im weichen Fruchtfleisch stecken. Das trifft auf Bananen, Tomaten und Gurken zu. Erdbeeren und Himbeeren sind dagegen Sammelfrüchte, die Kirsche ist eine Steinfrucht.",
       "ageFrom": 10,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Welche dieser Früchte ist botanisch eine Beere?",
+          "answers": [
+            "Die Erdbeere",
+            "Die Kirsche",
+            "Die Himbeere",
+            "Die Banane"
+          ],
+          "explanation": "Für Botaniker ist eine Beere eine Frucht, deren Samen im weichen Fruchtfleisch stecken. Das trifft auf Bananen, Tomaten und Gurken zu. Erdbeeren und Himbeeren sind dagegen Sammelfrüchte, die Kirsche ist eine Steinfrucht."
+        },
+        "en": {
+          "title": "Which of these fruits is botanically a berry?",
+          "answers": [
+            "The strawberry",
+            "The cherry",
+            "The raspberry",
+            "The banana"
+          ],
+          "explanation": "To botanists, a berry is a fruit whose seeds sit in the soft flesh. That's true of bananas, tomatoes and cucumbers. Strawberries and raspberries, on the other hand, are aggregate fruits, and the cherry is a stone fruit."
+        }
+      }
     },
     {
       "id": "kitchen-0048",
@@ -901,17 +1559,31 @@
       "order": 6,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Woher kommen die Löcher im Emmentaler Käse?",
-      "answers": [
-        "Mäuse knabbern sie hinein",
-        "Luft wird hineingepumpt",
-        "Bakterien bilden bei der Reifung Gasblasen",
-        "Sie werden mit einem Bohrer gemacht"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Während der Käse reift, geben bestimmte Bakterien Kohlendioxid ab. Das Gas sammelt sich im Käse zu Blasen, die als Löcher übrig bleiben.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Woher kommen die Löcher im Emmentaler Käse?",
+          "answers": [
+            "Mäuse knabbern sie hinein",
+            "Luft wird hineingepumpt",
+            "Bakterien bilden bei der Reifung Gasblasen",
+            "Sie werden mit einem Bohrer gemacht"
+          ],
+          "explanation": "Während der Käse reift, geben bestimmte Bakterien Kohlendioxid ab. Das Gas sammelt sich im Käse zu Blasen, die als Löcher übrig bleiben."
+        },
+        "en": {
+          "title": "Where do the holes in Emmental cheese come from?",
+          "answers": [
+            "Mice nibble them",
+            "Air is pumped in",
+            "Bacteria make gas bubbles while the cheese ripens",
+            "They are made with a drill"
+          ],
+          "explanation": "While the cheese ripens, certain bacteria give off carbon dioxide. The gas collects into bubbles in the cheese, which are left behind as holes."
+        }
+      }
     },
     {
       "id": "kitchen-0049",
@@ -920,17 +1592,31 @@
       "order": 8,
       "difficulty": "MEDIUM",
       "difficultyScore": 3,
-      "title": "Warum gibt man Salz ins Nudelwasser?",
-      "answers": [
-        "Damit die Nudeln nicht kleben",
-        "Damit das Wasser nicht überkocht",
-        "Damit die Nudeln ihre Farbe behalten",
-        "Vor allem für den Geschmack"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Die Nudeln nehmen beim Kochen das salzige Wasser auf und schmecken dadurch würziger. Gegen Kleben hilft vor allem viel Wasser und gelegentliches Umrühren.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum gibt man Salz ins Nudelwasser?",
+          "answers": [
+            "Damit die Nudeln nicht kleben",
+            "Damit das Wasser nicht überkocht",
+            "Damit die Nudeln ihre Farbe behalten",
+            "Vor allem für den Geschmack"
+          ],
+          "explanation": "Die Nudeln nehmen beim Kochen das salzige Wasser auf und schmecken dadurch würziger. Gegen Kleben hilft vor allem viel Wasser und gelegentliches Umrühren."
+        },
+        "en": {
+          "title": "Why do people put salt in pasta water?",
+          "answers": [
+            "So the pasta doesn't stick",
+            "So the water doesn't boil over",
+            "So the pasta keeps its colour",
+            "Mainly for the taste"
+          ],
+          "explanation": "The pasta soaks up the salty water as it cooks and so tastes more flavourful. What really stops sticking is plenty of water and an occasional stir."
+        }
+      }
     },
     {
       "id": "kitchen-0050",
@@ -939,17 +1625,31 @@
       "order": 2,
       "difficulty": "EASY",
       "difficultyScore": 0,
-      "title": "Was passiert mit Schokolade, wenn sie warm wird?",
-      "answers": [
-        "Sie wird zu Kakaopulver",
-        "Sie schmilzt",
-        "Sie wird härter",
-        "Sie verdampft"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Kakaobutter schmilzt schon knapp unter unserer Körpertemperatur. Deshalb zergeht Schokolade so schön auf der Zunge – und in der Hosentasche.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Was passiert mit Schokolade, wenn sie warm wird?",
+          "answers": [
+            "Sie wird zu Kakaopulver",
+            "Sie schmilzt",
+            "Sie wird härter",
+            "Sie verdampft"
+          ],
+          "explanation": "Kakaobutter schmilzt schon knapp unter unserer Körpertemperatur. Deshalb zergeht Schokolade so schön auf der Zunge – und in der Hosentasche."
+        },
+        "en": {
+          "title": "What happens to chocolate when it gets warm?",
+          "answers": [
+            "It turns into cocoa powder",
+            "It melts",
+            "It gets harder",
+            "It evaporates"
+          ],
+          "explanation": "Cocoa butter melts just below our body temperature. That's why chocolate melts so nicely on your tongue – and in your trouser pocket."
+        }
+      }
     },
     {
       "id": "kitchen-0051",
@@ -958,17 +1658,31 @@
       "order": 3,
       "difficulty": "EASY",
       "difficultyScore": 1,
-      "title": "Warum kann man sich im Spiegel sehen?",
-      "answers": [
-        "Die glatte Fläche wirft das Licht gleichmäßig zurück",
-        "Der Spiegel leuchtet selbst",
-        "Im Spiegel ist ein Bild gespeichert",
-        "Glas merkt sich Gesichter"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Hinter dem Glas liegt eine dünne Metallschicht. Weil sie ganz glatt ist, wirft sie das Licht geordnet zurück, und wir sehen ein klares Bild.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum kann man sich im Spiegel sehen?",
+          "answers": [
+            "Die glatte Fläche wirft das Licht gleichmäßig zurück",
+            "Der Spiegel leuchtet selbst",
+            "Im Spiegel ist ein Bild gespeichert",
+            "Glas merkt sich Gesichter"
+          ],
+          "explanation": "Hinter dem Glas liegt eine dünne Metallschicht. Weil sie ganz glatt ist, wirft sie das Licht geordnet zurück, und wir sehen ein klares Bild."
+        },
+        "en": {
+          "title": "Why can you see yourself in a mirror?",
+          "answers": [
+            "The smooth surface reflects light evenly",
+            "The mirror glows by itself",
+            "A picture is stored in the mirror",
+            "Glass remembers faces"
+          ],
+          "explanation": "Behind the glass there is a thin layer of metal. Because it is completely smooth, it reflects the light in an orderly way, and we see a clear image."
+        }
+      }
     },
     {
       "id": "kitchen-0052",
@@ -977,17 +1691,31 @@
       "order": 14,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum rauscht es, wenn man eine große Muschel ans Ohr hält?",
-      "answers": [
-        "Die Muschel verstärkt Geräusche aus der Umgebung",
-        "Die Muschel hat das Meer gespeichert",
-        "Man hört das eigene Blut rauschen",
-        "In der Muschel ist noch Wasser"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Der Hohlraum der Muschel lässt bestimmte Töne aus der Umgebung lauter klingen. Hält man sie in einem sehr leisen Raum ans Ohr, wird das Rauschen schwächer. Ein Glas funktioniert genauso.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum rauscht es, wenn man eine große Muschel ans Ohr hält?",
+          "answers": [
+            "Die Muschel verstärkt Geräusche aus der Umgebung",
+            "Die Muschel hat das Meer gespeichert",
+            "Man hört das eigene Blut rauschen",
+            "In der Muschel ist noch Wasser"
+          ],
+          "explanation": "Der Hohlraum der Muschel lässt bestimmte Töne aus der Umgebung lauter klingen. Hält man sie in einem sehr leisen Raum ans Ohr, wird das Rauschen schwächer. Ein Glas funktioniert genauso."
+        },
+        "en": {
+          "title": "Why do you hear a rushing sound when you hold a big shell to your ear?",
+          "answers": [
+            "The shell amplifies sounds from around you",
+            "The shell has stored the sea",
+            "You hear your own blood rushing",
+            "There is still water in the shell"
+          ],
+          "explanation": "The hollow inside the shell makes certain sounds from the surroundings louder. If you hold it to your ear in a very quiet room, the rushing gets weaker. A glass works exactly the same way."
+        }
+      }
     },
     {
       "id": "kitchen-0053",
@@ -996,17 +1724,31 @@
       "order": 7,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum steigt ein Ballon mit Helium nach oben?",
-      "answers": [
-        "Der Wind schiebt ihn von unten",
-        "Der Ballon ist magnetisch",
-        "Helium ist sehr warm",
-        "Helium ist leichter als Luft"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Ein mit Helium gefüllter Ballon wiegt weniger als die Luft, die er verdrängt. Deshalb steigt er auf – wie ein Korken im Wasser.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum steigt ein Ballon mit Helium nach oben?",
+          "answers": [
+            "Der Wind schiebt ihn von unten",
+            "Der Ballon ist magnetisch",
+            "Helium ist sehr warm",
+            "Helium ist leichter als Luft"
+          ],
+          "explanation": "Ein mit Helium gefüllter Ballon wiegt weniger als die Luft, die er verdrängt. Deshalb steigt er auf – wie ein Korken im Wasser."
+        },
+        "en": {
+          "title": "Why does a helium balloon float upwards?",
+          "answers": [
+            "The wind pushes it from below",
+            "The balloon is magnetic",
+            "Helium is very warm",
+            "Helium is lighter than air"
+          ],
+          "explanation": "A balloon filled with helium weighs less than the air it pushes aside. That's why it rises – like a cork in water."
+        }
+      }
     },
     {
       "id": "kitchen-0054",
@@ -1015,17 +1757,31 @@
       "order": 12,
       "difficulty": "MEDIUM",
       "difficultyScore": 4,
-      "title": "Warum klebt ein Luftballon an der Wand, wenn man ihn an den Haaren reibt?",
-      "answers": [
-        "Er wird beim Reiben warm und klebrig",
-        "Er saugt die Luft an der Wand weg",
-        "Er hat sich durch das Reiben elektrisch aufgeladen",
-        "Die Haare machen ihn magnetisch"
-      ],
       "correctAnswerIndex": 2,
-      "explanation": "Beim Reiben wandern winzige Ladungsteilchen von den Haaren auf den Ballon. Der geladene Ballon zieht die Wand an – und die Haare stehen zu Berge.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum klebt ein Luftballon an der Wand, wenn man ihn an den Haaren reibt?",
+          "answers": [
+            "Er wird beim Reiben warm und klebrig",
+            "Er saugt die Luft an der Wand weg",
+            "Er hat sich durch das Reiben elektrisch aufgeladen",
+            "Die Haare machen ihn magnetisch"
+          ],
+          "explanation": "Beim Reiben wandern winzige Ladungsteilchen von den Haaren auf den Ballon. Der geladene Ballon zieht die Wand an – und die Haare stehen zu Berge."
+        },
+        "en": {
+          "title": "Why does a balloon stick to the wall after you rub it on your hair?",
+          "answers": [
+            "It gets warm and sticky when rubbed",
+            "It sucks away the air at the wall",
+            "Rubbing has given it an electric charge",
+            "Your hair makes it magnetic"
+          ],
+          "explanation": "When you rub, tiny charged particles move from your hair to the balloon. The charged balloon is attracted to the wall – and your hair stands on end."
+        }
+      }
     },
     {
       "id": "kitchen-0055",
@@ -1034,17 +1790,31 @@
       "order": 5,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum leuchten manche Sticker im Dunkeln nach?",
-      "answers": [
-        "Sie enthalten eine winzige Batterie",
-        "Sie fangen Mondlicht durch das Fenster",
-        "Sie leuchten nur, weil die Augen müde sind",
-        "Sie haben Licht gespeichert und geben es langsam wieder ab"
-      ],
       "correctAnswerIndex": 3,
-      "explanation": "Die Leuchtfarbe nimmt tagsüber Licht auf. Im Dunkeln gibt sie es nach und nach als schwaches Leuchten ab, bis der Vorrat aufgebraucht ist.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum leuchten manche Sticker im Dunkeln nach?",
+          "answers": [
+            "Sie enthalten eine winzige Batterie",
+            "Sie fangen Mondlicht durch das Fenster",
+            "Sie leuchten nur, weil die Augen müde sind",
+            "Sie haben Licht gespeichert und geben es langsam wieder ab"
+          ],
+          "explanation": "Die Leuchtfarbe nimmt tagsüber Licht auf. Im Dunkeln gibt sie es nach und nach als schwaches Leuchten ab, bis der Vorrat aufgebraucht ist."
+        },
+        "en": {
+          "title": "Why do some stickers glow in the dark?",
+          "answers": [
+            "They contain a tiny battery",
+            "They catch moonlight through the window",
+            "They only glow because your eyes are tired",
+            "They have stored light and slowly give it off again"
+          ],
+          "explanation": "The glow paint soaks up light during the day. In the dark it gives it off bit by bit as a faint glow until the supply runs out."
+        }
+      }
     },
     {
       "id": "kitchen-0056",
@@ -1053,17 +1823,31 @@
       "order": 10,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Wozu dient der Thermostat an der Heizung?",
-      "answers": [
-        "Er hält die eingestellte Temperatur",
-        "Er zeigt die Uhrzeit an",
-        "Er filtert die Luft",
-        "Er macht das Wasser sauber"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Der Thermostat misst die Raumtemperatur. Ist es kühler als eingestellt, lässt er mehr heißes Wasser in den Heizkörper, ist es warm genug, drosselt er es.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Wozu dient der Thermostat an der Heizung?",
+          "answers": [
+            "Er hält die eingestellte Temperatur",
+            "Er zeigt die Uhrzeit an",
+            "Er filtert die Luft",
+            "Er macht das Wasser sauber"
+          ],
+          "explanation": "Der Thermostat misst die Raumtemperatur. Ist es kühler als eingestellt, lässt er mehr heißes Wasser in den Heizkörper, ist es warm genug, drosselt er es."
+        },
+        "en": {
+          "title": "What is the thermostat on a radiator for?",
+          "answers": [
+            "It keeps the temperature you set",
+            "It shows the time",
+            "It filters the air",
+            "It cleans the water"
+          ],
+          "explanation": "The thermostat measures the room temperature. If it's cooler than set, it lets more hot water into the radiator; if it's warm enough, it turns it down."
+        }
+      }
     },
     {
       "id": "kitchen-0057",
@@ -1072,17 +1856,31 @@
       "order": 15,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum bildet sich Schimmel vor allem in feuchten Räumen?",
-      "answers": [
-        "Schimmelpilze wachsen gern, wo es feucht und warm ist",
-        "Schimmel kommt aus dem Wasserhahn",
-        "Er entsteht aus Staub allein",
-        "Kälte erzeugt Schimmel"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Schimmelsporen schweben überall in der Luft. Wachsen können sie aber nur, wo sie genug Feuchtigkeit finden, zum Beispiel an kalten, nassen Wänden.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum bildet sich Schimmel vor allem in feuchten Räumen?",
+          "answers": [
+            "Schimmelpilze wachsen gern, wo es feucht und warm ist",
+            "Schimmel kommt aus dem Wasserhahn",
+            "Er entsteht aus Staub allein",
+            "Kälte erzeugt Schimmel"
+          ],
+          "explanation": "Schimmelsporen schweben überall in der Luft. Wachsen können sie aber nur, wo sie genug Feuchtigkeit finden, zum Beispiel an kalten, nassen Wänden."
+        },
+        "en": {
+          "title": "Why does mould grow mainly in damp rooms?",
+          "answers": [
+            "Mould grows best where it is damp and warm",
+            "Mould comes out of the tap",
+            "It forms from dust alone",
+            "Cold creates mould"
+          ],
+          "explanation": "Mould spores float everywhere in the air. But they can only grow where they find enough moisture, for example on cold, wet walls."
+        }
+      }
     },
     {
       "id": "kitchen-0058",
@@ -1091,17 +1889,31 @@
       "order": 16,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum rostet ein Kochtopf aus Edelstahl nicht?",
-      "answers": [
-        "Er ist mit Lack überzogen",
-        "Eine unsichtbare Schicht mit Chrom schützt ihn",
-        "Er ist nie lange nass",
-        "Er besteht aus Silber"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Edelstahl enthält Chrom. An der Luft bildet es eine hauchdünne Schutzschicht, die das Eisen darunter vor Wasser und Sauerstoff abschirmt.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum rostet ein Kochtopf aus Edelstahl nicht?",
+          "answers": [
+            "Er ist mit Lack überzogen",
+            "Eine unsichtbare Schicht mit Chrom schützt ihn",
+            "Er ist nie lange nass",
+            "Er besteht aus Silber"
+          ],
+          "explanation": "Edelstahl enthält Chrom. An der Luft bildet es eine hauchdünne Schutzschicht, die das Eisen darunter vor Wasser und Sauerstoff abschirmt."
+        },
+        "en": {
+          "title": "Why doesn't a stainless steel pot rust?",
+          "answers": [
+            "It is coated with varnish",
+            "An invisible layer containing chromium protects it",
+            "It is never wet for long",
+            "It is made of silver"
+          ],
+          "explanation": "Stainless steel contains chromium. In air it forms a wafer-thin protective layer that shields the iron underneath from water and oxygen."
+        }
+      }
     },
     {
       "id": "kitchen-0059",
@@ -1110,17 +1922,31 @@
       "order": 17,
       "difficulty": "MEDIUM",
       "difficultyScore": 5,
-      "title": "Warum riecht man es, wenn Gas aus einer Leitung strömt?",
-      "answers": [
-        "Dem Gas wird zur Warnung ein Geruchsstoff beigemischt",
-        "Die Leitung verbrennt Staub",
-        "Gas riecht immer nach Blumen",
-        "Erdgas stinkt von Natur aus stark"
-      ],
       "correctAnswerIndex": 0,
-      "explanation": "Erdgas ist eigentlich geruchlos. Damit man ein Leck sofort bemerkt, wird ihm ein Stoff beigemischt, der nach faulen Eiern riecht.",
       "ageFrom": 8,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum riecht man es, wenn Gas aus einer Leitung strömt?",
+          "answers": [
+            "Dem Gas wird zur Warnung ein Geruchsstoff beigemischt",
+            "Die Leitung verbrennt Staub",
+            "Gas riecht immer nach Blumen",
+            "Erdgas stinkt von Natur aus stark"
+          ],
+          "explanation": "Erdgas ist eigentlich geruchlos. Damit man ein Leck sofort bemerkt, wird ihm ein Stoff beigemischt, der nach faulen Eiern riecht."
+        },
+        "en": {
+          "title": "Why can you smell it when gas leaks from a pipe?",
+          "answers": [
+            "A smelly substance is added to the gas as a warning",
+            "The pipe burns dust",
+            "Gas always smells of flowers",
+            "Natural gas naturally stinks"
+          ],
+          "explanation": "Natural gas actually has no smell. So that a leak is noticed straight away, a substance that smells of rotten eggs is added to it."
+        }
+      }
     },
     {
       "id": "kitchen-0060",
@@ -1129,17 +1955,31 @@
       "order": 20,
       "difficulty": "EASY",
       "difficultyScore": 2,
-      "title": "Warum haben viele Kochtöpfe Griffe aus Kunststoff?",
-      "answers": [
-        "Damit der Topf schöner aussieht",
-        "Kunststoff leitet Wärme schlecht, so verbrennt man sich nicht",
-        "Weil Metall zu schwer wäre",
-        "Damit der Topf schwimmt"
-      ],
       "correctAnswerIndex": 1,
-      "explanation": "Metall leitet die Hitze vom Topfboden schnell weiter. Kunststoff und Holz tun das kaum – deshalb kann man solche Griffe anfassen.",
       "ageFrom": 6,
-      "ageTo": 12
+      "ageTo": 12,
+      "texts": {
+        "de": {
+          "title": "Warum haben viele Kochtöpfe Griffe aus Kunststoff?",
+          "answers": [
+            "Damit der Topf schöner aussieht",
+            "Kunststoff leitet Wärme schlecht, so verbrennt man sich nicht",
+            "Weil Metall zu schwer wäre",
+            "Damit der Topf schwimmt"
+          ],
+          "explanation": "Metall leitet die Hitze vom Topfboden schnell weiter. Kunststoff und Holz tun das kaum – deshalb kann man solche Griffe anfassen."
+        },
+        "en": {
+          "title": "Why do many saucepans have plastic handles?",
+          "answers": [
+            "To make the pot look nicer",
+            "Plastic conducts heat poorly, so you don't get burned",
+            "Because metal would be too heavy",
+            "So the pot floats"
+          ],
+          "explanation": "Metal quickly carries the heat from the bottom of the pot. Plastic and wood hardly do – that's why you can touch such handles."
+        }
+      }
     }
   ]
 }
