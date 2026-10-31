@@ -1,24 +1,14 @@
 rules_version = '2';
 
-// Sicherheitsregeln für Wissli — siehe CLAUDE.md ("Firebase & Firestore").
+// Security rules for Wissli, see CLAUDE.md ("Firebase & Firestore" and "Gruppen & Gruppenmodus").
 //
-// Gruppen-Modell: keine feste Family-Hierarchie (Parent -> Child) mehr. Jede:r User kann beliebig
-// viele Gruppen erstellen ("Familie Scholler", ein Freundeskreis, o. Ä.) und Mitglied mehrerer
-// Gruppen sein. Mitgliedschaft + Rolle (OWNER/MEMBER) liegen pro Gruppe in der Subcollection
-// groups/{groupId}/members/{uid} statt denormalisiert auf dem User-Dokument — ein User hat keine
-// globale Rolle mehr. Owner = wer die Gruppe erstellt hat; einzige Rolle, die Mitglieder
-// einladen/entfernen oder die Gruppe verwalten/löschen darf.
+// Timestamps: users/progress keep epoch millis (int) because the existing Kotlin code writes them that
+// way. Everything in the group model uses Firestore timestamps written as serverTimestamp(), so the
+// rules can pin them to request.time and enforce invite expiry and per-question timers server-side.
 //
-// Feldnamen für "users" sind 1:1 aus FirebaseAuthRepository.toFirestoreMap()/toUserOrNull()
-// übernommen (die einzige Collection, die aktuell tatsächlich beschrieben wird). Für
-// groups/members/questions/categories/challenges/favorites — noch keine Repositories
-// implementiert — sind die Feldnamen aus CLAUDE.md "Domain-Modelle (Kern)" abgeleitet; bei der
-// jeweiligen Erstimplementierung gegen die Regeln hier prüfen und bei Bedarf anpassen.
-//
-// Admin-Rechte für Questions/Categories (Content-Verwaltung über die künftige Admin-Web-App) sind
-// noch nicht modelliert (kein globales Rollenkonzept mehr) — Client-Writes deshalb vorerst
-// komplett gesperrt; Content-Pflege läuft bis dahin über die Firebase-Konsole/Admin-SDK, die an
-// diese Regeln nicht gebunden sind.
+// Written by Cloud Functions only (Admin SDK, not bound by these rules): rounds, their questions and
+// solutions, and the group-mode question pool. Clients can never read a correct answer before they
+// have finished a round, because the pool and the solutions never reach a client earlier.
 service cloud.firestore {
   match /databases/{database}/documents {
 
@@ -26,50 +16,48 @@ service cloud.firestore {
       return request.auth != null;
     }
 
+    function memberPath(groupId, uid) {
+      return /databases/$(database)/documents/groups/$(groupId)/members/$(uid);
+    }
+
     function isGroupMember(groupId) {
-      return isSignedIn()
-        && exists(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid));
+      return isSignedIn() && exists(memberPath(groupId, request.auth.uid));
     }
 
     function isGroupOwner(groupId) {
-      return isSignedIn()
-        && get(/databases/$(database)/documents/groups/$(groupId)/members/$(request.auth.uid)).data.role == 'OWNER';
+      return isGroupMember(groupId)
+        && get(memberPath(groupId, request.auth.uid)).data.role == 'OWNER';
     }
 
-    // users/{uid}: jede:r liest/schreibt ausschließlich das eigene Dokument. Keine Rolle mehr zu
-    // validieren (siehe oben) — nur displayName/createdAt, keine weiteren personenbezogenen Daten.
-    // Ältere Dokumente aus dem Family-Modell können noch role/familyId enthalten; die bleiben
-    // lesbar, aber neu schreiben lassen sie sich nicht.
+    function isValidDisplayName(name) {
+      return name is string && name.size() <= 50;
+    }
+
+    // users/{uid}: only the own document, and nothing beyond displayName/createdAt. Older documents
+    // from the family model may still contain role/familyId; they stay readable but cannot be
+    // written again.
     match /users/{uid} {
       function isOwnDoc() {
         return isSignedIn() && request.auth.uid == uid;
-      }
-
-      function hasValidDisplayName() {
-        return request.resource.data.displayName is string
-          && request.resource.data.displayName.size() <= 50;
       }
 
       allow read: if isOwnDoc();
 
       allow create: if isOwnDoc()
         && request.resource.data.keys().hasOnly(['displayName', 'createdAt'])
-        && hasValidDisplayName()
+        && isValidDisplayName(request.resource.data.displayName)
         && request.resource.data.createdAt is int;
 
-      // Nur den displayName ändern; createdAt bleibt fix.
       allow update: if isOwnDoc()
         && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['displayName'])
-        && hasValidDisplayName();
+        && isValidDisplayName(request.resource.data.displayName);
 
       allow delete: if false;
 
-      // users/{uid}/progress/{categoryId}: Solo-Fortschritt, ein Dokument pro Thema (siehe
-      // ProgressRepository). Levels werden der Reihe nach gespielt, deshalb reichen die Zahl
-      // geschaffter Level plus die gelösten Fragen des aktuellen Levels. Pro Schreibvorgang darf
-      // höchstens ein Level dazukommen und nie eins verloren gehen. Fälschungssicher ist das nicht
-      // (der Client prüft die Antworten) — sobald Ränge im Gruppenmodus verglichen werden, muss
-      // eine Cloud Function den Fortschritt schreiben.
+      // users/{uid}/progress/{categoryId}: solo progress, one document per topic. Levels are played
+      // in order, so completed levels plus the solved questions of the current level are enough. At
+      // most one level may be added per write and none may be lost. This is not tamper-proof (the
+      // client checks the answers); group mode therefore never compares solo progress.
       match /progress/{categoryId} {
         function isValidProgress() {
           let data = request.resource.data;
@@ -96,41 +84,217 @@ service cloud.firestore {
       }
     }
 
-    // groups/{groupId}: lesbar für Mitglieder; erstellen kann jede:r (wird automatisch Owner,
-    // siehe members-Subcollection unten); verwalten/löschen nur der Owner.
-    match /groups/{groupId} {
-      allow read: if isGroupMember(groupId);
-      allow create: if isSignedIn() && request.resource.data.createdBy == request.auth.uid;
-      allow update, delete: if isGroupOwner(groupId);
+    // inviteCodes/{code}: the only way into a group. Knowing the code is the authorization, so a
+    // single get is open to every signed-in user (to preview the group name before joining), but
+    // listing is limited to the creator's own codes. Codes are 8 characters from an alphabet without
+    // look-alikes (no 0/O/1/I), roughly 10^12 combinations, and expire after at most 7 days.
+    match /inviteCodes/{code} {
+      allow get: if isSignedIn();
 
-      // groups/{groupId}/members/{memberUid}: Mitgliedschaft + Rolle einer Person in dieser Gruppe.
+      allow list: if isSignedIn() && resource.data.createdBy == request.auth.uid;
+
+      allow create: if isGroupOwner(request.resource.data.groupId)
+        && code.matches('^[A-HJ-NP-Z2-9]{8}$')
+        && request.resource.data.keys().hasOnly(['groupId', 'groupName', 'createdBy', 'createdAt', 'expiresAt'])
+        && request.resource.data.groupName is string
+        && request.resource.data.groupName.size() <= 50
+        && request.resource.data.createdBy == request.auth.uid
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.expiresAt is timestamp
+        && request.resource.data.expiresAt > request.time
+        && request.resource.data.expiresAt <= request.time + duration.value(7, 'd');
+
+      allow update: if false;
+
+      allow delete: if isSignedIn()
+        && (resource.data.createdBy == request.auth.uid || isGroupOwner(resource.data.groupId));
+    }
+
+    // Collection-group query "all groups of a user": members where userId == me.
+    match /{path=**}/members/{memberUid} {
+      allow read: if isSignedIn() && resource.data.userId == request.auth.uid;
+    }
+
+    // groups/{groupId}: readable for members. Anyone can create a group and must add themselves as
+    // OWNER in the same batch. Renaming and deleting is owner-only.
+    match /groups/{groupId} {
+      function groupPath() {
+        return /databases/$(database)/documents/groups/$(groupId);
+      }
+
+      allow read: if isGroupMember(groupId);
+
+      allow create: if isSignedIn()
+        && request.resource.data.keys().hasOnly(['name', 'createdBy', 'createdAt'])
+        && request.resource.data.name is string
+        && request.resource.data.name.size() > 0
+        && request.resource.data.name.size() <= 50
+        && request.resource.data.createdBy == request.auth.uid
+        && request.resource.data.createdAt == request.time
+        && existsAfter(memberPath(groupId, request.auth.uid));
+
+      allow update: if isGroupOwner(groupId)
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name'])
+        && request.resource.data.name is string
+        && request.resource.data.name.size() > 0
+        && request.resource.data.name.size() <= 50;
+
+      // Subcollections are not deleted with the group. The client deletes all member documents and
+      // the group in one batch (see members.delete); orphaned rounds are unreadable afterwards
+      // because nobody is a member any more, and a Cloud Function can clean them up later.
+      allow delete: if isGroupOwner(groupId);
+
+      // groups/{groupId}/members/{memberUid}: membership, role and displayName. The name is copied
+      // here because users/{uid} is private, and members need to see each other's names.
       match /members/{memberUid} {
+        function isValidMember(role) {
+          let data = request.resource.data;
+          return data.userId == memberUid
+            && data.role == role
+            && isValidDisplayName(data.displayName)
+            && data.joinedAt == request.time;
+        }
+
+        // The invite must belong to this group and still be valid at the moment of joining.
+        function hasValidInvite() {
+          let invitePath = /databases/$(database)/documents/inviteCodes/$(request.resource.data.inviteCode);
+          return request.resource.data.inviteCode is string
+            && exists(invitePath)
+            && get(invitePath).data.groupId == groupId
+            && get(invitePath).data.expiresAt > request.time;
+        }
+
         allow read: if isGroupMember(groupId);
 
-        // Zwei erlaubte Fälle beim Anlegen: (a) der Owner lädt eine weitere Person als MEMBER ein,
-        // (b) die Gruppen-Ersteller:in trägt sich direkt nach dem Anlegen der Gruppe selbst als
-        // OWNER ein (verifiziert über groups/{groupId}.createdBy statt einer eigenen "ist das der
-        // allererste Member"-Prüfung).
+        // Only the person themselves creates their membership: (a) the creator as OWNER in the batch
+        // that creates the group (exists() still sees the state before the batch), or (b) anyone else
+        // as MEMBER with a valid invite code. Owners cannot add people directly.
         allow create: if isSignedIn()
-          && ((isGroupOwner(groupId) && request.resource.data.role == 'MEMBER')
-            || (request.auth.uid == memberUid
-              && request.resource.data.role == 'OWNER'
-              // getAfter statt get, damit Gruppe und erste Mitgliedschaft in einem Batch
-              // geschrieben werden können (get sähe die Gruppe im selben Batch noch nicht).
-              && getAfter(/databases/$(database)/documents/groups/$(groupId)).data.createdBy == request.auth.uid));
+          && request.auth.uid == memberUid
+          && ((request.resource.data.keys().hasOnly(['userId', 'role', 'displayName', 'joinedAt'])
+              && isValidMember('OWNER')
+              && !exists(groupPath())
+              && getAfter(groupPath()).data.createdBy == request.auth.uid)
+            || (request.resource.data.keys().hasOnly(['userId', 'role', 'displayName', 'joinedAt', 'inviteCode'])
+              && isValidMember('MEMBER')
+              && exists(groupPath())
+              && hasValidInvite()));
 
-        // Rollenwechsel nachträglich (z. B. Ownership übertragen) ist noch nicht vorgesehen.
-        allow update: if false;
+        // Members keep their own copy of displayName in sync; roles never change (no ownership
+        // transfer yet).
+        allow update: if isSignedIn()
+          && request.auth.uid == memberUid
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['displayName'])
+          && isValidDisplayName(request.resource.data.displayName);
 
-        // Der Owner entfernt Mitglieder, oder ein Mitglied verlässt die Gruppe selbst. Der Owner
-        // kann sich damit theoretisch selbst entfernen, ohne die Ownership zu übertragen — dieser
-        // Edge-Case ist bewusst ungelöst, bis das echte Group-Repository existiert.
-        allow delete: if isGroupOwner(groupId) || request.auth.uid == memberUid;
+        // The owner removes other members, a member leaves on their own. The owner can only remove
+        // themselves while deleting the whole group in the same batch, so no group is left without
+        // an owner.
+        allow delete: if isSignedIn()
+          && ((isGroupOwner(groupId) && request.auth.uid != memberUid)
+            || (request.auth.uid == memberUid && resource.data.role == 'MEMBER')
+            || (request.auth.uid == memberUid && isGroupOwner(groupId) && !existsAfter(groupPath())));
+      }
+
+      // groups/{groupId}/rounds/{roundId}: one round of group mode, created by the startRound Cloud
+      // Function (picks questions from groupQuestions, writes questions and solution separately).
+      // Everyone plays at their own pace until endsAt; each question has its own timer.
+      match /rounds/{roundId} {
+        function round() {
+          return get(/databases/$(database)/documents/groups/$(groupId)/rounds/$(roundId)).data;
+        }
+
+        function participantPath(uid) {
+          return /databases/$(database)/documents/groups/$(groupId)/rounds/$(roundId)/participants/$(uid);
+        }
+
+        function hasStarted() {
+          return exists(participantPath(request.auth.uid));
+        }
+
+        function hasFinished() {
+          return hasStarted()
+            && get(participantPath(request.auth.uid)).data.answers.size() == round().questionCount;
+        }
+
+        // Answers and solution are visible to whoever has finished the round, and to every member
+        // once the round is over, so nobody can look up the answers before playing.
+        function canSeeResults() {
+          return request.time > round().endsAt || hasFinished();
+        }
+
+        allow read: if isGroupMember(groupId);
+        allow write: if false;
+
+        // content/questions: texts and answer options, without the correct index. Readable only
+        // after starting, which starts the timer for the first question.
+        match /content/questions {
+          allow read: if isGroupMember(groupId) && hasStarted();
+          allow write: if false;
+        }
+
+        // content/solution: correct indices and explanations.
+        match /content/solution {
+          allow read: if isGroupMember(groupId) && canSeeResults();
+          allow write: if false;
+        }
+
+        // participants/{uid}: one document per player. answers is a map "0", "1", ... -> {choice, at}
+        // (a map rather than a list, because serverTimestamp() is not allowed inside arrays).
+        // choice -1 means the timer ran out. Answers are append-only, strictly in order, and a real
+        // answer must arrive within secondsPerQuestion (plus a little network grace) after the
+        // previous answer, or after startedAt for the first question.
+        match /participants/{uid} {
+          function isValidAnswerAppend() {
+            let r = round();
+            let before = resource.data.answers;
+            let after = request.resource.data.answers;
+            let n = before.size();
+            let key = string(n);
+            let previousAt = n == 0 ? resource.data.startedAt : before[string(n - 1)].at;
+            let answer = after[key];
+            return request.resource.data.diff(resource.data).affectedKeys().hasOnly(['answers'])
+              && after is map
+              && n < r.questionCount
+              && after.diff(before).addedKeys() == [key].toSet()
+              && after.diff(before).affectedKeys() == [key].toSet()
+              && answer.keys().hasOnly(['choice', 'at'])
+              && answer.at == request.time
+              && answer.choice is int
+              && (answer.choice == -1
+                || (answer.choice >= 0
+                  && answer.choice < r.answerCounts[n]
+                  && request.time <= previousAt + duration.value(r.secondsPerQuestion + 3, 's')));
+          }
+
+          allow read: if isGroupMember(groupId) && (request.auth.uid == uid || canSeeResults());
+
+          allow create: if isGroupMember(groupId)
+            && request.auth.uid == uid
+            && request.time < round().endsAt
+            && request.resource.data.keys().hasOnly(['displayName', 'startedAt', 'answers'])
+            && isValidDisplayName(request.resource.data.displayName)
+            && request.resource.data.startedAt == request.time
+            && request.resource.data.answers == {};
+
+          allow update: if isGroupMember(groupId)
+            && request.auth.uid == uid
+            && isValidAnswerAppend();
+
+          allow delete: if false;
+        }
       }
     }
 
-    // questions/{questionId}, categories/{categoryId}: global, gruppenunabhängig. Öffentlich
-    // lesbar nur wenn published; Schreiben vorerst komplett gesperrt (siehe Admin-Hinweis oben).
+    // groupQuestions/{questionId}: the separate group-mode pool, including correct answers. Only
+    // Cloud Functions read it; it never reaches the app bundle or a client.
+    match /groupQuestions/{questionId} {
+      allow read, write: if false;
+    }
+
+    // questions/{questionId}, categories/{categoryId}: global solo content for a future admin web
+    // app (the app itself plays from the bundled package). Publicly readable only when published;
+    // client writes are blocked until admin rights are modelled.
     match /questions/{questionId} {
       allow read: if resource.data.published == true;
       allow write: if false;
@@ -141,30 +305,13 @@ service cloud.firestore {
       allow write: if false;
     }
 
-    // challenges/{challengeId}: verbindet zwei Mitglieder derselben Gruppe (createdBy/assignedTo
-    // beliebige Mitglieder, keine Parent/Child-Einschränkung mehr). Lesen/Schreiben nur innerhalb
-    // der eigenen Gruppenmitgliedschaft.
-    match /challenges/{challengeId} {
-      allow read: if isGroupMember(resource.data.groupId);
-
-      allow create: if isGroupMember(request.resource.data.groupId)
-        && request.resource.data.createdBy == request.auth.uid
-        && exists(/databases/$(database)/documents/groups/$(request.resource.data.groupId)/members/$(request.resource.data.assignedTo));
-
-      allow update: if isGroupMember(resource.data.groupId)
-        && (request.auth.uid == resource.data.assignedTo || request.auth.uid == resource.data.createdBy);
-
-      allow delete: if isGroupMember(resource.data.groupId) && request.auth.uid == resource.data.createdBy;
-    }
-
-    // favorites/{favoriteId}: gehört ausschließlich der/dem besitzenden Nutzer:in, verändert nie
-    // die referenzierte Question (siehe CLAUDE.md "Domain-Modelle").
+    // favorites/{favoriteId}: owned by one user, never changes the referenced question.
     match /favorites/{favoriteId} {
       allow read, delete: if isSignedIn() && resource.data.userId == request.auth.uid;
       allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
       allow update: if false;
     }
 
-    // Alles außerhalb der obigen Collections ist implizit gesperrt (kein catch-all match).
+    // Everything else (including challenges from the old 1:1 concept) is denied implicitly.
   }
 }
