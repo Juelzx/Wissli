@@ -32,9 +32,9 @@ folgenden Features: `WissliNavHost` → `AuthGateViewModel` (liegt bewusst in `c
 oder `Route.Home` — statt beim App-Start immer hart bei Login zu starten; nur der *erste*
 Status zählt, spätere Login-/Logout-Wechsel navigiert der Graph explizit) → `LoginScreen` →
 `LoginViewModel` → `AuthRepository`/`GoogleAuthDataSource`. `Route.Home` zeigt das Dashboard
-(`features/dashboard/`, Design-Stand): Header mit Gruppenwahl + Begrüßung (Abmelden vorerst im
-Avatar-Menü, bis es einen Profil-Screen gibt), "Weiter lernen"-Karte, "Frage des Tages",
-Mitspieler-Karten und `WissliBottomBar` (`core/navigation/`, Tabs Start/Lernen/Gruppen; Gruppen
+(`features/dashboard/`, Design-Stand): Header mit Gruppenwahl + Begrüßung (Tipp auf den Avatar öffnet
+`Route.Profile`), "Weiter lernen"-Karte, "Frage des Tages" (direkt in der Karte beantwortbar),
+"Deine Lern-Übersicht" (`LearningStatsCard`) und `WissliBottomBar` (`core/navigation/`, Tabs Start/Lernen/Gruppen; Gruppen
 noch ohne Ziel). Der Solo-Fortschritt besteht aus `features/learn/` (Tab "Lernen": Themen mit
 Rang + Weiter-Karte), `features/category/` (Rang-Leiter + Level-Pfad eines Themas) und
 `features/level/` (Level spielen; falsch beantwortete Fragen kommen ans Ende, Level endet erst,
@@ -59,8 +59,25 @@ die E-Mail landet bewusst nie in Firestore.
 Manager API und ist bewusst von `AuthRepository` getrennt (reine Plattform-API, kein
 Firebase-Zugriff). Koin ist initialisiert (`WissliApplication` startet `startKoin { ... }`) mit
 `di/AppModule.kt` (`appModule`), das Bereichs-Module per `includes()` einhängt (`authModule`,
-`databaseModule`, `groupModule`, `questionModule`, `progressModule`, `dashboardModule`, `learnModule`).
-Noch **nicht implementiert**: Favorites, Groups (inkl. Gruppenmodus), Profile, Frage des Tages,
+`databaseModule`, `settingsModule`, `groupModule`, `questionModule`, `progressModule`, `statsModule`, `dashboardModule`,
+`learnModule`, `profileModule`).
+**Frage des Tages**: `DailyQuestionRepository` (`data/daily/`, gebunden an `LocalDailyQuestionRepository`)
+wählt pro Kalendertag (lokale Zeit) zufällig eine Frage aus allen Themen, nie dieselbe wie am Vortag,
+und merkt sich Tag, Frage und gegebene Antwort per `DailyQuestionStore` (SharedPreferences, pro
+Gerät, nicht pro User). Zählt nicht für den Solo-Fortschritt; um Mitternacht kommt die nächste Frage.
+**Lern-Übersicht**: `StatsRepository` (`data/stats/`, gebunden an `LocalStatsRepository`) schreibt jede
+Level-Antwort (richtig oder falsch, auch beim Üben) in die Room-Tabelle `answers` (pro `userId`, mit lokalem
+`epochDay`) und berechnet daraus per `learningStats()` (`core/model/LearningStats.kt`) Trefferquote gesamt
+und pro Thema, Tages-Serie und die letzten 7 Tage; "gelöste Fragen" kommt aus dem Fortschritt. Nur auf dem
+Gerät, noch ohne Firestore-Sync; die Frage des Tages zählt nicht mit. `MemberCard` ist aus dem Dashboard
+raus und wartet auf den Gruppen-Tab.
+**Profil** (`features/profile/`): App-Sprache DE/EN, Benachrichtigungen an/aus (nur gespeichert, noch
+ohne Funktion, kommt mit Gruppen in Firestore) und Abmelden. Einstellungen über `SettingsRepository`
+(`data/settings/`): die Sprache ist die Per-App-Language von AppCompat
+(`AppCompatDelegate.setApplicationLocales`, `MainActivity` ist deshalb eine `AppCompatActivity` mit
+AppCompat-Theme, `generateLocaleConfig` + `res/resources.properties`); `RoomQuestionRepository` liest
+Fragen- und Themen-Texte in der aktuellen Sprache.
+Noch **nicht implementiert**: Favorites, Groups (inkl. Gruppenmodus), Push-Benachrichtigungen,
 echte Firestore-Repositories außer Auth und Fortschritt, Remote-Updates des Fragen-Pakets.
 Beim Lesen des Codes den tatsächlichen Stand prüfen statt dies als vollständig anzunehmen.
 
@@ -107,7 +124,9 @@ konkreter, im PR/Commit begründeter Grund vorliegt.
 **Room 3.0** (`androidx.room3`, seit 07/2026 stabil; Room 2.x nur noch Maintenance-Modus) statt
 Room 2.x — bewusst früh gewechselt, um eine spätere Migration zu vermeiden. Bisher einzige
 Datenbank: `data/local/WissliDatabase` (Fragen-Content und Solo-Fortschritt, siehe unten); Schema-
-Änderungen über `autoMigrations` im `@Database` (Version 1 → 2 hat die Tabelle `progress` ergänzt),
+Änderungen über `autoMigrations` im `@Database` (Version 1 → 2 hat die Tabelle `progress` ergänzt,
+2 → 3 die Texte in die Tabellen `category_names`/`question_texts` pro Sprache verschoben, mit
+`LocalizedContentMigration` als `AutoMigrationSpec`, 3 → 4 die Tabelle `answers`),
 nie destruktiv, weil dort Fortschritt liegt. Wichtige Breaking Changes
 ggü. Room 2.x, die bei neuen Entities/DAOs zu beachten sind:
 - Nur noch KSP, kein KAPT/Java-Codegen (KSP ist bereits eingerichtet).
@@ -160,10 +179,12 @@ UI (Compose) → ViewModel → Repository → Data Sources (Firebase remote / Ro
 - **Group**: `id, name, createdBy, createdAt`. Ersetzt das frühere starre Family-Konzept
   (Parent → Child) — eine Gruppe hat keinen festen Typ, kann eine Familie, ein Freundeskreis
   oder jede andere Konstellation sein. Jede:r User kann beliebig viele Gruppen erstellen.
-- **GroupMember**: Mitgliedschaft + Rolle einer Person in einer Gruppe — `userId, groupId,
-  role, joinedAt`; `GroupRole = OWNER | MEMBER`. `OWNER` ist automatisch, wer die Gruppe
-  erstellt hat, und einzige Rolle, die Mitglieder einladen/entfernen oder die Gruppe
-  verwalten/löschen darf.
+- **GroupMember**: Mitgliedschaft + Rolle einer Person in einer Gruppe — `userId, role,
+  displayName, joinedAt` (+ `inviteCode` beim Beitritt); `GroupRole = OWNER | MEMBER`. `OWNER` ist
+  automatisch, wer die Gruppe erstellt hat, und einzige Rolle, die Einladungscodes erzeugen,
+  Mitglieder entfernen oder die Gruppe umbenennen/löschen darf. `displayName` ist eine Kopie aus dem
+  Profil, weil `users/{uid}` privat ist.
+- **InviteCode**, **Round**, **RoundParticipant**: Gruppenmodus, siehe "Gruppen & Gruppenmodus".
 - **Question**: globaler, gruppenunabhängiger Content — `id, title, explanation,
   categoryId, level, order, answers, correctAnswerIndex, ageFrom, ageTo, difficulty, answerType,
   imageUrl?, published, premium, createdAt, updatedAt`. `level` + `order` legen die Position im
@@ -182,9 +203,8 @@ UI (Compose) → ViewModel → Repository → Data Sources (Firebase remote / Ro
   Anteil am Thema, damit neue Level niemandem den Rang wieder wegnehmen.
 - **Favorite**: gehört einem User, referenziert eine Question per ID — verändert nie die
   Question selbst.
-- **Challenge** (veraltet): 1:1-Challenges werden durch den Gruppenmodus ersetzt und nicht
-  weitergebaut. `ChallengeRepository`/`ChallengeModule`/`OpenChallengeCard` hängen nicht mehr
-  im Code und können gelöscht werden; das Datenmodell des Gruppenmodus folgt, wenn er ansteht.
+- **Challenge** (entfallen): 1:1-Challenges sind durch den Gruppenmodus ersetzt; es gibt dafür
+  weder Code noch Firestore-Regeln mehr.
 
 Admin-Rechte für Content-Pflege (Questions/Categories, über die künftige Admin-Web-App) sind
 noch nicht modelliert — kein globales Rollenkonzept mehr auf User. Lösung (z. B. feste Liste von
@@ -194,16 +214,20 @@ Firebase-Konsole/Admin-SDK.
 ## Fragen-Content
 
 Die Solo-Fragen werden als JSON-Paket mit der App ausgeliefert: `app/src/main/assets/content/manifest.json`
-(`contentVersion` + Themen mit `id, name, order`) und pro Thema eine Datei
+(`contentVersion`, `languages` und Themen mit `id, name: {de, en}, order`) und pro Thema eine Datei
 `content/categories/<categoryId>.json` (Format siehe `QuestionContentParser`). Beim ersten Zugriff
 übernimmt `RoomQuestionRepository` das Paket in Room, wenn seine `contentVersion` höher ist als die
 gespeicherte. Spielen kostet so keine Firestore-Reads und geht offline. Ein Paket wird immer
 komplett in einer Transaktion ersetzt; ein kaputtes Paket lässt den gespeicherten Stand stehen.
 Bei jeder inhaltlichen Änderung `contentVersion` erhöhen; ein Unit-Test prüft, dass das gebündelte
-Paket gültig ist und jedes Level genau 20 Fragen hat.
+Paket gültig ist und jedes Level genau 20 Fragen hat. Jede Frage hat ihre Texte (`title, answers,
+explanation`) unter `texts` pro Sprache; `correctAnswerIndex` gilt für alle Sprachen, die Antworten
+stehen also überall in derselben Reihenfolge. Jede Sprache aus `languages` ist Pflicht.
 
-Aktuell 10 Themen (`nature, animals, space, body, tech, history, world, kitchen, arts, sports`)
-mit je einem Level. Einstufung nach dem Konzept "Themen & Fragenkatalog": `difficultyScore` 0–8
+Aktuell 12 Themen: `nature, animals, space, body, tech, history, world, kitchen, arts, sports` mit je
+drei Levels, dazu `math` (ab Niveau 1. Klasse) und `english` mit je zwei Levels. Im Thema Englisch
+fragt die deutsche Fassung nach englischen Vokabeln, die englische nach entsprechendem Grundwissen
+(andere Fragen, gleiche Position der richtigen Antwort). Einstufung nach dem Konzept "Themen & Fragenkatalog": `difficultyScore` 0–8
 aus vier Kriterien (Vorwissen, Bekanntheit, Denkschritte, Falschantworten), daraus `difficulty`
 (0–2 EASY, 3–5 MEDIUM, 6–8 HARD); Level 1 = 14 leicht + 6 mittel, Level-Reihenfolge (`order`)
 grob nach Punkten, Frage 1 und jede fünfte leicht, höchstens 5 Fragen pro `subtopic` und Level.
@@ -228,37 +252,77 @@ Schritten hoch, weil die Regeln nur ein Level pro Schreibvorgang erlauben.
 
 ## Firebase & Firestore
 
-Collections: `users, groups, questions, categories, challenges, favorites`; Mitgliedschaft als
+Collections: `users, groups, inviteCodes, groupQuestions, questions, categories, favorites`; Mitgliedschaft als
 Subcollection `groups/{groupId}/members/{uid}` (Query "alle Gruppen eines Users" über eine
 Collection-Group-Query auf `members`, gefiltert nach `userId`); Solo-Fortschritt als
-`users/{uid}/progress/{categoryId}`. Solo-Fragen kommen nicht aus Firestore, sondern
+`users/{uid}/progress/{categoryId}`; Runden des Gruppenmodus als `groups/{groupId}/rounds/...`
+(siehe "Gruppen & Gruppenmodus"). Solo-Fragen kommen nicht aus Firestore, sondern
 aus dem gebündelten Paket (siehe "Fragen-Content"). Repository-Abstraktionen
 pro fachlichem Bereich, z. B.
 `QuestionRepository.observeCategories()/getLevelQuestions()/observeFavorites()/addFavorite()`,
 `ProgressRepository.observeProgress()/markSolved()`,
-`GroupRepository.observeGroups()/createGroup()/inviteMember()/removeMember()/observeMembers()`,
+`GroupRepository.observeGroups()/createGroup()/createInviteCode()/joinGroup(code)/removeMember()/observeMembers()`,
 `AuthRepository.observeCurrentUser()/signIn()/signOut()`.
 
 Security-Regeln sind Pflicht, nicht optional — Sicherheitslogik nie ausschließlich im Client:
 
 - User lesen nur eigene private Daten; den eigenen Fortschritt nur um höchstens ein Level pro
-  Schreibvorgang erhöhen (noch nicht fälschungssicher — sobald Ränge im Gruppenmodus verglichen
-  werden, schreibt eine Cloud Function).
-- Gruppen lesbar für Mitglieder; erstellen kann jede:r (wird automatisch Owner); verwalten
-  (Mitglieder einladen/entfernen) und löschen nur der Owner.
-- Challenges nur zwischen Mitgliedern derselben Gruppe; lesen/bearbeiten nur wer selbst
-  Mitglied dieser Gruppe ist.
+  Schreibvorgang erhöhen (nicht fälschungssicher, deshalb vergleicht der Gruppenmodus nie den
+  Solo-Fortschritt).
+- Gruppen lesbar für Mitglieder; erstellen kann jede:r (wird automatisch Owner); Codes erzeugen,
+  Mitglieder entfernen, umbenennen und löschen nur der Owner. Beitritt nur per Einladungscode.
+- Gruppenmodus: richtige Antworten erst lesbar, wenn man die Runde fertig gespielt hat oder sie
+  vorbei ist; Timer pro Frage wird in den Regeln geprüft.
 - Questions öffentlich lesbar nur wenn `published == true`; Schreiben vorerst komplett
   gesperrt (siehe Admin-Hinweis oben).
 
 Umgesetzt in `firestore.rules` (Repo-Root), referenziert über `firebase.json`. Das Firebase-Projekt
 (`wii-21c9b`) existiert, ist lokal aber noch nicht mit der Firebase CLI verknüpft (keine
 `.firebaserc`) — vor dem ersten Deploy einmalig `firebase use --add wii-21c9b`, dann:
-`firebase deploy --only firestore:rules`. Die
-Regeln für `groups/members/questions/categories/challenges/favorites` sind vorbereitet, aber
-noch nicht gegen echten Schreibcode geprüft (diese Repositories existieren noch nicht) — bei
-der jeweiligen Erstimplementierung die Feldnamen in den Rules gegen den tatsächlichen Code
-abgleichen.
+`firebase deploy --only firestore` (Regeln + `firestore.indexes.json`). Die Regeln für
+Gruppen, Codes und Runden sind gegen den Emulator getestet, aber noch nicht gegen echten
+Schreibcode (das Group-Repository existiert noch nicht) — bei der Implementierung die Feldnamen
+gegen die Rules abgleichen. Für `questions/categories/favorites` gilt dasselbe.
+
+## Gruppen & Gruppenmodus
+
+Datenmodell (Stand: entworfen, Rules + Emulator-Tests fertig, Kotlin-Code und Cloud Functions noch
+nicht). Alle Zeitfelder hier sind Firestore-Timestamps, geschrieben als `serverTimestamp()`, damit
+die Regeln sie gegen `request.time` prüfen können (`users`/`progress` bleiben bei Epoch-Millis).
+
+```
+groups/{groupId}                      name, createdBy, createdAt
+  members/{uid}                       userId, role, displayName, joinedAt, inviteCode?
+  rounds/{roundId}                    createdBy, createdAt, difficulty, questionCount,
+                                      answerCounts[], secondsPerQuestion, endsAt     (nur Function)
+    content/questions                 Texte + Antwortoptionen pro Sprache, ohne Lösung (nur Function)
+    content/solution                  richtige Indizes + Erklärungen                 (nur Function)
+    participants/{uid}                displayName, startedAt, answers: {"0": {choice, at}, ...}
+inviteCodes/{code}                    groupId, groupName, createdBy, createdAt, expiresAt
+groupQuestions/{questionId}           eigener Fragenpool mit Lösung, für Clients gesperrt
+```
+
+- **Gruppe anlegen**: ein Batch aus `groups/{id}` und der eigenen OWNER-Mitgliedschaft.
+  **Löschen**: ein Batch, der alle `members` und die Gruppe löscht (der Owner darf seine eigene
+  Mitgliedschaft nur so entfernen; austreten kann der Owner nicht, Übergabe der Ownership gibt es
+  noch nicht). Runden bleiben dabei verwaist liegen, sind aber für niemanden mehr lesbar.
+- **Einladen nur per Code**: der Owner legt `inviteCodes/{code}` an (8 Zeichen aus
+  `A-HJ-NP-Z2-9`, höchstens 7 Tage gültig, nicht änderbar, nur löschbar). Wer den Code kennt, darf
+  ihn lesen (Vorschau mit `groupName`) und trägt sich selbst mit `inviteCode` als MEMBER ein; die
+  Regeln prüfen Gruppe und Ablauf. Kein Cloud-Function-Zwang, solange es kein Mitgliederlimit gibt.
+- **Alle Gruppen eines Users**: Collection-Group-Query `members where userId == uid` (Index-Ausnahme
+  in `firestore.indexes.json`).
+- **Runde**: eine Callable Cloud Function `startRound` (Mitglied prüfen, Fragen nach Schwierigkeit
+  `EASY|MEDIUM|HARD|MIXED` aus `groupQuestions` ziehen, Round + `content/*` schreiben) ist nötig, weil
+  der Pool mit Lösungen nie zum Client darf. Jede:r spielt bis `endsAt` im eigenen Tempo:
+  `participants/{uid}` anlegen startet den Timer und gibt `content/questions` frei. Antworten werden
+  der Reihe nach angehängt (`answers.<n>`), eine echte Antwort muss innerhalb von
+  `secondsPerQuestion` (+3 s Netz-Puffer) nach der vorigen kommen, `choice = -1` markiert Zeit
+  abgelaufen. Wer fertig ist oder nach `endsAt` sieht `content/solution` und alle Teilnehmenden,
+  das Ergebnis "wer lag richtig" rechnet der Client daraus aus. Für die Auswertung braucht es also
+  keine Function. Grenze: Weil `content/questions` beim Start komplett lesbar ist, kann man spätere
+  Fragen schon während früherer Timer lesen; strenger ginge es nur mit einer Function pro Frage.
+- Cloud Functions brauchen den Blaze-Tarif von Firebase.
 
 ## Navigation
 
@@ -266,8 +330,7 @@ Navigation Compose mit typsicheren Routen: alle Ziele als `@Serializable`-Typen 
 `core/navigation/Route.kt` (`sealed interface Route`), Argumente als typisierte Felder
 (`Route.Level(categoryId, level)`, gelesen per `entry.toRoute<…>()`) — keine Route-Strings.
 Braucht das Kotlin-Serialization-Plugin plus `kotlinx-serialization-core` (Navigation bringt die
-Library nur intern mit). Flows: Auth (Login) → Main (Home, Lernen, Groups, später Favorites
-und Profile) plus Detail-Routen (Thema `Route.Category`, Level `Route.Level`). Tabs wechseln über `navigateToTab()` mit Home als Wurzel.
+Library nur intern mit). Flows: Auth (Login) → Main (Home, Lernen, Groups, später Favorites) plus Profil (`Route.Profile`) und Detail-Routen (Thema `Route.Category`, Level `Route.Level`). Tabs wechseln über `navigateToTab()` mit Home als Wurzel.
 
 ## UI & Theming
 
